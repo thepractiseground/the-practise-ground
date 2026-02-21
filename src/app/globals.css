@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-orange: #E86833;
+  --color-brand-navy: #263A70;
+  --color-brand-teal: #1A8A7D;
+  --color-brand-pink: #D64187;
+  --color-brand-yellow: #F5A623;
+}
+
+body {
+  color: #333;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', 'Open Sans', Arial, sans-serif;
+}
