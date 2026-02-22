@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { GRADES, getGradeWeeks } from "@/lib/quiz-data";
+import { getAllPosts } from "@/data/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.thepractiseground.in";
@@ -10,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/colouring-books`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
 
   // Grade hub pages
@@ -31,6 +33,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
     }
+  }
+
+  // Blog posts
+  const posts = getAllPosts();
+  for (const post of posts) {
+    routes.push({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.publishDate),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    });
   }
 
   return routes;
