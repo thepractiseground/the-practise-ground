@@ -7,9 +7,11 @@ interface Props {
   grade: number;
   week: number;
   topic: string;
+  subject?: string;
+  subjectPath?: string;
 }
 
-export default function QuizEngine({ questions, grade, week, topic }: Props) {
+export default function QuizEngine({ questions, grade, week, topic, subject = "English", subjectPath = "" }: Props) {
   const [currentQ, setCurrentQ] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
@@ -96,8 +98,9 @@ export default function QuizEngine({ questions, grade, week, topic }: Props) {
             </button>
             <button
               onClick={() => {
-                const text = `I scored ${score}/${questions.length} (${percentage}%) on Grade ${grade} Week ${week} English Quiz at The Practise Ground! 📚`;
-                const url = `https://wa.me/?text=${encodeURIComponent(text + "\nhttps://www.thepractiseground.in/quiz/" + grade + "/" + week)}`;
+                const text = `I scored ${score}/${questions.length} (${percentage}%) on Grade ${grade} Week ${week} ${subject} Quiz at The Practise Ground! 📚`;
+                const quizPath = subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`;
+                const url = `https://wa.me/?text=${encodeURIComponent(text + "\nhttps://www.thepractiseground.in" + quizPath)}`;
                 window.open(url, "_blank");
               }}
               className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-600 transition-colors"

@@ -12,17 +12,32 @@ export default function Footer() {
               <span className="text-sm font-bold text-brand-orange leading-tight">PRACTISE</span>
               <span className="text-[10px] text-gray-300 block leading-tight tracking-[0.25em]">GROUND</span>
             </div>
-            <p className="text-sm text-gray-400">Free English practice quizzes for students in Grades 5-10. 25 questions every week!</p>
+            <p className="text-sm text-gray-400">Free English &amp; Maths practice quizzes for students in Grades 5-10. 25 questions every week!</p>
           </div>
 
           {/* Quizzes */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Quizzes</h3>
+            <h3 className="text-white font-semibold mb-4">English Quizzes</h3>
             <ul className="space-y-2 text-sm">
               {[5, 6, 7, 8, 9, 10].map((g) => (
                 <li key={g}>
                   <Link href={`/quiz/${g}`} className="hover:text-brand-orange transition-colors">
-                    Grade {g} English Quiz
+                    Grade {g}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <h3 className="text-white font-semibold mb-3 mt-6">Maths Quizzes</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/quiz/maths" className="hover:text-emerald-400 transition-colors">
+                  All Maths Grades
+                </Link>
+              </li>
+              {[5, 6, 7, 8, 9, 10].map((g) => (
+                <li key={g}>
+                  <Link href={`/quiz/maths/${g}`} className="hover:text-emerald-400 transition-colors">
+                    Grade {g}
                   </Link>
                 </li>
               ))}

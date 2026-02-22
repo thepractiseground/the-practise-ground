@@ -1,0 +1,135 @@
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks, getMathsWeek, getAllMathsGradeWeekPairs } from "@/lib/maths-quiz-data";
+import QuizEngine from "@/components/QuizEngine";
+import type { Metadata } from "next";
+
+interface Props {
+  params: Promise<{ grade: string; week: string }>;
+}
+
+export async function generateStaticParams() {
+  return getAllMathsGradeWeekPairs().map((p) => ({
+    grade: String(p.grade),
+    week: String(p.week),
+  }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { grade: g, week: w } = await params;
+  const grade = parseInt(g);
+  const weekNum = parseInt(w);
+  const weekData = getMathsWeek(grade, weekNum);
+
+  if (!weekData) return { title: "Quiz Not Found" };
+
+  const topic = weekData.topic || "Maths Practice";
+  return {
+    title: `Grade ${grade} Week ${weekNum}: ${topic} - Maths Quiz`,
+    description: `Take this free Grade ${grade} Maths quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for students aged ${MATHS_GRADE_INFO[grade]?.ageRange}.`,
+    keywords: [
+      `grade ${grade} maths quiz week ${weekNum}`,
+      `${topic.toLowerCase()} quiz`,
+      `class ${grade} maths practice`,
+      `maths ${topic.toLowerCase()} questions`,
+    ],
+    alternates: { canonical: `https://www.thepractiseground.in/quiz/maths/${grade}/${weekNum}` },
+  };
+}
+
+export default async function MathsQuizPage({ params }: Props) {
+  const { grade: g, week: w } = await params;
+  const grade = parseInt(g);
+  const weekNum = parseInt(w);
+
+  if (!MATHS_GRADES.includes(grade as typeof MATHS_GRADES[number])) notFound();
+
+  const weekData = getMathsWeek(grade, weekNum);
+  if (!weekData || weekData.questions.length === 0) notFound();
+
+  const info = MATHS_GRADE_INFO[grade];
+  const allWeeks = getMathsGradeWeeks(grade);
+  const currentIdx = allWeeks.findIndex((wk) => wk.week === weekNum);
+  const prevWeek = currentIdx > 0 ? allWeeks[currentIdx - 1] : null;
+  const nextWeek = currentIdx < allWeeks.length - 1 ? allWeeks[currentIdx + 1] : null;
+
+  const topic = weekData.topic || "Maths Practice";
+
+  return (
+    <div className="bg-gradient-to-br from-emerald-50 via-cyan-50 to-blue-50 min-h-screen pb-16">
+      {/* Breadcrumb & Header */}
+      <section className={`bg-gradient-to-r ${info.color} py-8`}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <nav className="text-white/70 text-sm mb-3">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/quiz/maths" className="hover:text-white">Maths</Link>
+            <span className="mx-2">/</span>
+            <Link href={`/quiz/maths/${grade}`} className="hover:text-white">Grade {grade}</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Week {weekNum}</span>
+          </nav>
+          <h1 className="text-2xl sm:text-3xl font-bold text-white mb-1">{topic}</h1>
+          <p className="text-white/80">
+            Maths &middot; Grade {grade} &middot; Week {weekNum} &middot; {weekData.questions.length} questions
+          </p>
+        </div>
+      </section>
+
+      {/* Quiz Engine */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+        <QuizEngine
+          questions={weekData.questions}
+          grade={grade}
+          week={weekNum}
+          topic={topic}
+          subject="Maths"
+          subjectPath="maths"
+        />
+
+        {/* Navigation */}
+        <div className="flex justify-between items-center mt-8 pt-6 border-t border-gray-200">
+          {prevWeek ? (
+            <Link href={`/quiz/maths/${grade}/${prevWeek.week}`} className="text-brand-navy hover:text-emerald-600 transition-colors flex items-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              Week {prevWeek.week}: {prevWeek.topic}
+            </Link>
+          ) : <div />}
+          {nextWeek ? (
+            <Link href={`/quiz/maths/${grade}/${nextWeek.week}`} className="text-brand-navy hover:text-emerald-600 transition-colors flex items-center gap-2">
+              Week {nextWeek.week}: {nextWeek.topic}
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          ) : <div />}
+        </div>
+      </div>
+
+      {/* Quiz Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Quiz",
+            name: `Grade ${grade} Maths Quiz - Week ${weekNum}: ${topic}`,
+            about: {
+              "@type": "Thing",
+              name: topic,
+            },
+            educationalLevel: `Grade ${grade}`,
+            numberOfQuestions: weekData.questions.length,
+            provider: {
+              "@type": "Organization",
+              name: "The Practise Ground",
+              url: "https://www.thepractiseground.in",
+            },
+          }),
+        }}
+      />
+    </div>
+  );
+}

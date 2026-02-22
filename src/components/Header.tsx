@@ -30,9 +30,17 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[160px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
-                  <Link key={g} href={`/quiz/${g}`} className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-brand-orange">
+                  <Link key={`eng-${g}`} href={`/quiz/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-orange-50 hover:text-brand-orange text-sm">
+                    Grade {g}
+                  </Link>
+                ))}
+                <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths</div>
+                {[5, 6, 7, 8, 9, 10].map((g) => (
+                  <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-emerald-50 hover:text-emerald-600 text-sm">
                     Grade {g}
                   </Link>
                 ))}
@@ -72,9 +80,16 @@ export default function Header() {
         {menuOpen && (
           <div className="md:hidden pb-4 border-t">
             <Link href="/" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Home</Link>
+            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={g} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-4 text-gray-600 hover:text-brand-orange">
-                Grade {g} Quiz
+              <Link key={`eng-${g}`} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-brand-orange text-sm">
+                Grade {g}
+              </Link>
+            ))}
+            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths Quizzes</div>
+            {[5, 6, 7, 8, 9, 10].map((g) => (
+              <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-emerald-600 text-sm">
+                Grade {g}
               </Link>
             ))}
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
