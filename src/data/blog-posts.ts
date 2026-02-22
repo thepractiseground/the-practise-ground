@@ -161,13 +161,13 @@ A: Different tenses help us express different meanings. English tenses let us be
 
 ## Practice These Tenses
 
-Master tenses by practicing with our free [English Grammar Quiz](/quiz/1) and [Interactive Tenses Exercises](/quiz/2). Regular practice is the secret to mastering tenses!
+Master tenses by practicing with our free [Grade 5 English Quiz](/quiz/5) and [Grade 7 English Quiz](/quiz/7). Regular practice is the secret to mastering tenses!
 
 ## Conclusion
 
 Tenses might seem complex at first, but they follow logical patterns. Practice using them in sentences, and soon they'll become second nature. Remember, most CBSE questions test your understanding of Simple, Continuous, and Perfect tenses. Focus on these three, and you'll ace your grammar sections!
 
-Ready to test your knowledge? Try our **[Complete Tenses Quiz](/quiz/3)** and track your progress. Happy learning!`,
+Ready to test your knowledge? Try our **[Grade 9 English Quiz](/quiz/9)** and track your progress. Happy learning!`,
   },
 
   {
@@ -319,13 +319,13 @@ Try converting these sentences from active to passive:
 
 ## Master Voice Change with Practice
 
-Understanding active and passive voice is crucial for CBSE success. Practice regularly with our [Grammar Fundamentals Quiz](/quiz/4) and [Voice Change Exercises](/quiz/5) to strengthen your skills.
+Understanding active and passive voice is crucial for CBSE success. Practice regularly with our [Grade 8 English Quiz](/quiz/8) and [Grade 9 English Quiz](/quiz/9) to strengthen your skills.
 
 ## Conclusion
 
 Active and passive voice are tools for expressing the same idea in different ways. Master the transformation rules, practice regularly, and voice change questions will become easy. Remember: the object becomes the subject, the subject becomes the agent (or is omitted), and the verb becomes a past participle with appropriate helping verbs.
 
-Start practicing today with our [Voice Transformation Quiz](/quiz/6) and watch your grammar confidence grow!`,
+Start practicing today with our [Grade 10 English Quiz](/quiz/10) and watch your grammar confidence grow!`,
   },
 
   {
@@ -549,13 +549,13 @@ Try converting these to indirect speech:
 
 ## Master Reported Speech with Practice
 
-Our [Indirect Speech Quiz](/quiz/7) and [Speech Transformation Exercises](/quiz/8) provide the practice you need to master this topic. Regular practice is the key!
+Our [Grade 8 English Quiz](/quiz/8) and [Grade 9 English Quiz](/quiz/9) provide the practice you need to master this topic. Regular practice is the key!
 
 ## Conclusion
 
 Direct and indirect speech follows logical rules once you understand the patterns. Focus on the tense changes, pronoun adjustments, and punctuation rules. These changes might seem complicated now, but they'll become automatic with practice. Remember: the meaning stays the same, but the presentation changes.
 
-Start mastering reported speech today with our [Complete Indirect Speech Quiz](/quiz/9) and track your improvement!`,
+Start mastering reported speech today with our [Grade 10 English Quiz](/quiz/10) and track your improvement!`,
   },
 
   {
@@ -766,13 +766,13 @@ A: Start with the most common: Noun, Verb, Adjective, Pronoun, Preposition. Mast
 
 ## Master Parts of Speech with Our Quiz
 
-Understanding parts of speech is the foundation for all grammar learning. Practice with our [Parts of Speech Quiz](/quiz/10) to build your confidence. Try our [Interactive Grammar Builder](/quiz/11) for more practice!
+Understanding parts of speech is the foundation for all grammar learning. Practice with our [Grade 5 English Quiz](/quiz/5) to build your confidence. Try our [Grade 6 English Quiz](/quiz/6) for more practice!
 
 ## Conclusion
 
 Parts of speech are simple once you learn what each word-type does. Remember: Nouns are things, verbs are actions, adjectives describe, and adverbs modify. With practice, identifying parts of speech becomes automatic. Start with the chart above, practice with simple sentences, and gradually move to more complex ones.
 
-Ready to test your knowledge? Take our [Complete Parts of Speech Quiz](/quiz/12) and see how well you've learned!`,
+Ready to test your knowledge? Take our [Grade 7 English Quiz](/quiz/7) and see how well you've learned!`,
   },
 
   {
@@ -971,13 +971,13 @@ Choose the correct verb:
 
 ## Master Subject-Verb Agreement
 
-Practice is essential for mastering concord rules. Try our [Subject-Verb Agreement Quiz](/quiz/13) and [Concord Rules Exercises](/quiz/14) to strengthen your skills!
+Practice is essential for mastering concord rules. Try our [Grade 8 English Quiz](/quiz/8) and [Grade 9 English Quiz](/quiz/9) to strengthen your skills!
 
 ## Conclusion
 
 Subject-verb agreement seems complicated, but it follows logical patterns. The key is identifying the real subject and remembering the tricky cases. With the rules and examples above, you can tackle any subject-verb agreement question in your CBSE exam. Practice regularly, and these rules will become second nature.
 
-Start practicing today with our [Complete Concord Rules Quiz](/quiz/15) and boost your grammar confidence!`,
+Start practicing today with our [Grade 10 English Quiz](/quiz/10) and boost your grammar confidence!`,
   },
 
   {
@@ -1168,13 +1168,13 @@ Fill in the blanks with a, an, or the:
 
 ## Master Articles with Practice
 
-Understanding articles well is important for writing and speaking correctly. Practice with our [Articles Quiz](/quiz/16) to master article usage!
+Understanding articles well is important for writing and speaking correctly. Practice with our [Grade 6 English Quiz](/quiz/6) to master article usage!
 
 ## Conclusion
 
 Articles are small words with big importance. Remember: "a/an" for general things, "the" for specific things. With practice and attention to these rules, you'll use articles correctly in all your writing and speaking. The key is understanding when something is specific or general, and the articles will fall into place naturally.
 
-Start practicing today with our [Complete Articles Quiz](/quiz/17) and become confident in using articles correctly!`,
+Start practicing today with our [Grade 8 English Quiz](/quiz/8) and become confident in using articles correctly!`,
   },
 
   {
@@ -1439,13 +1439,13 @@ Fill in the correct preposition:
 
 ## Master Prepositions with Practice
 
-Our [Prepositions Quiz](/quiz/18) and [Preposition Usage Exercises](/quiz/19) will help you practice and master these important words!
+Our [Grade 6 English Quiz](/quiz/6) and [Grade 7 English Quiz](/quiz/7) will help you practice and master these important words!
 
 ## Conclusion
 
 Prepositions are essential for expressing place, time, direction, and manner in English. While there's no single rule for all prepositions, learning common phrases and patterns helps. With the examples and explanations above, you can handle most preposition questions. Remember to practice regularly, and soon preposition usage will feel natural.
 
-Start practicing today with our [Complete Prepositions Quiz](/quiz/20) and build your confidence in using prepositions correctly!`,
+Start practicing today with our [Grade 9 English Quiz](/quiz/9) and build your confidence in using prepositions correctly!`,
   },
 
   {
@@ -1712,7 +1712,7 @@ Write an informal letter to your cousin congratulating them on their success in 
 
 ## Master Letter Writing with Our Quiz
 
-Letter writing is a guaranteed question in your exam. Practice with our [Letter Writing Format Quiz](/quiz/21) and [Sample Letter Exercises](/quiz/22) to perfect your skills!
+Letter writing is a guaranteed question in your exam. Practice with our [Grade 8 English Quiz](/quiz/8) and [Grade 9 English Quiz](/quiz/9) to perfect your skills!
 
 ## FAQ: Letter Writing Questions
 
@@ -1732,7 +1732,7 @@ A: Yes! Write a draft, check for mistakes, and then write the final version neat
 
 Mastering letter writing format ensures you don't lose easy marks in your CBSE exam. Remember the key difference: formal letters for official matters and informal letters for personal communication. Use the formats and examples above as your guide, and practice regularly. Soon, writing perfect letters will become automatic!
 
-Ready to practice? Take our [Complete Letter Writing Quiz](/quiz/23) and master this important skill!`,
+Ready to practice? Take our [Grade 10 English Quiz](/quiz/10) and master this important skill!`,
   },
 
   {
@@ -1974,7 +1974,7 @@ Try to find and correct the mistakes in these sentences:
 
 ## Quiz to Test Your Knowledge
 
-Test yourself with our [Common Mistakes Quiz](/quiz/24) and identify your weak areas. Then practice specifically on those topics!
+Test yourself with our [Grade 7 English Quiz](/quiz/7) and identify your weak areas. Then practice specifically on those topics!
 
 ## FAQ: Questions About These Mistakes
 
@@ -1991,7 +1991,7 @@ A: Indian English is recognized and valid, but in exams you need to follow stand
 
 Making mistakes is part of learning. The key is recognizing them and correcting them. Most Indian students make similar mistakes because of language interference, but with awareness and practice, you can overcome these habits. Start with the mistakes you make most often, correct them consciously, and gradually they'll disappear.
 
-Ready to practice avoiding these mistakes? Take our [Common Mistakes Correction Quiz](/quiz/25) and improve your English quickly!`,
+Ready to practice avoiding these mistakes? Take our [Grade 9 English Quiz](/quiz/9) and improve your English quickly!`,
   },
 
   {
@@ -2305,7 +2305,7 @@ Choose 7 new words (one per day) from a news article or book you're reading:
 
 ## Master Vocabulary with Our Quiz
 
-Build vocabulary faster with our targeted [Vocabulary Building Quiz](/quiz/26) and [Words in Context Quiz](/quiz/27). Practice daily and watch your vocabulary grow!
+Build vocabulary faster with our targeted [Grade 6 English Quiz](/quiz/6) and [Grade 8 English Quiz](/quiz/8). Practice daily and watch your vocabulary grow!
 
 ## Conclusion
 
@@ -2620,7 +2620,7 @@ Based on passages from the literature book.
 - **CBSE Sample Papers** - Official patterns
 - **Previous Years' Papers** - Understand difficulty level
 - **NCERT Textbook** - Core content
-- **Our Quizzes** - Targeted practice ([Practice Exam Papers Quiz](/quiz/28), [Literature Quiz](/quiz/29))
+- **Our Quizzes** - Targeted practice ([Grade 9 English Quiz](/quiz/9), [Grade 10 English Quiz](/quiz/10))
 
 ## Strategy 7: Exam Day Tips
 
@@ -2662,7 +2662,7 @@ A: 1-2 hours daily is sufficient if done consistently. Quality beats quantity.
 A: No! It's one of the easiest subjects to score 90+ in. Just follow the format and answer what's asked.
 
 **Q: How can I improve my vocabulary quickly?**
-A: Read daily (newspapers, stories) and use our [Vocabulary Quiz](/quiz/26). Context-based learning is fastest.
+A: Read daily (newspapers, stories) and use our [Grade 6 English Quiz](/quiz/6). Context-based learning is fastest.
 
 **Q: What if I don't know an answer?**
 A: Write whatever you can logically think of. Partial answers get partial marks. Blank questions get zero.
@@ -2675,7 +2675,7 @@ A: Absolutely! With excellent vocabulary, neat handwriting, good comprehension, 
 
 ## Your Success Story Starts Here
 
-Scoring high in CBSE English is about understanding what examiners want and delivering it perfectly. Follow this guide, practice regularly with our [Complete English Quiz](/quiz/30) and [Board Exam Preparation Quiz](/quiz/31), manage your time wisely, and you'll absolutely achieve your target score!
+Scoring high in CBSE English is about understanding what examiners want and delivering it perfectly. Follow this guide, practice regularly with our [Grade 9 English Quiz](/quiz/9) and [Grade 10 English Quiz](/quiz/10), manage your time wisely, and you'll absolutely achieve your target score!
 
 ## Conclusion
 
@@ -2985,7 +2985,7 @@ This progression ensures you're always challenged appropriately and learning eff
 
 The most successful English learners aren't those who study the hardest—they're those who study the smartest. **Regular quizzes are smart studying.**
 
-Begin with our [Foundational Grammar Quiz](/quiz/32) this week. Next week, take [Advanced Grammar Quiz](/quiz/33). Track your progress, review wrong answers thoroughly, and watch your English improve dramatically.
+Begin with our [Grade 5 Week 1 Quiz](/quiz/5/1) this week. Next week, take [Grade 8 Week 1 Quiz](/quiz/8/1). Track your progress, review wrong answers thoroughly, and watch your English improve dramatically.
 
 Your board exam success starts with consistent weekly practice!
 
@@ -3007,7 +3007,7 @@ A: No. Use quizzes to practice, but read textbooks to understand concepts first.
 
 Weekly grammar quizzes are backed by science and proven to work. They're not busywork—they're the most effective way to learn grammar. Start this week, commit to weekly practice, and witness the transformation in your English skills. Your 90+ in CBSE English starts with a single quiz. Take that first step today!
 
-**Your success story: Beginning now with [Our Complete Grammar Quiz Series](/quiz/34)**`,
+**Your success story: Beginning now with [Grade 10 English Quiz](/quiz/10)**`,
   },
 ];
 
