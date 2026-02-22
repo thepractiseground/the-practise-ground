@@ -172,7 +172,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </article>
 
         {/* WhatsApp Share Section */}
-        <WhatsAppShareBlog title={post.title} excerpt={post.excerpt} slug={post.slug} />
+        <WhatsAppShareBlog title={post.title} excerpt={post.excerpt} slug={post.slug} category={post.category} />
 
         {/* Related Posts */}
         {relatedPosts.length > 0 && (

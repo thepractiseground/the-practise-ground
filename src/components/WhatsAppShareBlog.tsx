@@ -4,12 +4,16 @@ interface WhatsAppShareBlogProps {
   title: string;
   excerpt: string;
   slug: string;
+  category?: string;
 }
 
-export default function WhatsAppShareBlog({ title, excerpt, slug }: WhatsAppShareBlogProps) {
+export default function WhatsAppShareBlog({ title, excerpt, slug, category }: WhatsAppShareBlogProps) {
+  const mathsCategories = ["Maths Concepts", "Maths Tips", "Problem Solving"];
+  const subject = category && mathsCategories.includes(category) ? "Maths" : "English";
+
   const handleShare = () => {
     const url = `https://www.thepractiseground.in/blog/${slug}`;
-    const text = `📖 ${title}\n\n${excerpt}\n\nRead more & practise free English quizzes:`;
+    const text = `📖 ${title}\n\n${excerpt}\n\nRead more & practise free ${subject} quizzes:`;
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text + "\n" + url)}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -39,7 +43,7 @@ export default function WhatsAppShareBlog({ title, excerpt, slug }: WhatsAppShar
             Found this helpful?
           </p>
           <p className="text-green-700 text-sm sm:text-base mb-4">
-            Share it with your classmates and friends on WhatsApp — help them ace their English too!
+            Share it with your classmates and friends on WhatsApp — help them ace their {subject} too!
           </p>
           <button
             onClick={handleShare}
