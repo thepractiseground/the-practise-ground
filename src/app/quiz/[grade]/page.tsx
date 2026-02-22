@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GRADES, GRADE_INFO, getGradeWeeks } from "@/lib/quiz-data";
+import { getPostsForGrade } from "@/data/blog-posts";
 import type { Metadata } from "next";
 
 interface Props {
@@ -94,6 +95,34 @@ export default async function GradePage({ params }: Props) {
           ))}
         </div>
       </section>
+
+      {/* Recommended Blog Posts */}
+      {(() => {
+        const blogPosts = getPostsForGrade(grade, "english");
+        if (blogPosts.length === 0) return null;
+        return (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+            <h2 className="text-2xl font-bold text-brand-navy mb-6">Recommended Reading</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {blogPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-5 border border-gray-100 group"
+                >
+                  <span className="inline-block bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded mb-2">
+                    {post.category}
+                  </span>
+                  <h3 className="text-sm font-bold text-brand-navy group-hover:text-brand-orange transition-colors mb-1">
+                    {post.title}
+                  </h3>
+                  <p className="text-xs text-gray-500 line-clamp-2">{post.excerpt}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* SEO Content */}
       <section className="bg-white py-12">

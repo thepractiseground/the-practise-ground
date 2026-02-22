@@ -210,24 +210,51 @@ export default async function BlogPostPage({ params }: PageProps) {
           </section>
         )}
 
+        {/* Related Quizzes */}
+        <section className="mb-12">
+          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-6">Practice What You&apos;ve Learned</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {(() => {
+              const isMaths = ["Maths Concepts", "Maths Tips", "Problem Solving"].includes(post.category);
+              const gradeMatch = post.grade.match(/\d+/g);
+              const grades = gradeMatch ? gradeMatch.map(Number) : [5, 6, 7, 8, 9, 10];
+              const displayGrades = grades.length >= 2
+                ? Array.from({ length: grades[grades.length - 1] - grades[0] + 1 }, (_, i) => grades[0] + i)
+                : grades;
+              return displayGrades.slice(0, 6).map((g) => (
+                <Link
+                  key={g}
+                  href={isMaths ? `/quiz/maths/${g}` : `/quiz/${g}`}
+                  className={`${isMaths ? "bg-emerald-50 hover:bg-emerald-100 border-emerald-200" : "bg-blue-50 hover:bg-blue-100 border-blue-200"} border rounded-xl p-4 transition-colors group`}
+                >
+                  <div className={`text-sm font-semibold ${isMaths ? "text-emerald-700" : "text-blue-700"} mb-1`}>
+                    Grade {g} {isMaths ? "Maths" : "English"}
+                  </div>
+                  <div className="text-xs text-gray-500">52 weeks of free quizzes →</div>
+                </Link>
+              ));
+            })()}
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="bg-gradient-to-r from-brand-navy to-brand-teal rounded-2xl p-8 sm:p-12 mb-12 text-white text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">Ready to Practice?</h2>
           <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-            Test your English skills with our interactive quizzes. Thousands of questions covering grammar, vocabulary, and reading comprehension.
+            Test your skills with our free interactive quizzes. Over 15,600 questions covering English grammar, vocabulary, maths, and more.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/quiz/5"
               className="bg-brand-orange text-brand-navy font-bold px-8 py-3 rounded-lg hover:bg-brand-yellow transition-colors inline-block"
             >
-              Grade 5 Quiz
+              English Quizzes
             </Link>
             <Link
-              href="/quiz/10"
-              className="bg-brand-pink text-white font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block"
+              href="/quiz/maths"
+              className="bg-emerald-500 text-white font-bold px-8 py-3 rounded-lg hover:bg-emerald-600 transition-colors inline-block"
             >
-              Grade 10 Quiz
+              Maths Quizzes
             </Link>
           </div>
         </section>
