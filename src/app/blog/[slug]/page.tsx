@@ -51,6 +51,9 @@ const categoryColors: Record<string, { bg: string; badge: string }> = {
   "Exam Prep": { bg: "bg-orange-100", badge: "bg-brand-orange" },
   "Study Tips": { bg: "bg-teal-100", badge: "bg-brand-teal" },
   Vocabulary: { bg: "bg-pink-100", badge: "bg-brand-pink" },
+  "Maths Concepts": { bg: "bg-emerald-100", badge: "bg-emerald-600" },
+  "Maths Tips": { bg: "bg-cyan-100", badge: "bg-cyan-600" },
+  "Problem Solving": { bg: "bg-violet-100", badge: "bg-violet-600" },
 };
 
 export default async function BlogPostPage({ params }: PageProps) {

@@ -3,21 +3,25 @@ import type { Metadata } from "next";
 import { getAllPosts, getAllCategories } from "@/data/blog-posts";
 
 export const metadata: Metadata = {
-  title: "English Learning Blog | The Practise Ground",
+  title: "Learning Blog: English & Maths Tips | The Practise Ground",
   description:
-    "Free English learning blog with grammar tips, study advice, and exam preparation guides. Perfect for CBSE students and English learners.",
+    "Free learning blog with English grammar tips, Maths strategies, study advice, and exam preparation guides. Perfect for CBSE, ICSE, Cambridge, and IB students in Grades 5-10.",
   keywords: [
     "english grammar tips",
-    "english learning blog",
+    "maths study tips",
+    "learning blog for students",
     "CBSE english help",
+    "maths exam preparation",
+    "Cambridge IGCSE tips",
+    "IB maths and english",
     "grammar lessons",
-    "English exam preparation",
-    "vocabulary tips",
+    "algebra tips",
+    "geometry guide",
   ],
   openGraph: {
-    title: "English Learning Blog | The Practise Ground",
+    title: "Learning Blog: English & Maths Tips | The Practise Ground",
     description:
-      "Free English learning blog with grammar tips, study advice, and exam preparation guides.",
+      "Free learning blog with English grammar, Maths strategies, and exam tips for students worldwide.",
     url: "https://www.thepractiseground.in/blog",
     siteName: "The Practise Ground",
     locale: "en_IN",
@@ -33,6 +37,9 @@ const categoryColors: Record<string, { bg: string; badge: string }> = {
   "Exam Prep": { bg: "bg-orange-100", badge: "bg-brand-orange" },
   "Study Tips": { bg: "bg-teal-100", badge: "bg-brand-teal" },
   Vocabulary: { bg: "bg-pink-100", badge: "bg-brand-pink" },
+  "Maths Concepts": { bg: "bg-emerald-100", badge: "bg-emerald-600" },
+  "Maths Tips": { bg: "bg-cyan-100", badge: "bg-cyan-600" },
+  "Problem Solving": { bg: "bg-violet-100", badge: "bg-violet-600" },
 };
 
 export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
@@ -50,9 +57,9 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-brand-navy to-blue-800 py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4">English Learning Blog</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4">Learning Blog</h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
-            Master grammar, improve vocabulary, and ace your exams with our free English learning guides
+            English grammar tips, Maths strategies, and study guides to help you succeed — from Grade 5 to 10 and beyond
           </p>
         </div>
       </section>
@@ -70,17 +77,17 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
           >
             All Posts
           </Link>
-          {allCategories.map((category) => (
+          {allCategories.map((cat) => (
             <Link
-              key={category}
-              href={`/blog?category=${category.toLowerCase()}`}
+              key={cat}
+              href={`/blog?category=${cat.toLowerCase()}`}
               className={`px-4 py-2 rounded-full font-semibold transition-all ${
-                selectedCategory === category.toLowerCase()
+                selectedCategory === cat.toLowerCase()
                   ? "bg-brand-navy text-white"
                   : "bg-white text-brand-navy border-2 border-brand-navy hover:bg-brand-navy hover:text-white"
               }`}
             >
-              {category}
+              {cat}
             </Link>
           ))}
         </div>
@@ -171,9 +178,9 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Blog",
-            name: "English Learning Blog - The Practise Ground",
+            name: "Learning Blog - The Practise Ground",
             description:
-              "Free English learning blog with grammar tips, study advice, and exam preparation guides.",
+              "Free learning blog with English grammar, Maths strategies, and exam preparation guides for students worldwide.",
             url: "https://www.thepractiseground.in/blog",
             creator: {
               "@type": "Organization",

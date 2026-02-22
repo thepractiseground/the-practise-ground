@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
       { source: '/Grade8', destination: '/quiz/8', permanent: true },
       { source: '/Grade9', destination: '/quiz/9', permanent: true },
       { source: '/Grade10', destination: '/quiz/10', permanent: true },
+      // Redirect renamed blog slugs (SEO: preserve old indexed URLs)
+      { source: '/blog/letter-writing-format-cbse', destination: '/blog/letter-writing-format-guide', permanent: true },
+      { source: '/blog/common-english-mistakes-indian-students', destination: '/blog/common-english-mistakes-students', permanent: true },
     ];
   },
 };
