@@ -85,14 +85,14 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
   // Ordered lists
   html = html.replace(/^\d+\. (.+)$/gm, "<li class='markdown-li'>$1</li>");
   html = html.replace(
-    /(<li class='markdown-li'>.*?<\/li>)(?:\n(?!<li)|\n$)/s,
+    /(<li class='markdown-li'>[\s\S]*?<\/li>)(?:\n(?!<li)|\n$)/,
     "<ol class='markdown-ol'>$1</ol>"
   );
 
   // Unordered lists
   html = html.replace(/^[\*\-] (.+)$/gm, "<li class='markdown-li'>$1</li>");
   html = html.replace(
-    /(<li class='markdown-li'>.*?<\/li>)(?:\n(?!<li)|\n$)/s,
+    /(<li class='markdown-li'>[\s\S]*?<\/li>)(?:\n(?!<li)|\n$)/,
     "<ul class='markdown-ul'>$1</ul>"
   );
 
