@@ -1484,11 +1484,9 @@ A formal letter has seven parts:
 #### 1. Sender's Address
 Write your address at the top-left corner:
 
-\`\`\`
-Flat No. 5, Mayur Apartment
-New Delhi - 110092
-18 February 2026
-\`\`\`
+    Flat No. 5, Mayur Apartment
+    New Delhi - 110092
+    18 February 2026
 
 #### 2. Date
 Write the date below your address (format: DD Month YYYY):
@@ -1498,11 +1496,9 @@ Write the date below your address (format: DD Month YYYY):
 #### 3. Recipient's Address
 Write the address of the person you're writing to:
 
-\`\`\`
-The Principal
-Delhi Public School
-New Delhi - 110089
-\`\`\`
+    The Principal
+    Delhi Public School
+    New Delhi - 110089
 
 #### 4. Subject
 Write a one-line subject line (underlined or bold):
@@ -1531,32 +1527,30 @@ Then add your name and signature.
 
 ### Complete Formal Letter Example
 
-\`\`\`
-Flat No. 8, Rose Garden Apartments
-Mumbai - 400080
-15 February 2026
+    Flat No. 8, Rose Garden Apartments
+    Mumbai - 400080
+    15 February 2026
 
-The Principal
-St. Xavier's High School
-Mumbai - 400081
+    The Principal
+    St. Xavier's High School
+    Mumbai - 400081
 
-Subject: Request for Leave of Absence
+    Subject: Request for Leave of Absence
 
-Dear Sir,
+    Dear Sir,
 
-I am Priya Sharma, a student of Class 10-A. I am writing to request leave for three days from 18 to 20 February 2026.
+    I am Priya Sharma, a student of Class 10-A. I am writing to request leave for three days from 18 to 20 February 2026.
 
-My grandfather is ill and my family needs to visit him in Pune. This is an urgent family matter, and my presence is required. I have completed all my assignments and will catch up with any work I miss during these days.
+    My grandfather is ill and my family needs to visit him in Pune. This is an urgent family matter, and my presence is required. I have completed all my assignments and will catch up with any work I miss during these days.
 
-I shall be grateful if you grant me permission for the above mentioned dates. Please let me know if you require any further information.
+    I shall be grateful if you grant me permission for the above mentioned dates. Please let me know if you require any further information.
 
-Thank you for your consideration.
+    Thank you for your consideration.
 
-Yours faithfully,
+    Yours faithfully,
 
-Priya Sharma
-Class 10-A
-\`\`\`
+    Priya Sharma
+    Class 10-A
 
 ## Informal Letter Format
 
@@ -1567,11 +1561,9 @@ An informal letter has a simpler structure:
 #### 1. Sender's Address (Optional)
 You can include or skip your address:
 
-\`\`\`
-5, Park Lane
-Bangalore - 560001
-20 February 2026
-\`\`\`
+    5, Park Lane
+    Bangalore - 560001
+    20 February 2026
 
 #### 2. Date
 Write the date:
@@ -1600,25 +1592,23 @@ Sign your name (first name is fine).
 
 ### Complete Informal Letter Example
 
-\`\`\`
-5, Rose Lane
-Delhi - 110023
-15 February 2026
+    5, Rose Lane
+    Delhi - 110023
+    15 February 2026
 
-Dear Anjali,
+    Dear Anjali,
 
-How are you? I hope you and your family are doing well. It has been so long since we last met!
+    How are you? I hope you and your family are doing well. It has been so long since we last met!
 
-I'm writing to invite you to my birthday party next month. It's going to be on Saturday, 1 March, at my house. We'll have games, music, and lots of food! My mother is making my favorite chocolate cake. Please do come and bring your family along if they want to.
+    I'm writing to invite you to my birthday party next month. It's going to be on Saturday, 1 March, at my house. We'll have games, music, and lots of food! My mother is making my favorite chocolate cake. Please do come and bring your family along if they want to.
 
-The party starts at 5 PM. I've already invited many of our classmates, so it will be a lot of fun. You know how much I miss talking to you every day now that you've moved to Bangalore.
+    The party starts at 5 PM. I've already invited many of our classmates, so it will be a lot of fun. You know how much I miss talking to you every day now that you've moved to Bangalore.
 
-Please let me know if you can come. I'm really looking forward to hearing from you!
+    Please let me know if you can come. I'm really looking forward to hearing from you!
 
-With lots of love,
+    With lots of love,
 
-Priya
-\`\`\`
+    Priya
 
 ## Key Differences Between Formal and Informal Letters
 
@@ -1637,46 +1627,38 @@ Priya
 ### 1. Complaint Letter
 **Purpose:** Lodge a complaint
 
-\`\`\`
-Subject: Complaint Regarding Poor Quality of Meals in Canteen
+    Subject: Complaint Regarding Poor Quality of Meals in Canteen
 
-Dear Sir,
+    Dear Sir,
 
-I am writing to lodge a formal complaint regarding the quality of food served in the school canteen...
-\`\`\`
+    I am writing to lodge a formal complaint regarding the quality of food served in the school canteen...
 
 ### 2. Application Letter
 **Purpose:** Request permission or apply for something
 
-\`\`\`
-Subject: Application for Membership in Science Club
+    Subject: Application for Membership in Science Club
 
-Dear Madam,
+    Dear Madam,
 
-I am a student of Class 9-B and I am interested in joining the Science Club...
-\`\`\`
+    I am a student of Class 9-B and I am interested in joining the Science Club...
 
 ### 3. Request Letter
 **Purpose:** Ask for something politely
 
-\`\`\`
-Subject: Request for Library Extension
+    Subject: Request for Library Extension
 
-Dear Sir,
+    Dear Sir,
 
-I am writing to request an extension of my book return date...
-\`\`\`
+    I am writing to request an extension of my book return date...
 
 ### 4. Thank You Letter
 **Purpose:** Express gratitude
 
-\`\`\`
-Subject: Thank You for the Scholarship
+    Subject: Thank You for the Scholarship
 
-Dear Sir,
+    Dear Sir,
 
-I am writing to express my sincere gratitude for awarding me the merit scholarship...
-\`\`\`
+    I am writing to express my sincere gratitude for awarding me the merit scholarship...
 
 ## Tips for Scoring Full Marks in Letter Writing
 
@@ -2145,19 +2127,17 @@ Maintain an organized vocabulary journal.
 
 **Format:**
 
-\`\`\`
-Date: 15 February 2026
-Word: Ubiquitous
+    Date: 15 February 2026
+    Word: Ubiquitous
 
-Pronunciation: yoo-BIK-wi-tus
-Part of Speech: Adjective
-Definition: Present everywhere; widespread
-Example: Smartphones are ubiquitous in modern society.
-Synonyms: omnipresent, universal, common
-Antonyms: rare, scarce, uncommon
+    Pronunciation: yoo-BIK-wi-tus
+    Part of Speech: Adjective
+    Definition: Present everywhere; widespread
+    Example: Smartphones are ubiquitous in modern society.
+    Synonyms: omnipresent, universal, common
+    Antonyms: rare, scarce, uncommon
 
-Sentence I Created: "With internet connectivity, online education has become ubiquitous among Indian students."
-\`\`\`
+    Sentence I Created: "With internet connectivity, online education has become ubiquitous among Indian students."
 
 **Why this works:**
 - Writing reinforces memory
@@ -2185,11 +2165,9 @@ Understanding word relationships expands vocabulary.
 
 Create a "Word Web" for important words:
 
-\`\`\`
-                                  excellent
-                                      ↑
-      good ← brilliant → outstanding → amazing ← great
-\`\`\`
+                                      excellent
+                                          ↑
+          good ← brilliant → outstanding → amazing ← great
 
 ## Strategy 7: Use Words in Writing Immediately
 
@@ -2447,24 +2425,22 @@ This section is where many students lose marks unnecessarily.
 
 ### Letter Template for Quick Success
 
-\`\`\`
-Your Address
-Date
+    Your Address
+    Date
 
-Recipient's Address
+    Recipient's Address
 
-Subject: [Clear subject line]
+    Subject: [Clear subject line]
 
-Dear [Name],
+    Dear [Name],
 
-Paragraph 1: State the purpose
-Paragraph 2: Provide details and explanation
-Paragraph 3: End with request/conclusion
-Paragraph 4: (if needed) Additional information
+    Paragraph 1: State the purpose
+    Paragraph 2: Provide details and explanation
+    Paragraph 3: End with request/conclusion
+    Paragraph 4: (if needed) Additional information
 
-Yours [faithfully/sincerely],
-Your Name
-\`\`\`
+    Yours [faithfully/sincerely],
+    Your Name
 
 ### Notice and Email Writing
 
@@ -2501,10 +2477,9 @@ Usually 10 errors in a passage. Errors are:
 4. Write only the error and correction
 
 **Example:**
-\`\`\`
-Error: "She go to school."
-Correction: "She goes to school." (Subject-verb agreement)
-\`\`\`
+
+    Error: "She go to school."
+    Correction: "She goes to school." (Subject-verb agreement)
 
 ### Omission (5 marks)
 
