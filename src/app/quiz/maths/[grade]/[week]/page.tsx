@@ -56,7 +56,7 @@ export default async function MathsQuizPage({ params }: Props) {
   const topic = weekData.topic || "Maths Practice";
 
   return (
-    <div className="bg-gradient-to-br from-emerald-50 via-cyan-50 to-blue-50 min-h-screen pb-16">
+    <div className="bg-theme-gradient min-h-screen pb-16">
       {/* Breadcrumb & Header */}
       <section className={`bg-gradient-to-r ${info.color} py-8`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6">

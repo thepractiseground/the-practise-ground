@@ -32,7 +32,7 @@ export default function MathsLandingPage() {
   }, 0);
 
   return (
-    <div className="bg-gradient-to-br from-emerald-50 via-cyan-50 to-blue-50 min-h-screen">
+    <div className="bg-theme-gradient min-h-screen">
       {/* Hero */}
       <section className="bg-gradient-to-r from-emerald-600 to-teal-600 py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

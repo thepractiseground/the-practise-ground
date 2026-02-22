@@ -28,7 +28,7 @@ const books = [
 
 export default function ColouringBooksPage() {
   return (
-    <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-cyan-50 min-h-screen">
+    <div className="bg-theme-gradient min-h-screen">
       {/* Hero */}
       <section className="bg-gradient-to-r from-pink-400 to-purple-500 py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

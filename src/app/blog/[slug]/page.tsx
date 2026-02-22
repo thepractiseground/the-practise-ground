@@ -91,7 +91,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const nextPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
 
   return (
-    <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-cyan-50 min-h-screen">
+    <div className="bg-theme-gradient min-h-screen">
       {/* Breadcrumb Navigation */}
       <section className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4">

@@ -16,7 +16,11 @@ export default function Home() {
   const totalQuestions = englishQuestions + mathsQuestions;
 
   return (
-    <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-cyan-50">
+    <div
+      style={{
+        background: "linear-gradient(to bottom right, var(--color-hero-from), var(--color-hero-via), var(--color-hero-to))",
+      }}
+    >
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-navy mb-4">
@@ -136,7 +140,7 @@ export default function Home() {
       </section>
 
       {/* Colouring Books CTA */}
-      <section className="py-16 bg-gradient-to-r from-pink-50 to-purple-50">
+      <section className="py-16 bg-theme-gradient">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl font-bold text-brand-navy mb-4">Colouring Books for Kids</h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">

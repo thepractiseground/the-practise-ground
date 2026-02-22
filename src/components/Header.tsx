@@ -33,7 +33,7 @@ export default function Header() {
               <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
-                  <Link key={`eng-${g}`} href={`/quiz/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-orange-50 hover:text-brand-orange text-sm">
+                  <Link key={`eng-${g}`} href={`/quiz/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange text-sm">
                     Grade {g}
                   </Link>
                 ))}

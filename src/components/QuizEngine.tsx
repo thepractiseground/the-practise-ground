@@ -93,7 +93,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap">
-            <button onClick={handleRestart} className="bg-brand-orange text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 transition-colors">
+            <button onClick={handleRestart} className="bg-brand-orange text-white px-6 py-3 rounded-xl font-semibold hover:opacity-85 transition-all">
               Try Again
             </button>
             <button
@@ -177,9 +177,9 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
               }
             } else {
               if (isSelected) {
-                classes += "border-brand-orange bg-orange-50 text-brand-orange ring-2 ring-brand-orange/20";
+                classes += "border-brand-orange bg-brand-orange/10 text-brand-orange ring-2 ring-brand-orange/20";
               } else {
-                classes += "border-gray-200 hover:border-brand-orange hover:bg-orange-50/50 text-gray-700 cursor-pointer";
+                classes += "border-gray-200 hover:border-brand-orange hover:bg-brand-orange/5 text-gray-700 cursor-pointer";
               }
             }
 
@@ -205,12 +205,12 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             <button
               onClick={handleCheck}
               disabled={!selected}
-              className="bg-brand-orange text-white px-8 py-3 rounded-xl font-semibold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-orange-600 transition-colors"
+              className="bg-brand-orange text-white px-8 py-3 rounded-xl font-semibold disabled:opacity-40 disabled:cursor-not-allowed hover:opacity-85 transition-all"
             >
               Check Answer
             </button>
           ) : (
-            <button onClick={handleNext} className="bg-brand-navy text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-900 transition-colors">
+            <button onClick={handleNext} className="bg-brand-navy text-white px-8 py-3 rounded-xl font-semibold hover:opacity-85 transition-all">
               {currentQ < questions.length - 1 ? "Next Question →" : "See Results"}
             </button>
           )}

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-cyan-50 min-h-screen">
+    <div className="bg-theme-gradient min-h-screen">
       <section className="bg-gradient-to-r from-brand-teal to-emerald-600 py-12 sm:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3">Contact Us</h1>

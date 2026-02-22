@@ -8,6 +8,20 @@
   --color-brand-yellow: #F5A623;
 }
 
+/* A/B Test theme variables — overridden at runtime by ThemeProvider */
+:root {
+  --color-hero-from: #FAF5FF;
+  --color-hero-via: #FDF2F8;
+  --color-hero-to: #ECFEFF;
+  --color-cta-hover: #D4551F;
+  --color-footer-bg: #111827;
+}
+
+/* Reusable theme-aware gradient backgrounds */
+.bg-theme-gradient {
+  background: linear-gradient(to bottom right, var(--color-hero-from), var(--color-hero-via), var(--color-hero-to));
+}
+
 body {
   color: #333;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;

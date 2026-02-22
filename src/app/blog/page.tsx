@@ -46,7 +46,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
     : allPosts;
 
   return (
-    <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-cyan-50 min-h-screen">
+    <div className="bg-theme-gradient min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-brand-navy to-blue-800 py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
