@@ -27,6 +27,9 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
     return placeholder;
   });
 
+  // Remove h1 headings (title is already shown in page header)
+  html = html.replace(/^# (.+)$/gm, "");
+
   // Headings (must be at start of line)
   html = html.replace(/^## (.+)$/gm, (match, text) => {
     const cleanText = text.trim();
