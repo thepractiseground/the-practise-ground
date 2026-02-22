@@ -5,7 +5,7 @@ import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-
 export const metadata: Metadata = {
   title: "Free Maths Quizzes for Grades 5-10 - The Practise Ground",
   description:
-    "Free interactive Maths quizzes for students in Grades 5 to 10. Practice arithmetic, algebra, geometry, trigonometry and more with weekly MCQ quizzes. No sign-up required!",
+    "Free Maths quizzes for Grades 5-10. Practice arithmetic, algebra, geometry, trigonometry and more with weekly MCQs. No sign-up required!",
   keywords: [
     "maths quiz",
     "free maths quiz",

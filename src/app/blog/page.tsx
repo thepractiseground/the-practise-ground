@@ -5,7 +5,7 @@ import { getAllPosts, getAllCategories } from "@/data/blog-posts";
 export const metadata: Metadata = {
   title: "Learning Blog: English & Maths Tips | The Practise Ground",
   description:
-    "Free learning blog with English grammar tips, Maths strategies, study advice, and exam preparation guides. Perfect for CBSE, ICSE, Cambridge, and IB students in Grades 5-10.",
+    "Free learning blog with English grammar and Maths tips, study advice, and exam prep guides for students in Grades 5-10.",
   keywords: [
     "english grammar tips",
     "maths study tips",

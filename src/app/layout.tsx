@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | The Practise Ground",
   },
   description:
-    "Free interactive English quizzes for students in Grades 5 to 10. Practice grammar, vocabulary, reading comprehension and more with 7,500+ questions. No sign-up required!",
+    "Free English & Maths quizzes for Grades 5-10. Practice grammar, vocabulary, algebra, geometry and more. No sign-up required!",
   keywords: [
     "English quiz", "grammar practice", "English questions for class 5",
     "English questions for class 6", "English questions for class 7",

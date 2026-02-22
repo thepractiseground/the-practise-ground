@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us - The Practise Ground",
-  description: "Learn about The Practise Ground — a free English practice platform for students in Grades 5 to 10, founded with the mission to make quality English education accessible to all.",
+  description: "Learn about The Practise Ground — a free English & Maths quiz platform for Grades 5-10, making quality education accessible to all.",
 };
 
 export default function AboutPage() {
