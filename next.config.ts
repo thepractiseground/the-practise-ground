@@ -1,7 +1,24 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      // Redirect old systeme.io grade URLs to new quiz URLs
+      { source: '/grade5', destination: '/quiz/5', permanent: true },
+      { source: '/grade6', destination: '/quiz/6', permanent: true },
+      { source: '/grade7', destination: '/quiz/7', permanent: true },
+      { source: '/grade8', destination: '/quiz/8', permanent: true },
+      { source: '/grade9', destination: '/quiz/9', permanent: true },
+      { source: '/grade10', destination: '/quiz/10', permanent: true },
+      // Also handle variations with trailing slashes or uppercase
+      { source: '/Grade5', destination: '/quiz/5', permanent: true },
+      { source: '/Grade6', destination: '/quiz/6', permanent: true },
+      { source: '/Grade7', destination: '/quiz/7', permanent: true },
+      { source: '/Grade8', destination: '/quiz/8', permanent: true },
+      { source: '/Grade9', destination: '/quiz/9', permanent: true },
+      { source: '/Grade10', destination: '/quiz/10', permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;
