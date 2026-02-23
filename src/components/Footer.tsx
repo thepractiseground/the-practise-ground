@@ -56,14 +56,22 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact & Donate */}
           <div>
             <h3 className="text-white font-semibold mb-4">Get in Touch</h3>
-            <p className="text-sm text-gray-400 mb-2">hello@thepractiseground.in</p>
-            <div className="mt-4">
-              <Link href="/contact" className="inline-block bg-brand-orange text-white px-4 py-2 rounded-lg text-sm hover:opacity-85 transition-all">
+            <p className="text-sm text-gray-400 mb-4">hello@thepractiseground.in</p>
+            <div className="flex flex-col gap-3">
+              <Link href="/contact" className="inline-block bg-brand-orange text-white px-4 py-2 rounded-lg text-sm hover:opacity-85 transition-all text-center">
                 Contact Us
               </Link>
+              <a
+                href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-amber-500 text-white px-4 py-2 rounded-lg text-sm hover:bg-amber-600 transition-colors text-center"
+              >
+                Support Us — Donate
+              </a>
             </div>
           </div>
         </div>
