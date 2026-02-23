@@ -149,7 +149,7 @@ export default async function MathsGradePage({ params }: Props) {
         </div>
       </section>
 
-      {/* FAQPage Schema */}
+      {/* Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -174,6 +174,41 @@ export default async function MathsGradePage({ params }: Props) {
                 },
               },
             ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: "Maths", item: "https://www.thepractiseground.in/quiz/maths" },
+              { "@type": "ListItem", position: 3, name: `Grade ${grade} Maths`, item: `https://www.thepractiseground.in/quiz/maths/${grade}` },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            name: `Grade ${grade} Maths Quizzes`,
+            description: `Free Maths practice quizzes for Grade ${grade} students. ${weeks.length} weekly quizzes with ${totalQ}+ questions covering ${info.topics.toLowerCase()}.`,
+            provider: { "@type": "Organization", name: "The Practise Ground", url: "https://www.thepractiseground.in" },
+            educationalLevel: `Grade ${grade}`,
+            isAccessibleForFree: true,
+            inLanguage: "en",
+            numberOfCredits: 0,
+            hasCourseInstance: {
+              "@type": "CourseInstance",
+              courseMode: "online",
+              courseWorkload: `${weeks.length} weeks`,
+            },
           }),
         }}
       />

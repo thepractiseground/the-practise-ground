@@ -126,6 +126,20 @@ export default async function QuizPage({ params }: Props) {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: `Grade ${grade}`, item: `https://www.thepractiseground.in/quiz/${grade}` },
+              { "@type": "ListItem", position: 3, name: `Week ${weekNum}`, item: `https://www.thepractiseground.in/quiz/${grade}/${weekNum}` },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

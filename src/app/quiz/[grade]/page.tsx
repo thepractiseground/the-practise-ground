@@ -142,7 +142,7 @@ export default async function GradePage({ params }: Props) {
         </div>
       </section>
 
-      {/* FAQPage Schema */}
+      {/* Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -167,6 +167,40 @@ export default async function GradePage({ params }: Props) {
                 },
               },
             ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: `Grade ${grade} English`, item: `https://www.thepractiseground.in/quiz/${grade}` },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            name: `Grade ${grade} English Quizzes`,
+            description: `Free English practice quizzes for Grade ${grade} students. ${weeks.length} weekly quizzes with ${totalQ}+ questions.`,
+            provider: { "@type": "Organization", name: "The Practise Ground", url: "https://www.thepractiseground.in" },
+            educationalLevel: `Grade ${grade}`,
+            isAccessibleForFree: true,
+            inLanguage: "en",
+            numberOfCredits: 0,
+            hasCourseInstance: {
+              "@type": "CourseInstance",
+              courseMode: "online",
+              courseWorkload: `${weeks.length} weeks`,
+            },
           }),
         }}
       />
