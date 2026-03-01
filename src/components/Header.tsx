@@ -46,7 +46,7 @@ export default function Header() {
                 ))}
                 <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Science</div>
-                {[5, 6, 7, 8].map((g) => (
+                {[5, 6, 7, 8, 9].map((g) => (
                   <Link key={`sci-${g}`} href={`/quiz/science/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-purple-50 hover:text-purple-600 text-sm">
                     Grade {g}
                   </Link>
