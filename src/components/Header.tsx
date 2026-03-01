@@ -45,8 +45,12 @@ export default function Header() {
                   </Link>
                 ))}
                 <div className="border-t my-2" />
-                <Link href="/quiz/science" className="block px-4 py-2 text-purple-600 hover:bg-purple-50 font-medium text-sm">
-                  Science (Coming Soon)
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Science</div>
+                <Link href="/quiz/science/5" className="block px-4 py-1.5 text-gray-700 hover:bg-purple-50 hover:text-purple-600 text-sm">
+                  Grade 5
+                </Link>
+                <Link href="/quiz/science" className="block px-4 py-1.5 text-purple-400 text-xs italic">
+                  More grades coming soon
                 </Link>
               </div>
             </div>
@@ -104,8 +108,12 @@ export default function Header() {
                 Grade {g}
               </Link>
             ))}
-            <Link href="/quiz/science" onClick={() => setMenuOpen(false)} className="block py-3 pl-4 text-purple-600 hover:text-purple-700 font-medium text-sm">
-              Science (Coming Soon)
+            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Science Quizzes</div>
+            <Link href="/quiz/science/5" onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-purple-600 text-sm">
+              Grade 5
+            </Link>
+            <Link href="/quiz/science" onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-purple-400 text-xs italic">
+              More grades coming soon
             </Link>
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>

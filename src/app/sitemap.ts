@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { GRADES, getGradeWeeks } from "@/lib/quiz-data";
 import { MATHS_GRADES, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
+import { SCIENCE_GRADES, getScienceGradeWeeks } from "@/lib/science-quiz-data";
 import { getAllPosts } from "@/data/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -19,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/donate`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 
-  // Grade hub pages
+  // English grade hub pages
   for (const grade of GRADES) {
     routes.push({
       url: `${baseUrl}/quiz/${grade}`,
@@ -47,6 +48,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.9,
   });
+
+  // Science grade hub pages
+  for (const grade of SCIENCE_GRADES) {
+    routes.push({
+      url: `${baseUrl}/quiz/science/${grade}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    });
+
+    // Individual science quiz pages
+    const scienceWeeks = getScienceGradeWeeks(grade);
+    for (const week of scienceWeeks) {
+      routes.push({
+        url: `${baseUrl}/quiz/science/${grade}/${week.week}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.8,
+      });
+    }
+  }
 
   // Maths landing page
   routes.push({

@@ -1,11 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
 
 export const metadata: Metadata = {
   title: "Free Science Quizzes for Grades 5-10 | Physics, Chemistry, Biology | The Practise Ground",
   description:
-    "Free Science quizzes covering Physics, Chemistry, and Biology for Grades 5-10. Aligned with CBSE, ICSE, Cambridge IGCSE, and IB curricula. Coming soon!",
+    "Free Science quizzes covering Physics, Chemistry, and Biology for Grades 5-10. Aligned with CBSE, ICSE, Cambridge IGCSE, and IB curricula. 1,300+ questions available now!",
   keywords: [
     "science quiz",
     "physics quiz",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Free Science Quizzes for Grades 5-10 | The Practise Ground",
     description:
-      "Free Science quizzes covering Physics, Chemistry, and Biology for students worldwide. Coming soon!",
+      "Free Science quizzes covering Physics, Chemistry, and Biology for students worldwide. 1,300+ questions available now!",
     url: "https://www.thepractiseground.in/quiz/science",
     siteName: "The Practise Ground",
     locale: "en_IN",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   },
 };
 
-const subjects = [
+const upcomingSubjects = [
   {
     name: "Physics",
     icon: "⚡",
@@ -52,7 +53,6 @@ const subjects = [
 ];
 
 export default function ScienceLandingPage() {
-  // Get science blog posts for recommended reading
   const sciencePosts = getPostsForGrade(8, "science");
 
   return (
@@ -60,9 +60,6 @@ export default function ScienceLandingPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-purple-700 to-indigo-800 py-16 sm:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-block bg-white/20 text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
-            Coming Soon
-          </div>
           <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4">
             Science Quizzes
           </h1>
@@ -71,32 +68,94 @@ export default function ScienceLandingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/blog?category=Physics"
+              href="/quiz/science/5"
               className="bg-white text-purple-700 font-bold px-6 py-3 rounded-xl hover:bg-purple-50 transition-colors"
             >
-              Read Science Blog Posts
+              Start Grade 5 Science
             </Link>
             <Link
-              href="/contact"
+              href="/blog?category=Physics"
               className="border-2 border-white text-white font-bold px-6 py-3 rounded-xl hover:bg-white/10 transition-colors"
             >
-              Get Notified When Live
+              Read Science Blog Posts
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Subject Cards */}
+      {/* Available Grade Cards */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 -mt-10 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {SCIENCE_GRADES.map((grade) => {
+            const info = SCIENCE_GRADE_INFO[grade];
+            const weeks = getScienceGradeWeeks(grade);
+            const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
+            return (
+              <Link
+                key={grade}
+                href={`/quiz/science/${grade}`}
+                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group"
+              >
+                <div className={`bg-gradient-to-r ${info.color} px-6 py-5 text-white`}>
+                  <span className="text-3xl mb-2 block">🔬</span>
+                  <h2 className="text-xl font-bold group-hover:underline">Grade {grade} Science</h2>
+                </div>
+                <div className="p-6">
+                  <p className="text-gray-600 text-sm mb-3">Ages {info.ageRange}</p>
+                  <div className="flex items-center gap-4 text-sm text-gray-700 mb-3">
+                    <span className="font-semibold">{weeks.length} weeks</span>
+                    <span>&middot;</span>
+                    <span className="font-semibold">{totalQ.toLocaleString()} questions</span>
+                  </div>
+                  <p className="text-xs text-gray-500 mb-4">{info.topics}</p>
+                  <div className="bg-purple-50 text-purple-700 text-center py-3 rounded-xl text-sm font-semibold group-hover:bg-purple-100 transition-colors">
+                    Start Practising →
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+
+          {/* Coming Soon cards for grades 6-10 */}
+          {[6, 7, 8, 9, 10].map((grade) => (
+            <div
+              key={grade}
+              className="bg-white rounded-2xl shadow-lg overflow-hidden opacity-75"
+            >
+              <div className="bg-gradient-to-r from-gray-400 to-gray-500 px-6 py-5 text-white">
+                <span className="text-3xl mb-2 block">🔬</span>
+                <h2 className="text-xl font-bold">Grade {grade} Science</h2>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-500 text-sm mb-3">
+                  {grade <= 7 ? "Integrated Science" : "Physics, Chemistry & Biology"}
+                </p>
+                <div className="bg-gray-100 text-gray-500 text-center py-3 rounded-xl text-sm font-semibold">
+                  Coming Soon
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Subject Preview for Higher Grades */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+        <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-3">
+          Coming for Grades 8-10
+        </h2>
+        <p className="text-gray-600 text-center mb-10 max-w-xl mx-auto">
+          Separate Physics, Chemistry &amp; Biology quizzes for higher grades are in development.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {subjects.map((subject) => (
+          {upcomingSubjects.map((subject) => (
             <div
               key={subject.name}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden"
+              className="bg-white rounded-2xl shadow-sm overflow-hidden"
             >
               <div className={`bg-gradient-to-r ${subject.color} px-6 py-5 text-white`}>
                 <span className="text-3xl mb-2 block">{subject.icon}</span>
-                <h2 className="text-xl font-bold">{subject.name}</h2>
+                <h3 className="text-xl font-bold">{subject.name}</h3>
               </div>
               <div className="p-6">
                 <p className="text-sm text-gray-500 uppercase tracking-wider mb-3 font-semibold">Topics include</p>
@@ -114,9 +173,6 @@ export default function ScienceLandingPage() {
                     </li>
                   ))}
                 </ul>
-                <div className="mt-5 bg-purple-50 text-purple-700 text-center py-3 rounded-xl text-sm font-semibold">
-                  Quizzes Coming Soon
-                </div>
               </div>
             </div>
           ))}
@@ -124,7 +180,7 @@ export default function ScienceLandingPage() {
       </section>
 
       {/* What to Expect */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-16">
         <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-10">
           What to Expect
         </h2>
@@ -148,10 +204,10 @@ export default function ScienceLandingPage() {
       {sciencePosts.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-16">
           <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-3">
-            Meanwhile, Start Learning
+            Learn More with Our Blog
           </h2>
           <p className="text-gray-600 text-center mb-8 max-w-xl mx-auto">
-            While we prepare Science quizzes, explore our detailed Science blog posts covering key topics.
+            Explore our detailed Science blog posts covering key topics across Physics, Chemistry, and Biology.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {sciencePosts.map((post) => (
@@ -185,7 +241,7 @@ export default function ScienceLandingPage() {
       <section className="bg-gradient-to-r from-brand-navy to-blue-800 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-            Try Our English &amp; Maths Quizzes Now
+            Try Our English &amp; Maths Quizzes Too
           </h2>
           <p className="text-blue-200 mb-8">
             15,600+ questions across English and Maths, completely free. No sign-up required.
