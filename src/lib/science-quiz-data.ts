@@ -16,10 +16,11 @@ export type ScienceGradeData = Record<string, ScienceWeek[]>;
 
 const data = scienceData as ScienceGradeData;
 
-export const SCIENCE_GRADES = [5] as const;
+export const SCIENCE_GRADES = [5, 6] as const;
 
 export const SCIENCE_GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string; topics: string }> = {
   5: { color: "from-purple-500 to-indigo-600", bgColor: "bg-purple-600", ageRange: "8-10 years", topics: "Living Things, Human Body, Plants, Light, Sound, Matter, Earth Science, Energy" },
+  6: { color: "from-violet-500 to-purple-600", bgColor: "bg-violet-600", ageRange: "10-12 years", topics: "Food & Nutrition, Materials & Separation, Plants & Animals, Motion, Light, Electricity, Magnets, Water, Soil, Human Body Systems" },
 };
 
 export function getScienceGradeWeeks(grade: number): ScienceWeek[] {
