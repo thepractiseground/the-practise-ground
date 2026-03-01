@@ -46,7 +46,7 @@ export default function Header() {
                 ))}
                 <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Science</div>
-                {[5, 6, 7].map((g) => (
+                {[5, 6, 7, 8].map((g) => (
                   <Link key={`sci-${g}`} href={`/quiz/science/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-purple-50 hover:text-purple-600 text-sm">
                     Grade {g}
                   </Link>
@@ -111,7 +111,7 @@ export default function Header() {
               </Link>
             ))}
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Science Quizzes</div>
-            {[5, 6].map((g) => (
+            {[5, 6, 7, 8].map((g) => (
               <Link key={`sci-${g}`} href={`/quiz/science/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-purple-600 text-sm">
                 Grade {g}
               </Link>
