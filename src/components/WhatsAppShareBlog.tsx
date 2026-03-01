@@ -9,7 +9,8 @@ interface WhatsAppShareBlogProps {
 
 export default function WhatsAppShareBlog({ title, excerpt, slug, category }: WhatsAppShareBlogProps) {
   const mathsCategories = ["Maths Concepts", "Maths Tips", "Problem Solving"];
-  const subject = category && mathsCategories.includes(category) ? "Maths" : "English";
+  const scienceCategories = ["Physics", "Chemistry", "Biology", "Science"];
+  const subject = category && mathsCategories.includes(category) ? "Maths" : category && scienceCategories.includes(category) ? "Science" : "English";
 
   const handleShare = () => {
     const url = `https://www.thepractiseground.in/blog/${slug}`;

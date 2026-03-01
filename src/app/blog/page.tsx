@@ -3,14 +3,16 @@ import type { Metadata } from "next";
 import { getAllPosts, getAllCategories } from "@/data/blog-posts";
 
 export const metadata: Metadata = {
-  title: "Learning Blog: English & Maths Tips | The Practise Ground",
+  title: "Learning Blog: English, Maths & Science Tips | The Practise Ground",
   description:
-    "Free learning blog with English grammar and Maths tips, study advice, and exam prep guides for students in Grades 5-10.",
+    "Free learning blog with English grammar, Maths tips, and Science guides (Physics, Chemistry, Biology) for students in Grades 5-10.",
   keywords: [
     "english grammar tips",
     "maths study tips",
+    "science study guide",
+    "CBSE science help",
+    "physics chemistry biology",
     "learning blog for students",
-    "CBSE english help",
     "maths exam preparation",
     "Cambridge IGCSE tips",
     "IB maths and english",
@@ -19,9 +21,9 @@ export const metadata: Metadata = {
     "geometry guide",
   ],
   openGraph: {
-    title: "Learning Blog: English & Maths Tips | The Practise Ground",
+    title: "Learning Blog: English, Maths & Science Tips | The Practise Ground",
     description:
-      "Free learning blog with English grammar, Maths strategies, and exam tips for students worldwide.",
+      "Free learning blog with English grammar, Maths strategies, Science guides, and exam tips for students worldwide.",
     url: "https://www.thepractiseground.in/blog",
     siteName: "The Practise Ground",
     locale: "en_IN",
@@ -40,6 +42,10 @@ const categoryColors: Record<string, { bg: string; badge: string }> = {
   "Maths Concepts": { bg: "bg-emerald-100", badge: "bg-emerald-600" },
   "Maths Tips": { bg: "bg-cyan-100", badge: "bg-cyan-600" },
   "Problem Solving": { bg: "bg-violet-100", badge: "bg-violet-600" },
+  Physics: { bg: "bg-indigo-100", badge: "bg-indigo-600" },
+  Chemistry: { bg: "bg-amber-100", badge: "bg-amber-600" },
+  Biology: { bg: "bg-lime-100", badge: "bg-lime-600" },
+  Science: { bg: "bg-purple-100", badge: "bg-purple-600" },
 };
 
 export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For Parents - The Practise Ground",
   description:
-    "How The Practise Ground helps your child master English & Maths. Free weekly quizzes for Grades 5-10, aligned with CBSE, ICSE & Cambridge curricula.",
+    "How The Practise Ground helps your child master English, Maths & Science. Free weekly quizzes for Grades 5-10, aligned with CBSE, ICSE & Cambridge curricula.",
 };
 
 export default function ForParentsPage() {
@@ -18,7 +18,7 @@ export default function ForParentsPage() {
           </h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
             Everything you need to know about how The Practise Ground helps your
-            child build confidence in English and Maths.
+            child build confidence in English, Maths, and Science.
           </p>
         </div>
       </section>
@@ -32,8 +32,8 @@ export default function ForParentsPage() {
           <p className="text-gray-600 leading-relaxed mb-4">
             The Practise Ground is a <strong>completely free</strong> online quiz
             platform for students in Grades 5 through 10. We offer weekly English
-            and Maths quizzes — 25 questions each — covering topics aligned with
-            the CBSE, ICSE, Cambridge, and IB curricula.
+            and Maths quizzes — 25 questions each — plus Science learning resources,
+            all covering topics aligned with the CBSE, ICSE, Cambridge, and IB curricula.
           </p>
           <p className="text-gray-600 leading-relaxed">
             There are no sign-ups, no subscriptions, and no hidden costs. Your
@@ -57,8 +57,8 @@ export default function ForParentsPage() {
                   Choose a subject &amp; grade
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
-                  Pick English or Maths, then select your child&apos;s grade
-                  level (5 through 10).
+                  Pick English, Maths, or Science, then select your child&apos;s
+                  grade level (5 through 10).
                 </p>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function ForParentsPage() {
           <h2 className="text-2xl font-bold text-brand-navy mb-4">
             What&apos;s Covered?
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div>
               <h3 className="font-semibold text-brand-navy mb-2">
                 English (7,800 questions)
@@ -136,6 +136,18 @@ export default function ForParentsPage() {
                 <li>Geometry — triangles, circles, coordinate geometry</li>
                 <li>Trigonometry &amp; mensuration</li>
                 <li>Statistics, probability &amp; data handling</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold text-purple-700 mb-2">
+                Science (Coming Soon)
+              </h3>
+              <ul className="text-gray-600 text-sm space-y-1">
+                <li>Physics — motion, electricity, light, sound</li>
+                <li>Chemistry — periodic table, reactions, acids &amp; bases</li>
+                <li>Biology — cells, photosynthesis, human body</li>
+                <li>Aligned with CBSE, ICSE, Cambridge &amp; IB</li>
+                <li><Link href="/quiz/science" className="text-purple-600 hover:underline">Learn more &rarr;</Link></li>
               </ul>
             </div>
           </div>
@@ -230,8 +242,8 @@ export default function ForParentsPage() {
               of the most effective learning strategies.
             </p>
             <p>
-              <strong>Mix subjects:</strong> Alternate between English and Maths
-              quizzes to keep things fresh and build skills across both subjects.
+              <strong>Mix subjects:</strong> Alternate between English, Maths, and
+              Science to keep things fresh and build skills across all subjects.
             </p>
             <p>
               <strong>Use the blog:</strong> Our{" "}
@@ -266,6 +278,12 @@ export default function ForParentsPage() {
               className="bg-white text-brand-navy font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors"
             >
               Maths Quizzes
+            </Link>
+            <Link
+              href="/quiz/science"
+              className="bg-white/20 text-white border-2 border-white font-semibold px-6 py-3 rounded-lg hover:bg-white/30 transition-colors"
+            >
+              Science (Coming Soon)
             </Link>
           </div>
         </div>

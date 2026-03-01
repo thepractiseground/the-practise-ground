@@ -27,10 +27,10 @@ export default function Home() {
           Practise <span className="text-brand-orange">Every Week</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 mb-2 max-w-2xl mx-auto">
-          Free interactive English &amp; Maths quizzes for students in Grades 5 to 10. No sign-up required!
+          Free interactive English, Maths &amp; Science quizzes for students in Grades 5 to 10. No sign-up required!
         </p>
         <p className="text-base text-gray-500 mb-8">
-          {totalQuestions.toLocaleString()}+ questions &middot; 2 subjects &middot; 6 grades &middot; Weekly content
+          {totalQuestions.toLocaleString()}+ questions &middot; 3 subjects &middot; 6 grades &middot; Weekly content
         </p>
         <p className="text-lg font-semibold text-brand-navy tracking-wide">
           Choose a subject to get started
@@ -118,6 +118,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Science Coming Soon */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        <Link href="/quiz/science" className="group block rounded-2xl bg-gradient-to-br from-purple-600 to-indigo-700 p-8 shadow-md hover:shadow-xl hover:scale-[1.01] transition-all duration-200">
+          <div className="flex flex-col sm:flex-row items-center gap-6">
+            <div className="text-5xl">🔬</div>
+            <div className="flex-1 text-center sm:text-left">
+              <div className="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full mb-2">
+                Coming Soon
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">Science Quizzes</h2>
+              <p className="text-purple-200 text-sm sm:text-base">
+                Physics, Chemistry &amp; Biology for Grades 5-10. Aligned with CBSE, ICSE, Cambridge &amp; IB. Meanwhile, check out our Science blog posts!
+              </p>
+            </div>
+            <div className="flex items-center gap-2 text-white font-semibold group-hover:gap-3 transition-all">
+              Explore
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </div>
+        </Link>
+      </section>
+
       {/* Features Section */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -175,7 +199,7 @@ export default function Home() {
               },
               {
                 q: "What subjects and topics do you cover?",
-                a: "We currently offer English and Maths quizzes. English covers grammar, vocabulary, comprehension, and writing. Maths covers arithmetic, algebra, geometry, trigonometry, and more — all aligned with CBSE and ICSE curricula for Grades 5 through 10.",
+                a: "We currently offer English and Maths quizzes, with Science (Physics, Chemistry, Biology) quizzes coming soon. English covers grammar, vocabulary, comprehension, and writing. Maths covers arithmetic, algebra, geometry, trigonometry, and more — all aligned with CBSE, ICSE, Cambridge, and IB curricula for Grades 5 through 10.",
               },
               {
                 q: "Is this useful for CBSE and ICSE students?",

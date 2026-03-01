@@ -40,6 +40,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Science landing page
+  routes.push({
+    url: `${baseUrl}/quiz/science`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.9,
+  });
+
   // Maths landing page
   routes.push({
     url: `${baseUrl}/quiz/maths`,

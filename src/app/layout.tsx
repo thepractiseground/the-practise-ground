@@ -7,11 +7,11 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "The Practise Ground - Free English Quizzes for Students Grade 5-10",
+    default: "The Practise Ground - Free English, Maths & Science Quizzes for Grades 5-10",
     template: "%s | The Practise Ground",
   },
   description:
-    "Free English & Maths quizzes for Grades 5-10. Practice grammar, vocabulary, algebra, geometry and more. No sign-up required!",
+    "Free English, Maths & Science quizzes for Grades 5-10. Practice grammar, vocabulary, algebra, geometry, physics, chemistry, biology and more. No sign-up required!",
   keywords: [
     "English quiz", "grammar practice", "English questions for class 5",
     "English questions for class 6", "English questions for class 7",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     "vocabulary test for kids", "English practice for Indian students",
   ],
   openGraph: {
-    title: "The Practise Ground - Free English & Maths Quizzes for Grades 5-10",
-    description: "15,600+ free quiz questions across English & Maths. Practice grammar, algebra, geometry & more. No sign-up required!",
+    title: "The Practise Ground - Free English, Maths & Science Quizzes for Grades 5-10",
+    description: "15,600+ free quiz questions across English, Maths & Science. Practice grammar, algebra, physics, chemistry & more. No sign-up required!",
     url: "https://www.thepractiseground.in",
     siteName: "The Practise Ground",
     locale: "en_IN",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Practise Ground - Free English & Maths Quizzes",
+    title: "The Practise Ground - Free English, Maths & Science Quizzes",
     description: "15,600+ free quiz questions for Grades 5-10. No sign-up required!",
   },
   robots: { index: true, follow: true },
@@ -52,7 +52,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               "@type": "EducationalOrganization",
               name: "The Practise Ground",
               url: "https://www.thepractiseground.in",
-              description: "Free English practice quizzes for students in Grades 5-10",
+              description: "Free English, Maths & Science practice quizzes for students in Grades 5-10",
             }),
           }}
         />
