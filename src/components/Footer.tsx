@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-gray-400 mb-5">
-              Free English, Maths &amp; Science quizzes for Grades 5-10. 15,600+ questions, no sign-up, completely free.
+              Free English, Maths &amp; Science quizzes for Grades 5-10. 23,400+ questions, no sign-up, completely free.
             </p>
             <p className="text-sm text-gray-500">hello@thepractiseground.in</p>
           </div>
@@ -56,12 +56,15 @@ export default function Footer() {
             <div>
               <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Science</p>
               <div className="flex flex-wrap gap-2">
-                <Link
-                  href="/quiz/science"
-                  className="bg-white/10 hover:bg-purple-500 hover:text-white text-gray-300 text-sm px-3 py-1 rounded-lg transition-colors"
-                >
-                  Coming Soon
-                </Link>
+                {grades.map((g) => (
+                  <Link
+                    key={`sci-${g}`}
+                    href={`/quiz/science/${g}`}
+                    className="bg-white/10 hover:bg-purple-500 hover:text-white text-gray-300 text-sm px-3 py-1 rounded-lg transition-colors"
+                  >
+                    Grade {g}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>

@@ -31,24 +31,24 @@ export const metadata: Metadata = {
   },
 };
 
-const upcomingSubjects = [
+const scienceBranches = [
   {
     name: "Physics",
     icon: "⚡",
     color: "from-indigo-500 to-blue-600",
-    topics: ["Newton's Laws", "Electricity & Circuits", "Light & Optics", "Sound Waves", "Motion & Forces"],
+    topics: ["Motion & Forces", "Electricity & Circuits", "Light & Optics", "Sound Waves", "Work & Energy", "Gravitation", "Magnetism"],
   },
   {
     name: "Chemistry",
     icon: "🧪",
     color: "from-amber-500 to-orange-600",
-    topics: ["Periodic Table", "Chemical Reactions", "Acids & Bases", "Atomic Structure", "Carbon Compounds"],
+    topics: ["Periodic Table", "Chemical Reactions", "Acids & Bases", "Atomic Structure", "Carbon Compounds", "Metals & Non-Metals"],
   },
   {
     name: "Biology",
     icon: "🧬",
     color: "from-lime-500 to-green-600",
-    topics: ["Cell Structure", "Photosynthesis", "Human Body Systems", "Genetics & Evolution", "Ecology"],
+    topics: ["Cell Structure", "Human Body Systems", "Genetics & Evolution", "Ecology & Environment", "Reproduction", "Diversity of Life"],
   },
 ];
 
@@ -119,16 +119,16 @@ export default function ScienceLandingPage() {
         </div>
       </section>
 
-      {/* Subject Preview for Higher Grades */}
+      {/* Science Branches Covered */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-3">
-          Coming for Grades 8-10
+          What&apos;s Covered
         </h2>
         <p className="text-gray-600 text-center mb-10 max-w-xl mx-auto">
-          Separate Physics, Chemistry &amp; Biology quizzes for higher grades are in development.
+          Our quizzes cover all three branches of Science across Grades 5-10, building from basics to board-exam level.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {upcomingSubjects.map((subject) => (
+          {scienceBranches.map((subject) => (
             <div
               key={subject.name}
               className="bg-white rounded-2xl shadow-sm overflow-hidden"
@@ -166,9 +166,9 @@ export default function ScienceLandingPage() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: "🎯", title: "Curriculum-Aligned", desc: "Questions mapped to CBSE, ICSE, Cambridge IGCSE, and IB syllabi" },
-            { icon: "📊", title: "Grade 5-10", desc: "Integrated Science for Grades 5-7, separate Physics/Chemistry/Biology for Grades 8-10" },
-            { icon: "🔬", title: "Exam-Focused", desc: "Practice questions based on actual board exam patterns and past papers" },
+            { icon: "🎯", title: "Curriculum-Aligned", desc: "7,800+ questions mapped to CBSE, ICSE, Cambridge IGCSE, and IB syllabi" },
+            { icon: "📊", title: "Grades 5-10", desc: "52 weekly quizzes per grade, progressing from fundamentals to board-exam level" },
+            { icon: "🔬", title: "Exam-Focused", desc: "Includes numerical problems, diagrams-based questions, and board exam patterns" },
             { icon: "🆓", title: "100% Free", desc: "No sign-up, no payment — just open and start practising" },
           ].map((item) => (
             <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm text-center">
