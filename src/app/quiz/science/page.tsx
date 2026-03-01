@@ -6,7 +6,7 @@ import { getPostsForGrade } from "@/data/blog-posts";
 export const metadata: Metadata = {
   title: "Free Science Quizzes for Grades 5-10 | Physics, Chemistry, Biology | The Practise Ground",
   description:
-    "Free Science quizzes covering Physics, Chemistry, and Biology for Grades 5-10. Aligned with CBSE, ICSE, Cambridge IGCSE, and IB curricula. 2,600+ questions available now!",
+    "Free Science quizzes covering Physics, Chemistry, and Biology for Grades 5-10. Aligned with CBSE, ICSE, Cambridge IGCSE, and IB curricula. 3,900+ questions available now!",
   keywords: [
     "science quiz",
     "physics quiz",
@@ -116,8 +116,8 @@ export default function ScienceLandingPage() {
             );
           })}
 
-          {/* Coming Soon cards for grades 7-10 */}
-          {[7, 8, 9, 10].map((grade) => (
+          {/* Coming Soon cards for grades 8-10 */}
+          {[8, 9, 10].map((grade) => (
             <div
               key={grade}
               className="bg-white rounded-2xl shadow-lg overflow-hidden opacity-75"
