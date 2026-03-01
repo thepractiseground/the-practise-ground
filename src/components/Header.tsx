@@ -46,14 +46,11 @@ export default function Header() {
                 ))}
                 <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Science</div>
-                {[5, 6, 7, 8, 9].map((g) => (
+                {[5, 6, 7, 8, 9, 10].map((g) => (
                   <Link key={`sci-${g}`} href={`/quiz/science/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-purple-50 hover:text-purple-600 text-sm">
                     Grade {g}
                   </Link>
                 ))}
-                <Link href="/quiz/science" className="block px-4 py-1.5 text-purple-400 text-xs italic">
-                  More grades coming soon
-                </Link>
               </div>
             </div>
             <Link href="/blog" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
@@ -111,14 +108,11 @@ export default function Header() {
               </Link>
             ))}
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Science Quizzes</div>
-            {[5, 6, 7, 8].map((g) => (
+            {[5, 6, 7, 8, 9, 10].map((g) => (
               <Link key={`sci-${g}`} href={`/quiz/science/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-purple-600 text-sm">
                 Grade {g}
               </Link>
             ))}
-            <Link href="/quiz/science" onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-purple-400 text-xs italic">
-              More grades coming soon
-            </Link>
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
             <Link href="/about" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">About</Link>
