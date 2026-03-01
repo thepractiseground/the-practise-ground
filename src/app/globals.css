@@ -109,3 +109,43 @@ h1, h2, h3, h4, h5, h6 {
 .markdown-hr {
   @apply my-8 border-t-2 border-gray-300;
 }
+
+/* FAQ card styling */
+.markdown-faq-item {
+  @apply bg-gray-50 border border-gray-200 rounded-xl p-5 mb-4;
+}
+
+.markdown-faq-q {
+  @apply font-bold text-brand-navy mb-2 text-base;
+}
+
+.markdown-faq-q::before {
+  content: "Q. ";
+  color: var(--color-brand-orange);
+  font-weight: 700;
+}
+
+.markdown-faq-a {
+  @apply text-gray-700 leading-relaxed text-sm;
+}
+
+.markdown-faq-a::before {
+  content: "A. ";
+  color: var(--color-brand-teal);
+  font-weight: 600;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+a:focus-visible, button:focus-visible {
+  @apply outline-2 outline-offset-2 outline-brand-orange rounded;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(232, 104, 51, 0.15);
+}
