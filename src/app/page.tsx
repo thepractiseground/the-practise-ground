@@ -171,8 +171,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-brand-navy text-center mb-12">Why Practise With Us?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: "📝", title: "25 Questions Weekly", desc: "Fresh quiz content every week covering English grammar, Maths concepts, and more" },
-              { icon: "⚡", title: "Instant Results", desc: "Get your score immediately with detailed explanations for every answer" },
+              { icon: "📝", title: "25 Questions Weekly", desc: "Fresh quiz content every week covering English, Maths, and Science concepts" },
+              { icon: "⚡", title: "Instant Results", desc: "See your score right away and learn which answers you got right or wrong" },
               { icon: "🆓", title: "Completely Free", desc: "No sign-up, no fees, no hidden costs. Just start practising!" },
               { icon: "📱", title: "Works Everywhere", desc: "Practice on your phone, tablet, or computer — anytime, anywhere" },
             ].map((f) => (
