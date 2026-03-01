@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
+import WhatsAppShareGrade from "@/components/WhatsAppShareGrade";
 import type { Metadata } from "next";
 
 interface Props {
@@ -59,9 +60,16 @@ export default async function ScienceGradePage({ params }: Props) {
           <p className="text-white/90 text-lg mb-2">
             Ages {info.ageRange} &middot; {weeks.length} weekly quizzes &middot; {totalQ.toLocaleString()} questions
           </p>
-          <p className="text-white/80">
+          <p className="text-white/80 mb-5">
             Topics: {info.topics}
           </p>
+          <WhatsAppShareGrade
+            grade={grade}
+            subject="Science"
+            totalQuestions={totalQ}
+            totalWeeks={weeks.length}
+            url={`https://www.thepractiseground.in/quiz/science/${grade}`}
+          />
         </div>
       </section>
 

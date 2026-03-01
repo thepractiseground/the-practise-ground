@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GRADES, GRADE_INFO, getGradeWeeks } from "@/lib/quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
+import WhatsAppShareGrade from "@/components/WhatsAppShareGrade";
 import type { Metadata } from "next";
 
 interface Props {
@@ -64,9 +65,16 @@ export default async function GradePage({ params }: Props) {
           <p className="text-white/90 text-lg mb-2">
             Ages {info.ageRange} &middot; {weeks.length} weekly quizzes &middot; {totalQ.toLocaleString()} questions
           </p>
-          <p className="text-white/80">
+          <p className="text-white/80 mb-5">
             Select a week below to start practising. Each quiz has 25 multiple-choice questions.
           </p>
+          <WhatsAppShareGrade
+            grade={grade}
+            subject="English"
+            totalQuestions={totalQ}
+            totalWeeks={weeks.length}
+            url={`https://www.thepractiseground.in/quiz/${grade}`}
+          />
         </div>
       </section>
 
