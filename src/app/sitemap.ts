@@ -1,9 +1,7 @@
 import type { MetadataRoute } from "next";
-import { GRADES, getGradeWeeks } from "@/lib/quiz-data";
-import { MATHS_GRADES, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
-import { SCIENCE_GRADES, getScienceGradeWeeks } from "@/lib/science-quiz-data";
 import { getAllPosts } from "@/data/blog-posts";
 
+// Root sitemap: static pages + blog posts
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.thepractiseground.in";
   const now = new Date();
@@ -20,86 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/donate`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 
-  // English grade hub pages
-  for (const grade of GRADES) {
-    routes.push({
-      url: `${baseUrl}/quiz/${grade}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    });
-
-    // Individual quiz pages
-    const weeks = getGradeWeeks(grade);
-    for (const week of weeks) {
-      routes.push({
-        url: `${baseUrl}/quiz/${grade}/${week.week}`,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.8,
-      });
-    }
-  }
-
-  // Science landing page
-  routes.push({
-    url: `${baseUrl}/quiz/science`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.9,
-  });
-
-  // Science grade hub pages
-  for (const grade of SCIENCE_GRADES) {
-    routes.push({
-      url: `${baseUrl}/quiz/science/${grade}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    });
-
-    // Individual science quiz pages
-    const scienceWeeks = getScienceGradeWeeks(grade);
-    for (const week of scienceWeeks) {
-      routes.push({
-        url: `${baseUrl}/quiz/science/${grade}/${week.week}`,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.8,
-      });
-    }
-  }
-
-  // Maths landing page
-  routes.push({
-    url: `${baseUrl}/quiz/maths`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.9,
-  });
-
-  // Maths grade hub pages
-  for (const grade of MATHS_GRADES) {
-    routes.push({
-      url: `${baseUrl}/quiz/maths/${grade}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    });
-
-    // Individual maths quiz pages
-    const mathsWeeks = getMathsGradeWeeks(grade);
-    for (const week of mathsWeeks) {
-      routes.push({
-        url: `${baseUrl}/quiz/maths/${grade}/${week.week}`,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.8,
-      });
-    }
-  }
-
-  // Blog posts
   const posts = getAllPosts();
   for (const post of posts) {
     routes.push({

@@ -6,6 +6,11 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.thepractiseground.in/sitemap.xml",
+    sitemap: [
+      "https://www.thepractiseground.in/sitemap.xml",
+      "https://www.thepractiseground.in/quiz/sitemap.xml",
+      "https://www.thepractiseground.in/quiz/maths/sitemap.xml",
+      "https://www.thepractiseground.in/quiz/science/sitemap.xml",
+    ],
   };
 }
