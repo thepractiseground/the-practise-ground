@@ -99,6 +99,16 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
     "<ul class='markdown-ul'>$1</ul>"
   );
 
+  // FAQ blocks: detect **Q: ...** / A: ... patterns and render as styled cards
+  html = html.replace(
+    /\*\*Q:\s*(.+?)\*\*\nA:\s*([\s\S]*?)(?=\n\n\*\*Q:|\n\n##|\n\n$|$)/g,
+    (match, question, answer) => {
+      const q = question.trim();
+      const a = answer.trim();
+      return `<div class="markdown-faq-item"><p class="markdown-faq-q">${q}</p><p class="markdown-faq-a">${a}</p></div>`;
+    }
+  );
+
   // Horizontal rules
   html = html.replace(/^---$/gm, "<hr class='markdown-hr' />");
 
@@ -226,5 +236,27 @@ export const markdownStyles = `
 
   .markdown-hr {
     @apply my-8 border-t-2 border-gray-300;
+  }
+
+  .markdown-faq-item {
+    @apply bg-gray-50 border border-gray-200 rounded-xl p-5 mb-4;
+  }
+
+  .markdown-faq-q {
+    @apply font-bold text-brand-navy mb-2 text-base;
+  }
+
+  .markdown-faq-q::before {
+    content: "Q. ";
+    @apply text-brand-orange font-bold;
+  }
+
+  .markdown-faq-a {
+    @apply text-gray-700 leading-relaxed text-sm;
+  }
+
+  .markdown-faq-a::before {
+    content: "A. ";
+    @apply text-brand-teal font-semibold;
   }
 `;
