@@ -353,7 +353,7 @@ export default function AboutPage() {
                 The Practise Ground is created by a team of educators with over <strong>two decades of combined teaching experience across three continents</strong>. Our subject specialists have taught in schools following CBSE, ICSE, Cambridge IGCSE, IB, US Common Core, and AP curricula — in India, the United Kingdom, the United States, and Southeast Asia.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Every question on this platform is <strong>human-authored and peer-reviewed</strong>. We do not use auto-generated content. Each quiz goes through curriculum mapping, expert authoring, and a dedicated accuracy review before it reaches students. We hold ourselves to this standard because we know that reliable practice material is what builds real confidence — and a single factual error can undermine that trust.
+                Every question is <strong>written by subject specialists, reviewed for accuracy, and aligned to the curricula our students actually follow</strong>. We take this seriously because one wrong answer in a study resource can cause lasting confusion — and our students deserve better than that.
               </p>
             </div>
             {/* Visual */}
@@ -364,7 +364,7 @@ export default function AboutPage() {
                     { value: "20+", label: "Years Experience", icon: "📚", bg: "bg-blue-100" },
                     { value: "3", label: "Continents", icon: "🌍", bg: "bg-indigo-100" },
                     { value: "6", label: "Curricula Covered", icon: "📖", bg: "bg-purple-100" },
-                    { value: "100%", label: "Human-Authored", icon: "✍️", bg: "bg-teal-100" },
+                    { value: "100%", label: "Peer-Reviewed", icon: "✍️", bg: "bg-teal-100" },
                   ].map((item) => (
                     <div key={item.label} className={`${item.bg} rounded-2xl p-4 text-center`}>
                       <span className="text-2xl block mb-1">{item.icon}</span>
