@@ -471,17 +471,17 @@ export default function AboutPage() {
           <p className="text-gray-500 text-center mb-10 max-w-lg mx-auto">
             Our content is carefully aligned with major education boards across India and globally.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {[
               { board: "CBSE", full: "Central Board of Secondary Education", color: "from-blue-500 to-blue-600" },
               { board: "ICSE", full: "Indian Certificate of Secondary Education", color: "from-emerald-500 to-emerald-600" },
-              { board: "Cambridge", full: "Cambridge IGCSE", color: "from-purple-500 to-purple-600" },
+              { board: "Cambridge IGCSE", full: "Cambridge International", color: "from-purple-500 to-purple-600" },
               { board: "IB", full: "International Baccalaureate", color: "from-amber-500 to-amber-600" },
               { board: "Common Core", full: "US Common Core Standards", color: "from-red-500 to-red-600" },
-              { board: "AP", full: "Advanced Placement", color: "from-indigo-500 to-indigo-600" },
+              { board: "AP", full: "Advanced Placement (US)", color: "from-indigo-500 to-indigo-600" },
             ].map((b) => (
-              <div key={b.board} className={`bg-gradient-to-br ${b.color} rounded-2xl p-5 text-center text-white`}>
-                <p className="text-2xl font-bold mb-1">{b.board}</p>
+              <div key={b.board} className={`bg-gradient-to-br ${b.color} rounded-2xl px-6 py-5 text-center text-white`}>
+                <p className="text-xl font-bold mb-1">{b.board}</p>
                 <p className="text-xs text-white/80 leading-snug">{b.full}</p>
               </div>
             ))}
