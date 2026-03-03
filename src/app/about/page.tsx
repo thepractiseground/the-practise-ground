@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us — Free English, Maths & Science Quizzes | The Practise Ground",
   description:
-    "The Practise Ground is a free quiz platform for Grades 5-10 covering English, Maths, and Science. 15,600+ questions aligned with CBSE, ICSE, Cambridge & IB curricula.",
+    "The Practise Ground is a free quiz platform for Grades 5-10 covering English, Maths, and Science. 23,400+ questions built by 10+ educators with 20+ years of teaching experience.",
   openGraph: {
     title: "About The Practise Ground",
     description:
@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
-              { value: "15,600+", label: "Quiz Questions", color: "text-brand-orange" },
+              { value: "23,400+", label: "Quiz Questions", color: "text-brand-orange" },
               { value: "3", label: "Subjects", color: "text-brand-navy" },
               { value: "6", label: "Grade Levels", color: "text-brand-teal" },
               { value: "100%", label: "Free Forever", color: "text-purple-600" },
@@ -182,7 +182,7 @@ export default function AboutPage() {
                 <span className="text-3xl">🔬</span>
               </div>
               <h3 className="text-xl font-bold text-brand-navy mb-2">Science</h3>
-              <p className="text-sm text-purple-600 font-semibold mb-3">Quizzes Coming Soon</p>
+              <p className="text-sm text-gray-500 font-semibold mb-3">7,800+ questions</p>
               <ul className="text-gray-600 text-sm space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-purple-500 mt-0.5">&#10003;</span>
@@ -198,7 +198,7 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-purple-500 mt-0.5">&#10003;</span>
-                  15 blog guides already live
+                  Environmental science &amp; natural resources
                 </li>
               </ul>
               <Link href="/quiz/science" className="inline-block mt-5 text-purple-600 font-semibold text-sm hover:underline">
@@ -283,7 +283,7 @@ export default function AboutPage() {
                     { icon: "🚫", text: "No sign-up required", color: "bg-red-100 text-red-700" },
                     { icon: "🚫", text: "No ads or tracking", color: "bg-red-100 text-red-700" },
                     { icon: "🚫", text: "No premium tier", color: "bg-red-100 text-red-700" },
-                    { icon: "✅", text: "15,600+ free questions", color: "bg-green-100 text-green-700" },
+                    { icon: "✅", text: "23,400+ free questions", color: "bg-green-100 text-green-700" },
                     { icon: "✅", text: "45+ blog guides", color: "bg-green-100 text-green-700" },
                     { icon: "✅", text: "Free forever", color: "bg-green-100 text-green-700" },
                   ].map((item) => (
@@ -343,6 +343,127 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Our Team */}
+      <section className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-4">Our Team</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                The Practise Ground is built and maintained by a dedicated team of <strong>10+ educators</strong> with over <strong>20 years of combined teaching experience</strong> across English, Mathematics, and Science. Our team includes subject-matter experts who have taught in schools following CBSE, ICSE, Cambridge, and IB curricula — giving us first-hand insight into what students need at every grade level.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Every question on this platform is written, reviewed, and refined by real teachers — not auto-generated. We take accuracy seriously because we know that a single incorrect answer in a study resource can cause lasting confusion. Our educators bring classroom experience from India, the UK, and Southeast Asia, ensuring our content works for students across different education systems.
+              </p>
+            </div>
+            {/* Visual */}
+            <div className="relative">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8">
+                <div className="grid grid-cols-2 gap-4">
+                  {[
+                    { value: "10+", label: "Educators", icon: "👩‍🏫", bg: "bg-blue-100" },
+                    { value: "20+", label: "Years Experience", icon: "📚", bg: "bg-indigo-100" },
+                    { value: "3", label: "Subjects", icon: "📖", bg: "bg-purple-100" },
+                    { value: "4", label: "Curricula Covered", icon: "🌍", bg: "bg-teal-100" },
+                  ].map((item) => (
+                    <div key={item.label} className={`${item.bg} rounded-2xl p-4 text-center`}>
+                      <span className="text-2xl block mb-1">{item.icon}</span>
+                      <p className="text-xl font-bold text-brand-navy">{item.value}</p>
+                      <p className="text-xs text-gray-600">{item.label}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="absolute -top-3 -right-3 w-6 h-6 bg-brand-teal rounded-full opacity-40" />
+              <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-brand-orange rounded-full opacity-40" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Content Quality */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 py-16">
+        <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-3">How We Ensure Quality</h2>
+        <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+          Every question goes through a rigorous process before it reaches you.
+        </p>
+        <div className="grid sm:grid-cols-4 gap-6">
+          {[
+            {
+              step: "1",
+              title: "Curriculum Mapping",
+              desc: "Each grade and subject is mapped to CBSE, ICSE, Cambridge, and IB syllabi to ensure comprehensive topic coverage across all 52 weeks.",
+              gradient: "from-blue-500 to-blue-600",
+            },
+            {
+              step: "2",
+              title: "Expert Authoring",
+              desc: "Questions are written by subject specialists with hands-on teaching experience, ensuring age-appropriate difficulty and clear language.",
+              gradient: "from-brand-teal to-emerald-500",
+            },
+            {
+              step: "3",
+              title: "Accuracy Review",
+              desc: "Every question, option, and answer is critically reviewed for factual accuracy. Errors are identified and corrected before publication.",
+              gradient: "from-purple-500 to-purple-600",
+            },
+            {
+              step: "4",
+              title: "Ongoing Updates",
+              desc: "Our content is regularly revisited and updated to fix issues, improve clarity, and keep pace with curriculum changes.",
+              gradient: "from-brand-orange to-orange-500",
+            },
+          ].map((item) => (
+            <div key={item.step} className="text-center">
+              <div className={`w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-br ${item.gradient} flex items-center justify-center shadow-lg`}>
+                <span className="text-white text-xl font-bold">{item.step}</span>
+              </div>
+              <h3 className="font-bold text-brand-navy text-base mb-2">{item.title}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* What's Next */}
+      <section className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-3">What&apos;s Next</h2>
+          <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+            We&apos;re actively expanding The Practise Ground. Here&apos;s a glimpse of what&apos;s on our roadmap.
+          </p>
+          <div className="grid sm:grid-cols-3 gap-6">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl p-6">
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+                <span className="text-2xl">📈</span>
+              </div>
+              <h3 className="font-bold text-brand-navy mb-2">More Grades</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Grades 11 and 12 are next — covering senior secondary topics in English, Maths, and Science for students preparing for board exams and competitive entrance tests.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-100 rounded-2xl p-6">
+              <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-4">
+                <span className="text-2xl">🌐</span>
+              </div>
+              <h3 className="font-bold text-brand-navy mb-2">Language Practice</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We&apos;re building quiz modules for additional languages including German, Spanish, Chinese, Bengali, and Portuguese — making language learning accessible and structured.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-100 rounded-2xl p-6">
+              <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
+                <span className="text-2xl">💼</span>
+              </div>
+              <h3 className="font-bold text-brand-navy mb-2">Life Skills Courses</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Free courses in Finance Management, Time Management, and Team Management — designed for Grade 12 students and beyond, to help them prepare for college and careers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Curriculum alignment visual */}
       <section className="bg-white py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
@@ -392,10 +513,10 @@ export default function AboutPage() {
                 Maths Quizzes
               </Link>
               <Link
-                href="/quiz/science"
-                className="bg-white/20 border-2 border-white text-white font-bold px-8 py-3 rounded-xl hover:bg-white/30 transition-colors"
+                href="/quiz/science/8"
+                className="bg-white text-brand-navy font-bold px-8 py-3 rounded-xl hover:bg-gray-100 transition-colors"
               >
-                Science
+                Science Quizzes
               </Link>
             </div>
           </div>
