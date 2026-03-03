@@ -350,10 +350,10 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-4">Our Team</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                The Practise Ground is built and maintained by a dedicated team of <strong>10+ educators</strong> with over <strong>20 years of combined teaching experience</strong> across English, Mathematics, and Science. Our team includes subject-matter experts who have taught in schools following CBSE, ICSE, Cambridge, and IB curricula — giving us first-hand insight into what students need at every grade level.
+                The Practise Ground is created by a team of educators with over <strong>two decades of combined teaching experience across three continents</strong>. Our subject specialists have taught in schools following CBSE, ICSE, Cambridge IGCSE, IB, US Common Core, and AP curricula — in India, the United Kingdom, the United States, and Southeast Asia.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Every question on this platform is written, reviewed, and refined by real teachers — not auto-generated. We take accuracy seriously because we know that a single incorrect answer in a study resource can cause lasting confusion. Our educators bring classroom experience from India, the UK, and Southeast Asia, ensuring our content works for students across different education systems.
+                Every question on this platform is <strong>human-authored and peer-reviewed</strong>. We do not use auto-generated content. Each quiz goes through curriculum mapping, expert authoring, and a dedicated accuracy review before it reaches students. We hold ourselves to this standard because we know that reliable practice material is what builds real confidence — and a single factual error can undermine that trust.
               </p>
             </div>
             {/* Visual */}
@@ -361,10 +361,10 @@ export default function AboutPage() {
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8">
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { value: "10+", label: "Educators", icon: "👩‍🏫", bg: "bg-blue-100" },
-                    { value: "20+", label: "Years Experience", icon: "📚", bg: "bg-indigo-100" },
-                    { value: "3", label: "Subjects", icon: "📖", bg: "bg-purple-100" },
-                    { value: "4", label: "Curricula Covered", icon: "🌍", bg: "bg-teal-100" },
+                    { value: "20+", label: "Years Experience", icon: "📚", bg: "bg-blue-100" },
+                    { value: "3", label: "Continents", icon: "🌍", bg: "bg-indigo-100" },
+                    { value: "6", label: "Curricula Covered", icon: "📖", bg: "bg-purple-100" },
+                    { value: "100%", label: "Human-Authored", icon: "✍️", bg: "bg-teal-100" },
                   ].map((item) => (
                     <div key={item.label} className={`${item.bg} rounded-2xl p-4 text-center`}>
                       <span className="text-2xl block mb-1">{item.icon}</span>
@@ -471,12 +471,14 @@ export default function AboutPage() {
           <p className="text-gray-500 text-center mb-10 max-w-lg mx-auto">
             Our content is carefully aligned with major education boards across India and globally.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {[
               { board: "CBSE", full: "Central Board of Secondary Education", color: "from-blue-500 to-blue-600" },
               { board: "ICSE", full: "Indian Certificate of Secondary Education", color: "from-emerald-500 to-emerald-600" },
               { board: "Cambridge", full: "Cambridge IGCSE", color: "from-purple-500 to-purple-600" },
               { board: "IB", full: "International Baccalaureate", color: "from-amber-500 to-amber-600" },
+              { board: "Common Core", full: "US Common Core Standards", color: "from-red-500 to-red-600" },
+              { board: "AP", full: "Advanced Placement", color: "from-indigo-500 to-indigo-600" },
             ].map((b) => (
               <div key={b.board} className={`bg-gradient-to-br ${b.color} rounded-2xl p-5 text-center text-white`}>
                 <p className="text-2xl font-bold mb-1">{b.board}</p>
