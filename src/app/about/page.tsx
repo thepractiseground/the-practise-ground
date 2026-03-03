@@ -257,13 +257,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-4">Why Is It Free?</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                We believe that quality education should never be locked behind a paywall. Tuition classes cost thousands. Premium apps charge monthly subscriptions. We think practice material should be free — period.
+                Quality practice material shouldn&apos;t be locked behind a paywall. Every quiz, every question, and every blog post on The Practise Ground is <strong>free to access — no sign-up, no paywalls, no hidden costs</strong>.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                The Practise Ground has <strong>no ads, no paywalls, no data selling, and no premium tiers</strong>. Every feature, every question, every blog post is available to every student — always.
+                We believe consistent practice is what helps students improve, and cost should never be the barrier. That&apos;s why we&apos;re committed to keeping our core content freely available to every student.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                If you find value in what we do and want to help us keep the lights on, you can{" "}
+                If you find value in what we do, you can{" "}
                 <a
                   href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
                   target="_blank"
@@ -272,7 +272,7 @@ export default function AboutPage() {
                 >
                   support us with a small donation
                 </a>
-                . But it&apos;s never required.
+                {" "}to help us grow and add more content.
               </p>
             </div>
             {/* Visual */}
@@ -281,11 +281,11 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   {[
                     { icon: "🚫", text: "No sign-up required", color: "bg-red-100 text-red-700" },
-                    { icon: "🚫", text: "No ads or tracking", color: "bg-red-100 text-red-700" },
-                    { icon: "🚫", text: "No premium tier", color: "bg-red-100 text-red-700" },
+                    { icon: "🚫", text: "No paywalls or hidden fees", color: "bg-red-100 text-red-700" },
                     { icon: "✅", text: "23,400+ free questions", color: "bg-green-100 text-green-700" },
+                    { icon: "✅", text: "3 subjects, 6 grades", color: "bg-green-100 text-green-700" },
                     { icon: "✅", text: "45+ blog guides", color: "bg-green-100 text-green-700" },
-                    { icon: "✅", text: "Free forever", color: "bg-green-100 text-green-700" },
+                    { icon: "✅", text: "Core content always free", color: "bg-green-100 text-green-700" },
                   ].map((item) => (
                     <div
                       key={item.text}
