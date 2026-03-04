@@ -59,6 +59,9 @@ export default function Header() {
             <Link href="/colouring-books" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               Colouring Books
             </Link>
+            <Link href="/posters-printables" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
+              Posters
+            </Link>
             <Link href="/about" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               About
             </Link>
@@ -115,6 +118,7 @@ export default function Header() {
             ))}
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
+            <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Posters &amp; Printables</Link>
             <Link href="/about" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">About</Link>
             <Link href="/contact" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Contact</Link>
             <a

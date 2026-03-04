@@ -76,6 +76,7 @@ export default function Footer() {
               <Link href="/blog" className="hover:text-brand-orange transition-colors">Blog</Link>
               <Link href="/for-parents" className="hover:text-brand-orange transition-colors">For Parents</Link>
               <Link href="/colouring-books" className="hover:text-brand-orange transition-colors">Colouring Books</Link>
+              <Link href="/posters-printables" className="hover:text-brand-orange transition-colors">Posters &amp; Printables</Link>
               <Link href="/about" className="hover:text-brand-orange transition-colors">About Us</Link>
               <Link href="/contact" className="hover:text-brand-orange transition-colors">Contact</Link>
               <Link href="/donate" className="hover:text-brand-orange transition-colors">Donate</Link>
