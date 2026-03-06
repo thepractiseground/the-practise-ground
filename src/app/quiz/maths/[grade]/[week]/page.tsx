@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks, getMathsWeek, getAllMathsGradeWeekPairs } from "@/lib/maths-quiz-data";
+import { getQuizEnrichment } from "@/lib/quiz-enrichment";
 import QuizEngine from "@/components/QuizEngine";
 import type { Metadata } from "next";
 
@@ -24,9 +25,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!weekData) return { title: "Quiz Not Found" };
 
   const topic = weekData.topic || "Maths Practice";
+  const enrichment = getQuizEnrichment("maths", grade, weekNum);
+  const metaDesc = enrichment
+    ? `${enrichment.introduction.split('.').slice(0, 2).join('.')}. ${weekData.questions.length} free practice questions with instant scoring.`
+    : `Take this free Grade ${grade} Maths quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for students aged ${MATHS_GRADE_INFO[grade]?.ageRange}.`;
   return {
-    title: `Grade ${grade} Week ${weekNum}: ${topic} - Maths Quiz`,
-    description: `Take this free Grade ${grade} Maths quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for students aged ${MATHS_GRADE_INFO[grade]?.ageRange}.`,
+    title: `${topic} Quiz – Grade ${grade} Maths Practice`,
+    description: metaDesc,
     keywords: [
       `grade ${grade} maths quiz week ${weekNum}`,
       `${topic.toLowerCase()} quiz`,
@@ -54,6 +59,7 @@ export default async function MathsQuizPage({ params }: Props) {
   const nextWeek = currentIdx < allWeeks.length - 1 ? allWeeks[currentIdx + 1] : null;
 
   const topic = weekData.topic || "Maths Practice";
+  const enrichment = getQuizEnrichment("maths", grade, weekNum);
 
   return (
     <div className="bg-theme-gradient min-h-screen pb-16">
@@ -75,6 +81,30 @@ export default async function MathsQuizPage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {/* Topic Introduction & Learning Objectives */}
+      {enrichment && (
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6">
+          <div className="bg-white rounded-xl border border-gray-100 p-5 sm:p-6 shadow-sm">
+            <p className="text-gray-700 leading-relaxed">{enrichment.introduction}</p>
+            {enrichment.learningObjectives.length > 0 && (
+              <div className="mt-4">
+                <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">What you&apos;ll practise</h2>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {enrichment.learningObjectives.map((obj, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
+                      <svg className="w-4 h-4 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      {obj}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Quiz Engine */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
