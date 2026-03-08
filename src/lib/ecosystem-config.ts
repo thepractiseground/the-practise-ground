@@ -72,3 +72,18 @@ export function getPromoTargets(): EcosystemProject[] {
   const targets = crossPromoTargets[CURRENT_SITE] || [];
   return targets.map((id) => ecosystem[id]);
 }
+
+/**
+ * Build a UTM-tagged URL for cross-promo tracking.
+ * @param baseUrl - The destination project URL
+ * @param content - The banner type: "strip" or "floating_bar"
+ */
+export function buildUtmUrl(baseUrl: string, content: "strip" | "floating_bar"): string {
+  const params = new URLSearchParams({
+    utm_source: CURRENT_SITE,
+    utm_medium: "banner",
+    utm_campaign: "cross_promo",
+    utm_content: content,
+  });
+  return `${baseUrl}?${params.toString()}`;
+}

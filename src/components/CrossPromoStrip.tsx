@@ -1,6 +1,6 @@
 "use client";
 
-import { getPromoTargets } from "@/lib/ecosystem-config";
+import { getPromoTargets, buildUtmUrl } from "@/lib/ecosystem-config";
 import type { EcosystemProject } from "@/lib/ecosystem-config";
 
 interface CrossPromoStripProps {
@@ -13,7 +13,7 @@ interface CrossPromoStripProps {
 function StripContent({ project }: { project: EcosystemProject }) {
   return (
     <a
-      href={project.url}
+      href={buildUtmUrl(project.url, "strip")}
       target="_blank"
       rel="noopener noreferrer"
       className={`flex items-center gap-3 ${project.stripBg} rounded-xl px-5 py-3.5 transition-all duration-200 hover:opacity-90 group`}

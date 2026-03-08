@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { getPromoTargets } from "@/lib/ecosystem-config";
+import { getPromoTargets, buildUtmUrl } from "@/lib/ecosystem-config";
 
 export default function FloatingPromoBar() {
   const [dismissed, setDismissed] = useState(true); // Start hidden, show after scroll
@@ -55,7 +55,7 @@ export default function FloatingPromoBar() {
             {project.name}
           </span>
           <a
-            href={project.url}
+            href={buildUtmUrl(project.url, "floating_bar")}
             target="_blank"
             rel="noopener noreferrer"
             className={`${project.ctaBg} ${project.ctaHoverBg} text-white text-xs font-semibold px-3.5 py-1.5 rounded-lg transition-colors whitespace-nowrap`}
