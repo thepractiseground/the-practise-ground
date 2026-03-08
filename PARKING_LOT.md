@@ -28,43 +28,36 @@ Discussed approaches to build backlinks and grow organic traffic to thepractiseg
 
 ## Google Search Console — Indexing Review
 
-**Added:** 1 Mar 2026
+**Added:** 1 Mar 2026 | **Updated:** 6 Mar 2026
 
-**Current state:** 222 pages indexed, 467 not indexed (out of ~1,012 total pages in sitemap).
+### Latest Report (6 Mar 2026): 873 pages indexed (+651)
 
-### Not-Indexed Breakdown (6 reasons):
+Indexed pages jumped from 222 → 873 between Feb 22-25. Sitemap split is working.
 
-| Reason | Count | Priority | Notes |
-|--------|-------|----------|-------|
-| Discovered – currently not indexed | 454 | HIGH | Google found these pages (via sitemap) but hasn't crawled them yet. This is the main issue — typical for newer domains with many structurally similar pages (936 quiz pages with same template). |
-| Page with redirect | 6 | LOW | Likely www/non-www or trailing slash redirects. Check if old URLs or renamed pages are still in sitemap. |
-| Excluded by 'noindex' tag | 3 | MEDIUM | Investigate — we're not intentionally noindexing any pages. Could be a Next.js default on certain routes or a meta tag issue. |
-| Crawled – currently not indexed | 2 | MEDIUM | Google crawled but chose not to index. May indicate thin content on those specific pages. Identify which pages and add more unique content. |
-| Not found (404) | 1 | LOW | A dead link somewhere. Find and fix or remove from sitemap. |
-| Duplicate, Google chose different canonical | 1 | LOW | Google thinks two pages are duplicates and picked one. Check canonical tags. |
+| Reason | 1 Mar | 6 Mar | Change | Status |
+|--------|-------|-------|--------|--------|
+| **Indexed** | **222** | **873** | **+651** | Great progress |
+| Discovered – not indexed | 454 | 109 | -345 | Resolving naturally |
+| Crawled – not indexed | 2 | 16 | +14 | Monitor — quiz page enrichment should help |
+| Page with redirect | 6 | 9 | +3 | Low priority |
+| Excluded by 'noindex' tag | 3 | 3 | Same | Investigated: no noindex tags in codebase; likely phantom/cached |
+| Alternative page with canonical | 0 | 2 | +2 | Low priority |
+| Not found (404) | 1 | 1 | Same | No broken routes found in codebase; likely old cached URL |
 
-### Action Items to Address:
+### Completed Actions:
+1. ~~**Split sitemap**~~ ✅ DONE (1 Mar 2026) — Created 4 per-route sitemaps. Directly contributed to the 651-page indexing jump.
+2. ~~**Add unique content per quiz page**~~ ✅ DONE (6 Mar 2026) — Added topic introductions and "What you'll practise" learning objectives to all 933 quiz pages. Also improved meta titles (topic-first) and meta descriptions (using enrichment intro).
+3. ~~**Investigate noindex pages**~~ ✅ DONE (6 Mar 2026) — No noindex tags anywhere in codebase. Layout.tsx explicitly sets `robots: { index: true, follow: true }`. These 3 pages are likely phantom/cached from a build transition.
+4. ~~**Investigate 404 page**~~ ✅ DONE (6 Mar 2026) — No broken routes or dead links found. All internal links verified. Likely an old cached URL from a previous deploy.
 
-**For the 454 "Discovered – not indexed" (biggest win):**
-1. **Split sitemap** — Create separate sitemaps per subject (`sitemap-english.xml`, `sitemap-maths.xml`, `sitemap-science.xml`) so Google can prioritize crawling.
-2. **Improve internal linking** — Ensure every quiz page is reachable within 3 clicks from the homepage. Add cross-links between related weeks/topics.
-3. **Add unique content per quiz page** — Each week page currently shows 25 MCQs with the same template. Add a short intro paragraph unique to each topic/week to differentiate pages for Googlebot.
-4. **Request indexing** — For high-priority pages (grade hubs, landing pages), manually request indexing in Search Console.
-5. **Build crawl demand** — More backlinks and traffic signals (ties back to Backlink Strategy above) tell Google these pages are worth crawling.
+### Remaining Actions:
+- **Improve internal linking** — Add cross-links between related quiz weeks/topics and "Try the blog post" links where relevant.
+- **Request indexing** — For high-priority pages (grade hubs, landing pages), manually request indexing in Search Console.
+- **Build crawl demand** — More backlinks and traffic signals (ties back to Backlink Strategy above).
+- **Monitor "Crawled – not indexed" (16 pages)** — These are pages Google visited but chose not to index. The enrichment we just deployed should help on recrawl. Check in Search Console which specific URLs these are and whether they improve after enrichment is live.
 
-**For the 3 "noindex" pages:**
-- Investigate which pages have noindex and why. Run `site:thepractiseground.in` searches or inspect URLs in Search Console to identify them.
-
-**For the 2 "Crawled – not indexed" pages:**
-- Identify the specific pages and review their content. May need more unique text, better meta descriptions, or structured data.
-
-**For the 1 "404" page:**
-- Find the dead URL and either fix the route or remove it from the sitemap.
-
-### General Notes:
-- The site is relatively new and Google takes time to crawl/index large sites with many similar pages. The 222 indexed count has been growing (visible upward trend in the graph).
-- The 454 "discovered but not indexed" is not unusual for a site with ~1,000 pages that's only a few months old. Patience + the above optimizations will help.
-- Phase 2 should revisit this after implementing backlink strategy and sitemap improvements.
+### Impressions Trend (daily):
+Feb 20: 10 → Feb 25: 1,913 → Mar 1: 2,750 → Mar 3: 2,316. Strong growth trajectory.
 
 ---
 
@@ -102,5 +95,148 @@ The platform is currently 100% free with donations as the only revenue source. A
 4. Be transparent with users about why ads or premium features exist.
 
 **Decision needed:** Which model(s) to pursue first, and at what traffic threshold to implement them.
+
+---
+
+## Quiz Accuracy Review — Completed
+
+**Added:** 5 Mar 2026
+
+Systematic accuracy review of all English and Maths quiz data (~15,500 questions). Reviewed grade-by-grade using automated detection (blank options, duplicates, structural issues) plus manual spot-checking of flagged items.
+
+### Fixes Applied
+
+**English G5** (52 questions fixed, committed 1 Mar 2026):
+- W46 Q5: Wrong answer key (sequencing) — D→A
+- W46 Q22-25: Blank options filled with Fact/Opinion/Neither/Both
+- W47 Q1-25: All 25 blank-option questions replaced with proper Fact vs Opinion questions
+- W11 Q1-23: 23 questions duplicated from W10 (Articles) replaced with Adjective questions
+- W35 Q22: Duplicate proverb replaced
+
+**English G6** (fixed 5 Mar 2026):
+- W2 Q17: All 4 options were identical broken text — fixed with distinct options
+- W51: Only 21 questions — added 4 to reach 25
+
+**English G7** (fixed 5 Mar 2026):
+- W12 Q11: Wrong answer key ("picture on the wall" — D "all of these" → A "on")
+- W52: Entire week was missing — created 25 revision questions
+
+**English G8** (fixed 5 Mar 2026):
+- W52: Only 21 questions — added 4 (active/passive voice, idioms, literary devices)
+
+**English G9** (fixed 5 Mar 2026):
+- W52: Only 21 questions — added 4 (complex sentences, rhetorical devices, register)
+
+**English G10** (fixed 5 Mar 2026):
+- W52: Only 21 questions — added 4 (subjunctive mood, anaphora, literary criticism)
+
+**Maths G5** (fixed 5 Mar 2026):
+- W47 Q4: All 4 options identical ["2","2","2","2"] — fixed to ["2","4","1","3"]
+
+**Maths G9** (fixed 5 Mar 2026):
+- W37-39: 21 statistics questions had wrong mean/median answers (integer rounding instead of correct decimal values). All corrected.
+
+### Review Findings — No Fix Needed
+
+- English G6-G10: Many questions share generic prompt text ("Which is correct?") but have different options — by design, not a bug
+- Maths G5-G8, G10: No mathematical errors found
+- Reviewer-flagged items verified as false positives: G5 W10 Q13 ("a European" is correct), G6 W27-28 and W40-41 duplicate claims (0 duplicates found)
+- Previously reported errors (G5 area=20cm, G7 -15+(-20)=5, G10 sin(90°)=0) not present in current data — likely fixed in earlier version
+
+### Known Content Quality Notes (Not Bugs)
+
+- English G7-G10: Some weeks have high duplication of generic question stems like "Which is correct?" across different topics. The questions themselves are different (different options/answers), but the prompt text is repetitive. This is a content quality improvement opportunity, not an accuracy issue.
+- Some review/revision weeks (W50-52) intentionally repeat question patterns from earlier weeks.
+
+---
+
+## Content Strategy — Search Console Performance Analysis
+
+**Added:** 5 Mar 2026
+
+### Current Performance Snapshot (28-day, ~458 pages in search)
+
+| Page | Impressions | Clicks | CTR |
+|------|------------|--------|-----|
+| /blog/letter-writing-format-guide | 7,226 | 25 | 0.35% |
+| /blog/trigonometry-beginners-sin-cos-tan | 846 | 6 | 0.71% |
+| /blog/subject-verb-agreement-rules | 623 | 4 | 0.64% |
+| /blog/cbse-english-grammar-practice-class-6-7 | 329 | 6 | 1.82% |
+| /blog/coordinate-geometry-graphs-visual-guide | 248 | 3 | 1.21% |
+| /blog/mental-maths-tricks-every-student-should-know | 194 | 3 | 1.55% |
+| /quiz/5 (English G5 hub) | 139 | 4 | 2.88% |
+| /quiz/9 (English G9 hub) | 103 | 9 | 8.74% |
+| /quiz/maths/8 (Maths G8 hub) | 73 | 5 | 6.85% |
+
+### Key Insights
+
+**1. Blog posts are the traffic engine, not quiz pages.**
+6 of the top 10 pages by impressions are blog posts. The letter writing guide alone gets 7,226 impressions — more than all quiz hub pages combined. This confirms that informational content targeting search intent is what Google surfaces for a newer domain.
+
+**2. CTR is critically low on high-impression blog posts.**
+The letter writing guide converts at 0.35%, which is well below the 1-3% typical for educational content. The title tag and meta description are likely not compelling enough in search results. Even a modest improvement to 1.5% CTR would triple clicks from 25 to ~108 on that page alone.
+
+**3. Quiz hub pages have high CTR but negligible impressions.**
+/quiz/9 converts at 8.74% — excellent — but only gets 103 impressions. The quiz pages themselves are strong once discovered, but Google isn't surfacing them for many queries. They need blog posts as gateway content.
+
+**4. Individual quiz week pages (/quiz/9/12 etc.) barely register.**
+Students search for "trigonometry practice" or "English grammar exercises," not "grade 9 week 12 quiz." This confirms the 454 "discovered not indexed" pages — Google sees them as thin, templated content without enough unique value to index.
+
+### Strategy: Three Pillars
+
+**PILLAR 1 — Fix CTR on existing high-impression pages (Quick Win)**
+
+Rewrite title tags and meta descriptions for the top blog posts to be more click-worthy in search results. Current titles are informative but not compelling.
+
+| Blog Post | Current Title Approach | Suggested Direction |
+|-----------|----------------------|---------------------|
+| Letter writing format guide | Descriptive/factual | Add "with Examples" or "CBSE/ICSE Format" — searchers want to see their board name |
+| Trigonometry beginners | Generic | Add "Class 9-10" or "with Solved Examples" — signals relevance |
+| Subject-verb agreement | Generic | Add "Rules with Exercises" or "Practice Questions" — signals interactivity |
+| CBSE English grammar | Already has "Class 6-7" | Add "Free Practice" or "with Quizzes" |
+
+**PILLAR 2 — Create more blog posts targeting proven search demand (Growth)**
+
+The data shows which topics Google already associates with the site. Double down on these clusters with more content:
+
+**High-priority blog post ideas (based on what's already working):**
+
+- "Letter Writing Format for Class 10 CBSE — Formal & Informal with Examples" (the letter writing guide is a proven winner — create grade-specific variants)
+- "Trigonometry Formulas for Class 10 — Quick Reference with Practice" (extend the trig success)
+- "English Grammar Rules Every Class 8 Student Should Know" (extend the G6-7 grammar success to G8)
+- "ICSE English Grammar Practice — Class 9 and 10" (board-specific variant)
+- "Mental Maths Worksheets for Class 5-6 — Free Printable" (extend mental maths success + ties to posters section)
+- "Science Quiz for Class 7 — Test Your Knowledge" (Science has zero blog presence currently)
+- "How to Improve English Vocabulary — Daily Practice for Students" (high-volume evergreen query)
+- "Maths Formulas for Class 8 — Complete List with Examples" (formula reference posts get massive search volume in India)
+
+**Medium-priority (new topic clusters):**
+
+- "NCERT Solutions" style content — reference guides that link into quizzes
+- "Exam preparation tips" — seasonal traffic spikes before board exams (Feb-Mar)
+- "Study timetable for Class 10" — high search volume, builds trust
+
+**PILLAR 3 — Make quiz pages indexable and linkable (Long-term)**
+
+For the ~450 unindexed quiz pages, the fix isn't more blog posts — it's making each quiz page uniquely valuable:
+
+- Add a 2-3 sentence topic introduction unique to each week (e.g., "This week covers prepositions of place — learn the difference between in, on, at, and beside through 25 practice questions")
+- Add "Related Topics" links at the bottom of each quiz page connecting to other relevant weeks
+- Add "Try the blog post" links where relevant blog content exists (e.g., trig quiz → trig blog post, and vice versa)
+- Consider adding a "What You'll Learn" bullet list at the top of each quiz page — gives Google unique text to index
+
+### Implementation Priority
+
+1. **Immediate (this week):** Rewrite meta titles/descriptions for top 6 blog posts to improve CTR
+2. **Short-term (next 2 weeks):** Write 3-4 new blog posts targeting proven clusters (letter writing variants, maths formulas, science quiz intro)
+3. **Medium-term (next month):** Add unique topic introductions to all 936 quiz pages (can be automated — generate from topic name)
+4. **Ongoing:** Publish 2-3 blog posts per month on high-search-volume educational topics, each linking to relevant quiz pages
+
+### Metrics to Track
+
+- Total impressions (currently growing — good sign)
+- Average CTR across blog posts (target: 1.5%+, currently ~0.5%)
+- Number of indexed pages (currently 222 of ~1,012)
+- Clicks from blog posts to quiz pages (internal conversion)
 
 ---

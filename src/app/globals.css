@@ -149,3 +149,12 @@ a:focus-visible, button:focus-visible {
 ::selection {
   background-color: rgba(232, 104, 51, 0.15);
 }
+
+/* Cross-promo slide-up animation */
+@keyframes slide-up {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-slide-up {
+  animation: slide-up 0.4s ease-out forwards;
+}

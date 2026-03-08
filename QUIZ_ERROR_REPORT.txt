@@ -1,0 +1,208 @@
+
+================================================================================
+ENGLISH GRADE 10 QUIZ DATA - COMPREHENSIVE ERROR REVIEW
+================================================================================
+Generated: 2026-03-05
+File: src/data/quizzes.json (Grade 10 - Key "5")
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Total Questions Extracted: 1,296 out of expected 1,300
+Questions Missing: 4 (Week 52 incomplete)
+Total Issues Found: 11 major issue categories with 50+ problem instances
+
+CRITICAL ISSUES: 3
+- Incomplete week (4 missing questions)
+- 22 ambiguous questions without proper context
+- Inconsistent answer keys for duplicate questions
+
+HIGH PRIORITY ISSUES: 2
+- 11 duplicate questions within individual weeks
+- Cross-week duplicate consistency problems
+
+================================================================================
+DETAILED FINDINGS
+================================================================================
+
+1. INCOMPLETE WEEK - CRITICAL
+────────────────────────────────────────────────────────────────────────────
+Week: 52 (Year-End Review & Assessment)
+Current Question Count: 21
+Expected Question Count: 25
+Missing Questions: 4 (question #22-25 are not present)
+
+Impact: Quiz data is incomplete by 0.3% (4 out of 1,300 questions)
+Severity: CRITICAL - Students cannot access final review questions
+
+Suggested Fix:
+  - Add 4 questions to Week 52 to reach minimum 25 questions
+  - Consider reviewing the entire week's structure
+
+
+2. AMBIGUOUS QUESTIONS - CRITICAL
+────────────────────────────────────────────────────────────────────────────
+Week: 28 (Punctuation & Capitalization)
+Question Pattern: "Which is correct?"
+Affected Questions: 22 questions (Q1-Q23)
+Problem: All questions have identical text "Which is correct?" with no context
+
+Examples with options shown:
+  Q1:  A) my name is Sam.  B) my name is sam.  C) My name is Sam.  D) My name is sam.
+  Q2:  A) monday  B) Monday  C) MONDAY  D) mOnday
+  Q3:  A) i am happy.  B) I am happy.  C) i AM happy.  D) I Am Happy
+  ...and 19 more similar variations
+
+Impact: Students must rely solely on options to understand the question's intent
+Severity: CRITICAL - Poor question design and unclear expectations
+
+Suggested Fix:
+  - Reword each question to specify the grammar rule being tested
+  - Examples:
+    * "Which shows correct capitalization?" 
+    * "Which is correctly capitalized?"
+    * "Which sentence has correct capitalization and punctuation?"
+
+
+3. DUPLICATE QUESTIONS WITHIN SAME WEEK - HIGH
+────────────────────────────────────────────────────────────────────────────
+Week 2 (Nouns):
+  Q2, Q13, Q21: "Which is a proper noun?" (Answer: C)
+    - 3 identical questions in same week
+    
+  Q6, Q19: "Which is a material noun?" (Answer: A)
+    - 2 identical questions in same week
+    
+  Q10, Q23: "Which is a countable noun?"
+    - 2 identical questions BUT with DIFFERENT ANSWERS (C vs A)
+    - **INCONSISTENCY FOUND**
+
+Week 38 (Paragraphs):
+  Q4, Q9, Q13: "The closing sentence:" (Answer: A)
+    - 3 identical questions in same week
+
+Week 39 (Letters):
+  Q1, Q16: "A formal letter ends with:" (Answer: A)
+  Q2, Q15: "An informal letter ends with:" (Answer: A)
+  Q4, Q20: "The subject in a formal letter is:" (Answer: A)
+  Q5, Q21: "An informal letter can use:" (Answer: A)
+    - 4 sets of duplicates (8 questions total in a 25-question week)
+    - **20% of the week is redundant content**
+
+Total same-week duplicates: 11 instances
+Impact: Wastes test time, reduces content coverage, fails learning objectives
+Severity: HIGH - Pedagogically problematic
+
+
+4. INCONSISTENT ANSWERS FOR DUPLICATE QUESTIONS - HIGH
+────────────────────────────────────────────────────────────────────────────
+Question: "Which is a countable noun?"
+  - Week 2, Q10: Answer = C
+  - Week 2, Q23: Answer = A
+  Same question, different correct answers!
+
+Question: "Which is a material noun?"
+  - Week 2, Q6: Answer = A
+  - Week 2, Q19: Answer = A
+  - Week 37, Q7: Answer = C
+  Same question, two different answers across dataset
+
+Question: "'A stitch in time saves nine' means:"
+  - Week 35, Q22: Answer = B
+  - Week 35, Q23: Answer = A
+  Same question back-to-back with different answers
+
+Impact: Creates confusion about correct answers
+Severity: HIGH - Direct impact on assessment validity
+
+
+5. CROSS-WEEK DUPLICATION - HIGH
+────────────────────────────────────────────────────────────────────────────
+Weeks 51-52 (Year-End Review) heavily duplicate earlier weeks:
+
+From Week 51 → Appearing again in Week 52:
+  - "He is a:" (Q6/Q7)
+  - "Under is a:" (Q10/Q7)
+  - "Quickly is an:" (Q8/Q8)
+  - "Beautiful is an:" (Q9/Q10)
+  - "And is a:" (Q11/Q9)
+  - "Wow! is an:" (Q12/Q11)
+  - "She runs fast. Fast is an:" (Q14/Q12)
+  - "They are playing. Playing is a:" (Q15/Q13)
+  - "I am happy. Happy is an:" (Q16/Q14)
+  - "We went to school. School is a:" (Q17/Q15)
+  - "She is a doctor. Doctor is a:" (Q18/Q16)
+  - "He sings well. Well is an:" (Q19/Q17)
+  - "They are friends. Friends is a:" (Q20/Q18)
+  - "She is kind. Kind is an:" (Q21/Q19)
+
+14 consecutive questions are duplicated between Weeks 51-52
+
+Total duplicate question texts in dataset: 81
+Impact: Reduces content diversity, suggests poor quality control
+Severity: HIGH - Indicates systemic data quality issues
+
+
+6. OVERALL DATA QUALITY ASSESSMENT
+────────────────────────────────────────────────────────────────────────────
+
+Spot-Check Results (50 random questions):
+  ✓ Grammar/tense questions: CORRECT
+  ✓ Parts of speech identification: CORRECT  
+  ✓ Sentence structure identification: CORRECT
+  ✓ Basic vocabulary (synonyms/antonyms): CORRECT
+  ✓ Writing conventions: CORRECT
+  ✓ Idiomatic expressions: CORRECT
+
+Content Quality: MODERATE
+  - Correct content where tested
+  - Options are generally valid and distinct
+  - Answer keys appear accurate for non-duplicate questions
+
+Structural Quality: POOR
+  - Incomplete week
+  - Excessive duplication (81 duplicate texts)
+  - Same-week duplicates indicate data entry errors
+  - Ambiguous question wording in Week 28
+  - Possible inconsistency in answer keys
+
+================================================================================
+SPECIFIC CORRECTIONS NEEDED
+================================================================================
+
+CRITICAL - Must Fix Before Use:
+1. Complete Week 52 by adding 4 missing questions
+2. Reword all 22 "Which is correct?" questions in Week 28 to provide context
+3. Resolve inconsistent answers for "Which is a countable noun?" (Week 2, Q10 vs Q23)
+
+HIGH - Should Fix:
+4. Remove duplicate "Which is a proper noun?" from Week 2 (keep only 1)
+5. Remove duplicate "Which is a material noun?" from Week 2 (keep only 1)
+6. Remove duplicate "The closing sentence:" from Week 38 (keep only 1)
+7. Remove 4 duplicate question pairs from Week 39 (Letters section)
+8. Dedup questions between Weeks 51-52, replace with original content
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. Data Validation Process:
+   - Implement automated duplicate detection before deployment
+   - Create consistency checking for answer keys
+   - Validate that each week has exactly 25 questions
+   - Check for proper context in questions
+
+2. Content Review:
+   - Have subject matter expert review flagged questions
+   - Verify answer keys for all Week 2 noun questions
+   - Ensure Week 28 capitalization/punctuation questions are properly worded
+   - Replace Week 52 content with original material (not recycled from Week 51)
+
+3. Quality Assurance:
+   - Implement pre-launch QA checklist
+   - Weekly spot-check random questions
+   - Track duplicates and variations by topic
+   - Maintain centralized question bank with unique IDs
+
+================================================================================

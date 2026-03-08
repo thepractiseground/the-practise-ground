@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/data/blog-posts";
 import { markdownToHtml } from "@/lib/markdown";
 import WhatsAppShareBlog from "@/components/WhatsAppShareBlog";
+import CrossPromoStrip from "@/components/CrossPromoStrip";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -177,6 +178,11 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         {/* WhatsApp Share Section */}
         <WhatsAppShareBlog title={post.title} excerpt={post.excerpt} slug={post.slug} category={post.category} />
+
+        {/* Cross-promo */}
+        <div className="mb-12">
+          <CrossPromoStrip index={0} />
+        </div>
 
         {/* Related Posts */}
         {relatedPosts.length > 0 && (

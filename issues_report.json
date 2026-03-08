@@ -1,0 +1,179 @@
+{
+  "total_issues": 11,
+  "issues": [
+    {
+      "type": "WEEK_QUESTION_COUNT",
+      "week": 52,
+      "issue": "Week has 21 questions instead of 25",
+      "severity": "CRITICAL"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          1,
+          22
+        ],
+        [
+          52,
+          20
+        ]
+      ],
+      "question": "Which is a declarative sentence?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          1,
+          23
+        ],
+        [
+          52,
+          21
+        ]
+      ],
+      "question": "Which is an interrogative sentence?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      "question": "Which is a proper noun?",
+      "issue": "Question appears in 3 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          2,
+          4
+        ],
+        [
+          37,
+          6
+        ]
+      ],
+      "question": "Which is an abstract noun?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          37,
+          7
+        ]
+      ],
+      "question": "Which is a material noun?",
+      "issue": "Question appears in 3 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          23
+        ]
+      ],
+      "question": "Which is a countable noun?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          24
+        ]
+      ],
+      "question": "Which word is an adjective?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          7,
+          16
+        ],
+        [
+          12,
+          10
+        ]
+      ],
+      "question": "Which is a descriptive adjective?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          24
+        ]
+      ],
+      "question": "Which word is an adverb?",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    },
+    {
+      "type": "DUPLICATE_QUESTION",
+      "locations": [
+        [
+          8,
+          3
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "question": "\"He runs ___.\"",
+      "issue": "Question appears in 2 different locations",
+      "severity": "HIGH"
+    }
+  ]
+}
