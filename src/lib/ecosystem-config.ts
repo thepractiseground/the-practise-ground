@@ -20,7 +20,7 @@ export const ecosystem: Record<string, EcosystemProject> = {
     shortName: "TPG",
     url: "https://www.thepractiseground.in",
     icon: "📚",
-    tagline: "Subject learning with quiz practice for kids — The Practise Ground",
+    tagline: "Subject learning with quiz practice for students — The Practise Ground",
     description: "Grammar, math & science — interactive quizzes, practice exercises, and learning resources for classrooms and homeschool.",
     ctaLabel: "Visit The Practise Ground →",
     stripBg: "bg-gray-900",
