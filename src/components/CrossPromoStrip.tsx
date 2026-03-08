@@ -20,22 +20,18 @@ function StripContent({ project }: { project: EcosystemProject }) {
     >
       <span className="text-xl flex-shrink-0">{project.icon}</span>
       <span className="flex-1 text-sm text-gray-300 font-medium">
-        {project.tagline.split(project.shortName).map((part, i, arr) =>
-          i < arr.length - 1 ? (
-            <span key={i}>
-              {part}
-              <strong className={project.stripAccent}>{project.shortName}</strong>
-            </span>
-          ) : (
-            <span key={i}>{part}</span>
-          )
-        )}
-        {!project.tagline.includes(project.shortName) && (
-          <>
-            {" — "}
-            <strong className={project.stripAccent}>{project.name}</strong>
-          </>
-        )}
+        {project.tagline.includes(project.name)
+          ? project.tagline.split(project.name).map((part, i, arr) =>
+              i < arr.length - 1 ? (
+                <span key={i}>
+                  {part}
+                  <strong className={project.stripAccent}>{project.name}</strong>
+                </span>
+              ) : (
+                <span key={i}>{part}</span>
+              )
+            )
+          : project.tagline}
       </span>
       <span
         className={`${project.ctaBg} ${project.ctaHoverBg} text-white text-xs font-semibold px-3.5 py-1.5 rounded-lg transition-colors whitespace-nowrap`}
