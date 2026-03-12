@@ -11637,7 +11637,130 @@ Your foundation is being built right now. Make it strong, make it personal, make
 Start this week: Begin your science notebook, grow a seed, and observe your world through a scientist's eyes. Science isn't something that happens in a classroom. It's happening everywhere around you, all the time. Your job is to notice it, question it, and learn from it.
 
 Ready to dive deeper? The Practise Ground has age-appropriate quizzes and activities for Grade 5-7 students. Use them to test your understanding and keep your curiosity alive!`
-}
+},
+  {
+    slug: "summer-vacation-study-plan-grades-5-10",
+    title: "How to Keep Your Child Academically Sharp This Summer (Without the Stress)",
+    metaDescription: "A practical 8-week summer study plan for Grades 5-10. Free daily quizzes in English, Maths & Science to prevent summer learning loss. No sign-up needed.",
+    keywords: ["summer vacation study plan", "summer learning loss", "summer revision for students", "keep kids learning summer", "summer study tips India", "free summer quizzes", "summer homework plan grade 5", "summer study plan grade 10", "CBSE summer revision", "productive summer vacation"],
+    excerpt: "Research shows students lose up to 2 months of learning over summer. Here is a structured, stress-free 8-week plan that keeps your child practising English, Maths, and Science — just 30 minutes a day.",
+    author: "The Practise Ground Team",
+    publishDate: "2026-03-12",
+    readTime: "7 min read",
+    category: "Study Tips",
+    grade: "Grade 5-10",
+    content: `# How to Keep Your Child Academically Sharp This Summer (Without the Stress)
+
+Summer vacations are the highlight of every student's year — and they should be. Children need time to play, explore, rest, and just be kids. But here is a reality that catches many families off guard: students can lose up to two months of academic progress during a long break. Researchers call it **summer learning loss**, and it affects reading fluency, maths skills, and science concepts almost equally.
+
+The good news? It does not take hours of studying every day to prevent it. A short, consistent daily practice — as little as 30 minutes — is enough to keep foundational skills sharp and even build new ones. The key is structure without pressure.
+
+## What Is Summer Learning Loss and Why Should You Care?
+
+Summer learning loss (sometimes called the "summer slide") is well-documented in educational research. When students go weeks without engaging with academic material, they do not just pause — they actually regress. The effects are cumulative, meaning each summer break compounds the loss from previous years.
+
+Here is what typically happens over a 6-8 week summer break:
+
+**Maths** suffers the most. Procedural skills like long division, fractions, and algebraic manipulation fade quickly without practice. Students returning after summer often test 2-3 months behind where they left off.
+
+**Reading and language** skills decline more gradually, but vocabulary shrinks and comprehension speed drops. Students who do not read or engage with language over summer take weeks to regain fluency.
+
+**Science** concepts, especially those involving sequences (like biological processes or physics principles), get muddled. Students often confuse steps or forget terminology entirely.
+
+The students who maintain even minimal engagement over summer consistently outperform their peers when school resumes. This is not about being the "top student" — it is about not having to re-learn material in July that was mastered in March.
+
+## The 30-Minute Daily Approach
+
+Rather than long study sessions that feel like punishment, the most effective summer revision follows a simple formula: short bursts, daily consistency, mixed subjects.
+
+Here is why 30 minutes works:
+
+**Cognitive science supports it.** Spaced repetition — practising a little bit every day rather than cramming — produces significantly better long-term retention. A student who practises 30 minutes daily for 8 weeks retains more than one who studies 4 hours in the last week of vacation.
+
+**It is sustainable.** Children (and parents) can commit to half an hour without feeling overwhelmed. It leaves plenty of time for play, hobbies, family trips, and everything else that makes summer special.
+
+**It builds habit.** Daily practice, even brief, creates a routine that carries into the school year. Students who maintain summer study habits typically perform better throughout the academic year.
+
+A practical daily split might look like this: 10 minutes on English (grammar, vocabulary, or comprehension), 10 minutes on Maths (a focused topic like fractions or geometry), and 10 minutes on Science (one concept, one quiz). That is it.
+
+## Building a Weekly Structure
+
+An effective summer plan is not random — it follows a logical progression. Think of it as building blocks: each week reinforces what came before and introduces something slightly new.
+
+**Weeks 1-2: Foundations.** Start with the basics from the previous academic year. Sentence types, place value, living things. This is revision, not new learning, so it builds confidence.
+
+**Weeks 3-4: Core skills.** Move into grammar rules, arithmetic operations, and physical science concepts. These are the building blocks that everything else depends on.
+
+**Weeks 5-6: Application.** Shift towards using skills in context — sentence construction, geometry and measurement, life sciences. This is where understanding deepens.
+
+**Weeks 7-8: Integration.** End with comprehension, problem-solving, and applied science. By this point, students are not just remembering — they are thinking critically.
+
+This progression mirrors how curricula are designed. It is not about covering the entire syllabus; it is about strengthening the foundations that next year's learning will build on.
+
+## Making It Work: Practical Tips for Parents
+
+**Set a consistent time.** Morning works best for most families — the mind is fresh and the day has not gotten away from you yet. But any time that works consistently is the right time.
+
+**Use quizzes, not textbooks.** Quizzes are more engaging than reading through chapters. They are interactive, they give instant feedback, and they take less time. A 25-question quiz can be completed in 10-15 minutes and covers a focused topic thoroughly.
+
+**Track progress visually.** A simple chart on the fridge — one tick per day of practice — creates motivation. After a few weeks, the streak itself becomes the reward. Children take pride in an unbroken chain of practice days.
+
+**Do not correct during practice.** Let the quiz results do the teaching. When a student gets a question wrong and sees the right answer, the learning happens naturally. Hovering and correcting creates anxiety, not understanding.
+
+**Celebrate consistency, not scores.** A student who practises every day and scores 60% is building stronger habits than one who scores 90% once and quits. Praise the effort, not the result.
+
+**Be flexible with travel.** Families travel during summer, and that is perfectly fine. Quizzes on a phone or tablet work just as well poolside or at the grandparents' house. The tool is mobile — use that advantage.
+
+## Why Quizzes Work Better Than Worksheets
+
+Traditional summer homework — packets of worksheets, reading logs, textbook exercises — has a motivation problem. It feels like school during a time that is supposed to feel different. Students resist it, parents enforce it, and neither side enjoys the experience.
+
+Quizzes solve this in several ways:
+
+**Instant feedback.** Students know immediately whether they got an answer right. There is no waiting for a parent or teacher to check. This immediate loop is how the brain learns most efficiently.
+
+**Bite-sized commitment.** A 25-question quiz feels manageable in a way that "complete pages 45-52" does not. Students can see the finish line before they start.
+
+**No preparation needed.** Open the quiz, answer the questions, see the results. There are no supplies to gather, no photocopies to make, no printer ink to run out of.
+
+**Self-paced.** Fast students finish quickly, slower students take their time. There is no classroom pressure, no comparison with peers. Each student works at their own speed.
+
+## The Practise Ground Summer Challenge
+
+We have built exactly this kind of structured plan for students in Grades 5 through 10. The [Summer Challenge](/summer-challenge) is a free 8-week programme that maps out daily quizzes across English, Maths, and Science.
+
+Each week has a theme and includes three quizzes — one per subject — with 25 questions each. That is 75 questions per week, 600 over the full programme, covering foundational topics that align with CBSE, ICSE, and Cambridge curricula.
+
+The programme is grade-specific. A Grade 5 student starts with sentence types and place value, while a Grade 10 student works through comprehension and trigonometry. The difficulty matches what each grade needs.
+
+There is no sign-up, no login, and no cost. Open the page, select the grade, and start with Week 1. It is that simple.
+
+## What About Students Who Are Already Ahead?
+
+Some parents might think their child does not need summer practice because they are already performing well. This is a common misconception. Summer learning loss affects all students, including top performers. The difference is that high-performing students often have stronger recovery — but recovery still takes time that could have been spent learning new things.
+
+For advanced students, summer practice serves a different purpose: it frees up the first few weeks of the new academic year. Instead of spending September re-learning what was forgotten, the student can engage with new material immediately, maintain their edge, and even move ahead.
+
+## A Note for Students
+
+If you are reading this yourself — and you are probably in Grade 7 or above if you are — here is the honest truth: 30 minutes a day is not a lot. It is less time than a single episode of most shows you watch. It is about the same time you spend waiting for food to arrive after ordering.
+
+But those 30 minutes add up. Over 8 weeks, that is 28 hours of focused practice. When school starts again, you will notice the difference immediately. The first test of the year will not feel like a shock. The concepts your teacher introduces will connect to things you remember. You will feel prepared rather than panicked.
+
+That feeling — of being ready — is worth more than any score.
+
+## Getting Started
+
+The simplest way to begin is to pick your grade, open Week 1 of the [Summer Challenge](/summer-challenge), and complete the three quizzes. It should take about 30 minutes total. Tomorrow, review any questions you got wrong and try the next set.
+
+Do this for 8 weeks. That is the entire plan.
+
+No apps to download, no accounts to create, no fees to pay. Just consistent practice, one day at a time.
+
+Your summer should still be fun, relaxed, and full of everything that makes it special. This is just 30 minutes of that day. The rest is yours.
+
+[Start the Summer Challenge now](/summer-challenge) — it is free, it is structured, and it works.`
+  }
 ];
 
 // Get all posts sorted by date (newest first)
