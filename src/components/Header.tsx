@@ -53,6 +53,9 @@ export default function Header() {
                 ))}
               </div>
             </div>
+            <Link href="/summer-challenge" className="text-brand-orange font-semibold hover:text-orange-600 transition-colors">
+              Summer Challenge
+            </Link>
             <Link href="/blog" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               Blog
             </Link>
@@ -116,6 +119,7 @@ export default function Header() {
                 Grade {g}
               </Link>
             ))}
+            <Link href="/summer-challenge" onClick={() => setMenuOpen(false)} className="block py-3 text-brand-orange hover:text-orange-600 font-bold">Summer Challenge</Link>
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
             <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Posters &amp; Printables</Link>
