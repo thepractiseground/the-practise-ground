@@ -61,7 +61,7 @@ export default async function Image() {
             marginBottom: "30px",
           }}
         >
-          Grades 5-10 | 15,600+ Questions | No Sign-up
+          Grades 5-10 | 23,400+ Questions | No Sign-up
         </div>
 
         {/* Stats row */}

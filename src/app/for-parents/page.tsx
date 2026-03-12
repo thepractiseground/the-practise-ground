@@ -140,7 +140,7 @@ export default function ForParentsPage() {
             </div>
             <div>
               <h3 className="font-semibold text-purple-700 mb-2">
-                Science (Coming Soon)
+                Science (7,800 questions)
               </h3>
               <ul className="text-gray-600 text-sm space-y-1">
                 <li>Physics — motion, electricity, light, sound</li>
@@ -152,7 +152,7 @@ export default function ForParentsPage() {
             </div>
           </div>
           <p className="text-gray-500 text-sm mt-4">
-            That&apos;s over <strong>15,600 questions</strong> in total — all
+            That&apos;s over <strong>23,400 questions</strong> in total — all
             free, all curriculum-aligned.
           </p>
         </div>
@@ -281,9 +281,9 @@ export default function ForParentsPage() {
             </Link>
             <Link
               href="/quiz/science"
-              className="bg-white/20 text-white border-2 border-white font-semibold px-6 py-3 rounded-lg hover:bg-white/30 transition-colors"
+              className="bg-white text-brand-navy font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors"
             >
-              Science (Coming Soon)
+              Science Quizzes
             </Link>
           </div>
         </div>

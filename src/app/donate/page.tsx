@@ -32,7 +32,7 @@ export default function DonatePage() {
             Every Contribution Makes a Difference
           </h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-            We currently offer 15,600+ quiz questions across English and Maths for Grades 5-10, completely free. Your support helps us add more subjects, improve content quality, and reach more students.
+            We currently offer 23,400+ quiz questions across English, Maths and Science for Grades 5-10, completely free. Your support helps us add more subjects, improve content quality, and reach more students.
           </p>
 
           <a

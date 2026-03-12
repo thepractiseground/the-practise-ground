@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "The Practise Ground - Free English, Maths & Science Quizzes for Grades 5-10",
-    description: "15,600+ free quiz questions across English, Maths & Science. Practice grammar, algebra, physics, chemistry & more. No sign-up required!",
+    description: "23,400+ free quiz questions across English, Maths & Science. Practice grammar, algebra, physics, chemistry & more. No sign-up required!",
     url: "https://www.thepractiseground.in",
     siteName: "The Practise Ground",
     locale: "en_IN",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "The Practise Ground - Free English, Maths & Science Quizzes",
-    description: "15,600+ free quiz questions for Grades 5-10. No sign-up required!",
+    description: "23,400+ free quiz questions for Grades 5-10. No sign-up required!",
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://www.thepractiseground.in" },

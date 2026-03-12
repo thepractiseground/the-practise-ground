@@ -251,7 +251,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <section className="bg-gradient-to-r from-brand-navy to-brand-teal rounded-2xl p-8 sm:p-12 mb-12 text-white text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">Ready to Practice?</h2>
           <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-            Test your skills with our free interactive quizzes. Over 15,600 questions covering English grammar, vocabulary, maths, and more.
+            Test your skills with our free interactive quizzes. Over 23,400 questions covering English, Maths, Science and more.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

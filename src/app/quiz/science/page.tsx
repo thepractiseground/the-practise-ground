@@ -224,7 +224,7 @@ export default function ScienceLandingPage() {
             Try Our English &amp; Maths Quizzes Too
           </h2>
           <p className="text-blue-200 mb-8">
-            15,600+ questions across English and Maths, completely free. No sign-up required.
+            23,400+ questions across English, Maths and Science, completely free. No sign-up required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
