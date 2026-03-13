@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Colouring Books for Kids | The Practise Ground",
-  description: "Fun colouring and activity books for kids of all ages. Vehicle colouring, mandala art, and more — coming soon to Amazon!",
+  description: "Fun colouring and activity books for kids of all ages. Vehicle colouring, mandala art, and more — available on Amazon!",
   keywords: ["colouring books for kids", "coloring book Amazon", "kids activity books", "mandala art coloring", "vehicle coloring book"],
 };
 
@@ -27,13 +27,13 @@ export default function ColouringBooksPage() {
         </div>
       </section>
 
-      {/* Coming Soon */}
+      {/* Colouring Books */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white rounded-2xl shadow-lg p-10 sm:p-14 text-center">
           <div className="text-6xl mb-6">🎨📚</div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-4">Coming Soon!</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-4">Colouring &amp; Activity Books</h2>
           <p className="text-gray-600 max-w-md mx-auto mb-8 leading-relaxed">
-            We are putting the finishing touches on our collection of colouring and activity books for kids. They will be available on Amazon very soon — check back shortly!
+            Our collection of fun colouring and activity books for kids — perfect for creative play and screen-free learning.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-sm mx-auto mb-10">
             <div className="bg-gradient-to-r from-blue-400 to-cyan-400 rounded-xl p-5 text-white">
@@ -47,7 +47,7 @@ export default function ColouringBooksPage() {
               <p className="text-white/80 text-xs mt-1">Ages 8+</p>
             </div>
           </div>
-          <p className="text-gray-500 text-sm mb-6">In the meantime, explore our free quizzes:</p>
+          <p className="text-gray-500 text-sm mb-6">Also explore our free quizzes:</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/quiz/8"

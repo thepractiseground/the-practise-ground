@@ -101,13 +101,13 @@ export default async function ScienceGradePage({ params }: Props) {
           </div>
         ) : (
           <div className="text-center py-16">
-            <div className="text-5xl mb-4">🚧</div>
-            <h2 className="text-2xl font-bold text-brand-navy mb-3">Coming Soon!</h2>
+            <div className="text-5xl mb-4">📚</div>
+            <h2 className="text-2xl font-bold text-brand-navy mb-3">No Quizzes Available</h2>
             <p className="text-gray-600 max-w-md mx-auto">
-              We are preparing Grade {grade} Science quizzes. Check back soon for weekly practice questions!
+              We don&apos;t have Grade {grade} Science quizzes yet. Browse our available grades below!
             </p>
             <Link href="/quiz/science" className="inline-block mt-6 bg-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-purple-700 transition-colors">
-              Browse Other Grades
+              Browse Available Grades
             </Link>
           </div>
         )}
