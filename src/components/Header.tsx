@@ -60,7 +60,7 @@ export default function Header() {
               Colouring Books
             </Link>
             <Link href="/posters-printables" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
-              Posters
+              Printables
             </Link>
           </nav>
 
@@ -104,7 +104,7 @@ export default function Header() {
             <Link href="/summer-challenge" onClick={() => setMenuOpen(false)} className="block py-3 text-brand-orange hover:text-orange-600 font-bold">Summer Challenge</Link>
             <Link href="/fun" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Fun Quizzes</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
-            <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Posters &amp; Printables</Link>
+            <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Printables</Link>
           </div>
         )}
       </div>
