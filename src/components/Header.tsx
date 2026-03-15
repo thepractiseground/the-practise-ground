@@ -65,14 +65,6 @@ export default function Header() {
             <Link href="/posters-printables" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               Posters
             </Link>
-            <a
-              href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-brand-orange text-white font-semibold px-4 py-2 rounded-lg hover:opacity-85 transition-all text-sm"
-            >
-              Donate
-            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -117,15 +109,6 @@ export default function Header() {
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
             <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Posters &amp; Printables</Link>
-            <a
-              href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setMenuOpen(false)}
-              className="block py-3 text-brand-orange hover:text-brand-orange font-bold"
-            >
-              Donate
-            </a>
           </div>
         )}
       </div>
