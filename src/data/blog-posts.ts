@@ -11760,6 +11760,91 @@ No apps to download, no accounts to create, no fees to pay. Just consistent prac
 Your summer should still be fun, relaxed, and full of everything that makes it special. This is just 30 minutes of that day. The rest is yours.
 
 [Start the Summer Challenge now](/summer-challenge) — it is free, it is structured, and it works.`
+  },
+  {
+    slug: "fun-quizzes-for-students-general-knowledge",
+    title: "15 Free Fun Quizzes for Students: Test Your General Knowledge",
+    metaDescription: "Try 15 free fun quizzes for students — world capitals, space facts, brain teasers, idioms, sports trivia and more. 225 questions, instant results, no sign-up.",
+    keywords: ["fun quizzes for students", "general knowledge quiz", "free online quiz", "GK quiz for kids", "trivia quiz", "brain teaser quiz", "fun quiz online", "quiz for students", "knowledge quiz", "fun maths quiz", "geography quiz", "science quiz for kids", "idioms quiz", "sports trivia", "food quiz"],
+    excerpt: "Looking for something fun to test your brain? We have 15 free quizzes covering geography, science, history, maths, language and more — 225 questions in total. No sign-up, instant results, and you can challenge your friends on WhatsApp.",
+    author: "The Practise Ground Team",
+    publishDate: "2026-03-15",
+    readTime: "6 min read",
+    category: "Fun & Learning",
+    grade: "All Ages",
+    content: `# 15 Free Fun Quizzes for Students: Test Your General Knowledge
+
+Not everything has to be about exams. Sometimes, the best way to learn is to explore questions that make you curious, surprised, or even a little competitive. That is exactly what our Fun Quizzes section is about.
+
+We have put together 15 quizzes across six categories — geography, science, history, general knowledge, language, and yes, even maths (but the fun kind). Each quiz has 15 questions, you get instant results, and there is nothing to sign up for. Just pick a topic and go.
+
+## What Kind of Quizzes Are These?
+
+These are not textbook questions. They are the kind of things you might wonder about in everyday life — which country has a non-rectangular flag, what the word "karate" actually means, or how many hearts an octopus has. Some are easy. Some will catch you off guard. All of them teach you something new.
+
+Here is what is available:
+
+## Geography
+
+**[World Capitals & Landmarks](/fun/world-capitals-landmarks)** — Think you know your capitals? Most people get the obvious ones, but can you tell the capital of Australia, Turkey, or Brazil? This quiz covers famous landmarks too, from the Petronas Towers to the Blue Mosque.
+
+**[Flags of the World](/fun/flags-of-the-world)** — Stripes, crescents, stars, and even a dragon. Match flags to their countries and discover which nation has the only non-rectangular flag in the world.
+
+**[Oceans & Rivers of the World](/fun/oceans-rivers-world)** — From the Mariana Trench to the River Danube, this quiz takes you across the planet's waterways. You will learn which river passes through the most countries and where the saltiest body of water is.
+
+## Science & Nature
+
+**[Space & Solar System Facts](/fun/space-solar-system)** — How long does sunlight take to reach Earth? Which planet rotates on its side? Whether you are a space enthusiast or just curious, this one is a great starting point.
+
+**[Animal Kingdom Facts](/fun/animal-kingdom)** — Did you know koalas can sleep 22 hours a day? Or that an octopus has three hearts? Test what you know about the animal world, from the fastest land animal to the longest-living creature.
+
+**[The Human Body](/fun/human-body)** — You live in it every day, but how well do you actually know it? This quiz covers everything from the smallest bone to the hardest substance in your body.
+
+## History & Culture
+
+**[Ancient Civilisations](/fun/ancient-civilisations)** — Pyramids, gladiators, and the invention of zero. Travel back thousands of years and test your knowledge of the civilisations that shaped our world.
+
+**[Famous Inventions & Their Inventors](/fun/famous-inventions)** — From the printing press to the World Wide Web, match the inventions to the people who created them. Some answers might surprise you.
+
+## General Knowledge
+
+**[Sports Around the World](/fun/sports-trivia)** — Goals, centuries, slam dunks and marathons. Whether you follow football, cricket, basketball or the Olympics, this quiz has something for you.
+
+**[Food & Cuisine Around the World](/fun/food-cuisine-world)** — Sushi, croissants, kimchi and fondue. Can you match these iconic dishes to the countries they come from? You might learn a few things about your favourite foods.
+
+## Language & Words
+
+**[Idioms & Their Meanings](/fun/idioms-meanings)** — What does it really mean to "break the ice" or "let the cat out of the bag"? This quiz tests whether you know the actual meanings behind common English expressions.
+
+**[Word Origins & Etymology](/fun/word-origins)** — Every word has a backstory. Did you know "jungle" comes from Hindi, "algebra" from Arabic, and "kindergarten" from German? Find out where everyday English words really come from.
+
+**[Famous Books & Authors](/fun/famous-books-authors)** — From Shakespeare to Roald Dahl, match beloved books to the brilliant minds who wrote them. A must for anyone who loves reading.
+
+## Fun Maths
+
+**[Fun With Numbers](/fun/fun-with-numbers)** — Quick mental maths, percentages, patterns and cool number facts. No calculators allowed — just your brain. Can you work out 15% of 200 in your head?
+
+**[Brain Teasers & Logic](/fun/brain-teasers-logic)** — The trickiest quiz on this list. Classic puzzles like the bat-and-ball problem, the widget factory riddle, and some pattern sequences that will genuinely make you think. Do not be surprised if you get a few wrong.
+
+## How It Works
+
+Every quiz follows the same simple format:
+
+Pick a quiz from the list above or browse them all on our [Fun Quizzes page](/fun). You will see 15 multiple-choice questions, one at a time. Select your answer, check if you are right, and move to the next one. At the end, you get your score and can review every question to see what you got right and where you went wrong.
+
+If you score well (or want to challenge a friend), there is a WhatsApp share button on the results screen. It is a great way to get competitive with classmates.
+
+## Why We Built This
+
+The Practise Ground is primarily an academic platform — we have over 23,400 quiz questions across English, Maths, and Science for Grades 5 to 10. But we know that not every student lands on a website looking for homework help. Some are just curious. Some want a quick brain workout. Some are bored and want something more interesting than scrolling social media.
+
+These fun quizzes are for all of those moments. They are designed to spark curiosity, teach you something unexpected, and maybe — just maybe — get you interested in exploring our academic quizzes too.
+
+If you enjoyed the Fun Maths quizzes, you might like our full [Maths quiz sets for Grades 5-10](/quiz/maths/5). If the science quizzes caught your attention, we have a whole [Science section](/quiz/science/5) with curriculum-aligned questions. And if you are a language lover, our [English quizzes](/quiz/5) cover grammar, vocabulary, comprehension and more.
+
+But no pressure. Start with the fun stuff. That is what it is here for.
+
+[Browse all 15 Fun Quizzes](/fun)`
   }
 ];
 
