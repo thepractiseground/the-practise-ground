@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/data/blog-posts";
+import { funQuizzes } from "@/data/fun-quizzes";
 
 // Root sitemap: static pages + blog posts
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -18,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/summer-challenge`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/donate`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/posters-printables`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${baseUrl}/fun`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
 
   const posts = getAllPosts();
@@ -27,6 +29,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(post.publishDate),
       changeFrequency: "monthly",
       priority: 0.7,
+    });
+  }
+
+  for (const quiz of funQuizzes) {
+    routes.push({
+      url: `${baseUrl}/fun/${quiz.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
     });
   }
 

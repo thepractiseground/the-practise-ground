@@ -74,6 +74,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Explore</h3>
             <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm mb-6">
               <Link href="/summer-challenge" className="hover:text-brand-orange transition-colors text-brand-orange font-semibold">Summer Challenge</Link>
+              <Link href="/fun" className="hover:text-brand-orange transition-colors">Fun Quizzes</Link>
               <Link href="/blog" className="hover:text-brand-orange transition-colors">Blog</Link>
               <Link href="/for-parents" className="hover:text-brand-orange transition-colors">For Parents</Link>
               <Link href="/colouring-books" className="hover:text-brand-orange transition-colors">Colouring Books</Link>

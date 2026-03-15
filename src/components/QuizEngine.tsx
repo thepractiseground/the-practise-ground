@@ -4,14 +4,17 @@ import type { Question } from "@/lib/quiz-data";
 
 interface Props {
   questions: Question[];
-  grade: number;
-  week: number;
+  grade?: number;
+  week?: number;
   topic: string;
   subject?: string;
   subjectPath?: string;
+  quizLabel?: string;
+  sharePath?: string;
+  bridgeCTA?: { text: string; description: string; links: { label: string; href: string }[] };
 }
 
-export default function QuizEngine({ questions, grade, week, topic, subject = "English", subjectPath = "" }: Props) {
+export default function QuizEngine({ questions, grade, week, topic, subject = "English", subjectPath = "", quizLabel, sharePath, bridgeCTA }: Props) {
   const [currentQ, setCurrentQ] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
@@ -69,7 +72,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             {percentage >= 80 ? "🏆" : percentage >= 60 ? "⭐" : percentage >= 40 ? "💪" : "📚"}
           </div>
           <h2 className="text-3xl font-bold text-brand-navy mb-2">Quiz Complete!</h2>
-          <p className="text-gray-500 mb-6">Grade {grade} &middot; Week {week} &middot; {topic}</p>
+          <p className="text-gray-500 mb-6">{quizLabel || `Grade ${grade} · Week ${week} · ${topic}`}</p>
           <div className="text-5xl font-bold text-brand-orange mb-2">{score}/{questions.length}</div>
           <p className="text-xl text-gray-600 mb-6">{percentage}% correct</p>
 
@@ -111,8 +114,9 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             <button
               onClick={() => {
                 const emoji = percentage >= 80 ? "🏆" : percentage >= 60 ? "⭐" : "📚";
-                const text = `${emoji} I scored ${score}/${questions.length} (${percentage}%) on Grade ${grade} ${subject}: ${topic}!\n\nCan you beat my score? Try it free:`;
-                const quizPath = subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`;
+                const shareLabel = quizLabel || `Grade ${grade} ${subject}: ${topic}`;
+                const text = `${emoji} I scored ${score}/${questions.length} (${percentage}%) on ${shareLabel}!\n\nCan you beat my score? Try it free:`;
+                const quizPath = sharePath || (subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`);
                 const url = `https://wa.me/?text=${encodeURIComponent(text + "\nhttps://www.thepractiseground.in" + quizPath)}`;
                 window.open(url, "_blank");
               }}
@@ -126,7 +130,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             </button>
             <button
               onClick={() => {
-                const quizPath = subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`;
+                const quizPath = sharePath || (subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`);
                 navigator.clipboard.writeText(`https://www.thepractiseground.in${quizPath}`);
                 const btn = document.activeElement as HTMLButtonElement;
                 if (btn) { btn.textContent = "Copied!"; setTimeout(() => { btn.textContent = "Copy Quiz Link"; }, 2000); }
@@ -137,6 +141,25 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             </button>
           </div>
         </div>
+
+        {/* Bridge CTA */}
+        {bridgeCTA && (
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-2xl p-6 sm:p-8 mb-8 text-center">
+            <p className="text-blue-800 font-bold text-lg sm:text-xl mb-1">{bridgeCTA.text}</p>
+            <p className="text-blue-700 text-sm mb-5">{bridgeCTA.description}</p>
+            <div className="flex gap-3 justify-center flex-wrap">
+              {bridgeCTA.links.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="bg-brand-navy text-white px-5 py-3 rounded-xl font-semibold hover:opacity-85 transition-all"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Answer Review */}
         <div className="bg-white rounded-2xl shadow-lg p-6">

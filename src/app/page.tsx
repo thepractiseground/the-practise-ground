@@ -171,6 +171,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Fun Quizzes CTA */}
+      <section className="py-12">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <Link
+            href="/fun"
+            className="group block bg-gradient-to-r from-amber-50 via-violet-50 to-lime-50 border-2 border-amber-200 rounded-2xl p-6 sm:p-8 text-center hover:shadow-lg hover:border-violet-300 transition-all"
+          >
+            <span className="text-3xl">🎯</span>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mt-2 mb-1">Looking for something fun?</h2>
+            <p className="text-gray-600 text-sm sm:text-base mb-3">
+              Try our fun quizzes — world capitals, space facts, famous inventions, flags and more!
+            </p>
+            <span className="text-brand-orange font-semibold group-hover:underline">
+              Explore Fun Quizzes →
+            </span>
+          </Link>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
