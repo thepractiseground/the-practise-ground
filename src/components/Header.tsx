@@ -20,9 +20,6 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
-              Home
-            </Link>
             <div className="relative group">
               <button className="text-gray-700 hover:text-brand-orange transition-colors font-medium flex items-center gap-1">
                 Quizzes
@@ -68,12 +65,6 @@ export default function Header() {
             <Link href="/posters-printables" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               Posters
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
-              About
-            </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
-              Contact
-            </Link>
             <a
               href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
               target="_blank"
@@ -103,7 +94,6 @@ export default function Header() {
         {/* Mobile Nav */}
         {menuOpen && (
           <div className="md:hidden pb-4 border-t">
-            <Link href="/" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Home</Link>
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
               <Link key={`eng-${g}`} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-brand-orange text-sm">
@@ -127,8 +117,6 @@ export default function Header() {
             <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
             <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
             <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Posters &amp; Printables</Link>
-            <Link href="/about" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">About</Link>
-            <Link href="/contact" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Contact</Link>
             <a
               href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
               target="_blank"
