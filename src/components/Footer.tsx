@@ -83,22 +83,6 @@ export default function Footer() {
               <Link href="/contact" className="hover:text-brand-orange transition-colors">Contact</Link>
               <Link href="/donate" className="hover:text-brand-orange transition-colors">Donate</Link>
             </div>
-            <div className="flex gap-3">
-              <Link
-                href="/contact"
-                className="bg-brand-orange text-white px-4 py-2 rounded-lg text-sm font-semibold hover:opacity-85 transition-all text-center flex-1"
-              >
-                Contact Us
-              </Link>
-              <a
-                href="https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-amber-500 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-amber-600 transition-colors text-center flex-1"
-              >
-                Support Us
-              </a>
-            </div>
           </div>
         </div>
 
