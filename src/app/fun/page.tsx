@@ -22,6 +22,7 @@ const categoryColors: Record<string, { bg: string; text: string; border: string;
   "History & Culture": { bg: "bg-rose-50", text: "text-rose-700", border: "border-rose-200", badge: "bg-rose-100 text-rose-700" },
   Geography: { bg: "bg-amber-50", text: "text-amber-700", border: "border-amber-200", badge: "bg-amber-100 text-amber-700" },
   "Language & Words": { bg: "bg-lime-50", text: "text-lime-700", border: "border-lime-200", badge: "bg-lime-100 text-lime-700" },
+  "Fun Maths": { bg: "bg-emerald-50", text: "text-emerald-700", border: "border-emerald-200", badge: "bg-emerald-100 text-emerald-700" },
 };
 
 export default function FunQuizzesPage() {
