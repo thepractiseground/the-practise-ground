@@ -819,9 +819,9 @@ export const funQuizzes: FunQuiz[] = [
         answer: "B",
       },
       {
-        question: "If you rearrange the letters 'CIFAIPC', you get the name of a(n):",
-        options: ["Country", "Ocean", "City", "Animal"],
-        answer: "B",
+        question: "What is the next number in the pattern: 2, 4, 8, 16, ...?",
+        options: ["20", "24", "30", "32"],
+        answer: "D",
       },
       {
         question: "What weighs more: a kilogram of feathers or a kilogram of steel?",
