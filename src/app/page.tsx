@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GRADES, GRADE_INFO, getGradeWeeks } from "@/lib/quiz-data";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
 import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
-import CrossPromoStrip from "@/components/CrossPromoStrip";
+
 
 export default function Home() {
   const englishQuestions = GRADES.reduce((sum, g) => {
@@ -125,11 +125,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Cross-promo: AI Think Tank */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-        <CrossPromoStrip index={0} />
-      </div>
-
       {/* Science Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="flex items-center gap-3 mb-6">
@@ -226,11 +221,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
-      {/* Cross-promo: CareerTalks */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
-        <CrossPromoStrip index={1} />
-      </div>
 
       {/* FAQ Section (for SEO/AEO) */}
       <section className="py-16 bg-white">

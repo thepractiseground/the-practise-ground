@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
 import WhatsAppShareGrade from "@/components/WhatsAppShareGrade";
-import CrossPromoStrip from "@/components/CrossPromoStrip";
+
 import type { Metadata } from "next";
 
 interface Props {
@@ -140,11 +140,6 @@ export default async function ScienceGradePage({ params }: Props) {
           </section>
         );
       })()}
-
-      {/* Cross-promo */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-        <CrossPromoStrip index={1} />
-      </div>
 
       {/* SEO Content */}
       <section className="bg-white py-12">
