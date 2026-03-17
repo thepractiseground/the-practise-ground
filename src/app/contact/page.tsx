@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us - The Practise Ground",
   description: "Get in touch with The Practise Ground team. We love hearing from students, parents, and teachers.",
+  alternates: { canonical: "https://www.thepractiseground.in/contact" },
 };
 
 export default function ContactPage() {

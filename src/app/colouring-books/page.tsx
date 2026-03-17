@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Colouring Books for Kids | The Practise Ground",
   description: "Fun colouring and activity books for kids of all ages. Vehicle colouring, mandala art, and more — available on Amazon!",
   keywords: ["colouring books for kids", "coloring book Amazon", "kids activity books", "mandala art coloring", "vehicle coloring book"],
+  alternates: { canonical: "https://www.thepractiseground.in/colouring-books" },
 };
 
 export default function ColouringBooksPage() {

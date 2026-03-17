@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     siteName: "The Practise Ground",
     type: "website",
   },
+  alternates: { canonical: "https://www.thepractiseground.in/fun" },
 };
 
 const categoryColors: Record<string, { bg: string; text: string; border: string; badge: string }> = {

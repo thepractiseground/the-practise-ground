@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "For Parents - The Practise Ground",
   description:
     "How The Practise Ground helps your child master English, Maths & Science. Free weekly quizzes for Grades 5-10, aligned with CBSE, ICSE & Cambridge curricula.",
+  alternates: { canonical: "https://www.thepractiseground.in/for-parents" },
 };
 
 export default function ForParentsPage() {
