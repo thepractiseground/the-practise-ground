@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
       // Redirect renamed blog slugs (SEO: preserve old indexed URLs)
       { source: '/blog/letter-writing-format-cbse', destination: '/blog/letter-writing-format-guide', permanent: true },
       { source: '/blog/common-english-mistakes-indian-students', destination: '/blog/common-english-mistakes-students', permanent: true },
+      // Redirect remaining old systeme.io URLs found in Search Console
+      { source: '/gradepage', destination: '/', permanent: true },
+      { source: '/termsofuse', destination: '/terms', permanent: true },
+      { source: '/default-funnel-step-thank-you-page/:path*', destination: '/', permanent: true },
     ];
   },
 };
