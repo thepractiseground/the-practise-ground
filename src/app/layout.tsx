@@ -1,10 +1,25 @@
 import type { Metadata } from "next";
+import { Open_Sans, Varela_Round } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import FloatingPromoBar from "@/components/FloatingPromoBar";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  display: "swap",
+  variable: "--font-open-sans",
+});
+
+const varelaRound = Varela_Round({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+  variable: "--font-varela-round",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -34,17 +49,14 @@ export const metadata: Metadata = {
     title: "The Practise Ground - Free English, Maths & Science Quizzes",
     description: "23,400+ free quiz questions for Grades 5-10. No sign-up required!",
   },
-  robots: { index: true, follow: true },
+  robots: { index: true, follow: true, maxImagePreview: "large" },
   alternates: { canonical: "https://www.thepractiseground.in" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${openSans.variable} ${varelaRound.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Varela+Round&display=swap" rel="stylesheet" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -58,7 +70,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           }}
         />
       </head>
-      <body className="antialiased" style={{ fontFamily: "'Open Sans', Arial, sans-serif" }}>
+      <body className="antialiased">
         <GoogleAnalytics />
         <ThemeProvider>
           <Header />
