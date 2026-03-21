@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks, getMathsWeek, getAllMathsGradeWeekPairs } from "@/lib/maths-quiz-data";
 import { getQuizEnrichment } from "@/lib/quiz-enrichment";
 import QuizEngine from "@/components/QuizEngine";
+import HeroImage from "@/components/HeroImage";
 import type { Metadata } from "next";
 
 interface Props {
@@ -64,8 +65,13 @@ export default async function MathsQuizPage({ params }: Props) {
   return (
     <div className="bg-theme-gradient min-h-screen pb-16">
       {/* Breadcrumb & Header */}
-      <section className={`bg-gradient-to-r ${info.color} py-8`}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <section className="relative overflow-hidden py-8">
+        <HeroImage
+          src="/images/og/og-maths.png"
+          alt="Maths quiz illustration"
+          overlay={0.65}
+        />
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
           <nav className="text-white/70 text-sm mb-3">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>

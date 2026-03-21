@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { funQuizzes, getFunQuiz } from "@/data/fun-quizzes";
 import QuizEngine from "@/components/QuizEngine";
+import HeroImage from "@/components/HeroImage";
 import type { Metadata } from "next";
 
 interface Props {
@@ -62,27 +63,27 @@ export default async function FunQuizPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      <div
-        className="py-10 sm:py-14"
-        style={{
-          background: "linear-gradient(135deg, #fef3c7 0%, #fde68a 30%, #c4b5fd 70%, #a78bfa 100%)",
-        }}
-      >
-        <div className="max-w-2xl mx-auto px-4 sm:px-6">
+      <div className="relative overflow-hidden py-10 sm:py-14">
+        <HeroImage
+          src="/images/og/og-fun.png"
+          alt="Fun quiz illustration"
+          overlay={0.5}
+        />
+        <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-gray-600 mb-6">
-            <Link href="/fun" className="hover:text-brand-orange transition-colors">
+          <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
+            <Link href="/fun" className="hover:text-white transition-colors">
               Fun Quizzes
             </Link>
             <span>/</span>
-            <span className="text-gray-800 font-medium">{quiz.title}</span>
+            <span className="text-white font-medium">{quiz.title}</span>
           </nav>
 
           <div className="flex items-center gap-3 mb-3">
             <span className="text-4xl">{quiz.emoji}</span>
             <div>
-              <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">{quiz.title}</h1>
-              <p className="text-gray-600 text-sm mt-1">{quiz.questions.length} questions &middot; {quiz.category}</p>
+              <h1 className="text-2xl sm:text-3xl font-bold text-white">{quiz.title}</h1>
+              <p className="text-white/80 text-sm mt-1">{quiz.questions.length} questions &middot; {quiz.category}</p>
             </div>
           </div>
         </div>

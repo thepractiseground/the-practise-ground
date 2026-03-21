@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
+import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
   title: "Free Maths Quizzes for Grades 5-10 - The Practise Ground",
@@ -34,8 +35,13 @@ export default function MathsLandingPage() {
   return (
     <div className="bg-theme-gradient min-h-screen">
       {/* Hero */}
-      <section className="bg-gradient-to-r from-emerald-600 to-teal-600 py-12 sm:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative overflow-hidden py-12 sm:py-16">
+        <HeroImage
+          src="/images/og/og-maths.png"
+          alt="Maths quizzes illustration"
+          overlay={0.55}
+        />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <nav className="text-white/70 text-sm mb-4">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>

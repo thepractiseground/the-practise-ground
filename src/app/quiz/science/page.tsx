@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
+import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
   title: "Free Science Quizzes for Grades 5-10 | Physics, Chemistry, Biology | The Practise Ground",
@@ -58,12 +59,17 @@ export default function ScienceLandingPage() {
   return (
     <div className="bg-theme-gradient min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-700 to-indigo-800 py-16 sm:py-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+      <section className="relative overflow-hidden py-16 sm:py-20">
+        <HeroImage
+          src="/images/og/og-science.png"
+          alt="Science quizzes illustration"
+          overlay={0.6}
+        />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4">
             Science Quizzes
           </h1>
-          <p className="text-lg sm:text-xl text-purple-200 max-w-2xl mx-auto mb-8">
+          <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-8">
             Physics, Chemistry &amp; Biology practice for Grades 5-10. Aligned with CBSE, ICSE, Cambridge IGCSE, and IB curricula.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
