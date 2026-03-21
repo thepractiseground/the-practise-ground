@@ -6930,6 +6930,8 @@ Algebra awaits. You're ready.`
   readTime: "12 min read",
   category: "Physics",
   grade: "Grade 8-10",
+  featuredImage: "newtons-laws-diagram.png",
+  featuredImageAlt: "Newton's three laws of motion infographic showing inertia, F=ma formula, and action-reaction with real-world examples",
   content: `## Newton's 3 Laws of Motion Explained With Real-Life Examples
 
 Newton's laws of motion are the foundation of classical mechanics. They explain how objects move and interact with forces. Whether you're studying for your CBSE board exams, ICSE, Cambridge IGCSE, or IB Physics, these three laws are essential.
@@ -7422,6 +7424,8 @@ Photosynthesis is a fundamental process that connects the sun's energy to all li
   readTime: "13 min read",
   category: "Chemistry",
   grade: "Grade 8-10",
+  featuredImage: "periodic-table-diagram.png",
+  featuredImageAlt: "Periodic table infographic showing first 20 elements color-coded by group, element box anatomy, and properties of metals, non-metals, metalloids, and noble gases",
   content: `## Periodic Table Made Easy: Groups, Periods & How to Remember Elements
 
 The periodic table can seem intimidating—118 elements, strange symbols, confusing trends. But it's actually a beautifully organized system that reveals the hidden patterns of chemistry.
@@ -8061,6 +8065,8 @@ Acids and bases are fundamental to chemistry, biology, and everyday life. Unders
   readTime: "13 min read",
   category: "Biology",
   grade: "Grade 5-8",
+  featuredImage: "digestive-system-diagram.png",
+  featuredImageAlt: "Human digestive system infographic showing the journey of food through mouth, oesophagus, stomach, intestines with organ functions and key terms",
   content: `## Human Digestive System: Organs, Functions & How Digestion Works
 
 Every time you eat, your body performs an incredible feat of chemistry and mechanics. Food is broken down into molecules small enough to be absorbed and used for energy, growth, and repair.
@@ -8418,6 +8424,8 @@ The digestive system is a marvel of engineering that processes thousands of meal
   readTime: "14 min read",
   category: "Physics",
   grade: "Grade 8-10",
+  featuredImage: "electricity-circuits-diagram.png",
+  featuredImageAlt: "Electricity and circuits infographic showing voltage, current, resistance concepts, Ohm's law triangle, series and parallel circuit diagrams",
   content: `## Electricity & Circuits: Ohm's Law, Series & Parallel — Explained Simply
 
 Electricity powers everything in your life—from your phone to your lights. Understanding how electricity flows and how to calculate currents and voltages is essential for CBSE, ICSE, and IB physics.
@@ -9134,6 +9142,8 @@ Chemical equations are the language of chemistry. Master them, and you've unlock
   readTime: "14 min read",
   category: "Physics",
   grade: "Grade 8-10",
+  featuredImage: "light-reflection-diagram.png",
+  featuredImageAlt: "Light reflection and refraction infographic showing ray diagrams, laws of reflection, Snell's law, and real-world examples like rainbows and lenses",
   content: `## Light: Reflection & Refraction — Mirror & Lens Formulas Made Easy
 
 Light behaves in predictable ways. Understanding reflection (bouncing off mirrors) and refraction (bending through lenses) is crucial for CBSE, ICSE, and IB physics, and explains how mirrors and glasses work.
@@ -9509,6 +9519,8 @@ Light is one of the most fascinating topics in physics. Understanding reflection
   readTime: "13 min read",
   category: "Biology",
   grade: "Grade 5-8",
+  featuredImage: "cell-structure-diagram.png",
+  featuredImageAlt: "Cell structure infographic comparing animal and plant cells, showing organelles like nucleus, mitochondria, chloroplasts, and their functions",
   content: `## Cell Structure & Functions: Plant Cell vs Animal Cell Explained
 
 The cell is the basic unit of life. Every living organism is made of cells, and understanding cell structure is fundamental to biology. Whether you're studying CBSE, ICSE, or IB biology, you'll encounter cells repeatedly.
