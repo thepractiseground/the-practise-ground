@@ -53,6 +53,12 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
   html = html.replace(/__(.+?)__/g, "<strong>$1</strong>");
   html = html.replace(/_(.+?)_/g, "<em>$1</em>");
 
+  // Images (must be before links to avoid conflict with ![alt](url) syntax)
+  html = html.replace(
+    /!\[([^\]]*)\]\(([^\)]+)\)/g,
+    '<figure class="markdown-figure"><img src="$2" alt="$1" class="markdown-img" loading="lazy" /><figcaption class="markdown-figcaption">$1</figcaption></figure>'
+  );
+
   // Links
   html = html.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" class="markdown-link">$1</a>');
 
@@ -232,6 +238,19 @@ export const markdownStyles = `
 
   .markdown-table tbody tr:nth-child(odd) {
     @apply bg-gray-50;
+  }
+
+  .markdown-figure {
+    @apply my-6 text-center;
+  }
+
+  .markdown-img {
+    @apply mx-auto rounded-lg max-w-full h-auto shadow-sm;
+    max-height: 480px;
+  }
+
+  .markdown-figcaption {
+    @apply text-sm text-gray-500 mt-2 italic;
   }
 
   .markdown-hr {

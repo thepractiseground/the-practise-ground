@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "The Practise Ground - Free English, Maths & Science Quizzes",
     description: "23,400+ free quiz questions for Grades 5-10. No sign-up required!",
   },
-  robots: { index: true, follow: true, maxImagePreview: "large" },
+  robots: { index: true, follow: true, "max-image-preview": "large" as const },
   alternates: { canonical: "https://www.thepractiseground.in" },
 };
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/data/blog-posts";
 import { markdownToHtml } from "@/lib/markdown";
@@ -167,6 +168,22 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Featured Image */}
+      {post.featuredImage && (
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 -mt-6 relative z-10">
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src={`/images/blog/${post.featuredImage}`}
+              alt={post.featuredImageAlt || post.title}
+              width={1200}
+              height={630}
+              priority
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </section>
+      )}
+
       {/* Article Content */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
         <article className="bg-white rounded-2xl shadow-lg p-8 sm:p-12 mb-12">
@@ -309,7 +326,9 @@ export default async function BlogPostPage({ params }: PageProps) {
               name: post.author,
             },
             datePublished: post.publishDate,
-            image: "https://www.thepractiseground.in/og-image.png",
+            image: post.featuredImage
+              ? `https://www.thepractiseground.in/images/blog/${post.featuredImage}`
+              : `https://www.thepractiseground.in/blog/${post.slug}/opengraph-image`,
             publisher: {
               "@type": "Organization",
               name: "The Practise Ground",

@@ -10,6 +10,8 @@ export type BlogPost = {
   category: string;
   grade: string;
   content: string;
+  featuredImage?: string;
+  featuredImageAlt?: string;
 };
 
 const blogPosts: BlogPost[] = [

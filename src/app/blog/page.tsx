@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllPosts, getAllCategories } from "@/data/blog-posts";
 
@@ -121,8 +122,20 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                   key={post.slug}
                   className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden group"
                 >
-                  {/* Category Badge Background */}
-                  <div className={`h-2 ${colors.badge}`} />
+                  {/* Featured Image or Category Badge Background */}
+                  {post.featuredImage ? (
+                    <div className="relative h-48 overflow-hidden">
+                      <Image
+                        src={`/images/blog/${post.featuredImage}`}
+                        alt={post.featuredImageAlt || post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
+                    </div>
+                  ) : (
+                    <div className={`h-2 ${colors.badge}`} />
+                  )}
 
                   <div className="p-6 sm:p-8">
                     {/* Category Badge */}
