@@ -5,6 +5,7 @@ import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/data/blog-post
 import { markdownToHtml } from "@/lib/markdown";
 import WhatsAppShareBlog from "@/components/WhatsAppShareBlog";
 import HeroImage from "@/components/HeroImage";
+import ImageActions from "@/components/ImageActions";
 
 
 interface PageProps {
@@ -205,6 +206,12 @@ export default async function BlogPostPage({ params }: PageProps) {
               className="w-full h-auto object-cover"
             />
           </div>
+          <ImageActions
+            imageSrc={`/images/blog/${post.featuredImage}`}
+            imageAlt={post.featuredImageAlt || post.title}
+            title={post.title}
+            slug={post.slug}
+          />
         </section>
       )}
 
