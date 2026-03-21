@@ -18,7 +18,7 @@ export default async function Image({ params }: { params: Promise<{ grade: strin
   const weekNum = parseInt(week, 10);
   const weekData = getMathsWeek(gradeNum, weekNum);
 
-  return await renderQuizOG({
+  return renderQuizOG({
     grade: gradeNum,
     topic: weekData?.topic || `Week ${weekNum} Maths Quiz`,
     weekNum,

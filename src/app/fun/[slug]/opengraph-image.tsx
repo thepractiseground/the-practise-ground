@@ -14,7 +14,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const quiz = getFunQuiz(slug);
 
   if (!quiz) {
-    return await renderFunQuizOG({
+    return renderFunQuizOG({
       title: "Fun Quiz",
       category: "General Knowledge",
       emoji: "🎯",
@@ -22,7 +22,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
     });
   }
 
-  return await renderFunQuizOG({
+  return renderFunQuizOG({
     title: quiz.title,
     category: quiz.category,
     emoji: quiz.emoji,

@@ -14,7 +14,7 @@ export default async function Image({ params }: { params: Promise<{ grade: strin
   const gradeNum = parseInt(grade, 10);
   const weeks = getGradeWeeks(gradeNum);
 
-  return await renderGradeOG({
+  return renderGradeOG({
     grade: gradeNum,
     subject: "english",
     weekCount: weeks.length,

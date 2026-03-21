@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { readFile } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
 // ─── Shared constants ───────────────────────────────────────────
@@ -36,14 +36,21 @@ const BLOG_BG_MAP: Record<string, string> = {
   default: "og-blog-grammar.png",
 };
 
-// ─── Load background image as base64 ───────────────────────────
-async function loadBgImage(filename: string): Promise<string> {
+// ─── Pre-load all background images at module level ─────────────
+// This runs once when the module is imported, not per-image generation.
+// Using sync read at module scope avoids repeated file I/O for ~1000 OG images.
+const bgCache = new Map<string, string>();
+
+function getBgImage(filename: string): string {
+  if (bgCache.has(filename)) return bgCache.get(filename)!;
   try {
     const imgPath = join(process.cwd(), "public/images/og", filename);
-    const data = await readFile(imgPath);
-    return `data:image/png;base64,${data.toString("base64")}`;
+    const data = readFileSync(imgPath);
+    const b64 = `data:image/png;base64,${data.toString("base64")}`;
+    bgCache.set(filename, b64);
+    return b64;
   } catch {
-    // Fallback: return empty string (will show gradient fallback)
+    bgCache.set(filename, "");
     return "";
   }
 }
@@ -132,7 +139,7 @@ function TPGLogo({ small = false }: { small?: boolean }) {
 }
 
 // ─── Quiz OG Image ─────────────────────────────────────────────
-export async function renderQuizOG({
+export function renderQuizOG({
   grade,
   topic,
   weekNum,
@@ -144,10 +151,10 @@ export async function renderQuizOG({
   weekNum: number;
   questionCount: number;
   subject: "english" | "maths" | "science";
-}): Promise<ImageResponse> {
+}): ImageResponse {
   const config = SUBJECT_CONFIG[subject] || SUBJECT_CONFIG.english;
   const subjectLabel = subject.charAt(0).toUpperCase() + subject.slice(1);
-  const bgSrc = await loadBgImage(config.bgFile);
+  const bgSrc = getBgImage(config.bgFile);
 
   return new ImageResponse(
     (
@@ -221,7 +228,7 @@ export async function renderQuizOG({
 }
 
 // ─── Grade Landing OG Image ────────────────────────────────────
-export async function renderGradeOG({
+export function renderGradeOG({
   grade,
   subject,
   weekCount,
@@ -229,10 +236,10 @@ export async function renderGradeOG({
   grade: number;
   subject: "english" | "maths" | "science";
   weekCount: number;
-}): Promise<ImageResponse> {
+}): ImageResponse {
   const config = SUBJECT_CONFIG[subject] || SUBJECT_CONFIG.english;
   const subjectLabel = subject.charAt(0).toUpperCase() + subject.slice(1);
-  const bgSrc = await loadBgImage(config.bgFile);
+  const bgSrc = getBgImage(config.bgFile);
 
   return new ImageResponse(
     (
@@ -279,7 +286,7 @@ export async function renderGradeOG({
 }
 
 // ─── Blog OG Image ─────────────────────────────────────────────
-export async function renderBlogOG({
+export function renderBlogOG({
   title,
   category,
   readTime,
@@ -287,9 +294,9 @@ export async function renderBlogOG({
   title: string;
   category: string;
   readTime: string;
-}): Promise<ImageResponse> {
+}): ImageResponse {
   const bgFile = BLOG_BG_MAP[category] || BLOG_BG_MAP.default;
-  const bgSrc = await loadBgImage(bgFile);
+  const bgSrc = getBgImage(bgFile);
 
   return new ImageResponse(
     (
@@ -351,7 +358,7 @@ export async function renderBlogOG({
 }
 
 // ─── Fun Quiz OG Image ─────────────────────────────────────────
-export async function renderFunQuizOG({
+export function renderFunQuizOG({
   title,
   category,
   emoji,
@@ -361,8 +368,8 @@ export async function renderFunQuizOG({
   category: string;
   emoji: string;
   questionCount: number;
-}): Promise<ImageResponse> {
-  const bgSrc = await loadBgImage("og-fun.png");
+}): ImageResponse {
+  const bgSrc = getBgImage("og-fun.png");
 
   return new ImageResponse(
     (

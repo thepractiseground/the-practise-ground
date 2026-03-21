@@ -14,14 +14,14 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const post = getPostBySlug(slug);
 
   if (!post) {
-    return await renderBlogOG({
+    return renderBlogOG({
       title: "Blog | The Practise Ground",
       category: "Learning",
       readTime: "",
     });
   }
 
-  return await renderBlogOG({
+  return renderBlogOG({
     title: post.title,
     category: post.category,
     readTime: post.readTime,
