@@ -7158,6 +7158,8 @@ Master Newton's laws, and you'll unlock the entire foundation of classical mecha
   readTime: "14 min read",
   category: "Biology",
   grade: "Grade 6-10",
+  featuredImage: "photosynthesis-diagram.png",
+  featuredImageAlt: "Photosynthesis infographic showing inputs (sunlight, CO2, water), outputs (oxygen, glucose), light-dependent reactions, and the Calvin cycle",
   content: `## Photosynthesis: How Plants Make Food — Complete Guide With Diagram
 
 Photosynthesis is one of the most important biological processes on Earth. It's how plants convert sunlight into food (glucose), and in doing so, release oxygen that all animals depend on.
