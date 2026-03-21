@@ -56,6 +56,8 @@ function getBgImage(filename: string): string {
 }
 
 // ─── Background wrapper with overlay ───────────────────────────
+// Uses backgroundImage CSS instead of <img> to avoid Satori's strict
+// "display: flex" requirement for divs with multiple children.
 function BgWithOverlay({
   bgSrc,
   overlayOpacity = 0.4,
@@ -71,44 +73,19 @@ function BgWithOverlay({
         width: "100%",
         height: "100%",
         display: "flex",
-        position: "relative",
+        backgroundImage: bgSrc ? `url(${bgSrc})` : undefined,
+        backgroundSize: "1200px 630px",
         fontFamily: "Arial, sans-serif",
       }}
     >
-      {/* Background image */}
-      {bgSrc && (
-        <img
-          src={bgSrc}
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-          }}
-        />
-      )}
-      {/* Dark overlay for text readability */}
+      {/* Single child: overlay + content combined */}
       <div
         style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          background: `rgba(0,0,0,${overlayOpacity})`,
-        }}
-      />
-      {/* Content */}
-      <div
-        style={{
-          position: "relative",
           width: "100%",
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          zIndex: 1,
+          background: `rgba(0,0,0,${overlayOpacity})`,
         }}
       >
         {children}
