@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks, getMathsWeek, getAllMathsGradeWeekPairs } from "@/lib/maths-quiz-data";
 import { getQuizEnrichment } from "@/lib/quiz-enrichment";
 import QuizEngine from "@/components/QuizEngine";
+import QuizQuestionList from "@/components/QuizQuestionList";
 import HeroImage from "@/components/HeroImage";
 import type { Metadata } from "next";
 
@@ -111,6 +112,16 @@ export default async function MathsQuizPage({ params }: Props) {
           </div>
         </div>
       )}
+
+      {/* Server-rendered question list for SEO */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+        <QuizQuestionList
+          questions={weekData.questions}
+          topic={topic}
+          subject="Maths"
+          grade={grade}
+        />
+      </div>
 
       {/* Quiz Engine */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
