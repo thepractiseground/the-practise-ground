@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllPosts, getAllCategories } from "@/data/blog-posts";
+import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
   title: "Learning Blog: English, Maths & Science Tips | The Practise Ground",
@@ -62,8 +63,13 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
   return (
     <div className="bg-theme-gradient min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-brand-navy to-blue-800 py-12 sm:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+      <section className="relative overflow-hidden py-12 sm:py-16">
+        <HeroImage
+          src="/images/og/og-blog-grammar.png"
+          alt="Learning blog illustration"
+          overlay={0.6}
+        />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4">Learning Blog</h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
             English grammar tips, Maths strategies, and study guides to help you succeed — from Grade 5 to 10 and beyond

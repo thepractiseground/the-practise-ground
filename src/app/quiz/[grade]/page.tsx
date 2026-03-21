@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { GRADES, GRADE_INFO, getGradeWeeks } from "@/lib/quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
 import WhatsAppShareGrade from "@/components/WhatsAppShareGrade";
+import HeroImage from "@/components/HeroImage";
 
 import type { Metadata } from "next";
 
@@ -53,8 +54,13 @@ export default async function GradePage({ params }: Props) {
   return (
     <div className="bg-theme-gradient min-h-screen">
       {/* Hero */}
-      <section className={`bg-gradient-to-r ${info.color} py-12 sm:py-16`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative overflow-hidden py-12 sm:py-16">
+        <HeroImage
+          src="/images/og/og-english.png"
+          alt="English quizzes illustration"
+          overlay={0.6}
+        />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <nav className="text-white/70 text-sm mb-4">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>

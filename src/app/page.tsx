@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { GRADES, GRADE_INFO, getGradeWeeks } from "@/lib/quiz-data";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
 import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
@@ -46,12 +47,22 @@ export default function Home() {
 
       {/* English Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="text-3xl">📝</span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">English Quizzes</h2>
-          <span className="bg-brand-orange/10 text-brand-orange text-sm font-bold px-3 py-1 rounded-full">
-            {englishQuestions.toLocaleString()}+ questions
-          </span>
+        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
+          <Image
+            src="/images/og/og-english.png"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-white/80" />
+          <div className="relative z-10 flex items-center gap-3">
+            <span className="text-3xl">📝</span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">English Quizzes</h2>
+            <span className="bg-brand-orange/10 text-brand-orange text-sm font-bold px-3 py-1 rounded-full">
+              {englishQuestions.toLocaleString()}+ questions
+            </span>
+          </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {GRADES.map((grade) => {
@@ -86,12 +97,22 @@ export default function Home() {
 
       {/* Maths Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="text-3xl">🔢</span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">Maths Quizzes</h2>
-          <span className="bg-emerald-500/10 text-emerald-600 text-sm font-bold px-3 py-1 rounded-full">
-            {mathsQuestions.toLocaleString()}+ questions
-          </span>
+        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
+          <Image
+            src="/images/og/og-maths.png"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-white/80" />
+          <div className="relative z-10 flex items-center gap-3">
+            <span className="text-3xl">🔢</span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">Maths Quizzes</h2>
+            <span className="bg-emerald-500/10 text-emerald-600 text-sm font-bold px-3 py-1 rounded-full">
+              {mathsQuestions.toLocaleString()}+ questions
+            </span>
+          </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {MATHS_GRADES.map((grade) => {
@@ -127,12 +148,22 @@ export default function Home() {
 
       {/* Science Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="text-3xl">🔬</span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">Science Quizzes</h2>
-          <span className="bg-purple-500/10 text-purple-600 text-sm font-bold px-3 py-1 rounded-full">
-            {scienceQuestions.toLocaleString()}+ questions
-          </span>
+        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
+          <Image
+            src="/images/og/og-science.png"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-white/80" />
+          <div className="relative z-10 flex items-center gap-3">
+            <span className="text-3xl">🔬</span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">Science Quizzes</h2>
+            <span className="bg-purple-500/10 text-purple-600 text-sm font-bold px-3 py-1 rounded-full">
+              {scienceQuestions.toLocaleString()}+ questions
+            </span>
+          </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SCIENCE_GRADES.map((grade) => {
@@ -171,16 +202,26 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <Link
             href="/fun"
-            className="group block bg-gradient-to-r from-amber-50 via-violet-50 to-lime-50 border-2 border-amber-200 rounded-2xl p-6 sm:p-8 text-center hover:shadow-lg hover:border-violet-300 transition-all"
+            className="group block relative overflow-hidden rounded-2xl p-6 sm:p-8 text-center hover:shadow-lg transition-all"
           >
-            <span className="text-3xl">🎯</span>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mt-2 mb-1">Looking for something fun?</h2>
-            <p className="text-gray-600 text-sm sm:text-base mb-3">
-              Try our fun quizzes — world capitals, space facts, famous inventions, flags and more!
-            </p>
-            <span className="text-brand-orange font-semibold group-hover:underline">
-              Explore Fun Quizzes →
-            </span>
+            <Image
+              src="/images/og/og-fun.png"
+              alt=""
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-white/75 group-hover:bg-white/70 transition-colors" />
+            <div className="relative z-10">
+              <span className="text-3xl">🎯</span>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mt-2 mb-1">Looking for something fun?</h2>
+              <p className="text-gray-600 text-sm sm:text-base mb-3">
+                Try our fun quizzes — world capitals, space facts, famous inventions, flags and more!
+              </p>
+              <span className="text-brand-orange font-semibold group-hover:underline">
+                Explore Fun Quizzes →
+              </span>
+            </div>
           </Link>
         </div>
       </section>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { funQuizzes } from "@/data/fun-quizzes";
+import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
   title: "Fun Quizzes — Test Your General Knowledge | The Practise Ground",
@@ -49,21 +50,21 @@ export default function FunQuizzesPage() {
       />
 
       {/* Hero */}
-      <section
-        className="py-16 sm:py-20 text-center"
-        style={{
-          background: "linear-gradient(135deg, #fef3c7 0%, #fde68a 30%, #c4b5fd 70%, #a78bfa 100%)",
-        }}
-      >
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <section className="relative overflow-hidden py-16 sm:py-20 text-center">
+        <HeroImage
+          src="/images/og/og-fun.png"
+          alt="Fun quizzes illustration"
+          overlay={0.5}
+        />
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
           <div className="text-5xl sm:text-6xl mb-4">🎯</div>
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Fun Quizzes
           </h1>
-          <p className="text-lg sm:text-xl text-gray-700 mb-3 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-white/90 mb-3 max-w-2xl mx-auto">
             Test your knowledge beyond the classroom. Quick, fun, and completely free!
           </p>
-          <p className="text-gray-600">
+          <p className="text-white/70">
             {funQuizzes.length} quizzes &middot; {funQuizzes.length * 15} questions &middot; No sign-up needed
           </p>
         </div>

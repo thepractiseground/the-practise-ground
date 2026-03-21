@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/data/blog-posts";
 import { markdownToHtml } from "@/lib/markdown";
 import WhatsAppShareBlog from "@/components/WhatsAppShareBlog";
+import HeroImage from "@/components/HeroImage";
 
 
 interface PageProps {
@@ -60,6 +61,24 @@ const categoryColors: Record<string, { bg: string; badge: string }> = {
   Chemistry: { bg: "bg-amber-100", badge: "bg-amber-600" },
   Biology: { bg: "bg-lime-100", badge: "bg-lime-600" },
   Science: { bg: "bg-purple-100", badge: "bg-purple-600" },
+};
+
+const categoryHeroImage: Record<string, string> = {
+  Grammar: "/images/og/og-blog-grammar.png",
+  Vocabulary: "/images/og/og-blog-grammar.png",
+  "Exam Prep": "/images/og/og-blog-grammar.png",
+  "Study Tips": "/images/og/og-blog-grammar.png",
+  "Writing Skills": "/images/og/og-blog-writing.png",
+  "English Grammar": "/images/og/og-blog-grammar.png",
+  "Maths Concepts": "/images/og/og-blog-maths.png",
+  "Maths Tips": "/images/og/og-blog-maths.png",
+  "Problem Solving": "/images/og/og-blog-maths.png",
+  Physics: "/images/og/og-blog-science.png",
+  Chemistry: "/images/og/og-blog-science.png",
+  Biology: "/images/og/og-blog-science.png",
+  Science: "/images/og/og-blog-science.png",
+  "Science Concepts": "/images/og/og-blog-science.png",
+  "Learning Tips": "/images/og/og-blog-grammar.png",
 };
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -119,8 +138,13 @@ export default async function BlogPostPage({ params }: PageProps) {
       </section>
 
       {/* Article Header */}
-      <section className="bg-gradient-to-r from-brand-navy to-blue-800 py-12 sm:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <section className="relative overflow-hidden py-12 sm:py-16">
+        <HeroImage
+          src={categoryHeroImage[post.category] || "/images/og/og-blog-grammar.png"}
+          alt={`${post.category} illustration`}
+          overlay={0.65}
+        />
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
           {/* Category & Grade Badges */}
           <div className="flex flex-wrap gap-2 mb-6">
             <span className={`${colors.badge} text-white text-xs sm:text-sm font-bold px-3 py-1 rounded-full`}>
