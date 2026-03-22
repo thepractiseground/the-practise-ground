@@ -4,6 +4,16 @@ Ideas and tasks to revisit later.
 
 ---
 
+## Social Media Presence
+
+**Added:** 15 Mar 2026
+
+- **LinkedIn:** https://www.linkedin.com/company/108422101/admin/page-posts/published/
+- **Facebook:** https://www.facebook.com/thepractiseground
+- **YouTube:** https://www.youtube.com/@ThePractiseGround
+
+---
+
 ## Backlink Strategy for Organic Traffic
 
 **Added:** 1 Mar 2026
@@ -238,5 +248,124 @@ For the ~450 unindexed quiz pages, the fix isn't more blog posts — it's making
 - Average CTR across blog posts (target: 1.5%+, currently ~0.5%)
 - Number of indexed pages (currently 222 of ~1,012)
 - Clicks from blog posts to quiz pages (internal conversion)
+
+---
+
+## Infographic Strategy — Image Search Traffic
+
+**Added:** 22 Mar 2026
+
+### Goal
+Drive traffic from Google Images and Pinterest by having high-quality, branded infographics attached to every blog post. Each infographic targets image-search queries like "photosynthesis diagram," "Newton's laws infographic," "letter writing format."
+
+### Pipeline
+- **Simple/text-heavy infographics** → HTML/CSS + Playwright (full text control, consistent style)
+- **Complex illustrated diagrams** → NotebookLM, then post-process to add TPG branding and verify accuracy
+
+### Tier 1 — Science Diagrams ✅ DONE (21 Mar 2026)
+7 infographics created and live with download + share buttons:
+
+| Blog Post | Infographic | Theme |
+|-----------|-------------|-------|
+| Photosynthesis | photosynthesis-diagram.png | Green |
+| Cell Structure | cell-structure-diagram.png | Purple |
+| Digestive System | digestive-system-diagram.png | Orange |
+| Periodic Table | periodic-table-diagram.png | Teal |
+| Newton's Laws | newtons-laws-diagram.png | Blue |
+| Electricity & Circuits | electricity-circuits-diagram.png | Amber |
+| Light Reflection & Refraction | light-reflection-diagram.png | Indigo |
+
+### Tier 2 — High-Traffic Blog Posts (Priority: Image Search Volume)
+
+These target the blog posts with highest impressions in GSC, plus topics with proven high image search demand in Indian education:
+
+| # | Blog Post | Infographic Concept | Search Demand Signal |
+|---|-----------|--------------------|--------------------|
+| 1 | letter-writing-format-guide | Formal vs Informal letter format side-by-side with labeled parts (date, salutation, body, closing) | 7,226 impressions — #1 blog post |
+| 2 | trigonometry-beginners-sin-cos-tan | Unit circle + SOH-CAH-TOA triangle + trig ratios table | 846 impressions — #2 blog post |
+| 3 | subject-verb-agreement-rules | Rules flowchart with correct/incorrect examples | 623 impressions — #3 blog post |
+| 4 | coordinate-geometry-graphs-visual-guide | Cartesian plane with distance formula, midpoint, slope | 248 impressions |
+| 5 | geometry-essentials-shapes-angles-theorems | Shapes reference sheet: all types of angles, triangles, quadrilaterals with properties | Extremely high image search volume |
+| 6 | algebra-made-simple-basics-to-confidence | Algebra rules cheat sheet: identities, factoring, BODMAS | High search demand |
+| 7 | how-to-master-fractions-complete-guide | Visual fractions guide: equivalence, addition, multiplication with pie charts | High image demand |
+| 8 | mental-maths-tricks-every-student-should-know | Speed maths tricks infographic: multiplication shortcuts, percentage tricks | 194 impressions + high share potential |
+
+### Tier 3 — Grammar & Study Skills Visual Guides
+
+| # | Blog Post | Infographic Concept | Notes |
+|---|-----------|--------------------|----|
+| 1 | parts-of-speech-made-easy | 8 Parts of Speech poster with examples and color coding | Very high image search for "parts of speech chart" |
+| 2 | english-tenses-explained-simply | Tense chart: past/present/future × simple/continuous/perfect with formula + example | "English tenses chart" is a top image query |
+| 3 | active-passive-voice-rules | Voice change rules with formula and 5 examples per tense | Popular exam reference |
+| 4 | direct-indirect-speech-guide | Reporting speech rules: tense shifts, pronoun changes, time expressions | Exam essential |
+| 5 | articles-a-an-the-guide | Decision tree: when to use a/an/the/no article | Simple but high demand |
+| 6 | prepositions-complete-guide | Preposition map: in/on/at with spatial diagrams | Visual learning friendly |
+| 7 | acids-bases-salts-guide | pH scale infographic with common substances + litmus test | High science image demand |
+| 8 | chemical-reactions-equations-guide | Types of reactions visual: combination, decomposition, displacement, redox | Common exam reference |
+
+### Execution Plan
+- **Tier 2:** Create during next 2 sessions (8 infographics)
+- **Tier 3:** Create over following 2 sessions (8 infographics)
+- **Total:** 23 infographics across all blog posts with visual content potential
+- All infographics include: TPG branding, download button, share button (WhatsApp, Pinterest, X, Facebook)
+
+---
+
+## CEFR Language Level Quizzes — Implementation Plan
+
+**Added:** 22 Mar 2026
+
+### Concept
+Add English proficiency quizzes based on the CEFR (Common European Framework of Reference) alongside existing grade-based quizzes. This opens TPG to:
+- International students (not tied to Indian grade system)
+- Adult learners and competitive exam aspirants
+- ESL/EFL learners globally
+- Google searches like "A2 English test," "B1 grammar quiz," "CEFR level test"
+
+### CEFR Levels
+
+| Level | Name | Description | Approx Grade Mapping |
+|-------|------|-------------|---------------------|
+| A1 | Beginner | Basic phrases, simple sentences | Grade 3-4 |
+| A2 | Elementary | Everyday expressions, simple descriptions | Grade 5-6 |
+| B1 | Intermediate | Main points, travel situations, opinions | Grade 7-8 |
+| B2 | Upper Intermediate | Complex texts, fluent interaction | Grade 9-10 |
+| C1 | Advanced | Implicit meaning, academic/professional use | Grade 11-12 |
+| C2 | Proficiency | Near-native understanding and expression | University+ |
+
+### Route Structure
+- `/quiz/english/` — CEFR hub page listing all 6 levels
+- `/quiz/english/a1` — A1 level hub (list of all weeks)
+- `/quiz/english/a1/1` — A1 Week 1 quiz
+
+### Content Strategy
+- Start with **A2 and B1** (highest search volume, maps to existing Grade 5-8 content)
+- 26 weeks per level initially (can expand to 52)
+- Topics curated per CEFR level descriptors (not just rebranded grade content)
+- Each quiz: 25 questions (consistent with existing format)
+
+### Implementation Phases
+1. **Phase 1:** Data structure + routes + hub pages (A2 + B1, 26 weeks each = 52 quizzes)
+2. **Phase 2:** Add A1 + B2 (26 weeks each = 52 more quizzes)
+3. **Phase 3:** Add C1 + C2 (26 weeks each = 52 more quizzes)
+
+---
+
+## Mobile Experience Audit & Enhancement
+
+**Added:** 22 Mar 2026
+
+### Context
+GSC data shows most users are on mobile. Need a thorough audit of tap targets, font sizes, spacing, and overall mobile UX to ensure the experience is optimized.
+
+### Audit Areas
+1. **Tap target sizes** — All buttons/links must be ≥44×44px (Google's mobile-friendly standard)
+2. **Font readability** — Body text ≥16px on mobile, no horizontal scrolling
+3. **Quiz experience on mobile** — Option buttons, progress bar, results page
+4. **Blog reading experience** — Content width, image scaling, table responsiveness
+5. **Navigation** — Mobile menu, breadcrumbs, back navigation
+6. **Page speed** — LCP, CLS, FID on mobile (Lighthouse audit)
+7. **Touch interactions** — Swipe, scroll behavior, no hover-dependent features
+8. **Share/download buttons** — New ImageActions component mobile testing
 
 ---

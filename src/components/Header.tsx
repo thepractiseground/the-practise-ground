@@ -69,7 +69,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 text-gray-700"
+            className="md:hidden p-3 min-h-11 min-w-11 flex items-center justify-center text-gray-700"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -88,19 +88,19 @@ export default function Header() {
           <div className="md:hidden pb-4 border-t">
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={`eng-${g}`} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-brand-orange text-sm">
+              <Link key={`eng-${g}`} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-brand-orange text-sm min-h-11">
                 Grade {g}
               </Link>
             ))}
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-emerald-600 text-sm">
+              <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-emerald-600 text-sm min-h-11">
                 Grade {g}
               </Link>
             ))}
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Science Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={`sci-${g}`} href={`/quiz/science/${g}`} onClick={() => setMenuOpen(false)} className="block py-2 pl-6 text-gray-600 hover:text-purple-600 text-sm">
+              <Link key={`sci-${g}`} href={`/quiz/science/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-purple-600 text-sm min-h-11">
                 Grade {g}
               </Link>
             ))}

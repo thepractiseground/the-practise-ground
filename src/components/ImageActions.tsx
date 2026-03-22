@@ -76,7 +76,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
       {/* Download Button */}
       <button
         onClick={handleDownload}
-        className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 text-xs sm:text-sm font-semibold px-3 py-2 rounded-lg border border-gray-200 shadow-sm transition-colors"
+        className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 text-xs sm:text-sm font-semibold px-3 py-2.5 rounded-lg border border-gray-200 shadow-sm transition-colors min-h-11"
         title={`Download ${imageAlt}`}
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -89,7 +89,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
       <div className="relative">
         <button
           onClick={handleNativeShare}
-          className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 text-xs sm:text-sm font-semibold px-3 py-2 rounded-lg border border-gray-200 shadow-sm transition-colors"
+          className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 text-xs sm:text-sm font-semibold px-3 py-2.5 rounded-lg border border-gray-200 shadow-sm transition-colors min-h-11"
           title="Share this infographic"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -112,7 +112,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
                 href={`https://wa.me/?text=${encodeURIComponent(shareText + "\n" + pageUrl)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors"
+                className="flex items-center gap-3 px-4 py-3 min-h-12 hover:bg-green-50 transition-colors"
                 onClick={() => setShowShareMenu(false)}
               >
                 <span className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
@@ -129,7 +129,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(pageUrl)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition-colors"
+                className="flex items-center gap-3 px-4 py-3 min-h-12 hover:bg-gray-50 transition-colors"
                 onClick={() => setShowShareMenu(false)}
               >
                 <span className="w-8 h-8 bg-black rounded-full flex items-center justify-center">
@@ -145,7 +145,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
                 href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 px-4 py-2.5 hover:bg-blue-50 transition-colors"
+                className="flex items-center gap-3 px-4 py-3 min-h-12 hover:bg-blue-50 transition-colors"
                 onClick={() => setShowShareMenu(false)}
               >
                 <span className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
@@ -161,7 +161,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
                 href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&media=${encodeURIComponent(fullImageUrl)}&description=${encodeURIComponent(shareText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 px-4 py-2.5 hover:bg-red-50 transition-colors"
+                className="flex items-center gap-3 px-4 py-3 min-h-12 hover:bg-red-50 transition-colors"
                 onClick={() => setShowShareMenu(false)}
               >
                 <span className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
@@ -180,7 +180,7 @@ export default function ImageActions({ imageSrc, imageAlt, title, slug }: ImageA
                   handleCopyLink();
                   setShowShareMenu(false);
                 }}
-                className="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition-colors w-full text-left"
+                className="flex items-center gap-3 px-4 py-3 min-h-12 hover:bg-gray-50 transition-colors w-full text-left"
               >
                 <span className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
                   <svg className="w-4 h-4 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

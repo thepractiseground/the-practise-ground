@@ -199,8 +199,8 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
       {/* Progress */}
       <div className="mb-6">
         <div className="flex justify-between items-center mb-2">
-          <span className="text-sm text-gray-500">Question {currentQ + 1} of {questions.length}</span>
-          <span className="text-sm font-semibold text-brand-orange">{score} correct so far</span>
+          <span className="text-xs sm:text-sm text-gray-500">Question {currentQ + 1} of {questions.length}</span>
+          <span className="text-xs sm:text-sm font-semibold text-brand-orange">{score} correct so far</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2">
           <div className="bg-brand-orange h-2 rounded-full transition-all duration-300" style={{ width: `${((currentQ + 1) / questions.length) * 100}%` }} />
@@ -216,7 +216,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             const label = optionLabels[idx];
             const isSelected = selected === label;
             const isCorrect = label === q.answer;
-            let classes = "w-full text-left p-4 rounded-xl border-2 transition-all duration-200 flex items-start gap-3 ";
+            let classes = "w-full text-left p-4 rounded-xl border-2 transition-all duration-200 flex items-start gap-3 min-h-14 ";
 
             if (showResult) {
               if (isCorrect) {

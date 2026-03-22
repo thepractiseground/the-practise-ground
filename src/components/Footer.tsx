@@ -32,7 +32,7 @@ export default function Footer() {
                   <Link
                     key={`eng-${g}`}
                     href={`/quiz/${g}`}
-                    className="bg-white/10 hover:bg-brand-orange hover:text-white text-gray-300 text-sm px-3 py-1 rounded-lg transition-colors"
+                    className="bg-white/10 hover:bg-brand-orange hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
                   >
                     Grade {g}
                   </Link>
@@ -46,7 +46,7 @@ export default function Footer() {
                   <Link
                     key={`maths-${g}`}
                     href={`/quiz/maths/${g}`}
-                    className="bg-white/10 hover:bg-emerald-500 hover:text-white text-gray-300 text-sm px-3 py-1 rounded-lg transition-colors"
+                    className="bg-white/10 hover:bg-emerald-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
                   >
                     Grade {g}
                   </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
                   <Link
                     key={`sci-${g}`}
                     href={`/quiz/science/${g}`}
-                    className="bg-white/10 hover:bg-purple-500 hover:text-white text-gray-300 text-sm px-3 py-1 rounded-lg transition-colors"
+                    className="bg-white/10 hover:bg-purple-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
                   >
                     Grade {g}
                   </Link>
@@ -72,7 +72,7 @@ export default function Footer() {
           {/* Links + Actions */}
           <div className="md:col-span-4">
             <h3 className="text-white font-semibold mb-4">Explore</h3>
-            <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm mb-6">
+            <div className="grid grid-cols-2 gap-x-6 gap-y-1 text-sm mb-6">
               <Link href="/summer-challenge" className="hover:text-brand-orange transition-colors text-brand-orange font-semibold">Summer Challenge</Link>
               <Link href="/fun" className="hover:text-brand-orange transition-colors">Fun Quizzes</Link>
               <Link href="/blog" className="hover:text-brand-orange transition-colors">Blog</Link>

@@ -82,7 +82,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
         <div className="flex flex-wrap gap-3 justify-center">
           <Link
             href="/blog"
-            className={`px-4 py-2 rounded-full font-semibold transition-all ${
+            className={`px-4 py-2.5 rounded-full font-semibold transition-all min-h-11 ${
               !selectedCategory
                 ? "bg-brand-navy text-white"
                 : "bg-white text-brand-navy border-2 border-brand-navy hover:bg-brand-navy hover:text-white"
@@ -94,7 +94,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
             <Link
               key={cat}
               href={`/blog?category=${cat.toLowerCase()}`}
-              className={`px-4 py-2 rounded-full font-semibold transition-all ${
+              className={`px-4 py-2.5 rounded-full font-semibold transition-all min-h-11 ${
                 selectedCategory === cat.toLowerCase()
                   ? "bg-brand-navy text-white"
                   : "bg-white text-brand-navy border-2 border-brand-navy hover:bg-brand-navy hover:text-white"

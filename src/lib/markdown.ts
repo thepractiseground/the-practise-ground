@@ -87,7 +87,7 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
         .join("");
       const bodyHtml = `<tbody>${bodyRows}</tbody>`;
 
-      return `<table class="markdown-table">${headerHtml}${bodyHtml}</table>`;
+      return `<div class="markdown-table-wrapper"><table class="markdown-table">${headerHtml}${bodyHtml}</table></div>`;
     }
   );
 
