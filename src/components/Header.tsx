@@ -181,7 +181,7 @@ export default function Header() {
 
       {/* Mobile Nav — full-screen scrollable overlay */}
       {menuOpen && (
-        <div className="md:hidden fixed inset-0 top-16 z-40 bg-white overflow-y-auto overscroll-contain">
+        <div className="md:hidden fixed left-0 right-0 top-16 bottom-0 z-40 bg-white overflow-y-auto overscroll-contain" style={{ height: 'calc(100dvh - 4rem)' }}>
           {/* Quiz sections with collapsible accordions */}
           <MobileSection title="📝 English by Grade" color="text-brand-orange" defaultOpen onNavigate={closeMenu}>
             <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="" hoverColor="hover:bg-brand-orange" onNavigate={closeMenu} />
