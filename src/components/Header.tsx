@@ -1,9 +1,85 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+function MobileSection({
+  title,
+  color,
+  children,
+  defaultOpen = false,
+  onNavigate,
+}: {
+  title: string;
+  color: string;
+  children: React.ReactNode;
+  defaultOpen?: boolean;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(defaultOpen);
+  return (
+    <div className="border-b border-gray-100 last:border-b-0">
+      <button
+        onClick={() => setOpen(!open)}
+        className={`flex items-center justify-between w-full px-5 py-3.5 text-left min-h-12`}
+      >
+        <span className={`text-sm font-semibold ${color}`}>{title}</span>
+        <svg
+          className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {open && <div className="pb-2 px-5">{children}</div>}
+    </div>
+  );
+}
+
+function GradeChips({
+  grades,
+  prefix,
+  hoverColor,
+  onNavigate,
+}: {
+  grades: number[];
+  prefix: string;
+  hoverColor: string;
+  onNavigate: () => void;
+}) {
+  return (
+    <div className="flex flex-wrap gap-2 pb-2">
+      {grades.map((g) => (
+        <Link
+          key={`${prefix}-${g}`}
+          href={`/quiz/${prefix}${prefix ? "/" : ""}${g}`}
+          onClick={onNavigate}
+          className={`bg-gray-50 text-gray-700 text-sm px-4 py-2 rounded-lg ${hoverColor} hover:text-white transition-colors min-h-10 flex items-center`}
+        >
+          Grade {g}
+        </Link>
+      ))}
+    </div>
+  );
+}
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [menuOpen]);
+
+  const closeMenu = () => setMenuOpen(false);
 
   return (
     <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
@@ -27,7 +103,7 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[200px] max-h-[80vh] overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Grade</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
                   <Link key={`eng-${g}`} href={`/quiz/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange text-sm">
@@ -101,53 +177,72 @@ export default function Header() {
             </svg>
           </button>
         </div>
-
-        {/* Mobile Nav */}
-        {menuOpen && (
-          <div className="md:hidden pb-4 border-t">
-            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Grade</div>
-            {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={`eng-${g}`} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-brand-orange text-sm min-h-11">
-                Grade {g}
-              </Link>
-            ))}
-            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Level (CEFR)</div>
-            <Link href="/quiz/english/a2" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-emerald-600 text-sm min-h-11">
-              A2 Elementary
-            </Link>
-            <Link href="/quiz/english/b1" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-blue-600 text-sm min-h-11">
-              B1 Intermediate
-            </Link>
-            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Languages (CEFR)</div>
-            <Link href="/quiz/spanish" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-red-600 text-sm min-h-11">
-              🇪🇸 Spanish (A1–C1)
-            </Link>
-            <Link href="/quiz/french" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-blue-600 text-sm min-h-11">
-              🇫🇷 French (A1–C1)
-            </Link>
-            <Link href="/quiz/german" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-yellow-700 text-sm min-h-11">
-              🇩🇪 German (A1–C1)
-            </Link>
-            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths Quizzes</div>
-            {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-emerald-600 text-sm min-h-11">
-                Grade {g}
-              </Link>
-            ))}
-            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Science Quizzes</div>
-            {[5, 6, 7, 8, 9, 10].map((g) => (
-              <Link key={`sci-${g}`} href={`/quiz/science/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-purple-600 text-sm min-h-11">
-                Grade {g}
-              </Link>
-            ))}
-            <Link href="/summer-challenge" onClick={() => setMenuOpen(false)} className="block py-3 text-brand-orange hover:text-orange-600 font-bold">Summer Challenge</Link>
-            <Link href="/fun" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Fun Quizzes</Link>
-            <Link href="/blog" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Blog</Link>
-            <Link href="/colouring-books" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Colouring Books</Link>
-            <Link href="/posters-printables" onClick={() => setMenuOpen(false)} className="block py-3 text-gray-700 hover:text-brand-orange font-medium">Printables</Link>
-          </div>
-        )}
       </div>
+
+      {/* Mobile Nav — full-screen scrollable overlay */}
+      {menuOpen && (
+        <div className="md:hidden fixed inset-0 top-16 z-40 bg-white overflow-y-auto overscroll-contain">
+          {/* Quiz sections with collapsible accordions */}
+          <MobileSection title="📝 English by Grade" color="text-brand-orange" defaultOpen onNavigate={closeMenu}>
+            <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="" hoverColor="hover:bg-brand-orange" onNavigate={closeMenu} />
+          </MobileSection>
+
+          <MobileSection title="📊 English by Level (CEFR)" color="text-emerald-600" onNavigate={closeMenu}>
+            <div className="flex flex-wrap gap-2 pb-2">
+              <Link href="/quiz/english/a2" onClick={closeMenu} className="bg-gray-50 text-gray-700 text-sm px-4 py-2 rounded-lg hover:bg-emerald-500 hover:text-white transition-colors min-h-10 flex items-center">
+                A2 Elementary
+              </Link>
+              <Link href="/quiz/english/b1" onClick={closeMenu} className="bg-gray-50 text-gray-700 text-sm px-4 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition-colors min-h-10 flex items-center">
+                B1 Intermediate
+              </Link>
+            </div>
+          </MobileSection>
+
+          <MobileSection title="🌍 Languages (CEFR)" color="text-blue-600" onNavigate={closeMenu}>
+            <div className="flex flex-col gap-1 pb-2">
+              <Link href="/quiz/spanish" onClick={closeMenu} className="flex items-center gap-3 text-gray-700 text-sm px-3 py-2.5 rounded-lg hover:bg-red-50 hover:text-red-600 transition-colors min-h-11">
+                <span className="text-lg">🇪🇸</span> Spanish (A1–C1)
+              </Link>
+              <Link href="/quiz/french" onClick={closeMenu} className="flex items-center gap-3 text-gray-700 text-sm px-3 py-2.5 rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-colors min-h-11">
+                <span className="text-lg">🇫🇷</span> French (A1–C1)
+              </Link>
+              <Link href="/quiz/german" onClick={closeMenu} className="flex items-center gap-3 text-gray-700 text-sm px-3 py-2.5 rounded-lg hover:bg-yellow-50 hover:text-yellow-700 transition-colors min-h-11">
+                <span className="text-lg">🇩🇪</span> German (A1–C1)
+              </Link>
+            </div>
+          </MobileSection>
+
+          <MobileSection title="🔢 Maths" color="text-emerald-600" onNavigate={closeMenu}>
+            <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="maths" hoverColor="hover:bg-emerald-500" onNavigate={closeMenu} />
+          </MobileSection>
+
+          <MobileSection title="🔬 Science" color="text-purple-600" onNavigate={closeMenu}>
+            <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="science" hoverColor="hover:bg-purple-500" onNavigate={closeMenu} />
+          </MobileSection>
+
+          {/* Quick links */}
+          <div className="border-t border-gray-200 mt-1">
+            <Link href="/summer-challenge" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-brand-orange hover:bg-orange-50 font-semibold text-sm min-h-12">
+              ☀️ Summer Challenge
+            </Link>
+            <Link href="/fun" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
+              🎮 Fun Quizzes
+            </Link>
+            <Link href="/blog" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
+              📖 Blog
+            </Link>
+            <Link href="/colouring-books" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
+              🎨 Colouring Books
+            </Link>
+            <Link href="/posters-printables" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
+              🖼️ Printables
+            </Link>
+          </div>
+
+          {/* Bottom padding for safe area on notched phones */}
+          <div className="h-20" />
+        </div>
+      )}
     </header>
   );
 }
