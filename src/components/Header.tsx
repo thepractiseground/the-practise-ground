@@ -43,6 +43,17 @@ export default function Header() {
                   B1 Intermediate
                 </Link>
                 <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Languages (CEFR)</div>
+                <Link href="/quiz/spanish" className="block px-4 py-1.5 text-gray-700 hover:bg-red-50 hover:text-red-600 text-sm">
+                  🇪🇸 Spanish
+                </Link>
+                <Link href="/quiz/french" className="block px-4 py-1.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 text-sm">
+                  🇫🇷 French
+                </Link>
+                <Link href="/quiz/german" className="block px-4 py-1.5 text-gray-700 hover:bg-yellow-50 hover:text-yellow-700 text-sm">
+                  🇩🇪 German
+                </Link>
+                <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
                   <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-emerald-50 hover:text-emerald-600 text-sm">
@@ -106,6 +117,16 @@ export default function Header() {
             </Link>
             <Link href="/quiz/english/b1" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-blue-600 text-sm min-h-11">
               B1 Intermediate
+            </Link>
+            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Languages (CEFR)</div>
+            <Link href="/quiz/spanish" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-red-600 text-sm min-h-11">
+              🇪🇸 Spanish (A1–C1)
+            </Link>
+            <Link href="/quiz/french" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-blue-600 text-sm min-h-11">
+              🇫🇷 French (A1–C1)
+            </Link>
+            <Link href="/quiz/german" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-yellow-700 text-sm min-h-11">
+              🇩🇪 German (A1–C1)
             </Link>
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (

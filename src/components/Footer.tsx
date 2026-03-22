@@ -70,6 +70,29 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
+            <div className="mb-4">
+              <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Languages (CEFR)</p>
+              <div className="flex flex-wrap gap-2">
+                <Link
+                  href="/quiz/spanish"
+                  className="bg-white/10 hover:bg-red-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                >
+                  🇪🇸 Spanish
+                </Link>
+                <Link
+                  href="/quiz/french"
+                  className="bg-white/10 hover:bg-blue-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                >
+                  🇫🇷 French
+                </Link>
+                <Link
+                  href="/quiz/german"
+                  className="bg-white/10 hover:bg-yellow-600 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                >
+                  🇩🇪 German
+                </Link>
+              </div>
+            </div>
             <div>
               <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Science</p>
               <div className="flex flex-wrap gap-2">
