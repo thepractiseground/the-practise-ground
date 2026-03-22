@@ -55,11 +55,11 @@ export default function Home() {
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-white/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-600/75 to-amber-500/65" />
           <div className="relative z-10 flex items-center gap-3">
             <span className="text-3xl">📝</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">English Quizzes</h2>
-            <span className="bg-brand-orange/10 text-brand-orange text-sm font-bold px-3 py-1 rounded-full">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">English Quizzes</h2>
+            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
               {englishQuestions.toLocaleString()}+ questions
             </span>
           </div>
@@ -105,11 +105,11 @@ export default function Home() {
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-white/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/75 to-teal-500/65" />
           <div className="relative z-10 flex items-center gap-3">
             <span className="text-3xl">🔢</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">Maths Quizzes</h2>
-            <span className="bg-emerald-500/10 text-emerald-600 text-sm font-bold px-3 py-1 rounded-full">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Maths Quizzes</h2>
+            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
               {mathsQuestions.toLocaleString()}+ questions
             </span>
           </div>
@@ -156,11 +156,11 @@ export default function Home() {
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-white/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/75 to-indigo-500/65" />
           <div className="relative z-10 flex items-center gap-3">
             <span className="text-3xl">🔬</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">Science Quizzes</h2>
-            <span className="bg-purple-500/10 text-purple-600 text-sm font-bold px-3 py-1 rounded-full">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Science Quizzes</h2>
+            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
               {scienceQuestions.toLocaleString()}+ questions
             </span>
           </div>
