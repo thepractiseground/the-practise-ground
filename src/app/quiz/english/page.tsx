@@ -32,14 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-const cefrScale = [
-  { level: "A1", name: "Beginner", available: false },
-  { level: "A2", name: "Elementary", available: true, key: "a2" },
-  { level: "B1", name: "Intermediate", available: true, key: "b1" },
-  { level: "B2", name: "Upper Intermediate", available: false },
-  { level: "C1", name: "Advanced", available: false },
-  { level: "C2", name: "Proficiency", available: false },
-];
 
 export default function EnglishLevelLandingPage() {
   return (
@@ -122,42 +114,14 @@ export default function EnglishLevelLandingPage() {
         </div>
       </section>
 
-      {/* CEFR Scale Explanation */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+      {/* CEFR Explanation */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy text-center mb-3">
           What is CEFR?
         </h2>
-        <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
-          The Common European Framework of Reference for Languages (CEFR) divides language ability into six levels. Our quizzes currently cover A2 and B1, with more levels coming soon.
+        <p className="text-gray-600 text-center max-w-2xl mx-auto">
+          The Common European Framework of Reference for Languages (CEFR) is the international standard for measuring language ability, used by schools and universities worldwide. It divides proficiency into six levels — A1 through C2. Our English quizzes currently cover A2 (Elementary) and B1 (Intermediate).
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-          {cefrScale.map((item) => (
-            <div
-              key={item.level}
-              className={`rounded-xl p-4 text-center ${
-                item.available
-                  ? "bg-white shadow-md border-2 border-brand-orange"
-                  : "bg-gray-50 border border-gray-200 opacity-60"
-              }`}
-            >
-              <div className={`text-xl font-bold mb-1 ${item.available ? "text-brand-navy" : "text-gray-400"}`}>
-                {item.level}
-              </div>
-              <div className={`text-xs ${item.available ? "text-gray-600" : "text-gray-400"}`}>
-                {item.name}
-              </div>
-              {item.available ? (
-                <span className="inline-block mt-2 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-semibold">
-                  Available
-                </span>
-              ) : (
-                <span className="inline-block mt-2 text-xs bg-gray-100 text-gray-400 px-2 py-0.5 rounded-full">
-                  Coming soon
-                </span>
-              )}
-            </div>
-          ))}
-        </div>
       </section>
 
       {/* Who Is This For */}
