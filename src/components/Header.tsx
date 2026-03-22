@@ -28,12 +28,20 @@ export default function Header() {
                 </svg>
               </button>
               <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English</div>
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Grade</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
                   <Link key={`eng-${g}`} href={`/quiz/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange text-sm">
                     Grade {g}
                   </Link>
                 ))}
+                <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Level</div>
+                <Link href="/quiz/english/a2" className="block px-4 py-1.5 text-gray-700 hover:bg-emerald-50 hover:text-emerald-600 text-sm">
+                  A2 Elementary
+                </Link>
+                <Link href="/quiz/english/b1" className="block px-4 py-1.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 text-sm">
+                  B1 Intermediate
+                </Link>
                 <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
@@ -86,12 +94,19 @@ export default function Header() {
         {/* Mobile Nav */}
         {menuOpen && (
           <div className="md:hidden pb-4 border-t">
-            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English Quizzes</div>
+            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Grade</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
               <Link key={`eng-${g}`} href={`/quiz/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-brand-orange text-sm min-h-11">
                 Grade {g}
               </Link>
             ))}
+            <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Level (CEFR)</div>
+            <Link href="/quiz/english/a2" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-emerald-600 text-sm min-h-11">
+              A2 Elementary
+            </Link>
+            <Link href="/quiz/english/b1" onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-blue-600 text-sm min-h-11">
+              B1 Intermediate
+            </Link>
             <div className="py-2 pl-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths Quizzes</div>
             {[5, 6, 7, 8, 9, 10].map((g) => (
               <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} onClick={() => setMenuOpen(false)} className="block py-2.5 pl-6 text-gray-600 hover:text-emerald-600 text-sm min-h-11">

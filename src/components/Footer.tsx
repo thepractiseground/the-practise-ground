@@ -53,6 +53,23 @@ export default function Footer() {
                 ))}
               </div>
             </div>
+            <div className="mb-4">
+              <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">English by Level</p>
+              <div className="flex flex-wrap gap-2">
+                <Link
+                  href="/quiz/english/a2"
+                  className="bg-white/10 hover:bg-emerald-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                >
+                  A2 Elementary
+                </Link>
+                <Link
+                  href="/quiz/english/b1"
+                  className="bg-white/10 hover:bg-blue-600 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                >
+                  B1 Intermediate
+                </Link>
+              </div>
+            </div>
             <div>
               <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Science</p>
               <div className="flex flex-wrap gap-2">
