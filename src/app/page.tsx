@@ -3,6 +3,10 @@ import Image from "next/image";
 import { GRADES, GRADE_INFO, getGradeWeeks } from "@/lib/quiz-data";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
 import { SCIENCE_GRADES, SCIENCE_GRADE_INFO, getScienceGradeWeeks } from "@/lib/science-quiz-data";
+import { CEFR_LEVELS, getCefrLevelWeeks } from "@/lib/cefr-quiz-data";
+import { SPANISH_CEFR_LEVELS, getSpanishLevelWeeks } from "@/lib/cefr-spanish-quiz-data";
+import { FRENCH_CEFR_LEVELS, getFrenchLevelWeeks } from "@/lib/cefr-french-quiz-data";
+import { GERMAN_CEFR_LEVELS, getGermanLevelWeeks } from "@/lib/cefr-german-quiz-data";
 
 
 export default function Home() {
@@ -22,6 +26,11 @@ export default function Home() {
   }, 0);
 
   const totalQuestions = englishQuestions + mathsQuestions + scienceQuestions;
+
+  const cefrEnglishQ = CEFR_LEVELS.reduce((sum, l) => sum + getCefrLevelWeeks(l).reduce((s, w) => s + w.questions.length, 0), 0);
+  const cefrSpanishQ = SPANISH_CEFR_LEVELS.reduce((sum, l) => sum + getSpanishLevelWeeks(l).reduce((s, w) => s + w.questions.length, 0), 0);
+  const cefrFrenchQ = FRENCH_CEFR_LEVELS.reduce((sum, l) => sum + getFrenchLevelWeeks(l).reduce((s, w) => s + w.questions.length, 0), 0);
+  const cefrGermanQ = GERMAN_CEFR_LEVELS.reduce((sum, l) => sum + getGermanLevelWeeks(l).reduce((s, w) => s + w.questions.length, 0), 0);
 
   return (
     <div
@@ -194,6 +203,46 @@ export default function Home() {
               </Link>
             );
           })}
+        </div>
+      </section>
+
+      {/* Language Quizzes Section */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <div className="bg-gradient-to-r from-blue-800 to-indigo-700 rounded-2xl p-6 sm:p-8 mb-6">
+          <div className="flex items-center gap-3 mb-1">
+            <span className="text-3xl">🌍</span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Language Quizzes</h2>
+          </div>
+          <p className="text-blue-200 text-sm sm:text-base ml-12">
+            CEFR-aligned grammar quizzes — A1 to C1 levels. Free, no sign-up.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {[
+            { name: "English", emoji: "🇬🇧", href: "/quiz/english", count: cefrEnglishQ, levels: "A2 – B1", color: "from-sky-500 to-blue-600" },
+            { name: "Spanish", emoji: "🇪🇸", href: "/quiz/spanish", count: cefrSpanishQ, levels: "A1 – C1", color: "from-red-500 to-rose-600" },
+            { name: "French", emoji: "🇫🇷", href: "/quiz/french", count: cefrFrenchQ, levels: "A1 – C1", color: "from-blue-500 to-indigo-600" },
+            { name: "German", emoji: "🇩🇪", href: "/quiz/german", count: cefrGermanQ, levels: "A1 – C1", color: "from-yellow-500 to-amber-600" },
+          ].map((lang) => (
+            <Link
+              key={lang.name}
+              href={lang.href}
+              className={`group block rounded-2xl bg-gradient-to-br ${lang.color} p-5 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200`}
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl">{lang.emoji}</span>
+                <h3 className="text-xl font-bold text-white">{lang.name}</h3>
+              </div>
+              <p className="text-white/90 text-sm mb-1">{lang.levels} levels</p>
+              <p className="text-white/75 text-sm mb-3">{lang.count.toLocaleString()}+ questions</p>
+              <div className="flex items-center gap-2 text-white text-sm font-semibold group-hover:gap-3 transition-all">
+                Start Practising
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
