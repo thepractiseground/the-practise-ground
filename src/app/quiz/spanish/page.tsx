@@ -4,25 +4,28 @@ import { SPANISH_CEFR_LEVELS, SPANISH_LEVEL_INFO, getSpanishLevelWeeks } from "@
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Spanish Level Quizzes (CEFR A1–C1) | Free Grammar Practice | The Practise Ground",
+  title: "Free Spanish Grammar Test Online — A1, B1 & C1 Level Practice | The Practise Ground",
   description:
-    "Free Spanish grammar quizzes organised by CEFR level. 1,950+ questions for A1 Beginner, B1 Intermediate, and C1 Advanced learners. No sign-up required.",
+    "Test your Spanish grammar free — 1,950+ questions from Beginner (A1) to Advanced (C1). Instant scores, no sign-up. CEFR-aligned quizzes for DELE prep and self-study.",
   keywords: [
-    "CEFR spanish quiz",
-    "A1 spanish test",
-    "B1 spanish test",
-    "C1 spanish test",
+    "free spanish grammar test online",
     "spanish level test free",
-    "spanish grammar quiz by level",
-    "beginner spanish quiz",
+    "A1 spanish test online",
+    "B1 spanish test online",
+    "C1 spanish test online",
+    "spanish grammar quiz free",
+    "test my spanish level",
+    "beginner spanish grammar test",
     "intermediate spanish quiz",
-    "advanced spanish quiz",
-    "CEFR grammar practice spanish"
+    "advanced spanish grammar quiz",
+    "DELE prep quiz free",
+    "learn spanish grammar online",
+    "spanish practice exercises",
   ],
   openGraph: {
-    title: "Spanish Level Quizzes (CEFR A1–C1) | The Practise Ground",
+    title: "Free Spanish Grammar Test — A1 to C1 Level | The Practise Ground",
     description:
-      "Free Spanish grammar quizzes organised by CEFR proficiency level. 1,950+ questions across A1, B1, and C1 levels.",
+      "1,950+ free Spanish grammar questions from Beginner to Advanced. Instant scoring, no sign-up. CEFR-aligned.",
     url: "https://www.thepractiseground.in/quiz/spanish",
     siteName: "The Practise Ground",
     locale: "en_IN",

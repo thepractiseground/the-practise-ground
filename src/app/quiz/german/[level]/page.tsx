@@ -20,17 +20,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const weeks = getGermanLevelWeeks(level);
   const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
 
+  const levelLabel = info.label;
+  const levelName = info.fullName.toLowerCase();
   return {
-    title: `CEFR ${info.label} (${info.fullName}) German Quiz — ${totalQ}+ Free Questions | The Practise Ground`,
-    description: `Free ${info.label} ${info.fullName} German grammar quiz. ${weeks.length} weekly quizzes with ${totalQ}+ questions covering ${info.skills}. Based on CEFR framework.`,
+    title: `Free ${levelLabel} German Test Online — ${totalQ}+ ${info.fullName} Grammar Questions`,
+    description: `Take the free ${levelLabel} (${info.fullName}) German grammar test. ${weeks.length} topic quizzes, ${totalQ}+ questions with instant scoring. Great for ${levelName} learners preparing for Goethe-Zertifikat or self-study.`,
     keywords: [
-      `CEFR ${info.label} german quiz`,
-      `${info.label} german grammar test`,
-      `${info.fullName.toLowerCase()} german practice`,
-      `${info.label} level german`,
-      `CEFR ${info.label} german grammar exercises`,
-      `free ${info.label} german test`,
-      `${info.fullName.toLowerCase()} german grammar quiz`,
+      `free ${levelLabel} german test`,
+      `${levelLabel} german grammar test online`,
+      `${levelName} german quiz`,
+      `${levelLabel} level german practice`,
+      `${levelLabel} german grammar exercises free`,
+      `test my german level ${levelLabel}`,
+      `${levelName} german grammar quiz online`,
+      `CEFR ${levelLabel} german test`,
+      `Goethe ${levelLabel} practice test`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/german/${level.toLowerCase()}` },
   };

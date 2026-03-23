@@ -27,15 +27,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!weekData || !info) return { title: "Quiz Not Found" };
 
   const topic = weekData.topic;
+  const qCount = weekData.questions.length;
   return {
-    title: `${topic} Quiz — CEFR ${info.label} English Practice | The Practise Ground`,
-    description: `Take this free CEFR ${info.label} (${info.fullName}) English quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for ${info.fullName.toLowerCase()} learners.`,
+    title: `${topic} — Free ${info.label} English Grammar Quiz (${qCount} Questions)`,
+    description: `Practice ${topic.toLowerCase()} with this free ${info.label} (${info.fullName}) English quiz. ${qCount} multiple-choice questions, instant score. Ideal for ${info.fullName.toLowerCase()} ESL learners.`,
     keywords: [
-      `${info.label} ${topic.toLowerCase()} quiz`,
-      `CEFR ${info.label} english quiz week ${weekNum}`,
+      `${topic.toLowerCase()} english quiz`,
       `${topic.toLowerCase()} grammar practice`,
+      `${info.label} ${topic.toLowerCase()} test`,
+      `free english grammar quiz ${topic.toLowerCase()}`,
       `${info.fullName.toLowerCase()} english ${topic.toLowerCase()}`,
-      `free ${info.label} grammar test`,
+      `${info.label} english practice`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/english/${level}/${weekNum}` },
   };

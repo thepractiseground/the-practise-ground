@@ -20,17 +20,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const weeks = getSpanishLevelWeeks(level);
   const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
 
+  const levelLabel = info.label;
+  const levelName = info.fullName.toLowerCase();
   return {
-    title: `CEFR ${info.label} (${info.fullName}) Spanish Quiz — ${totalQ}+ Free Questions | The Practise Ground`,
-    description: `Free ${info.label} ${info.fullName} Spanish grammar quiz. ${weeks.length} weekly quizzes with ${totalQ}+ questions covering ${info.skills}. Based on CEFR framework.`,
+    title: `Free ${levelLabel} Spanish Test Online — ${totalQ}+ ${info.fullName} Grammar Questions`,
+    description: `Take the free ${levelLabel} (${info.fullName}) Spanish grammar test. ${weeks.length} topic quizzes, ${totalQ}+ questions with instant scoring. Great for ${levelName} learners preparing for DELE or self-study.`,
     keywords: [
-      `CEFR ${info.label} spanish quiz`,
-      `${info.label} spanish grammar test`,
-      `${info.fullName.toLowerCase()} spanish practice`,
-      `${info.label} level spanish`,
-      `CEFR ${info.label} spanish grammar exercises`,
-      `free ${info.label} spanish test`,
-      `${info.fullName.toLowerCase()} spanish grammar quiz`,
+      `free ${levelLabel} spanish test`,
+      `${levelLabel} spanish grammar test online`,
+      `${levelName} spanish quiz`,
+      `${levelLabel} level spanish practice`,
+      `${levelLabel} spanish grammar exercises free`,
+      `test my spanish level ${levelLabel}`,
+      `${levelName} spanish grammar quiz online`,
+      `CEFR ${levelLabel} spanish test`,
+      `DELE ${levelLabel} practice test`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/spanish/${level.toLowerCase()}` },
   };

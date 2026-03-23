@@ -27,15 +27,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!weekData || !info) return { title: "Quiz Not Found" };
 
   const topic = weekData.topic;
+  const qCount = weekData.questions.length;
   return {
-    title: `${topic} Quiz — CEFR ${info.label} Spanish Practice | The Practise Ground`,
-    description: `Take this free CEFR ${info.label} (${info.fullName}) Spanish quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for ${info.fullName.toLowerCase()} learners.`,
+    title: `${topic} — Free ${info.label} Spanish Grammar Quiz (${qCount} Questions)`,
+    description: `Practice ${topic.toLowerCase()} with this free ${info.label} (${info.fullName}) Spanish quiz. ${qCount} multiple-choice questions, instant score. Ideal for ${info.fullName.toLowerCase()} learners and DELE prep.`,
     keywords: [
-      `${info.label} ${topic.toLowerCase()} quiz`,
-      `CEFR ${info.label} spanish quiz week ${weekNum}`,
+      `${topic.toLowerCase()} spanish quiz`,
       `${topic.toLowerCase()} spanish grammar practice`,
+      `${info.label} ${topic.toLowerCase()} test`,
+      `free spanish grammar quiz ${topic.toLowerCase()}`,
       `${info.fullName.toLowerCase()} spanish ${topic.toLowerCase()}`,
-      `free ${info.label} spanish grammar test`,
+      `${info.label} spanish practice`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/spanish/${level}/${weekNum}` },
   };

@@ -4,25 +4,28 @@ import { FRENCH_CEFR_LEVELS, FRENCH_LEVEL_INFO, getFrenchLevelWeeks } from "@/li
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "French Level Quizzes (CEFR A1–C1) | Free Grammar Practice | The Practise Ground",
+  title: "Free French Grammar Test Online — A1, B1 & C1 Level Practice | The Practise Ground",
   description:
-    "Free French grammar quizzes organised by CEFR level. 1,950+ questions for A1 Beginner, B1 Intermediate, and C1 Advanced learners. No sign-up required.",
+    "Test your French grammar free — 1,950+ questions from Beginner (A1) to Advanced (C1). Instant scores, no sign-up. CEFR-aligned quizzes for DELF/DALF prep and self-study.",
   keywords: [
-    "CEFR french quiz",
-    "A1 french test",
-    "B1 french test",
-    "C1 french test",
+    "free french grammar test online",
     "french level test free",
-    "french grammar quiz by level",
-    "beginner french quiz",
+    "A1 french test online",
+    "B1 french test online",
+    "C1 french test online",
+    "french grammar quiz free",
+    "test my french level",
+    "beginner french grammar test",
     "intermediate french quiz",
-    "advanced french quiz",
-    "CEFR grammar practice french"
+    "advanced french grammar quiz",
+    "DELF prep quiz free",
+    "learn french grammar online",
+    "french practice exercises",
   ],
   openGraph: {
-    title: "French Level Quizzes (CEFR A1–C1) | The Practise Ground",
+    title: "Free French Grammar Test — A1 to C1 Level | The Practise Ground",
     description:
-      "Free French grammar quizzes organised by CEFR proficiency level. 1,950+ questions across A1, B1, and C1 levels.",
+      "1,950+ free French grammar questions from Beginner to Advanced. Instant scoring, no sign-up. CEFR-aligned.",
     url: "https://www.thepractiseground.in/quiz/french",
     siteName: "The Practise Ground",
     locale: "en_IN",

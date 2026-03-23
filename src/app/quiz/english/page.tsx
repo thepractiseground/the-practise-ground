@@ -4,24 +4,27 @@ import { CEFR_LEVELS, CEFR_LEVEL_INFO, getCefrLevelWeeks } from "@/lib/cefr-quiz
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "English Level Quizzes (CEFR A2–B1) | Free Grammar Practice | The Practise Ground",
+  title: "Free English Grammar Test Online — A2 & B1 Level Practice | The Practise Ground",
   description:
-    "Free English grammar quizzes organised by CEFR level. 1,300+ questions for A2 Elementary and B1 Intermediate learners. No sign-up required.",
+    "Test your English grammar level free — 1,300+ questions for Elementary (A2) and Intermediate (B1) learners. Instant scores, no sign-up. Aligned with CEFR international standards.",
   keywords: [
-    "CEFR english quiz",
-    "A2 english test",
-    "B1 english test",
+    "free english grammar test online",
     "english level test free",
-    "english grammar quiz by level",
-    "elementary english quiz",
-    "intermediate english quiz",
-    "CEFR grammar practice",
-    "english proficiency test",
+    "A2 english test online",
+    "B1 english test online",
+    "english grammar quiz free",
+    "test my english level",
+    "elementary english grammar test",
+    "intermediate english grammar quiz",
+    "english proficiency test free",
+    "CEFR english test",
+    "english grammar practice online",
+    "english quiz for ESL students",
   ],
   openGraph: {
-    title: "English Level Quizzes (CEFR A2–B1) | The Practise Ground",
+    title: "Free English Grammar Test — A2 & B1 Level | The Practise Ground",
     description:
-      "Free English grammar quizzes organised by CEFR proficiency level. 1,300+ questions across A2 and B1 levels.",
+      "1,300+ free English grammar questions for Elementary and Intermediate learners. Instant scoring, no sign-up. CEFR-aligned.",
     url: "https://www.thepractiseground.in/quiz/english",
     siteName: "The Practise Ground",
     locale: "en_IN",

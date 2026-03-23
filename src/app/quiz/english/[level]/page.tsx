@@ -20,17 +20,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const weeks = getCefrLevelWeeks(level);
   const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
 
+  const levelLabel = info.label; // e.g. "A2" or "B1"
+  const levelName = info.fullName.toLowerCase(); // e.g. "elementary" or "intermediate"
   return {
-    title: `CEFR ${info.label} (${info.fullName}) English Quiz — ${totalQ}+ Free Questions | The Practise Ground`,
-    description: `Free ${info.label} ${info.fullName} English grammar quiz. ${weeks.length} weekly quizzes with ${totalQ}+ questions covering ${info.skills}. Based on CEFR framework.`,
+    title: `Free ${levelLabel} English Test Online — ${totalQ}+ ${info.fullName} Grammar Questions`,
+    description: `Take the free ${levelLabel} (${info.fullName}) English grammar test. ${weeks.length} topic quizzes, ${totalQ}+ questions with instant scoring. Perfect for ${levelName} ESL learners preparing for Cambridge, IELTS, or self-study.`,
     keywords: [
-      `CEFR ${info.label} english quiz`,
-      `${info.label} grammar test`,
-      `${info.fullName.toLowerCase()} english practice`,
-      `${info.label} level english`,
-      `CEFR ${info.label} grammar exercises`,
-      `free ${info.label} english test`,
-      `${info.fullName.toLowerCase()} grammar quiz`,
+      `free ${levelLabel} english test`,
+      `${levelLabel} english grammar test online`,
+      `${levelName} english quiz`,
+      `${levelLabel} level english practice`,
+      `${levelLabel} english grammar exercises free`,
+      `test my english level ${levelLabel}`,
+      `${levelName} grammar quiz online`,
+      `CEFR ${levelLabel} english test`,
+      `${levelLabel} english practice for ESL`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/english/${level.toLowerCase()}` },
   };

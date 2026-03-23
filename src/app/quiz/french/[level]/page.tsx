@@ -20,17 +20,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const weeks = getFrenchLevelWeeks(level);
   const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
 
+  const levelLabel = info.label;
+  const levelName = info.fullName.toLowerCase();
   return {
-    title: `CEFR ${info.label} (${info.fullName}) French Quiz — ${totalQ}+ Free Questions | The Practise Ground`,
-    description: `Free ${info.label} ${info.fullName} French grammar quiz. ${weeks.length} weekly quizzes with ${totalQ}+ questions covering ${info.skills}. Based on CEFR framework.`,
+    title: `Free ${levelLabel} French Test Online — ${totalQ}+ ${info.fullName} Grammar Questions`,
+    description: `Take the free ${levelLabel} (${info.fullName}) French grammar test. ${weeks.length} topic quizzes, ${totalQ}+ questions with instant scoring. Great for ${levelName} learners preparing for DELF/DALF or self-study.`,
     keywords: [
-      `CEFR ${info.label} french quiz`,
-      `${info.label} french grammar test`,
-      `${info.fullName.toLowerCase()} french practice`,
-      `${info.label} level french`,
-      `CEFR ${info.label} french grammar exercises`,
-      `free ${info.label} french test`,
-      `${info.fullName.toLowerCase()} french grammar quiz`,
+      `free ${levelLabel} french test`,
+      `${levelLabel} french grammar test online`,
+      `${levelName} french quiz`,
+      `${levelLabel} level french practice`,
+      `${levelLabel} french grammar exercises free`,
+      `test my french level ${levelLabel}`,
+      `${levelName} french grammar quiz online`,
+      `CEFR ${levelLabel} french test`,
+      `DELF ${levelLabel} practice test`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/french/${level.toLowerCase()}` },
   };

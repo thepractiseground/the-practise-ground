@@ -4,25 +4,28 @@ import { GERMAN_CEFR_LEVELS, GERMAN_LEVEL_INFO, getGermanLevelWeeks } from "@/li
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "German Level Quizzes (CEFR A1–C1) | Free Grammar Practice | The Practise Ground",
+  title: "Free German Grammar Test Online — A1, B1 & C1 Level Practice | The Practise Ground",
   description:
-    "Free German grammar quizzes organised by CEFR level. 1,950+ questions for A1 Beginner, B1 Intermediate, and C1 Advanced learners. No sign-up required.",
+    "Test your German grammar free — 1,950+ questions from Beginner (A1) to Advanced (C1). Instant scores, no sign-up. CEFR-aligned quizzes for Goethe-Zertifikat prep and self-study.",
   keywords: [
-    "CEFR german quiz",
-    "A1 german test",
-    "B1 german test",
-    "C1 german test",
+    "free german grammar test online",
     "german level test free",
-    "german grammar quiz by level",
-    "beginner german quiz",
+    "A1 german test online",
+    "B1 german test online",
+    "C1 german test online",
+    "german grammar quiz free",
+    "test my german level",
+    "beginner german grammar test",
     "intermediate german quiz",
-    "advanced german quiz",
-    "CEFR grammar practice german"
+    "advanced german grammar quiz",
+    "Goethe-Zertifikat prep quiz free",
+    "learn german grammar online",
+    "german practice exercises",
   ],
   openGraph: {
-    title: "German Level Quizzes (CEFR A1–C1) | The Practise Ground",
+    title: "Free German Grammar Test — A1 to C1 Level | The Practise Ground",
     description:
-      "Free German grammar quizzes organised by CEFR proficiency level. 1,950+ questions across A1, B1, and C1 levels.",
+      "1,950+ free German grammar questions from Beginner to Advanced. Instant scoring, no sign-up. CEFR-aligned.",
     url: "https://www.thepractiseground.in/quiz/german",
     siteName: "The Practise Ground",
     locale: "en_IN",

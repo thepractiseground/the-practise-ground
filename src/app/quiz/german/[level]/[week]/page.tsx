@@ -27,15 +27,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!weekData || !info) return { title: "Quiz Not Found" };
 
   const topic = weekData.topic;
+  const qCount = weekData.questions.length;
   return {
-    title: `${topic} Quiz — CEFR ${info.label} German Practice | The Practise Ground`,
-    description: `Take this free CEFR ${info.label} (${info.fullName}) German quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for ${info.fullName.toLowerCase()} learners.`,
+    title: `${topic} — Free ${info.label} German Grammar Quiz (${qCount} Questions)`,
+    description: `Practice ${topic.toLowerCase()} with this free ${info.label} (${info.fullName}) German quiz. ${qCount} multiple-choice questions, instant score. Ideal for ${info.fullName.toLowerCase()} learners and Goethe-Zertifikat prep.`,
     keywords: [
-      `${info.label} ${topic.toLowerCase()} quiz`,
-      `CEFR ${info.label} german quiz week ${weekNum}`,
+      `${topic.toLowerCase()} german quiz`,
       `${topic.toLowerCase()} german grammar practice`,
+      `${info.label} ${topic.toLowerCase()} test`,
+      `free german grammar quiz ${topic.toLowerCase()}`,
       `${info.fullName.toLowerCase()} german ${topic.toLowerCase()}`,
-      `free ${info.label} german grammar test`,
+      `${info.label} german practice`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/german/${level}/${weekNum}` },
   };

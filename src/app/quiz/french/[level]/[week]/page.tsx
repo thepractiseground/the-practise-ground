@@ -27,15 +27,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!weekData || !info) return { title: "Quiz Not Found" };
 
   const topic = weekData.topic;
+  const qCount = weekData.questions.length;
   return {
-    title: `${topic} Quiz — CEFR ${info.label} French Practice | The Practise Ground`,
-    description: `Take this free CEFR ${info.label} (${info.fullName}) French quiz on ${topic}. ${weekData.questions.length} multiple-choice questions with instant scoring. Perfect for ${info.fullName.toLowerCase()} learners.`,
+    title: `${topic} — Free ${info.label} French Grammar Quiz (${qCount} Questions)`,
+    description: `Practice ${topic.toLowerCase()} with this free ${info.label} (${info.fullName}) French quiz. ${qCount} multiple-choice questions, instant score. Ideal for ${info.fullName.toLowerCase()} learners and DELF prep.`,
     keywords: [
-      `${info.label} ${topic.toLowerCase()} quiz`,
-      `CEFR ${info.label} french quiz week ${weekNum}`,
+      `${topic.toLowerCase()} french quiz`,
       `${topic.toLowerCase()} french grammar practice`,
+      `${info.label} ${topic.toLowerCase()} test`,
+      `free french grammar quiz ${topic.toLowerCase()}`,
       `${info.fullName.toLowerCase()} french ${topic.toLowerCase()}`,
-      `free ${info.label} french grammar test`,
+      `${info.label} french practice`,
     ],
     alternates: { canonical: `https://www.thepractiseground.in/quiz/french/${level}/${weekNum}` },
   };
