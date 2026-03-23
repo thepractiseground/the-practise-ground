@@ -18,6 +18,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/for-parents`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/summer-challenge`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/donate`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${baseUrl}/quiz/cbse`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/quiz/icse`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/quiz/cambridge`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/posters-printables`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/fun`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];

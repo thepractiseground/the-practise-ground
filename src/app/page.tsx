@@ -50,7 +50,7 @@ export default function Home() {
         <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
           <Image
             src="/images/og/og-english.png"
-            alt=""
+            alt="English grammar and vocabulary quiz practice for Grades 5 to 10"
             fill
             className="object-cover"
             sizes="100vw"
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
           <Image
             src="/images/og/og-maths.png"
-            alt=""
+            alt="Maths quiz practice covering arithmetic, algebra and geometry for Grades 5 to 10"
             fill
             className="object-cover"
             sizes="100vw"
@@ -151,7 +151,7 @@ export default function Home() {
         <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
           <Image
             src="/images/og/og-science.png"
-            alt=""
+            alt="Science quiz practice covering physics, chemistry and biology for Grades 5 to 10"
             fill
             className="object-cover"
             sizes="100vw"
@@ -206,7 +206,7 @@ export default function Home() {
           >
             <Image
               src="/images/og/og-fun.png"
-              alt=""
+              alt="Fun trivia quizzes on world capitals, space facts, famous inventions and more"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 896px"
@@ -303,6 +303,95 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            name: "The Practise Ground",
+            url: "https://www.thepractiseground.in",
+            description:
+              "Free interactive English, Maths & Science quizzes for students in Grades 5-10. 23,400+ questions, no sign-up required.",
+            email: "hello@thepractiseground.in",
+            areaServed: { "@type": "Place", name: "Worldwide" },
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Free Quiz Subjects",
+              itemListElement: [
+                { "@type": "OfferCatalog", name: "English Quizzes", description: "Grammar, vocabulary, comprehension quizzes for Grades 5-10" },
+                { "@type": "OfferCatalog", name: "Maths Quizzes", description: "Arithmetic, algebra, geometry quizzes for Grades 5-10" },
+                { "@type": "OfferCatalog", name: "Science Quizzes", description: "Physics, chemistry, biology quizzes for Grades 5-10" },
+              ],
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "The Practise Ground",
+            url: "https://www.thepractiseground.in",
+            description: "Free English, Maths & Science quizzes for Grades 5-10",
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is The Practise Ground?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Practise Ground is a free online platform where students in Grades 5 to 10 can practice English, Maths, and Science through weekly quizzes. Each quiz has 25 multiple-choice questions covering grammar, vocabulary, arithmetic, algebra, geometry, physics, chemistry, biology, and more.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do I need to sign up to take a quiz?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No! All quizzes are completely free and open. Just select your subject and grade, pick a quiz, and start practising immediately — no email or account needed.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How often are new quizzes added?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We have 52 weeks of quizzes ready for each grade in English, Maths, and Science — that is a full year of content per subject. New content is added often!",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What subjects and topics do you cover?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We offer English, Maths, and Science quizzes for Grades 5-10. English covers grammar, vocabulary, comprehension, and writing. Maths covers arithmetic, algebra, geometry, trigonometry, and more. Science covers Physics, Chemistry, and Biology — all aligned with CBSE, ICSE, Cambridge, and IB curricula.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is this useful for CBSE and ICSE students?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes! Our questions are designed to supplement school-level practice and are useful for students following CBSE, ICSE, and state board curricula.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

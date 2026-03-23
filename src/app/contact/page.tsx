@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us - The Practise Ground",
-  description: "Get in touch with The Practise Ground team. We love hearing from students, parents, and teachers.",
+  title: "Contact Us — Free English, Maths & Science Quiz Platform | The Practise Ground",
+  description: "Get in touch with The Practise Ground team. Questions about our free quizzes for Grades 5-10? Feedback, partnership ideas, or classroom use? Email us at hello@thepractiseground.in.",
+  keywords: [
+    "contact the practise ground",
+    "free quiz platform contact",
+    "educational website feedback",
+    "student quiz help",
+    "teacher quiz resources contact",
+  ],
   alternates: { canonical: "https://www.thepractiseground.in/contact" },
 };
 
@@ -61,6 +68,44 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            name: "Contact The Practise Ground",
+            url: "https://www.thepractiseground.in/contact",
+            mainEntity: {
+              "@type": "EducationalOrganization",
+              name: "The Practise Ground",
+              url: "https://www.thepractiseground.in",
+              email: "hello@thepractiseground.in",
+              contactPoint: {
+                "@type": "ContactPoint",
+                email: "hello@thepractiseground.in",
+                contactType: "customer support",
+                availableLanguage: "English",
+              },
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: "Contact Us", item: "https://www.thepractiseground.in/contact" },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

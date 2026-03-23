@@ -361,6 +361,72 @@ export default function ForParentsPage() {
           </div>
         </div>
       </section>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Do I need to create an account?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. There's no sign-up, no login, and no personal information required. Just visit the site and start a quiz.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is this really free? What's the catch?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It's genuinely free. We're a passion project committed to making quality education accessible. There are no hidden charges, premium tiers, or paywalls.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Which curriculum does it follow?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Our content is primarily aligned with CBSE and ICSE syllabi, with topics also relevant to Cambridge and IB curricula. The core concepts are universal across boards.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can my child use this on a phone?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes! The site is fully mobile-friendly. It works on any device with a web browser — phone, tablet, or computer.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How often is new content added?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Each grade already has 52 weeks of content per subject. We regularly add new blog posts, study tips, and may expand to additional subjects in the future.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: "For Parents", item: "https://www.thepractiseground.in/for-parents" },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

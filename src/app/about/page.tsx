@@ -549,6 +549,48 @@ export default function AboutPage() {
           </Link>
         </div>
       </section>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            name: "About The Practise Ground",
+            url: "https://www.thepractiseground.in/about",
+            description:
+              "The Practise Ground is a free quiz platform for Grades 5-10 covering English, Maths, and Science. 23,400+ questions built by educators with 20+ years of teaching experience.",
+            mainEntity: {
+              "@type": "EducationalOrganization",
+              name: "The Practise Ground",
+              url: "https://www.thepractiseground.in",
+              email: "hello@thepractiseground.in",
+              foundingDate: "2024",
+              description:
+                "Free educational platform offering 23,400+ quiz questions across English, Maths, and Science for Grades 5-10, aligned with CBSE, ICSE, Cambridge, and IB curricula.",
+              areaServed: { "@type": "Place", name: "Worldwide" },
+              knowsAbout: [
+                "English Grammar", "Mathematics", "Science", "CBSE Curriculum",
+                "ICSE Curriculum", "Cambridge IGCSE", "IB Curriculum",
+              ],
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.thepractiseground.in/about" },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

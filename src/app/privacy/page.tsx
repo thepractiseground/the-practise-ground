@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "Privacy Policy for The Practise Ground. Learn how we handle your data and protect your privacy.",
+  title: "Privacy Policy — Safe & Free Quiz Platform for Students | The Practise Ground",
+  description: "Read The Practise Ground's privacy policy. No sign-up required, no personal data collected. Safe, free English, Maths & Science quizzes for Grades 5-10. COPPA-aware platform designed for students aged 10-16.",
+  keywords: [
+    "privacy policy educational website",
+    "safe quiz platform for kids",
+    "student data privacy",
+    "free educational platform privacy",
+    "children's privacy online learning",
+  ],
   alternates: { canonical: "https://www.thepractiseground.in/privacy" },
 };
 

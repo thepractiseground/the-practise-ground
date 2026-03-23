@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Donate - Support Free Education",
+  title: "Donate — Support Free English, Maths & Science Quizzes for Students | The Practise Ground",
   description:
-    "Support The Practise Ground — a free English & Maths quiz platform for students. Your donation helps us create quality educational content and keep everything free.",
+    "Support The Practise Ground — a free quiz platform with 23,400+ questions for Grades 5-10 students. Your donation helps us create quality English, Maths & Science content and keep everything free.",
+  keywords: [
+    "donate to education",
+    "support free learning",
+    "donate to student quiz platform",
+    "free education charity",
+    "support free quizzes for students",
+  ],
   alternates: { canonical: "https://www.thepractiseground.in/donate" },
 };
 
@@ -96,6 +103,43 @@ export default function DonatePage() {
           </div>
         </div>
       </section>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "DonateAction",
+            name: "Donate to The Practise Ground",
+            description:
+              "Support free English, Maths & Science quizzes for students in Grades 5-10. Your donation helps create quality educational content.",
+            recipient: {
+              "@type": "EducationalOrganization",
+              name: "The Practise Ground",
+              url: "https://www.thepractiseground.in",
+            },
+            target: {
+              "@type": "EntryPoint",
+              urlTemplate: "https://www.paypal.com/ncp/payment/U3FSDHDCCEKJE",
+              actionPlatform: "https://schema.org/DesktopWebPlatform",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thepractiseground.in" },
+              { "@type": "ListItem", position: 2, name: "Donate", item: "https://www.thepractiseground.in/donate" },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }
