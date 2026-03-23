@@ -208,12 +208,20 @@ export default function Home() {
 
       {/* Language Quizzes Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <div className="bg-gradient-to-r from-blue-800 to-indigo-700 rounded-2xl p-6 sm:p-8 mb-6">
-          <div className="flex items-center gap-3 mb-1">
+        <div className="relative overflow-hidden rounded-2xl p-6 sm:p-8 mb-6">
+          <Image
+            src="/images/og/og-languages.png"
+            alt="Language quizzes for English, Spanish, French and German — CEFR aligned"
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-800/60" />
+          <div className="relative z-10 flex items-center gap-3 mb-1">
             <span className="text-3xl">🌍</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">Language Quizzes</h2>
           </div>
-          <p className="text-blue-200 text-sm sm:text-base ml-12">
+          <p className="relative z-10 text-blue-200 text-sm sm:text-base ml-12">
             CEFR-aligned grammar quizzes — A1 to C1 levels. Free, no sign-up.
           </p>
         </div>
