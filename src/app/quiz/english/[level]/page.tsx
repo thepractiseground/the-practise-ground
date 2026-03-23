@@ -59,8 +59,8 @@ export default async function CefrLevelPage({ params }: Props) {
       {/* Hero */}
       <section className="relative overflow-hidden py-12 sm:py-16">
         <HeroImage
-          src="/images/og/og-blog-grammar.png"
-          alt="English level quiz illustration"
+          src="/images/og/og-languages.png"
+          alt="English CEFR grammar quiz practice"
           overlay={0.6}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

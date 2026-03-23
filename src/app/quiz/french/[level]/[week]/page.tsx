@@ -66,8 +66,8 @@ export default async function FrenchCefrQuizPage({ params }: Props) {
       {/* Breadcrumb & Header */}
       <section className="relative overflow-hidden py-8">
         <HeroImage
-          src="/images/og/og-blog-grammar.png"
-          alt="French level quiz illustration"
+          src="/images/og/og-languages.png"
+          alt="French CEFR grammar quiz practice"
           overlay={0.65}
         />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">

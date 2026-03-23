@@ -43,8 +43,8 @@ export default function FrenchLevelLandingPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden py-16 sm:py-20">
         <HeroImage
-          src="/images/og/og-blog-grammar.png"
-          alt="French level quizzes illustration"
+          src="/images/og/og-languages.png"
+          alt="French grammar quizzes — CEFR aligned levels A1 to C1"
           overlay={0.6}
         />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 text-center">

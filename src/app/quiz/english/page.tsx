@@ -42,8 +42,8 @@ export default function EnglishLevelLandingPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden py-16 sm:py-20">
         <HeroImage
-          src="/images/og/og-blog-grammar.png"
-          alt="English level quizzes illustration"
+          src="/images/og/og-languages.png"
+          alt="English grammar quizzes — CEFR aligned levels A2 to B1"
           overlay={0.6}
         />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 text-center">
