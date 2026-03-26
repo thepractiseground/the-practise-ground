@@ -5,6 +5,11 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: [
+        "/*/opengraph-image",   // Next.js auto-generated OG image routes
+        "/*/twitter-image",      // Next.js auto-generated Twitter image routes
+        "/default-funnel-step-*", // Legacy systeme.io thank-you pages
+      ],
     },
     sitemap: [
       "https://www.thepractiseground.in/sitemap.xml",
