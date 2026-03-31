@@ -64,6 +64,27 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Grammar", "Adverbs", "Parts of Speech"],
   },
+  {
+    title: "Idioms — Colourful Edition",
+    description: "A vibrant poster featuring everyday English idioms with meanings and fun illustrations. Includes 'break the ice', 'piece of cake', 'spill the beans', and more.",
+    file: "/posters/english-idioms-poster-colourful.pdf",
+    subject: "English",
+    tags: ["Idioms", "Vocabulary", "Speaking"],
+  },
+  {
+    title: "Idioms — Illustrated",
+    description: "Learn popular English idioms through playful illustrations that show both the literal and figurative meanings. Perfect for visual learners.",
+    file: "/posters/english-idioms-poster-illustrated.pdf",
+    subject: "English",
+    tags: ["Idioms", "Vocabulary", "Speaking"],
+  },
+  {
+    title: "Idioms — Vintage Style",
+    description: "A classic blue-and-beige poster of essential English idioms with clear definitions. Elegant design ideal for classroom display or study corners.",
+    file: "/posters/english-idioms-poster-vintage.pdf",
+    subject: "English",
+    tags: ["Idioms", "Vocabulary", "Speaking"],
+  },
   // Maths
   {
     title: "Split Strategy",
@@ -114,6 +135,48 @@ const posters: Poster[] = [
     file: "/posters/dna-biology-poster.pdf",
     subject: "Science",
     tags: ["Biology", "Genetics", "Cells"],
+  },
+  {
+    title: "Earth's Layers",
+    description: "A cross-section of our planet showing the crust, mantle, outer core, and inner core — with temperature, thickness, and composition details.",
+    file: "/posters/earths-layers-poster.pdf",
+    subject: "Science",
+    tags: ["Geology", "Earth Science", "Structure"],
+  },
+  {
+    title: "Introduction to Genetics",
+    description: "The basics of genetics — DNA, genes, chromosomes, alleles, and inheritance patterns. A clear starting point for understanding heredity.",
+    file: "/posters/introduction-to-genetics-poster.pdf",
+    subject: "Science",
+    tags: ["Biology", "Genetics", "Heredity"],
+  },
+  {
+    title: "Photosynthesis",
+    description: "How plants convert sunlight into energy — the light and dark reactions, chloroplasts, and the role of carbon dioxide, water, and glucose.",
+    file: "/posters/photosynthesis-science-poster.pdf",
+    subject: "Science",
+    tags: ["Biology", "Plants", "Energy"],
+  },
+  {
+    title: "Pathogens",
+    description: "An overview of the four main types of pathogens — bacteria, viruses, fungi, and parasites — with how they spread and how the body fights them.",
+    file: "/posters/pathogens-science-poster.pdf",
+    subject: "Science",
+    tags: ["Biology", "Health", "Disease"],
+  },
+  {
+    title: "Periodic Table of Elements",
+    description: "A colourful periodic table showing all 118 elements organised by group and period — with atomic numbers, symbols, and colour-coded categories.",
+    file: "/posters/periodic-table-poster.pdf",
+    subject: "Science",
+    tags: ["Chemistry", "Elements", "Reference"],
+  },
+  {
+    title: "Food Web",
+    description: "Visualise how energy flows through an ecosystem — producers, primary consumers, secondary consumers, and decomposers connected in a web of life.",
+    file: "/posters/food-web-science-poster.pdf",
+    subject: "Science",
+    tags: ["Biology", "Ecology", "Ecosystems"],
   },
 ];
 
