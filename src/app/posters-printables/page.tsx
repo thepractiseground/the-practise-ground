@@ -86,6 +86,13 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Idioms", "Vocabulary", "Speaking"],
   },
+  {
+    title: "Elements of Science Fiction",
+    description: "The five key elements of sci-fi — unknown settings, advanced technology, time travel, space travel, and odd characters — with examples and explanations.",
+    file: "/posters/elements-of-scifi-poster.pdf",
+    subject: "English",
+    tags: ["Literature", "Genre", "Creative Writing"],
+  },
   // Maths
   {
     title: "Split Strategy",
@@ -121,6 +128,34 @@ const posters: Poster[] = [
     file: "/posters/regular-polygons-poster.pdf",
     subject: "Maths",
     tags: ["Geometry", "Shapes", "Polygons"],
+  },
+  {
+    title: "Financial Maths — Common Terms",
+    description: "Key financial maths vocabulary — budget, debit, credit, income, principal, asset, and more. A clear reference for introducing money concepts.",
+    file: "/posters/financial-math-poster.pdf",
+    subject: "Maths",
+    tags: ["Financial Literacy", "Vocabulary", "Money"],
+  },
+  {
+    title: "Operations Keywords",
+    description: "Know which keywords signal addition, subtraction, multiplication, or division in word problems. Essential for cracking maths problem-solving questions.",
+    file: "/posters/operations-keywords-poster.pdf",
+    subject: "Maths",
+    tags: ["Arithmetic", "Word Problems", "Strategy"],
+  },
+  {
+    title: "Fraction Chart",
+    description: "A visual fraction bar chart showing equivalent fractions from 1 whole down to tenths. Colour-coded bars make comparing and simplifying fractions easy.",
+    file: "/posters/fractions-chart-poster.pdf",
+    subject: "Maths",
+    tags: ["Fractions", "Number Sense", "Reference"],
+  },
+  {
+    title: "Multiplication Table",
+    description: "A complete 12×12 multiplication grid with colour-coded rows and columns. The go-to reference poster for learning and revising times tables.",
+    file: "/posters/multiplication-table-poster.pdf",
+    subject: "Maths",
+    tags: ["Multiplication", "Times Tables", "Reference"],
   },
   // Science
   {
