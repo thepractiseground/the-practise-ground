@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -270,43 +271,52 @@ export default function PostersPage() {
               </span>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {subjectPosters.map((poster) => (
-                <div
-                  key={poster.file}
-                  className={`${config.bgColor} border ${config.borderColor} rounded-2xl p-6 hover:shadow-lg transition-shadow flex flex-col`}
-                >
-                  {/* Icon header */}
-                  <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${config.gradient} flex items-center justify-center mb-4`}>
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                  </div>
-
-                  <h3 className="text-lg font-bold text-brand-navy mb-2">{poster.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">{poster.description}</p>
-
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2 mb-5">
-                    {poster.tags.map((tag) => (
-                      <span key={tag} className={`${config.tagBg} text-xs font-medium px-2 py-1 rounded-full`}>
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-
-                  {/* Download button */}
-                  <a
-                    href={poster.file}
-                    download
-                    className={`${config.buttonBg} text-white font-semibold text-sm px-5 py-2.5 rounded-xl text-center transition-colors flex items-center justify-center gap-2`}
+              {subjectPosters.map((poster) => {
+                const thumbSrc = poster.file.replace("/posters/", "/posters/thumbnails/").replace(".pdf", ".png");
+                return (
+                  <div
+                    key={poster.file}
+                    className={`${config.bgColor} border ${config.borderColor} rounded-2xl overflow-hidden hover:shadow-lg transition-shadow flex flex-col`}
                   >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    Download PDF
-                  </a>
-                </div>
-              ))}
+                    {/* Poster preview */}
+                    <div className="relative w-full bg-white border-b border-gray-100" style={{ aspectRatio: "600/848" }}>
+                      <Image
+                        src={thumbSrc}
+                        alt={`${poster.title} — free ${poster.subject.toLowerCase()} poster for classrooms and study`}
+                        fill
+                        className="object-contain"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    </div>
+
+                    <div className="p-6 flex flex-col flex-1">
+                      <h3 className="text-lg font-bold text-brand-navy mb-2">{poster.title}</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">{poster.description}</p>
+
+                      {/* Tags */}
+                      <div className="flex flex-wrap gap-2 mb-5">
+                        {poster.tags.map((tag) => (
+                          <span key={tag} className={`${config.tagBg} text-xs font-medium px-2 py-1 rounded-full`}>
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+
+                      {/* Download button */}
+                      <a
+                        href={poster.file}
+                        download
+                        className={`${config.buttonBg} text-white font-semibold text-sm px-5 py-2.5 rounded-xl text-center transition-colors flex items-center justify-center gap-2`}
+                      >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Download PDF
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </section>
         );
@@ -410,6 +420,7 @@ export default function PostersPage() {
                   name: poster.title,
                   description: poster.description,
                   url: `https://www.thepractiseground.in${poster.file}`,
+                  thumbnailUrl: `https://www.thepractiseground.in${poster.file.replace("/posters/", "/posters/thumbnails/").replace(".pdf", ".png")}`,
                   encodingFormat: "application/pdf",
                   isAccessibleForFree: true,
                 },
