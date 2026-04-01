@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import FloatingPromoBar from "@/components/FloatingPromoBar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -88,6 +89,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <Footer />
           <FloatingPromoBar />
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
