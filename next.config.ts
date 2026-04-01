@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  experimental: {
+    inlineCss: true, // Inline CSS into HTML to eliminate render-blocking stylesheet requests
+  },
   async redirects() {
     return [
       // Redirect old systeme.io grade URLs to new quiz URLs

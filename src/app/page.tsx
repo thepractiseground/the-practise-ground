@@ -63,6 +63,7 @@ export default function Home() {
             fill
             className="object-cover"
             sizes="100vw"
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-orange-600/75 to-amber-500/65" />
           <div className="relative z-10 flex items-center gap-3">
