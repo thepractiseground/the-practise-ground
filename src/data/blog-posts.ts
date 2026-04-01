@@ -3569,9 +3569,9 @@ A: It's helpful for calculations, but geometry is about understanding relationsh
   },
   {
     slug: "letter-writing-format-guide",
-    title: "Letter Writing Format: Formal & Informal Letters With Examples",
-    metaDescription: "Step-by-step letter writing format for formal and informal letters. Includes sample letters, common mistakes, and marking tips. Works for all school boards and curricula.",
-    keywords: ["formal letter format", "informal letter format", "letter writing english exam", "how to write a letter", "letter writing for students"],
+    title: "Letter Writing Format: Formal & Informal With Solved Examples",
+    metaDescription: "Master the exact letter writing format for formal and informal letters. Solved examples, common mistakes to avoid, and a quick-revision checklist. CBSE, ICSE & Cambridge.",
+    keywords: ["formal letter format", "informal letter format", "letter writing english exam", "how to write a letter", "letter writing for students", "format of formal letter", "formal and informal letter format"],
     excerpt: "Letter writing is a regular question in English exams worldwide. This guide teaches you the exact format for formal and informal letters with real examples.",
     author: "The Practise Ground Team",
     publishDate: "2026-02-15",
