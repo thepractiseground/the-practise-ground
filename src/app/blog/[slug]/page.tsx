@@ -47,6 +47,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       canonical: `https://www.thepractiseground.in/blog/${post.slug}`,
     },
+    other: {
+      "article:published_time": post.publishDate,
+      "article:modified_time": post.lastModified || post.publishDate,
+      "article:section": post.category,
+      "article:tag": post.keywords.join(", "),
+    },
   };
 }
 
@@ -62,6 +68,7 @@ const categoryColors: Record<string, { bg: string; badge: string }> = {
   Chemistry: { bg: "bg-amber-100", badge: "bg-amber-600" },
   Biology: { bg: "bg-lime-100", badge: "bg-lime-600" },
   Science: { bg: "bg-purple-100", badge: "bg-purple-600" },
+  "Fun & Learning": { bg: "bg-rose-100", badge: "bg-rose-500" },
 };
 
 const categoryHeroImage: Record<string, string> = {
@@ -80,6 +87,7 @@ const categoryHeroImage: Record<string, string> = {
   Science: "/images/og/og-blog-science.png",
   "Science Concepts": "/images/og/og-blog-science.png",
   "Learning Tips": "/images/og/og-blog-grammar.png",
+  "Fun & Learning": "/images/og/og-blog-grammar.png",
 };
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -101,7 +109,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   }
 
   // Parse markdown content
-  const { html: contentHtml } = markdownToHtml(post.content);
+  const { html: contentHtml, headings } = markdownToHtml(post.content);
   const colors =
     categoryColors[post.category] || {
       bg: "bg-gray-100",
@@ -218,6 +226,27 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* Article Content */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
         <article className="bg-white rounded-2xl shadow-lg p-8 sm:p-12 mb-12">
+          {/* Table of Contents */}
+          {headings.length >= 3 && (
+            <nav className="mb-8 p-5 bg-gray-50 border border-gray-200 rounded-xl">
+              <h2 className="text-sm font-bold text-brand-navy uppercase tracking-wide mb-3">In This Article</h2>
+              <ul className="space-y-1.5">
+                {headings.map((heading, index) => {
+                  const id = heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+                  return (
+                    <li key={index}>
+                      <a
+                        href={`#${id}`}
+                        className="text-sm text-gray-600 hover:text-brand-orange transition-colors"
+                      >
+                        {heading}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </nav>
+          )}
           <div
             className="prose-content"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
@@ -357,6 +386,14 @@ export default async function BlogPostPage({ params }: PageProps) {
               name: post.author,
             },
             datePublished: post.publishDate,
+            dateModified: post.lastModified || post.publishDate,
+            articleSection: post.category,
+            wordCount: post.content.split(/\s+/).length,
+            educationalLevel: post.grade,
+            about: {
+              "@type": "Thing",
+              name: post.category,
+            },
             image: post.featuredImage
               ? `https://www.thepractiseground.in/images/blog/${post.featuredImage}`
               : `https://www.thepractiseground.in/blog/${post.slug}/opengraph-image`,
@@ -368,6 +405,36 @@ export default async function BlogPostPage({ params }: PageProps) {
           }),
         }}
       />
+
+      {/* Structured Data - FAQPage (auto-generated from Q:/A: content) */}
+      {(() => {
+        const faqRegex = /\*\*Q:\s*(.+?)\*\*\nA:\s*([\s\S]*?)(?=\n\n\*\*Q:|\n\n##|\n\n$|$)/g;
+        const faqPairs: { question: string; answer: string }[] = [];
+        let faqMatch;
+        while ((faqMatch = faqRegex.exec(post.content)) !== null) {
+          faqPairs.push({ question: faqMatch[1].trim(), answer: faqMatch[2].trim() });
+        }
+        if (faqPairs.length === 0) return null;
+        return (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                mainEntity: faqPairs.map((faq) => ({
+                  "@type": "Question",
+                  name: faq.question,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: faq.answer,
+                  },
+                })),
+              }),
+            }}
+          />
+        );
+      })()}
 
       {/* Structured Data - Breadcrumb */}
       <script

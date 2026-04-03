@@ -7,7 +7,7 @@ import HeroImage from "@/components/HeroImage";
 export const metadata: Metadata = {
   title: "Learning Blog: English, Maths & Science Tips | The Practise Ground",
   description:
-    "Free learning blog with English grammar, Maths tips, and Science guides (Physics, Chemistry, Biology) for students in Grades 5-10.",
+    "Free learning blog with English grammar, Maths tips, and Science guides (Physics, Chemistry, Biology) for students in Grades 5-12. Plus French, German & Spanish language learning.",
   keywords: [
     "english grammar tips",
     "maths study tips",
@@ -21,11 +21,15 @@ export const metadata: Metadata = {
     "grammar lessons",
     "algebra tips",
     "geometry guide",
+    "class 11 physics",
+    "class 12 chemistry",
+    "learn french online",
+    "summer learning",
   ],
   openGraph: {
     title: "Learning Blog: English, Maths & Science Tips | The Practise Ground",
     description:
-      "Free learning blog with English grammar, Maths strategies, Science guides, and exam tips for students worldwide.",
+      "Free learning blog with English grammar, Maths strategies, Science guides, and exam tips for Grades 5-12. Plus French, German & Spanish.",
     url: "https://www.thepractiseground.in/blog",
     siteName: "The Practise Ground",
     locale: "en_IN",
@@ -48,6 +52,7 @@ const categoryColors: Record<string, { bg: string; badge: string }> = {
   Chemistry: { bg: "bg-amber-100", badge: "bg-amber-600" },
   Biology: { bg: "bg-lime-100", badge: "bg-lime-600" },
   Science: { bg: "bg-purple-100", badge: "bg-purple-600" },
+  "Fun & Learning": { bg: "bg-rose-100", badge: "bg-rose-500" },
 };
 
 export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {

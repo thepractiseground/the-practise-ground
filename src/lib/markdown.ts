@@ -30,22 +30,36 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
   // Remove h1 headings (title is already shown in page header)
   html = html.replace(/^# (.+)$/gm, "");
 
-  // Headings (must be at start of line)
+  // Headings (must be at start of line) — includes slugified id for deep-linking
   html = html.replace(/^## (.+)$/gm, (match, text) => {
     const cleanText = text.trim();
+    const id = cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     headings.push(cleanText);
-    return `<h2 class="markdown-h2">${cleanText}</h2>`;
+    return `<h2 id="${id}" class="markdown-h2">${cleanText}</h2>`;
   });
 
   html = html.replace(/^### (.+)$/gm, (match, text) => {
     const cleanText = text.trim();
+    const id = cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     headings.push(cleanText);
-    return `<h3 class="markdown-h3">${cleanText}</h3>`;
+    return `<h3 id="${id}" class="markdown-h3">${cleanText}</h3>`;
   });
 
   html = html.replace(/^#### (.+)$/gm, (match, text) => {
-    return `<h4 class="markdown-h4">${text.trim()}</h4>`;
+    const cleanText = text.trim();
+    const id = cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return `<h4 id="${id}" class="markdown-h4">${cleanText}</h4>`;
   });
+
+  // FAQ blocks: detect **Q: ...** / A: ... patterns BEFORE bold processing
+  html = html.replace(
+    /\*\*Q:\s*(.+?)\*\*\nA:\s*([\s\S]*?)(?=\n\n\*\*Q:|\n\n##|\n\n$|$)/g,
+    (match, question, answer) => {
+      const q = question.trim();
+      const a = answer.trim();
+      return `<div class="markdown-faq-item"><p class="markdown-faq-q">${q}</p><p class="markdown-faq-a">${a}</p></div>`;
+    }
+  );
 
   // Bold and italic
   html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
@@ -103,16 +117,6 @@ export function markdownToHtml(markdown: string): ParsedMarkdown {
   html = html.replace(
     /(<li class='markdown-li'>[\s\S]*?<\/li>)(?:\n(?!<li)|\n$)/,
     "<ul class='markdown-ul'>$1</ul>"
-  );
-
-  // FAQ blocks: detect **Q: ...** / A: ... patterns and render as styled cards
-  html = html.replace(
-    /\*\*Q:\s*(.+?)\*\*\nA:\s*([\s\S]*?)(?=\n\n\*\*Q:|\n\n##|\n\n$|$)/g,
-    (match, question, answer) => {
-      const q = question.trim();
-      const a = answer.trim();
-      return `<div class="markdown-faq-item"><p class="markdown-faq-q">${q}</p><p class="markdown-faq-a">${a}</p></div>`;
-    }
   );
 
   // Horizontal rules
