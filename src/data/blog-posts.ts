@@ -11874,6 +11874,8 @@ But no pressure. Start with the fun stuff. That is what it is here for.
     readTime: "12 min read",
     category: "Physics",
     grade: "Grade 11",
+    featuredImage: "class-11-physics-motion-forces-diagram.png",
+    featuredImageAlt: "Class 11 Physics infographic showing key topics: Kinematics, Newton's Laws, Work and Energy, and Projectile Motion with a Newton's cradle illustration",
     content: `# Class 11 Physics: Complete Guide to Motion, Forces & Energy
 
 Class 11 Physics builds the mathematical foundation for everything in senior secondary science. It introduces vector-based kinematics, Newton's laws with free body diagrams, and energy methods that carry through to Class 12, JEE, and NEET.
@@ -11977,6 +11979,8 @@ Ready to test your Class 11 Physics knowledge? Try our [Physics Grade 11 quizzes
     readTime: "12 min read",
     category: "Physics",
     grade: "Grade 12",
+    featuredImage: "class-12-physics-electrostatics-diagram.png",
+    featuredImageAlt: "Class 12 Physics infographic showing electrostatics and current electricity with a battery illustration on dark navy background",
     content: `# Class 12 Physics: Electrostatics & Current Electricity Explained
 
 Electrostatics and current electricity together form the highest-scoring unit in CBSE Class 12 Physics, carrying about 16 marks out of 70. Mastering these two chapters gives you a strong base for both board exams and competitive entrance tests like JEE and NEET.
@@ -12093,6 +12097,8 @@ Test your understanding with our [Physics Grade 12 quizzes](/quiz/physics/12) co
     readTime: "11 min read",
     category: "Chemistry",
     grade: "Grade 11",
+    featuredImage: "class-11-chemistry-atomic-structure-diagram.png",
+    featuredImageAlt: "Class 11 Chemistry infographic showing atomic structure, quantum numbers, electron configuration, VSEPR theory, molecular shapes, and hybridisation",
     content: `# Class 11 Chemistry: Atomic Structure & Chemical Bonding Made Clear
 
 Class 11 Chemistry begins with understanding the atom at a deeper level than you have seen before. Atomic structure and chemical bonding are the two chapters that form the foundation for organic chemistry, inorganic chemistry, and physical chemistry in Class 12 and beyond.
@@ -12208,6 +12214,8 @@ Practice Class 11 Chemistry concepts with our [Chemistry Grade 11 quizzes](/quiz
     readTime: "11 min read",
     category: "Chemistry",
     grade: "Grade 12",
+    featuredImage: "class-12-chemistry-electrochemistry-diagram.png",
+    featuredImageAlt: "Class 12 Chemistry infographic showing electrochemistry and chemical kinetics with Nernst equation, galvanic cells, rate laws, and Arrhenius equation",
     content: `# Class 12 Chemistry: Electrochemistry & Chemical Kinetics Simplified
 
 Electrochemistry and chemical kinetics are two of the most scoring chapters in Class 12 Chemistry. They combine conceptual understanding with numerical problem-solving, and both are heavily tested in CBSE board exams, JEE, and NEET.
@@ -12327,6 +12335,8 @@ Test your Class 12 Chemistry knowledge with our [Chemistry Grade 12 quizzes](/qu
     readTime: "11 min read",
     category: "Biology",
     grade: "Grade 11",
+    featuredImage: "class-11-biology-cell-biomolecules-diagram.png",
+    featuredImageAlt: "Class 11 Biology infographic showing cell structure with labeled organelles, DNA double helix, and biomolecule illustrations",
     content: `# Class 11 Biology: Cell Structure, Biomolecules & the Living World
 
 Class 11 Biology introduces the molecular and cellular foundations of life. Understanding cell structure, biomolecules, and classification systems is essential for Class 12 topics like genetics and ecology, and for competitive exams like NEET.
@@ -12428,6 +12438,8 @@ Practice Class 11 Biology with our [Biology Grade 11 quizzes](/quiz/biology/11) 
     readTime: "12 min read",
     category: "Biology",
     grade: "Grade 12",
+    featuredImage: "class-12-biology-genetics-evolution-diagram.png",
+    featuredImageAlt: "Class 12 Biology infographic showing genetics with Punnett square, evolution with phylogenetic tree, and ecology with food web diagram",
     content: `# Class 12 Biology: Genetics, Evolution & Ecology Essentials
 
 Class 12 Biology is dominated by genetics (Mendel's laws and molecular biology), evolution, and ecology. Together, these units carry the highest weightage in both CBSE board exams and NEET, making them the most important chapters to master.
@@ -12562,6 +12574,8 @@ Practise Class 12 Biology with our [Biology Grade 12 quizzes](/quiz/biology/12) 
     readTime: "13 min read",
     category: "Maths Concepts",
     grade: "Grade 11-12",
+    featuredImage: "higher-maths-sets-calculus-diagram.png",
+    featuredImageAlt: "Higher Maths infographic showing Venn diagrams for sets, function graphs, calculus symbols with integral and derivative notation",
     content: `# Higher Maths for Class 11-12: Sets, Relations, Functions & Calculus
 
 Higher mathematics in Class 11 and 12 introduces abstract concepts like sets, relations, and functions, then builds up to calculus — the most powerful mathematical tool you will learn in school. These topics are essential for CBSE board exams, JEE Mains, JEE Advanced, and form the mathematical backbone for physics and engineering.
@@ -12708,6 +12722,8 @@ Practice higher maths with our [Maths Grade 11 quizzes](/quiz/maths/11) and [Mat
     readTime: "10 min read",
     category: "Exam Prep",
     grade: "Grade 11-12",
+    featuredImage: "score-90-class-12-board-exams-diagram.png",
+    featuredImageAlt: "Score 90+ in Class 12 Board Exams infographic showing a student studying with Physics, Chemistry, Biology, Maths, and English subject icons",
     content: `# How to Score 90+ in Class 12 Board Exams: Subject-Wise Strategy
 
 Scoring 90 percent or above in CBSE Class 12 board exams requires a focused strategy, not just more study hours. The key is to understand the marking scheme, prioritise high-weightage chapters, and practise with previous year papers. Here is a subject-wise breakdown.
@@ -12861,6 +12877,8 @@ Start practising with our free quizzes: [Physics Grade 12](/quiz/physics/12), [C
     readTime: "6 min read",
     category: "Study Tips",
     grade: "Grade 5-12",
+    featuredImage: "summer-challenge-8-week-quizzes-diagram.png",
+    featuredImageAlt: "Summer Challenge 2026 infographic showing 8 weeks of free quizzes for Grades 5-12 with colorful weekly progress tracker",
     content: `# Summer Challenge 2026: 8 Weeks of Free Quizzes for Grades 5-12
 
 The Summer Challenge is a free 8-week structured revision programme that helps students stay sharp during the summer holidays. It covers English, Maths, and Science for Grades 5-10, and adds Physics, Chemistry, and Biology for Grades 11-12. No signup, no fees — just pick your grade and start.
@@ -12942,6 +12960,8 @@ A: No. The Summer Challenge works without any account or login. Your progress is
     readTime: "7 min read",
     category: "Study Tips",
     grade: "Grade 5-12",
+    featuredImage: "summer-learning-loss-prevention-diagram.png",
+    featuredImageAlt: "Summer Learning Loss infographic showing brain with knowledge fading vs retained, summer calendar, and 20-30 minutes daily practice clock",
     content: `# Summer Learning Loss: What It Is and How to Prevent It
 
 Summer learning loss (also called the summer slide) is the decline in academic skills that occurs when students are away from school during summer holidays. Research shows that students can lose 2-3 months of grade-level progress, with maths being the most affected subject.
