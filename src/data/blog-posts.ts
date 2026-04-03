@@ -27,6 +27,8 @@ const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     category: "Maths Concepts",
     grade: "Grade 8-10",
+    featuredImage: "coordinate-geometry-visual-guide-diagram.png",
+    featuredImageAlt: "Coordinate Geometry infographic showing Cartesian plane, distance formula, and midpoint on dark navy background",
     content: `# Coordinate Geometry and Graphs: A Visual Guide
 
 Coordinate geometry is where algebra meets geometry. Instead of just describing shapes with words or equations, we can plot them on a grid, visualize them, and work with them mathematically.
@@ -326,6 +328,8 @@ Coordinate geometry is a cornerstone of mathematics education worldwide. CBSE an
     readTime: "7 min read",
     category: "Maths Concepts",
     grade: "Grade 5-7",
+    featuredImage: "patterns-in-mathematics-diagram.png",
+    featuredImageAlt: "Patterns in Mathematics infographic showing Fibonacci, golden ratio, and fractal geometry on dark navy background",
     content: `# The Beauty of Patterns in Mathematics
 
 Stop thinking of maths as numbers and calculations. Maths is the language of patterns.
@@ -616,6 +620,8 @@ The study of mathematical patterns is fundamental across all international curri
     readTime: "8 min read",
     category: "Maths Tips",
     grade: "Grade 8-10",
+    featuredImage: "prepare-maths-exams-strategies-diagram.png",
+    featuredImageAlt: "Maths Exam Preparation infographic showing study plan and practice strategies on dark navy background",
     content: `# How to Prepare for Maths Exams: Strategies That Actually Work
 
 Exam season brings anxiety. But here's the good news: anxiety decreases dramatically when you're well-prepared.
@@ -954,6 +960,8 @@ A: Yes, occasionally. Teaching each other is powerful. But ensure focused proble
     readTime: "8 min read",
     category: "Maths Concepts",
     grade: "Grade 6-8",
+    featuredImage: "percentages-profit-loss-diagram.png",
+    featuredImageAlt: "Percentages infographic showing profit, loss, discount calculations on dark navy background",
     content: `# Understanding Percentages, Profit, and Loss for Everyday Life
 
 Percentages confuse many students because they're taught abstractly. Let's change that. Percentages are just parts of a whole, expressed as parts out of 100. Once you see this, percentages become intuitive and practical.
@@ -1215,6 +1223,8 @@ Percentage calculations are vital across Indian business, banking, and education
     readTime: "8 min read",
     category: "Maths Tips",
     grade: "Grade 5-10",
+    featuredImage: "common-maths-mistakes-diagram.png",
+    featuredImageAlt: "Common Maths Mistakes infographic showing errors and corrections on dark navy background",
     content: `# Common Maths Mistakes Students Make (And How to Avoid Them)
 
 Every student makes maths mistakes. But the difference between strong and weak performers is simple: strong students identify their mistakes and prevent repetition.
@@ -1492,6 +1502,8 @@ A: Yes! These are universal mathematical principles. Sign errors, unit mistakes,
     readTime: "7 min read",
     category: "Maths Tips",
     grade: "Grade 5-10",
+    featuredImage: "maths-practice-quizzes-benefits-diagram.png",
+    featuredImageAlt: "Maths Practice Quizzes infographic comparing quiz learning to textbook study on dark navy background",
     content: `# Why Maths Practice Quizzes Are the Best Way to Learn
 
 Here's a painful truth: most students study maths inefficiently. They read the textbook, take notes, and hope it sticks. When exam day arrives, knowledge has vanished.
@@ -1738,6 +1750,8 @@ Whether your curriculum is CBSE, ICSE, Cambridge IGCSE, or IB, our quiz platform
     readTime: "8 min read",
     category: "Maths Concepts",
     grade: "Grade 9-10",
+    featuredImage: "trigonometry-sin-cos-tan-diagram.png",
+    featuredImageAlt: "Trigonometry infographic showing sin cos tan ratios and unit circle on dark navy background",
     content: `# Trigonometry for Beginners: Sin, Cos, Tan Made Easy
 
 Trigonometry sounds intimidating. But here's the secret: it's just about describing the relationships between angles and sides in right-angled triangles. Once you understand this, trigonometry becomes remarkably practical.
@@ -1977,6 +1991,8 @@ A: Make it a silly sentence! "Some Old Hippie Caught Another Hippie Tripping On 
     readTime: "6 min read",
     category: "Study Tips",
     grade: "Grade 5-10",
+    featuredImage: "english-grammar-practice-quizzes-diagram.png",
+    featuredImageAlt: "English Grammar Practice infographic showing weekly quiz benefits on dark navy background",
     content: `# English Grammar Practice: Why Weekly Quizzes Work
 
 Many students think studying means reading textbooks and memorizing rules. But research shows that **practice quizzes** are far more effective for learning grammar. Let's understand why consistent practice transforms your English skills.
@@ -2295,6 +2311,8 @@ Weekly grammar quizzes are backed by science and proven to work. They're not bus
     readTime: "9 min read",
     category: "Exam Prep",
     grade: "Grade 8-10",
+    featuredImage: "score-high-english-board-exams-diagram.png",
+    featuredImageAlt: "Score High in English Exams infographic showing exam sections and time allocation on dark navy background",
     content: `# Tips to Score High in English Exams: Class 10 and Beyond
 
 English is one of the easiest subjects to score 90+ in, IF you have the right strategy. Many students lose marks due to poor planning, weak time management, or not understanding what examiners want. This guide reveals the secrets to scoring high!
@@ -2594,6 +2612,8 @@ Remember: **Perfect practice makes perfect.** Not just practice—practice the r
     readTime: "8 min read",
     category: "Problem Solving",
     grade: "Grade 5-10",
+    featuredImage: "word-problems-step-by-step-diagram.png",
+    featuredImageAlt: "Solve Word Problems infographic showing RUCSAC method flowchart on dark navy background",
     content: `# How to Solve Word Problems in Maths: A Step-by-Step Approach
 
 Word problems intimidate many students. But here's a secret: a word problem is just a story told in words with numbers sprinkled in. Your job is to extract the mathematical meaning and solve it.
@@ -2808,6 +2828,8 @@ A: Word problems teach problem-solving thinking. In real life, you don't see "ca
     readTime: "7 min read",
     category: "Study Tips",
     grade: "Grade 6-10",
+    featuredImage: "improve-english-vocabulary-diagram.png",
+    featuredImageAlt: "Improve English Vocabulary infographic showing word roots and practice methods on dark navy background",
     content: `# How to Improve English Vocabulary: Strategies for Students
 
 Vocabulary is the foundation of good English. With a larger vocabulary, you can express yourself better, understand texts more easily, and score higher marks in exams. Let's explore proven strategies to build your vocabulary efficiently.
@@ -3120,6 +3142,8 @@ Start today: Pick one strategy, commit to it for a month, and measure your progr
     readTime: "8 min read",
     category: "Study Tips",
     grade: "Grade 5-10",
+    featuredImage: "common-english-mistakes-diagram.png",
+    featuredImageAlt: "Common English Mistakes infographic showing confused words and corrections on dark navy background",
     content: `# Common English Mistakes Students Make (And How to Fix Them)
 
 Students worldwide tend to make similar English mistakes. Some patterns emerge from translating from other languages, while others come from not understanding grammar rules fully. In this guide, we've identified the most common mistakes and how to fix them. Awareness is the first step to improvement!
@@ -3367,6 +3391,8 @@ Ready to practice avoiding these mistakes? Take our English quizzes and improve 
     readTime: "8 min read",
     category: "Maths Concepts",
     grade: "Grade 6-9",
+    featuredImage: "geometry-shapes-angles-theorems-diagram.png",
+    featuredImageAlt: "Geometry Essentials infographic showing shapes, angle types, and Pythagoras theorem on dark navy background",
     content: `# Geometry Essentials: Shapes, Angles, and Theorems Explained
 
 Close your eyes and look around. The room you're in is full of geometry: rectangular walls, circular light bulbs, triangular roof trusses. Geometry is the mathematics of space and shape—and it's everywhere.
@@ -3579,6 +3605,8 @@ A: It's helpful for calculations, but geometry is about understanding relationsh
     readTime: "8 min read",
     category: "Exam Prep",
     grade: "Grade 8-10",
+    featuredImage: "letter-writing-format-diagram.png",
+    featuredImageAlt: "Letter Writing Format infographic showing formal and informal templates on dark navy background",
     content: `# Letter Writing Format: Formal and Informal Guide for Students
 
 Letter writing appears regularly in English exams worldwide—from CBSE and ICSE in India to Cambridge internationally. Whether you're writing a formal letter to the Principal or an informal letter to a friend, knowing the correct format is essential to score full marks. Let's learn both formats with examples!
@@ -3858,6 +3886,8 @@ Ready to practice? Take our English quizzes and master this important skill!`,
     readTime: "8 min read",
     category: "Maths Concepts",
     grade: "Grade 7-9",
+    featuredImage: "algebra-basics-to-confidence-diagram.png",
+    featuredImageAlt: "Algebra infographic showing balance scale equation concept and solving steps on dark navy background",
     content: `# Algebra Made Simple: From Basics to Confidence
 
 Many students see algebra as a sudden jump into difficult, abstract maths. But here's the truth: algebra is just arithmetic with unknowns. It's a tool for solving problems when you don't know all the information upfront.
@@ -4032,6 +4062,8 @@ A: Constantly! From calculating loans and budgets to coding, physics, engineerin
     readTime: "7 min read",
     category: "Grammar",
     grade: "Grade 6-10",
+    featuredImage: "prepositions-guide-diagram.png",
+    featuredImageAlt: "Prepositions infographic showing in, on, at usage rules with illustrations on dark navy background",
     content: `# Prepositions in English: Rules and Examples Guide
 
 Prepositions are tricky for many students, but they're essential for correct English. A preposition shows the relationship between words—usually between a noun and other words in a sentence. Let's explore the most common prepositions and when to use them.
@@ -4297,6 +4329,8 @@ Start practicing today and build your confidence in using prepositions correctly
     readTime: "6 min read",
     category: "Grammar",
     grade: "Grade 6-10",
+    featuredImage: "articles-a-an-the-guide-diagram.png",
+    featuredImageAlt: "Articles infographic showing A, An, The usage rules with flowchart on dark navy background",
     content: `# How to Use Articles (A, An, The): Complete Guide
 
 Articles might seem like small words, but they're very important in English. Many students skip over them or use them incorrectly. This guide explains when to use "a," "an," and "the" with clear rules and examples.
@@ -4486,6 +4520,8 @@ Start practicing today and become confident in using articles correctly!`,
     readTime: "8 min read",
     category: "Maths Concepts",
     grade: "Grade 5-7",
+    featuredImage: "fractions-complete-guide-diagram.png",
+    featuredImageAlt: "Fractions infographic showing pizza models, number line, and equivalent fractions on dark navy background",
     content: `# How to Master Fractions: A Complete Guide for Young Learners
 
 Fractions. The word alone makes some students nervous. But here's a secret: fractions aren't complicated. They're just a way of showing *parts of a whole*. And once you see them this way, everything becomes clear.
@@ -4661,6 +4697,8 @@ A: Start with concrete examples (actual pizza, chocolate), then use visual model
     readTime: "7 min read",
     category: "Grammar",
     grade: "Grade 8-10",
+    featuredImage: "subject-verb-agreement-diagram.png",
+    featuredImageAlt: "Subject-Verb Agreement infographic showing matching rules with examples on dark navy background",
     content: `# Subject-Verb Agreement: Rules Made Clear for Students
 
 Subject-verb agreement (also called concord) is one of the most tested grammar topics in exams worldwide. The rule is simple: a **singular subject** takes a **singular verb**, and a **plural subject** takes a **plural verb**. But there are tricky cases that confuse students. Let's master them all!
@@ -4858,6 +4896,8 @@ Start practicing today and boost your grammar confidence!`,
     readTime: "7 min read",
     category: "Maths Tips",
     grade: "Grade 5-10",
+    featuredImage: "mental-maths-tricks-diagram.png",
+    featuredImageAlt: "Mental Maths Tricks infographic showing speed calculation shortcuts on dark navy background",
     content: `# Mental Maths Tricks Every Student Should Know
 
 Speed matters in mathematics. Whether you're racing against the clock in an exam hall or solving practice problems, being able to calculate quickly and accurately gives you a real advantage. Let's explore proven mental maths techniques that work for students across CBSE, ICSE, Cambridge, and IB curricula.
@@ -5115,6 +5155,8 @@ A: Absolutely! These tricks are perfect for pen-and-paper exams. They're complet
     readTime: "6 min read",
     category: "Grammar",
     grade: "Grade 5-7",
+    featuredImage: "parts-of-speech-diagram.png",
+    featuredImageAlt: "8 Parts of Speech infographic with color-coded examples on dark navy background",
     content: `# Parts of Speech Made Easy: Every Child Can Learn
 
 Parts of speech are like the alphabet of grammar. Once you understand what each part does, sentences make perfect sense! Let's learn about the eight main parts of speech with examples from your daily life.
@@ -5324,6 +5366,8 @@ Ready to test your knowledge? Take our English quizzes and see how well you've l
     readTime: "9 min read",
     category: "Grammar",
     grade: "Grade 8-10",
+    featuredImage: "direct-indirect-speech-diagram.png",
+    featuredImageAlt: "Direct and Indirect Speech infographic showing tense shift and pronoun changes on dark navy background",
     content: `# Direct and Indirect Speech: Complete Guide for Students
 
 Direct and indirect speech (also called reported speech) is a crucial topic in English exams worldwide—from CBSE in India to Cambridge internationally. Many students find it confusing because of all the rules about verb tense changes and punctuation. Let's simplify it with clear rules and lots of examples.
@@ -5546,6 +5590,8 @@ Start mastering reported speech today and track your improvement!`,
     readTime: "7 min read",
     category: "Grammar",
     grade: "Grade 8-10",
+    featuredImage: "active-passive-voice-diagram.png",
+    featuredImageAlt: "Active and Passive Voice infographic showing sentence transformation rules on dark navy background",
     content: `# Active and Passive Voice: Rules and Exercises
 
 Voice is one of the most important grammar topics in school and standardized exams worldwide. Questions on voice change appear regularly in CBSE, ICSE, Cambridge, and other English exams. Let's understand active and passive voice with clear rules and plenty of examples.
@@ -5703,6 +5749,8 @@ Start practicing today and watch your grammar confidence grow!`,
     readTime: "8 min read",
     category: "Grammar",
     grade: "Grade 5-10",
+    featuredImage: "english-tenses-explained-diagram.png",
+    featuredImageAlt: "English Tenses infographic showing 12 tenses on a timeline on dark navy background",
     content: `# English Tenses Explained Simply
 
 Understanding tenses is crucial for writing and speaking English correctly. Students in India and around the world struggle with tenses because they seem complicated, but once you understand the basic structure, they become much easier. Let's break down all the tenses you need for CBSE, ICSE, Cambridge, and IB exams, plus competitive tests worldwide.
@@ -5871,6 +5919,8 @@ Ready to test your knowledge? Try our English quizzes and track your progress. T
     readTime: "10 min read",
     category: "Maths Tips",
     grade: "Grade 8",
+    featuredImage: "best-free-online-maths-quiz-class-8-diagram.png",
+    featuredImageAlt: "Online Maths Quiz for Class 8 infographic showing quiz interface and progress tracking on dark navy background",
     content: `# Best Free Online Maths Quiz for Class 8: Why Online Practice Beats Textbooks
 
 Class 8 maths is a critical foundation year. Students encounter rational numbers, linear equations, basic geometry, and mensuration—topics that form the backbone of higher mathematics. Yet many students still rely solely on textbook problems and occasional coaching sessions. What if there was a better way?
@@ -5950,7 +6000,21 @@ The best part? No subscription fees. Quality maths practice should be accessible
 
 Class 8 maths doesn't have to be intimidating. With the right tools—particularly free, adaptive online quizzes—you can build genuine fluency in rational numbers, equations, mensuration, and other critical topics. Start this week. Spend 15 minutes daily on The Practise Ground's Grade 8 quizzes, track your progress, and watch your confidence and marks improve together.
 
-The best time to master maths is now. Your future self (in Class 9, 10, and beyond) will thank you.`
+The best time to master maths is now. Your future self (in Class 9, 10, and beyond) will thank you.
+
+## Frequently Asked Questions
+
+**Q: Why are online maths quizzes better than textbook exercises for Class 8?**
+A: Online quizzes provide instant feedback — you see the correct answer immediately after each question rather than waiting days for a teacher to mark your work. This immediate correction prevents wrong methods from becoming habits. Quizzes also track your accuracy over time, showing which topics need more practice.
+
+**Q: How many minutes of daily quiz practice is recommended for Class 8 students?**
+A: Fifteen minutes is the sweet spot. This is enough to complete one focused topic quiz with time to review mistakes. Three 15-minute sessions per week on different topics produce better results than one 45-minute cramming session because spaced practice strengthens long-term memory.
+
+**Q: Which Class 8 maths topics benefit most from quiz-based practice?**
+A: Rational numbers, linear equations, and algebraic expressions benefit enormously from quiz practice because they require procedural fluency — the ability to execute steps quickly and accurately. Geometry and mensuration also benefit because quizzes test formula application and spatial reasoning.
+
+**Q: Can free online quizzes really replace a tutor for maths?**
+A: For practising and reinforcing concepts you already understand, yes. Quizzes are excellent at building speed, identifying weak areas, and maintaining skills. For learning new concepts from scratch, a tutor or teacher explanation is still valuable. The ideal approach combines conceptual learning from a teacher with daily quiz practice for reinforcement.`
   },
   {
     slug: "cbse-english-grammar-practice-class-6-7",
@@ -5963,6 +6027,8 @@ The best time to master maths is now. Your future self (in Class 9, 10, and beyo
     readTime: "12 min read",
     category: "Grammar",
     grade: "Grade 6-7",
+    featuredImage: "cbse-grammar-class-6-7-diagram.png",
+    featuredImageAlt: "CBSE English Grammar infographic for Class 6-7 showing topics and study plan on dark navy background",
     content: `# CBSE English Grammar Practice for Class 6-7: Master Tenses, Articles & More
 
 English grammar is the foundation of good communication. Class 6-7 students who master grammar early enjoy better writing skills, higher exam marks, and confidence in speaking English. Yet grammar often feels abstract and tedious. How can you make it stick?
@@ -6120,7 +6186,21 @@ The gamified nature of quizzes (accuracy percentage, time spent, streak tracking
 
 English grammar for Class 6-7 is learnable and mastery is within reach. Combine clear concept understanding with consistent, feedback-based practice through online quizzes. Start with one grammar topic, build confidence, then expand systematically. Use The Practise Ground's free Class 6-7 English grammar quizzes to practice daily, track progress, and identify gaps.
 
-Your writing will become clearer, your exam marks will improve, and—most importantly—you'll communicate with confidence. Begin today.`
+Your writing will become clearer, your exam marks will improve, and—most importantly—you'll communicate with confidence. Begin today.
+
+## Frequently Asked Questions
+
+**Q: Which English grammar topics should Class 6-7 students learn first?**
+A: Start with tenses (simple present, past, future) and articles (a, an, the). These appear in nearly every exam question and form the foundation for all other grammar topics. Once these are solid, move to prepositions, then active-passive voice.
+
+**Q: How often should my child practise grammar to see improvement?**
+A: Fifteen to twenty minutes of daily grammar practice produces visible results within 3-4 weeks. Consistency matters more than duration. A daily 15-minute quiz habit is far more effective than a weekly 2-hour grammar session.
+
+**Q: Is there a difference between CBSE and ICSE grammar requirements for Class 6-7?**
+A: The core grammar topics are identical — tenses, articles, prepositions, active-passive voice, and direct-indirect speech. ICSE tends to include more composition and letter-writing, while CBSE focuses more on gap-filling and transformation exercises. The underlying grammar knowledge is the same.
+
+**Q: My child speaks English well but makes grammar mistakes in writing. Why?**
+A: Spoken English is more forgiving — listeners fill in gaps naturally. Written English requires precise grammar because there are no contextual cues. The fix is targeted written practice: fill-in-the-blanks, sentence correction, and paragraph writing with grammar feedback.`
   },
   {
     slug: "how-to-improve-maths-marks-board-exams",
@@ -6133,6 +6213,8 @@ Your writing will become clearer, your exam marks will improve, and—most impor
     readTime: "13 min read",
     category: "Exam Prep",
     grade: "Grade 9-10",
+    featuredImage: "improve-maths-marks-board-exams-diagram.png",
+    featuredImageAlt: "Improve Maths Marks infographic showing board exam prep strategies on dark navy background",
     content: `# How to Improve Maths Marks in Board Exams: Proven Strategies for Class 9-10
 
 Board exams are high-stakes. A 10-mark improvement in maths can change your overall percentage and open doors to better colleges. Yet many students struggle not because they're incapable, but because their preparation strategy is flawed.
@@ -6322,7 +6404,21 @@ Improving maths marks isn't about luck—it's about strategy. Diagnose your gaps
 
 Start with The Practise Ground's free Class 9-10 maths quizzes aligned with your board's syllabus. Practice daily, track progress, and improve. Your goal of scoring 70+, 80+, or even 90+ marks is absolutely achievable with focused preparation.
 
-The time to start is now. Your board exam score awaits.`
+The time to start is now. Your board exam score awaits.
+
+## Frequently Asked Questions
+
+**Q: How many months before board exams should I start preparing for maths?**
+A: Ideally 4-6 months (16-24 weeks). This gives enough time for foundation building, mixed practice, and mock exams. Even 8 weeks of focused preparation can produce significant improvement if you follow a structured plan with daily quiz practice.
+
+**Q: Which maths topics should I focus on first for board exams?**
+A: Start with high-weightage topics. For CBSE Class 10, Algebra and Geometry together carry about 40 marks. For ICSE, focus on Commercial Mathematics and Mensuration early. Always prioritise topics where you currently score lowest — the gap between your current and target marks is where the most points are waiting.
+
+**Q: Is solving previous year papers enough to score well in maths?**
+A: Previous year papers are essential but not sufficient on their own. They show you the exam pattern and question types, but you need conceptual understanding first. Use the 70-20-10 practice rule: 70 percent targeted topic practice, 20 percent mixed practice, 10 percent full mock exams.
+
+**Q: How do I stop making careless mistakes in maths exams?**
+A: Careless mistakes are usually speed errors or skipped steps. The fix is to show all working (even for easy steps), plug your answer back into the equation to verify, and reserve the last 10 minutes of the exam for checking. Practice under timed conditions to build the habit.`
   },
   {
     slug: "fun-maths-activities-kids-grade-5",
@@ -6335,6 +6431,8 @@ The time to start is now. Your board exam score awaits.`
     readTime: "11 min read",
     category: "Maths Tips",
     grade: "Grade 5",
+    featuredImage: "fun-maths-activities-grade-5-diagram.png",
+    featuredImageAlt: "Fun Maths Activities infographic showing games and activities for Grade 5 on dark navy background",
     content: `# Fun Maths Activities for Kids Grade 5: Making Numbers Engaging & Enjoyable
 
 The biggest myth about maths? That it has to be boring.
@@ -6473,7 +6571,21 @@ Grade 5 maths can feel like drudgery or delight—the difference is engagement. 
 
 Your Grade 5 child doesn't need hours of practice. They need **varied, enjoyable, and meaningful practice**. Start this week. Pick one game, one real-world activity, and use The Practise Ground's free Grade 5 quizzes for 15 minutes daily. Watch your child's confidence and curiosity grow.
 
-Maths can be genuinely fun. Let's make it so.`
+Maths can be genuinely fun. Let's make it so.
+
+## Frequently Asked Questions
+
+**Q: How much daily maths practice does a Grade 5 student need?**
+A: Fifteen to twenty minutes of focused practice is enough at this age. Short, consistent sessions are far more effective than long weekend cramming. The key is variety — alternate between games, real-world activities, and quiz practice to keep it engaging.
+
+**Q: Can games and activities really teach maths as well as textbook exercises?**
+A: Yes, and often better. Research shows that game-based learning improves conceptual understanding and retention because students are motivated and actively engaged. Textbook drills build speed, but games build understanding. The ideal approach combines both.
+
+**Q: What should I do if my Grade 5 child says they hate maths?**
+A: Start with activities that do not feel like maths — cooking measurements, sports statistics, or board games involving numbers. Once the child experiences success and enjoyment, gradually introduce more structured practice. Never force extended study sessions, as this reinforces negative associations.
+
+**Q: Are online maths quizzes suitable for young children?**
+A: For Grade 5 students (age 10-11), yes. Online quizzes with instant feedback are highly effective because children see results immediately and can correct mistakes in real time. Limit screen-based practice to 15-20 minutes and combine it with hands-on activities for the best results.`
   },
   {
     slug: "english-comprehension-tips-competitive-exams",
@@ -6486,6 +6598,8 @@ Maths can be genuinely fun. Let's make it so.`
     readTime: "12 min read",
     category: "Study Tips",
     grade: "Grade 8-10",
+    featuredImage: "english-comprehension-competitive-exams-diagram.png",
+    featuredImageAlt: "English Comprehension Tips infographic showing reading strategies for competitive exams on dark navy background",
     content: `# English Comprehension Tips for Competitive Exams: Strategies for Olympiads & Beyond
 
 Reading comprehension is often the most feared section in competitive exams—from English Olympiads to scholarship entrance tests.
@@ -6688,7 +6802,21 @@ English comprehension in competitive exams is a skill, not a talent. You can dra
 
 Start today. Use The Practise Ground's free English comprehension quizzes (aligned with olympiad and competitive exam patterns) to practice 15-20 minutes daily. Read actively, analyze question types, and learn from mistakes. Over 4-8 weeks, watch your accuracy and speed improve together.
 
-Your competitive exam success starts with reading mastery. Let's get there.`
+Your competitive exam success starts with reading mastery. Let's get there.
+
+## Frequently Asked Questions
+
+**Q: Should I read the passage first or the questions first in a comprehension exam?**
+A: Read the passage first — quickly but actively. Skim for structure, main idea, and tone. Then read the questions and go back to the passage for specific answers. Reading questions first often causes tunnel vision and wastes time on re-reading.
+
+**Q: How can I improve my reading speed without losing comprehension?**
+A: Practice timed reading daily. Start with easy material and gradually increase difficulty. Avoid subvocalisation (silently mouthing words) and train your eyes to move in chunks rather than word by word. Speed improves naturally with volume — read more, read often.
+
+**Q: What types of questions are hardest in competitive exam comprehensions?**
+A: Inference questions — where the answer is implied but not directly stated — are the trickiest. They require reading between the lines and understanding the author's tone. Practice these specifically by asking "What does the author suggest?" after each paragraph you read.
+
+**Q: How much daily practice is needed to see improvement in comprehension?**
+A: Fifteen to twenty minutes of active comprehension practice daily produces measurable results within 4-6 weeks. Active means reading with a pencil, annotating key points, and attempting questions — not just passive reading.`
   },
   {
     slug: "why-students-struggle-algebra-how-to-fix",
@@ -6701,6 +6829,8 @@ Your competitive exam success starts with reading mastery. Let's get there.`
     readTime: "13 min read",
     category: "Maths Concepts",
     grade: "Grade 7-10",
+    featuredImage: "why-students-struggle-algebra-diagram.png",
+    featuredImageAlt: "Why Students Struggle with Algebra infographic showing misconceptions and fixes on dark navy background",
     content: `# Why Students Struggle with Algebra and How to Fix It: From Basics to Mastery
 
 Algebra is where many students hit a wall.
@@ -6918,7 +7048,21 @@ Fix these foundations. Practice consistently. Use online quizzes daily. And—cr
 
 Start with The Practise Ground's free Grade 7-10 algebra quizzes. Pick one topic, practice for 20 minutes daily, and track your progress. Within 12 weeks of deliberate practice, you'll move from confusion to genuine mastery.
 
-Algebra awaits. You're ready.`
+Algebra awaits. You're ready.
+
+## Frequently Asked Questions
+
+**Q: At what age or grade should students start learning algebra?**
+A: Algebraic thinking begins informally in Grade 4-5 with patterns and missing number problems. Formal algebra with variables and equations typically starts in Grade 6-7. If your child struggles, the issue is usually arithmetic foundations rather than readiness for algebra.
+
+**Q: What is the most common mistake students make in algebra?**
+A: Treating variables as labels instead of numbers. Students write "5a" thinking it means "5 apples" rather than "5 times a." This single misconception causes cascading errors in simplification, equation solving, and factoring.
+
+**Q: How long does it take to get comfortable with algebra?**
+A: With 20 minutes of focused daily practice, most students see significant improvement within 6-8 weeks. The key is consistent practice on one concept at a time rather than jumping between topics.
+
+**Q: My child understands algebra in class but fails in exams. Why?**
+A: This usually indicates surface-level understanding without deep practice. Exam questions require applying concepts in unfamiliar contexts. The fix is solving varied problems — not just textbook exercises — and practicing under timed conditions.`
   },
 {
   slug: "newtons-laws-of-motion",
@@ -7752,6 +7896,8 @@ The periodic table is your chemistry handbook. Return to it whenever you need to
   readTime: "13 min read",
   category: "Chemistry",
   grade: "Grade 7-10",
+  featuredImage: "acids-bases-salts-guide-diagram.png",
+  featuredImageAlt: "Acids Bases and Salts infographic showing pH scale and litmus test on dark navy background",
   content: `## Acids, Bases and Salts — Properties, pH Scale & Everyday Examples
 
 Acids and bases are everywhere in your daily life—from the lemon juice in your daal to the soap you use for washing clothes. Understanding their properties helps you understand chemistry, cooking, cleaning, and even your body's health.
@@ -8764,6 +8910,8 @@ Electricity and circuits are everywhere. Understanding them opens doors to engin
   readTime: "13 min read",
   category: "Chemistry",
   grade: "Grade 8-10",
+  featuredImage: "chemical-reactions-equations-diagram.png",
+  featuredImageAlt: "Chemical Reactions infographic showing 5 reaction types with balancing examples on dark navy background",
   content: `## Chemical Reactions & Equations: Types, Balancing & Examples
 
 Chemical reactions happen everywhere—from rusting iron to digestion in your stomach. Understanding how to represent and balance these reactions is fundamental to chemistry and crucial for CBSE Chapter 1, ICSE, and IB exams.
@@ -9877,6 +10025,8 @@ Cells are the foundation of all biology. Understanding their structure and funct
   readTime: "12 min read",
   category: "Science",
   grade: "Grade 5-10",
+  featuredImage: "science-exam-preparation-diagram.png",
+  featuredImageAlt: "Science Exam Preparation infographic showing study strategies for all three sciences on dark navy background",
   content: `## How to Score High in Science Exams — Study Tips That Actually Work
 
 Science exams can be challenging, but with the right strategies, you can score significantly higher. This guide shares evidence-based study tips specifically designed for students preparing for CBSE, ICSE, Cambridge IGCSE, and IB exams.
@@ -10228,6 +10378,8 @@ You have the ability to score well. With these strategies and consistent effort,
   readTime: "8 min read",
   category: "Biology",
   grade: "Grade 8-10",
+  featuredImage: "study-biology-effectively-diagram.png",
+  featuredImageAlt: "Study Biology Effectively infographic showing diagram drawing and mnemonic techniques on dark navy background",
   content: `## How to Study Biology Effectively: Tips for Grades 8-10
 
 Biology is one of the most fascinating subjects in your curriculum, but let's be honest—it can also feel overwhelming with all those diagrams, processes, and definitions to memorize. The good news? You don't need to memorize everything. With the right study strategies, you can actually understand and enjoy biology while scoring excellently in your exams.
@@ -10400,6 +10552,8 @@ Ready to level up? Check out our Biology quizzes on The Practise Ground to pract
   readTime: "10 min read",
   category: "Physics",
   grade: "Grade 8-10",
+  featuredImage: "solve-physics-numericals-diagram.png",
+  featuredImageAlt: "Solve Physics Numericals infographic showing 5-step method with formula selection on dark navy background",
   content: `## How to Solve Physics Numericals: The Complete Step-by-Step Guide
 
 Physics numericals are often the most feared part of the exam. Students worry they'll choose the wrong formula or make a calculation error. But here's the truth: physics numericals follow a predictable pattern. Once you learn the system, you can solve any numerical—even ones you've never seen before.
@@ -10717,6 +10871,8 @@ Your next step? Grab a previous year CBSE paper and solve 5-10 numericals using 
   readTime: "9 min read",
   category: "Chemistry",
   grade: "Grade 8-10",
+  featuredImage: "chemistry-remember-reactions-formulas-diagram.png",
+  featuredImageAlt: "Remember Chemical Reactions infographic showing memory techniques and formula shortcuts on dark navy background",
   content: `## Chemistry Made Easy: How to Remember Reactions and Formulas
 
 Chemistry gets a bad reputation for being "all memorization." But the truth? Chemistry is about patterns. Once you recognize the patterns, remembering reactions becomes effortless.
@@ -11014,6 +11170,8 @@ Use The Practise Ground chemistry quizzes to practice balancing equations and id
   readTime: "12 min read",
   category: "Science",
   grade: "Grade 8-10",
+  featuredImage: "score-90-class-10-science-diagram.png",
+  featuredImageAlt: "Score 90+ in Class 10 Science infographic showing chapter-wise strategy on dark navy background",
   content: `## How to Score 90+ in Class 10 Science Board Exam: The Complete Strategy
 
 Class 10 Science is one of the most important exams in your academic journey. A strong score here impacts your future subject choices, college admissions, and competitive exams. But scoring 90+ isn't mysterious—it's the result of understanding the exam structure and following a systematic preparation strategy.
@@ -11374,6 +11532,8 @@ Want additional practice? Check out The Practise Ground's chapter-wise quizzes a
   readTime: "8 min read",
   category: "Science",
   grade: "Grade 5-7",
+  featuredImage: "science-foundation-grades-5-7-diagram.png",
+  featuredImageAlt: "Science Foundation infographic for Grades 5-7 showing three branches of science on dark navy background",
   content: `## Science for Grades 5-7: How to Build a Strong Foundation
 
 Grades 5-7 are a magical time in your science journey. You're curious about everything—why leaves are green, how plants drink water, where lightning comes from. This is the age when science can become your absolute favorite subject, or it can start to feel disconnected from real life.
@@ -11666,6 +11826,8 @@ Ready to dive deeper? The Practise Ground has age-appropriate quizzes and activi
     readTime: "7 min read",
     category: "Study Tips",
     grade: "Grade 5-10",
+    featuredImage: "summer-vacation-study-plan-diagram.png",
+    featuredImageAlt: "Summer Vacation Study Plan infographic showing daily practice schedule on dark navy background",
     content: `# How to Keep Your Child Academically Sharp This Summer (Without the Stress)
 
 Summer vacations are the highlight of every student's year — and they should be. Children need time to play, explore, rest, and just be kids. But here is a reality that catches many families off guard: students can lose up to two months of academic progress during a long break. Researchers call it **summer learning loss**, and it affects reading fluency, maths skills, and science concepts almost equally.
@@ -11776,7 +11938,21 @@ No apps to download, no accounts to create, no fees to pay. Just consistent prac
 
 Your summer should still be fun, relaxed, and full of everything that makes it special. This is just 30 minutes of that day. The rest is yours.
 
-[Start the Summer Challenge now](/summer-challenge) — it is free, it is structured, and it works.`
+[Start the Summer Challenge now](/summer-challenge) — it is free, it is structured, and it works.
+
+## Frequently Asked Questions
+
+**Q: How much daily study time is enough during summer vacation?**
+A: Research suggests 20-30 minutes of focused practice per day is sufficient to prevent summer learning loss. This is not about marathon study sessions — consistency matters far more than duration. The Summer Challenge is designed around this timeframe.
+
+**Q: Should my child study ahead or revise previous topics during summer?**
+A: For most students, revision is more valuable. If previous concepts are not solid, studying ahead creates gaps that compound over time. Once the foundation is secure, reading ahead in areas of interest is a useful bonus — but it should not replace revision.
+
+**Q: What if my child refuses to study during the holidays?**
+A: Frame it as a daily habit rather than "studying." Link quiz time to an existing routine — after breakfast, before screen time. Keep sessions short and celebrate completion rather than scores. Most children resist the idea of summer work but accept a 20-minute daily habit once it becomes routine.
+
+**Q: Is the Summer Challenge aligned with CBSE, ICSE, and Cambridge curricula?**
+A: Yes. The quizzes cover core concepts common to all major Indian and international curricula. Topics like grammar rules, arithmetic, and basic science are universal across boards. The focus is on foundational skills that every student needs regardless of their school system.`
   },
   {
     slug: "fun-quizzes-for-students-general-knowledge",
@@ -11789,6 +11965,8 @@ Your summer should still be fun, relaxed, and full of everything that makes it s
     readTime: "6 min read",
     category: "Fun & Learning",
     grade: "All Ages",
+    featuredImage: "fun-quizzes-general-knowledge-diagram.png",
+    featuredImageAlt: "Fun Quizzes infographic showing 15 general knowledge categories on dark navy background",
     content: `# 15 Free Fun Quizzes for Students: Test Your General Knowledge
 
 Not everything has to be about exams. Sometimes, the best way to learn is to explore questions that make you curious, surprised, or even a little competitive. That is exactly what our Fun Quizzes section is about.
@@ -11860,6 +12038,20 @@ These fun quizzes are for all of those moments. They are designed to spark curio
 If you enjoyed the Fun Maths quizzes, you might like our full [Maths quiz sets for Grades 5-10](/quiz/maths/5). If the science quizzes caught your attention, we have a whole [Science section](/quiz/science/5) with curriculum-aligned questions. And if you are a language lover, our [English quizzes](/quiz/5) cover grammar, vocabulary, comprehension and more.
 
 But no pressure. Start with the fun stuff. That is what it is here for.
+
+## Frequently Asked Questions
+
+**Q: Are fun quizzes useful for learning or just entertainment?**
+A: Both. Research shows that retrieval practice — testing yourself on information — strengthens memory regardless of context. Even a "fun" quiz about world capitals reinforces geography knowledge. The informal format lowers anxiety and makes students more willing to engage.
+
+**Q: What age group are these quizzes designed for?**
+A: Most quizzes suit students aged 10 and above (Grades 5-12). Younger students may need help with some science and history questions, but the geography, food, and sports quizzes are accessible to almost any age.
+
+**Q: Can I use these quizzes in a classroom or at a family gathering?**
+A: Absolutely. Teachers use them as warm-up activities or end-of-week rewards, and families turn them into group challenges. The WhatsApp share feature makes it easy to compare scores with friends or relatives.
+
+**Q: How are these different from the academic quizzes on the site?**
+A: Academic quizzes follow a curriculum and focus on specific topics like grammar rules or chemical equations. Fun quizzes cover general knowledge, trivia, and brain teasers with no curriculum link. Both use the same quiz format with instant feedback after each question.
 
 [Browse all 15 Fun Quizzes](/fun)`
   },
@@ -13058,6 +13250,8 @@ Prevent summer learning loss with our free [Summer Challenge](/summer-challenge)
     readTime: "7 min read",
     category: "Study Tips",
     grade: "Grade 5-7",
+    featuredImage: "summer-challenge-parents-grades-5-7-diagram.png",
+    featuredImageAlt: "Parent's Guide to Summer Challenge infographic for Grades 5-7 showing weekly schedule and motivation tips on dark navy background",
     content: `# Parent's Guide to the Summer Challenge: Grades 5-7 Edition
 
 Students in Grades 5-7 are at the stage where academic foundations are being laid for secondary school. These are also the years when summer learning loss hits hardest — research shows younger students lose more maths skills over summer than older ones. The Summer Challenge helps prevent this with just 20-30 minutes of daily practice.
@@ -13149,6 +13343,8 @@ A: They can explore additional quizzes on the main platform. We have 52 weeks of
     readTime: "7 min read",
     category: "Exam Prep",
     grade: "Grade 8-12",
+    featuredImage: "summer-challenge-high-school-grades-8-12-diagram.png",
+    featuredImageAlt: "Summer Challenge for High School infographic showing Grades 8-12 study plan with subject icons on dark navy background",
     content: `# Summer Challenge for High School: Grades 8-12 Study Plan
 
 For Grades 8-12 students, the summer break is not just about preventing learning loss — it is an opportunity to build a head start for the next academic year, board exams, and competitive entrance tests. The Summer Challenge provides a structured framework to make the most of this time.
@@ -13239,6 +13435,8 @@ A: Yes. Many students attend coaching during summer, and the quizzes complement 
     readTime: "8 min read",
     category: "Grammar",
     grade: "All Levels",
+    featuredImage: "learn-french-online-quizzes-diagram.png",
+    featuredImageAlt: "Learn French Online infographic showing A1 to C1 progression with Eiffel Tower and quiz icons on dark navy background",
     content: `# Learn French Online: Free Grammar Quizzes from A1 Beginner to C1 Advanced
 
 Learning French is one of the most rewarding language journeys you can take. Whether you are a complete beginner or preparing for a DELF exam, structured grammar practice is the fastest way to build confidence. The Practise Ground offers 52 weeks of free French grammar quizzes at three CEFR levels — no signup required.
@@ -13348,6 +13546,8 @@ Start learning French today: [A1 Beginner](/quiz/french/a1) | [B1 Intermediate](
     readTime: "8 min read",
     category: "Grammar",
     grade: "All Levels",
+    featuredImage: "learn-german-online-quizzes-diagram.png",
+    featuredImageAlt: "Learn German Online infographic showing A1 to C1 levels with Brandenburg Gate on dark navy background",
     content: `# Learn German Online: Free Grammar Quizzes for A1, B1 & C1 Levels
 
 German is a systematic language with clear rules — which means that once you understand the grammar patterns, progress becomes predictable. The Practise Ground offers 52 weeks of free German grammar quizzes at A1, B1, and C1 levels to take you from beginner to advanced.
@@ -13441,6 +13641,8 @@ Start learning German today: [A1 Beginner](/quiz/german/a1) | [B1 Intermediate](
     readTime: "8 min read",
     category: "Grammar",
     grade: "All Levels",
+    featuredImage: "learn-spanish-online-quizzes-diagram.png",
+    featuredImageAlt: "Learn Spanish Online infographic showing A1 to C1 levels with Spanish flag on dark navy background",
     content: `# Learn Spanish Online: Free Grammar Quizzes from Beginner to Advanced
 
 Spanish is spoken by over 500 million people worldwide, making it one of the most useful languages to learn. Its grammar is more regular than English in many ways, and with structured practice, you can build strong grammar skills quickly. The Practise Ground offers 52 weeks of free quizzes at A1, B1, and C1 CEFR levels.
@@ -13539,6 +13741,8 @@ Start learning Spanish today: [A1 Beginner](/quiz/spanish/a1) | [B1 Intermediate
     readTime: "6 min read",
     category: "Fun & Learning",
     grade: "All Ages",
+    featuredImage: "why-learn-second-language-benefits-diagram.png",
+    featuredImageAlt: "Benefits of learning a second language infographic with brain, world map, and career icons on dark navy background",
     content: `# Why Learn a Second Language? 7 Benefits Every Student Should Know
 
 Learning a second language is one of the most valuable skills a student can develop. Beyond the obvious ability to communicate with more people, research shows that bilingualism improves cognitive function, academic performance, and career prospects. Here are seven evidence-backed reasons to start learning a language today.
@@ -13614,6 +13818,8 @@ Start your language learning journey: [French](/quiz/french/a1) | [German](/quiz
     readTime: "7 min read",
     category: "Grammar",
     grade: "Grade 5",
+    featuredImage: "grade-5-english-grammar-basics-diagram.png",
+    featuredImageAlt: "Grade 5 English Grammar infographic showing parts of speech with colorful labels on dark navy background",
     content: `# Grade 5 English Grammar: Sentences, Nouns, Verbs & More
 
 English grammar is the set of rules that helps us write and speak clearly. In Grade 5, you learn the building blocks that make your writing stronger and your reading easier. This guide covers the most important grammar topics you will study this year.
@@ -13711,6 +13917,8 @@ Practise Grade 5 English grammar with our free [Grade 5 English quizzes](/quiz/5
     readTime: "7 min read",
     category: "Maths Concepts",
     grade: "Grade 5",
+    featuredImage: "grade-5-maths-fractions-decimals-diagram.png",
+    featuredImageAlt: "Grade 5 Maths infographic showing fractions, decimals, and place value on dark navy background",
     content: `# Grade 5 Maths: Fractions, Decimals & Place Value Made Easy
 
 Grade 5 Maths introduces some of the most important number concepts you will use for the rest of your school life. Place value, fractions, and decimals are the foundation for algebra, percentages, and advanced maths. This guide breaks them down into simple, clear steps.
@@ -13826,6 +14034,8 @@ Practise Grade 5 Maths with our free [Grade 5 Maths quizzes](/quiz/maths/5) cove
     readTime: "7 min read",
     category: "Science",
     grade: "Grade 5",
+    featuredImage: "grade-5-science-living-things-diagram.png",
+    featuredImageAlt: "Grade 5 Science infographic showing living things, human body, and solar system on dark navy background",
     content: `# Grade 5 Science: Living Things, the Human Body & the Solar System
 
 Grade 5 Science is all about exploring the world around you and understanding how things work. This year, you will learn about what makes something alive, how your body functions, and what is out there in our solar system. These are topics that make science exciting and relevant to everyday life.
@@ -13928,6 +14138,8 @@ Explore more with our free [Grade 5 Science quizzes](/quiz/science/5) — 52 wee
     readTime: "8 min read",
     category: "Problem Solving",
     grade: "Grade 5-10",
+    featuredImage: "solve-maths-word-problems-step-by-step-diagram.png",
+    featuredImageAlt: "How to Solve Maths Word Problems infographic showing 5-step strategy flowchart on dark navy background",
     content: `# How to Solve Maths Word Problems: A Step-by-Step Strategy That Works
 
 Maths word problems are where many students struggle — not because the maths is hard, but because translating words into equations feels unfamiliar. The RUCSAC method gives you a reliable step-by-step process that works for any word problem from Grade 5 to Grade 10.
@@ -14028,6 +14240,8 @@ Practise problem-solving with our [Maths quizzes](/quiz/maths/5) covering word p
     readTime: "7 min read",
     category: "Vocabulary",
     grade: "Grade 5-10",
+    featuredImage: "vocabulary-building-strategies-diagram.png",
+    featuredImageAlt: "Vocabulary Building Strategies infographic with flashcards, word roots, and reading methods on dark navy background",
     content: `# 10 Vocabulary-Building Strategies That Actually Work for Students
 
 A strong vocabulary improves your reading comprehension, writing quality, and exam scores across every subject. Research shows that vocabulary knowledge is one of the strongest predictors of academic success. Here are 10 strategies that actually work.
@@ -14140,6 +14354,8 @@ Build your vocabulary with our free [English quizzes](/quiz/5) covering vocabula
     readTime: "8 min read",
     category: "Exam Prep",
     grade: "Grade 5-12",
+    featuredImage: "reading-comprehension-strategies-diagram.png",
+    featuredImageAlt: "Reading Comprehension Strategies infographic showing passage analysis and question types on dark navy background",
     content: `# Reading Comprehension Strategies: How to Answer Any Passage Question
 
 Reading comprehension tests your ability to understand, analyse, and draw conclusions from a text. Whether it is an unseen passage in your English exam or a reading section in a competitive test, the same strategies apply. Here is a step-by-step approach that works for every passage question.
@@ -14231,6 +14447,8 @@ Practise comprehension skills with our free [English quizzes](/quiz/5) covering 
     readTime: "9 min read",
     category: "Maths Tips",
     grade: "Grade 8-12",
+    featuredImage: "maths-formulas-cheat-sheet-diagram.png",
+    featuredImageAlt: "Maths Formulas Cheat Sheet infographic with algebra, geometry, and trigonometry formulas on dark navy background",
     content: `# Maths Formulas Cheat Sheet: Essential Formulas for Grades 8-12
 
 Having all essential maths formulas in one place saves time during revision and exam preparation. This cheat sheet covers the most important formulas from Grade 8 to Grade 12, organised by topic for quick reference. Bookmark this page for your next study session.
@@ -14405,6 +14623,8 @@ Practise applying these formulas with our free [Maths quizzes](/quiz/maths/8) fo
     readTime: "8 min read",
     category: "Study Tips",
     grade: "Grade 5-12",
+    featuredImage: "cbse-vs-icse-vs-cambridge-comparison-diagram.png",
+    featuredImageAlt: "CBSE vs ICSE vs Cambridge comparison infographic showing curriculum differences on dark navy background",
     content: `# CBSE vs ICSE vs Cambridge: Which Curriculum Is Right for Your Child?
 
 Choosing the right school board is one of the most important decisions parents make for their children's education. Each curriculum — CBSE, ICSE, and Cambridge — has distinct strengths, exam patterns, and recognition. This guide compares them across the factors that matter most.
@@ -14498,6 +14718,8 @@ Explore our curriculum-neutral quizzes: [English](/quiz/5) | [Maths](/quiz/maths
     readTime: "8 min read",
     category: "Problem Solving",
     grade: "Grade 6-10",
+    featuredImage: "logical-reasoning-puzzles-diagram.png",
+    featuredImageAlt: "Logical Reasoning and Puzzles infographic with pattern sequences and brain teasers on dark navy background",
     content: `# Logical Reasoning & Puzzles: Build Critical Thinking Skills
 
 Logical reasoning is the ability to analyse information, identify patterns, and draw valid conclusions. It is essential for Olympiads, competitive exams, and everyday decision-making. Unlike maths, where you apply known formulas, reasoning requires you to discover the rule yourself. Here is how to get better at it.
@@ -14610,6 +14832,8 @@ Challenge yourself with our [Fun Quizzes](/fun) including brain teasers and logi
     readTime: "9 min read",
     category: "Fun & Learning",
     grade: "Grade 5-8",
+    featuredImage: "science-experiments-home-diagram.png",
+    featuredImageAlt: "Science Experiments at Home infographic showing DIY activities for Grades 5-8 on dark navy background",
     content: `# 15 Simple Science Experiments You Can Do at Home (Grades 5-8)
 
 Science is not just something you read about in textbooks — it is something you can see, touch, and test in your own kitchen. These 15 experiments use everyday materials and teach real scientific concepts from your school syllabus. Each one takes 10-30 minutes and is safe to do at home with basic supervision.
@@ -14736,6 +14960,8 @@ Explore more science topics with our free [Science quizzes](/quiz/science/5) cov
     readTime: "7 min read",
     category: "Study Tips",
     grade: "Grade 5-12",
+    featuredImage: "study-timetable-template-diagram.png",
+    featuredImageAlt: "Study Timetable Template infographic showing weekly schedule grid and study tips on dark navy background",
     content: `# How to Create a Study Timetable That Actually Works
 
 Most study timetables fail within a week because they are unrealistic. A timetable that works is not about studying more hours — it is about studying the right things at the right times with built-in flexibility. Here is how to create one that you will actually follow.
@@ -14865,6 +15091,8 @@ Start your daily quiz practice: [English](/quiz/5) | [Maths](/quiz/maths/5) | [S
     readTime: "8 min read",
     category: "Fun & Learning",
     grade: "All Ages",
+    featuredImage: "fun-maths-facts-puzzles-diagram.png",
+    featuredImageAlt: "Fun Maths Facts and Puzzles infographic with Fibonacci spiral and number patterns on dark navy background",
     content: `# 25 Mind-Blowing Maths Facts & Puzzles That Will Surprise You
 
 Mathematics is full of surprises that can make even people who think they dislike maths stop and think. These 25 facts and puzzles reveal the beautiful, strange, and downright surprising side of numbers. See how many you already knew.

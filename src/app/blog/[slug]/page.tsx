@@ -408,7 +408,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       {/* Structured Data - FAQPage (auto-generated from Q:/A: content) */}
       {(() => {
-        const faqRegex = /\*\*Q:\s*(.+?)\*\*\nA:\s*([\s\S]*?)(?=\n\n\*\*Q:|\n\n##|\n\n$|$)/g;
+        const faqRegex = /\*\*Q:\s*(.+?)\*\*\n\n?A:\s*([\s\S]*?)(?=\n\n\*\*Q:|\n\n##|\n\n$|$)/g;
         const faqPairs: { question: string; answer: string }[] = [];
         let faqMatch;
         while ((faqMatch = faqRegex.exec(post.content)) !== null) {
