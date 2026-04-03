@@ -131,7 +131,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Maths Section */}
+      {/* Maths Section (Standard + Higher unified) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
           <Image
@@ -144,12 +144,13 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/75 to-teal-500/65" />
           <div className="relative z-10 flex items-center gap-3">
             <span className="text-3xl">🔢</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">Maths Quizzes <span className="text-base font-normal text-white/70">(Standard for Gr 11-12)</span></h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Maths Quizzes</h2>
             <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
-              {mathsQuestions.toLocaleString()}+ questions
+              {(mathsQuestions + mathsHigherQuestions).toLocaleString()}+ questions
             </span>
           </div>
         </div>
+        {/* Standard Maths — Grades 5-12 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {MATHS_GRADES.map((grade) => {
             const info = MATHS_GRADE_INFO[grade];
@@ -180,9 +181,49 @@ export default function Home() {
             );
           })}
         </div>
+        {/* Maths Higher — Grades 11-12 */}
+        <div className="mt-8 mb-4 flex items-center gap-3">
+          <span className="text-xl">📐</span>
+          <h3 className="text-lg font-bold text-brand-navy">Maths Higher</h3>
+          <span className="text-xs font-semibold text-white bg-rose-500 px-2.5 py-0.5 rounded-full">JEE Prep</span>
+          <span className="text-sm text-gray-500">Grades 11 &amp; 12</span>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {MATHS_HIGHER_GRADES.map((grade) => {
+            const info = MATHS_HIGHER_GRADE_INFO[grade];
+            const weeks = getMathsHigherGradeWeeks(grade);
+            const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
+            return (
+              <Link
+                key={`mh-${grade}`}
+                href={`/quiz/maths-higher/${grade}`}
+                className={`group block rounded-2xl bg-gradient-to-br ${info.color} p-6 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200`}
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-2xl font-bold text-white">Grade {grade}</h3>
+                  <div className="flex items-center gap-2">
+                    <span className="bg-rose-400/40 text-white text-xs font-bold px-2 py-0.5 rounded-full backdrop-blur-sm">JEE Prep</span>
+                    <span className="bg-white/30 text-white text-sm px-3 py-1 rounded-full backdrop-blur-sm">
+                      {weeks.length} weeks
+                    </span>
+                  </div>
+                </div>
+                <p className="text-white/90 text-sm mb-1">Ages {info.ageRange}</p>
+                <p className="text-white/80 text-sm mb-2">{totalQ.toLocaleString()} questions</p>
+                <p className="text-white/70 text-xs mb-4">{info.topics}</p>
+                <div className="flex items-center gap-2 text-white font-semibold group-hover:gap-3 transition-all">
+                  Start Practising
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
       </section>
 
-      {/* Science Section */}
+      {/* Science Section (unified: combined Gr 5-10 + Physics/Chemistry/Biology Gr 11-12) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
           <Image
@@ -197,10 +238,11 @@ export default function Home() {
             <span className="text-3xl">🔬</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">Science Quizzes</h2>
             <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
-              {scienceQuestions.toLocaleString()}+ questions
+              {(scienceQuestions + physicsQuestions + chemistryQuestions + biologyQuestions).toLocaleString()}+ questions
             </span>
           </div>
         </div>
+        {/* Combined Science — Grades 5-10 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SCIENCE_GRADES.map((grade) => {
             const info = SCIENCE_GRADE_INFO[grade];
@@ -231,79 +273,11 @@ export default function Home() {
             );
           })}
         </div>
-      </section>
-
-      {/* Maths Higher Section (Grade 11-12 only) */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
-          <Image
-            src="/images/og/og-maths.png"
-            alt="Maths Higher quiz practice for Grades 11 and 12 - JEE prep level"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-red-600/75 to-rose-500/65" />
-          <div className="relative z-10 flex items-center gap-3">
-            <span className="text-3xl">📐</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">Maths Higher</h2>
-            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
-              {mathsHigherQuestions.toLocaleString()}+ questions
-            </span>
-          </div>
-          <p className="relative z-10 text-white/80 text-sm mt-2 ml-12">Science stream / JEE-prep level — Grades 11 &amp; 12 only</p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {MATHS_HIGHER_GRADES.map((grade) => {
-            const info = MATHS_HIGHER_GRADE_INFO[grade];
-            const weeks = getMathsHigherGradeWeeks(grade);
-            const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
-            return (
-              <Link
-                key={grade}
-                href={`/quiz/maths-higher/${grade}`}
-                className={`group block rounded-2xl bg-gradient-to-br ${info.color} p-6 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200`}
-              >
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-white">Grade {grade}</h3>
-                  <span className="bg-white/30 text-white text-sm px-3 py-1 rounded-full backdrop-blur-sm">
-                    {weeks.length} weeks
-                  </span>
-                </div>
-                <p className="text-white/90 text-sm mb-1">Ages {info.ageRange}</p>
-                <p className="text-white/80 text-sm mb-2">{totalQ.toLocaleString()} questions</p>
-                <p className="text-white/70 text-xs mb-4">{info.topics}</p>
-                <div className="flex items-center gap-2 text-white font-semibold group-hover:gap-3 transition-all">
-                  Start Practising
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Physics Section (Grade 11-12) */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
-          <Image
-            src="/images/og/og-science.png"
-            alt="Physics quiz practice for Grades 11 and 12"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-600/75 to-cyan-500/65" />
-          <div className="relative z-10 flex items-center gap-3">
-            <span className="text-3xl">⚡</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">Physics Quizzes</h2>
-            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
-              {physicsQuestions.toLocaleString()}+ questions
-            </span>
-          </div>
-          <p className="relative z-10 text-white/80 text-sm mt-2 ml-12">Grades 11 &amp; 12 — CBSE &amp; ICSE aligned</p>
+        {/* Physics — Grades 11-12 */}
+        <div className="mt-8 mb-4 flex items-center gap-3">
+          <span className="text-xl">⚡</span>
+          <h3 className="text-lg font-bold text-brand-navy">Physics</h3>
+          <span className="text-sm text-gray-500">Grades 11 &amp; 12</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {PHYSICS_GRADES.map((grade) => {
@@ -312,7 +286,7 @@ export default function Home() {
             const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
             return (
               <Link
-                key={grade}
+                key={`phy-${grade}`}
                 href={`/quiz/physics/${grade}`}
                 className={`group block rounded-2xl bg-gradient-to-br ${info.color} p-6 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200`}
               >
@@ -335,27 +309,11 @@ export default function Home() {
             );
           })}
         </div>
-      </section>
-
-      {/* Chemistry Section (Grade 11-12) */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
-          <Image
-            src="/images/og/og-science.png"
-            alt="Chemistry quiz practice for Grades 11 and 12"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-green-600/75 to-emerald-500/65" />
-          <div className="relative z-10 flex items-center gap-3">
-            <span className="text-3xl">🧪</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">Chemistry Quizzes</h2>
-            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
-              {chemistryQuestions.toLocaleString()}+ questions
-            </span>
-          </div>
-          <p className="relative z-10 text-white/80 text-sm mt-2 ml-12">Grades 11 &amp; 12 — CBSE &amp; ICSE aligned</p>
+        {/* Chemistry — Grades 11-12 */}
+        <div className="mt-8 mb-4 flex items-center gap-3">
+          <span className="text-xl">🧪</span>
+          <h3 className="text-lg font-bold text-brand-navy">Chemistry</h3>
+          <span className="text-sm text-gray-500">Grades 11 &amp; 12</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {CHEMISTRY_GRADES.map((grade) => {
@@ -364,7 +322,7 @@ export default function Home() {
             const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
             return (
               <Link
-                key={grade}
+                key={`chem-${grade}`}
                 href={`/quiz/chemistry/${grade}`}
                 className={`group block rounded-2xl bg-gradient-to-br ${info.color} p-6 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200`}
               >
@@ -387,27 +345,11 @@ export default function Home() {
             );
           })}
         </div>
-      </section>
-
-      {/* Biology Section (Grade 11-12) */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="relative overflow-hidden rounded-2xl mb-6 p-6">
-          <Image
-            src="/images/og/og-science.png"
-            alt="Biology quiz practice for Grades 11 and 12"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-lime-600/75 to-green-500/65" />
-          <div className="relative z-10 flex items-center gap-3">
-            <span className="text-3xl">🧬</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">Biology Quizzes</h2>
-            <span className="bg-white/25 text-white text-sm font-bold px-3 py-1 rounded-full backdrop-blur-sm">
-              {biologyQuestions.toLocaleString()}+ questions
-            </span>
-          </div>
-          <p className="relative z-10 text-white/80 text-sm mt-2 ml-12">Grades 11 &amp; 12 — CBSE &amp; ICSE aligned</p>
+        {/* Biology — Grades 11-12 */}
+        <div className="mt-8 mb-4 flex items-center gap-3">
+          <span className="text-xl">🧬</span>
+          <h3 className="text-lg font-bold text-brand-navy">Biology</h3>
+          <span className="text-sm text-gray-500">Grades 11 &amp; 12</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {BIOLOGY_GRADES.map((grade) => {
@@ -416,7 +358,7 @@ export default function Home() {
             const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
             return (
               <Link
-                key={grade}
+                key={`bio-${grade}`}
                 href={`/quiz/biology/${grade}`}
                 className={`group block rounded-2xl bg-gradient-to-br ${info.color} p-6 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200`}
               >

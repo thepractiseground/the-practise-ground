@@ -16,11 +16,11 @@ type QuizSection = {
 const quizSections: QuizSection[] = [
   { label: "English", emoji: "\uD83D\uDCDD", hoverColor: "hover:bg-brand-orange", grades, linkPrefix: "/quiz/", chipLabel: (g) => `Grade ${g}` },
   { label: "Maths", emoji: "\uD83D\uDD22", hoverColor: "hover:bg-emerald-500", grades, linkPrefix: "/quiz/maths/", chipLabel: (g) => `Grade ${g}` },
+  { label: "Maths Higher (JEE)", emoji: "\uD83D\uDCD0", hoverColor: "hover:bg-rose-500", grades: seniorGrades, linkPrefix: "/quiz/maths-higher/", chipLabel: (g) => `Grade ${g}` },
   { label: "Science", emoji: "\uD83D\uDD2C", hoverColor: "hover:bg-purple-500", grades: scienceGrades, linkPrefix: "/quiz/science/", chipLabel: (g) => `Grade ${g}` },
   { label: "Physics", emoji: "\u26A1", hoverColor: "hover:bg-blue-500", grades: seniorGrades, linkPrefix: "/quiz/physics/", chipLabel: (g) => `Grade ${g}` },
   { label: "Chemistry", emoji: "\uD83E\uDDEA", hoverColor: "hover:bg-teal-500", grades: seniorGrades, linkPrefix: "/quiz/chemistry/", chipLabel: (g) => `Grade ${g}` },
   { label: "Biology", emoji: "\uD83E\uDDEC", hoverColor: "hover:bg-green-500", grades: seniorGrades, linkPrefix: "/quiz/biology/", chipLabel: (g) => `Grade ${g}` },
-  { label: "Maths Higher (JEE)", emoji: "\uD83D\uDCD0", hoverColor: "hover:bg-rose-500", grades: seniorGrades, linkPrefix: "/quiz/maths-higher/", chipLabel: (g) => `Grade ${g}` },
 ];
 
 export default function Footer() {
