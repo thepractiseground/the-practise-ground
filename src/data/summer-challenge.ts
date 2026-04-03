@@ -2,7 +2,7 @@
 // Each week maps to specific quiz weeks from existing data files
 
 export interface ChallengeSubject {
-  subject: "English" | "Maths" | "Science";
+  subject: "English" | "Maths" | "Science" | "Physics" | "Chemistry" | "Biology";
   quizWeek: number;
   topic: string;
   quizPath: string;
@@ -478,6 +478,192 @@ export const SUMMER_CHALLENGE: Record<number, GradeChallenge> = {
           { subject: "English", quizWeek: 25, topic: "Integrated Grammar Review", quizPath: "/quiz/10/25" },
           { subject: "Maths", quizWeek: 49, topic: "Probability — Classical", quizPath: "/quiz/maths/10/49" },
           { subject: "Science", quizWeek: 25, topic: "Our Environment", quizPath: "/quiz/science/10/25" },
+        ],
+      },
+    ],
+  },
+  11: {
+    grade: 11,
+    weeks: [
+      {
+        week: 1,
+        theme: "Foundations",
+        subjects: [
+          { subject: "English", quizWeek: 1, topic: "Advanced Tenses – Present Perfect & Present Perfect Continuous", quizPath: "/quiz/11/1" },
+          { subject: "Maths", quizWeek: 1, topic: "Sets – Concepts, Notation & Types of Sets", quizPath: "/quiz/maths/11/1" },
+          { subject: "Physics", quizWeek: 1, topic: "Physical World – Scope, Nature of Physical Laws", quizPath: "/quiz/physics/11/1" },
+          { subject: "Chemistry", quizWeek: 1, topic: "Some Basic Concepts – Matter, Laws of Chemical Combination", quizPath: "/quiz/chemistry/11/1" },
+          { subject: "Biology", quizWeek: 1, topic: "The Living World – Characteristics, Biodiversity, Taxonomy", quizPath: "/quiz/biology/11/1" },
+        ],
+      },
+      {
+        week: 2,
+        theme: "Language & Logic",
+        subjects: [
+          { subject: "English", quizWeek: 3, topic: "Modals – Obligation, Permission, Ability & Possibility", quizPath: "/quiz/11/3" },
+          { subject: "Maths", quizWeek: 5, topic: "Trigonometric Functions – Angles, Degree & Radian Measure", quizPath: "/quiz/maths/11/5" },
+          { subject: "Physics", quizWeek: 5, topic: "Motion in a Straight Line – Acceleration, Equations of Motion", quizPath: "/quiz/physics/11/5" },
+          { subject: "Chemistry", quizWeek: 5, topic: "Structure of Atom – Bohr's Model, Quantum Numbers", quizPath: "/quiz/chemistry/11/5" },
+          { subject: "Biology", quizWeek: 3, topic: "Biological Classification – Five Kingdom Classification", quizPath: "/quiz/biology/11/3" },
+        ],
+      },
+      {
+        week: 3,
+        theme: "Numbers & Patterns",
+        subjects: [
+          { subject: "English", quizWeek: 5, topic: "Clauses – Noun, Adjective & Adverb Clauses", quizPath: "/quiz/11/5" },
+          { subject: "Maths", quizWeek: 10, topic: "Complex Numbers – Modulus, Conjugate, Argand Plane", quizPath: "/quiz/maths/11/10" },
+          { subject: "Physics", quizWeek: 7, topic: "Motion in a Plane – Scalars & Vectors, Vector Addition", quizPath: "/quiz/physics/11/7" },
+          { subject: "Chemistry", quizWeek: 10, topic: "Chemical Bonding – Covalent Bond, Lewis Structures", quizPath: "/quiz/chemistry/11/10" },
+          { subject: "Biology", quizWeek: 10, topic: "Animal Kingdom – Basis of Classification", quizPath: "/quiz/biology/11/10" },
+        ],
+      },
+      {
+        week: 4,
+        theme: "Forces & Structures",
+        subjects: [
+          { subject: "English", quizWeek: 10, topic: "Error Correction & Editing (CBSE Board Pattern)", quizPath: "/quiz/11/10" },
+          { subject: "Maths", quizWeek: 15, topic: "Combinations – Formulae & Applications", quizPath: "/quiz/maths/11/15" },
+          { subject: "Physics", quizWeek: 12, topic: "Laws of Motion – Newton's Third Law, Free Body Diagrams", quizPath: "/quiz/physics/11/12" },
+          { subject: "Chemistry", quizWeek: 12, topic: "Chemical Bonding – Hybridization (sp, sp², sp³)", quizPath: "/quiz/chemistry/11/12" },
+          { subject: "Biology", quizWeek: 15, topic: "Morphology of Flowering Plants – Root System, Stem", quizPath: "/quiz/biology/11/15" },
+        ],
+      },
+      {
+        week: 5,
+        theme: "Energy & Reactions",
+        subjects: [
+          { subject: "English", quizWeek: 18, topic: "Reading Comprehension – Factual Passages", quizPath: "/quiz/11/18" },
+          { subject: "Maths", quizWeek: 18, topic: "Binomial Theorem – Applications & Middle Term", quizPath: "/quiz/maths/11/18" },
+          { subject: "Physics", quizWeek: 15, topic: "Work, Energy and Power – Work-Energy Theorem", quizPath: "/quiz/physics/11/15" },
+          { subject: "Chemistry", quizWeek: 15, topic: "Chemical Thermodynamics – First Law, State Functions", quizPath: "/quiz/chemistry/11/15" },
+          { subject: "Biology", quizWeek: 25, topic: "Cell – Cell Membrane, Endomembrane System", quizPath: "/quiz/biology/11/25" },
+        ],
+      },
+      {
+        week: 6,
+        theme: "Matter & Life",
+        subjects: [
+          { subject: "English", quizWeek: 25, topic: "Speech Writing – Structure, Tone & Persuasion", quizPath: "/quiz/11/25" },
+          { subject: "Maths", quizWeek: 25, topic: "Conic Sections – Circle (Standard & General Form)", quizPath: "/quiz/maths/11/25" },
+          { subject: "Physics", quizWeek: 25, topic: "Mechanical Properties of Fluids – Pascal's Law, Bernoulli", quizPath: "/quiz/physics/11/25" },
+          { subject: "Chemistry", quizWeek: 18, topic: "Equilibrium – Physical & Chemical, Law of Mass Action", quizPath: "/quiz/chemistry/11/18" },
+          { subject: "Biology", quizWeek: 30, topic: "Biomolecules – Carbohydrates", quizPath: "/quiz/biology/11/30" },
+        ],
+      },
+      {
+        week: 7,
+        theme: "Waves & Organic Chemistry",
+        subjects: [
+          { subject: "English", quizWeek: 35, topic: "Discovering Tut: The Saga Continues - A.R. Williams", quizPath: "/quiz/11/35" },
+          { subject: "Maths", quizWeek: 35, topic: "Statistics – Measures of Dispersion", quizPath: "/quiz/maths/11/35" },
+          { subject: "Physics", quizWeek: 35, topic: "Oscillations – Simple Harmonic Motion (SHM)", quizPath: "/quiz/physics/11/35" },
+          { subject: "Chemistry", quizWeek: 25, topic: "Organic Chemistry – IUPAC Nomenclature", quizPath: "/quiz/chemistry/11/25" },
+          { subject: "Biology", quizWeek: 35, topic: "Transport in Plants – Transpiration, Translocation", quizPath: "/quiz/biology/11/35" },
+        ],
+      },
+      {
+        week: 8,
+        theme: "Revision & Integration",
+        subjects: [
+          { subject: "English", quizWeek: 50, topic: "Albert Einstein at School - Patrick Pringle", quizPath: "/quiz/11/50" },
+          { subject: "Maths", quizWeek: 52, topic: "Revision – Statistics, Probability & Applied Maths", quizPath: "/quiz/maths/11/52" },
+          { subject: "Physics", quizWeek: 52, topic: "Comprehensive Revision – Full Syllabus", quizPath: "/quiz/physics/11/52" },
+          { subject: "Chemistry", quizWeek: 52, topic: "Comprehensive Revision – Full Syllabus", quizPath: "/quiz/chemistry/11/52" },
+          { subject: "Biology", quizWeek: 52, topic: "Chemical Coordination – Feedback Mechanisms", quizPath: "/quiz/biology/11/52" },
+        ],
+      },
+    ],
+  },
+  12: {
+    grade: 12,
+    weeks: [
+      {
+        week: 1,
+        theme: "Foundation Week",
+        subjects: [
+          { subject: "English", quizWeek: 1, topic: "Tenses (Present, Past, Future - All Forms)", quizPath: "/quiz/12/1" },
+          { subject: "Maths", quizWeek: 1, topic: "Relations (types, equivalence)", quizPath: "/quiz/maths/12/1" },
+          { subject: "Physics", quizWeek: 1, topic: "Electric Charges and Fields – Coulomb's Law", quizPath: "/quiz/physics/12/1" },
+          { subject: "Chemistry", quizWeek: 1, topic: "Solid State – Crystal Lattices, Unit Cells", quizPath: "/quiz/chemistry/12/1" },
+          { subject: "Biology", quizWeek: 1, topic: "Reproduction in Organisms – Asexual & Sexual", quizPath: "/quiz/biology/12/1" },
+        ],
+      },
+      {
+        week: 2,
+        theme: "Core Concepts",
+        subjects: [
+          { subject: "English", quizWeek: 5, topic: "Reported Speech / Indirect Speech", quizPath: "/quiz/12/5" },
+          { subject: "Maths", quizWeek: 5, topic: "Matrix Operations (addition, scalar multiplication)", quizPath: "/quiz/maths/12/5" },
+          { subject: "Physics", quizWeek: 7, topic: "Current Electricity – Ohm's Law, Drift Velocity", quizPath: "/quiz/physics/12/7" },
+          { subject: "Chemistry", quizWeek: 7, topic: "Electrochemistry – Nernst Equation, Conductance", quizPath: "/quiz/chemistry/12/7" },
+          { subject: "Biology", quizWeek: 9, topic: "Principles of Inheritance – Mendel's Laws", quizPath: "/quiz/biology/12/9" },
+        ],
+      },
+      {
+        week: 3,
+        theme: "Advanced Understanding",
+        subjects: [
+          { subject: "English", quizWeek: 9, topic: "Sentence Reordering & Transformation", quizPath: "/quiz/12/9" },
+          { subject: "Maths", quizWeek: 12, topic: "Continuity of Functions", quizPath: "/quiz/maths/12/12" },
+          { subject: "Physics", quizWeek: 9, topic: "Current Electricity – Kirchhoff's Laws, Wheatstone Bridge", quizPath: "/quiz/physics/12/9" },
+          { subject: "Chemistry", quizWeek: 9, topic: "Chemical Kinetics – Rate of Reaction, Rate Law", quizPath: "/quiz/chemistry/12/9" },
+          { subject: "Biology", quizWeek: 14, topic: "Pedigree Analysis, Genetic Disorders", quizPath: "/quiz/biology/12/14" },
+        ],
+      },
+      {
+        week: 4,
+        theme: "Applied Learning",
+        subjects: [
+          { subject: "English", quizWeek: 14, topic: "Reading Comprehension – Discursive Passages", quizPath: "/quiz/12/14" },
+          { subject: "Maths", quizWeek: 14, topic: "Derivatives of Standard Functions", quizPath: "/quiz/maths/12/14" },
+          { subject: "Physics", quizWeek: 12, topic: "Moving Charges and Magnetism – Ampere's Law", quizPath: "/quiz/physics/12/12" },
+          { subject: "Chemistry", quizWeek: 12, topic: "Surface Chemistry – Adsorption, Catalysis", quizPath: "/quiz/chemistry/12/12" },
+          { subject: "Biology", quizWeek: 18, topic: "Molecular Basis of Inheritance – Translation, Genetic Code", quizPath: "/quiz/biology/12/18" },
+        ],
+      },
+      {
+        week: 5,
+        theme: "Complex Topics",
+        subjects: [
+          { subject: "English", quizWeek: 18, topic: "Notice Writing & Invitation Writing", quizPath: "/quiz/12/18" },
+          { subject: "Maths", quizWeek: 18, topic: "Maxima and Minima", quizPath: "/quiz/maths/12/18" },
+          { subject: "Physics", quizWeek: 22, topic: "Ray Optics – Reflection, Refraction, Total Internal Reflection", quizPath: "/quiz/physics/12/22" },
+          { subject: "Chemistry", quizWeek: 22, topic: "Coordination Compounds – Werner's Theory, IUPAC", quizPath: "/quiz/chemistry/12/22" },
+          { subject: "Biology", quizWeek: 22, topic: "Evolution – Darwin's Theory, Natural Selection", quizPath: "/quiz/biology/12/22" },
+        ],
+      },
+      {
+        week: 6,
+        theme: "Specialized Domains",
+        subjects: [
+          { subject: "English", quizWeek: 22, topic: "Report Writing", quizPath: "/quiz/12/22" },
+          { subject: "Maths", quizWeek: 25, topic: "Differential Equations – Variable Separable", quizPath: "/quiz/maths/12/25" },
+          { subject: "Physics", quizWeek: 27, topic: "Dual Nature of Radiation – Photoelectric Effect", quizPath: "/quiz/physics/12/27" },
+          { subject: "Chemistry", quizWeek: 25, topic: "Haloalkanes and Haloarenes – Properties", quizPath: "/quiz/chemistry/12/25" },
+          { subject: "Biology", quizWeek: 25, topic: "Human Health – Immunity (Innate, Acquired)", quizPath: "/quiz/biology/12/25" },
+        ],
+      },
+      {
+        week: 7,
+        theme: "Literature & Applications",
+        subjects: [
+          { subject: "English", quizWeek: 27, topic: "The Last Lesson (Alphonse Daudet)", quizPath: "/quiz/12/27" },
+          { subject: "Maths", quizWeek: 30, topic: "Bayes' Theorem", quizPath: "/quiz/maths/12/30" },
+          { subject: "Physics", quizWeek: 30, topic: "Atoms – Hydrogen Spectrum, Energy Levels", quizPath: "/quiz/physics/12/30" },
+          { subject: "Chemistry", quizWeek: 30, topic: "Ethers – Preparation and Properties", quizPath: "/quiz/chemistry/12/30" },
+          { subject: "Biology", quizWeek: 30, topic: "Strategies for Enhancement in Food Production", quizPath: "/quiz/biology/12/30" },
+        ],
+      },
+      {
+        week: 8,
+        theme: "Grand Revision",
+        subjects: [
+          { subject: "English", quizWeek: 52, topic: "Grand Revision – All Sections Combined", quizPath: "/quiz/12/52" },
+          { subject: "Maths", quizWeek: 27, topic: "Linear Programming – Applications", quizPath: "/quiz/maths/12/27" },
+          { subject: "Physics", quizWeek: 52, topic: "Grand Revision", quizPath: "/quiz/physics/12/52" },
+          { subject: "Chemistry", quizWeek: 52, topic: "Grand Revision", quizPath: "/quiz/chemistry/12/52" },
+          { subject: "Biology", quizWeek: 52, topic: "Grand Revision", quizPath: "/quiz/biology/12/52" },
         ],
       },
     ],

@@ -4,10 +4,13 @@ import Link from "next/link";
 import { useState } from "react";
 import { SUMMER_CHALLENGE } from "@/data/summer-challenge";
 
-const SUBJECT_COLORS: Record<string, { bg: string; text: string; badge: string }> = {
-  English: { bg: "bg-blue-50", text: "text-blue-700", badge: "bg-blue-100 text-blue-700" },
-  Maths: { bg: "bg-emerald-50", text: "text-emerald-700", badge: "bg-emerald-100 text-emerald-700" },
-  Science: { bg: "bg-purple-50", text: "text-purple-700", badge: "bg-purple-100 text-purple-700" },
+const SUBJECT_COLORS: Record<string, { bg: string; text: string; badge: string; abbr: string }> = {
+  English: { bg: "bg-blue-50", text: "text-blue-700", badge: "bg-blue-100 text-blue-700", abbr: "ENG" },
+  Maths: { bg: "bg-emerald-50", text: "text-emerald-700", badge: "bg-emerald-100 text-emerald-700", abbr: "MATH" },
+  Science: { bg: "bg-purple-50", text: "text-purple-700", badge: "bg-purple-100 text-purple-700", abbr: "SCI" },
+  Physics: { bg: "bg-sky-50", text: "text-sky-700", badge: "bg-sky-100 text-sky-700", abbr: "PHY" },
+  Chemistry: { bg: "bg-teal-50", text: "text-teal-700", badge: "bg-teal-100 text-teal-700", abbr: "CHEM" },
+  Biology: { bg: "bg-lime-50", text: "text-lime-700", badge: "bg-lime-100 text-lime-700", abbr: "BIO" },
 };
 
 const GRADE_PILL_COLORS: Record<number, string> = {
@@ -17,6 +20,8 @@ const GRADE_PILL_COLORS: Record<number, string> = {
   8: "from-pink-500 to-rose-500",
   9: "from-yellow-500 to-amber-500",
   10: "from-purple-500 to-violet-500",
+  11: "from-teal-500 to-emerald-500",
+  12: "from-indigo-500 to-blue-500",
 };
 
 const FAQ_ITEMS = [
@@ -30,7 +35,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Is this aligned with CBSE, ICSE, and other curricula?",
-    a: "Yes. Our questions cover core concepts taught across CBSE, ICSE, Cambridge, and IB curricula. The Summer Challenge selects foundational topics that are universally important regardless of which board your child follows.",
+    a: "Yes. Our questions cover core concepts taught across CBSE, ICSE, Cambridge, and IB curricula. The Summer Challenge selects foundational topics that are universally important regardless of which board your child follows. For Grades 11-12, topics are also aligned with JEE and NEET preparation.",
   },
   {
     q: "What if my child misses a week?",
@@ -42,7 +47,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "How long does each week take?",
-    a: "Each week includes 3 quizzes (one per subject), each with 25 questions. Most students complete a quiz in 15-20 minutes, so the weekly commitment is about 45-60 minutes — spread across the week however you like.",
+    a: "For Grades 5-10, each week includes 3 quizzes (English, Maths & Science) with 25 questions each — about 45-60 minutes total. For Grades 11-12, each week has 5 quizzes (English, Maths, Physics, Chemistry & Biology) — about 75-90 minutes spread across the week however you like.",
   },
 ];
 
@@ -52,8 +57,14 @@ export default function SummerChallengePage() {
 
   const challenge = SUMMER_CHALLENGE[selectedGrade];
 
+  const isSenior = selectedGrade >= 11;
+  const subjectsPerWeek = isSenior ? 5 : 3;
+  const questionsPerWeek = subjectsPerWeek * 25;
+  const totalQuestions = questionsPerWeek * 8;
+  const subjectList = isSenior ? "English, Maths, Physics, Chemistry & Biology" : "English, Maths & Science";
+
   const whatsappMessage = encodeURIComponent(
-    `Check out this free 8-week Summer Challenge for Grade ${selectedGrade}! 📚☀️ Structured revision in English, Maths & Science — no sign-up needed.\n\nhttps://www.thepractiseground.in/summer-challenge`
+    `Check out this free 8-week Summer Challenge for Grade ${selectedGrade}! 📚☀️ Structured revision in ${subjectList} — no sign-up needed.\n\nhttps://www.thepractiseground.in/summer-challenge`
   );
 
   return (
@@ -67,13 +78,13 @@ export default function SummerChallengePage() {
             "@type": "EducationalResource",
             name: "Summer Challenge — 8-Week Quiz Programme",
             description:
-              "Free structured summer revision programme for students in Grades 5-10. 8 weeks of curated English, Maths & Science quizzes with 600 practice questions.",
+              "Free structured summer revision programme for students in Grades 5-12. 8 weeks of curated quizzes across English, Maths, Science, Physics, Chemistry & Biology with 5,600+ practice questions.",
             provider: {
               "@type": "Organization",
               name: "The Practise Ground",
               url: "https://www.thepractiseground.in",
             },
-            educationalLevel: ["Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10"],
+            educationalLevel: ["Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"],
             learningResourceType: "Quiz",
             isAccessibleForFree: true,
             inLanguage: "en",
@@ -114,7 +125,7 @@ export default function SummerChallengePage() {
           </h1>
           <p className="text-lg sm:text-xl text-blue-100 mb-3 max-w-2xl mx-auto">
             8 weeks of structured revision to keep your child ahead this summer.
-            English, Maths &amp; Science — all in one plan.
+            Grades 5-12 — all in one plan.
           </p>
           <p className="text-blue-200/70 text-sm mb-8">
             No sign-up required. Completely free. Works on any device.
@@ -125,15 +136,15 @@ export default function SummerChallengePage() {
               <div className="text-xs sm:text-sm text-blue-200">Weeks</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-brand-orange">3</div>
+              <div className="text-2xl sm:text-3xl font-bold text-brand-orange">5</div>
               <div className="text-xs sm:text-sm text-blue-200">Subjects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-brand-orange">600</div>
+              <div className="text-2xl sm:text-3xl font-bold text-brand-orange">5,600</div>
               <div className="text-xs sm:text-sm text-blue-200">Questions</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-brand-orange">6</div>
+              <div className="text-2xl sm:text-3xl font-bold text-brand-orange">8</div>
               <div className="text-xs sm:text-sm text-blue-200">Grades</div>
             </div>
           </div>
@@ -147,7 +158,7 @@ export default function SummerChallengePage() {
             Select your grade
           </p>
           <div className="flex flex-wrap justify-center gap-2 sm:gap-3" role="tablist">
-            {[5, 6, 7, 8, 9, 10].map((grade) => (
+            {[5, 6, 7, 8, 9, 10, 11, 12].map((grade) => (
               <button
                 key={grade}
                 onClick={() => setSelectedGrade(grade)}
@@ -172,7 +183,7 @@ export default function SummerChallengePage() {
           Your 8-Week Plan — Grade {selectedGrade}
         </h2>
         <p className="text-gray-500 text-center mb-8 max-w-xl mx-auto">
-          Complete 3 quizzes per week across English, Maths &amp; Science.
+          Complete {subjectsPerWeek} quizzes per week across {subjectList}.
           Each quiz has 25 questions with instant scoring.
         </p>
 
@@ -194,7 +205,7 @@ export default function SummerChallengePage() {
                     <p className="text-xs text-gray-400">{week.theme}</p>
                   </div>
                 </div>
-                <span className="text-xs text-gray-400 bg-gray-50 px-2 py-1 rounded-lg">75 Qs</span>
+                <span className="text-xs text-gray-400 bg-gray-50 px-2 py-1 rounded-lg">{questionsPerWeek} Qs</span>
               </div>
 
               <div className="space-y-2.5">
@@ -208,7 +219,7 @@ export default function SummerChallengePage() {
                     >
                       <div className="flex items-center gap-3 min-w-0">
                         <span className={`text-xs font-bold px-2 py-0.5 rounded-md ${colors.badge} shrink-0`}>
-                          {sub.subject === "English" ? "ENG" : sub.subject === "Maths" ? "MATH" : "SCI"}
+                          {colors.abbr}
                         </span>
                         <span className={`text-sm ${colors.text} truncate`}>{sub.topic}</span>
                       </div>
@@ -255,8 +266,8 @@ export default function SummerChallengePage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "1", title: "Pick Your Grade", desc: "Select your child's grade from 5 to 10 above.", icon: "🎯" },
-              { step: "2", title: "Follow the Plan", desc: "Each week has 3 quizzes — one for English, Maths, and Science.", icon: "📋" },
+              { step: "1", title: "Pick Your Grade", desc: "Select your child's grade from 5 to 12 above.", icon: "🎯" },
+              { step: "2", title: "Follow the Plan", desc: "Each week has quizzes across all subjects for your grade — just follow the weekly plan.", icon: "📋" },
               { step: "3", title: "Take the Quizzes", desc: "25 questions per quiz with instant scoring and answer review.", icon: "✏️" },
               { step: "4", title: "Master the Basics", desc: "By week 8, your child will have revised all core concepts.", icon: "🏆" },
             ].map((item) => (
@@ -292,15 +303,16 @@ export default function SummerChallengePage() {
             consistency — short, regular sessions are far more effective than long, irregular ones.
           </p>
           <p>
-            That&apos;s exactly what the Summer Challenge is designed for. By spreading 600 carefully
+            That&apos;s exactly what the Summer Challenge is designed for. By spreading carefully
             selected questions across 8 weeks, your child revises the most important concepts from their
             grade level — without feeling overwhelmed. Each quiz takes just 15-20 minutes, making it easy
             to fit into even the busiest summer schedule.
           </p>
           <p>
             Whether your child follows the CBSE, ICSE, Cambridge, or IB curriculum, the topics covered in
-            this challenge are universally foundational. From grammar and comprehension in English, to
-            number systems and geometry in Maths, to cells and forces in Science — these are the building
+            this challenge are universally foundational. For Grades 5-10, it covers English, Maths &amp; Science.
+            For Grades 11-12, it expands to five subjects — English, Maths, Physics, Chemistry &amp; Biology —
+            aligned with board exam and competitive exam preparation. These are the building
             blocks that every student needs to master before moving to the next grade.
           </p>
         </div>
