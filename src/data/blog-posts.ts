@@ -11886,7 +11886,7 @@ export function getPostsByCategory(category: string): BlogPost[] {
 }
 
 // Get posts relevant to a specific grade number and subject
-export function getPostsForGrade(grade: number, subject: "english" | "maths" | "science"): BlogPost[] {
+export function getPostsForGrade(grade: number, subject: "english" | "maths" | "science" | "maths-higher" | "physics" | "chemistry" | "biology"): BlogPost[] {
   const mathsCategories = ["Maths Concepts", "Maths Tips", "Problem Solving"];
   const scienceCategories = ["Physics", "Chemistry", "Biology", "Science"];
   return blogPosts
@@ -11894,7 +11894,11 @@ export function getPostsForGrade(grade: number, subject: "english" | "maths" | "
       const isMaths = mathsCategories.includes(post.category);
       const isScience = scienceCategories.includes(post.category);
       if (subject === "maths" && !isMaths) return false;
+      if (subject === "maths-higher" && !isMaths) return false;
       if (subject === "science" && !isScience) return false;
+      if (subject === "physics" && post.category !== "Physics") return false;
+      if (subject === "chemistry" && post.category !== "Chemistry") return false;
+      if (subject === "biology" && post.category !== "Biology") return false;
       if (subject === "english" && (isMaths || isScience)) return false;
       const gradeMatch = post.grade.match(/\d+/g);
       if (!gradeMatch) return true;

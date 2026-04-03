@@ -16,7 +16,7 @@ export type MathsGradeData = Record<string, MathsWeek[]>;
 
 const data = mathsData as MathsGradeData;
 
-export const MATHS_GRADES = [5, 6, 7, 8, 9, 10] as const;
+export const MATHS_GRADES = [5, 6, 7, 8, 9, 10, 11, 12] as const;
 
 export const MATHS_GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string; topics: string }> = {
   5:  { color: "from-emerald-400 to-green-500", bgColor: "bg-emerald-500", ageRange: "8-10 years", topics: "Arithmetic, Fractions, Geometry Basics, Patterns" },
@@ -25,6 +25,8 @@ export const MATHS_GRADE_INFO: Record<number, { color: string; bgColor: string; 
   8:  { color: "from-violet-400 to-purple-500", bgColor: "bg-violet-500", ageRange: "11-13 years", topics: "Algebra, Linear Equations, Quadrilaterals, Mensuration" },
   9:  { color: "from-rose-400 to-red-500", bgColor: "bg-rose-500", ageRange: "13-15 years", topics: "Number Systems, Polynomials, Coordinate Geometry, Trigonometry" },
   10: { color: "from-amber-400 to-orange-500", bgColor: "bg-amber-500", ageRange: "14-16 years", topics: "Real Numbers, Quadratic Equations, Statistics, Probability" },
+  11: { color: "from-teal-400 to-cyan-500", bgColor: "bg-teal-500", ageRange: "15-17 years", topics: "Sets, Relations, Functions, Trigonometry, Complex Numbers, Linear Programming, Statistics, Probability, Applied Maths" },
+  12: { color: "from-indigo-400 to-violet-500", bgColor: "bg-indigo-500", ageRange: "16-18 years", topics: "Relations & Functions, Matrices, Determinants, Calculus, Linear Programming, Probability, Applied Maths" },
 };
 
 export function getMathsGradeWeeks(grade: number): MathsWeek[] {

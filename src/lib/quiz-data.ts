@@ -16,7 +16,7 @@ export type GradeData = Record<string, Week[]>;
 
 const data = quizData as GradeData;
 
-export const GRADES = [5, 6, 7, 8, 9, 10] as const;
+export const GRADES = [5, 6, 7, 8, 9, 10, 11, 12] as const;
 
 export const GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string }> = {
   5:  { color: "from-orange-400 to-amber-400", bgColor: "bg-orange-400", ageRange: "8-10 years" },
@@ -25,6 +25,8 @@ export const GRADE_INFO: Record<number, { color: string; bgColor: string; ageRan
   8:  { color: "from-pink-500 to-rose-400", bgColor: "bg-pink-500", ageRange: "11-13 years" },
   9:  { color: "from-yellow-400 to-amber-300", bgColor: "bg-yellow-400", ageRange: "13-15 years" },
   10: { color: "from-purple-400 to-violet-400", bgColor: "bg-purple-400", ageRange: "14-16 years" },
+  11: { color: "from-teal-400 to-emerald-500", bgColor: "bg-teal-500", ageRange: "15-17 years" },
+  12: { color: "from-indigo-500 to-blue-600", bgColor: "bg-indigo-500", ageRange: "16-18 years" },
 };
 
 export function getGradeWeeks(grade: number): Week[] {
