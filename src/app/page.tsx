@@ -68,7 +68,7 @@ export default function Home() {
           Practise <span className="text-brand-orange">Every Week</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 mb-2 max-w-2xl mx-auto">
-          Free interactive English, Maths &amp; Science quizzes for students in Grades 5 to 12. No sign-up required!
+          Free interactive quizzes in English, Maths, Science, Physics, Chemistry, Biology &amp; more for Grades 5 to 12. No sign-up required!
         </p>
         <p className="text-base text-gray-500 mb-8">
           {totalQuestions.toLocaleString()}+ questions &middot; 8 subjects &middot; 8 grades &middot; Weekly content
@@ -524,7 +524,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-brand-navy text-center mb-12">Why Practise With Us?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: "📝", title: "25 Questions Weekly", desc: "Fresh quiz content every week covering English, Maths, and Science concepts" },
+              { icon: "📝", title: "25 Questions Weekly", desc: "Fresh quiz content every week across English, Maths, Science, Physics, Chemistry, Biology and more" },
               { icon: "⚡", title: "Instant Results", desc: "See your score right away and learn which answers you got right or wrong" },
               { icon: "🆓", title: "Completely Free", desc: "No sign-up, no fees, no hidden costs. Just start practising!" },
               { icon: "📱", title: "Works Everywhere", desc: "Practice on your phone, tablet, or computer — anytime, anywhere" },
@@ -563,7 +563,7 @@ export default function Home() {
             {[
               {
                 q: "What is The Practise Ground?",
-                a: "The Practise Ground is a free online platform where students in Grades 5 to 12 can practice English, Maths, and Science through weekly quizzes. Each quiz has 25 multiple-choice questions covering grammar, vocabulary, arithmetic, algebra, geometry, physics, chemistry, biology, and more.",
+                a: "The Practise Ground is a free online platform where students in Grades 5 to 12 can practice English, Maths, Science, Physics, Chemistry, Biology, and Maths Higher (JEE-prep) through weekly quizzes. Each quiz has 25 multiple-choice questions aligned with CBSE, ICSE, and state board curricula.",
               },
               {
                 q: "Do I need to sign up to take a quiz?",
@@ -571,7 +571,7 @@ export default function Home() {
               },
               {
                 q: "How often are new quizzes added?",
-                a: "We have 52 weeks of English quizzes ready for each grade — that is a full year of content. Maths quizzes are being added regularly. New content is added often!",
+                a: "We have 52 weeks of quizzes ready for every subject and grade — that is a full year of content per subject. With 39,000+ questions across all subjects, there is always something new to practise!",
               },
               {
                 q: "What subjects and topics do you cover?",
@@ -606,7 +606,7 @@ export default function Home() {
             name: "The Practise Ground",
             url: "https://www.thepractiseground.in",
             description:
-              "Free interactive English, Maths & Science quizzes for students in Grades 5-12. 23,400+ questions, no sign-up required.",
+              "Free interactive quizzes for students in Grades 5-12 across English, Maths, Science, Physics, Chemistry, Biology and more. 39,000+ questions, no sign-up required.",
             email: "hello@thepractiseground.in",
             areaServed: { "@type": "Place", name: "Worldwide" },
             hasOfferCatalog: {
@@ -615,7 +615,11 @@ export default function Home() {
               itemListElement: [
                 { "@type": "OfferCatalog", name: "English Quizzes", description: "Grammar, vocabulary, comprehension quizzes for Grades 5-12" },
                 { "@type": "OfferCatalog", name: "Maths Quizzes", description: "Arithmetic, algebra, geometry quizzes for Grades 5-12" },
-                { "@type": "OfferCatalog", name: "Science Quizzes", description: "Physics, chemistry, biology quizzes for Grades 5-12" },
+                { "@type": "OfferCatalog", name: "Science Quizzes", description: "Physics, chemistry, biology quizzes for Grades 5-10" },
+                { "@type": "OfferCatalog", name: "Physics Quizzes", description: "Mechanics, thermodynamics, electromagnetism quizzes for Grades 11-12" },
+                { "@type": "OfferCatalog", name: "Chemistry Quizzes", description: "Organic, inorganic, physical chemistry quizzes for Grades 11-12" },
+                { "@type": "OfferCatalog", name: "Biology Quizzes", description: "Botany, zoology, genetics quizzes for Grades 11-12" },
+                { "@type": "OfferCatalog", name: "Maths Higher Quizzes", description: "Advanced maths and JEE-prep quizzes for Grades 11-12" },
               ],
             },
           }),
@@ -629,7 +633,7 @@ export default function Home() {
             "@type": "WebSite",
             name: "The Practise Ground",
             url: "https://www.thepractiseground.in",
-            description: "Free English, Maths & Science quizzes for Grades 5-12",
+            description: "Free English, Maths, Science, Physics, Chemistry & Biology quizzes for Grades 5-12. 39,000+ questions.",
           }),
         }}
       />
@@ -645,7 +649,7 @@ export default function Home() {
                 name: "What is The Practise Ground?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The Practise Ground is a free online platform where students in Grades 5 to 12 can practice English, Maths, and Science through weekly quizzes. Each quiz has 25 multiple-choice questions covering grammar, vocabulary, arithmetic, algebra, geometry, physics, chemistry, biology, and more.",
+                  text: "The Practise Ground is a free online platform where students in Grades 5 to 12 can practice English, Maths, Science, Physics, Chemistry, Biology, and Maths Higher (JEE-prep) through weekly quizzes. Each quiz has 25 multiple-choice questions aligned with CBSE, ICSE, and state board curricula.",
                 },
               },
               {
@@ -661,7 +665,7 @@ export default function Home() {
                 name: "How often are new quizzes added?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We have 52 weeks of quizzes ready for each grade in English, Maths, and Science — that is a full year of content per subject. New content is added often!",
+                  text: "We have 52 weeks of quizzes ready for every subject and grade — that is a full year of content per subject. With 39,000+ questions across all subjects, there is always something new to practise!",
                 },
               },
               {
@@ -669,7 +673,7 @@ export default function Home() {
                 name: "What subjects and topics do you cover?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We offer English, Maths, and Science quizzes for Grades 5-12. English covers grammar, vocabulary, comprehension, and writing. Maths covers arithmetic, algebra, geometry, trigonometry, and more. Science covers Physics, Chemistry, and Biology — all aligned with CBSE, ICSE, Cambridge, and IB curricula.",
+                  text: "We offer English, Maths, and Science quizzes for Grades 5-12. For Grades 11-12, we also have separate Physics, Chemistry, Biology, and Maths Higher (JEE-prep) tracks. All content is aligned with CBSE, ICSE, and state board curricula.",
                 },
               },
               {

@@ -1,6 +1,8 @@
 import Link from "next/link";
 
-const grades = [5, 6, 7, 8, 9, 10];
+const grades = [5, 6, 7, 8, 9, 10, 11, 12];
+const scienceGrades = [5, 6, 7, 8, 9, 10];
+const seniorGrades = [11, 12];
 
 export default function Footer() {
   return (
@@ -17,7 +19,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-gray-400 mb-5">
-              Free English, Maths &amp; Science quizzes for Grades 5-10. 23,400+ questions, no sign-up, completely free.
+              Free quizzes for Grades 5-12 across English, Maths, Science, Physics, Chemistry, Biology &amp; more. 39,000+ questions, no sign-up, completely free.
             </p>
             <p className="text-sm text-gray-500">hello@thepractiseground.in</p>
           </div>
@@ -54,6 +56,66 @@ export default function Footer() {
               </div>
             </div>
             <div className="mb-4">
+              <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Science</p>
+              <div className="flex flex-wrap gap-2">
+                {scienceGrades.map((g) => (
+                  <Link
+                    key={`sci-${g}`}
+                    href={`/quiz/science/${g}`}
+                    className="bg-white/10 hover:bg-purple-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                  >
+                    Grade {g}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="mb-4">
+              <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Physics · Chemistry · Biology</p>
+              <div className="flex flex-wrap gap-2">
+                {seniorGrades.map((g) => (
+                  <Link
+                    key={`phy-${g}`}
+                    href={`/quiz/physics/${g}`}
+                    className="bg-white/10 hover:bg-blue-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                  >
+                    Physics {g}
+                  </Link>
+                ))}
+                {seniorGrades.map((g) => (
+                  <Link
+                    key={`chem-${g}`}
+                    href={`/quiz/chemistry/${g}`}
+                    className="bg-white/10 hover:bg-teal-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                  >
+                    Chemistry {g}
+                  </Link>
+                ))}
+                {seniorGrades.map((g) => (
+                  <Link
+                    key={`bio-${g}`}
+                    href={`/quiz/biology/${g}`}
+                    className="bg-white/10 hover:bg-green-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                  >
+                    Biology {g}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="mb-4">
+              <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Maths Higher (JEE Prep)</p>
+              <div className="flex flex-wrap gap-2">
+                {seniorGrades.map((g) => (
+                  <Link
+                    key={`mh-${g}`}
+                    href={`/quiz/maths-higher/${g}`}
+                    className="bg-white/10 hover:bg-rose-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
+                  >
+                    Grade {g}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="mb-4">
               <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">English by Level</p>
               <div className="flex flex-wrap gap-2">
                 <Link
@@ -70,7 +132,7 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="mb-4">
+            <div>
               <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Languages (CEFR)</p>
               <div className="flex flex-wrap gap-2">
                 <Link
@@ -91,20 +153,6 @@ export default function Footer() {
                 >
                   🇩🇪 German
                 </Link>
-              </div>
-            </div>
-            <div>
-              <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Science</p>
-              <div className="flex flex-wrap gap-2">
-                {grades.map((g) => (
-                  <Link
-                    key={`sci-${g}`}
-                    href={`/quiz/science/${g}`}
-                    className="bg-white/10 hover:bg-purple-500 hover:text-white text-gray-300 text-sm px-3 py-2 rounded-lg transition-colors min-h-10"
-                  >
-                    Grade {g}
-                  </Link>
-                ))}
               </div>
             </div>
           </div>
