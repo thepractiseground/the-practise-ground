@@ -103,9 +103,9 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[200px] max-h-[80vh] overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border py-2 min-w-[220px] max-h-[80vh] overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">English by Grade</div>
-                {[5, 6, 7, 8, 9, 10].map((g) => (
+                {[5, 6, 7, 8, 9, 10, 11, 12].map((g) => (
                   <Link key={`eng-${g}`} href={`/quiz/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange text-sm">
                     Grade {g}
                   </Link>
@@ -131,8 +131,15 @@ export default function Header() {
                 </Link>
                 <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths</div>
-                {[5, 6, 7, 8, 9, 10].map((g) => (
+                {[5, 6, 7, 8, 9, 10, 11, 12].map((g) => (
                   <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-emerald-50 hover:text-emerald-600 text-sm">
+                    Grade {g}
+                  </Link>
+                ))}
+                <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths Higher (JEE Prep)</div>
+                {[11, 12].map((g) => (
+                  <Link key={`mh-${g}`} href={`/quiz/maths-higher/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-rose-50 hover:text-rose-600 text-sm">
                     Grade {g}
                   </Link>
                 ))}
@@ -140,6 +147,27 @@ export default function Header() {
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Science</div>
                 {[5, 6, 7, 8, 9, 10].map((g) => (
                   <Link key={`sci-${g}`} href={`/quiz/science/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-purple-50 hover:text-purple-600 text-sm">
+                    Grade {g}
+                  </Link>
+                ))}
+                <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Physics</div>
+                {[11, 12].map((g) => (
+                  <Link key={`phy-${g}`} href={`/quiz/physics/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 text-sm">
+                    Grade {g}
+                  </Link>
+                ))}
+                <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Chemistry</div>
+                {[11, 12].map((g) => (
+                  <Link key={`chem-${g}`} href={`/quiz/chemistry/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-teal-50 hover:text-teal-600 text-sm">
+                    Grade {g}
+                  </Link>
+                ))}
+                <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Biology</div>
+                {[11, 12].map((g) => (
+                  <Link key={`bio-${g}`} href={`/quiz/biology/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-green-50 hover:text-green-600 text-sm">
                     Grade {g}
                   </Link>
                 ))}
@@ -184,7 +212,7 @@ export default function Header() {
         <div className="md:hidden fixed left-0 right-0 top-16 bottom-0 z-40 bg-white overflow-y-auto overscroll-contain" style={{ height: 'calc(100dvh - 4rem)' }}>
           {/* Quiz sections with collapsible accordions */}
           <MobileSection title="📝 English by Grade" color="text-brand-orange" defaultOpen onNavigate={closeMenu}>
-            <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="" hoverColor="hover:bg-brand-orange" onNavigate={closeMenu} />
+            <GradeChips grades={[5, 6, 7, 8, 9, 10, 11, 12]} prefix="" hoverColor="hover:bg-brand-orange" onNavigate={closeMenu} />
           </MobileSection>
 
           <MobileSection title="📊 English by Level (CEFR)" color="text-emerald-600" onNavigate={closeMenu}>
@@ -213,11 +241,27 @@ export default function Header() {
           </MobileSection>
 
           <MobileSection title="🔢 Maths" color="text-emerald-600" onNavigate={closeMenu}>
-            <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="maths" hoverColor="hover:bg-emerald-500" onNavigate={closeMenu} />
+            <GradeChips grades={[5, 6, 7, 8, 9, 10, 11, 12]} prefix="maths" hoverColor="hover:bg-emerald-500" onNavigate={closeMenu} />
+          </MobileSection>
+
+          <MobileSection title="📐 Maths Higher (JEE)" color="text-rose-600" onNavigate={closeMenu}>
+            <GradeChips grades={[11, 12]} prefix="maths-higher" hoverColor="hover:bg-rose-500" onNavigate={closeMenu} />
           </MobileSection>
 
           <MobileSection title="🔬 Science" color="text-purple-600" onNavigate={closeMenu}>
             <GradeChips grades={[5, 6, 7, 8, 9, 10]} prefix="science" hoverColor="hover:bg-purple-500" onNavigate={closeMenu} />
+          </MobileSection>
+
+          <MobileSection title="⚡ Physics" color="text-blue-600" onNavigate={closeMenu}>
+            <GradeChips grades={[11, 12]} prefix="physics" hoverColor="hover:bg-blue-500" onNavigate={closeMenu} />
+          </MobileSection>
+
+          <MobileSection title="🧪 Chemistry" color="text-teal-600" onNavigate={closeMenu}>
+            <GradeChips grades={[11, 12]} prefix="chemistry" hoverColor="hover:bg-teal-500" onNavigate={closeMenu} />
+          </MobileSection>
+
+          <MobileSection title="🧬 Biology" color="text-green-600" onNavigate={closeMenu}>
+            <GradeChips grades={[11, 12]} prefix="biology" hoverColor="hover:bg-green-500" onNavigate={closeMenu} />
           </MobileSection>
 
           {/* Quick links */}

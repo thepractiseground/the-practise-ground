@@ -19,8 +19,8 @@ const data = biologyData as BiologyGradeData;
 export const BIOLOGY_GRADES = [11, 12] as const;
 
 export const BIOLOGY_GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string; topics: string }> = {
-  11: { color: "from-lime-500 to-green-600", bgColor: "bg-lime-600", ageRange: "15-17 years", topics: "Living World, Biological Classification, Plant & Animal Kingdom, Morphology, Anatomy, Cell Biology, Cell Division, Biomolecules, Plant Physiology, Animal Physiology" },
-  12: { color: "from-green-500 to-lime-600", bgColor: "bg-green-600", ageRange: "16-18 years", topics: "Reproduction, Genetics, Molecular Biology, Evolution, Human Health, Food Production, Microbes, Biotechnology, Ecology, Biodiversity, Environmental Issues" },
+  11: { color: "from-lime-300 to-green-400", bgColor: "bg-lime-400", ageRange: "15-17 years", topics: "Living World, Biological Classification, Plant & Animal Kingdom, Morphology, Anatomy, Cell Biology, Cell Division, Biomolecules, Plant Physiology, Animal Physiology" },
+  12: { color: "from-green-300 to-lime-400", bgColor: "bg-green-400", ageRange: "16-18 years", topics: "Reproduction, Genetics, Molecular Biology, Evolution, Human Health, Food Production, Microbes, Biotechnology, Ecology, Biodiversity, Environmental Issues" },
 };
 
 export function getBiologyGradeWeeks(grade: number): BiologyWeek[] {

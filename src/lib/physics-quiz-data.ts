@@ -19,8 +19,8 @@ const data = physicsData as PhysicsGradeData;
 export const PHYSICS_GRADES = [11, 12] as const;
 
 export const PHYSICS_GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string; topics: string }> = {
-  11: { color: "from-blue-500 to-cyan-600", bgColor: "bg-blue-600", ageRange: "15-17 years", topics: "Physical World, Units & Measurements, Kinematics, Laws of Motion, Work & Energy, Rotational Motion, Gravitation, Properties of Matter, Thermodynamics, Kinetic Theory, Oscillations, Waves" },
-  12: { color: "from-cyan-500 to-blue-600", bgColor: "bg-cyan-600", ageRange: "16-18 years", topics: "Electrostatics, Current Electricity, Magnetism, EMI, AC, EM Waves, Ray Optics, Wave Optics, Dual Nature of Radiation, Atoms, Nuclei, Semiconductors" },
+  11: { color: "from-blue-300 to-cyan-400", bgColor: "bg-blue-400", ageRange: "15-17 years", topics: "Physical World, Units & Measurements, Kinematics, Laws of Motion, Work & Energy, Rotational Motion, Gravitation, Properties of Matter, Thermodynamics, Kinetic Theory, Oscillations, Waves" },
+  12: { color: "from-cyan-300 to-blue-400", bgColor: "bg-cyan-400", ageRange: "16-18 years", topics: "Electrostatics, Current Electricity, Magnetism, EMI, AC, EM Waves, Ray Optics, Wave Optics, Dual Nature of Radiation, Atoms, Nuclei, Semiconductors" },
 };
 
 export function getPhysicsGradeWeeks(grade: number): PhysicsWeek[] {

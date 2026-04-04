@@ -19,8 +19,8 @@ const data = chemistryData as ChemistryGradeData;
 export const CHEMISTRY_GRADES = [11, 12] as const;
 
 export const CHEMISTRY_GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string; topics: string }> = {
-  11: { color: "from-green-500 to-emerald-600", bgColor: "bg-green-600", ageRange: "15-17 years", topics: "Basic Concepts, Atomic Structure, Periodic Table, Chemical Bonding, States of Matter, Thermodynamics, Equilibrium, Redox, Hydrogen, s-Block, p-Block, Organic Chemistry, Hydrocarbons, Environmental Chemistry" },
-  12: { color: "from-emerald-500 to-teal-600", bgColor: "bg-emerald-600", ageRange: "16-18 years", topics: "Solid State, Solutions, Electrochemistry, Kinetics, Surface Chemistry, Metallurgy, p-Block, d/f Block, Coordination Compounds, Organic Chemistry, Biomolecules, Polymers" },
+  11: { color: "from-green-300 to-emerald-400", bgColor: "bg-green-400", ageRange: "15-17 years", topics: "Basic Concepts, Atomic Structure, Periodic Table, Chemical Bonding, States of Matter, Thermodynamics, Equilibrium, Redox, Hydrogen, s-Block, p-Block, Organic Chemistry, Hydrocarbons, Environmental Chemistry" },
+  12: { color: "from-emerald-300 to-teal-400", bgColor: "bg-emerald-400", ageRange: "16-18 years", topics: "Solid State, Solutions, Electrochemistry, Kinetics, Surface Chemistry, Metallurgy, p-Block, d/f Block, Coordination Compounds, Organic Chemistry, Biomolecules, Polymers" },
 };
 
 export function getChemistryGradeWeeks(grade: number): ChemistryWeek[] {

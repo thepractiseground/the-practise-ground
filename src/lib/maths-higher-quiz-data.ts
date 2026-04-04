@@ -19,8 +19,8 @@ const data = mathsHigherData as MathsHigherGradeData;
 export const MATHS_HIGHER_GRADES = [11, 12] as const;
 
 export const MATHS_HIGHER_GRADE_INFO: Record<number, { color: string; bgColor: string; ageRange: string; topics: string }> = {
-  11: { color: "from-red-500 to-rose-600", bgColor: "bg-red-500", ageRange: "15-17 years", topics: "Sets, Relations, Functions, Trigonometry, Complex Numbers, Sequences, Coordinate Geometry, Limits, Derivatives, Statistics, Probability, Mathematical Reasoning" },
-  12: { color: "from-rose-500 to-pink-600", bgColor: "bg-rose-500", ageRange: "16-18 years", topics: "Relations & Functions, Inverse Trig, Matrices, Determinants, Continuity, Differentiation, Integration, Vectors, 3D Geometry, Linear Programming, Probability" },
+  11: { color: "from-red-300 to-rose-400", bgColor: "bg-red-400", ageRange: "15-17 years", topics: "Sets, Relations, Functions, Trigonometry, Complex Numbers, Sequences, Coordinate Geometry, Limits, Derivatives, Statistics, Probability, Mathematical Reasoning" },
+  12: { color: "from-rose-300 to-pink-400", bgColor: "bg-rose-400", ageRange: "16-18 years", topics: "Relations & Functions, Inverse Trig, Matrices, Determinants, Continuity, Differentiation, Integration, Vectors, 3D Geometry, Linear Programming, Probability" },
 };
 
 export function getMathsHigherGradeWeeks(grade: number): MathsHigherWeek[] {
