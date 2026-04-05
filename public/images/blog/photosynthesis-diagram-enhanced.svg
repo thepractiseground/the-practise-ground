@@ -1,0 +1,548 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700" width="1200" height="1700">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1f0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d2b0d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1f0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1abc9c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1c40f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e67e22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chloroplastGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e8449;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glucoseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="oxygenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2980b9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a5276;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="co2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#95a5a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7f8c8d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a1a;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#153015;stop-opacity:0.95" />
+    </linearGradient>
+    <linearGradient id="lightReactionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="darkReactionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="sunGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1700" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a4a1a" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+  <rect width="1200" height="1700" fill="url(#grid)"/>
+
+  <!-- Decorative leaf veins in background -->
+  <g opacity="0.06" stroke="#2ecc71" stroke-width="1" fill="none">
+    <path d="M0 200 Q 200 300 400 200 T 800 250 T 1200 180"/>
+    <path d="M0 600 Q 300 700 600 600 T 1200 650"/>
+    <path d="M0 1000 Q 200 1100 500 1000 T 1200 1050"/>
+    <path d="M0 1400 Q 300 1500 600 1400 T 1200 1450"/>
+  </g>
+
+  <!-- ==================== HEADER ==================== -->
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#headerGrad)"/>
+
+  <!-- Decorative leaf icon -->
+  <g transform="translate(600,75)" filter="url(#glow)">
+    <path d="M0,-30 C15,-28 25,-15 25,0 C25,15 15,28 0,30 C-15,28 -25,15 -25,0 C-25,-15 -15,-28 0,-30Z" fill="#2ecc71" opacity="0.3"/>
+    <path d="M0,-20 C10,-18 17,-10 17,0 C17,10 10,18 0,20 C-10,18 -17,10 -17,0 C-17,-10 -10,-18 0,-20Z" fill="#2ecc71" opacity="0.5"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#1a5a1a" stroke-width="1" opacity="0.5"/>
+    <line x1="-10" y1="-5" x2="0" y2="3" stroke="#1a5a1a" stroke-width="0.7" opacity="0.4"/>
+    <line x1="10" y1="-5" x2="0" y2="3" stroke="#1a5a1a" stroke-width="0.7" opacity="0.4"/>
+    <line x1="-12" y1="5" x2="0" y2="10" stroke="#1a5a1a" stroke-width="0.7" opacity="0.4"/>
+    <line x1="12" y1="5" x2="0" y2="10" stroke="#1a5a1a" stroke-width="0.7" opacity="0.4"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="#2ecc71" letter-spacing="8" filter="url(#glow)">PHOTOSYNTHESIS</text>
+  <text x="600" y="160" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#7dcea0" letter-spacing="4" font-weight="300">HOW PLANTS MAKE THEIR OWN FOOD</text>
+
+  <!-- Divider line -->
+  <line x1="400" y1="178" x2="800" y2="178" stroke="url(#headerGrad)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Intro text -->
+  <text x="600" y="205" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#a0d8b0" opacity="0.9">Photosynthesis is the process by which green plants convert sunlight, water, and carbon dioxide into glucose and oxygen.</text>
+
+  <!-- ==================== CHEMICAL EQUATION ==================== -->
+  <g transform="translate(600, 260)">
+    <rect x="-380" y="-35" width="760" height="70" rx="12" fill="#1a3a1a" stroke="#2ecc71" stroke-width="1.5" opacity="0.9" filter="url(#cardShadow)"/>
+    <text x="-310" y="-5" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#7dcea0" font-weight="600" letter-spacing="2">CHEMICAL EQUATION</text>
+
+    <!-- Equation -->
+    <text y="18" font-family="Georgia, serif" font-size="22" fill="white" text-anchor="middle">
+      <tspan fill="#95a5a6" font-weight="bold">6CO</tspan><tspan fill="#95a5a6" font-size="16" dy="4">2</tspan><tspan dy="-4"> </tspan>
+      <tspan fill="#666">+</tspan>
+      <tspan fill="#3498db" font-weight="bold"> 6H</tspan><tspan fill="#3498db" font-size="16" dy="4">2</tspan><tspan fill="#3498db" dy="-4">O </tspan>
+      <tspan fill="#666">+</tspan>
+      <tspan fill="#f1c40f" font-weight="bold"> Light </tspan>
+      <tspan fill="#2ecc71" font-size="20"> &#8594; </tspan>
+      <tspan fill="#e74c3c" font-weight="bold"> C</tspan><tspan fill="#e74c3c" font-size="16" dy="4">6</tspan><tspan fill="#e74c3c" dy="-4">H</tspan><tspan fill="#e74c3c" font-size="16" dy="4">12</tspan><tspan fill="#e74c3c" dy="-4">O</tspan><tspan fill="#e74c3c" font-size="16" dy="4">6</tspan><tspan dy="-4"> </tspan>
+      <tspan fill="#666">+</tspan>
+      <tspan fill="#3498db" font-weight="bold"> 6O</tspan><tspan fill="#3498db" font-size="16" dy="4">2</tspan>
+    </text>
+
+    <!-- Labels under equation -->
+    <text x="-220" y="35" font-family="'Segoe UI', sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Carbon Dioxide</text>
+    <text x="-115" y="35" font-family="'Segoe UI', sans-serif" font-size="10" fill="#5dade2" text-anchor="middle">Water</text>
+    <text x="-15" y="35" font-family="'Segoe UI', sans-serif" font-size="10" fill="#f1c40f" text-anchor="middle">Sunlight</text>
+    <text x="120" y="35" font-family="'Segoe UI', sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">Glucose</text>
+    <text x="255" y="35" font-family="'Segoe UI', sans-serif" font-size="10" fill="#5dade2" text-anchor="middle">Oxygen</text>
+  </g>
+
+  <!-- ==================== HOW IT WORKS - PROCESS DIAGRAM ==================== -->
+  <!-- Section title -->
+  <text x="600" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#2ecc71" font-weight="bold" filter="url(#glow)">How It Works</text>
+  <line x1="520" y1="342" x2="680" y2="342" stroke="#2ecc71" stroke-width="1" opacity="0.4"/>
+
+  <!-- Process diagram card -->
+  <rect x="50" y="360" width="1100" height="320" rx="16" fill="url(#cardGrad)" stroke="#2a5a2a" stroke-width="1" filter="url(#cardShadow)"/>
+
+  <!-- Sun -->
+  <g transform="translate(170,440)" filter="url(#sunGlow)">
+    <circle cx="0" cy="0" r="45" fill="url(#sunGrad)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="38" fill="#f1c40f" opacity="0.6"/>
+    <!-- Sun rays -->
+    <g stroke="#f1c40f" stroke-width="2.5" opacity="0.7">
+      <line x1="0" y1="-55" x2="0" y2="-65"/>
+      <line x1="40" y1="-40" x2="47" y2="-47"/>
+      <line x1="55" y1="0" x2="65" y2="0"/>
+      <line x1="40" y1="40" x2="47" y2="47"/>
+      <line x1="0" y1="55" x2="0" y2="65"/>
+      <line x1="-40" y1="40" x2="-47" y2="47"/>
+      <line x1="-55" y1="0" x2="-65" y2="0"/>
+      <line x1="-40" y1="-40" x2="-47" y2="-47"/>
+    </g>
+    <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#7d5a00" font-weight="bold">LIGHT</text>
+    <text x="0" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#7d5a00">Energy</text>
+  </g>
+
+  <!-- Arrow from sun to chloroplast -->
+  <g>
+    <line x1="240" y1="440" x2="380" y2="480" stroke="#f1c40f" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+    <polygon points="380,475 380,485 395,480" fill="#f1c40f" opacity="0.7"/>
+  </g>
+
+  <!-- Water (H2O) input -->
+  <g transform="translate(170,570)">
+    <!-- Water drop -->
+    <path d="M0,-25 C12,-10 18,5 18,12 C18,22 10,28 0,28 C-10,28 -18,22 -18,12 C-18,5 -12,-10 0,-25Z" fill="url(#waterGrad)" opacity="0.9"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="white" font-weight="bold">H&#8322;O</text>
+    <text x="0" y="48" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#5dade2" font-weight="600">Water</text>
+    <text x="0" y="62" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#5dade2" opacity="0.7">6 molecules</text>
+  </g>
+
+  <!-- Arrow from water to chloroplast -->
+  <g>
+    <line x1="240" y1="560" x2="380" y2="520" stroke="#3498db" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+    <polygon points="380,515 380,525 395,520" fill="#3498db" opacity="0.7"/>
+  </g>
+
+  <!-- CO2 input -->
+  <g transform="translate(170,690)">
+    <circle cx="0" cy="-10" r="22" fill="url(#co2Grad)" opacity="0.8" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="white" font-weight="bold">CO&#8322;</text>
+    <text x="0" y="30" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#bdc3c7" font-weight="600">Carbon Dioxide</text>
+    <text x="0" y="44" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#bdc3c7" opacity="0.7">6 molecules</text>
+  </g>
+
+  <!-- Arrow from CO2 -->
+  <g>
+    <path d="M240,670 Q310,620 380,560" stroke="#95a5a6" stroke-width="2" stroke-dasharray="8,4" fill="none" opacity="0.6"/>
+    <polygon points="378,555 382,565 393,558" fill="#95a5a6" opacity="0.7"/>
+  </g>
+
+  <!-- CHLOROPLAST - Central element -->
+  <g transform="translate(600,510)">
+    <!-- Outer membrane -->
+    <ellipse cx="0" cy="0" rx="170" ry="90" fill="#1e8449" opacity="0.4" stroke="#27ae60" stroke-width="2"/>
+    <!-- Inner membrane -->
+    <ellipse cx="0" cy="0" rx="155" ry="78" fill="#1e8449" opacity="0.3" stroke="#27ae60" stroke-width="1" stroke-dasharray="4,2"/>
+
+    <!-- Thylakoid stacks (grana) -->
+    <g transform="translate(-70,-15)">
+      <rect x="-30" y="-25" width="60" height="10" rx="5" fill="#27ae60" opacity="0.8"/>
+      <rect x="-30" y="-12" width="60" height="10" rx="5" fill="#2ecc71" opacity="0.8"/>
+      <rect x="-30" y="1" width="60" height="10" rx="5" fill="#27ae60" opacity="0.8"/>
+      <rect x="-30" y="14" width="60" height="10" rx="5" fill="#2ecc71" opacity="0.8"/>
+      <text x="0" y="40" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#7dcea0">Grana</text>
+    </g>
+
+    <g transform="translate(70,-15)">
+      <rect x="-30" y="-25" width="60" height="10" rx="5" fill="#2ecc71" opacity="0.8"/>
+      <rect x="-30" y="-12" width="60" height="10" rx="5" fill="#27ae60" opacity="0.8"/>
+      <rect x="-30" y="1" width="60" height="10" rx="5" fill="#2ecc71" opacity="0.8"/>
+      <rect x="-30" y="14" width="60" height="10" rx="5" fill="#27ae60" opacity="0.8"/>
+      <text x="0" y="40" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#7dcea0">Grana</text>
+    </g>
+
+    <!-- Connecting lamellae -->
+    <line x1="-40" y1="-10" x2="40" y2="-10" stroke="#27ae60" stroke-width="2" opacity="0.5"/>
+    <line x1="-40" y1="5" x2="40" y2="5" stroke="#2ecc71" stroke-width="2" opacity="0.5"/>
+
+    <!-- Stroma label -->
+    <text x="0" y="-55" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#7dcea0" opacity="0.7">Stroma (fluid)</text>
+
+    <!-- Main label -->
+    <text x="0" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2ecc71" font-weight="bold">CHLOROPLAST</text>
+    <text x="0" y="85" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#7dcea0">Where photosynthesis occurs</text>
+  </g>
+
+  <!-- Arrow to Glucose -->
+  <g>
+    <line x1="780" y1="480" x2="900" y2="440" stroke="#e74c3c" stroke-width="2.5" opacity="0.7"/>
+    <polygon points="900,435 900,445 915,440" fill="#e74c3c" opacity="0.8"/>
+  </g>
+
+  <!-- Arrow to Oxygen -->
+  <g>
+    <line x1="780" y1="540" x2="900" y2="580" stroke="#3498db" stroke-width="2.5" opacity="0.7"/>
+    <polygon points="900,575 900,585 915,580" fill="#3498db" opacity="0.8"/>
+  </g>
+
+  <!-- Glucose output -->
+  <g transform="translate(1000,440)">
+    <rect x="-65" y="-40" width="130" height="80" rx="12" fill="#1a1a2e" stroke="#e74c3c" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e74c3c" font-weight="bold">Glucose</text>
+    <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#e8a0a0">C&#8326;H&#8321;&#8322;O&#8326;</text>
+    <text x="0" y="22" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Food / Energy</text>
+  </g>
+
+  <!-- Oxygen output -->
+  <g transform="translate(1000,580)">
+    <rect x="-65" y="-40" width="130" height="80" rx="12" fill="#1a1a2e" stroke="#3498db" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#3498db" font-weight="bold">Oxygen</text>
+    <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#85c1e9">6O&#8322;</text>
+    <text x="0" y="22" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Released to air</text>
+  </g>
+
+  <!-- ==================== TWO STAGES SECTION ==================== -->
+  <text x="600" y="730" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#2ecc71" font-weight="bold" filter="url(#glow)">The Two Stages</text>
+  <line x1="510" y1="742" x2="690" y2="742" stroke="#2ecc71" stroke-width="1" opacity="0.4"/>
+
+  <!-- Light Reactions Card -->
+  <g transform="translate(80,760)">
+    <rect x="0" y="0" width="500" height="220" rx="14" fill="url(#lightReactionGrad)" stroke="#f39c12" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+    <!-- Stage badge -->
+    <rect x="15" y="12" width="80" height="24" rx="12" fill="#f39c12" opacity="0.9"/>
+    <text x="55" y="28" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#1a1a00" font-weight="bold">STAGE 1</text>
+
+    <text x="110" y="30" font-family="Georgia, serif" font-size="20" fill="#f1c40f" font-weight="bold">Light Reactions</text>
+    <text x="20" y="52" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4ac0d" font-style="italic">Light-Dependent Reactions</text>
+
+    <!-- Location -->
+    <rect x="20" y="65" width="460" height="24" rx="6" fill="#2a2a10" opacity="0.5"/>
+    <text x="30" y="81" font-family="'Segoe UI', sans-serif" font-size="11" fill="#f1c40f">&#9737; Location: Thylakoid Membranes</text>
+
+    <!-- Process steps -->
+    <text x="20" y="108" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; Chlorophyll absorbs light energy</text>
+    <text x="20" y="128" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; Water molecules split (photolysis): H&#8322;O &#8594; H&#8314; + O&#8322;</text>
+    <text x="20" y="148" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; Energy carriers produced: ATP + NADPH</text>
+    <text x="20" y="168" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; Oxygen is released as a by-product</text>
+
+    <!-- Inputs/Outputs -->
+    <rect x="20" y="185" width="210" height="25" rx="6" fill="#3a3a15" opacity="0.6"/>
+    <text x="30" y="202" font-family="'Segoe UI', sans-serif" font-size="10" fill="#f1c40f" font-weight="600">INPUT: Light, H&#8322;O</text>
+    <rect x="250" y="185" width="230" height="25" rx="6" fill="#3a3a15" opacity="0.6"/>
+    <text x="260" y="202" font-family="'Segoe UI', sans-serif" font-size="10" fill="#2ecc71" font-weight="600">OUTPUT: ATP, NADPH, O&#8322;</text>
+  </g>
+
+  <!-- Arrow between stages -->
+  <g transform="translate(600,870)">
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#2ecc71" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#7dcea0">ATP + NADPH</text>
+    <polygon points="8,-4 8,4 16,0" fill="#2ecc71"/>
+    <polygon points="-8,-4 -8,4 -16,0" fill="#2ecc71" transform="rotate(180,0,0)"/>
+  </g>
+
+  <!-- Dark Reactions Card -->
+  <g transform="translate(620,760)">
+    <rect x="0" y="0" width="500" height="220" rx="14" fill="url(#darkReactionGrad)" stroke="#8e44ad" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+    <!-- Stage badge -->
+    <rect x="15" y="12" width="80" height="24" rx="12" fill="#8e44ad" opacity="0.9"/>
+    <text x="55" y="28" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="white" font-weight="bold">STAGE 2</text>
+
+    <text x="110" y="30" font-family="Georgia, serif" font-size="20" fill="#bb8fce" font-weight="bold">Calvin Cycle</text>
+    <text x="20" y="52" font-family="'Segoe UI', sans-serif" font-size="12" fill="#a569bd" font-style="italic">Light-Independent Reactions</text>
+
+    <!-- Location -->
+    <rect x="20" y="65" width="460" height="24" rx="6" fill="#1a102a" opacity="0.5"/>
+    <text x="30" y="81" font-family="'Segoe UI', sans-serif" font-size="11" fill="#bb8fce">&#9737; Location: Stroma of Chloroplast</text>
+
+    <!-- Process steps -->
+    <text x="20" y="108" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; CO&#8322; is fixed by RuBisCO enzyme</text>
+    <text x="20" y="128" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; ATP and NADPH reduce carbon compounds</text>
+    <text x="20" y="148" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; G3P (glyceraldehyde-3-phosphate) formed</text>
+    <text x="20" y="168" font-family="'Segoe UI', sans-serif" font-size="12" fill="#d4d4d4">&#10148; Glucose (C&#8326;H&#8321;&#8322;O&#8326;) is synthesized</text>
+
+    <!-- Inputs/Outputs -->
+    <rect x="20" y="185" width="220" height="25" rx="6" fill="#1a102a" opacity="0.6"/>
+    <text x="30" y="202" font-family="'Segoe UI', sans-serif" font-size="10" fill="#bb8fce" font-weight="600">INPUT: CO&#8322;, ATP, NADPH</text>
+    <rect x="260" y="185" width="220" height="25" rx="6" fill="#1a102a" opacity="0.6"/>
+    <text x="270" y="202" font-family="'Segoe UI', sans-serif" font-size="10" fill="#2ecc71" font-weight="600">OUTPUT: Glucose (C&#8326;H&#8321;&#8322;O&#8326;)</text>
+  </g>
+
+  <!-- ==================== INSIDE A LEAF ==================== -->
+  <text x="600" y="1025" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#2ecc71" font-weight="bold" filter="url(#glow)">Inside a Leaf</text>
+  <line x1="510" y1="1037" x2="690" y2="1037" stroke="#2ecc71" stroke-width="1" opacity="0.4"/>
+
+  <!-- Leaf cross-section -->
+  <g transform="translate(120,1050)">
+    <rect x="0" y="0" width="960" height="200" rx="14" fill="url(#cardGrad)" stroke="#2a5a2a" stroke-width="1" filter="url(#cardShadow)"/>
+
+    <!-- Cross section drawing -->
+    <!-- Upper Epidermis -->
+    <rect x="30" y="20" width="440" height="25" rx="3" fill="#3a7a3a" stroke="#4a9a4a" stroke-width="1"/>
+    <text x="250" y="37" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="white" font-weight="600">Upper Epidermis</text>
+
+    <!-- Waxy cuticle line -->
+    <line x1="30" y1="18" x2="470" y2="18" stroke="#5ab85a" stroke-width="2"/>
+    <text x="250" y="13" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#7dcea0">Waxy Cuticle</text>
+
+    <!-- Palisade Mesophyll -->
+    <rect x="30" y="50" width="440" height="50" rx="3" fill="#2e7d32" opacity="0.8"/>
+    <g opacity="0.5">
+      <rect x="45" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="70" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="95" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="120" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="145" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="170" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="195" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="220" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="245" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="270" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="295" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="320" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="345" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="370" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="395" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+      <rect x="420" y="53" width="18" height="44" rx="8" fill="#4caf50"/>
+    </g>
+    <text x="250" y="80" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="white" font-weight="600">Palisade Mesophyll</text>
+
+    <!-- Spongy Mesophyll -->
+    <rect x="30" y="105" width="440" height="50" rx="3" fill="#1b5e20" opacity="0.7"/>
+    <g opacity="0.4">
+      <circle cx="60" cy="125" r="10" fill="#388e3c"/>
+      <circle cx="90" cy="135" r="8" fill="#388e3c"/>
+      <circle cx="120" cy="120" r="11" fill="#388e3c"/>
+      <circle cx="155" cy="132" r="9" fill="#388e3c"/>
+      <circle cx="185" cy="118" r="10" fill="#388e3c"/>
+      <circle cx="215" cy="130" r="12" fill="#388e3c"/>
+      <circle cx="250" cy="122" r="8" fill="#388e3c"/>
+      <circle cx="280" cy="135" r="10" fill="#388e3c"/>
+      <circle cx="310" cy="120" r="9" fill="#388e3c"/>
+      <circle cx="345" cy="130" r="11" fill="#388e3c"/>
+      <circle cx="380" cy="118" r="8" fill="#388e3c"/>
+      <circle cx="410" cy="132" r="10" fill="#388e3c"/>
+      <circle cx="440" cy="125" r="9" fill="#388e3c"/>
+    </g>
+    <text x="250" y="133" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="white" font-weight="600">Spongy Mesophyll</text>
+
+    <!-- Lower Epidermis -->
+    <rect x="30" y="160" width="440" height="25" rx="3" fill="#3a7a3a" stroke="#4a9a4a" stroke-width="1"/>
+    <text x="250" y="177" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="white" font-weight="600">Lower Epidermis + Stomata</text>
+
+    <!-- Stomata openings -->
+    <ellipse cx="150" cy="172" rx="12" ry="5" fill="#0d2b0d" stroke="#7dcea0" stroke-width="1"/>
+    <ellipse cx="350" cy="172" rx="12" ry="5" fill="#0d2b0d" stroke="#7dcea0" stroke-width="1"/>
+
+    <!-- Labels on the right side -->
+    <g transform="translate(500,20)">
+      <rect x="0" y="0" width="440" height="170" rx="10" fill="#0d2b0d" opacity="0.5"/>
+
+      <circle cx="25" cy="25" r="8" fill="#5ab85a" opacity="0.7"/>
+      <text x="40" y="22" font-family="'Segoe UI', sans-serif" font-size="11" fill="#7dcea0" font-weight="600">Upper Epidermis</text>
+      <text x="40" y="36" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Protective layer; prevents water loss</text>
+
+      <circle cx="25" cy="60" r="8" fill="#4caf50"/>
+      <text x="40" y="57" font-family="'Segoe UI', sans-serif" font-size="11" fill="#7dcea0" font-weight="600">Palisade Mesophyll</text>
+      <text x="40" y="71" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Main photosynthesis site; most chloroplasts</text>
+
+      <circle cx="25" cy="95" r="8" fill="#388e3c"/>
+      <text x="40" y="92" font-family="'Segoe UI', sans-serif" font-size="11" fill="#7dcea0" font-weight="600">Spongy Mesophyll</text>
+      <text x="40" y="106" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Air spaces for gas exchange; some photosynthesis</text>
+
+      <circle cx="25" cy="130" r="8" fill="#3a7a3a" stroke="#4a9a4a" stroke-width="1"/>
+      <text x="40" y="127" font-family="'Segoe UI', sans-serif" font-size="11" fill="#7dcea0" font-weight="600">Stomata (on Lower Epidermis)</text>
+      <text x="40" y="141" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Tiny pores: CO&#8322; enters, O&#8322; and H&#8322;O exit</text>
+      <text x="40" y="155" font-family="'Segoe UI', sans-serif" font-size="10" fill="#999">Guard cells control opening/closing</text>
+    </g>
+  </g>
+
+  <!-- ==================== FACTORS AFFECTING RATE ==================== -->
+  <text x="600" y="1300" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#2ecc71" font-weight="bold" filter="url(#glow)">Factors That Affect the Rate</text>
+  <line x1="450" y1="1312" x2="750" y2="1312" stroke="#2ecc71" stroke-width="1" opacity="0.4"/>
+
+  <!-- Factor cards - Row 1 -->
+  <!-- Light Intensity -->
+  <g transform="translate(80,1330)">
+    <rect x="0" y="0" width="250" height="110" rx="12" fill="url(#cardGrad)" stroke="#f1c40f" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <!-- Sun icon -->
+    <circle cx="35" cy="35" r="16" fill="#f1c40f" opacity="0.3"/>
+    <circle cx="35" cy="35" r="10" fill="#f1c40f" opacity="0.5"/>
+    <text x="60" y="30" font-family="Georgia, serif" font-size="15" fill="#f1c40f" font-weight="bold">Light Intensity</text>
+    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">More light &#8594; faster rate</text>
+    <text x="15" y="72" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Plateaus at saturation point</text>
+    <!-- Mini graph -->
+    <polyline points="170,95 185,85 200,70 215,60 230,57 240,56" stroke="#f1c40f" stroke-width="2" fill="none"/>
+    <line x1="170" y1="95" x2="170" y2="55" stroke="#666" stroke-width="1"/>
+    <line x1="170" y1="95" x2="242" y2="95" stroke="#666" stroke-width="1"/>
+  </g>
+
+  <!-- Temperature -->
+  <g transform="translate(355,1330)">
+    <rect x="0" y="0" width="250" height="110" rx="12" fill="url(#cardGrad)" stroke="#e74c3c" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <!-- Thermometer icon -->
+    <rect x="30" y="18" width="8" height="30" rx="4" fill="none" stroke="#e74c3c" stroke-width="1.5"/>
+    <circle cx="34" cy="52" r="8" fill="#e74c3c" opacity="0.4"/>
+    <rect x="31" y="30" width="6" height="18" rx="2" fill="#e74c3c" opacity="0.6"/>
+    <text x="55" y="30" font-family="Georgia, serif" font-size="15" fill="#e74c3c" font-weight="bold">Temperature</text>
+    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Optimum: 25-35&#176;C</text>
+    <text x="15" y="72" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Enzymes denature above 40&#176;C</text>
+    <!-- Mini bell curve -->
+    <path d="M170,95 Q185,92 195,80 Q205,60 215,55 Q225,60 230,80 Q235,90 240,95" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <line x1="170" y1="95" x2="170" y2="53" stroke="#666" stroke-width="1"/>
+    <line x1="170" y1="95" x2="242" y2="95" stroke="#666" stroke-width="1"/>
+  </g>
+
+  <!-- CO2 Concentration -->
+  <g transform="translate(630,1330)">
+    <rect x="0" y="0" width="250" height="110" rx="12" fill="url(#cardGrad)" stroke="#95a5a6" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <!-- CO2 icon -->
+    <text x="35" y="38" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#95a5a6" font-weight="bold">CO&#8322;</text>
+    <text x="60" y="30" font-family="Georgia, serif" font-size="15" fill="#bdc3c7" font-weight="bold">CO&#8322; Level</text>
+    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">More CO&#8322; &#8594; faster rate</text>
+    <text x="15" y="72" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Limited by enzyme capacity</text>
+    <!-- Mini graph -->
+    <polyline points="170,95 185,85 200,70 215,60 230,57 240,56" stroke="#95a5a6" stroke-width="2" fill="none"/>
+    <line x1="170" y1="95" x2="170" y2="55" stroke="#666" stroke-width="1"/>
+    <line x1="170" y1="95" x2="242" y2="95" stroke="#666" stroke-width="1"/>
+  </g>
+
+  <!-- Water Supply -->
+  <g transform="translate(905,1330)">
+    <rect x="0" y="0" width="220" height="110" rx="12" fill="url(#cardGrad)" stroke="#3498db" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <!-- Water drop -->
+    <path d="M35,20 C42,30 47,38 47,43 C47,50 42,55 35,55 C28,55 23,50 23,43 C23,38 28,30 35,20Z" fill="#3498db" opacity="0.4"/>
+    <text x="60" y="30" font-family="Georgia, serif" font-size="15" fill="#3498db" font-weight="bold">Water Supply</text>
+    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Low water &#8594; stomata close</text>
+    <text x="15" y="72" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Reduces CO&#8322; intake</text>
+    <text x="15" y="89" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d4d4d4">Slows photosynthesis</text>
+  </g>
+
+  <!-- ==================== KEY FACTS ==================== -->
+  <text x="600" y="1490" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#2ecc71" font-weight="bold" filter="url(#glow)">Key Facts to Remember</text>
+  <line x1="470" y1="1502" x2="730" y2="1502" stroke="#2ecc71" stroke-width="1" opacity="0.4"/>
+
+  <!-- Facts grid -->
+  <g transform="translate(80,1515)">
+    <!-- Fact 1: Chlorophyll -->
+    <rect x="0" y="0" width="530" height="38" rx="8" fill="#1a3a1a" stroke="#2a5a2a" stroke-width="1"/>
+    <circle cx="22" cy="19" r="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="22" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">1</text>
+    <text x="42" y="16" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="600">Chlorophyll</text>
+    <text x="42" y="30" font-family="'Segoe UI', sans-serif" font-size="11" fill="#aaa">Green pigment that absorbs red and blue light; reflects green</text>
+
+    <!-- Fact 2: Stomata -->
+    <rect x="0" y="45" width="530" height="38" rx="8" fill="#1a3a1a" stroke="#2a5a2a" stroke-width="1"/>
+    <circle cx="22" cy="64" r="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="22" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">2</text>
+    <text x="42" y="61" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="600">Stomata</text>
+    <text x="42" y="75" font-family="'Segoe UI', sans-serif" font-size="11" fill="#aaa">Tiny pores on leaf underside; CO&#8322; in, O&#8322; and water vapour out</text>
+
+    <!-- Fact 3: Glucose Use -->
+    <rect x="0" y="90" width="530" height="38" rx="8" fill="#1a3a1a" stroke="#2a5a2a" stroke-width="1"/>
+    <circle cx="22" cy="109" r="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="22" y="113" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">3</text>
+    <text x="42" y="106" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="600">Glucose Use</text>
+    <text x="42" y="120" font-family="'Segoe UI', sans-serif" font-size="11" fill="#aaa">Energy (respiration), growth (cellulose), or stored as starch</text>
+  </g>
+
+  <g transform="translate(640,1515)">
+    <!-- Fact 4: Day &amp; Night -->
+    <rect x="0" y="0" width="480" height="38" rx="8" fill="#1a3a1a" stroke="#2a5a2a" stroke-width="1"/>
+    <circle cx="22" cy="19" r="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="22" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">4</text>
+    <text x="42" y="16" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="600">Day &amp; Night</text>
+    <text x="42" y="30" font-family="'Segoe UI', sans-serif" font-size="11" fill="#aaa">Photosynthesis = only in light; Respiration = all the time</text>
+
+    <!-- Fact 5: C3, C4, CAM -->
+    <rect x="0" y="45" width="480" height="38" rx="8" fill="#1a3a1a" stroke="#2a5a2a" stroke-width="1"/>
+    <circle cx="22" cy="64" r="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="22" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">5</text>
+    <text x="42" y="61" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="600">C3, C4 &amp; CAM Pathways</text>
+    <text x="42" y="75" font-family="'Segoe UI', sans-serif" font-size="11" fill="#aaa">Different plants use different pathways based on climate</text>
+
+    <!-- Fact 6: RuBisCO -->
+    <rect x="0" y="90" width="480" height="38" rx="8" fill="#1a3a1a" stroke="#2a5a2a" stroke-width="1"/>
+    <circle cx="22" cy="109" r="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="22" y="113" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">6</text>
+    <text x="42" y="106" font-family="'Segoe UI', sans-serif" font-size="12" fill="#2ecc71" font-weight="600">RuBisCO</text>
+    <text x="42" y="120" font-family="'Segoe UI', sans-serif" font-size="11" fill="#aaa">Most abundant protein on Earth; catalyzes carbon fixation</text>
+  </g>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="100" y1="1660" x2="1100" y2="1660" stroke="#2a5a2a" stroke-width="1" opacity="0.5"/>
+  <text x="600" y="1682" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#7dcea0" font-weight="600">thepractiseground.in</text>
+  <text x="600" y="1696" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#5a8a5a">Free quizzes &amp; study guides for Grades 5-10</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="1694" width="1200" height="6" fill="url(#headerGrad)"/>
+</svg>
