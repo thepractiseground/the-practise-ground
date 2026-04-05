@@ -429,32 +429,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── Fun Tab ── */}
-        <section data-tab="fun" className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          <Link
-            href="/fun"
-            className="group block relative overflow-hidden rounded-2xl p-6 sm:p-8 text-center hover:shadow-lg transition-all"
-          >
-            <Image
-              src="/images/og/og-fun.png"
-              alt="Fun trivia quizzes on world capitals, space facts, famous inventions and more"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 896px"
-            />
-            <div className="absolute inset-0 bg-white/75 group-hover:bg-white/70 transition-colors" />
-            <div className="relative z-10">
-              <span className="text-3xl">🎯</span>
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mt-2 mb-1">Looking for something fun?</h2>
-              <p className="text-gray-600 text-sm sm:text-base mb-3">
-                Try our fun quizzes — world capitals, space facts, famous inventions, flags and more!
-              </p>
-              <span className="text-brand-orange font-semibold group-hover:underline">
-                Explore Fun Quizzes →
-              </span>
-            </div>
-          </Link>
-        </section>
       </SubjectTabs>
 
       {/* Features Section */}
@@ -475,22 +449,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Colouring Books CTA */}
-      <section className="py-16 bg-theme-gradient">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-3xl font-bold text-brand-navy mb-4">Colouring Books for Kids</h2>
-          <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-            Explore our collection of fun and creative colouring books — available on Amazon!
-          </p>
-          <Link
-            href="/colouring-books"
-            className="inline-block bg-brand-pink text-white px-8 py-3 rounded-xl font-semibold hover:bg-pink-600 transition-colors"
-          >
-            Browse Colouring Books
-          </Link>
         </div>
       </section>
 

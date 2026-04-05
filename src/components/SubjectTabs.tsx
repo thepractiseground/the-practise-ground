@@ -7,7 +7,6 @@ const TABS = [
   { id: "maths", label: "Maths", emoji: "🔢" },
   { id: "science", label: "Science", emoji: "🔬" },
   { id: "languages", label: "Languages", emoji: "🌍" },
-  { id: "fun", label: "Fun", emoji: "🎯" },
 ];
 
 export default function SubjectTabs({ children }: { children: ReactNode }) {
@@ -55,7 +54,7 @@ export default function SubjectTabs({ children }: { children: ReactNode }) {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className="flex items-center gap-1 sm:gap-2 py-3 overflow-x-auto scrollbar-hide"
+            className="flex flex-wrap items-center justify-center gap-2 py-3"
             role="tablist"
             aria-label="Subject categories"
           >
