@@ -6,6 +6,7 @@ import { markdownToHtml } from "@/lib/markdown";
 import WhatsAppShareBlog from "@/components/WhatsAppShareBlog";
 import HeroImage from "@/components/HeroImage";
 import ImageActions from "@/components/ImageActions";
+import BlogQuizCTA, { getRelatedQuizLinks } from "@/components/BlogQuizCTA";
 
 
 interface PageProps {
@@ -250,38 +251,15 @@ export default async function BlogPostPage({ params }: PageProps) {
           )}
 
           {/* Inline Quiz CTA — shown early so bounce visitors see it */}
-          {(() => {
-            const isMaths = ["Maths Concepts", "Maths Tips", "Problem Solving"].includes(post.category);
-            const isScience = ["Physics", "Chemistry", "Biology", "Science"].includes(post.category);
-            const gradeMatch = post.grade.match(/\d+/g);
-            const primaryGrade = gradeMatch ? Number(gradeMatch[0]) : 8;
-            const subject = isMaths ? "Maths" : isScience ? "Science" : "English";
-            const href = isMaths ? `/quiz/maths/${primaryGrade}` : isScience ? `/quiz/science/${primaryGrade}` : `/quiz/${primaryGrade}`;
-            return (
-              <div className="mb-8 p-4 sm:p-5 bg-gradient-to-r from-brand-navy/5 to-brand-teal/5 border border-brand-teal/20 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
-                <span className="text-2xl shrink-0">{isMaths ? "🔢" : isScience ? "🔬" : "📝"}</span>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-semibold text-brand-navy">
-                    Want to test what you know?
-                  </p>
-                  <p className="text-xs text-gray-500">
-                    Try our free Grade {primaryGrade} {subject} quiz — 25 questions, instant results, no sign-up.
-                  </p>
-                </div>
-                <Link
-                  href={href}
-                  className="shrink-0 bg-brand-orange text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-brand-orange/90 transition-colors"
-                >
-                  Take the Quiz →
-                </Link>
-              </div>
-            );
-          })()}
+          <BlogQuizCTA category={post.category} grade={post.grade} variant="inline" />
 
           <div
             className="prose-content"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
+
+          {/* Mid-article CTA — catches readers who made it through the content */}
+          <BlogQuizCTA category={post.category} grade={post.grade} variant="mid" />
         </article>
 
         {/* WhatsApp Share Section */}
@@ -323,30 +301,20 @@ export default async function BlogPostPage({ params }: PageProps) {
           </section>
         )}
 
-        {/* Related Quizzes */}
+        {/* Related Quizzes — subject-aware links */}
         <section className="mb-12">
           <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-6">Practice What You&apos;ve Learned</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {(() => {
-              const isMaths = ["Maths Concepts", "Maths Tips", "Problem Solving"].includes(post.category);
-              const gradeMatch = post.grade.match(/\d+/g);
-              const grades = gradeMatch ? gradeMatch.map(Number) : [5, 6, 7, 8, 9, 10];
-              const displayGrades = grades.length >= 2
-                ? Array.from({ length: grades[grades.length - 1] - grades[0] + 1 }, (_, i) => grades[0] + i)
-                : grades;
-              return displayGrades.slice(0, 6).map((g) => (
-                <Link
-                  key={g}
-                  href={isMaths ? `/quiz/maths/${g}` : `/quiz/${g}`}
-                  className={`${isMaths ? "bg-emerald-50 hover:bg-emerald-100 border-emerald-200" : "bg-blue-50 hover:bg-blue-100 border-blue-200"} border rounded-xl p-4 transition-colors group`}
-                >
-                  <div className={`text-sm font-semibold ${isMaths ? "text-emerald-700" : "text-blue-700"} mb-1`}>
-                    Grade {g} {isMaths ? "Maths" : "English"}
-                  </div>
-                  <div className="text-xs text-gray-500">52 weeks of free quizzes →</div>
-                </Link>
-              ));
-            })()}
+            {getRelatedQuizLinks(post.category, post.grade).map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`${link.bgClasses} border rounded-xl p-4 transition-colors group`}
+              >
+                <div className="text-sm font-semibold mb-1">{link.label}</div>
+                <div className="text-xs text-gray-500">52 weeks of free quizzes →</div>
+              </Link>
+            ))}
           </div>
         </section>
 
