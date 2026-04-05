@@ -12,6 +12,8 @@ import { SPANISH_CEFR_LEVELS, getSpanishLevelWeeks } from "@/lib/cefr-spanish-qu
 import { FRENCH_CEFR_LEVELS, getFrenchLevelWeeks } from "@/lib/cefr-french-quiz-data";
 import { GERMAN_CEFR_LEVELS, getGermanLevelWeeks } from "@/lib/cefr-german-quiz-data";
 import SubjectTabs from "@/components/SubjectTabs";
+import GradeSelector from "@/components/GradeSelector";
+import StatsBar from "@/components/StatsBar";
 
 
 export default function Home() {
@@ -63,20 +65,13 @@ export default function Home() {
         background: "linear-gradient(to bottom right, var(--color-hero-from), var(--color-hero-via), var(--color-hero-to))",
       }}
     >
-      {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 text-center">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-navy mb-4">
-          Practise <span className="text-brand-orange">Every Week</span>
-        </h1>
-        <p className="text-lg sm:text-xl text-gray-600 mb-2 max-w-2xl mx-auto">
-          Free interactive quizzes in English, Maths, Science, Physics, Chemistry, Biology &amp; more for Grades 5 to 12. No sign-up required!
-        </p>
-        <p className="text-base text-gray-500 mb-4">
-          {totalQuestions.toLocaleString()}+ questions &middot; 8 subjects &middot; 8 grades &middot; Weekly content
-        </p>
-      </section>
+      {/* Hero — Grade Selector */}
+      <GradeSelector totalQuestions={totalQuestions} />
 
-      {/* Subject Tabs + Content */}
+      {/* Stats Bar — breadth showcase */}
+      <StatsBar totalQuestions={totalQuestions} />
+
+      {/* Subject Tabs + Content — full browse experience */}
       <SubjectTabs>
         {/* ── English Tab ── */}
         <section data-tab="english" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
