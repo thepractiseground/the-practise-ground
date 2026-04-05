@@ -86,10 +86,8 @@ export default function Home() {
               alt="English grammar and vocabulary quiz practice for Grades 5 to 12"
               fill
               className="object-cover"
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 1280px"
               priority
-              fetchPriority="high"
-              loading="eager"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-orange-600/75 to-amber-500/65" />
             <div className="relative z-10 flex items-center gap-3">
@@ -139,7 +137,7 @@ export default function Home() {
               alt="Maths quiz practice covering arithmetic, algebra and geometry for Grades 5 to 12"
               fill
               className="object-cover"
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 1280px"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/75 to-teal-500/65" />
             <div className="relative z-10 flex items-center gap-3">
@@ -230,7 +228,7 @@ export default function Home() {
               alt="Science quiz practice covering physics, chemistry and biology for Grades 5 to 12"
               fill
               className="object-cover"
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 1280px"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600/75 to-indigo-500/65" />
             <div className="relative z-10 flex items-center gap-3">
@@ -389,7 +387,7 @@ export default function Home() {
               alt="Language quizzes for English, Spanish, French and German — CEFR aligned"
               fill
               className="object-cover"
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 1280px"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-800/60" />
             <div className="relative z-10 flex items-center gap-3 mb-1">
@@ -430,6 +428,29 @@ export default function Home() {
         </section>
 
       </SubjectTabs>
+
+      {/* Fun Quiz Discovery Card */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <Link
+          href="/fun"
+          className="group block bg-gradient-to-r from-rose-50 via-purple-50 to-indigo-50 border border-purple-200/60 rounded-2xl p-5 sm:p-6 hover:shadow-lg hover:border-purple-300 transition-all duration-200"
+        >
+          <div className="flex items-center gap-4">
+            <div className="text-3xl sm:text-4xl shrink-0">🧠</div>
+            <div className="flex-1 min-w-0">
+              <h3 className="text-lg sm:text-xl font-bold text-brand-navy mb-1 group-hover:text-purple-700 transition-colors">
+                Brain Break — Try a Fun Quiz!
+              </h3>
+              <p className="text-sm text-gray-500">
+                Riddles, logic puzzles, general knowledge &amp; more. Our most engaging quizzes — students spend 8 minutes on average!
+              </p>
+            </div>
+            <svg className="w-6 h-6 text-purple-400 group-hover:translate-x-1 transition-transform shrink-0 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+        </Link>
+      </section>
 
       {/* Features Section */}
       <section className="bg-white py-16">

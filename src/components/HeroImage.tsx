@@ -26,7 +26,7 @@ export default function HeroImage({
         alt={alt}
         fill
         className="object-cover"
-        sizes="100vw"
+        sizes="(max-width: 768px) 100vw, 1280px"
         priority
       />
       <div

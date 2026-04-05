@@ -210,6 +210,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               alt={post.featuredImageAlt || post.title}
               width={1200}
               height={630}
+              sizes="(max-width: 768px) 100vw, 896px"
               priority
               className="w-full h-auto object-cover"
             />
@@ -247,6 +248,36 @@ export default async function BlogPostPage({ params }: PageProps) {
               </ul>
             </nav>
           )}
+
+          {/* Inline Quiz CTA — shown early so bounce visitors see it */}
+          {(() => {
+            const isMaths = ["Maths Concepts", "Maths Tips", "Problem Solving"].includes(post.category);
+            const isScience = ["Physics", "Chemistry", "Biology", "Science"].includes(post.category);
+            const gradeMatch = post.grade.match(/\d+/g);
+            const primaryGrade = gradeMatch ? Number(gradeMatch[0]) : 8;
+            const subject = isMaths ? "Maths" : isScience ? "Science" : "English";
+            const href = isMaths ? `/quiz/maths/${primaryGrade}` : isScience ? `/quiz/science/${primaryGrade}` : `/quiz/${primaryGrade}`;
+            return (
+              <div className="mb-8 p-4 sm:p-5 bg-gradient-to-r from-brand-navy/5 to-brand-teal/5 border border-brand-teal/20 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+                <span className="text-2xl shrink-0">{isMaths ? "🔢" : isScience ? "🔬" : "📝"}</span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold text-brand-navy">
+                    Want to test what you know?
+                  </p>
+                  <p className="text-xs text-gray-500">
+                    Try our free Grade {primaryGrade} {subject} quiz — 25 questions, instant results, no sign-up.
+                  </p>
+                </div>
+                <Link
+                  href={href}
+                  className="shrink-0 bg-brand-orange text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-brand-orange/90 transition-colors"
+                >
+                  Take the Quiz →
+                </Link>
+              </div>
+            );
+          })()}
+
           <div
             className="prose-content"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
@@ -323,7 +354,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <section className="bg-gradient-to-r from-brand-navy to-brand-teal rounded-2xl p-8 sm:p-12 mb-12 text-white text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">Ready to Practice?</h2>
           <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-            Test your skills with our free interactive quizzes. Over 23,400 questions covering English, Maths, Science and more.
+            Test your skills with our free interactive quizzes. Over 39,000 questions covering English, Maths, Science and more — trusted by students in 200+ countries.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

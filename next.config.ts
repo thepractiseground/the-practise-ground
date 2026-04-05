@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   experimental: {
     inlineCss: true, // Inline CSS into HTML to eliminate render-blocking stylesheet requests
   },
+  images: {
+    formats: ["image/avif", "image/webp"], // Serve modern formats (50-80% smaller than PNG/JPEG)
+    deviceSizes: [640, 750, 828, 1080, 1200], // Common mobile & tablet breakpoints
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384], // Thumbnail sizes
+    minimumCacheTTL: 31536000, // Cache optimized images for 1 year
+  },
   async redirects() {
     return [
       // Redirect old systeme.io grade URLs to new quiz URLs
