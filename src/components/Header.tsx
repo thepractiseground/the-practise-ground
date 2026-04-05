@@ -182,9 +182,6 @@ export default function Header() {
             <Link href="/blog" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               Blog
             </Link>
-            <Link href="/colouring-books" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
-              Colouring Books
-            </Link>
             <Link href="/posters-printables" className="text-gray-700 hover:text-brand-orange transition-colors font-medium">
               Printables
             </Link>
@@ -274,9 +271,6 @@ export default function Header() {
             </Link>
             <Link href="/blog" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
               📖 Blog
-            </Link>
-            <Link href="/colouring-books" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
-              🎨 Colouring Books
             </Link>
             <Link href="/posters-printables" onClick={closeMenu} className="flex items-center gap-3 px-5 py-3.5 text-gray-700 hover:bg-gray-50 font-medium text-sm min-h-12">
               🖼️ Printables
