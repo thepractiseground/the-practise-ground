@@ -93,6 +93,13 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Literature", "Genre", "Creative Writing"],
   },
+  {
+    title: "Creative Writing",
+    description: "A playful guide to creative writing — story starters, character-building tips, and prompts to spark imagination. Perfect for young writers finding their voice.",
+    file: "/posters/creative-writing-poster.pdf",
+    subject: "English",
+    tags: ["Creative Writing", "Story Writing", "Prompts"],
+  },
   // Maths
   {
     title: "Split Strategy",
@@ -157,6 +164,20 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Multiplication", "Times Tables", "Reference"],
   },
+  {
+    title: "Percentage Wall",
+    description: "A colourful wall chart showing common percentages with their fraction and decimal equivalents. A quick-reference tool for converting between forms.",
+    file: "/posters/percentage-wall-maths-poster.pdf",
+    subject: "Maths",
+    tags: ["Percentages", "Fractions", "Decimals"],
+  },
+  {
+    title: "Decimal Wall",
+    description: "Visual reference chart for understanding decimals — place values, conversions to fractions and percentages, and number line representations.",
+    file: "/posters/decimal-wall-maths-poster.pdf",
+    subject: "Maths",
+    tags: ["Decimals", "Place Value", "Number Sense"],
+  },
   // Science
   {
     title: "Forms of Energy",
@@ -213,6 +234,13 @@ const posters: Poster[] = [
     file: "/posters/food-web-science-poster.pdf",
     subject: "Science",
     tags: ["Biology", "Ecology", "Ecosystems"],
+  },
+  {
+    title: "Electricity: Types & Materials",
+    description: "An illustrated guide to types of electricity, conductors, insulators, and how electrical circuits work. Covers static and current electricity with everyday examples.",
+    file: "/posters/electricity-types-materials-poster.pdf",
+    subject: "Science",
+    tags: ["Physics", "Electricity", "Circuits"],
   },
 ];
 
