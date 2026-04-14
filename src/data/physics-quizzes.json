@@ -5893,254 +5893,254 @@
       "topic": "Mechanical Properties of Solids – Stress, Strain, Hooke's Law, Young's Modulus",
       "questions": [
         {
-          "question": "Question 1 for Week 24",
+          "question": "Stress is defined as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Force per unit area",
+            "Force times area",
+            "Force per unit length",
+            "Change in length"
           ],
-          "answer": "Option A"
+          "answer": "Force per unit area"
         },
         {
-          "question": "Question 2 for Week 24",
+          "question": "SI unit of stress:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pascal (N/m²)",
+            "Newton",
+            "kg/m²",
+            "N·m"
           ],
-          "answer": "Option A"
+          "answer": "Pascal (N/m²)"
         },
         {
-          "question": "Question 3 for Week 24",
+          "question": "Strain is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Change in dimension / original dimension",
+            "Force / area",
+            "Stress / elasticity",
+            "Change in length"
           ],
-          "answer": "Option A"
+          "answer": "Change in dimension / original dimension"
         },
         {
-          "question": "Question 4 for Week 24",
+          "question": "Strain has units of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "None (dimensionless)",
+            "Pascal",
+            "Newton",
+            "m/m"
           ],
-          "answer": "Option A"
+          "answer": "None (dimensionless)"
         },
         {
-          "question": "Question 5 for Week 24",
+          "question": "Hooke's law states:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Stress is proportional to strain within elastic limit",
+            "F=ma",
+            "PV=constant",
+            "Stress = strain²"
           ],
-          "answer": "Option A"
+          "answer": "Stress is proportional to strain within elastic limit"
         },
         {
-          "question": "Question 6 for Week 24",
+          "question": "Young's modulus is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longitudinal stress / longitudinal strain",
+            "Shear stress / shear strain",
+            "Volume stress / volume strain",
+            "Force/area"
           ],
-          "answer": "Option A"
+          "answer": "Longitudinal stress / longitudinal strain"
         },
         {
-          "question": "Question 7 for Week 24",
+          "question": "SI unit of Young's modulus:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pascal",
+            "Newton",
+            "kg/m",
+            "N·m"
           ],
-          "answer": "Option A"
+          "answer": "Pascal"
         },
         {
-          "question": "Question 8 for Week 24",
+          "question": "Bulk modulus relates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pressure change to fractional volume change",
+            "Force to area",
+            "Stress to strain always",
+            "Shear stress to angle"
           ],
-          "answer": "Option A"
+          "answer": "Pressure change to fractional volume change"
         },
         {
-          "question": "Question 9 for Week 24",
+          "question": "Modulus of rigidity (shear modulus) is defined for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shear strain",
+            "Volumetric strain",
+            "Linear strain",
+            "Torsional"
           ],
-          "answer": "Option A"
+          "answer": "Shear strain"
         },
         {
-          "question": "Question 10 for Week 24",
+          "question": "Poisson's ratio σ lies between:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "-1 and 0.5",
+            "0 and 1",
+            "-0.5 and 1",
+            "1 and 2"
           ],
-          "answer": "Option A"
+          "answer": "-1 and 0.5"
         },
         {
-          "question": "Question 11 for Week 24",
+          "question": "Material with largest Young's modulus among: steel, copper, rubber:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Steel",
+            "Copper",
+            "Rubber",
+            "All same"
           ],
-          "answer": "Option A"
+          "answer": "Steel"
         },
         {
-          "question": "Question 12 for Week 24",
+          "question": "Elastic limit is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Max stress beyond which permanent deformation occurs",
+            "Max force",
+            "Max length",
+            "Breaking point"
           ],
-          "answer": "Option A"
+          "answer": "Max stress beyond which permanent deformation occurs"
         },
         {
-          "question": "Question 13 for Week 24",
+          "question": "Breaking stress depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Material only",
+            "Length only",
+            "Area only",
+            "Material and temperature"
           ],
-          "answer": "Option A"
+          "answer": "Material and temperature"
         },
         {
-          "question": "Question 14 for Week 24",
+          "question": "Dimensional formula of stress:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[ML⁻¹T⁻²]",
+            "[MLT⁻²]",
+            "[M⁰L⁰T⁰]",
+            "[ML²T⁻²]"
           ],
-          "answer": "Option A"
+          "answer": "[ML⁻¹T⁻²]"
         },
         {
-          "question": "Question 15 for Week 24",
+          "question": "Strain energy per unit volume = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½ × stress × strain",
+            "stress × strain",
+            "½ × F × x",
+            "stress/strain"
           ],
-          "answer": "Option A"
+          "answer": "½ × stress × strain"
         },
         {
-          "question": "Question 16 for Week 24",
+          "question": "A wire of length L, area A, stretched by force F. Extension x = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "FL/(AY)",
+            "FA/(LY)",
+            "LY/(FA)",
+            "F/(AYL)"
           ],
-          "answer": "Option A"
+          "answer": "FL/(AY)"
         },
         {
-          "question": "Question 17 for Week 24",
+          "question": "Two wires of same material, one thicker. Same force. Extension:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less in thicker",
+            "More in thicker",
+            "Same",
+            "Zero in thicker"
           ],
-          "answer": "Option A"
+          "answer": "Less in thicker"
         },
         {
-          "question": "Question 18 for Week 24",
+          "question": "Elastic potential energy in stretched wire:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½ × stress × strain × volume",
+            "stress × strain × volume",
+            "Force × length",
+            "stress × volume"
           ],
-          "answer": "Option A"
+          "answer": "½ × stress × strain × volume"
         },
         {
-          "question": "Question 19 for Week 24",
+          "question": "Ratio Y:B:η for typical solid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Y > B > η usually",
+            "All equal",
+            "η > B > Y",
+            "Depends"
           ],
-          "answer": "Option A"
+          "answer": "Y > B > η usually"
         },
         {
-          "question": "Question 20 for Week 24",
+          "question": "Compressibility = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/Bulk modulus",
+            "Bulk modulus",
+            "Young's modulus",
+            "Shear modulus"
           ],
-          "answer": "Option A"
+          "answer": "1/Bulk modulus"
         },
         {
-          "question": "Question 21 for Week 24",
+          "question": "A rubber band is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less elastic than steel",
+            "More elastic than steel",
+            "Equally elastic",
+            "Not elastic"
           ],
-          "answer": "Option A"
+          "answer": "Less elastic than steel"
         },
         {
-          "question": "Question 22 for Week 24",
+          "question": "Stress-strain curve: yield point lies between:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Elastic limit and ultimate stress",
+            "Origin and proportional limit",
+            "Ultimate stress and breaking",
+            "After breaking"
           ],
-          "answer": "Option A"
+          "answer": "Elastic limit and ultimate stress"
         },
         {
-          "question": "Question 23 for Week 24",
+          "question": "Proportional limit is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Max stress where Hooke's law holds",
+            "Breaking stress",
+            "Yield stress",
+            "Ultimate stress"
           ],
-          "answer": "Option A"
+          "answer": "Max stress where Hooke's law holds"
         },
         {
-          "question": "Question 24 for Week 24",
+          "question": "A steel wire (Y=2×10¹¹ Pa), length 2 m, area 10⁻⁶ m², stretched by 0.1 mm. Force:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 N",
+            "100 N",
+            "1 N",
+            "1000 N"
           ],
-          "answer": "Option A"
+          "answer": "10 N"
         },
         {
-          "question": "Question 25 for Week 24",
+          "question": "Young's modulus of a perfectly rigid body is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Infinite",
+            "Zero",
+            "1",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "Infinite"
         }
       ]
     },
@@ -6149,254 +6149,254 @@
       "topic": "Mechanical Properties of Fluids – Pressure, Pascal's Law, Bernoulli's Principle",
       "questions": [
         {
-          "question": "Question 1 for Week 25",
+          "question": "Pressure at depth h in a fluid of density ρ:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ρgh",
+            "ρg/h",
+            "ρ/gh",
+            "g·h"
           ],
-          "answer": "Option A"
+          "answer": "ρgh"
         },
         {
-          "question": "Question 2 for Week 25",
+          "question": "SI unit of pressure:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pascal",
+            "Newton",
+            "Torr",
+            "Bar"
           ],
-          "answer": "Option A"
+          "answer": "Pascal"
         },
         {
-          "question": "Question 3 for Week 25",
+          "question": "1 atmosphere equals approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.013 × 10⁵ Pa",
+            "10⁵ Pa",
+            "1000 Pa",
+            "10⁷ Pa"
           ],
-          "answer": "Option A"
+          "answer": "1.013 × 10⁵ Pa"
         },
         {
-          "question": "Question 4 for Week 25",
+          "question": "Pascal's law states:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pressure applied at one point in enclosed fluid transmits equally everywhere",
+            "P = ρgh",
+            "Density is constant",
+            "Flow is laminar"
           ],
-          "answer": "Option A"
+          "answer": "Pressure applied at one point in enclosed fluid transmits equally everywhere"
         },
         {
-          "question": "Question 5 for Week 25",
+          "question": "Hydraulic lift works on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pascal's law",
+            "Bernoulli's principle",
+            "Archimedes' principle",
+            "Stokes' law"
           ],
-          "answer": "Option A"
+          "answer": "Pascal's law"
         },
         {
-          "question": "Question 6 for Week 25",
+          "question": "Bernoulli's equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P + ½ρv² + ρgh = const",
+            "P = ρgh",
+            "PV = nRT",
+            "F = ma"
           ],
-          "answer": "Option A"
+          "answer": "P + ½ρv² + ρgh = const"
         },
         {
-          "question": "Question 7 for Week 25",
+          "question": "Bernoulli's principle is based on conservation of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy",
+            "Momentum",
+            "Mass",
+            "Pressure"
           ],
-          "answer": "Option A"
+          "answer": "Energy"
         },
         {
-          "question": "Question 8 for Week 25",
+          "question": "In a venturi meter, increased velocity implies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reduced pressure",
+            "Increased pressure",
+            "Same pressure",
+            "Zero pressure"
           ],
-          "answer": "Option A"
+          "answer": "Reduced pressure"
         },
         {
-          "question": "Question 9 for Week 25",
+          "question": "Aerofoil generates lift because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Faster airflow on top reduces pressure",
+            "Slower airflow on top",
+            "Equal airflow",
+            "No relation to pressure"
           ],
-          "answer": "Option A"
+          "answer": "Faster airflow on top reduces pressure"
         },
         {
-          "question": "Question 10 for Week 25",
+          "question": "Equation of continuity: A₁v₁ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A₂v₂",
+            "A₂/v₂",
+            "v₂·A₂²",
+            "constant/A₂"
           ],
-          "answer": "Option A"
+          "answer": "A₂v₂"
         },
         {
-          "question": "Question 11 for Week 25",
+          "question": "Equation of continuity is based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conservation of mass",
+            "Conservation of energy",
+            "Newton's law",
+            "Stokes' law"
           ],
-          "answer": "Option A"
+          "answer": "Conservation of mass"
         },
         {
-          "question": "Question 12 for Week 25",
+          "question": "Archimedes' principle: buoyant force = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weight of displaced fluid",
+            "Weight of body",
+            "Density × volume",
+            "Pressure × area"
           ],
-          "answer": "Option A"
+          "answer": "Weight of displaced fluid"
         },
         {
-          "question": "Question 13 for Week 25",
+          "question": "Body floats when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weight = buoyant force (average density ≤ fluid density)",
+            "Weight > buoyant force",
+            "Weight < 0",
+            "Density same as ground"
           ],
-          "answer": "Option A"
+          "answer": "Weight = buoyant force (average density ≤ fluid density)"
         },
         {
-          "question": "Question 14 for Week 25",
+          "question": "A body weighs 50 N in air and 30 N in water. Upthrust:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 N",
+            "80 N",
+            "50 N",
+            "30 N"
           ],
-          "answer": "Option A"
+          "answer": "20 N"
         },
         {
-          "question": "Question 15 for Week 25",
+          "question": "Pressure of gas in open manometer depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Height difference of liquid",
+            "Area of tube",
+            "Length of tube only",
+            "Gravity only"
           ],
-          "answer": "Option A"
+          "answer": "Height difference of liquid"
         },
         {
-          "question": "Question 16 for Week 25",
+          "question": "Gauge pressure is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Absolute - atmospheric",
+            "Atmospheric - absolute",
+            "ρgh only",
+            "Zero always"
           ],
-          "answer": "Option A"
+          "answer": "Absolute - atmospheric"
         },
         {
-          "question": "Question 17 for Week 25",
+          "question": "Pressure of 1 atm in mm of Hg:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "760 mm",
+            "75 mm",
+            "1000 mm",
+            "100 mm"
           ],
-          "answer": "Option A"
+          "answer": "760 mm"
         },
         {
-          "question": "Question 18 for Week 25",
+          "question": "In a siphon, fluid flows from:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher to lower level",
+            "Lower to higher",
+            "Both ways",
+            "Not at all"
           ],
-          "answer": "Option A"
+          "answer": "Higher to lower level"
         },
         {
-          "question": "Question 19 for Week 25",
+          "question": "Specific gravity of a body is ratio to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Density of water at 4°C",
+            "Mass of water",
+            "Volume of water",
+            "Weight of air"
           ],
-          "answer": "Option A"
+          "answer": "Density of water at 4°C"
         },
         {
-          "question": "Question 20 for Week 25",
+          "question": "Buoyancy decreases when fluid density:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Stays same",
+            "No effect"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Question 21 for Week 25",
+          "question": "Pressure increases with depth because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weight of fluid column above increases",
+            "Fluid is denser at depth",
+            "Temperature decreases",
+            "Surface tension"
           ],
-          "answer": "Option A"
+          "answer": "Weight of fluid column above increases"
         },
         {
-          "question": "Question 22 for Week 25",
+          "question": "Torricelli's theorem: v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(2gh)",
+            "√(gh)",
+            "2gh",
+            "gh"
           ],
-          "answer": "Option A"
+          "answer": "√(2gh)"
         },
         {
-          "question": "Question 23 for Week 25",
+          "question": "A small hole at depth h has efflux speed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(2gh)",
+            "2gh",
+            "gh",
+            "√(gh/2)"
           ],
-          "answer": "Option A"
+          "answer": "√(2gh)"
         },
         {
-          "question": "Question 24 for Week 25",
+          "question": "Pressure at depth 10 m in water (ρ=1000, g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁵ Pa",
+            "10⁴ Pa",
+            "10³ Pa",
+            "10⁶ Pa"
           ],
-          "answer": "Option A"
+          "answer": "10⁵ Pa"
         },
         {
-          "question": "Question 25 for Week 25",
+          "question": "Atmospheric pressure decreases with altitude because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less air column above",
+            "More gravity",
+            "Less humidity",
+            "Temperature rises"
           ],
-          "answer": "Option A"
+          "answer": "Less air column above"
         }
       ]
     },
@@ -6405,254 +6405,254 @@
       "topic": "Mechanical Properties of Fluids – Viscosity, Stokes' Law, Surface Tension",
       "questions": [
         {
-          "question": "Question 1 for Week 26",
+          "question": "Viscosity is the property of fluid by which it:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Opposes relative motion between layers",
+            "Flows faster",
+            "Transmits pressure",
+            "Floats objects"
           ],
-          "answer": "Option A"
+          "answer": "Opposes relative motion between layers"
         },
         {
-          "question": "Question 2 for Week 26",
+          "question": "SI unit of coefficient of viscosity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pa·s (or N·s/m²)",
+            "N·m",
+            "kg/m",
+            "m²/s"
           ],
-          "answer": "Option A"
+          "answer": "Pa·s (or N·s/m²)"
         },
         {
-          "question": "Question 3 for Week 26",
+          "question": "CGS unit of viscosity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Poise",
+            "Stokes",
+            "Pascal",
+            "Newton"
           ],
-          "answer": "Option A"
+          "answer": "Poise"
         },
         {
-          "question": "Question 4 for Week 26",
+          "question": "Stokes' law: viscous force on sphere F = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6πηrv",
+            "πηrv",
+            "4πηrv",
+            "2πηrv"
           ],
-          "answer": "Option A"
+          "answer": "6πηrv"
         },
         {
-          "question": "Question 5 for Week 26",
+          "question": "Terminal velocity of sphere: v_t = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(2r²(ρ-σ)g)/(9η)",
+            "(r²ρg)/(9η)",
+            "(2rρg)/η",
+            "η/(r²g)"
           ],
-          "answer": "Option A"
+          "answer": "(2r²(ρ-σ)g)/(9η)"
         },
         {
-          "question": "Question 6 for Week 26",
+          "question": "Reynolds number Re = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ρvD/η",
+            "η/(ρvD)",
+            "ρD/(vη)",
+            "v²D/(ρη)"
           ],
-          "answer": "Option A"
+          "answer": "ρvD/η"
         },
         {
-          "question": "Question 7 for Week 26",
+          "question": "Flow becomes turbulent typically for Re:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "> ~2000-3000",
+            "< 100",
+            "< 500",
+            "Any value"
           ],
-          "answer": "Option A"
+          "answer": "> ~2000-3000"
         },
         {
-          "question": "Question 8 for Week 26",
+          "question": "Surface tension is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cohesive forces between molecules",
+            "Gravity",
+            "Pressure",
+            "Viscosity"
           ],
-          "answer": "Option A"
+          "answer": "Cohesive forces between molecules"
         },
         {
-          "question": "Question 9 for Week 26",
+          "question": "SI unit of surface tension:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N/m",
+            "N·m",
+            "Pa",
+            "J"
           ],
-          "answer": "Option A"
+          "answer": "N/m"
         },
         {
-          "question": "Question 10 for Week 26",
+          "question": "Surface tension of water decreases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increased temperature",
+            "Decreased temperature",
+            "Increased pressure",
+            "Any change"
           ],
-          "answer": "Option A"
+          "answer": "Increased temperature"
         },
         {
-          "question": "Question 11 for Week 26",
+          "question": "Capillary rise h = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2T cosθ / (ρgr)",
+            "2T / (ρgr)",
+            "T cosθ / (ρg)",
+            "T/(rρg)"
           ],
-          "answer": "Option A"
+          "answer": "2T cosθ / (ρgr)"
         },
         {
-          "question": "Question 12 for Week 26",
+          "question": "Water rises in capillary because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Adhesion > cohesion, angle of contact acute",
+            "Cohesion > adhesion",
+            "Gravity pushes up",
+            "Pressure is low"
           ],
-          "answer": "Option A"
+          "answer": "Adhesion > cohesion, angle of contact acute"
         },
         {
-          "question": "Question 13 for Week 26",
+          "question": "Mercury in capillary:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Depresses (angle > 90°)",
+            "Rises",
+            "Remains same",
+            "Boils"
           ],
-          "answer": "Option A"
+          "answer": "Depresses (angle > 90°)"
         },
         {
-          "question": "Question 14 for Week 26",
+          "question": "Excess pressure inside a soap bubble:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4T/r",
+            "2T/r",
+            "T/r",
+            "8T/r"
           ],
-          "answer": "Option A"
+          "answer": "4T/r"
         },
         {
-          "question": "Question 15 for Week 26",
+          "question": "Excess pressure inside a liquid drop:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2T/r",
+            "4T/r",
+            "T/r",
+            "8T/r"
           ],
-          "answer": "Option A"
+          "answer": "2T/r"
         },
         {
-          "question": "Question 16 for Week 26",
+          "question": "Surface energy per unit area equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Surface tension",
+            "Pressure",
+            "Half of pressure",
+            "Twice pressure"
           ],
-          "answer": "Option A"
+          "answer": "Surface tension"
         },
         {
-          "question": "Question 17 for Week 26",
+          "question": "Two drops of radius r combine. New radius:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "r·2^(1/3)",
+            "2r",
+            "r/2",
+            "r"
           ],
-          "answer": "Option A"
+          "answer": "r·2^(1/3)"
         },
         {
-          "question": "Question 18 for Week 26",
+          "question": "Velocity gradient has units:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "s⁻¹",
+            "m/s",
+            "m/s²",
+            "s"
           ],
-          "answer": "Option A"
+          "answer": "s⁻¹"
         },
         {
-          "question": "Question 19 for Week 26",
+          "question": "Streamline flow is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Orderly, non-mixing layers",
+            "Turbulent",
+            "Random",
+            "Rotational always"
           ],
-          "answer": "Option A"
+          "answer": "Orderly, non-mixing layers"
         },
         {
-          "question": "Question 20 for Week 26",
+          "question": "Critical velocity is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Speed at which flow becomes turbulent",
+            "Max speed in pipe",
+            "Escape speed",
+            "Zero velocity"
           ],
-          "answer": "Option A"
+          "answer": "Speed at which flow becomes turbulent"
         },
         {
-          "question": "Question 21 for Week 26",
+          "question": "Coefficient of viscosity of honey vs water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Honey higher",
+            "Water higher",
+            "Equal",
+            "Both zero"
           ],
-          "answer": "Option A"
+          "answer": "Honey higher"
         },
         {
-          "question": "Question 22 for Week 26",
+          "question": "A sphere falls in viscous liquid. Initially it accelerates, then:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Attains terminal velocity",
+            "Keeps accelerating",
+            "Stops",
+            "Oscillates"
           ],
-          "answer": "Option A"
+          "answer": "Attains terminal velocity"
         },
         {
-          "question": "Question 23 for Week 26",
+          "question": "Rain drops achieve constant velocity due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Viscous drag balancing gravity",
+            "No gravity",
+            "Buoyancy only",
+            "Electromagnetic force"
           ],
-          "answer": "Option A"
+          "answer": "Viscous drag balancing gravity"
         },
         {
-          "question": "Question 24 for Week 26",
+          "question": "Angle of contact for water-glass is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈ 0° (acute)",
+            "90°",
+            ">90°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "≈ 0° (acute)"
         },
         {
-          "question": "Question 25 for Week 26",
+          "question": "Soap reduces surface tension of water, hence:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cleans better by wetting fabric",
+            "Increases capillary rise",
+            "Increases tension",
+            "Heats water"
           ],
-          "answer": "Option A"
+          "answer": "Cleans better by wetting fabric"
         }
       ]
     },
@@ -6661,254 +6661,254 @@
       "topic": "Thermal Properties of Matter – Temperature, Heat, Thermal Expansion",
       "questions": [
         {
-          "question": "What is the SI unit of temperature?",
+          "question": "Temperature is measure of:",
           "options": [
-            "Celsius",
+            "Average KE of molecules",
+            "Total energy",
+            "Pressure",
+            "Mass"
+          ],
+          "answer": "Average KE of molecules"
+        },
+        {
+          "question": "SI unit of temperature:",
+          "options": [
             "Kelvin",
+            "Celsius",
             "Fahrenheit",
             "Rankine"
           ],
           "answer": "Kelvin"
         },
         {
-          "question": "At what temperature are Celsius and Fahrenheit equal?",
+          "question": "Absolute zero is:",
           "options": [
-            "-40°C",
+            "0 K = -273.15°C",
+            "0°C",
+            "0°F",
+            "-100°C"
+          ],
+          "answer": "0 K = -273.15°C"
+        },
+        {
+          "question": "Conversion: °C to K:",
+          "options": [
+            "K = °C + 273.15",
+            "K = °C - 273.15",
+            "K = °C/273",
+            "K = °C × 273"
+          ],
+          "answer": "K = °C + 273.15"
+        },
+        {
+          "question": "°F to °C: C = :",
+          "options": [
+            "(F-32) × 5/9",
+            "(F+32) × 5/9",
+            "F × 9/5 + 32",
+            "F - 32"
+          ],
+          "answer": "(F-32) × 5/9"
+        },
+        {
+          "question": "Heat is a form of:",
+          "options": [
+            "Energy",
+            "Force",
+            "Mass",
+            "Temperature"
+          ],
+          "answer": "Energy"
+        },
+        {
+          "question": "1 calorie equals approximately:",
+          "options": [
+            "4.186 J",
+            "1 J",
+            "10 J",
+            "0.1 J"
+          ],
+          "answer": "4.186 J"
+        },
+        {
+          "question": "Linear expansion coefficient α is defined as:",
+          "options": [
+            "(ΔL/L)/ΔT",
+            "ΔL × ΔT",
+            "L/T",
+            "1/L"
+          ],
+          "answer": "(ΔL/L)/ΔT"
+        },
+        {
+          "question": "Area expansion coefficient β = :",
+          "options": [
+            "2α",
+            "α",
+            "3α",
+            "α²"
+          ],
+          "answer": "2α"
+        },
+        {
+          "question": "Volume expansion coefficient γ = :",
+          "options": [
+            "3α",
+            "α",
+            "2α",
+            "α/3"
+          ],
+          "answer": "3α"
+        },
+        {
+          "question": "Unit of α:",
+          "options": [
+            "K⁻¹ or °C⁻¹",
+            "m/K",
+            "K",
+            "m"
+          ],
+          "answer": "K⁻¹ or °C⁻¹"
+        },
+        {
+          "question": "Anomalous expansion of water: max density at:",
+          "options": [
+            "4°C",
             "0°C",
             "100°C",
-            "273°C"
+            "-4°C"
           ],
-          "answer": "-40°C"
+          "answer": "4°C"
         },
         {
-          "question": "What is absolute zero in Kelvin?",
+          "question": "A bimetallic strip uses different:",
           "options": [
-            "0 K",
-            "-273 K",
-            "273 K",
-            "-460 K"
+            "Expansion coefficients",
+            "Densities",
+            "Colours",
+            "Weights"
           ],
-          "answer": "0 K"
+          "answer": "Expansion coefficients"
         },
         {
-          "question": "Thermal expansion coefficient for solids:",
+          "question": "Thermal expansion of solids is generally:",
           "options": [
-            "10⁻⁴ K⁻¹",
-            "10⁻⁵ K⁻¹",
-            "10⁻³ K⁻¹",
-            "10⁻² K⁻¹"
-          ],
-          "answer": "10⁻⁵ K⁻¹"
-        },
-        {
-          "question": "Volumetric expansion coefficient γ in terms of α:",
-          "options": [
-            "γ = α",
-            "γ = 2α",
-            "γ = 3α",
-            "γ = 4α"
-          ],
-          "answer": "γ = 3α"
-        },
-        {
-          "question": "Which liquid has anomalous expansion?",
-          "options": [
-            "Alcohol",
-            "Water",
-            "Mercury",
-            "Glycerin"
-          ],
-          "answer": "Water"
-        },
-        {
-          "question": "Linear expansion formula:",
-          "options": [
-            "L = L₀ + αΔT",
-            "L = L₀(1 + αΔT)",
-            "L = L₀α²ΔT",
-            "L = L₀/αΔT"
-          ],
-          "answer": "L = L₀(1 + αΔT)"
-        },
-        {
-          "question": "Bimetallic strip bends because:",
-          "options": [
-            "Same expansion",
-            "Different coefficients",
-            "Lost weight",
-            "Contraction"
-          ],
-          "answer": "Different coefficients"
-        },
-        {
-          "question": "In thermodynamics, what is heat best described as?",
-          "options": [
-            "Temperature",
-            "KE of molecules",
-            "Energy transferred via temp difference",
-            "Internal energy"
-          ],
-          "answer": "Energy transferred via temp difference"
-        },
-        {
-          "question": "SI unit of heat:",
-          "options": [
-            "Calorie",
-            "Joule",
-            "Erg",
-            "Watt"
-          ],
-          "answer": "Joule"
-        },
-        {
-          "question": "Calorie to joule conversion:",
-          "options": [
-            "1 cal = 4.18 J",
-            "1 cal = 4.2 J",
-            "1 cal = 418 J",
-            "1 cal = 0.42 J"
-          ],
-          "answer": "1 cal = 4.18 J"
-        },
-        {
-          "question": "Newton's Law of Cooling:",
-          "options": [
-            "Constant rate",
-            "Proportional to ΔT",
-            "Proportional to t",
-            "Independent of ΔT"
-          ],
-          "answer": "Proportional to ΔT"
-        },
-        {
-          "question": "Railway gaps prevent:",
-          "options": [
-            "Summer expansion",
-            "Winter contraction",
-            "Thermal buckling",
-            "Rust"
-          ],
-          "answer": "Thermal buckling"
-        },
-        {
-          "question": "When heated, density of substance:",
-          "options": [
-            "Increases",
-            "Decreases",
-            "Constant",
+            "Less than liquids and gases",
+            "More than gases",
+            "Same",
             "Zero"
           ],
-          "answer": "Decreases"
+          "answer": "Less than liquids and gases"
         },
         {
-          "question": "Heated glass plate with hole:",
+          "question": "Steel bridge has expansion joints for:",
           "options": [
-            "Decreases",
-            "Increases",
-            "Constant",
-            "Disappears"
+            "Thermal expansion/contraction",
+            "Support",
+            "Weight",
+            "Decoration"
           ],
-          "answer": "Increases"
+          "answer": "Thermal expansion/contraction"
         },
         {
-          "question": "Mercury thermometer advantage:",
+          "question": "Length of rod at T₁ is L₁, at T₂ is L₂ = L₁(1 + α(T₂-T₁)). This assumes:",
           "options": [
+            "Small ΔT",
+            "Only metals",
+            "T₁ > T₂",
+            "Large strain"
+          ],
+          "answer": "Small ΔT"
+        },
+        {
+          "question": "A metal rod of 1 m expands 1 mm when heated 100°C. α = :",
+          "options": [
+            "10⁻⁵ /°C",
+            "10⁻³ /°C",
+            "10⁻⁴ /°C",
+            "10⁻⁶ /°C"
+          ],
+          "answer": "10⁻⁵ /°C"
+        },
+        {
+          "question": "Thermometer using gas is based on:",
+          "options": [
+            "Variation of pressure or volume with T",
+            "Variation of length",
+            "Color",
+            "Density"
+          ],
+          "answer": "Variation of pressure or volume with T"
+        },
+        {
+          "question": "Celsius and Fahrenheit scales are equal at:",
+          "options": [
+            "-40°",
+            "0°",
+            "100°",
+            "40°"
+          ],
+          "answer": "-40°"
+        },
+        {
+          "question": "Which has higher α: brass or invar?",
+          "options": [
+            "Brass (higher)",
+            "Invar (higher)",
+            "Equal",
+            "Zero both"
+          ],
+          "answer": "Brass (higher)"
+        },
+        {
+          "question": "Mercury is used in thermometers because:",
+          "options": [
+            "Uniform expansion, doesn't wet glass",
             "Cheap",
-            "Non-toxic",
-            "Doesn't wet glass, large expansion coefficient",
-            "Visible"
+            "Solid",
+            "Red color"
           ],
-          "answer": "Doesn't wet glass, large expansion coefficient"
+          "answer": "Uniform expansion, doesn't wet glass"
         },
         {
-          "question": "Cavity in heated metal block:",
+          "question": "Heat absorbed Q = :",
           "options": [
-            "Air expands",
-            "Expands with block",
-            "Contracts",
-            "Unchanged"
+            "mcΔT",
+            "mΔT",
+            "cΔT",
+            "m/c"
           ],
-          "answer": "Expands with block"
+          "answer": "mcΔT"
         },
         {
-          "question": "Water volumetric expansion coefficient:",
+          "question": "Heat is transferred from:",
           "options": [
-            "2 × 10⁻⁴ K⁻¹",
-            "2 × 10⁻⁵ K⁻¹",
-            "2 × 10⁻³ K⁻¹",
-            "2 × 10⁻⁶ K⁻¹"
+            "Hot to cold",
+            "Cold to hot naturally",
+            "Both ways equally",
+            "No direction"
           ],
-          "answer": "2 × 10⁻⁴ K⁻¹"
+          "answer": "Hot to cold"
         },
         {
-          "question": "Water at 4°C when heated:",
+          "question": "Celsius and Kelvin differ by:",
           "options": [
-            "Expands",
-            "Contracts then expands",
-            "Contracts",
-            "Unchanged"
-          ],
-          "answer": "Contracts then expands"
-        },
-        {
-          "question": "Area expansion β relates to α:",
-          "options": [
-            "β = α",
-            "β = 2α",
-            "β = 3α",
-            "β = α/2"
-          ],
-          "answer": "β = 2α"
-        },
-        {
-          "question": "Linear expansion coefficient units:",
-          "options": [
-            "K",
-            "K⁻¹",
-            "°C/m",
-            "m/K"
-          ],
-          "answer": "K⁻¹"
-        },
-        {
-          "question": "At constant volume, P and T:",
-          "options": [
-            "Inverse",
-            "Direct",
-            "Independent",
-            "Exponential"
-          ],
-          "answer": "Direct"
-        },
-        {
-          "question": "Thermal expansion cause:",
-          "options": [
-            "More atoms",
-            "Mass increase",
-            "Atomic vibration amplitude",
-            "Density change"
-          ],
-          "answer": "Atomic vibration amplitude"
-        },
-        {
-          "question": "Celsius to Kelvin: K = °C +",
-          "options": [
-            "273",
             "273.15",
             "100",
-            "32"
+            "32",
+            "0"
           ],
           "answer": "273.15"
         },
         {
-          "question": "At constant pressure, V/T:",
+          "question": "Thermocouple thermometer uses:",
           "options": [
-            "= constant",
-            "≠ constant",
-            "= 0",
-            "= ∞"
+            "Seebeck effect",
+            "Peltier effect",
+            "Joule effect",
+            "Ohm's law"
           ],
-          "answer": "= constant"
+          "answer": "Seebeck effect"
         }
       ]
     },
@@ -6917,254 +6917,254 @@
       "topic": "Thermal Properties of Matter – Specific Heat, Calorimetry, Change of State",
       "questions": [
         {
-          "question": "Specific heat capacity definition:",
+          "question": "Specific heat capacity is:",
           "options": [
-            "Heat for 1 kg by 1°C",
-            "Heat for 1 g by 1 K",
-            "Heat per unit mass",
-            "All of above"
+            "Heat to raise 1 kg by 1 K",
+            "Heat to melt 1 kg",
+            "Heat per mole",
+            "Heat per volume"
           ],
-          "answer": "All of above"
+          "answer": "Heat to raise 1 kg by 1 K"
         },
         {
           "question": "SI unit of specific heat:",
           "options": [
             "J/(kg·K)",
-            "J/(g·°C)",
-            "Cal/(kg·K)",
-            "Erg/(g·K)"
+            "J/K",
+            "cal/g",
+            "J"
           ],
           "answer": "J/(kg·K)"
         },
         {
-          "question": "Specific heat of water:",
+          "question": "Specific heat of water (approx):",
           "options": [
+            "4186 J/(kg·K)",
             "1000 J/(kg·K)",
-            "4200 J/(kg·K)",
-            "420 J/(kg·K)",
-            "100 J/(kg·K)"
+            "100 cal/g·°C",
+            "1 J/(kg·K)"
           ],
-          "answer": "4200 J/(kg·K)"
+          "answer": "4186 J/(kg·K)"
         },
         {
-          "question": "Metal with highest specific heat:",
+          "question": "Molar specific heat is heat for:",
           "options": [
-            "Aluminum",
-            "Iron",
-            "Copper",
-            "Lead"
+            "1 mole by 1 K",
+            "1 gram by 1 K",
+            "1 kg by 1°C",
+            "1 atom"
           ],
-          "answer": "Aluminum"
+          "answer": "1 mole by 1 K"
         },
         {
-          "question": "In Q = mcΔT, 'c' represents:",
+          "question": "Latent heat of fusion is heat to:",
           "options": [
-            "Heat capacity",
-            "Specific heat capacity",
-            "Thermal conductivity",
-            "Specific gravity"
+            "Change solid to liquid at constant T",
+            "Raise temperature",
+            "Change phase of any material",
+            "Evaporate"
           ],
-          "answer": "Specific heat capacity"
+          "answer": "Change solid to liquid at constant T"
         },
         {
-          "question": "1 kg water at 30°C mixed with 2 kg at 50°C, final T:",
+          "question": "Latent heat of vaporization of water at 100°C:",
           "options": [
-            "40°C",
-            "43.3°C",
-            "45°C",
-            "50°C"
+            "~2260 J/g",
+            "~336 J/g",
+            "~1 J/g",
+            "~2260 kJ/kg"
           ],
-          "answer": "43.3°C"
-        },
-        {
-          "question": "Heat capacity 500 J/K, heat for 10 K rise:",
-          "options": [
-            "50 J",
-            "500 J",
-            "5000 J",
-            "0.05 J"
-          ],
-          "answer": "5000 J"
-        },
-        {
-          "question": "Calorimetry principle:",
-          "options": [
-            "Energy conservation",
-            "Heat flow hot to cold",
-            "Specific heat constant",
-            "Temperature conserved"
-          ],
-          "answer": "Energy conservation"
+          "answer": "~2260 J/g"
         },
         {
           "question": "Latent heat of fusion of ice:",
           "options": [
-            "80 J/g",
-            "800 J/g",
-            "8000 J/g",
-            "80000 J/g"
+            "~336 J/g",
+            "~2260 J/g",
+            "~100 J/g",
+            "~1000 J/g"
           ],
-          "answer": "80 J/g"
+          "answer": "~336 J/g"
         },
         {
-          "question": "Latent heat of vaporization of water:",
+          "question": "Principle of calorimetry:",
           "options": [
-            "80 J/g",
-            "540 J/g",
-            "2260 J/g",
-            "226 J/g"
+            "Heat lost = heat gained",
+            "Heat is created",
+            "Temperature is constant",
+            "Mass is constant"
           ],
-          "answer": "2260 J/g"
+          "answer": "Heat lost = heat gained"
         },
         {
           "question": "During change of state, temperature:",
           "options": [
-            "Increases",
-            "Decreases",
             "Remains constant",
-            "Varies"
+            "Rises",
+            "Falls",
+            "Oscillates"
           ],
           "answer": "Remains constant"
         },
         {
-          "question": "Heat for state change:",
+          "question": "Heat supplied during melting is used to:",
           "options": [
-            "Q = mcΔT",
-            "Q = mL",
-            "Q = m × c",
-            "Q = L/m"
+            "Overcome intermolecular forces",
+            "Raise temperature",
+            "Compress",
+            "Ionize"
           ],
-          "answer": "Q = mL"
-        },
-        {
-          "question": "Specific latent heat of vaporization:",
-          "options": [
-            "1 g liquid to gas",
-            "1 kg solid to liquid",
-            "Temperature by 1°C",
-            "1 g gas to liquid"
-          ],
-          "answer": "1 g liquid to gas"
-        },
-        {
-          "question": "Melting ice vs boiling water heat:",
-          "options": [
-            "Melting more",
-            "Boiling more",
-            "Same",
-            "Depends on quantity"
-          ],
-          "answer": "Boiling more"
-        },
-        {
-          "question": "Evaporation occurs at:",
-          "options": [
-            "Only boiling point",
-            "Any temperature",
-            "Room temperature only",
-            "0°C only"
-          ],
-          "answer": "Any temperature"
-        },
-        {
-          "question": "Evaporation cooling cause:",
-          "options": [
-            "Heat released",
-            "Faster molecules escape",
-            "Temperature decreases",
-            "Pressure increase"
-          ],
-          "answer": "Faster molecules escape"
-        },
-        {
-          "question": "Condensation reverse of:",
-          "options": [
-            "Melting",
-            "Vaporization",
-            "Sublimation",
-            "Freezing"
-          ],
-          "answer": "Vaporization"
-        },
-        {
-          "question": "Sublimation conversion:",
-          "options": [
-            "Solid to liquid",
-            "Liquid to gas",
-            "Solid to gas",
-            "Gas to solid"
-          ],
-          "answer": "Solid to gas"
-        },
-        {
-          "question": "Substance that can sublime:",
-          "options": [
-            "Ice",
-            "Iron",
-            "Dry ice (CO₂)",
-            "Water"
-          ],
-          "answer": "Dry ice (CO₂)"
+          "answer": "Overcome intermolecular forces"
         },
         {
           "question": "Triple point of water:",
           "options": [
+            "273.16 K, 611 Pa",
             "0°C, 1 atm",
             "100°C, 1 atm",
-            "273.16 K, 611.7 Pa",
-            "373.15 K, 1 atm"
+            "0 K, 0 Pa"
           ],
-          "answer": "273.16 K, 611.7 Pa"
+          "answer": "273.16 K, 611 Pa"
         },
         {
-          "question": "Ice melting at 0°C, entropy:",
+          "question": "Water has highest specific heat among common substances making it:",
+          "options": [
+            "Good coolant",
+            "Poor coolant",
+            "Good insulator",
+            "Poor heat carrier"
+          ],
+          "answer": "Good coolant"
+        },
+        {
+          "question": "Dulong-Petit law: molar specific heat of solids ≈ :",
+          "options": [
+            "3R",
+            "R",
+            "2R",
+            "3R/2"
+          ],
+          "answer": "3R"
+        },
+        {
+          "question": "When 1 g ice at 0°C mixes with 1 g water at 80°C, final state:",
+          "options": [
+            "All water near 0°C",
+            "Ice remains",
+            "All ice",
+            "Gas"
+          ],
+          "answer": "All water near 0°C"
+        },
+        {
+          "question": "Sublimation is:",
+          "options": [
+            "Solid directly to gas",
+            "Solid to liquid",
+            "Liquid to gas",
+            "Gas to liquid"
+          ],
+          "answer": "Solid directly to gas"
+        },
+        {
+          "question": "Boiling point of water at 1 atm:",
+          "options": [
+            "100°C",
+            "0°C",
+            "4°C",
+            "273 K"
+          ],
+          "answer": "100°C"
+        },
+        {
+          "question": "Freezing point of water at 1 atm:",
+          "options": [
+            "0°C",
+            "100°C",
+            "273 K (same as 0°C)",
+            "Both a and c"
+          ],
+          "answer": "Both a and c"
+        },
+        {
+          "question": "Pressure cooker cooks faster because:",
+          "options": [
+            "Higher pressure raises boiling point",
+            "Lower pressure",
+            "Greater heat capacity",
+            "Lower density"
+          ],
+          "answer": "Higher pressure raises boiling point"
+        },
+        {
+          "question": "100 g water at 20°C needs heat to reach 100°C (c=4200 J/kg·K):",
+          "options": [
+            "33.6 kJ",
+            "336 kJ",
+            "3.36 kJ",
+            "420 J"
+          ],
+          "answer": "33.6 kJ"
+        },
+        {
+          "question": "Critical temperature is T above which gas:",
+          "options": [
+            "Cannot be liquefied by pressure alone",
+            "Boils",
+            "Freezes",
+            "Sublimates"
+          ],
+          "answer": "Cannot be liquefied by pressure alone"
+        },
+        {
+          "question": "Regelation refers to:",
+          "options": [
+            "Ice melting under pressure and refreezing",
+            "Ice sublimation",
+            "Water freezing",
+            "Water boiling"
+          ],
+          "answer": "Ice melting under pressure and refreezing"
+        },
+        {
+          "question": "During evaporation, temperature of remaining liquid:",
           "options": [
             "Decreases",
             "Increases",
-            "Constant",
-            "Zero"
-          ],
-          "answer": "Increases"
-        },
-        {
-          "question": "Specific heat of gas depends on:",
-          "options": [
-            "Temperature only",
-            "Process (Cp or Cv)",
-            "Molecular weight",
-            "Pressure only"
-          ],
-          "answer": "Process (Cp or Cv)"
-        },
-        {
-          "question": "Water density upon freezing:",
-          "options": [
-            "Increases",
-            "Decreases",
-            "Constant",
-            "Varies"
+            "Unchanged",
+            "Doubles"
           ],
           "answer": "Decreases"
         },
         {
-          "question": "Mixture heat exchange principle:",
+          "question": "Heat capacity depends on:",
           "options": [
-            "Heat gained = Heat lost",
-            "Temp becomes zero",
-            "Ice melts",
-            "Water boils"
+            "Mass and specific heat",
+            "Density",
+            "Temperature only",
+            "Volume"
           ],
-          "answer": "Heat gained = Heat lost"
+          "answer": "Mass and specific heat"
         },
         {
-          "question": "Specific heat capacity of iron:",
+          "question": "Water equivalent of body is:",
           "options": [
-            "450 J/(kg·K)",
-            "900 J/(kg·K)",
-            "1800 J/(kg·K)",
-            "4200 J/(kg·K)"
+            "Mass of water with same heat capacity",
+            "Water content",
+            "Density",
+            "Volume of water"
           ],
-          "answer": "450 J/(kg·K)"
+          "answer": "Mass of water with same heat capacity"
+        },
+        {
+          "question": "Two substances of equal mass & same specific heat, heated with same Q:",
+          "options": [
+            "Same ΔT",
+            "Different ΔT",
+            "Depends on colour",
+            "Impossible"
+          ],
+          "answer": "Same ΔT"
         }
       ]
     },
@@ -7173,254 +7173,254 @@
       "topic": "Thermal Properties of Matter – Heat Transfer (Conduction, Convection, Radiation)",
       "questions": [
         {
-          "question": "Heat transfer modes:",
+          "question": "Conduction occurs mainly in:",
           "options": [
-            "Conduction, convection, diffusion",
-            "Conduction, convection, radiation",
-            "Radiation, diffusion, convection",
-            "Conduction, diffusion, radiation"
-          ],
-          "answer": "Conduction, convection, radiation"
-        },
-        {
-          "question": "Conduction occurs primarily in:",
-          "options": [
-            "Liquids",
-            "Gases",
             "Solids",
-            "Metals and liquids"
+            "Gases",
+            "Vacuum",
+            "Plasmas only"
           ],
           "answer": "Solids"
         },
         {
-          "question": "Fourier's law of conduction:",
+          "question": "Fourier's law: Q/t = :",
           "options": [
-            "Q/t = -kA(dT/dx)",
-            "Q = mcΔT",
-            "Q/t = hAΔT",
-            "Q = mL"
+            "-kA(dT/dx)",
+            "kA(dT/dt)",
+            "kA/dx",
+            "-dT/dx"
           ],
-          "answer": "Q/t = -kA(dT/dx)"
+          "answer": "-kA(dT/dx)"
         },
         {
-          "question": "SI unit of thermal conductivity:",
+          "question": "k in Fourier's law is:",
+          "options": [
+            "Thermal conductivity",
+            "Specific heat",
+            "Stefan constant",
+            "Boltzmann constant"
+          ],
+          "answer": "Thermal conductivity"
+        },
+        {
+          "question": "Unit of thermal conductivity:",
           "options": [
             "W/(m·K)",
-            "J/(m·K)",
-            "W·m/K",
-            "J·m/K"
+            "J/K",
+            "W/m",
+            "K/m"
           ],
           "answer": "W/(m·K)"
         },
         {
-          "question": "Best thermal conductor:",
-          "options": [
-            "Copper",
-            "Aluminum",
-            "Silver",
-            "Gold"
-          ],
-          "answer": "Silver"
-        },
-        {
-          "question": "Best thermal insulator:",
-          "options": [
-            "Copper",
-            "Air",
-            "Wood",
-            "Cork"
-          ],
-          "answer": "Air"
-        },
-        {
-          "question": "Thermal conductivity of copper:",
-          "options": [
-            "50 W/(m·K)",
-            "200 W/(m·K)",
-            "400 W/(m·K)",
-            "50000 W/(m·K)"
-          ],
-          "answer": "400 W/(m·K)"
-        },
-        {
-          "question": "Double-glazed windows reduce heat by:",
-          "options": [
-            "Reflection",
-            "Insulating air gap",
-            "Absorption",
-            "Conductivity increase"
-          ],
-          "answer": "Insulating air gap"
-        },
-        {
-          "question": "Convection is heat transfer via:",
-          "options": [
-            "Direct contact",
-            "Electromagnetic waves",
-            "Bulk fluid motion",
-            "Molecular vibrations"
-          ],
-          "answer": "Bulk fluid motion"
-        },
-        {
           "question": "Convection occurs in:",
           "options": [
-            "Solids",
-            "Liquids and gases",
-            "Metals only",
-            "Vacuum"
+            "Fluids (liquids and gases)",
+            "Solids only",
+            "Vacuum",
+            "None"
           ],
-          "answer": "Liquids and gases"
+          "answer": "Fluids (liquids and gases)"
         },
         {
-          "question": "In convection, heated material:",
+          "question": "Convection involves:",
           "options": [
-            "Stays in place",
-            "Rises carrying heat",
-            "Contracts",
-            "Becomes denser"
+            "Bulk motion of fluid",
+            "Random molecular motion",
+            "EM waves",
+            "Particle oscillation"
           ],
-          "answer": "Rises carrying heat"
+          "answer": "Bulk motion of fluid"
         },
         {
-          "question": "Sea breezes caused by:",
+          "question": "Radiation occurs in:",
           "options": [
-            "Radiation",
-            "Conduction",
-            "Convection",
-            "Diffusion"
+            "All media including vacuum",
+            "Solids only",
+            "Fluids only",
+            "Plasma only"
           ],
-          "answer": "Convection"
+          "answer": "All media including vacuum"
         },
         {
-          "question": "Heat radiation requires:",
+          "question": "Stefan-Boltzmann law: P = :",
           "options": [
-            "Hot body",
-            "Medium",
-            "Electromagnetic waves",
-            "Both A and C (NOT B)"
+            "σAT⁴",
+            "σAT",
+            "σAT²",
+            "σAT³"
           ],
-          "answer": "Both A and C (NOT B)"
+          "answer": "σAT⁴"
         },
         {
-          "question": "Objects emit thermal radiation because:",
+          "question": "Stefan-Boltzmann constant σ:",
           "options": [
-            "They are hot",
-            "Temperature above 0 K",
-            "Hot object contact",
-            "Absorb sunlight"
+            "5.67 × 10⁻⁸ W/(m²K⁴)",
+            "6.67 × 10⁻¹¹",
+            "1.38 × 10⁻²³",
+            "3 × 10⁸"
           ],
-          "answer": "Temperature above 0 K"
+          "answer": "5.67 × 10⁻⁸ W/(m²K⁴)"
         },
         {
-          "question": "Stefan-Boltzmann law: power ∝",
+          "question": "A black body is:",
           "options": [
-            "T",
-            "T²",
-            "T³",
-            "T⁴"
+            "Perfect absorber and emitter",
+            "White",
+            "Transparent",
+            "Reflector"
           ],
-          "answer": "T⁴"
+          "answer": "Perfect absorber and emitter"
         },
         {
-          "question": "Wien's displacement law relates to:",
+          "question": "Emissivity e of black body:",
           "options": [
-            "Intensity",
-            "Temperature",
-            "Frequency",
-            "Velocity"
-          ],
-          "answer": "Temperature"
-        },
-        {
-          "question": "Black body max radiation at:",
-          "options": [
-            "Longer wavelengths",
-            "Shorter as T increases",
-            "Constant wavelength",
-            "Infrared only"
-          ],
-          "answer": "Shorter as T increases"
-        },
-        {
-          "question": "Perfect black body emissivity:",
-          "options": [
+            "1",
             "0",
             "0.5",
-            "1",
-            "Infinity"
+            "Infinite"
           ],
           "answer": "1"
         },
         {
-          "question": "Thermal insulator has:",
+          "question": "Wien's displacement law: λ_max × T = :",
           "options": [
-            "Low conductivity",
-            "High conductivity",
-            "Zero specific heat",
-            "High density"
+            "Constant (2.9×10⁻³ m·K)",
+            "T², variable",
+            "Stefan constant",
+            "Boltzmann const"
           ],
-          "answer": "Low conductivity"
+          "answer": "Constant (2.9×10⁻³ m·K)"
         },
         {
-          "question": "Heat conduction rate depends on:",
+          "question": "Newton's law of cooling: rate ∝ :",
           "options": [
-            "Area only",
-            "ΔT only",
-            "Thickness, area, conductivity, ΔT",
-            "Density only"
+            "Temperature difference",
+            "Temperature",
+            "T⁴",
+            "T²"
           ],
-          "answer": "Thickness, area, conductivity, ΔT"
+          "answer": "Temperature difference"
         },
         {
-          "question": "Thermos flask reduces heat by:",
+          "question": "Good conductors are usually:",
           "options": [
-            "Conduction only",
-            "Prevents convection and conduction",
-            "Reflects radiation",
-            "All of above"
+            "Metals",
+            "Plastics",
+            "Wood",
+            "Ceramics"
           ],
-          "answer": "All of above"
+          "answer": "Metals"
         },
         {
-          "question": "Thermal conductivity of air:",
+          "question": "Silver is the best:",
           "options": [
-            "0.026 W/(m·K)",
-            "0.26 W/(m·K)",
-            "2.6 W/(m·K)",
-            "26 W/(m·K)"
+            "Thermal conductor",
+            "Insulator",
+            "Radiator",
+            "None"
           ],
-          "answer": "0.026 W/(m·K)"
+          "answer": "Thermal conductor"
         },
         {
-          "question": "Greenhouse effect traps heat via:",
+          "question": "Vacuum flask (thermos) reduces heat loss by:",
+          "options": [
+            "Conduction, convection, and radiation",
+            "Only conduction",
+            "Only radiation",
+            "None"
+          ],
+          "answer": "Conduction, convection, and radiation"
+        },
+        {
+          "question": "Silvered walls in thermos reduce:",
+          "options": [
+            "Radiation",
+            "Conduction",
+            "Convection",
+            "Nothing"
+          ],
+          "answer": "Radiation"
+        },
+        {
+          "question": "Wall of thermos is vacuum to reduce:",
+          "options": [
+            "Conduction and convection",
+            "Radiation only",
+            "Nothing",
+            "Convection only"
+          ],
+          "answer": "Conduction and convection"
+        },
+        {
+          "question": "Heat transfer in a pan on stove is primarily by:",
           "options": [
             "Conduction",
-            "Prevents convection and traps radiation",
-            "Radiation only",
-            "Evaporation"
+            "Convection",
+            "Radiation",
+            "Sublimation"
           ],
-          "answer": "Prevents convection and traps radiation"
+          "answer": "Conduction"
         },
         {
-          "question": "Newton's law of cooling: rate is:",
+          "question": "Heat from Sun reaches Earth by:",
           "options": [
-            "Constant",
-            "Proportional to ΔT",
-            "Proportional to mass",
-            "Independent of surroundings"
+            "Radiation",
+            "Conduction",
+            "Convection",
+            "All three"
           ],
-          "answer": "Proportional to ΔT"
+          "answer": "Radiation"
         },
         {
-          "question": "Thermal contact conductance depends on:",
+          "question": "Kirchhoff's law: good absorbers are:",
           "options": [
-            "Material only",
-            "Surface roughness and force",
-            "Temperature only",
-            "Surface area only"
+            "Good emitters",
+            "Poor emitters",
+            "Transparent",
+            "Reflective"
           ],
-          "answer": "Surface roughness and force"
+          "answer": "Good emitters"
+        },
+        {
+          "question": "A body at 300 K emits maximum power at λ_max ~ :",
+          "options": [
+            "~10 μm (infrared)",
+            "~500 nm (visible)",
+            "~100 nm (UV)",
+            "~1 pm"
+          ],
+          "answer": "~10 μm (infrared)"
+        },
+        {
+          "question": "Greenhouse effect involves:",
+          "options": [
+            "Trapping of IR radiation by atmospheric gases",
+            "Reflection of UV",
+            "Blue light absorption",
+            "Neutron emission"
+          ],
+          "answer": "Trapping of IR radiation by atmospheric gases"
+        },
+        {
+          "question": "Rate of radiation depends on T as:",
+          "options": [
+            "T⁴",
+            "T",
+            "T²",
+            "T³"
+          ],
+          "answer": "T⁴"
+        },
+        {
+          "question": "Convection is absent in:",
+          "options": [
+            "Solids and vacuum",
+            "Liquids",
+            "Gases",
+            "Plasma"
+          ],
+          "answer": "Solids and vacuum"
         }
       ]
     },
@@ -7429,254 +7429,254 @@
       "topic": "Thermodynamics – Zeroth & First Law, Internal Energy, Work Done",
       "questions": [
         {
-          "question": "Week 30 Question 1: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Zeroth law of thermodynamics:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "If A and B each in equilibrium with C, then A and B in equilibrium",
+            "Energy conservation",
+            "Entropy increases",
+            "PV=nRT"
           ],
-          "answer": "Option A"
+          "answer": "If A and B each in equilibrium with C, then A and B in equilibrium"
         },
         {
-          "question": "Week 30 Question 2: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Zeroth law defines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature",
+            "Entropy",
+            "Enthalpy",
+            "Work"
           ],
-          "answer": "Option A"
+          "answer": "Temperature"
         },
         {
-          "question": "Week 30 Question 3: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "First law of thermodynamics:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔU = Q - W",
+            "PV = nRT",
+            "ΔS ≥ 0",
+            "F=ma"
           ],
-          "answer": "Option A"
+          "answer": "ΔU = Q - W"
         },
         {
-          "question": "Week 30 Question 4: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "In first law, sign convention: Q positive when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat added to system",
+            "Heat leaves system",
+            "System does work",
+            "System compressed"
           ],
-          "answer": "Option A"
+          "answer": "Heat added to system"
         },
         {
-          "question": "Week 30 Question 5: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "W positive (in ΔU=Q-W) when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "System does work on surroundings",
+            "Work done on system",
+            "Heat added",
+            "No change"
           ],
-          "answer": "Option A"
+          "answer": "System does work on surroundings"
         },
         {
-          "question": "Week 30 Question 6: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Internal energy U depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "State of system",
+            "Path",
+            "Time",
+            "Phase only"
           ],
-          "answer": "Option A"
+          "answer": "State of system"
         },
         {
-          "question": "Week 30 Question 7: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "U is a function of state; Q and W are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Path-dependent",
+            "State-functions too",
+            "Constants",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Path-dependent"
         },
         {
-          "question": "Week 30 Question 8: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Work done by gas in isobaric process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PΔV",
+            "ΔU",
+            "nRT",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "PΔV"
         },
         {
-          "question": "Week 30 Question 9: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Work done in isochoric process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "PΔV",
+            "nRT ln(V₂/V₁)",
+            "ΔU"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 30 Question 10: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "First law for adiabatic process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔU = -W",
+            "ΔU = Q",
+            "Q=0 and ΔU=-W",
+            "W=0"
           ],
-          "answer": "Option A"
+          "answer": "Q=0 and ΔU=-W"
         },
         {
-          "question": "Week 30 Question 11: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "For ideal gas, U depends only on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature",
+            "Pressure",
+            "Volume",
+            "Both P and V"
           ],
-          "answer": "Option A"
+          "answer": "Temperature"
         },
         {
-          "question": "Week 30 Question 12: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Heat capacity at constant volume C_v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(dU/dT)_V",
+            "(dQ/dT)_P",
+            "(dU/dV)",
+            "PV"
           ],
-          "answer": "Option A"
+          "answer": "(dU/dT)_V"
         },
         {
-          "question": "Week 30 Question 13: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Heat capacity at constant pressure C_p = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(dQ/dT)_P = C_v + R",
+            "C_v - R",
+            "C_v",
+            "R"
           ],
-          "answer": "Option A"
+          "answer": "(dQ/dT)_P = C_v + R"
         },
         {
-          "question": "Week 30 Question 14: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Relation: C_p - C_v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R (for ideal gas)",
+            "0",
+            "2R",
+            "R/2"
           ],
-          "answer": "Option A"
+          "answer": "R (for ideal gas)"
         },
         {
-          "question": "Week 30 Question 15: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Specific heat ratio γ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C_p/C_v",
+            "C_v/C_p",
+            "C_p·C_v",
+            "R"
           ],
-          "answer": "Option A"
+          "answer": "C_p/C_v"
         },
         {
-          "question": "Week 30 Question 16: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "γ for monatomic ideal gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5/3",
+            "7/5",
+            "4/3",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "5/3"
         },
         {
-          "question": "Week 30 Question 17: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "γ for diatomic ideal gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7/5",
+            "5/3",
+            "4/3",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "7/5"
         },
         {
-          "question": "Week 30 Question 18: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Unit of internal energy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Joule",
+            "Watt",
+            "Pascal",
+            "Kelvin"
           ],
-          "answer": "Option A"
+          "answer": "Joule"
         },
         {
-          "question": "Week 30 Question 19: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Perpetual motion machine of first kind violates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "First law",
+            "Second law",
+            "Zeroth law",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "First law"
         },
         {
-          "question": "Week 30 Question 20: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "In isothermal process, ΔU for ideal gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "nRT",
+            "PV",
+            "Positive"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 30 Question 21: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Q in isothermal process equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W",
+            "ΔU",
+            "0",
+            "U"
           ],
-          "answer": "Option A"
+          "answer": "W"
         },
         {
-          "question": "Week 30 Question 22: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Work done by ideal gas in isothermal expansion from V₁ to V₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nRT ln(V₂/V₁)",
+            "PΔV",
+            "nRΔT",
+            "PV"
           ],
-          "answer": "Option A"
+          "answer": "nRT ln(V₂/V₁)"
         },
         {
-          "question": "Week 30 Question 23: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Extensive properties include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Volume, energy, mass",
+            "Temperature, pressure",
+            "Density",
+            "Temperature only"
           ],
-          "answer": "Option A"
+          "answer": "Volume, energy, mass"
         },
         {
-          "question": "Week 30 Question 24: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "Intensive properties include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature, pressure, density",
+            "Mass, volume",
+            "Energy only",
+            "Entropy"
           ],
-          "answer": "Option A"
+          "answer": "Temperature, pressure, density"
         },
         {
-          "question": "Week 30 Question 25: Thermodynamics – Zeroth & First Law, Int...",
+          "question": "A gas absorbs 200 J heat and does 50 J work. ΔU:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "150 J",
+            "250 J",
+            "50 J",
+            "200 J"
           ],
-          "answer": "Option A"
+          "answer": "150 J"
         }
       ]
     },
@@ -7685,254 +7685,254 @@
       "topic": "Thermodynamics – Thermodynamic Processes (Isothermal, Adiabatic, Isochoric, Isobaric)",
       "questions": [
         {
-          "question": "Week 31 Question 1: Thermodynamics – Thermodynamic Processes...",
+          "question": "Isothermal process: T is constant means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔU = 0 (for ideal gas), Q = W",
+            "Q = 0",
+            "W = 0",
+            "P is constant"
           ],
-          "answer": "Option A"
+          "answer": "ΔU = 0 (for ideal gas), Q = W"
         },
         {
-          "question": "Week 31 Question 2: Thermodynamics – Thermodynamic Processes...",
+          "question": "Adiabatic process: Q = 0 means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔU = -W",
+            "ΔU = Q",
+            "W = 0",
+            "T is constant"
           ],
-          "answer": "Option A"
+          "answer": "ΔU = -W"
         },
         {
-          "question": "Week 31 Question 3: Thermodynamics – Thermodynamic Processes...",
+          "question": "Isochoric process: V constant means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W = 0, Q = ΔU",
+            "Q = 0",
+            "T = constant",
+            "P = constant"
           ],
-          "answer": "Option A"
+          "answer": "W = 0, Q = ΔU"
         },
         {
-          "question": "Week 31 Question 4: Thermodynamics – Thermodynamic Processes...",
+          "question": "Isobaric process: P constant means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W = PΔV",
+            "V = constant",
+            "Q = 0",
+            "ΔU = 0"
           ],
-          "answer": "Option A"
+          "answer": "W = PΔV"
         },
         {
-          "question": "Week 31 Question 5: Thermodynamics – Thermodynamic Processes...",
+          "question": "Adiabatic equation: PV^γ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Constant",
+            "nRT",
+            "Zero",
+            "Linear in V"
           ],
-          "answer": "Option A"
+          "answer": "Constant"
         },
         {
-          "question": "Week 31 Question 6: Thermodynamics – Thermodynamic Processes...",
+          "question": "Isothermal equation: PV = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nRT (constant at const T)",
+            "constant·V²",
+            "nRT²",
+            "γR"
           ],
-          "answer": "Option A"
+          "answer": "nRT (constant at const T)"
         },
         {
-          "question": "Week 31 Question 7: Thermodynamics – Thermodynamic Processes...",
+          "question": "In adiabatic expansion, temperature:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Same",
+            "Oscillates"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Week 31 Question 8: Thermodynamics – Thermodynamic Processes...",
+          "question": "In adiabatic compression, temperature:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Same",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Week 31 Question 9: Thermodynamics – Thermodynamic Processes...",
+          "question": "Relation TV^(γ-1) = constant applies to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Adiabatic process",
+            "Isothermal",
+            "Isobaric",
+            "Isochoric"
           ],
-          "answer": "Option A"
+          "answer": "Adiabatic process"
         },
         {
-          "question": "Week 31 Question 10: Thermodynamics – Thermodynamic Processes...",
+          "question": "Relation T·P^((1-γ)/γ) = constant applies to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Adiabatic",
+            "Isothermal",
+            "Isobaric",
+            "Isochoric"
           ],
-          "answer": "Option A"
+          "answer": "Adiabatic"
         },
         {
-          "question": "Week 31 Question 11: Thermodynamics – Thermodynamic Processes...",
+          "question": "Slope of P-V curve: isothermal vs adiabatic:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Adiabatic steeper",
+            "Isothermal steeper",
+            "Same",
+            "Adiabatic flat"
           ],
-          "answer": "Option A"
+          "answer": "Adiabatic steeper"
         },
         {
-          "question": "Week 31 Question 12: Thermodynamics – Thermodynamic Processes...",
+          "question": "Cyclic process: ΔU = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Q",
+            "W",
+            "nRT"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 31 Question 13: Thermodynamics – Thermodynamic Processes...",
+          "question": "In cyclic process, Q = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W",
+            "ΔU",
+            "0",
+            "nRT"
           ],
-          "answer": "Option A"
+          "answer": "W"
         },
         {
-          "question": "Week 31 Question 14: Thermodynamics – Thermodynamic Processes...",
+          "question": "Quasi-static process is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carried out slowly through equilibrium states",
+            "Fast",
+            "Instantaneous",
+            "Irreversible"
           ],
-          "answer": "Option A"
+          "answer": "Carried out slowly through equilibrium states"
         },
         {
-          "question": "Week 31 Question 15: Thermodynamics – Thermodynamic Processes...",
+          "question": "Reversible process requires:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Quasi-static, no friction/dissipation",
+            "Fast change",
+            "Irreversibility",
+            "Entropy decrease"
           ],
-          "answer": "Option A"
+          "answer": "Quasi-static, no friction/dissipation"
         },
         {
-          "question": "Week 31 Question 16: Thermodynamics – Thermodynamic Processes...",
+          "question": "In free expansion of ideal gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W=0, Q=0, ΔU=0, T unchanged",
+            "T changes",
+            "PV increases",
+            "All values change"
           ],
-          "answer": "Option A"
+          "answer": "W=0, Q=0, ΔU=0, T unchanged"
         },
         {
-          "question": "Week 31 Question 17: Thermodynamics – Thermodynamic Processes...",
+          "question": "For ideal gas in adiabatic: W = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(P₁V₁ - P₂V₂)/(γ-1)",
+            "nRT ln(V₂/V₁)",
+            "PΔV",
+            "nRΔT"
           ],
-          "answer": "Option A"
+          "answer": "(P₁V₁ - P₂V₂)/(γ-1)"
         },
         {
-          "question": "Week 31 Question 18: Thermodynamics – Thermodynamic Processes...",
+          "question": "Isothermal process of ideal gas: Work = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nRT ln(V₂/V₁)",
+            "CvΔT",
+            "PV",
+            "ΔU"
           ],
-          "answer": "Option A"
+          "answer": "nRT ln(V₂/V₁)"
         },
         {
-          "question": "Week 31 Question 19: Thermodynamics – Thermodynamic Processes...",
+          "question": "Most rapid real gas compressions approximate:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Adiabatic",
+            "Isothermal",
+            "Isochoric",
+            "Isobaric"
           ],
-          "answer": "Option A"
+          "answer": "Adiabatic"
         },
         {
-          "question": "Week 31 Question 20: Thermodynamics – Thermodynamic Processes...",
+          "question": "In isobaric heating, ΔU = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nC_v ΔT",
+            "nC_p ΔT",
+            "nRΔT",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "nC_v ΔT"
         },
         {
-          "question": "Week 31 Question 21: Thermodynamics – Thermodynamic Processes...",
+          "question": "In isobaric heating, Q = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nC_p ΔT",
+            "nC_v ΔT",
+            "0",
+            "PV"
           ],
-          "answer": "Option A"
+          "answer": "nC_p ΔT"
         },
         {
-          "question": "Week 31 Question 22: Thermodynamics – Thermodynamic Processes...",
+          "question": "PV diagram area enclosed in cycle = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Net work done",
+            "Heat added",
+            "ΔU",
+            "Entropy"
           ],
-          "answer": "Option A"
+          "answer": "Net work done"
         },
         {
-          "question": "Week 31 Question 23: Thermodynamics – Thermodynamic Processes...",
+          "question": "If cycle runs clockwise on PV diagram:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Engine (positive work)",
+            "Refrigerator",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Engine (positive work)"
         },
         {
-          "question": "Week 31 Question 24: Thermodynamics – Thermodynamic Processes...",
+          "question": "Polytropic process: PV^n = constant where n:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Any constant value",
+            "Always γ",
+            "Always 1",
+            "Always 0"
           ],
-          "answer": "Option A"
+          "answer": "Any constant value"
         },
         {
-          "question": "Week 31 Question 25: Thermodynamics – Thermodynamic Processes...",
+          "question": "Isothermal: n = ; Adiabatic: n = ; Isobaric: n = ; Isochoric: n = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1; γ; 0; ∞",
+            "0; 1; γ; ∞",
+            "γ; 1; 0; ∞",
+            "1; ∞; 0; γ"
           ],
-          "answer": "Option A"
+          "answer": "1; γ; 0; ∞"
         }
       ]
     },
@@ -7941,254 +7941,254 @@
       "topic": "Thermodynamics – Second Law, Heat Engines, Carnot Cycle, Refrigerators",
       "questions": [
         {
-          "question": "Week 32 Question 1: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Second law of thermodynamics (Kelvin-Planck):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No engine converts 100% heat into work",
+            "Heat flows from hot to cold",
+            "Both a and b",
+            "Energy is conserved"
           ],
-          "answer": "Option A"
+          "answer": "Both a and b"
         },
         {
-          "question": "Week 32 Question 2: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Clausius statement:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat cannot flow from cold to hot without external work",
+            "Q=mcΔT",
+            "PV=nRT",
+            "No 100% efficient engine"
           ],
-          "answer": "Option A"
+          "answer": "Heat cannot flow from cold to hot without external work"
         },
         {
-          "question": "Week 32 Question 3: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Efficiency of heat engine η = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W/Q_hot = 1 - Q_cold/Q_hot",
+            "Q_hot/W",
+            "Q_cold/Q_hot",
+            "W/Q_cold"
           ],
-          "answer": "Option A"
+          "answer": "W/Q_hot = 1 - Q_cold/Q_hot"
         },
         {
-          "question": "Week 32 Question 4: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Carnot engine efficiency η_Carnot = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 - T_cold/T_hot",
+            "T_hot/T_cold",
+            "T_cold/T_hot",
+            "T_hot - T_cold"
           ],
-          "answer": "Option A"
+          "answer": "1 - T_cold/T_hot"
         },
         {
-          "question": "Week 32 Question 5: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Carnot engine operates between two temperatures with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Two isotherms and two adiabatics",
+            "Three isotherms",
+            "Only adiabats",
+            "Only isochoric"
           ],
-          "answer": "Option A"
+          "answer": "Two isotherms and two adiabatics"
         },
         {
-          "question": "Week 32 Question 6: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Max possible efficiency of engine between T₁ and T₂ (T₂<T₁):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(T₁-T₂)/T₁",
+            "T₂/T₁",
+            "T₁/T₂",
+            "100%"
           ],
-          "answer": "Option A"
+          "answer": "(T₁-T₂)/T₁"
         },
         {
-          "question": "Week 32 Question 7: Thermodynamics – Second Law, Heat Engine...",
+          "question": "A heat engine working between 500 K and 300 K has max efficiency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "40%",
+            "60%",
+            "100%",
+            "30%"
           ],
-          "answer": "Option A"
+          "answer": "40%"
         },
         {
-          "question": "Week 32 Question 8: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Refrigerator COP β = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Q_cold/W",
+            "W/Q_cold",
+            "Q_hot/W",
+            "T_hot/T_cold"
           ],
-          "answer": "Option A"
+          "answer": "Q_cold/W"
         },
         {
-          "question": "Week 32 Question 9: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Carnot refrigerator COP:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T_cold/(T_hot - T_cold)",
+            "T_hot/(T_hot - T_cold)",
+            "(T_hot-T_cold)/T_hot",
+            "T_cold/T_hot"
           ],
-          "answer": "Option A"
+          "answer": "T_cold/(T_hot - T_cold)"
         },
         {
-          "question": "Week 32 Question 10: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Heat pump COP:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T_hot/(T_hot-T_cold)",
+            "T_cold/T_hot",
+            "1-T_cold/T_hot",
+            "W/Q_cold"
           ],
-          "answer": "Option A"
+          "answer": "T_hot/(T_hot-T_cold)"
         },
         {
-          "question": "Week 32 Question 11: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Perpetual motion machine of second kind violates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Second law",
+            "First law",
+            "Zeroth law",
+            "Newton's laws"
           ],
-          "answer": "Option A"
+          "answer": "Second law"
         },
         {
-          "question": "Week 32 Question 12: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Entropy change for reversible process ΔS = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "∫dQ/T",
+            "Q/T",
+            "Q·T",
+            "dU/dV"
           ],
-          "answer": "Option A"
+          "answer": "∫dQ/T"
         },
         {
-          "question": "Week 32 Question 13: Thermodynamics – Second Law, Heat Engine...",
+          "question": "In all spontaneous processes, total entropy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Constant",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Week 32 Question 14: Thermodynamics – Second Law, Heat Engine...",
+          "question": "SI unit of entropy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "J/K",
+            "K/J",
+            "W/K",
+            "J·K"
           ],
-          "answer": "Option A"
+          "answer": "J/K"
         },
         {
-          "question": "Week 32 Question 15: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Entropy is a measure of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Disorder",
+            "Energy",
+            "Temperature",
+            "Pressure"
           ],
-          "answer": "Option A"
+          "answer": "Disorder"
         },
         {
-          "question": "Week 32 Question 16: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Efficiency of actual heat engine compared to Carnot:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less",
+            "More",
+            "Equal",
+            "Double"
           ],
-          "answer": "Option A"
+          "answer": "Less"
         },
         {
-          "question": "Week 32 Question 17: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Carnot's theorem: all reversible engines between same temperatures have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same efficiency",
+            "Different efficiencies",
+            "Zero efficiency",
+            "100% efficiency"
           ],
-          "answer": "Option A"
+          "answer": "Same efficiency"
         },
         {
-          "question": "Week 32 Question 18: Thermodynamics – Second Law, Heat Engine...",
+          "question": "In a reversible cycle, ΔS_universe = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Positive",
+            "Negative",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 32 Question 19: Thermodynamics – Second Law, Heat Engine...",
+          "question": "For cyclic process, ΔS_system = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Q/T",
+            "Positive",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 32 Question 20: Thermodynamics – Second Law, Heat Engine...",
+          "question": "A heat engine takes 1000 J from hot and rejects 600 J to cold. W = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "400 J",
+            "600 J",
+            "1000 J",
+            "1600 J"
           ],
-          "answer": "Option A"
+          "answer": "400 J"
         },
         {
-          "question": "Week 32 Question 21: Thermodynamics – Second Law, Heat Engine...",
+          "question": "η of that engine:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "40%",
+            "60%",
+            "100%",
+            "25%"
           ],
-          "answer": "Option A"
+          "answer": "40%"
         },
         {
-          "question": "Week 32 Question 22: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Impossibility of 100% efficient engine is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Second law",
+            "First law",
+            "Zeroth law",
+            "Conservation of energy"
           ],
-          "answer": "Option A"
+          "answer": "Second law"
         },
         {
-          "question": "Week 32 Question 23: Thermodynamics – Second Law, Heat Engine...",
+          "question": "A Carnot engine's working substance can be any:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ideal or real gas (result is universal)",
+            "Only ideal gas",
+            "Only real gas",
+            "Only water"
           ],
-          "answer": "Option A"
+          "answer": "Ideal or real gas (result is universal)"
         },
         {
-          "question": "Week 32 Question 24: Thermodynamics – Second Law, Heat Engine...",
+          "question": "If T_cold = T_hot, Carnot efficiency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "1",
+            "0.5",
+            "100%"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 32 Question 25: Thermodynamics – Second Law, Heat Engine...",
+          "question": "Otto cycle is used in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Petrol engines",
+            "Diesel engines",
+            "Refrigerators",
+            "Steam engines"
           ],
-          "answer": "Option A"
+          "answer": "Petrol engines"
         }
       ]
     },
@@ -8197,254 +8197,254 @@
       "topic": "Kinetic Theory of Gases – Ideal Gas Equation, Gas Laws",
       "questions": [
         {
-          "question": "Week 33 Question 1: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Ideal gas equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PV = nRT",
+            "PV = RT",
+            "P/V = nRT",
+            "PV² = nRT"
           ],
-          "answer": "Option A"
+          "answer": "PV = nRT"
         },
         {
-          "question": "Week 33 Question 2: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Universal gas constant R value:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8.314 J/(mol·K)",
+            "1.38 × 10⁻²³",
+            "6.67 × 10⁻¹¹",
+            "3 × 10⁸"
           ],
-          "answer": "Option A"
+          "answer": "8.314 J/(mol·K)"
         },
         {
-          "question": "Week 33 Question 3: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Boltzmann constant k_B:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.38 × 10⁻²³ J/K",
+            "6.022 × 10²³",
+            "8.314 J/(mol·K)",
+            "9.8"
           ],
-          "answer": "Option A"
+          "answer": "1.38 × 10⁻²³ J/K"
         },
         {
-          "question": "Week 33 Question 4: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Avogadro's number N_A:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.022 × 10²³",
+            "8.314",
+            "1.38 × 10⁻²³",
+            "3 × 10⁸"
           ],
-          "answer": "Option A"
+          "answer": "6.022 × 10²³"
         },
         {
-          "question": "Week 33 Question 5: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "R = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N_A · k_B",
+            "N_A / k_B",
+            "k_B / N_A",
+            "1/(N_A·k_B)"
           ],
-          "answer": "Option A"
+          "answer": "N_A · k_B"
         },
         {
-          "question": "Week 33 Question 6: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Boyle's law: at constant T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PV = constant",
+            "V/T = constant",
+            "P/T = constant",
+            "V = constant"
           ],
-          "answer": "Option A"
+          "answer": "PV = constant"
         },
         {
-          "question": "Week 33 Question 7: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Charles's law: at constant P:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "V/T = constant",
+            "PV = constant",
+            "P/T = constant",
+            "V·P = T"
           ],
-          "answer": "Option A"
+          "answer": "V/T = constant"
         },
         {
-          "question": "Week 33 Question 8: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Gay-Lussac's law: at constant V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P/T = constant",
+            "PV = constant",
+            "V/T = constant",
+            "PT = constant"
           ],
-          "answer": "Option A"
+          "answer": "P/T = constant"
         },
         {
-          "question": "Week 33 Question 9: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Avogadro's law: at same P and T, equal volumes of gases contain:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Equal number of molecules",
+            "Equal mass",
+            "Equal atoms",
+            "Equal density"
           ],
-          "answer": "Option A"
+          "answer": "Equal number of molecules"
         },
         {
-          "question": "Week 33 Question 10: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Dalton's law of partial pressures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Total P = sum of partial pressures",
+            "P is constant",
+            "P = 1 atm",
+            "P varies linearly"
           ],
-          "answer": "Option A"
+          "answer": "Total P = sum of partial pressures"
         },
         {
-          "question": "Week 33 Question 11: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "At STP, 1 mole of ideal gas occupies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "22.4 L",
+            "1 L",
+            "11.2 L",
+            "24 L"
           ],
-          "answer": "Option A"
+          "answer": "22.4 L"
         },
         {
-          "question": "Week 33 Question 12: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "At STP, T and P are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "273.15 K and 1 atm",
+            "0 K and 1 atm",
+            "300 K and 1 atm",
+            "273 K and 0.1 atm"
           ],
-          "answer": "Option A"
+          "answer": "273.15 K and 1 atm"
         },
         {
-          "question": "Week 33 Question 13: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "PV = nRT, T is in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kelvin",
+            "Celsius",
+            "Fahrenheit",
+            "Any unit"
           ],
-          "answer": "Option A"
+          "answer": "Kelvin"
         },
         {
-          "question": "Week 33 Question 14: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "For real gases, ideal gas law holds best at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Low pressure and high temperature",
+            "High pressure and low temperature",
+            "All conditions",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Low pressure and high temperature"
         },
         {
-          "question": "Week 33 Question 15: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Van der Waals equation corrects for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Molecular size and intermolecular forces",
+            "Temperature",
+            "Pressure only",
+            "Volume only"
           ],
-          "answer": "Option A"
+          "answer": "Molecular size and intermolecular forces"
         },
         {
-          "question": "Week 33 Question 16: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Van der Waals equation: (P + a/V²)(V - b) = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nRT (per mole: RT)",
+            "nR",
+            "PV",
+            "constant"
           ],
-          "answer": "Option A"
+          "answer": "nRT (per mole: RT)"
         },
         {
-          "question": "Week 33 Question 17: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Gas at constant V: if T doubles, P:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Same",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Week 33 Question 18: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Gas at constant P: if T doubles, V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Same",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Week 33 Question 19: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Gas at constant T: if V doubles, P:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halves",
+            "Doubles",
+            "Same",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Halves"
         },
         {
-          "question": "Week 33 Question 20: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "n in PV=nRT stands for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Number of moles",
+            "Number of molecules",
+            "Molar mass",
+            "Avogadro's number"
           ],
-          "answer": "Option A"
+          "answer": "Number of moles"
         },
         {
-          "question": "Week 33 Question 21: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "PV = Nk_B T where N is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Number of molecules",
+            "Number of moles",
+            "Molar mass",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Number of molecules"
         },
         {
-          "question": "Week 33 Question 22: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Number density n = N/V; then P = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nk_B T",
+            "NT",
+            "V/N",
+            "k_B/T"
           ],
-          "answer": "Option A"
+          "answer": "nk_B T"
         },
         {
-          "question": "Week 33 Question 23: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Ideal gas molecules exert no force on each other except during:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Collisions (instantaneous)",
+            "Free flight",
+            "Always",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "Collisions (instantaneous)"
         },
         {
-          "question": "Week 33 Question 24: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Gas laws imply that at T=0 K:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pressure or volume would be zero (linear extrapolation)",
+            "Gas becomes liquid",
+            "Nothing happens",
+            "Pressure is infinite"
           ],
-          "answer": "Option A"
+          "answer": "Pressure or volume would be zero (linear extrapolation)"
         },
         {
-          "question": "Week 33 Question 25: Kinetic Theory of Gases – Ideal Gas Equa...",
+          "question": "Molar mass M is related by: PV = (m/M)RT, where m is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass of gas",
+            "Moles",
+            "Molecules",
+            "Volume"
           ],
-          "answer": "Option A"
+          "answer": "Mass of gas"
         }
       ]
     },
@@ -8453,254 +8453,254 @@
       "topic": "Kinetic Theory – Kinetic Energy & Temperature, Degrees of Freedom, Specific Heats",
       "questions": [
         {
-          "question": "Week 34 Question 1: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Kinetic theory relates pressure to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mean squared speed",
+            "Temperature directly only",
+            "Density only",
+            "Volume only"
           ],
-          "answer": "Option A"
+          "answer": "Mean squared speed"
         },
         {
-          "question": "Week 34 Question 2: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "P = (1/3)ρ<v²> where <v²> is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mean squared speed",
+            "Average speed squared",
+            "RMS speed",
+            "Most probable speed"
           ],
-          "answer": "Option A"
+          "answer": "Mean squared speed"
         },
         {
-          "question": "Week 34 Question 3: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Average translational KE per molecule at T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(3/2)k_B T",
+            "k_B T",
+            "(1/2)k_B T",
+            "(5/2)k_B T"
           ],
-          "answer": "Option A"
+          "answer": "(3/2)k_B T"
         },
         {
-          "question": "Week 34 Question 4: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "RMS speed v_rms = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(3k_B T/m)",
+            "√(2k_B T/m)",
+            "√(k_B T/m)",
+            "k_B T/m"
           ],
-          "answer": "Option A"
+          "answer": "√(3k_B T/m)"
         },
         {
-          "question": "Week 34 Question 5: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "v_rms also = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(3RT/M)",
+            "√(RT/M)",
+            "√(2RT/M)",
+            "RT/M"
           ],
-          "answer": "Option A"
+          "answer": "√(3RT/M)"
         },
         {
-          "question": "Week 34 Question 6: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Most probable speed v_p = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(2k_B T/m)",
+            "√(3k_B T/m)",
+            "√(k_B T/m)",
+            "√(8k_B T/(πm))"
           ],
-          "answer": "Option A"
+          "answer": "√(2k_B T/m)"
         },
         {
-          "question": "Week 34 Question 7: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Mean speed v_avg = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(8k_B T/(πm))",
+            "√(3k_B T/m)",
+            "√(2k_B T/m)",
+            "k_B T/m"
           ],
-          "answer": "Option A"
+          "answer": "√(8k_B T/(πm))"
         },
         {
-          "question": "Week 34 Question 8: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Order of speeds: v_p, v_avg, v_rms:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v_p < v_avg < v_rms",
+            "v_rms < v_avg < v_p",
+            "All equal",
+            "v_avg > v_rms"
           ],
-          "answer": "Option A"
+          "answer": "v_p < v_avg < v_rms"
         },
         {
-          "question": "Week 34 Question 9: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Degree of freedom for monatomic gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "5",
+            "6",
+            "7"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Week 34 Question 10: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Degree of freedom for diatomic gas at room T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 (3 trans + 2 rot)",
+            "3",
+            "7",
+            "6"
           ],
-          "answer": "Option A"
+          "answer": "5 (3 trans + 2 rot)"
         },
         {
-          "question": "Week 34 Question 11: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Degree of freedom for nonlinear polyatomic gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6 (3+3)",
+            "5",
+            "7",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "6 (3+3)"
         },
         {
-          "question": "Week 34 Question 12: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Energy per molecule per degree of freedom:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(1/2)k_B T",
+            "k_B T",
+            "(3/2)k_B T",
+            "R·T"
           ],
-          "answer": "Option A"
+          "answer": "(1/2)k_B T"
         },
         {
-          "question": "Week 34 Question 13: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Internal energy per mole U = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(f/2)RT",
+            "(3/2)RT",
+            "RT",
+            "(5/2)RT"
           ],
-          "answer": "Option A"
+          "answer": "(f/2)RT"
         },
         {
-          "question": "Week 34 Question 14: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "For monatomic gas, C_v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(3/2)R",
+            "(5/2)R",
+            "(3)R",
+            "(5/2)R+R"
           ],
-          "answer": "Option A"
+          "answer": "(3/2)R"
         },
         {
-          "question": "Week 34 Question 15: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "For monatomic gas, C_p = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(5/2)R",
+            "(3/2)R",
+            "(7/2)R",
+            "R"
           ],
-          "answer": "Option A"
+          "answer": "(5/2)R"
         },
         {
-          "question": "Week 34 Question 16: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "For diatomic gas at room T, C_v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(5/2)R",
+            "(3/2)R",
+            "(7/2)R",
+            "R"
           ],
-          "answer": "Option A"
+          "answer": "(5/2)R"
         },
         {
-          "question": "Week 34 Question 17: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "For diatomic gas at room T, γ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7/5 = 1.4",
+            "5/3",
+            "4/3",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "7/5 = 1.4"
         },
         {
-          "question": "Week 34 Question 18: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Law of equipartition of energy says each DOF has energy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(1/2)k_B T",
+            "k_B T",
+            "(3/2)k_B T",
+            "R·T"
           ],
-          "answer": "Option A"
+          "answer": "(1/2)k_B T"
         },
         {
-          "question": "Week 34 Question 19: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "For nonlinear polyatomic gas γ ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4/3",
+            "7/5",
+            "5/3",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "4/3"
         },
         {
-          "question": "Week 34 Question 20: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Mean free path λ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/(√2 π d² n)",
+            "1/(nd²)",
+            "d/n",
+            "π d² n"
           ],
-          "answer": "Option A"
+          "answer": "1/(√2 π d² n)"
         },
         {
-          "question": "Week 34 Question 21: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "As T increases at constant V, mean free path:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unchanged (for ideal gas at fixed n)",
+            "Increases",
+            "Decreases",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Unchanged (for ideal gas at fixed n)"
         },
         {
-          "question": "Week 34 Question 22: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "As P increases at constant T, mean free path:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Week 34 Question 23: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Brownian motion is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Random molecular collisions",
+            "Gravity",
+            "Electromagnetic forces",
+            "Nuclear forces"
           ],
-          "answer": "Option A"
+          "answer": "Random molecular collisions"
         },
         {
-          "question": "Week 34 Question 24: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "If RMS speed is v at T, at 4T it is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2v",
+            "4v",
+            "v/2",
+            "16v"
           ],
-          "answer": "Option A"
+          "answer": "2v"
         },
         {
-          "question": "Week 34 Question 25: Kinetic Theory – Kinetic Energy & Temper...",
+          "question": "Temperature is a measure of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Average KE of molecules",
+            "Mass",
+            "Volume",
+            "Density"
           ],
-          "answer": "Option A"
+          "answer": "Average KE of molecules"
         }
       ]
     },
