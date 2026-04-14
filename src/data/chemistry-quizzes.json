@@ -3864,254 +3864,279 @@
       "topic": "Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
       "questions": [
         {
-          "question": "Q1 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q1",
+          "question": "In thermodynamics, 'system' means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Part under study",
+            "Rest of universe",
+            "Both",
+            "Only container"
           ],
-          "answer": "Option A"
+          "answer": "Part under study"
         },
         {
-          "question": "Q2 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q2",
+          "question": "Everything outside system is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Surroundings",
+            "Boundary",
+            "Universe",
+            "State"
           ],
-          "answer": "Option A"
+          "answer": "Surroundings"
         },
         {
-          "question": "Q3 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q3",
+          "question": "Universe = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "System + surroundings",
+            "System only",
+            "Surroundings only",
+            "Reactants"
           ],
-          "answer": "Option A"
+          "answer": "System + surroundings"
         },
         {
-          "question": "Q4 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q4",
+          "question": "A system that exchanges both matter and energy is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Open",
+            "Closed",
+            "Isolated",
+            "Adiabatic"
           ],
-          "answer": "Option A"
+          "answer": "Open"
         },
         {
-          "question": "Q5 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q5",
+          "question": "A system that exchanges energy but not matter:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Closed",
+            "Open",
+            "Isolated",
+            "Rigid"
           ],
-          "answer": "Option A"
+          "answer": "Closed"
         },
         {
-          "question": "Q6 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q6",
+          "question": "A system that exchanges neither is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Isolated",
+            "Open",
+            "Closed",
+            "Adiabatic"
           ],
-          "answer": "Option A"
+          "answer": "Isolated"
         },
         {
-          "question": "Q7 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q7",
+          "question": "Example of isolated system:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Thermos flask (ideal)",
+            "Open beaker",
+            "Closed flask",
+            "Reactor"
           ],
-          "answer": "Option A"
+          "answer": "Thermos flask (ideal)"
         },
         {
-          "question": "Q8 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q8",
+          "question": "State function depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Initial and final states",
+            "Path",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Initial and final states"
         },
         {
-          "question": "Q9 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q9",
+          "question": "Which is a state function:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "U (internal energy)",
+            "q",
+            "w",
+            "Heat capacity"
           ],
-          "answer": "Option A"
+          "answer": "U (internal energy)"
         },
         {
-          "question": "Q10 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q10",
+          "question": "Which is NOT a state function:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Work (w)",
+            "Enthalpy (H)",
+            "Entropy (S)",
+            "Gibbs energy (G)"
           ],
-          "answer": "Option A"
+          "answer": "Work (w)"
         },
         {
-          "question": "Q11 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q11",
+          "question": "First law of thermodynamics:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔU = q + w",
+            "ΔU = q − w",
+            "ΔH = ΔU",
+            "q = w"
           ],
-          "answer": "Option A"
+          "answer": "ΔU = q + w"
         },
         {
-          "question": "Q12 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q12",
+          "question": "Sign convention: heat absorbed by system:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+q",
+            "−q",
+            "Zero",
+            "Undefined"
           ],
-          "answer": "Option A"
+          "answer": "+q"
         },
         {
-          "question": "Q13 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q13",
+          "question": "Sign convention: work done ON system:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+w",
+            "−w",
+            "Zero",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "+w"
         },
         {
-          "question": "Q14 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q14",
+          "question": "Work of expansion at constant P: w =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−PΔV",
+            "PΔV",
+            "ΔPV",
+            "PV"
           ],
-          "answer": "Option A"
+          "answer": "−PΔV"
         },
         {
-          "question": "Q15 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q15",
+          "question": "In isothermal process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔT = 0",
+            "Δq = 0",
+            "ΔV = 0",
+            "ΔP = 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔT = 0"
         },
         {
-          "question": "Q16 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q16",
+          "question": "In adiabatic process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q = 0",
+            "T = 0",
+            "V = 0",
+            "ΔU = 0"
           ],
-          "answer": "Option A"
+          "answer": "q = 0"
         },
         {
-          "question": "Q17 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q17",
+          "question": "In isochoric process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔV = 0",
+            "ΔT = 0",
+            "ΔP = 0",
+            "q = 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔV = 0"
         },
         {
-          "question": "Q18 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q18",
+          "question": "In isobaric process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔP = 0",
+            "ΔT = 0",
+            "ΔV = 0",
+            "q = 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔP = 0"
         },
         {
-          "question": "Q19 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q19",
+          "question": "For isothermal reversible expansion of ideal gas: w =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−nRT ln(V₂/V₁)",
+            "nRT ln(V₂/V₁)",
+            "−PΔV",
+            "zero"
           ],
-          "answer": "Option A"
+          "answer": "−nRT ln(V₂/V₁)"
         },
         {
-          "question": "Q20 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q20",
+          "question": "For isothermal process of ideal gas, ΔU =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "−nRT",
+            "nRT",
+            "CvΔT"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q21 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q21",
+          "question": "Enthalpy H is defined as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "U + PV",
+            "U − PV",
+            "q + w",
+            "TΔS"
           ],
-          "answer": "Option A"
+          "answer": "U + PV"
         },
         {
-          "question": "Q22 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q22",
+          "question": "At constant P: ΔH =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q_p",
+            "q_v",
+            "ΔU",
+            "w"
           ],
-          "answer": "Option A"
+          "answer": "q_p"
         },
         {
-          "question": "Q23 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q23",
+          "question": "At constant V: ΔU =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q_v",
+            "q_p",
+            "ΔH",
+            "w"
           ],
-          "answer": "Option A"
+          "answer": "q_v"
         },
         {
-          "question": "Q24 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q24",
+          "question": "ΔH − ΔU = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Δn_g·RT",
+            "nRT",
+            "ΔnRT/V",
+            "−PV"
           ],
-          "answer": "Option A"
+          "answer": "Δn_g·RT"
         },
         {
-          "question": "Q25 Week 15: Topic - Chemical Thermodynamics – System, Surroundings, State Functions, First Law",
+          "id": "c11-w15-q25",
+          "question": "Heat capacity C = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q/ΔT",
+            "q × ΔT",
+            "ΔT/q",
+            "1/q"
           ],
-          "answer": "Option A"
+          "answer": "q/ΔT"
         }
       ]
     },
@@ -4120,254 +4145,279 @@
       "topic": "Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
       "questions": [
         {
-          "question": "Q1 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q1",
+          "question": "Standard enthalpy of formation ΔH°f of elements in standard state:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Positive",
+            "Negative",
+            "Equal to one"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Q2 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q2",
+          "question": "ΔH°f of H₂O(l) at 298 K is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−285.8 kJ/mol",
+            "+285.8 kJ/mol",
+            "Zero",
+            "−44 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "−285.8 kJ/mol"
         },
         {
-          "question": "Q3 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q3",
+          "question": "Exothermic reaction has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH negative",
+            "ΔH positive",
+            "ΔH zero",
+            "ΔS negative"
           ],
-          "answer": "Option A"
+          "answer": "ΔH negative"
         },
         {
-          "question": "Q4 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q4",
+          "question": "Endothermic reaction has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH positive",
+            "ΔH negative",
+            "ΔH zero",
+            "ΔS zero"
           ],
-          "answer": "Option A"
+          "answer": "ΔH positive"
         },
         {
-          "question": "Q5 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q5",
+          "question": "Hess's law is a consequence of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "First law of thermodynamics",
+            "Second law",
+            "Third law",
+            "Zeroth law"
           ],
-          "answer": "Option A"
+          "answer": "First law of thermodynamics"
         },
         {
-          "question": "Q6 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q6",
+          "question": "Hess's law states ΔH of reaction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same regardless of path",
+            "Path dependent",
+            "Zero always",
+            "Positive"
           ],
-          "answer": "Option A"
+          "answer": "Same regardless of path"
         },
         {
-          "question": "Q7 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q7",
+          "question": "Born-Haber cycle uses ___ law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Hess's",
+            "Newton's",
+            "Dalton's",
+            "Boyle's"
           ],
-          "answer": "Option A"
+          "answer": "Hess's"
         },
         {
-          "question": "Q8 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q8",
+          "question": "Enthalpy of combustion is always:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Negative",
+            "Positive",
+            "Zero",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "Negative"
         },
         {
-          "question": "Q9 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q9",
+          "question": "Enthalpy of neutralization (strong acid + strong base):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−57.1 kJ/mol",
+            "+57.1 kJ/mol",
+            "Zero",
+            "−285.8 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "−57.1 kJ/mol"
         },
         {
-          "question": "Q10 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q10",
+          "question": "Enthalpy of atomization is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy to break 1 mol substance into atoms",
+            "To form molecule",
+            "Of formation",
+            "Of combustion"
           ],
-          "answer": "Option A"
+          "answer": "Energy to break 1 mol substance into atoms"
         },
         {
-          "question": "Q11 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q11",
+          "question": "Bond enthalpy is energy to break:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 mol gaseous bonds",
+            "Liquid bonds",
+            "Solid bonds",
+            "Half mol"
           ],
-          "answer": "Option A"
+          "answer": "1 mol gaseous bonds"
         },
         {
-          "question": "Q12 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q12",
+          "question": "ΔH of reaction from bond enthalpies = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(Bonds broken) − (bonds formed)",
+            "(Bonds formed) − (broken)",
+            "Sum of all bonds",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "(Bonds broken) − (bonds formed)"
         },
         {
-          "question": "Q13 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q13",
+          "question": "Mean bond enthalpy of C−H in CH₄ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "~416 kJ/mol",
+            "100 kJ/mol",
+            "1000 kJ/mol",
+            "50 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "~416 kJ/mol"
         },
         {
-          "question": "Q14 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q14",
+          "question": "Enthalpy of sublimation = ΔH_fusion +",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH_vaporization",
+            "ΔH_condensation",
+            "−ΔH_fusion",
+            "ΔH_combustion"
           ],
-          "answer": "Option A"
+          "answer": "ΔH_vaporization"
         },
         {
-          "question": "Q15 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q15",
+          "question": "Enthalpy of vaporization of water at 100°C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+40.7 kJ/mol",
+            "−40.7 kJ/mol",
+            "+6 kJ/mol",
+            "+285 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "+40.7 kJ/mol"
         },
         {
-          "question": "Q16 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q16",
+          "question": "Enthalpy of fusion of ice at 0°C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+6.0 kJ/mol",
+            "+40.7 kJ/mol",
+            "0",
+            "−6 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "+6.0 kJ/mol"
         },
         {
-          "question": "Q17 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q17",
+          "question": "Standard state of carbon is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Graphite",
+            "Diamond",
+            "Fullerene",
+            "C₆₀"
           ],
-          "answer": "Option A"
+          "answer": "Graphite"
         },
         {
-          "question": "Q18 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q18",
+          "question": "ΔH°_reaction from ΔH°f: ΔH° = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Σ ΔH°f (products) − Σ ΔH°f (reactants)",
+            "Reverse",
+            "Sum of all",
+            "Product only"
           ],
-          "answer": "Option A"
+          "answer": "Σ ΔH°f (products) − Σ ΔH°f (reactants)"
         },
         {
-          "question": "Q19 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q19",
+          "question": "Enthalpy of solution is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat change when 1 mol dissolves",
+            "Heat of reaction",
+            "Heat of fusion",
+            "Heat of neutralization"
           ],
-          "answer": "Option A"
+          "answer": "Heat change when 1 mol dissolves"
         },
         {
-          "question": "Q20 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q20",
+          "question": "Heat of combustion of 1 mol C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−393.5 kJ/mol",
+            "+393.5",
+            "−1367",
+            "−285"
           ],
-          "answer": "Option A"
+          "answer": "−393.5 kJ/mol"
         },
         {
-          "question": "Q21 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q21",
+          "question": "Calorific value is defined for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Fuel (heat released per g)",
+            "Element",
+            "Compound",
+            "Gas"
           ],
-          "answer": "Option A"
+          "answer": "Fuel (heat released per g)"
         },
         {
-          "question": "Q22 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q22",
+          "question": "Enthalpy of solution of NaOH in water is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Negative (exothermic)",
+            "Positive",
+            "Zero",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "Negative (exothermic)"
         },
         {
-          "question": "Q23 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q23",
+          "question": "ΔH of reversing a reaction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sign reverses",
+            "Magnitude doubles",
+            "Same value",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Sign reverses"
         },
         {
-          "question": "Q24 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q24",
+          "question": "For 2H₂(g) + O₂(g) → 2H₂O(l), ΔH = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 × ΔH°f(H₂O)",
+            "ΔH°f(H₂O)",
+            "Zero",
+            "Sum of bonds"
           ],
-          "answer": "Option A"
+          "answer": "2 × ΔH°f(H₂O)"
         },
         {
-          "question": "Q25 Week 16: Topic - Chemical Thermodynamics – Enthalpy, Hess's Law, Bond Enthalpy",
+          "id": "c11-w16-q25",
+          "question": "Enthalpy depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amount, state, temperature",
+            "Only T",
+            "Only amount",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Amount, state, temperature"
         }
       ]
     },
@@ -4376,254 +4426,279 @@
       "topic": "Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
       "questions": [
         {
-          "question": "Q1 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q1",
+          "question": "Entropy S is a measure of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Disorder / randomness",
+            "Energy",
+            "Temperature",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Disorder / randomness"
         },
         {
-          "question": "Q2 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q2",
+          "question": "Units of entropy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "J K⁻¹ mol⁻¹",
+            "kJ mol⁻¹",
+            "K",
+            "J/s"
           ],
-          "answer": "Option A"
+          "answer": "J K⁻¹ mol⁻¹"
         },
         {
-          "question": "Q3 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q3",
+          "question": "Second law of thermodynamics:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Entropy of universe always increases in spontaneous process",
+            "ΔU = 0",
+            "q = w",
+            "ΔH = TΔS"
           ],
-          "answer": "Option A"
+          "answer": "Entropy of universe always increases in spontaneous process"
         },
         {
-          "question": "Q4 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q4",
+          "question": "For reversible process: ΔS_sys =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q_rev/T",
+            "q_irr/T",
+            "w/T",
+            "U/T"
           ],
-          "answer": "Option A"
+          "answer": "q_rev/T"
         },
         {
-          "question": "Q5 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q5",
+          "question": "ΔS for gas → liquid is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Negative",
+            "Positive",
+            "Zero",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "Negative"
         },
         {
-          "question": "Q6 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q6",
+          "question": "ΔS for solid → gas is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Positive",
+            "Negative",
+            "Zero",
+            "−infinity"
           ],
-          "answer": "Option A"
+          "answer": "Positive"
         },
         {
-          "question": "Q7 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q7",
+          "question": "Entropy increases in which direction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Solid < liquid < gas",
+            "Gas < liquid < solid",
+            "Random",
+            "Equal"
           ],
-          "answer": "Option A"
+          "answer": "Solid < liquid < gas"
         },
         {
-          "question": "Q8 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q8",
+          "question": "Third law of thermodynamics:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "S = 0 for perfect crystal at 0 K",
+            "ΔS ∞ at 0 K",
+            "S = R at 0 K",
+            "Entropy is zero always"
           ],
-          "answer": "Option A"
+          "answer": "S = 0 for perfect crystal at 0 K"
         },
         {
-          "question": "Q9 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q9",
+          "question": "Gibbs free energy G = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H − TS",
+            "U − TS",
+            "H + TS",
+            "U + TS"
           ],
-          "answer": "Option A"
+          "answer": "H − TS"
         },
         {
-          "question": "Q10 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q10",
+          "question": "For spontaneous process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔG < 0",
+            "ΔG > 0",
+            "ΔG = 0",
+            "ΔH < 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔG < 0"
         },
         {
-          "question": "Q11 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q11",
+          "question": "At equilibrium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔG = 0",
+            "ΔG < 0",
+            "ΔG > 0",
+            "ΔS = 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔG = 0"
         },
         {
-          "question": "Q12 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q12",
+          "question": "ΔG = ΔH − TΔS. For ΔH < 0, ΔS > 0:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Spontaneous at all T",
+            "Non-spontaneous",
+            "Depends on T",
+            "Never spontaneous"
           ],
-          "answer": "Option A"
+          "answer": "Spontaneous at all T"
         },
         {
-          "question": "Q13 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q13",
+          "question": "ΔH > 0, ΔS < 0: Reaction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-spontaneous at all T",
+            "Spontaneous",
+            "Depends on T",
+            "Equilibrium"
           ],
-          "answer": "Option A"
+          "answer": "Non-spontaneous at all T"
         },
         {
-          "question": "Q14 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q14",
+          "question": "ΔH < 0, ΔS < 0: Spontaneous at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Low T",
+            "High T",
+            "All T",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "Low T"
         },
         {
-          "question": "Q15 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q15",
+          "question": "ΔH > 0, ΔS > 0: Spontaneous at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High T",
+            "Low T",
+            "All T",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "High T"
         },
         {
-          "question": "Q16 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q16",
+          "question": "ΔG° = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−RT ln K",
+            "RT ln K",
+            "−RT K",
+            "RT/K"
           ],
-          "answer": "Option A"
+          "answer": "−RT ln K"
         },
         {
-          "question": "Q17 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q17",
+          "question": "When K > 1, ΔG° is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Negative",
+            "Positive",
+            "Zero",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "Negative"
         },
         {
-          "question": "Q18 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q18",
+          "question": "When K < 1, ΔG° is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Positive",
+            "Negative",
+            "Zero",
+            "Unknown"
           ],
-          "answer": "Option A"
+          "answer": "Positive"
         },
         {
-          "question": "Q19 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q19",
+          "question": "Enthalpy-driven reactions have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH dominant negative",
+            "ΔS large",
+            "T high",
+            "Small values"
           ],
-          "answer": "Option A"
+          "answer": "ΔH dominant negative"
         },
         {
-          "question": "Q20 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q20",
+          "question": "Entropy-driven reactions have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "TΔS dominant",
+            "ΔH dominant",
+            "Both zero",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "TΔS dominant"
         },
         {
-          "question": "Q21 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q21",
+          "question": "ΔS universe = ΔS system + ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔS surroundings",
+            "ΔH",
+            "ΔG",
+            "ΔU"
           ],
-          "answer": "Option A"
+          "answer": "ΔS surroundings"
         },
         {
-          "question": "Q22 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q22",
+          "question": "ΔS_surr = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−ΔH_sys/T",
+            "ΔH_sys/T",
+            "TΔH_sys",
+            "ΔS_sys"
           ],
-          "answer": "Option A"
+          "answer": "−ΔH_sys/T"
         },
         {
-          "question": "Q23 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q23",
+          "question": "For 2H₂ + O₂ → 2H₂O(g), ΔS_sys is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Negative (moles decrease)",
+            "Positive",
+            "Zero",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "Negative (moles decrease)"
         },
         {
-          "question": "Q24 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q24",
+          "question": "The entropy of universe is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Always increasing",
+            "Constant",
+            "Decreasing",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Always increasing"
         },
         {
-          "question": "Q25 Week 17: Topic - Chemical Thermodynamics – Entropy, Gibbs Free Energy, Spontaneity",
+          "id": "c11-w17-q25",
+          "question": "Standard Gibbs energy of formation of elements:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Positive",
+            "Negative",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         }
       ]
     },
@@ -4632,254 +4707,279 @@
       "topic": "Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
       "questions": [
         {
-          "question": "Q1 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q1",
+          "question": "Equilibrium is characterized by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Equal rates of forward and backward reactions",
+            "No reaction",
+            "Only forward reaction",
+            "Complete conversion"
           ],
-          "answer": "Option A"
+          "answer": "Equal rates of forward and backward reactions"
         },
         {
-          "question": "Q2 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q2",
+          "question": "Physical equilibrium example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O(l) ⇌ H₂O(g)",
+            "N₂ + 3H₂ ⇌ 2NH₃",
+            "Combustion",
+            "Neutralization"
           ],
-          "answer": "Option A"
+          "answer": "H₂O(l) ⇌ H₂O(g)"
         },
         {
-          "question": "Q3 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q3",
+          "question": "Chemical equilibrium example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N₂ + 3H₂ ⇌ 2NH₃",
+            "Ice melting",
+            "Dissolution",
+            "Boiling"
           ],
-          "answer": "Option A"
+          "answer": "N₂ + 3H₂ ⇌ 2NH₃"
         },
         {
-          "question": "Q4 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q4",
+          "question": "At equilibrium, concentrations of reactants and products are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Constant",
+            "Equal",
+            "Zero",
+            "Increasing"
           ],
-          "answer": "Option A"
+          "answer": "Constant"
         },
         {
-          "question": "Q5 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q5",
+          "question": "Law of mass action states rate ∝ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Product of concentrations of reactants (each ^stoichiometric coef)",
+            "Reactant sum",
+            "Product sum only",
+            "1/[Reactants]"
           ],
-          "answer": "Option A"
+          "answer": "Product of concentrations of reactants (each ^stoichiometric coef)"
         },
         {
-          "question": "Q6 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q6",
+          "question": "For aA + bB ⇌ cC + dD, Kc = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[C]^c[D]^d / [A]^a[B]^b",
+            "[A][B]/[C][D]",
+            "[C]+[D] / [A]+[B]",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "[C]^c[D]^d / [A]^a[B]^b"
         },
         {
-          "question": "Q7 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q7",
+          "question": "Kc depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature",
+            "Concentration",
+            "Pressure only",
+            "Volume only"
           ],
-          "answer": "Option A"
+          "answer": "Temperature"
         },
         {
-          "question": "Q8 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q8",
+          "question": "Kp for gaseous reactions uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Partial pressures",
+            "Concentrations",
+            "Molarities",
+            "Volumes"
           ],
-          "answer": "Option A"
+          "answer": "Partial pressures"
         },
         {
-          "question": "Q9 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q9",
+          "question": "Kp = Kc × (RT)^Δn where Δn is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Moles gas products − reactants",
+            "Total moles",
+            "Zero always",
+            "Stoichiometry"
           ],
-          "answer": "Option A"
+          "answer": "Moles gas products − reactants"
         },
         {
-          "question": "Q10 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q10",
+          "question": "For N₂ + 3H₂ ⇌ 2NH₃, Δn_g =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−2",
+            "+2",
+            "0",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "−2"
         },
         {
-          "question": "Q11 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q11",
+          "question": "Reaction quotient Q uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Current concentrations",
+            "Equilibrium concentrations only",
+            "Initial only",
+            "Pressure only"
           ],
-          "answer": "Option A"
+          "answer": "Current concentrations"
         },
         {
-          "question": "Q12 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q12",
+          "question": "If Q < K, reaction proceeds:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Forward",
+            "Reverse",
+            "At equilibrium",
+            "Does not proceed"
           ],
-          "answer": "Option A"
+          "answer": "Forward"
         },
         {
-          "question": "Q13 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q13",
+          "question": "If Q > K, reaction proceeds:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reverse",
+            "Forward",
+            "Equilibrium",
+            "Complete"
           ],
-          "answer": "Option A"
+          "answer": "Reverse"
         },
         {
-          "question": "Q14 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q14",
+          "question": "If Q = K:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "At equilibrium",
+            "Forward",
+            "Reverse",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "At equilibrium"
         },
         {
-          "question": "Q15 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q15",
+          "question": "Kc for reversed reaction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/Kc",
+            "Kc",
+            "−Kc",
+            "Kc²"
           ],
-          "answer": "Option A"
+          "answer": "1/Kc"
         },
         {
-          "question": "Q16 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q16",
+          "question": "Kc for doubled reaction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kc²",
+            "2Kc",
+            "Kc/2",
+            "√Kc"
           ],
-          "answer": "Option A"
+          "answer": "Kc²"
         },
         {
-          "question": "Q17 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q17",
+          "question": "Dissociation constant α for aA ⇌ bB is related to Kc via ICE table at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Initial concentrations",
+            "Equilibrium concentrations",
+            "Both",
+            "Half"
           ],
-          "answer": "Option A"
+          "answer": "Equilibrium concentrations"
         },
         {
-          "question": "Q18 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q18",
+          "question": "At equilibrium, Gibbs energy change ΔG = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Negative",
+            "Positive",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q19 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q19",
+          "question": "Units of Kc for A + B ⇌ C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "M⁻¹",
+            "M",
+            "Dimensionless if pure",
+            "M²"
           ],
-          "answer": "Option A"
+          "answer": "M⁻¹"
         },
         {
-          "question": "Q20 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q20",
+          "question": "Units of Kc for A ⇌ B:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dimensionless",
+            "M",
+            "M⁻¹",
+            "M²"
           ],
-          "answer": "Option A"
+          "answer": "Dimensionless"
         },
         {
-          "question": "Q21 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q21",
+          "question": "Homogeneous equilibrium: all species in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same phase",
+            "Different phases",
+            "Any phase",
+            "Liquid only"
           ],
-          "answer": "Option A"
+          "answer": "Same phase"
         },
         {
-          "question": "Q22 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q22",
+          "question": "Heterogeneous equilibrium example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaCO₃(s) ⇌ CaO(s) + CO₂(g)",
+            "N₂ + H₂ ⇌ NH₃",
+            "2NO₂ ⇌ N₂O₄",
+            "H₂ + I₂ ⇌ HI"
           ],
-          "answer": "Option A"
+          "answer": "CaCO₃(s) ⇌ CaO(s) + CO₂(g)"
         },
         {
-          "question": "Q23 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q23",
+          "question": "In heterogeneous equilibrium, pure solids and liquids:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Excluded from K expression",
+            "Included fully",
+            "Half included",
+            "Inverted"
           ],
-          "answer": "Option A"
+          "answer": "Excluded from K expression"
         },
         {
-          "question": "Q24 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q24",
+          "question": "Relation ΔG° = −RT ln K at equilibrium allows:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "K determination from ΔG°",
+            "Nothing",
+            "Rate calculation",
+            "Mass measurement"
           ],
-          "answer": "Option A"
+          "answer": "K determination from ΔG°"
         },
         {
-          "question": "Q25 Week 18: Topic - Equilibrium – Physical & Chemical Equilibrium, Law of Mass Action",
+          "id": "c11-w18-q25",
+          "question": "Large K means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Products favored",
+            "Reactants favored",
+            "Equal amounts",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Products favored"
         }
       ]
     },
@@ -4888,254 +4988,279 @@
       "topic": "Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
       "questions": [
         {
-          "question": "Q1 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q1",
+          "question": "Le Chatelier's principle states system responds to disturbance by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shifting to counteract disturbance",
+            "Breaking",
+            "No change",
+            "Accelerating"
           ],
-          "answer": "Option A"
+          "answer": "Shifting to counteract disturbance"
         },
         {
-          "question": "Q2 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q2",
+          "question": "Adding more reactant shifts equilibrium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Forward",
+            "Reverse",
+            "No change",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Forward"
         },
         {
-          "question": "Q3 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q3",
+          "question": "Removing product shifts equilibrium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Forward",
+            "Reverse",
+            "No change",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Forward"
         },
         {
-          "question": "Q4 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q4",
+          "question": "For N₂ + 3H₂ ⇌ 2NH₃, increasing pressure favors:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Forward (fewer moles)",
+            "Reverse",
+            "No change",
+            "Decomposition"
           ],
-          "answer": "Option A"
+          "answer": "Forward (fewer moles)"
         },
         {
-          "question": "Q5 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q5",
+          "question": "For N₂O₄ ⇌ 2NO₂, increasing pressure:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Favors reverse (fewer moles)",
+            "Favors forward",
+            "No change",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Favors reverse (fewer moles)"
         },
         {
-          "question": "Q6 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q6",
+          "question": "Adding inert gas at constant V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No shift",
+            "Forward shift",
+            "Reverse shift",
+            "Stops reaction"
           ],
-          "answer": "Option A"
+          "answer": "No shift"
         },
         {
-          "question": "Q7 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q7",
+          "question": "Adding inert gas at constant P:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shifts toward more moles of gas",
+            "No shift",
+            "Stops",
+            "Forward always"
           ],
-          "answer": "Option A"
+          "answer": "Shifts toward more moles of gas"
         },
         {
-          "question": "Q8 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q8",
+          "question": "For exothermic reaction, increasing T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shifts reverse (decrease K)",
+            "Forward",
+            "No change",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Shifts reverse (decrease K)"
         },
         {
-          "question": "Q9 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q9",
+          "question": "For endothermic reaction, increasing T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shifts forward (increase K)",
+            "Reverse",
+            "No change",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Shifts forward (increase K)"
         },
         {
-          "question": "Q10 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q10",
+          "question": "Catalyst effect on equilibrium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No shift, only faster approach",
+            "Shifts forward",
+            "Shifts reverse",
+            "Changes K"
           ],
-          "answer": "Option A"
+          "answer": "No shift, only faster approach"
         },
         {
-          "question": "Q11 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q11",
+          "question": "Haber process uses catalyst:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Fe with promoters (Mo, K₂O)",
+            "Pt",
+            "Ni",
+            "V₂O₅"
           ],
-          "answer": "Option A"
+          "answer": "Fe with promoters (Mo, K₂O)"
         },
         {
-          "question": "Q12 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q12",
+          "question": "Contact process produces H₂SO₄ via:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2SO₂ + O₂ ⇌ 2SO₃, V₂O₅",
+            "Haber",
+            "NH₃ oxidation",
+            "Electrolysis"
           ],
-          "answer": "Option A"
+          "answer": "2SO₂ + O₂ ⇌ 2SO₃, V₂O₅"
         },
         {
-          "question": "Q13 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q13",
+          "question": "Optimum T for Haber process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "~700 K (450°C)",
+            "1000 K",
+            "300 K",
+            "2000 K"
           ],
-          "answer": "Option A"
+          "answer": "~700 K (450°C)"
         },
         {
-          "question": "Q14 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q14",
+          "question": "Optimum P for Haber process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "200 atm",
+            "1 atm",
+            "1000 atm",
+            "10 atm"
           ],
-          "answer": "Option A"
+          "answer": "200 atm"
         },
         {
-          "question": "Q15 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q15",
+          "question": "For A(g) ⇌ B(g), halving V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No shift (Δn = 0)",
+            "Forward",
+            "Reverse",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "No shift (Δn = 0)"
         },
         {
-          "question": "Q16 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q16",
+          "question": "For PCl₅ ⇌ PCl₃ + Cl₂, increasing V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Forward (more moles)",
+            "Reverse",
+            "No change",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Forward (more moles)"
         },
         {
-          "question": "Q17 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q17",
+          "question": "Vapor pressure of water increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature",
+            "Pressure",
+            "Volume",
+            "Adding salt"
           ],
-          "answer": "Option A"
+          "answer": "Temperature"
         },
         {
-          "question": "Q18 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q18",
+          "question": "Henry's law: solubility of gas ∝",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Partial pressure",
+            "Volume",
+            "Temperature",
+            "Molarity"
           ],
-          "answer": "Option A"
+          "answer": "Partial pressure"
         },
         {
-          "question": "Q19 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q19",
+          "question": "Raoult's law for solvent:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P_A = X_A P°_A",
+            "P_A = P°_A/X_A",
+            "P_A = X_A T",
+            "P = RT"
           ],
-          "answer": "Option A"
+          "answer": "P_A = X_A P°_A"
         },
         {
-          "question": "Q20 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q20",
+          "question": "Van't Hoff equation: d(lnK)/dT =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH°/RT²",
+            "ΔS/R",
+            "ΔG°/RT",
+            "R/T"
           ],
-          "answer": "Option A"
+          "answer": "ΔH°/RT²"
         },
         {
-          "question": "Q21 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q21",
+          "question": "If ΔH > 0, K increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T",
+            "P",
+            "V",
+            "Catalyst"
           ],
-          "answer": "Option A"
+          "answer": "T"
         },
         {
-          "question": "Q22 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q22",
+          "question": "If ΔH < 0, K decreases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T",
+            "V",
+            "P",
+            "Inert gas"
           ],
-          "answer": "Option A"
+          "answer": "T"
         },
         {
-          "question": "Q23 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q23",
+          "question": "CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g), ΔH=−ve. Increasing T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases K, favors reverse",
+            "Increases K",
+            "No effect",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Decreases K, favors reverse"
         },
         {
-          "question": "Q24 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q24",
+          "question": "Equilibrium is dynamic — this means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both reactions continue at equal rates",
+            "Stops",
+            "Only forward",
+            "Backward"
           ],
-          "answer": "Option A"
+          "answer": "Both reactions continue at equal rates"
         },
         {
-          "question": "Q25 Week 19: Topic - Equilibrium – Equilibrium Constant (Kp, Kc), Le Chatelier's Principle",
+          "id": "c11-w19-q25",
+          "question": "Degree of dissociation α for PCl₅ ⇌ PCl₃ + Cl₂ increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T and V (lower P)",
+            "Higher P",
+            "Lower T",
+            "Adding PCl₅"
           ],
-          "answer": "Option A"
+          "answer": "T and V (lower P)"
         }
       ]
     },
@@ -5144,254 +5269,279 @@
       "topic": "Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
       "questions": [
         {
-          "question": "Q1 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q1",
+          "question": "Arrhenius acid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gives H⁺ in water",
+            "Gives OH⁻",
+            "Accepts H⁺",
+            "Donates lone pair"
           ],
-          "answer": "Option A"
+          "answer": "Gives H⁺ in water"
         },
         {
-          "question": "Q2 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q2",
+          "question": "Arrhenius base:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gives OH⁻",
+            "Gives H⁺",
+            "Accepts OH⁻",
+            "Accepts pair"
           ],
-          "answer": "Option A"
+          "answer": "Gives OH⁻"
         },
         {
-          "question": "Q3 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q3",
+          "question": "Brønsted acid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Proton donor",
+            "Proton acceptor",
+            "Electron donor",
+            "Electron acceptor"
           ],
-          "answer": "Option A"
+          "answer": "Proton donor"
         },
         {
-          "question": "Q4 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q4",
+          "question": "Brønsted base:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Proton acceptor",
+            "Proton donor",
+            "Electron donor",
+            "OH⁻ giver"
           ],
-          "answer": "Option A"
+          "answer": "Proton acceptor"
         },
         {
-          "question": "Q5 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q5",
+          "question": "Conjugate base of HCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cl⁻",
+            "H⁺",
+            "HCl₂⁻",
+            "H₂O"
           ],
-          "answer": "Option A"
+          "answer": "Cl⁻"
         },
         {
-          "question": "Q6 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q6",
+          "question": "Conjugate acid of NH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NH₄⁺",
+            "NH₂⁻",
+            "NH₃⁺",
+            "N₂"
           ],
-          "answer": "Option A"
+          "answer": "NH₄⁺"
         },
         {
-          "question": "Q7 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q7",
+          "question": "Lewis acid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron pair acceptor",
+            "Electron pair donor",
+            "Proton donor",
+            "Hydroxide donor"
           ],
-          "answer": "Option A"
+          "answer": "Electron pair acceptor"
         },
         {
-          "question": "Q8 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q8",
+          "question": "Lewis base:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron pair donor",
+            "Acceptor",
+            "Proton donor",
+            "Hydroxide acceptor"
           ],
-          "answer": "Option A"
+          "answer": "Electron pair donor"
         },
         {
-          "question": "Q9 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q9",
+          "question": "BF₃ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lewis acid",
+            "Lewis base",
+            "Brønsted acid",
+            "Arrhenius acid"
           ],
-          "answer": "Option A"
+          "answer": "Lewis acid"
         },
         {
-          "question": "Q10 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q10",
+          "question": "NH₃ acts as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lewis/Brønsted base",
+            "Lewis acid",
+            "Oxidizer",
+            "Reductant only"
           ],
-          "answer": "Option A"
+          "answer": "Lewis/Brønsted base"
         },
         {
-          "question": "Q11 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q11",
+          "question": "H₂O can act as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both acid and base (amphoteric)",
+            "Only acid",
+            "Only base",
+            "Neutral"
           ],
-          "answer": "Option A"
+          "answer": "Both acid and base (amphoteric)"
         },
         {
-          "question": "Q12 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q12",
+          "question": "Autoionization: 2H₂O ⇌ H₃O⁺ + OH⁻ with Kw = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁻¹⁴ at 25°C",
+            "10⁻⁷",
+            "10⁻²",
+            "10⁻¹⁰"
           ],
-          "answer": "Option A"
+          "answer": "10⁻¹⁴ at 25°C"
         },
         {
-          "question": "Q13 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q13",
+          "question": "In pure water at 25°C, [H⁺] = [OH⁻] =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁻⁷ M",
+            "10⁻¹⁴ M",
+            "1 M",
+            "10⁻² M"
           ],
-          "answer": "Option A"
+          "answer": "10⁻⁷ M"
         },
         {
-          "question": "Q14 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q14",
+          "question": "Strong acid examples:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HCl, HNO₃, H₂SO₄",
+            "CH₃COOH",
+            "H₂CO₃",
+            "HF only"
           ],
-          "answer": "Option A"
+          "answer": "HCl, HNO₃, H₂SO₄"
         },
         {
-          "question": "Q15 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q15",
+          "question": "Strong base examples:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NaOH, KOH, Ba(OH)₂",
+            "NH₃",
+            "Al(OH)₃",
+            "Fe(OH)₃"
           ],
-          "answer": "Option A"
+          "answer": "NaOH, KOH, Ba(OH)₂"
         },
         {
-          "question": "Q16 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q16",
+          "question": "Weak acid example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₃COOH",
+            "HCl",
+            "HClO₄",
+            "HNO₃"
           ],
-          "answer": "Option A"
+          "answer": "CH₃COOH"
         },
         {
-          "question": "Q17 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q17",
+          "question": "Weak base example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NH₃",
+            "NaOH",
+            "KOH",
+            "Ba(OH)₂"
           ],
-          "answer": "Option A"
+          "answer": "NH₃"
         },
         {
-          "question": "Q18 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q18",
+          "question": "Ka × Kb = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kw",
+            "1",
+            "0",
+            "2Kw"
           ],
-          "answer": "Option A"
+          "answer": "Kw"
         },
         {
-          "question": "Q19 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q19",
+          "question": "pKa + pKb = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "14 (at 25°C)",
+            "7",
+            "0",
+            "10"
           ],
-          "answer": "Option A"
+          "answer": "14 (at 25°C)"
         },
         {
-          "question": "Q20 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q20",
+          "question": "Smaller Ka means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weaker acid",
+            "Stronger acid",
+            "Neutral",
+            "Base"
           ],
-          "answer": "Option A"
+          "answer": "Weaker acid"
         },
         {
-          "question": "Q21 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q21",
+          "question": "Acid strength order: HF, HCl, HBr, HI:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HI > HBr > HCl > HF",
+            "HF > HCl > HBr > HI",
+            "HCl > HBr",
+            "All equal"
           ],
-          "answer": "Option A"
+          "answer": "HI > HBr > HCl > HF"
         },
         {
-          "question": "Q22 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q22",
+          "question": "Oxyacid strength: HOCl, HOBr, HOI:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HOCl > HOBr > HOI",
+            "HOI > HOBr > HOCl",
+            "Equal",
+            "HOBr largest"
           ],
-          "answer": "Option A"
+          "answer": "HOCl > HOBr > HOI"
         },
         {
-          "question": "Q23 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q23",
+          "question": "Leveling effect: strongest acid in water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₃O⁺",
+            "HCl",
+            "HClO₄",
+            "H₂SO₄"
           ],
-          "answer": "Option A"
+          "answer": "H₃O⁺"
         },
         {
-          "question": "Q24 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q24",
+          "question": "Degree of ionization α for weak acid is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small",
+            "1",
+            "Large",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Small"
         },
         {
-          "question": "Q25 Week 20: Topic - Equilibrium – Ionic Equilibrium, Acids & Bases (Arrhenius, Brønsted, Lewis)",
+          "id": "c11-w20-q25",
+          "question": "For weak acid HA with conc c, [H⁺] ≈",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(Ka·c)",
+            "Ka/c",
+            "Ka·c",
+            "c/Ka"
           ],
-          "answer": "Option A"
+          "answer": "√(Ka·c)"
         }
       ]
     },
@@ -5400,254 +5550,279 @@
       "topic": "Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
       "questions": [
         {
-          "question": "Q1 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q1",
+          "question": "pH = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−log[H⁺]",
+            "log[H⁺]",
+            "10^[H⁺]",
+            "1/[H⁺]"
           ],
-          "answer": "Option A"
+          "answer": "−log[H⁺]"
         },
         {
-          "question": "Q2 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q2",
+          "question": "pH of pure water at 25°C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7",
+            "0",
+            "14",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "7"
         },
         {
-          "question": "Q3 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q3",
+          "question": "pH of 0.01 M HCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "12",
+            "7",
+            "4"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q4 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q4",
+          "question": "pH of 0.1 M NaOH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "13",
+            "1",
+            "7",
+            "14"
           ],
-          "answer": "Option A"
+          "answer": "13"
         },
         {
-          "question": "Q5 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q5",
+          "question": "pOH = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−log[OH⁻]",
+            "log[OH⁻]",
+            "14 − pH is true",
+            "pH − 14"
           ],
-          "answer": "Option A"
+          "answer": "−log[OH⁻]"
         },
         {
-          "question": "Q6 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q6",
+          "question": "pH + pOH = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "14 (at 25°C)",
+            "7",
+            "0",
+            "10"
           ],
-          "answer": "Option A"
+          "answer": "14 (at 25°C)"
         },
         {
-          "question": "Q7 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q7",
+          "question": "pH below 7 is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acidic",
+            "Basic",
+            "Neutral",
+            "Buffer"
           ],
-          "answer": "Option A"
+          "answer": "Acidic"
         },
         {
-          "question": "Q8 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q8",
+          "question": "pH above 7 is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Basic",
+            "Acidic",
+            "Neutral",
+            "Buffer"
           ],
-          "answer": "Option A"
+          "answer": "Basic"
         },
         {
-          "question": "Q9 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q9",
+          "question": "Buffer solution resists change in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "pH on adding small acid/base",
+            "Temperature",
+            "Volume",
+            "Color"
           ],
-          "answer": "Option A"
+          "answer": "pH on adding small acid/base"
         },
         {
-          "question": "Q10 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q10",
+          "question": "Acidic buffer: weak acid + ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Its salt with strong base",
+            "Strong acid",
+            "Strong base",
+            "Water"
           ],
-          "answer": "Option A"
+          "answer": "Its salt with strong base"
         },
         {
-          "question": "Q11 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q11",
+          "question": "Basic buffer: weak base + ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Its salt with strong acid",
+            "Strong acid",
+            "Water",
+            "Strong base"
           ],
-          "answer": "Option A"
+          "answer": "Its salt with strong acid"
         },
         {
-          "question": "Q12 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q12",
+          "question": "Henderson-Hasselbalch equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "pH = pKa + log([A⁻]/[HA])",
+            "pH = pKa + [A⁻]",
+            "pH = pKa × [A⁻]",
+            "pH = log(Ka)"
           ],
-          "answer": "Option A"
+          "answer": "pH = pKa + log([A⁻]/[HA])"
         },
         {
-          "question": "Q13 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q13",
+          "question": "Buffer works best when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "pH = pKa (equal [A⁻] and [HA])",
+            "pH = 0",
+            "pH = 14",
+            "[A⁻] ≫ [HA]"
           ],
-          "answer": "Option A"
+          "answer": "pH = pKa (equal [A⁻] and [HA])"
         },
         {
-          "question": "Q14 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q14",
+          "question": "Solubility product Ksp for AgCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[Ag⁺][Cl⁻]",
+            "[Ag⁺]+[Cl⁻]",
+            "[Ag⁺]/[Cl⁻]",
+            "[Cl⁻]²"
           ],
-          "answer": "Option A"
+          "answer": "[Ag⁺][Cl⁻]"
         },
         {
-          "question": "Q15 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q15",
+          "question": "Ksp for CaF₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[Ca²⁺][F⁻]²",
+            "[Ca²⁺][F⁻]",
+            "[Ca²⁺]²[F⁻]",
+            "[F⁻]²"
           ],
-          "answer": "Option A"
+          "answer": "[Ca²⁺][F⁻]²"
         },
         {
-          "question": "Q16 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q16",
+          "question": "Solubility s of AgCl: Ksp =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "s²",
+            "s",
+            "2s",
+            "s³"
           ],
-          "answer": "Option A"
+          "answer": "s²"
         },
         {
-          "question": "Q17 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q17",
+          "question": "Solubility s of CaF₂: Ksp =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4s³",
+            "s³",
+            "s²",
+            "2s³"
           ],
-          "answer": "Option A"
+          "answer": "4s³"
         },
         {
-          "question": "Q18 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q18",
+          "question": "Common ion effect: adding Cl⁻ to AgCl solution:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases Ag⁺ solubility",
+            "Increases",
+            "No effect",
+            "Dissolves more"
           ],
-          "answer": "Option A"
+          "answer": "Decreases Ag⁺ solubility"
         },
         {
-          "question": "Q19 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q19",
+          "question": "If ionic product IP > Ksp:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Precipitation occurs",
+            "Dissolution",
+            "Equilibrium",
+            "No change"
           ],
-          "answer": "Option A"
+          "answer": "Precipitation occurs"
         },
         {
-          "question": "Q20 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q20",
+          "question": "If IP < Ksp:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unsaturated, more dissolves",
+            "Precipitation",
+            "Equilibrium",
+            "Crystals form"
           ],
-          "answer": "Option A"
+          "answer": "Unsaturated, more dissolves"
         },
         {
-          "question": "Q21 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q21",
+          "question": "If IP = Ksp:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Saturated (equilibrium)",
+            "Unsaturated",
+            "Supersaturated",
+            "Precipitation"
           ],
-          "answer": "Option A"
+          "answer": "Saturated (equilibrium)"
         },
         {
-          "question": "Q22 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q22",
+          "question": "Hydrolysis of salt of strong acid + weak base (e.g. NH₄Cl):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Solution is acidic",
+            "Basic",
+            "Neutral",
+            "Strongly basic"
           ],
-          "answer": "Option A"
+          "answer": "Solution is acidic"
         },
         {
-          "question": "Q23 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q23",
+          "question": "Hydrolysis of salt of weak acid + strong base (e.g. CH₃COONa):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Basic",
+            "Acidic",
+            "Neutral",
+            "Strongly acidic"
           ],
-          "answer": "Option A"
+          "answer": "Basic"
         },
         {
-          "question": "Q24 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q24",
+          "question": "Salt of strong acid + strong base (NaCl):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Neutral",
+            "Acidic",
+            "Basic",
+            "Buffer"
           ],
-          "answer": "Option A"
+          "answer": "Neutral"
         },
         {
-          "question": "Q25 Week 21: Topic - Equilibrium – pH, Buffer Solutions, Solubility Product, Common Ion Effect",
+          "id": "c11-w21-q25",
+          "question": "pH of 10⁻⁸ M HCl is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Slightly less than 7",
+            "1",
+            "8",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "Slightly less than 7"
         }
       ]
     },
@@ -5656,254 +5831,279 @@
       "topic": "Redox Reactions – Oxidation Number, Types of Redox Reactions",
       "questions": [
         {
-          "question": "Q1 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q1",
+          "question": "Oxidation is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Loss of electrons / increase in O.N.",
+            "Gain of electrons",
+            "No change",
+            "Proton gain"
           ],
-          "answer": "Option A"
+          "answer": "Loss of electrons / increase in O.N."
         },
         {
-          "question": "Q2 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q2",
+          "question": "Reduction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gain of electrons / decrease in O.N.",
+            "Loss of electrons",
+            "No change",
+            "Proton loss"
           ],
-          "answer": "Option A"
+          "answer": "Gain of electrons / decrease in O.N."
         },
         {
-          "question": "Q3 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q3",
+          "question": "Redox reaction = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Simultaneous oxidation and reduction",
+            "Only oxidation",
+            "Only reduction",
+            "No electron transfer"
           ],
-          "answer": "Option A"
+          "answer": "Simultaneous oxidation and reduction"
         },
         {
-          "question": "Q4 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q4",
+          "question": "Oxidizing agent:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Accepts electrons / is reduced",
+            "Loses electrons",
+            "Unchanged",
+            "No role"
           ],
-          "answer": "Option A"
+          "answer": "Accepts electrons / is reduced"
         },
         {
-          "question": "Q5 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q5",
+          "question": "Reducing agent:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Loses electrons / is oxidized",
+            "Accepts electrons",
+            "Unchanged",
+            "Donates H⁺"
           ],
-          "answer": "Option A"
+          "answer": "Loses electrons / is oxidized"
         },
         {
-          "question": "Q6 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q6",
+          "question": "Oxidation number of H in H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+1",
+            "−1",
+            "0",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "+1"
         },
         {
-          "question": "Q7 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q7",
+          "question": "Oxidation number of H in NaH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−1",
+            "+1",
+            "0",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "−1"
         },
         {
-          "question": "Q8 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q8",
+          "question": "Oxidation number of O in H₂O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−1",
+            "−2",
+            "+1",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "−1"
         },
         {
-          "question": "Q9 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q9",
+          "question": "Oxidation number of O in OF₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+2",
+            "−2",
+            "0",
+            "−1"
           ],
-          "answer": "Option A"
+          "answer": "+2"
         },
         {
-          "question": "Q10 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q10",
+          "question": "Oxidation number of Mn in KMnO₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+7",
+            "+4",
+            "+6",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "+7"
         },
         {
-          "question": "Q11 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q11",
+          "question": "Oxidation number of Cr in K₂Cr₂O₇:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+6",
+            "+3",
+            "+7",
+            "+4"
           ],
-          "answer": "Option A"
+          "answer": "+6"
         },
         {
-          "question": "Q12 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q12",
+          "question": "Oxidation number of N in HNO₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+5",
+            "+3",
+            "+4",
+            "−3"
           ],
-          "answer": "Option A"
+          "answer": "+5"
         },
         {
-          "question": "Q13 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q13",
+          "question": "Oxidation number of S in H₂SO₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+6",
+            "+4",
+            "−2",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "+6"
         },
         {
-          "question": "Q14 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q14",
+          "question": "Oxidation number of C in CO₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+4",
+            "−4",
+            "+2",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "+4"
         },
         {
-          "question": "Q15 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q15",
+          "question": "Oxidation number of C in CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−4",
+            "+4",
+            "0",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "−4"
         },
         {
-          "question": "Q16 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q16",
+          "question": "Element in free state has O.N.:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "+1",
+            "−1",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q17 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q17",
+          "question": "Combination reaction e.g. 2H₂ + O₂ → 2H₂O is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Redox",
+            "Non-redox",
+            "Displacement",
+            "Decomposition"
           ],
-          "answer": "Option A"
+          "answer": "Redox"
         },
         {
-          "question": "Q18 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q18",
+          "question": "Decomposition reaction e.g. 2KClO₃ → 2KCl + 3O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Redox",
+            "Non-redox",
+            "Combination",
+            "Disproportionation"
           ],
-          "answer": "Option A"
+          "answer": "Redox"
         },
         {
-          "question": "Q19 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q19",
+          "question": "Displacement: Zn + CuSO₄ → ZnSO₄ + Cu is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Redox (Zn is reducing agent)",
+            "Non-redox",
+            "Combustion",
+            "Hydrolysis"
           ],
-          "answer": "Option A"
+          "answer": "Redox (Zn is reducing agent)"
         },
         {
-          "question": "Q20 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q20",
+          "question": "Disproportionation: same element is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both oxidized and reduced",
+            "Only oxidized",
+            "Only reduced",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Both oxidized and reduced"
         },
         {
-          "question": "Q21 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q21",
+          "question": "Example of disproportionation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2H₂O₂ → 2H₂O + O₂",
+            "H₂ + O₂ → H₂O",
+            "Na + Cl₂ → NaCl",
+            "CaCO₃ → CaO + CO₂"
           ],
-          "answer": "Option A"
+          "answer": "2H₂O₂ → 2H₂O + O₂"
         },
         {
-          "question": "Q22 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q22",
+          "question": "Comproportionation example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ag + Ag³⁺ → Ag²⁺ (hypothetical), or 5Fe²⁺ + 6H⁺ + MnO₄⁻ → Mn²⁺ + 5Fe³⁺",
+            "Decomposition",
+            "Combustion",
+            "Neutralization"
           ],
-          "answer": "Option A"
+          "answer": "Ag + Ag³⁺ → Ag²⁺ (hypothetical), or 5Fe²⁺ + 6H⁺ + MnO₄⁻ → Mn²⁺ + 5Fe³⁺"
         },
         {
-          "question": "Q23 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q23",
+          "question": "In 2Na + Cl₂ → 2NaCl, Na is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Oxidized (reducing agent)",
+            "Reduced",
+            "Unchanged",
+            "Oxidizing agent"
           ],
-          "answer": "Option A"
+          "answer": "Oxidized (reducing agent)"
         },
         {
-          "question": "Q24 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q24",
+          "question": "In electrolytic cell, oxidation occurs at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Anode",
+            "Cathode",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Anode"
         },
         {
-          "question": "Q25 Week 22: Topic - Redox Reactions – Oxidation Number, Types of Redox Reactions",
+          "id": "c11-w22-q25",
+          "question": "Reduction occurs at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cathode",
+            "Anode",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Cathode"
         }
       ]
     },
@@ -5912,254 +6112,279 @@
       "topic": "Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
       "questions": [
         {
-          "question": "Q1 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q1",
+          "question": "In oxidation number method, first balance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atoms other than H and O",
+            "H first",
+            "O first",
+            "Electrons first"
           ],
-          "answer": "Option A"
+          "answer": "Atoms other than H and O"
         },
         {
-          "question": "Q2 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q2",
+          "question": "In half-reaction method for acidic solution, balance O by adding:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O",
+            "OH⁻",
+            "O₂",
+            "H₂"
           ],
-          "answer": "Option A"
+          "answer": "H₂O"
         },
         {
-          "question": "Q3 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q3",
+          "question": "In half-reaction method for acidic solution, balance H by adding:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H⁺",
+            "H₂O",
+            "OH⁻",
+            "H₂"
           ],
-          "answer": "Option A"
+          "answer": "H⁺"
         },
         {
-          "question": "Q4 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q4",
+          "question": "In basic solution, after balancing as acidic, add OH⁻ to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both sides to neutralize H⁺",
+            "Only left",
+            "Only right",
+            "Not needed"
           ],
-          "answer": "Option A"
+          "answer": "Both sides to neutralize H⁺"
         },
         {
-          "question": "Q5 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q5",
+          "question": "Balance Fe²⁺ + MnO₄⁻ + H⁺ → Fe³⁺ + Mn²⁺ + H₂O. Fe²⁺ coef =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "1",
+            "2",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q6 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q6",
+          "question": "Electrons lost by reducing agent =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrons gained by oxidizing agent",
+            "Half",
+            "Double",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Electrons gained by oxidizing agent"
         },
         {
-          "question": "Q7 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q7",
+          "question": "Galvanic cell converts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chemical energy to electrical",
+            "Electrical to chemical",
+            "Heat to work",
+            "Mass to energy"
           ],
-          "answer": "Option A"
+          "answer": "Chemical energy to electrical"
         },
         {
-          "question": "Q8 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q8",
+          "question": "Daniell cell: Zn | Zn²⁺ || Cu²⁺ | Cu. Anode is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zn electrode",
+            "Cu electrode",
+            "Salt bridge",
+            "Wire"
           ],
-          "answer": "Option A"
+          "answer": "Zn electrode"
         },
         {
-          "question": "Q9 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q9",
+          "question": "Cathode in Daniell cell:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cu",
+            "Zn",
+            "Salt bridge",
+            "Both"
           ],
-          "answer": "Option A"
+          "answer": "Cu"
         },
         {
-          "question": "Q10 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q10",
+          "question": "EMF of Daniell cell ~",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.10 V",
+            "0.34 V",
+            "−0.76 V",
+            "0 V"
           ],
-          "answer": "Option A"
+          "answer": "1.10 V"
         },
         {
-          "question": "Q11 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q11",
+          "question": "Salt bridge maintains:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrical neutrality of solutions",
+            "Current flow in wire",
+            "Heat",
+            "Mass balance"
           ],
-          "answer": "Option A"
+          "answer": "Electrical neutrality of solutions"
         },
         {
-          "question": "Q12 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q12",
+          "question": "Standard hydrogen electrode E° =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.00 V",
+            "+1.00 V",
+            "−1.00 V",
+            "+0.34 V"
           ],
-          "answer": "Option A"
+          "answer": "0.00 V"
         },
         {
-          "question": "Q13 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q13",
+          "question": "Standard electrode potential of Zn²⁺/Zn:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−0.76 V",
+            "+0.34 V",
+            "+0.76 V",
+            "0.00 V"
           ],
-          "answer": "Option A"
+          "answer": "−0.76 V"
         },
         {
-          "question": "Q14 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q14",
+          "question": "Standard electrode potential of Cu²⁺/Cu:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+0.34 V",
+            "−0.34 V",
+            "+1.10 V",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "+0.34 V"
         },
         {
-          "question": "Q15 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q15",
+          "question": "E°_cell = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "E°_cathode − E°_anode",
+            "E°_anode − E°_cathode",
+            "Sum",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "E°_cathode − E°_anode"
         },
         {
-          "question": "Q16 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q16",
+          "question": "ΔG° = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−nFE°",
+            "nFE°",
+            "−E°/nF",
+            "nF/E°"
           ],
-          "answer": "Option A"
+          "answer": "−nFE°"
         },
         {
-          "question": "Q17 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q17",
+          "question": "F (Faraday constant) = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "96500 C/mol",
+            "6.022×10²³",
+            "9.11×10⁻³¹",
+            "8.314 J/mol·K"
           ],
-          "answer": "Option A"
+          "answer": "96500 C/mol"
         },
         {
-          "question": "Q18 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q18",
+          "question": "Nernst equation at 298 K:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "E = E° − (0.0591/n) log Q",
+            "E = E° − RT ln Q",
+            "E = E° × Q",
+            "E = log Q"
           ],
-          "answer": "Option A"
+          "answer": "E = E° − (0.0591/n) log Q"
         },
         {
-          "question": "Q19 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q19",
+          "question": "At equilibrium, E_cell = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "E°",
+            "−E°",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q20 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q20",
+          "question": "Higher E° means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Better oxidizing agent (more tendency to be reduced)",
+            "Stronger reducing agent",
+            "Less reactive",
+            "Inert"
           ],
-          "answer": "Option A"
+          "answer": "Better oxidizing agent (more tendency to be reduced)"
         },
         {
-          "question": "Q21 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q21",
+          "question": "Most powerful oxidizing agent from list:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F₂ (E° = +2.87 V)",
+            "Cl₂",
+            "O₂",
+            "H⁺"
           ],
-          "answer": "Option A"
+          "answer": "F₂ (E° = +2.87 V)"
         },
         {
-          "question": "Q22 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q22",
+          "question": "Most powerful reducing agent:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Li (E°_Li⁺/Li = −3.04 V)",
+            "Na",
+            "K",
+            "Zn"
           ],
-          "answer": "Option A"
+          "answer": "Li (E°_Li⁺/Li = −3.04 V)"
         },
         {
-          "question": "Q23 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q23",
+          "question": "Electrolysis of molten NaCl produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na at cathode, Cl₂ at anode",
+            "Na at anode",
+            "H₂ at cathode",
+            "NaOH"
           ],
-          "answer": "Option A"
+          "answer": "Na at cathode, Cl₂ at anode"
         },
         {
-          "question": "Q24 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q24",
+          "question": "Faraday's first law: mass deposited ∝",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Charge passed",
+            "Time only",
+            "Voltage only",
+            "1/current"
           ],
-          "answer": "Option A"
+          "answer": "Charge passed"
         },
         {
-          "question": "Q25 Week 23: Topic - Redox Reactions – Balancing, Half-Reaction Method, Electrochemical Cells",
+          "id": "c11-w23-q25",
+          "question": "Equivalent mass in electrolysis = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Molar mass / n (electrons)",
+            "Molar mass × n",
+            "Molar mass",
+            "1/n"
           ],
-          "answer": "Option A"
+          "answer": "Molar mass / n (electrons)"
         }
       ]
     },
@@ -6168,254 +6393,279 @@
       "topic": "Organic Chemistry – Hybridisation, Classification of Organic Compounds",
       "questions": [
         {
-          "question": "Q1 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q1",
+          "question": "Carbon's valency is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4",
+            "2",
+            "6",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "4"
         },
         {
-          "question": "Q2 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q2",
+          "question": "Tetravalency of carbon is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³ hybridization",
+            "sp² only",
+            "sp only",
+            "d-orbitals"
           ],
-          "answer": "Option A"
+          "answer": "sp³ hybridization"
         },
         {
-          "question": "Q3 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q3",
+          "question": "Catenation is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Self-linking of atoms (C−C chains)",
+            "Oxidation",
+            "Reduction",
+            "Polymerization only"
           ],
-          "answer": "Option A"
+          "answer": "Self-linking of atoms (C−C chains)"
         },
         {
-          "question": "Q4 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q4",
+          "question": "In CH₃−CH₃ (ethane) each C is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q5 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q5",
+          "question": "In H₂C=CH₂ (ethene) each C is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "dsp²"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q6 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q6",
+          "question": "In HC≡CH (ethyne) each C is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp",
+            "sp²",
+            "sp³",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp"
         },
         {
-          "question": "Q7 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q7",
+          "question": "σ bond is formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Head-on overlap",
+            "Sideways",
+            "No overlap",
+            "Ionic"
           ],
-          "answer": "Option A"
+          "answer": "Head-on overlap"
         },
         {
-          "question": "Q8 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q8",
+          "question": "π bond is formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sideways overlap",
+            "Head-on",
+            "No overlap",
+            "Ionic"
           ],
-          "answer": "Option A"
+          "answer": "Sideways overlap"
         },
         {
-          "question": "Q9 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q9",
+          "question": "Homolytic cleavage produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Free radicals",
+            "Ions",
+            "Neutral molecules",
+            "Electrons only"
           ],
-          "answer": "Option A"
+          "answer": "Free radicals"
         },
         {
-          "question": "Q10 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q10",
+          "question": "Heterolytic cleavage produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ions (carbocation/carbanion)",
+            "Free radicals",
+            "Atoms",
+            "Neutral"
           ],
-          "answer": "Option A"
+          "answer": "Ions (carbocation/carbanion)"
         },
         {
-          "question": "Q11 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q11",
+          "question": "Carbocation: C has ___ electrons:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6 (empty p)",
+            "8",
+            "4",
+            "10"
           ],
-          "answer": "Option A"
+          "answer": "6 (empty p)"
         },
         {
-          "question": "Q12 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q12",
+          "question": "Order of carbocation stability:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3° > 2° > 1° > methyl",
+            "Methyl > 1° > 2° > 3°",
+            "Equal",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "3° > 2° > 1° > methyl"
         },
         {
-          "question": "Q13 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q13",
+          "question": "Carbanion: C has ___ electrons:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8 (lone pair)",
+            "6",
+            "4",
+            "10"
           ],
-          "answer": "Option A"
+          "answer": "8 (lone pair)"
         },
         {
-          "question": "Q14 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q14",
+          "question": "Order of carbanion stability:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methyl > 1° > 2° > 3°",
+            "3° > 2°",
+            "Equal",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Methyl > 1° > 2° > 3°"
         },
         {
-          "question": "Q15 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q15",
+          "question": "Functional group of alcohols:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−OH",
+            "−CHO",
+            "−COOH",
+            "−NH₂"
           ],
-          "answer": "Option A"
+          "answer": "−OH"
         },
         {
-          "question": "Q16 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q16",
+          "question": "Functional group of aldehyde:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−CHO",
+            "−CO−",
+            "−COOH",
+            "−OH"
           ],
-          "answer": "Option A"
+          "answer": "−CHO"
         },
         {
-          "question": "Q17 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q17",
+          "question": "Functional group of ketone:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            ">C=O (in chain)",
+            "−CHO",
+            "−COOH",
+            "−OH"
           ],
-          "answer": "Option A"
+          "answer": ">C=O (in chain)"
         },
         {
-          "question": "Q18 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q18",
+          "question": "Functional group of carboxylic acid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−COOH",
+            "−CHO",
+            "−CO−",
+            "−OH"
           ],
-          "answer": "Option A"
+          "answer": "−COOH"
         },
         {
-          "question": "Q19 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q19",
+          "question": "Functional group of amine:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−NH₂",
+            "−OH",
+            "−NO₂",
+            "−CN"
           ],
-          "answer": "Option A"
+          "answer": "−NH₂"
         },
         {
-          "question": "Q20 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q20",
+          "question": "Electrophile is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron-deficient (+/neutral)",
+            "Electron-rich",
+            "Neutral radical",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Electron-deficient (+/neutral)"
         },
         {
-          "question": "Q21 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q21",
+          "question": "Example of electrophile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NO₂⁺, H⁺, BF₃",
+            "NH₃, OH⁻",
+            "Cl⁻",
+            "Na"
           ],
-          "answer": "Option A"
+          "answer": "NO₂⁺, H⁺, BF₃"
         },
         {
-          "question": "Q22 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q22",
+          "question": "Nucleophile is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron-rich (pair donor)",
+            "Electron-poor",
+            "Neutral radical",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Electron-rich (pair donor)"
         },
         {
-          "question": "Q23 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q23",
+          "question": "Example of nucleophile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "OH⁻, CN⁻, NH₃",
+            "NO₂⁺, H⁺",
+            "BF₃",
+            "AlCl₃"
           ],
-          "answer": "Option A"
+          "answer": "OH⁻, CN⁻, NH₃"
         },
         {
-          "question": "Q24 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q24",
+          "question": "Inductive effect is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Transmission of polarity through σ bonds",
+            "Through π",
+            "Through H-bond",
+            "No transmission"
           ],
-          "answer": "Option A"
+          "answer": "Transmission of polarity through σ bonds"
         },
         {
-          "question": "Q25 Week 24: Topic - Organic Chemistry – Hybridisation, Classification of Organic Compounds",
+          "id": "c11-w24-q25",
+          "question": "Resonance effect is through:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "π bonds / lone pairs",
+            "σ bonds",
+            "H-bonds",
+            "Ionic"
           ],
-          "answer": "Option A"
+          "answer": "π bonds / lone pairs"
         }
       ]
     },
@@ -6424,254 +6674,279 @@
       "topic": "Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
       "questions": [
         {
-          "question": "Q1 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q1",
+          "question": "IUPAC name of CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methane",
+            "Ethane",
+            "Propane",
+            "Butane"
           ],
-          "answer": "Option A"
+          "answer": "Methane"
         },
         {
-          "question": "Q2 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q2",
+          "question": "IUPAC name of CH₃CH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethane",
+            "Methane",
+            "Propane",
+            "Ethene"
           ],
-          "answer": "Option A"
+          "answer": "Ethane"
         },
         {
-          "question": "Q3 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q3",
+          "question": "IUPAC name of CH₃CH₂CH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Propane",
+            "Butane",
+            "Ethane",
+            "Propene"
           ],
-          "answer": "Option A"
+          "answer": "Propane"
         },
         {
-          "question": "Q4 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q4",
+          "question": "General formula of alkanes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₋₂",
+            "CₙHₙ"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ₊₂"
         },
         {
-          "question": "Q5 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q5",
+          "question": "General formula of alkenes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ₋₂",
+            "CₙHₙ"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ"
         },
         {
-          "question": "Q6 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q6",
+          "question": "General formula of alkynes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙHₙ"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ₋₂"
         },
         {
-          "question": "Q7 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q7",
+          "question": "IUPAC name of (CH₃)₃CH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-Methylpropane",
+            "Isobutane",
+            "Butane",
+            "n-Butane"
           ],
-          "answer": "Option A"
+          "answer": "2-Methylpropane"
         },
         {
-          "question": "Q8 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q8",
+          "question": "IUPAC name of CH₃CH₂CH=CH₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "But-1-ene",
+            "But-2-ene",
+            "Butane",
+            "Butyne"
           ],
-          "answer": "Option A"
+          "answer": "But-1-ene"
         },
         {
-          "question": "Q9 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q9",
+          "question": "IUPAC name of CH₃C≡CCH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "But-2-yne",
+            "But-1-yne",
+            "Butane",
+            "Propyne"
           ],
-          "answer": "Option A"
+          "answer": "But-2-yne"
         },
         {
-          "question": "Q10 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q10",
+          "question": "IUPAC name of CH₃CHO:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethanal",
+            "Methanal",
+            "Propanal",
+            "Acetone"
           ],
-          "answer": "Option A"
+          "answer": "Ethanal"
         },
         {
-          "question": "Q11 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q11",
+          "question": "IUPAC name of CH₃COCH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Propan-2-one",
+            "Propanone",
+            "Acetone (common)",
+            "Both A and C"
           ],
-          "answer": "Option A"
+          "answer": "Both A and C"
         },
         {
-          "question": "Q12 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q12",
+          "question": "IUPAC name of CH₃COOH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethanoic acid",
+            "Methanoic acid",
+            "Propanoic acid",
+            "Formic acid"
           ],
-          "answer": "Option A"
+          "answer": "Ethanoic acid"
         },
         {
-          "question": "Q13 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q13",
+          "question": "IUPAC name of CH₃OH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methanol",
+            "Ethanol",
+            "Propanol",
+            "Methoxide"
           ],
-          "answer": "Option A"
+          "answer": "Methanol"
         },
         {
-          "question": "Q14 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q14",
+          "question": "IUPAC name of CH₃CH₂OH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethanol",
+            "Methanol",
+            "Ethanal",
+            "Ethanoic acid"
           ],
-          "answer": "Option A"
+          "answer": "Ethanol"
         },
         {
-          "question": "Q15 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q15",
+          "question": "IUPAC name of CH₃NH₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methanamine",
+            "Methylamine (common)",
+            "Both same",
+            "Methanal"
           ],
-          "answer": "Option A"
+          "answer": "Both same"
         },
         {
-          "question": "Q16 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q16",
+          "question": "Longest chain must contain:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Functional group and maximum substituents",
+            "Random carbons",
+            "Shortest path",
+            "Only one substituent"
           ],
-          "answer": "Option A"
+          "answer": "Functional group and maximum substituents"
         },
         {
-          "question": "Q17 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q17",
+          "question": "Numbering gives lowest locants to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Principal functional group",
+            "Random",
+            "Highest first",
+            "Substituents only"
           ],
-          "answer": "Option A"
+          "answer": "Principal functional group"
         },
         {
-          "question": "Q18 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q18",
+          "question": "Alphabetical order for substituents ignores:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Multiplying prefixes (di, tri)",
+            "All letters",
+            "First letter",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Multiplying prefixes (di, tri)"
         },
         {
-          "question": "Q19 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q19",
+          "question": "IUPAC name of CH₃CH(CH₃)CH₂CH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-Methylbutane",
+            "3-Methylbutane",
+            "Pentane",
+            "Isopentane"
           ],
-          "answer": "Option A"
+          "answer": "2-Methylbutane"
         },
         {
-          "question": "Q20 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q20",
+          "question": "IUPAC name of CH₃CH(Cl)CH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-Chloropropane",
+            "1-Chloropropane",
+            "Propylchloride",
+            "Chloropropane"
           ],
-          "answer": "Option A"
+          "answer": "2-Chloropropane"
         },
         {
-          "question": "Q21 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q21",
+          "question": "Name for −CHO group when naming acid/ester:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "'Oxo' prefix / aldehyde suffix",
+            "Ketone",
+            "Amine",
+            "Nitrile"
           ],
-          "answer": "Option A"
+          "answer": "'Oxo' prefix / aldehyde suffix"
         },
         {
-          "question": "Q22 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q22",
+          "question": "IUPAC name of HCOOH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methanoic acid (formic)",
+            "Ethanoic acid",
+            "Propanoic acid",
+            "Formal"
           ],
-          "answer": "Option A"
+          "answer": "Methanoic acid (formic)"
         },
         {
-          "question": "Q23 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q23",
+          "question": "CH₂=CHCl is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chloroethene (vinyl chloride)",
+            "Ethyl chloride",
+            "Chloromethane",
+            "Vinyl chloride only"
           ],
-          "answer": "Option A"
+          "answer": "Chloroethene (vinyl chloride)"
         },
         {
-          "question": "Q24 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q24",
+          "question": "IUPAC name of benzene derivative C₆H₅CH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methylbenzene (toluene)",
+            "Benzene",
+            "Phenol",
+            "Xylene"
           ],
-          "answer": "Option A"
+          "answer": "Methylbenzene (toluene)"
         },
         {
-          "question": "Q25 Week 25: Topic - Organic Chemistry – IUPAC Nomenclature (Alkanes, Alkenes, Alkynes)",
+          "id": "c11-w25-q25",
+          "question": "Priority of functional groups (decreasing):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−COOH > −CHO > −CO− > −OH > −NH₂",
+            "Opposite",
+            "Random",
+            "−OH highest"
           ],
-          "answer": "Option A"
+          "answer": "−COOH > −CHO > −CO− > −OH > −NH₂"
         }
       ]
     },
@@ -6680,254 +6955,279 @@
       "topic": "Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
       "questions": [
         {
-          "question": "Q1 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q1",
+          "question": "Isomers are compounds with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same molecular formula, different structure",
+            "Different formulas",
+            "Same structure",
+            "Different masses"
           ],
-          "answer": "Option A"
+          "answer": "Same molecular formula, different structure"
         },
         {
-          "question": "Q2 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q2",
+          "question": "Structural isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Connectivity of atoms",
+            "Spatial arrangement only",
+            "Molecular formula",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Connectivity of atoms"
         },
         {
-          "question": "Q3 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q3",
+          "question": "Chain isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chain skeleton",
+            "Position of functional group",
+            "Functional group type",
+            "Geometry"
           ],
-          "answer": "Option A"
+          "answer": "Chain skeleton"
         },
         {
-          "question": "Q4 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q4",
+          "question": "Example of chain isomers:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "n-butane and iso-butane",
+            "Butan-1-ol and butan-2-ol",
+            "Ethanol and dimethyl ether",
+            "cis/trans but-2-ene"
           ],
-          "answer": "Option A"
+          "answer": "n-butane and iso-butane"
         },
         {
-          "question": "Q5 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q5",
+          "question": "Position isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Position of functional group",
+            "Chain",
+            "Functional group",
+            "Geometry"
           ],
-          "answer": "Option A"
+          "answer": "Position of functional group"
         },
         {
-          "question": "Q6 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q6",
+          "question": "Example of position isomers:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Butan-1-ol and butan-2-ol",
+            "n-butane, iso-butane",
+            "Ethanol, DME",
+            "cis-2-butene"
           ],
-          "answer": "Option A"
+          "answer": "Butan-1-ol and butan-2-ol"
         },
         {
-          "question": "Q7 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q7",
+          "question": "Functional group isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Functional group",
+            "Chain",
+            "Position",
+            "Stereo"
           ],
-          "answer": "Option A"
+          "answer": "Functional group"
         },
         {
-          "question": "Q8 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q8",
+          "question": "Example of functional group isomers:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethanol and dimethyl ether",
+            "n-butane, iso-butane",
+            "cis-2-butene",
+            "Butan-1-ol, butan-2-ol"
           ],
-          "answer": "Option A"
+          "answer": "Ethanol and dimethyl ether"
         },
         {
-          "question": "Q9 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q9",
+          "question": "Metamers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkyl groups on same functional group",
+            "Chain",
+            "Position",
+            "Geometry"
           ],
-          "answer": "Option A"
+          "answer": "Alkyl groups on same functional group"
         },
         {
-          "question": "Q10 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q10",
+          "question": "Example of metamers:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methoxypropane and ethoxyethane",
+            "Ethanol and DME",
+            "n-butane, iso-butane",
+            "Butan-1-ol and 2-ol"
           ],
-          "answer": "Option A"
+          "answer": "Methoxypropane and ethoxyethane"
         },
         {
-          "question": "Q11 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q11",
+          "question": "Tautomers are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dynamic isomers (keto-enol)",
+            "Chain isomers",
+            "Geometrical isomers",
+            "Optical isomers"
           ],
-          "answer": "Option A"
+          "answer": "Dynamic isomers (keto-enol)"
         },
         {
-          "question": "Q12 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q12",
+          "question": "Keto-enol tautomerism example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₃COCH₃ ⇌ CH₂=C(OH)CH₃",
+            "Cis-trans",
+            "Geometrical",
+            "Chain"
           ],
-          "answer": "Option A"
+          "answer": "CH₃COCH₃ ⇌ CH₂=C(OH)CH₃"
         },
         {
-          "question": "Q13 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q13",
+          "question": "Stereoisomers have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same connectivity, different spatial arrangement",
+            "Different connectivity",
+            "Different formula",
+            "Same everything"
           ],
-          "answer": "Option A"
+          "answer": "Same connectivity, different spatial arrangement"
         },
         {
-          "question": "Q14 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q14",
+          "question": "Geometrical (cis-trans) isomerism arises in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkenes with restricted rotation",
+            "All alkanes",
+            "All alcohols",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Alkenes with restricted rotation"
         },
         {
-          "question": "Q15 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q15",
+          "question": "cis-2-butene has CH₃ groups on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same side of C=C",
+            "Opposite sides",
+            "Triple bond",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Same side of C=C"
         },
         {
-          "question": "Q16 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q16",
+          "question": "trans-2-butene has CH₃ groups on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Opposite sides of C=C",
+            "Same side",
+            "Tetrahedral",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Opposite sides of C=C"
         },
         {
-          "question": "Q17 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q17",
+          "question": "Requirement for geometrical isomerism:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Each carbon of C=C must have 2 different groups",
+            "Same groups",
+            "Single bond only",
+            "No requirement"
           ],
-          "answer": "Option A"
+          "answer": "Each carbon of C=C must have 2 different groups"
         },
         {
-          "question": "Q18 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q18",
+          "question": "Which has no geometrical isomers: 2-methylbut-2-ene, but-2-ene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-methylbut-2-ene (C has 2 CH₃)",
+            "But-2-ene",
+            "Both have",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "2-methylbut-2-ene (C has 2 CH₃)"
         },
         {
-          "question": "Q19 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q19",
+          "question": "Optical isomers rotate:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Plane of polarized light",
+            "Unpolarized light",
+            "Frequency",
+            "Wavelength"
           ],
-          "answer": "Option A"
+          "answer": "Plane of polarized light"
         },
         {
-          "question": "Q20 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q20",
+          "question": "Dextrorotatory rotates plane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Clockwise (+)",
+            "Anticlockwise",
+            "No rotation",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Clockwise (+)"
         },
         {
-          "question": "Q21 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q21",
+          "question": "Chiral center is a carbon bonded to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 different groups",
+            "4 same",
+            "3 different",
+            "2 different"
           ],
-          "answer": "Option A"
+          "answer": "4 different groups"
         },
         {
-          "question": "Q22 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q22",
+          "question": "Enantiomers are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-superimposable mirror images",
+            "Identical",
+            "Diastereomers",
+            "Geometric"
           ],
-          "answer": "Option A"
+          "answer": "Non-superimposable mirror images"
         },
         {
-          "question": "Q23 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q23",
+          "question": "Racemic mixture contains:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50% (+) and 50% (−) enantiomers",
+            "Only (+)",
+            "Only (−)",
+            "Diastereomers"
           ],
-          "answer": "Option A"
+          "answer": "50% (+) and 50% (−) enantiomers"
         },
         {
-          "question": "Q24 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q24",
+          "question": "Racemic mixture is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Optically inactive",
+            "Optically active (+)",
+            "Optically active (−)",
+            "Both active"
           ],
-          "answer": "Option A"
+          "answer": "Optically inactive"
         },
         {
-          "question": "Q25 Week 26: Topic - Organic Chemistry – Isomerism (Structural: Chain, Position, Functional Group)",
+          "id": "c11-w26-q25",
+          "question": "Meso compound has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chiral centers but internal plane of symmetry (optically inactive)",
+            "No chiral centers",
+            "Active",
+            "Enantiomer only"
           ],
-          "answer": "Option A"
+          "answer": "Chiral centers but internal plane of symmetry (optically inactive)"
         }
       ]
     },
