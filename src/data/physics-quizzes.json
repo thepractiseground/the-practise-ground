@@ -14281,254 +14281,279 @@
       "topic": "Electric Charges and Fields - Gauss's Theorem",
       "questions": [
         {
-          "question": "Electric Charges and Fields Concept 1: Select the correct answer",
+          "id": "p12-w3-q1",
+          "question": "Electric charge is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Quantized and conserved",
+            "Only conserved",
+            "Only quantized",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Quantized and conserved"
         },
         {
-          "question": "Electric Charges and Fields Concept 2: Select the correct answer",
+          "id": "p12-w3-q2",
+          "question": "Elementary charge e ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.6 × 10⁻¹⁹ C",
+            "9.1 × 10⁻³¹ C",
+            "1.67 × 10⁻²⁷ C",
+            "6.62 × 10⁻³⁴ C"
           ],
-          "answer": "Option A"
+          "answer": "1.6 × 10⁻¹⁹ C"
         },
         {
-          "question": "Electric Charges and Fields Concept 3: Select the correct answer",
+          "id": "p12-w3-q3",
+          "question": "Coulomb's law: F = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq₁q₂/r²",
+            "kq₁q₂/r",
+            "q₁q₂/r",
+            "kq₁q₂·r"
           ],
-          "answer": "Option A"
+          "answer": "kq₁q₂/r²"
         },
         {
-          "question": "Electric Charges and Fields Concept 4: Select the correct answer",
+          "id": "p12-w3-q4",
+          "question": "Value of k = 1/(4πε₀) ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9 × 10⁹ N·m²/C²",
+            "8.85 × 10⁻¹²",
+            "1.6 × 10⁻¹⁹",
+            "6.67 × 10⁻¹¹"
           ],
-          "answer": "Option A"
+          "answer": "9 × 10⁹ N·m²/C²"
         },
         {
-          "question": "Electric Charges and Fields Concept 5: Select the correct answer",
+          "id": "p12-w3-q5",
+          "question": "Permittivity of free space ε₀ ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8.85 × 10⁻¹² C²/(N·m²)",
+            "9 × 10⁹",
+            "1.6 × 10⁻¹⁹",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "8.85 × 10⁻¹² C²/(N·m²)"
         },
         {
-          "question": "Electric Charges and Fields Concept 6: Select the correct answer",
+          "id": "p12-w3-q6",
+          "question": "Electric field due to point charge: E = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq/r²",
+            "kq/r",
+            "kqr",
+            "q/r²"
           ],
-          "answer": "Option A"
+          "answer": "kq/r²"
         },
         {
-          "question": "Electric Charges and Fields Concept 7: Select the correct answer",
+          "id": "p12-w3-q7",
+          "question": "SI unit of electric field:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N/C or V/m",
+            "C/N",
+            "Pa",
+            "J"
           ],
-          "answer": "Option A"
+          "answer": "N/C or V/m"
         },
         {
-          "question": "Electric Charges and Fields Concept 8: Select the correct answer",
+          "id": "p12-w3-q8",
+          "question": "Electric field is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Vector",
+            "Scalar",
+            "Tensor",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Vector"
         },
         {
-          "question": "Electric Charges and Fields Concept 9: Select the correct answer",
+          "id": "p12-w3-q9",
+          "question": "Electric field lines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Begin on +ve charges, end on −ve",
+            "Close on themselves",
+            "Cross each other",
+            "Radiate from electrons"
           ],
-          "answer": "Option A"
+          "answer": "Begin on +ve charges, end on −ve"
         },
         {
-          "question": "Electric Charges and Fields Concept 10: Select the correct answer",
+          "id": "p12-w3-q10",
+          "question": "Electric field lines never:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cross each other",
+            "Begin on charge",
+            "Form closed loops",
+            "End on charge"
           ],
-          "answer": "Option A"
+          "answer": "Cross each other"
         },
         {
-          "question": "Electric Charges and Fields Concept 11: Select the correct answer",
+          "id": "p12-w3-q11",
+          "question": "Electric dipole moment: p = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q × 2a (for charges ±q separated by 2a)",
+            "q/r",
+            "q + 2a",
+            "kq"
           ],
-          "answer": "Option A"
+          "answer": "q × 2a (for charges ±q separated by 2a)"
         },
         {
-          "question": "Electric Charges and Fields Concept 12: Select the correct answer",
+          "id": "p12-w3-q12",
+          "question": "Field on axis of short dipole at distance r: E = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2kp/r³",
+            "kp/r²",
+            "kp/r³",
+            "kp/r"
           ],
-          "answer": "Option A"
+          "answer": "2kp/r³"
         },
         {
-          "question": "Electric Charges and Fields Concept 13: Select the correct answer",
+          "id": "p12-w3-q13",
+          "question": "Field on equator of short dipole: E = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kp/r³ (opposite to p)",
+            "2kp/r³",
+            "kp/r²",
+            "kp/r"
           ],
-          "answer": "Option A"
+          "answer": "kp/r³ (opposite to p)"
         },
         {
-          "question": "Electric Charges and Fields Concept 14: Select the correct answer",
+          "id": "p12-w3-q14",
+          "question": "Torque on dipole in field E: τ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "p × E",
+            "p + E",
+            "p·E",
+            "pE²"
           ],
-          "answer": "Option A"
+          "answer": "p × E"
         },
         {
-          "question": "Electric Charges and Fields Concept 15: Select the correct answer",
+          "id": "p12-w3-q15",
+          "question": "Dipole in uniform field experiences:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Torque but zero net force",
+            "Zero torque",
+            "Net force",
+            "Both force and torque"
           ],
-          "answer": "Option A"
+          "answer": "Torque but zero net force"
         },
         {
-          "question": "Electric Charges and Fields Concept 16: Select the correct answer",
+          "id": "p12-w3-q16",
+          "question": "Electric flux Φ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "∮E·dA",
+            "∫E",
+            "q/ε₀ always",
+            "E×A"
           ],
-          "answer": "Option A"
+          "answer": "∮E·dA"
         },
         {
-          "question": "Electric Charges and Fields Concept 17: Select the correct answer",
+          "id": "p12-w3-q17",
+          "question": "Gauss's law: ∮E·dA = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q_enclosed/ε₀",
+            "q·ε₀",
+            "q/4π",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "q_enclosed/ε₀"
         },
         {
-          "question": "Electric Charges and Fields Concept 18: Select the correct answer",
+          "id": "p12-w3-q18",
+          "question": "Gauss's law holds for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Closed surface",
+            "Open surface",
+            "Only spheres",
+            "Only flat surfaces"
           ],
-          "answer": "Option A"
+          "answer": "Closed surface"
         },
         {
-          "question": "Electric Charges and Fields Concept 19: Select the correct answer",
+          "id": "p12-w3-q19",
+          "question": "Field of infinite sheet of charge (surface density σ):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "σ/(2ε₀)",
+            "σ/ε₀",
+            "σ ε₀",
+            "kσ"
           ],
-          "answer": "Option A"
+          "answer": "σ/(2ε₀)"
         },
         {
-          "question": "Electric Charges and Fields Concept 20: Select the correct answer",
+          "id": "p12-w3-q20",
+          "question": "Field of infinite line of charge (linear density λ):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "λ/(2πε₀r)",
+            "λε₀/r",
+            "kλr",
+            "λ/r²"
           ],
-          "answer": "Option A"
+          "answer": "λ/(2πε₀r)"
         },
         {
-          "question": "Electric Charges and Fields Concept 21: Select the correct answer",
+          "id": "p12-w3-q21",
+          "question": "Field inside a conducting sphere (static):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "kq/r²",
+            "kq/R²",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Electric Charges and Fields Concept 22: Select the correct answer",
+          "id": "p12-w3-q22",
+          "question": "Field outside a charged conducting sphere (total charge q):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq/r² (as point charge at center)",
+            "Zero",
+            "kq/R²",
+            "kqr"
           ],
-          "answer": "Option A"
+          "answer": "kq/r² (as point charge at center)"
         },
         {
-          "question": "Electric Charges and Fields Concept 23: Select the correct answer",
+          "id": "p12-w3-q23",
+          "question": "Excess charge on a conductor resides:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "On the outer surface",
+            "Uniformly throughout",
+            "At the center",
+            "In layers"
           ],
-          "answer": "Option A"
+          "answer": "On the outer surface"
         },
         {
-          "question": "Electric Charges and Fields Concept 24: Select the correct answer",
+          "id": "p12-w3-q24",
+          "question": "Faraday cage shields interior from external static fields because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Induced charges cancel the field inside",
+            "No charges allowed",
+            "Air inside",
+            "Gravity shielding"
           ],
-          "answer": "Option A"
+          "answer": "Induced charges cancel the field inside"
         },
         {
-          "question": "Electric Charges and Fields Concept 25: Select the correct answer",
+          "id": "p12-w3-q25",
+          "question": "The SI unit of charge is the:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Coulomb",
+            "Ampere",
+            "Volt",
+            "Ohm"
           ],
-          "answer": "Option A"
+          "answer": "Coulomb"
         }
       ]
     },
@@ -14537,254 +14562,279 @@
       "topic": "Electrostatic Potential - Potential & Potential Difference",
       "questions": [
         {
-          "question": "Electrostatic Potential Concept 1: Select the correct answer",
+          "id": "p12-w4-q1",
+          "question": "Electric potential V at point is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Work per unit positive test charge to bring it from ∞",
+            "Force per charge",
+            "Energy×charge",
+            "Field times distance"
           ],
-          "answer": "Option A"
+          "answer": "Work per unit positive test charge to bring it from ∞"
         },
         {
-          "question": "Electrostatic Potential Concept 2: Select the correct answer",
+          "id": "p12-w4-q2",
+          "question": "SI unit of potential:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Volt (V)",
+            "N/C",
+            "C",
+            "Pa"
           ],
-          "answer": "Option A"
+          "answer": "Volt (V)"
         },
         {
-          "question": "Electrostatic Potential Concept 3: Select the correct answer",
+          "id": "p12-w4-q3",
+          "question": "1 V = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 J/C",
+            "1 C/J",
+            "1 N·m",
+            "1 N/C"
           ],
-          "answer": "Option A"
+          "answer": "1 J/C"
         },
         {
-          "question": "Electrostatic Potential Concept 4: Select the correct answer",
+          "id": "p12-w4-q4",
+          "question": "Potential due to point charge: V = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq/r",
+            "kq/r²",
+            "kqr",
+            "k/qr"
           ],
-          "answer": "Option A"
+          "answer": "kq/r"
         },
         {
-          "question": "Electrostatic Potential Concept 5: Select the correct answer",
+          "id": "p12-w4-q5",
+          "question": "Potential is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Scalar",
+            "Vector",
+            "Tensor",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Scalar"
         },
         {
-          "question": "Electrostatic Potential Concept 6: Select the correct answer",
+          "id": "p12-w4-q6",
+          "question": "Relation between E and V in uniform field:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "E = -dV/dr",
+            "E = V/r always",
+            "V = Er²",
+            "V = E²"
           ],
-          "answer": "Option A"
+          "answer": "E = -dV/dr"
         },
         {
-          "question": "Electrostatic Potential Concept 7: Select the correct answer",
+          "id": "p12-w4-q7",
+          "question": "In uniform field E over distance d: V = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "E·d",
+            "E + d",
+            "E/d",
+            "E×d²"
           ],
-          "answer": "Option A"
+          "answer": "E·d"
         },
         {
-          "question": "Electrostatic Potential Concept 8: Select the correct answer",
+          "id": "p12-w4-q8",
+          "question": "Potential energy of charge q at potential V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "qV",
+            "qV²",
+            "q/V",
+            "qV/r"
           ],
-          "answer": "Option A"
+          "answer": "qV"
         },
         {
-          "question": "Electrostatic Potential Concept 9: Select the correct answer",
+          "id": "p12-w4-q9",
+          "question": "PE of two point charges q₁, q₂ at separation r:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq₁q₂/r",
+            "kq₁q₂/r²",
+            "kq₁q₂r",
+            "q₁q₂/r²"
           ],
-          "answer": "Option A"
+          "answer": "kq₁q₂/r"
         },
         {
-          "question": "Electrostatic Potential Concept 10: Select the correct answer",
+          "id": "p12-w4-q10",
+          "question": "Potential at distance r from short dipole (along axis):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kp/r²",
+            "kp/r³",
+            "kp/r",
+            "kpr"
           ],
-          "answer": "Option A"
+          "answer": "kp/r²"
         },
         {
-          "question": "Electrostatic Potential Concept 11: Select the correct answer",
+          "id": "p12-w4-q11",
+          "question": "Potential on equatorial plane of dipole:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "kp/r²",
+            "kp/r",
+            "kp/r³"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Electrostatic Potential Concept 12: Select the correct answer",
+          "id": "p12-w4-q12",
+          "question": "Potential difference between two points: V_B - V_A = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "-∫E·dr from A to B",
+            "E·r",
+            "∫E·dr",
+            "EA"
           ],
-          "answer": "Option A"
+          "answer": "-∫E·dr from A to B"
         },
         {
-          "question": "Electrostatic Potential Concept 13: Select the correct answer",
+          "id": "p12-w4-q13",
+          "question": "Work done by electric force on charge q moving from A to B:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "q(V_A - V_B)",
+            "q(V_B - V_A)",
+            "qV_AV_B",
+            "q/V"
           ],
-          "answer": "Option A"
+          "answer": "q(V_A - V_B)"
         },
         {
-          "question": "Electrostatic Potential Concept 14: Select the correct answer",
+          "id": "p12-w4-q14",
+          "question": "If 1 V potential difference is applied to 1 C charge, work done = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 J",
+            "1 C",
+            "1 V",
+            "1 N"
           ],
-          "answer": "Option A"
+          "answer": "1 J"
         },
         {
-          "question": "Electrostatic Potential Concept 15: Select the correct answer",
+          "id": "p12-w4-q15",
+          "question": "Electron volt is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy gained by electron through 1 V = 1.6×10⁻¹⁹ J",
+            "Charge of electron",
+            "1 volt",
+            "1 joule"
           ],
-          "answer": "Option A"
+          "answer": "Energy gained by electron through 1 V = 1.6×10⁻¹⁹ J"
         },
         {
-          "question": "Electrostatic Potential Concept 16: Select the correct answer",
+          "id": "p12-w4-q16",
+          "question": "1 eV = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.6 × 10⁻¹⁹ J",
+            "1.6 V",
+            "1 J",
+            "9 × 10⁹ J"
           ],
-          "answer": "Option A"
+          "answer": "1.6 × 10⁻¹⁹ J"
         },
         {
-          "question": "Electrostatic Potential Concept 17: Select the correct answer",
+          "id": "p12-w4-q17",
+          "question": "Potential inside a charged conductor (electrostatic):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same as surface (constant)",
+            "Zero",
+            "Varies with r",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Same as surface (constant)"
         },
         {
-          "question": "Electrostatic Potential Concept 18: Select the correct answer",
+          "id": "p12-w4-q18",
+          "question": "Potential due to uniformly charged sphere (total q, radius R) at r > R:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq/r",
+            "kq/R",
+            "kqr/R²",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "kq/r"
         },
         {
-          "question": "Electrostatic Potential Concept 19: Select the correct answer",
+          "id": "p12-w4-q19",
+          "question": "Potential at surface of charged conducting sphere radius R:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq/R",
+            "0",
+            "kq/r",
+            "kq/R²"
           ],
-          "answer": "Option A"
+          "answer": "kq/R"
         },
         {
-          "question": "Electrostatic Potential Concept 20: Select the correct answer",
+          "id": "p12-w4-q20",
+          "question": "Potential inside uniformly charged sphere (non-conducting) at r < R:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kq(3R² - r²)/(2R³)",
+            "kq/r",
+            "kq/R",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "kq(3R² - r²)/(2R³)"
         },
         {
-          "question": "Electrostatic Potential Concept 21: Select the correct answer",
+          "id": "p12-w4-q21",
+          "question": "Potential gradient has units:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "V/m",
+            "V·m",
+            "N/C (same as E)",
+            "Both V/m and N/C are equivalent"
           ],
-          "answer": "Option A"
+          "answer": "Both V/m and N/C are equivalent"
         },
         {
-          "question": "Electrostatic Potential Concept 22: Select the correct answer",
+          "id": "p12-w4-q22",
+          "question": "If V is constant in a region, then E is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Infinite",
+            "Equal to V",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Electrostatic Potential Concept 23: Select the correct answer",
+          "id": "p12-w4-q23",
+          "question": "Electric potential is positive near:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Positive charges",
+            "Negative charges",
+            "Neutral charges",
+            "Nothing"
           ],
-          "answer": "Option A"
+          "answer": "Positive charges"
         },
         {
-          "question": "Electrostatic Potential Concept 24: Select the correct answer",
+          "id": "p12-w4-q24",
+          "question": "If work is done against field, PE of charge:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Unchanged",
+            "Becomes zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Electrostatic Potential Concept 25: Select the correct answer",
+          "id": "p12-w4-q25",
+          "question": "At infinity, potential is assumed to be:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Infinite",
+            "Negative",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         }
       ]
     },
@@ -14793,254 +14843,279 @@
       "topic": "Electrostatic Potential - Equipotential Surfaces, Capacitors",
       "questions": [
         {
-          "question": "Electrostatic Potential Concept 1: Select the correct answer",
+          "id": "p12-w5-q1",
+          "question": "An equipotential surface is one on which:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "V is constant",
+            "E is constant",
+            "Both V and E constant",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "V is constant"
         },
         {
-          "question": "Electrostatic Potential Concept 2: Select the correct answer",
+          "id": "p12-w5-q2",
+          "question": "Electric field is always:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Perpendicular to equipotential surfaces",
+            "Parallel to them",
+            "Along them",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Perpendicular to equipotential surfaces"
         },
         {
-          "question": "Electrostatic Potential Concept 3: Select the correct answer",
+          "id": "p12-w5-q3",
+          "question": "Equipotential surfaces for point charge are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Concentric spheres",
+            "Parallel planes",
+            "Cylinders",
+            "Random curves"
           ],
-          "answer": "Option A"
+          "answer": "Concentric spheres"
         },
         {
-          "question": "Electrostatic Potential Concept 4: Select the correct answer",
+          "id": "p12-w5-q4",
+          "question": "Equipotential surfaces for uniform field are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Parallel planes",
+            "Spheres",
+            "Cylinders",
+            "Circles"
           ],
-          "answer": "Option A"
+          "answer": "Parallel planes"
         },
         {
-          "question": "Electrostatic Potential Concept 5: Select the correct answer",
+          "id": "p12-w5-q5",
+          "question": "Work done in moving a charge on equipotential surface:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on path"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Electrostatic Potential Concept 6: Select the correct answer",
+          "id": "p12-w5-q6",
+          "question": "Two equipotential surfaces cannot:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Intersect each other",
+            "Be parallel",
+            "Close",
+            "Be spherical"
           ],
-          "answer": "Option A"
+          "answer": "Intersect each other"
         },
         {
-          "question": "Electrostatic Potential Concept 7: Select the correct answer",
+          "id": "p12-w5-q7",
+          "question": "Capacitor stores:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Charge and electrical energy",
+            "Only current",
+            "Only voltage",
+            "Resistance"
           ],
-          "answer": "Option A"
+          "answer": "Charge and electrical energy"
         },
         {
-          "question": "Electrostatic Potential Concept 8: Select the correct answer",
+          "id": "p12-w5-q8",
+          "question": "Capacitance C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Q/V",
+            "V/Q",
+            "QV",
+            "Q²V"
           ],
-          "answer": "Option A"
+          "answer": "Q/V"
         },
         {
-          "question": "Electrostatic Potential Concept 9: Select the correct answer",
+          "id": "p12-w5-q9",
+          "question": "SI unit of capacitance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Farad (F)",
+            "Coulomb",
+            "Volt",
+            "Ohm"
           ],
-          "answer": "Option A"
+          "answer": "Farad (F)"
         },
         {
-          "question": "Electrostatic Potential Concept 10: Select the correct answer",
+          "id": "p12-w5-q10",
+          "question": "1 Farad = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 C/V",
+            "1 V/C",
+            "1 C·V",
+            "1 J/C"
           ],
-          "answer": "Option A"
+          "answer": "1 C/V"
         },
         {
-          "question": "Electrostatic Potential Concept 11: Select the correct answer",
+          "id": "p12-w5-q11",
+          "question": "Capacitance of parallel-plate capacitor (vacuum): C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ε₀A/d",
+            "A/(ε₀d)",
+            "ε₀·d/A",
+            "4πε₀d"
           ],
-          "answer": "Option A"
+          "answer": "ε₀A/d"
         },
         {
-          "question": "Electrostatic Potential Concept 12: Select the correct answer",
+          "id": "p12-w5-q12",
+          "question": "If plate area doubles, capacitance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Unchanged",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Electrostatic Potential Concept 13: Select the correct answer",
+          "id": "p12-w5-q13",
+          "question": "If plate separation doubles (vacuum), capacitance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halves",
+            "Doubles",
+            "Unchanged",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Halves"
         },
         {
-          "question": "Electrostatic Potential Concept 14: Select the correct answer",
+          "id": "p12-w5-q14",
+          "question": "Energy stored in capacitor: U = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½CV²",
+            "CV",
+            "CV²",
+            "V²/C"
           ],
-          "answer": "Option A"
+          "answer": "½CV²"
         },
         {
-          "question": "Electrostatic Potential Concept 15: Select the correct answer",
+          "id": "p12-w5-q15",
+          "question": "Also U = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Q²/(2C)",
+            "2CV",
+            "CQ²",
+            "C/Q²"
           ],
-          "answer": "Option A"
+          "answer": "Q²/(2C)"
         },
         {
-          "question": "Electrostatic Potential Concept 16: Select the correct answer",
+          "id": "p12-w5-q16",
+          "question": "For capacitors in series: 1/C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/C₁ + 1/C₂ + ...",
+            "C₁ + C₂",
+            "C₁C₂",
+            "C₁ - C₂"
           ],
-          "answer": "Option A"
+          "answer": "1/C₁ + 1/C₂ + ..."
         },
         {
-          "question": "Electrostatic Potential Concept 17: Select the correct answer",
+          "id": "p12-w5-q17",
+          "question": "For capacitors in parallel: C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C₁ + C₂ + ...",
+            "1/C₁ + 1/C₂",
+            "C₁·C₂",
+            "C₁ - C₂"
           ],
-          "answer": "Option A"
+          "answer": "C₁ + C₂ + ..."
         },
         {
-          "question": "Electrostatic Potential Concept 18: Select the correct answer",
+          "id": "p12-w5-q18",
+          "question": "Series combination of 2 equal capacitors C gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C/2",
+            "2C",
+            "C",
+            "4C"
           ],
-          "answer": "Option A"
+          "answer": "C/2"
         },
         {
-          "question": "Electrostatic Potential Concept 19: Select the correct answer",
+          "id": "p12-w5-q19",
+          "question": "Parallel combination of 2 equal capacitors C gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2C",
+            "C/2",
+            "C",
+            "4C"
           ],
-          "answer": "Option A"
+          "answer": "2C"
         },
         {
-          "question": "Electrostatic Potential Concept 20: Select the correct answer",
+          "id": "p12-w5-q20",
+          "question": "Dielectric between plates increases capacitance by factor:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "κ (dielectric constant)",
+            "1/κ",
+            "κ²",
+            "No change"
           ],
-          "answer": "Option A"
+          "answer": "κ (dielectric constant)"
         },
         {
-          "question": "Electrostatic Potential Concept 21: Select the correct answer",
+          "id": "p12-w5-q21",
+          "question": "With dielectric K, capacitance = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "κε₀A/d",
+            "ε₀A/d",
+            "Aε₀/κd",
+            "ε₀/Ad"
           ],
-          "answer": "Option A"
+          "answer": "κε₀A/d"
         },
         {
-          "question": "Electrostatic Potential Concept 22: Select the correct answer",
+          "id": "p12-w5-q22",
+          "question": "Energy density in electric field: u = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½ε₀E²",
+            "½E²",
+            "ε₀E",
+            "E²"
           ],
-          "answer": "Option A"
+          "answer": "½ε₀E²"
         },
         {
-          "question": "Electrostatic Potential Concept 23: Select the correct answer",
+          "id": "p12-w5-q23",
+          "question": "Charge on each capacitor in series is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same",
+            "Different",
+            "Zero",
+            "Sum of all"
           ],
-          "answer": "Option A"
+          "answer": "Same"
         },
         {
-          "question": "Electrostatic Potential Concept 24: Select the correct answer",
+          "id": "p12-w5-q24",
+          "question": "Voltage across each capacitor in parallel is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same",
+            "Different",
+            "Zero",
+            "Sum of all"
           ],
-          "answer": "Option A"
+          "answer": "Same"
         },
         {
-          "question": "Electrostatic Potential Concept 25: Select the correct answer",
+          "id": "p12-w5-q25",
+          "question": "In dielectric, E inside material:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases by factor κ",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases by factor κ"
         }
       ]
     },
@@ -15049,254 +15124,279 @@
       "topic": "Capacitance - Combinations, Dielectrics, Energy Stored",
       "questions": [
         {
-          "question": "Capacitance Concept 1: Select the correct answer",
+          "id": "p12-w6-q1",
+          "question": "A dielectric is inserted to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increase capacitance",
+            "Decrease capacitance",
+            "Remove charge",
+            "Heat the capacitor"
           ],
-          "answer": "Option A"
+          "answer": "Increase capacitance"
         },
         {
-          "question": "Capacitance Concept 2: Select the correct answer",
+          "id": "p12-w6-q2",
+          "question": "Dielectric constant of vacuum κ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "8.85 × 10⁻¹²",
+            "9 × 10⁹"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Capacitance Concept 3: Select the correct answer",
+          "id": "p12-w6-q3",
+          "question": "Dielectric constant of water ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "80",
+            "1",
+            "2",
+            "10"
           ],
-          "answer": "Option A"
+          "answer": "80"
         },
         {
-          "question": "Capacitance Concept 4: Select the correct answer",
+          "id": "p12-w6-q4",
+          "question": "Polar dielectrics have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Permanent electric dipoles",
+            "No dipoles",
+            "Free electrons",
+            "Free ions"
           ],
-          "answer": "Option A"
+          "answer": "Permanent electric dipoles"
         },
         {
-          "question": "Capacitance Concept 5: Select the correct answer",
+          "id": "p12-w6-q5",
+          "question": "Non-polar dielectrics develop:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Induced dipoles in external field",
+            "Permanent dipoles",
+            "Free charges",
+            "No response"
           ],
-          "answer": "Option A"
+          "answer": "Induced dipoles in external field"
         },
         {
-          "question": "Capacitance Concept 6: Select the correct answer",
+          "id": "p12-w6-q6",
+          "question": "Polarization P is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dipole moment per unit volume",
+            "Charge per area",
+            "Force per charge",
+            "Field per charge"
           ],
-          "answer": "Option A"
+          "answer": "Dipole moment per unit volume"
         },
         {
-          "question": "Capacitance Concept 7: Select the correct answer",
+          "id": "p12-w6-q7",
+          "question": "Bound charges appear on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dielectric surfaces facing plates",
+            "Conductors only",
+            "Wires",
+            "Air only"
           ],
-          "answer": "Option A"
+          "answer": "Dielectric surfaces facing plates"
         },
         {
-          "question": "Capacitance Concept 8: Select the correct answer",
+          "id": "p12-w6-q8",
+          "question": "If charge Q on plates is held constant, inserting dielectric:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases V and energy",
+            "Increases V",
+            "Unchanged",
+            "Removes charge"
           ],
-          "answer": "Option A"
+          "answer": "Decreases V and energy"
         },
         {
-          "question": "Capacitance Concept 9: Select the correct answer",
+          "id": "p12-w6-q9",
+          "question": "If V is held constant, inserting dielectric:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases Q and energy",
+            "Decreases Q",
+            "Unchanged",
+            "Removes voltage"
           ],
-          "answer": "Option A"
+          "answer": "Increases Q and energy"
         },
         {
-          "question": "Capacitance Concept 10: Select the correct answer",
+          "id": "p12-w6-q10",
+          "question": "Work done on dielectric when inserted at constant V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Negative (it's pulled in)",
+            "Positive (must be pushed)",
+            "Zero",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Negative (it's pulled in)"
         },
         {
-          "question": "Capacitance Concept 11: Select the correct answer",
+          "id": "p12-w6-q11",
+          "question": "Capacitor of capacitance 2 μF charged to 100 V. Charge = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "200 μC",
+            "50 μC",
+            "100 μC",
+            "2 μC"
           ],
-          "answer": "Option A"
+          "answer": "200 μC"
         },
         {
-          "question": "Capacitance Concept 12: Select the correct answer",
+          "id": "p12-w6-q12",
+          "question": "Same capacitor: Energy stored = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.01 J",
+            "100 J",
+            "200 J",
+            "0.1 J"
           ],
-          "answer": "Option A"
+          "answer": "0.01 J"
         },
         {
-          "question": "Capacitance Concept 13: Select the correct answer",
+          "id": "p12-w6-q13",
+          "question": "Two capacitors 2 μF each in series: equivalent capacitance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 μF",
+            "4 μF",
+            "2 μF",
+            "0.5 μF"
           ],
-          "answer": "Option A"
+          "answer": "1 μF"
         },
         {
-          "question": "Capacitance Concept 14: Select the correct answer",
+          "id": "p12-w6-q14",
+          "question": "Two capacitors 2 μF each in parallel: equivalent capacitance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 μF",
+            "1 μF",
+            "2 μF",
+            "8 μF"
           ],
-          "answer": "Option A"
+          "answer": "4 μF"
         },
         {
-          "question": "Capacitance Concept 15: Select the correct answer",
+          "id": "p12-w6-q15",
+          "question": "Energy conservation on charge sharing between two capacitors:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Some energy is lost as heat/radiation",
+            "Energy conserved",
+            "Charge not conserved",
+            "Nothing"
           ],
-          "answer": "Option A"
+          "answer": "Some energy is lost as heat/radiation"
         },
         {
-          "question": "Capacitance Concept 16: Select the correct answer",
+          "id": "p12-w6-q16",
+          "question": "Van de Graaff generator produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High voltage static electricity",
+            "Current",
+            "Magnetic field",
+            "Heat"
           ],
-          "answer": "Option A"
+          "answer": "High voltage static electricity"
         },
         {
-          "question": "Capacitance Concept 17: Select the correct answer",
+          "id": "p12-w6-q17",
+          "question": "Breakdown voltage of air ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3 × 10⁶ V/m",
+            "100 V/m",
+            "9 × 10⁹ V/m",
+            "1 V/m"
           ],
-          "answer": "Option A"
+          "answer": "3 × 10⁶ V/m"
         },
         {
-          "question": "Capacitance Concept 18: Select the correct answer",
+          "id": "p12-w6-q18",
+          "question": "Applications of capacitors:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Filter circuits, timing, energy storage",
+            "Resistors replacement",
+            "Magnetic storage",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Filter circuits, timing, energy storage"
         },
         {
-          "question": "Capacitance Concept 19: Select the correct answer",
+          "id": "p12-w6-q19",
+          "question": "In capacitor circuits, DC cannot pass through a capacitor in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Steady state",
+            "Initial state",
+            "Ever",
+            "Always"
           ],
-          "answer": "Option A"
+          "answer": "Steady state"
         },
         {
-          "question": "Capacitance Concept 20: Select the correct answer",
+          "id": "p12-w6-q20",
+          "question": "A capacitor acts as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Open circuit to DC at steady state",
+            "Short circuit",
+            "Resistor",
+            "Inductor"
           ],
-          "answer": "Option A"
+          "answer": "Open circuit to DC at steady state"
         },
         {
-          "question": "Capacitance Concept 21: Select the correct answer",
+          "id": "p12-w6-q21",
+          "question": "Spherical capacitor of inner radius a, outer b: C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4πε₀ ab/(b-a)",
+            "4πε₀(b-a)",
+            "4πε₀/ab",
+            "ε₀/(a+b)"
           ],
-          "answer": "Option A"
+          "answer": "4πε₀ ab/(b-a)"
         },
         {
-          "question": "Capacitance Concept 22: Select the correct answer",
+          "id": "p12-w6-q22",
+          "question": "Isolated sphere capacitance: C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4πε₀R",
+            "ε₀/R",
+            "4π R",
+            "R/ε₀"
           ],
-          "answer": "Option A"
+          "answer": "4πε₀R"
         },
         {
-          "question": "Capacitance Concept 23: Select the correct answer",
+          "id": "p12-w6-q23",
+          "question": "Cylindrical capacitor (length L, radii a < b): C = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2πε₀L / ln(b/a)",
+            "ε₀L ab",
+            "πL/ε₀",
+            "ε₀/ln(b/a)"
           ],
-          "answer": "Option A"
+          "answer": "2πε₀L / ln(b/a)"
         },
         {
-          "question": "Capacitance Concept 24: Select the correct answer",
+          "id": "p12-w6-q24",
+          "question": "Increasing dielectric κ by factor 5 (at constant V) increases Q by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "1/5",
+            "25",
+            "√5"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Capacitance Concept 25: Select the correct answer",
+          "id": "p12-w6-q25",
+          "question": "A parallel-plate capacitor with area A, separation d, filled with two dielectrics κ₁ and κ₂ in series (each half):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C = 2ε₀A/(d(1/κ₁ + 1/κ₂))",
+            "C = ε₀A(κ₁+κ₂)/2d",
+            "C = ε₀Aκ₁κ₂/d",
+            "Ambiguous"
           ],
-          "answer": "Option A"
+          "answer": "C = 2ε₀A/(d(1/κ₁ + 1/κ₂))"
         }
       ]
     },
@@ -15305,254 +15405,279 @@
       "topic": "Current Electricity - Ohm's Law, Drift Velocity",
       "questions": [
         {
-          "question": "Current Electricity Concept 1: Select the correct answer",
+          "id": "p12-w7-q1",
+          "question": "Electric current is defined as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rate of flow of charge",
+            "Charge times time",
+            "Voltage per resistance only",
+            "Charge per volt"
           ],
-          "answer": "Option A"
+          "answer": "Rate of flow of charge"
         },
         {
-          "question": "Current Electricity Concept 2: Select the correct answer",
+          "id": "p12-w7-q2",
+          "question": "SI unit of current:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ampere (A)",
+            "Coulomb",
+            "Volt",
+            "Ohm"
           ],
-          "answer": "Option A"
+          "answer": "Ampere (A)"
         },
         {
-          "question": "Current Electricity Concept 3: Select the correct answer",
+          "id": "p12-w7-q3",
+          "question": "1 A = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 C/s",
+            "1 s/C",
+            "1 J/C",
+            "1 V/Ω"
           ],
-          "answer": "Option A"
+          "answer": "1 C/s"
         },
         {
-          "question": "Current Electricity Concept 4: Select the correct answer",
+          "id": "p12-w7-q4",
+          "question": "Ohm's law: V = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "IR",
+            "I/R",
+            "I²R",
+            "I+R"
           ],
-          "answer": "Option A"
+          "answer": "IR"
         },
         {
-          "question": "Current Electricity Concept 5: Select the correct answer",
+          "id": "p12-w7-q5",
+          "question": "SI unit of resistance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ohm (Ω)",
+            "Volt",
+            "Ampere",
+            "Farad"
           ],
-          "answer": "Option A"
+          "answer": "Ohm (Ω)"
         },
         {
-          "question": "Current Electricity Concept 6: Select the correct answer",
+          "id": "p12-w7-q6",
+          "question": "1 Ω = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 V/A",
+            "1 A/V",
+            "1 C/V",
+            "1 V·A"
           ],
-          "answer": "Option A"
+          "answer": "1 V/A"
         },
         {
-          "question": "Current Electricity Concept 7: Select the correct answer",
+          "id": "p12-w7-q7",
+          "question": "Ohm's law is obeyed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ohmic conductors (like metals at constant T)",
+            "All materials",
+            "Only semiconductors",
+            "Only insulators"
           ],
-          "answer": "Option A"
+          "answer": "Ohmic conductors (like metals at constant T)"
         },
         {
-          "question": "Current Electricity Concept 8: Select the correct answer",
+          "id": "p12-w7-q8",
+          "question": "Current direction (conventional) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Opposite to electron flow",
+            "Same as electron flow",
+            "Random",
+            "Perpendicular"
           ],
-          "answer": "Option A"
+          "answer": "Opposite to electron flow"
         },
         {
-          "question": "Current Electricity Concept 9: Select the correct answer",
+          "id": "p12-w7-q9",
+          "question": "Drift velocity: v_d = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "I/(nAe)",
+            "IA/n",
+            "nAe·I",
+            "I·e·A"
           ],
-          "answer": "Option A"
+          "answer": "I/(nAe)"
         },
         {
-          "question": "Current Electricity Concept 10: Select the correct answer",
+          "id": "p12-w7-q10",
+          "question": "n in drift velocity formula is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Number of free electrons per unit volume",
+            "Total number",
+            "Charge",
+            "Area"
           ],
-          "answer": "Option A"
+          "answer": "Number of free electrons per unit volume"
         },
         {
-          "question": "Current Electricity Concept 11: Select the correct answer",
+          "id": "p12-w7-q11",
+          "question": "Drift velocity in typical copper wire is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Millimetres per second",
+            "Speed of light",
+            "100 m/s",
+            "Sound speed"
           ],
-          "answer": "Option A"
+          "answer": "Millimetres per second"
         },
         {
-          "question": "Current Electricity Concept 12: Select the correct answer",
+          "id": "p12-w7-q12",
+          "question": "Mobility μ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v_d/E",
+            "v_d·E",
+            "v_d + E",
+            "E/v_d"
           ],
-          "answer": "Option A"
+          "answer": "v_d/E"
         },
         {
-          "question": "Current Electricity Concept 13: Select the correct answer",
+          "id": "p12-w7-q13",
+          "question": "SI unit of mobility:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "m²/(V·s)",
+            "m/s",
+            "V/m",
+            "Ω·m"
           ],
-          "answer": "Option A"
+          "answer": "m²/(V·s)"
         },
         {
-          "question": "Current Electricity Concept 14: Select the correct answer",
+          "id": "p12-w7-q14",
+          "question": "Current density J = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "I/A",
+            "I·A",
+            "A/I",
+            "I²A"
           ],
-          "answer": "Option A"
+          "answer": "I/A"
         },
         {
-          "question": "Current Electricity Concept 15: Select the correct answer",
+          "id": "p12-w7-q15",
+          "question": "J vector relates to E: J = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "σE (where σ is conductivity)",
+            "σ/E",
+            "E·σ²",
+            "σ + E"
           ],
-          "answer": "Option A"
+          "answer": "σE (where σ is conductivity)"
         },
         {
-          "question": "Current Electricity Concept 16: Select the correct answer",
+          "id": "p12-w7-q16",
+          "question": "SI unit of conductivity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "S/m (or Ω⁻¹·m⁻¹)",
+            "Ω·m",
+            "V/m",
+            "A/V"
           ],
-          "answer": "Option A"
+          "answer": "S/m (or Ω⁻¹·m⁻¹)"
         },
         {
-          "question": "Current Electricity Concept 17: Select the correct answer",
+          "id": "p12-w7-q17",
+          "question": "Resistance R of uniform wire = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ρL/A",
+            "ρ/(LA)",
+            "ρA/L",
+            "ρL·A"
           ],
-          "answer": "Option A"
+          "answer": "ρL/A"
         },
         {
-          "question": "Current Electricity Concept 18: Select the correct answer",
+          "id": "p12-w7-q18",
+          "question": "ρ (resistivity) SI unit:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ω·m",
+            "Ω/m",
+            "S",
+            "V·A"
           ],
-          "answer": "Option A"
+          "answer": "Ω·m"
         },
         {
-          "question": "Current Electricity Concept 19: Select the correct answer",
+          "id": "p12-w7-q19",
+          "question": "Conductivity σ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/ρ",
+            "ρ",
+            "ρ²",
+            "R·A/L"
           ],
-          "answer": "Option A"
+          "answer": "1/ρ"
         },
         {
-          "question": "Current Electricity Concept 20: Select the correct answer",
+          "id": "p12-w7-q20",
+          "question": "If length of wire doubles (same A), resistance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Unchanged",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Current Electricity Concept 21: Select the correct answer",
+          "id": "p12-w7-q21",
+          "question": "If cross-section area doubles (same L), resistance:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halves",
+            "Doubles",
+            "Unchanged",
+            "Quadruples"
           ],
-          "answer": "Option A"
+          "answer": "Halves"
         },
         {
-          "question": "Current Electricity Concept 22: Select the correct answer",
+          "id": "p12-w7-q22",
+          "question": "Temperature coefficient of resistance α is positive for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Metals",
+            "Semiconductors",
+            "Insulators",
+            "Superconductors"
           ],
-          "answer": "Option A"
+          "answer": "Metals"
         },
         {
-          "question": "Current Electricity Concept 23: Select the correct answer",
+          "id": "p12-w7-q23",
+          "question": "For semiconductors, resistance with temperature:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Becomes negative"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Current Electricity Concept 24: Select the correct answer",
+          "id": "p12-w7-q24",
+          "question": "For superconductors below T_c, resistance is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "Infinite",
+            "Linear in T"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Current Electricity Concept 25: Select the correct answer",
+          "id": "p12-w7-q25",
+          "question": "Power dissipated in resistor: P = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "I²R (also VI, V²/R)",
+            "I/R",
+            "V²R",
+            "V/I"
           ],
-          "answer": "Option A"
+          "answer": "I²R (also VI, V²/R)"
         }
       ]
     },
@@ -15561,254 +15686,279 @@
       "topic": "Current Electricity - Resistivity, Color Code, Combinations",
       "questions": [
         {
-          "question": "Current Electricity Concept 1: Select the correct answer",
+          "id": "p12-w8-q1",
+          "question": "Resistivity depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Material and temperature",
+            "Length and area",
+            "Only current",
+            "Voltage only"
           ],
-          "answer": "Option A"
+          "answer": "Material and temperature"
         },
         {
-          "question": "Current Electricity Concept 2: Select the correct answer",
+          "id": "p12-w8-q2",
+          "question": "Resistivity of pure metals with temperature:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Unchanged",
+            "Oscillates"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Current Electricity Concept 3: Select the correct answer",
+          "id": "p12-w8-q3",
+          "question": "Resistivity of alloys like manganin, constantan:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Very weakly temperature-dependent",
+            "Strongly decreasing",
+            "Zero",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Very weakly temperature-dependent"
         },
         {
-          "question": "Current Electricity Concept 4: Select the correct answer",
+          "id": "p12-w8-q4",
+          "question": "Resistors in series: R = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R₁ + R₂ + ...",
+            "1/R₁ + 1/R₂",
+            "R₁·R₂",
+            "R₁ - R₂"
           ],
-          "answer": "Option A"
+          "answer": "R₁ + R₂ + ..."
         },
         {
-          "question": "Current Electricity Concept 5: Select the correct answer",
+          "id": "p12-w8-q5",
+          "question": "Resistors in parallel: 1/R = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/R₁ + 1/R₂ + ...",
+            "R₁ + R₂",
+            "R₁R₂",
+            "R₁/R₂"
           ],
-          "answer": "Option A"
+          "answer": "1/R₁ + 1/R₂ + ..."
         },
         {
-          "question": "Current Electricity Concept 6: Select the correct answer",
+          "id": "p12-w8-q6",
+          "question": "Two equal 10 Ω resistors in series:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 Ω",
+            "5 Ω",
+            "10 Ω",
+            "100 Ω"
           ],
-          "answer": "Option A"
+          "answer": "20 Ω"
         },
         {
-          "question": "Current Electricity Concept 7: Select the correct answer",
+          "id": "p12-w8-q7",
+          "question": "Two equal 10 Ω resistors in parallel:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 Ω",
+            "20 Ω",
+            "10 Ω",
+            "0.5 Ω"
           ],
-          "answer": "Option A"
+          "answer": "5 Ω"
         },
         {
-          "question": "Current Electricity Concept 8: Select the correct answer",
+          "id": "p12-w8-q8",
+          "question": "Current through series resistors is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same",
+            "Different",
+            "Zero",
+            "Sum"
           ],
-          "answer": "Option A"
+          "answer": "Same"
         },
         {
-          "question": "Current Electricity Concept 9: Select the correct answer",
+          "id": "p12-w8-q9",
+          "question": "Voltage across parallel resistors is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same",
+            "Different",
+            "Zero",
+            "Sum"
           ],
-          "answer": "Option A"
+          "answer": "Same"
         },
         {
-          "question": "Current Electricity Concept 10: Select the correct answer",
+          "id": "p12-w8-q10",
+          "question": "Resistor color code: 1st band yellow, 2nd violet, 3rd red, 4th gold:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4700 Ω ± 5%",
+            "47 Ω",
+            "470 kΩ",
+            "47 Ω ± 1%"
           ],
-          "answer": "Option A"
+          "answer": "4700 Ω ± 5%"
         },
         {
-          "question": "Current Electricity Concept 11: Select the correct answer",
+          "id": "p12-w8-q11",
+          "question": "Colors in code: Black = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "1",
+            "9",
+            "-1"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Current Electricity Concept 12: Select the correct answer",
+          "id": "p12-w8-q12",
+          "question": "Red in color code = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "3",
+            "4",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Current Electricity Concept 13: Select the correct answer",
+          "id": "p12-w8-q13",
+          "question": "Gold tolerance band = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "±5%",
+            "±10%",
+            "±1%",
+            "±20%"
           ],
-          "answer": "Option A"
+          "answer": "±5%"
         },
         {
-          "question": "Current Electricity Concept 14: Select the correct answer",
+          "id": "p12-w8-q14",
+          "question": "Silver tolerance band = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "±10%",
+            "±5%",
+            "±1%",
+            "±20%"
           ],
-          "answer": "Option A"
+          "answer": "±10%"
         },
         {
-          "question": "Current Electricity Concept 15: Select the correct answer",
+          "id": "p12-w8-q15",
+          "question": "No color (tolerance) = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "±20%",
+            "±10%",
+            "±5%",
+            "±1%"
           ],
-          "answer": "Option A"
+          "answer": "±20%"
         },
         {
-          "question": "Current Electricity Concept 16: Select the correct answer",
+          "id": "p12-w8-q16",
+          "question": "In a household circuit, appliances are typically connected in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Parallel",
+            "Series",
+            "Series-parallel",
+            "Star only"
           ],
-          "answer": "Option A"
+          "answer": "Parallel"
         },
         {
-          "question": "Current Electricity Concept 17: Select the correct answer",
+          "id": "p12-w8-q17",
+          "question": "A 60 W bulb at 220 V has resistance ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "807 Ω",
+            "60 Ω",
+            "220 Ω",
+            "13,200 Ω"
           ],
-          "answer": "Option A"
+          "answer": "807 Ω"
         },
         {
-          "question": "Current Electricity Concept 18: Select the correct answer",
+          "id": "p12-w8-q18",
+          "question": "Power rating P = V²/R, so at lower V the bulb:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Consumes less power",
+            "Consumes same power",
+            "Consumes more power",
+            "No current flows"
           ],
-          "answer": "Option A"
+          "answer": "Consumes less power"
         },
         {
-          "question": "Current Electricity Concept 19: Select the correct answer",
+          "id": "p12-w8-q19",
+          "question": "Fuse wire is made of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Low melting point alloy",
+            "Copper",
+            "Iron",
+            "Gold"
           ],
-          "answer": "Option A"
+          "answer": "Low melting point alloy"
         },
         {
-          "question": "Current Electricity Concept 20: Select the correct answer",
+          "id": "p12-w8-q20",
+          "question": "A fuse melts when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Current exceeds rating",
+            "Voltage is low",
+            "Power is low",
+            "Resistance is low"
           ],
-          "answer": "Option A"
+          "answer": "Current exceeds rating"
         },
         {
-          "question": "Current Electricity Concept 21: Select the correct answer",
+          "id": "p12-w8-q21",
+          "question": "EMF and potential difference differ because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "EMF is total energy per charge from source, V is across external",
+            "They are same always",
+            "V > EMF always",
+            "No difference"
           ],
-          "answer": "Option A"
+          "answer": "EMF is total energy per charge from source, V is across external"
         },
         {
-          "question": "Current Electricity Concept 22: Select the correct answer",
+          "id": "p12-w8-q22",
+          "question": "Terminal voltage V = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "EMF - Ir",
+            "EMF + Ir",
+            "EMF × I",
+            "EMF/r"
           ],
-          "answer": "Option A"
+          "answer": "EMF - Ir"
         },
         {
-          "question": "Current Electricity Concept 23: Select the correct answer",
+          "id": "p12-w8-q23",
+          "question": "Internal resistance r is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Material of electrolyte/battery",
+            "External wire",
+            "Capacitor",
+            "Field only"
           ],
-          "answer": "Option A"
+          "answer": "Material of electrolyte/battery"
         },
         {
-          "question": "Current Electricity Concept 24: Select the correct answer",
+          "id": "p12-w8-q24",
+          "question": "Two cells of EMF ε₁, ε₂ in series: total EMF = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ε₁ + ε₂",
+            "ε₁·ε₂",
+            "ε₁ - ε₂",
+            "(ε₁ + ε₂)/2"
           ],
-          "answer": "Option A"
+          "answer": "ε₁ + ε₂"
         },
         {
-          "question": "Current Electricity Concept 25: Select the correct answer",
+          "id": "p12-w8-q25",
+          "question": "Two identical cells EMF ε in parallel: total EMF = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ε",
+            "2ε",
+            "ε/2",
+            "ε²"
           ],
-          "answer": "Option A"
+          "answer": "ε"
         }
       ]
     },
@@ -15817,254 +15967,279 @@
       "topic": "Current Electricity - Kirchhoff's Laws, Wheatstone Bridge",
       "questions": [
         {
-          "question": "Current Electricity Concept 1: Select the correct answer",
+          "id": "p12-w9-q1",
+          "question": "Kirchhoff's junction rule (current law) states:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sum of currents in = sum of currents out",
+            "Sum of voltages = 0",
+            "Current is zero",
+            "Voltage is zero"
           ],
-          "answer": "Option A"
+          "answer": "Sum of currents in = sum of currents out"
         },
         {
-          "question": "Current Electricity Concept 2: Select the correct answer",
+          "id": "p12-w9-q2",
+          "question": "Junction rule is based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conservation of charge",
+            "Conservation of energy",
+            "Ohm's law",
+            "Gauss's law"
           ],
-          "answer": "Option A"
+          "answer": "Conservation of charge"
         },
         {
-          "question": "Current Electricity Concept 3: Select the correct answer",
+          "id": "p12-w9-q3",
+          "question": "Kirchhoff's loop rule (voltage law):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sum of EMFs and potential drops around loop = 0",
+            "Sum of currents = 0",
+            "Nothing",
+            "Power conservation"
           ],
-          "answer": "Option A"
+          "answer": "Sum of EMFs and potential drops around loop = 0"
         },
         {
-          "question": "Current Electricity Concept 4: Select the correct answer",
+          "id": "p12-w9-q4",
+          "question": "Loop rule is based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conservation of energy",
+            "Conservation of charge",
+            "Momentum",
+            "Force"
           ],
-          "answer": "Option A"
+          "answer": "Conservation of energy"
         },
         {
-          "question": "Current Electricity Concept 5: Select the correct answer",
+          "id": "p12-w9-q5",
+          "question": "For Wheatstone bridge balance: P/Q = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R/S",
+            "S/R",
+            "P·Q",
+            "R+S"
           ],
-          "answer": "Option A"
+          "answer": "R/S"
         },
         {
-          "question": "Current Electricity Concept 6: Select the correct answer",
+          "id": "p12-w9-q6",
+          "question": "At bridge balance, galvanometer current = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "I/2",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Current Electricity Concept 7: Select the correct answer",
+          "id": "p12-w9-q7",
+          "question": "Wheatstone bridge is used to measure:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unknown resistance accurately",
+            "Voltage",
+            "Current",
+            "EMF only"
           ],
-          "answer": "Option A"
+          "answer": "Unknown resistance accurately"
         },
         {
-          "question": "Current Electricity Concept 8: Select the correct answer",
+          "id": "p12-w9-q8",
+          "question": "Meter bridge is based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Wheatstone bridge principle",
+            "Potentiometer",
+            "Ohm's law only",
+            "Kirchhoff current law"
           ],
-          "answer": "Option A"
+          "answer": "Wheatstone bridge principle"
         },
         {
-          "question": "Current Electricity Concept 9: Select the correct answer",
+          "id": "p12-w9-q9",
+          "question": "In a meter bridge, balance condition: l₁/l₂ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R/S (known/unknown)",
+            "R·S",
+            "R+S",
+            "R-S"
           ],
-          "answer": "Option A"
+          "answer": "R/S (known/unknown)"
         },
         {
-          "question": "Current Electricity Concept 10: Select the correct answer",
+          "id": "p12-w9-q10",
+          "question": "Potentiometer is used to measure:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "EMF of a cell accurately (without drawing current)",
+            "Resistance only",
+            "Capacitance",
+            "Frequency"
           ],
-          "answer": "Option A"
+          "answer": "EMF of a cell accurately (without drawing current)"
         },
         {
-          "question": "Current Electricity Concept 11: Select the correct answer",
+          "id": "p12-w9-q11",
+          "question": "At null point on potentiometer, current from cell is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "Half",
+            "Reversed"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Current Electricity Concept 12: Select the correct answer",
+          "id": "p12-w9-q12",
+          "question": "Potential gradient of potentiometer wire:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Potential difference per unit length",
+            "Voltage only",
+            "Current per length",
+            "Resistance per length"
           ],
-          "answer": "Option A"
+          "answer": "Potential difference per unit length"
         },
         {
-          "question": "Current Electricity Concept 13: Select the correct answer",
+          "id": "p12-w9-q13",
+          "question": "Potentiometer vs voltmeter:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Potentiometer is more accurate (no current drawn at balance)",
+            "Voltmeter is more accurate",
+            "Same",
+            "Potentiometer draws more"
           ],
-          "answer": "Option A"
+          "answer": "Potentiometer is more accurate (no current drawn at balance)"
         },
         {
-          "question": "Current Electricity Concept 14: Select the correct answer",
+          "id": "p12-w9-q14",
+          "question": "In a Wheatstone bridge with P=3, Q=6, R=9, balanced S = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "18",
+            "4.5",
+            "2",
+            "27"
           ],
-          "answer": "Option A"
+          "answer": "18"
         },
         {
-          "question": "Current Electricity Concept 15: Select the correct answer",
+          "id": "p12-w9-q15",
+          "question": "Heat generated in resistor (Joule's law): H = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "I²Rt",
+            "I/R²t",
+            "V/R",
+            "IR"
           ],
-          "answer": "Option A"
+          "answer": "I²Rt"
         },
         {
-          "question": "Current Electricity Concept 16: Select the correct answer",
+          "id": "p12-w9-q16",
+          "question": "Electric energy (kWh): 1 unit = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3.6 × 10⁶ J",
+            "10⁶ J",
+            "1000 J",
+            "36 kJ"
           ],
-          "answer": "Option A"
+          "answer": "3.6 × 10⁶ J"
         },
         {
-          "question": "Current Electricity Concept 17: Select the correct answer",
+          "id": "p12-w9-q17",
+          "question": "Two resistors 6 Ω and 12 Ω in parallel:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 Ω",
+            "18 Ω",
+            "2 Ω",
+            "72 Ω"
           ],
-          "answer": "Option A"
+          "answer": "4 Ω"
         },
         {
-          "question": "Current Electricity Concept 18: Select the correct answer",
+          "id": "p12-w9-q18",
+          "question": "EMF of cell with terminal V = 1.4 V, current 0.2 A, r = 0.5 Ω: EMF = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.5 V",
+            "1.4 V",
+            "1.3 V",
+            "1.6 V"
           ],
-          "answer": "Option A"
+          "answer": "1.5 V"
         },
         {
-          "question": "Current Electricity Concept 19: Select the correct answer",
+          "id": "p12-w9-q19",
+          "question": "Galvanometer can be converted to ammeter by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Connecting low-resistance shunt in parallel",
+            "High-resistance in series",
+            "Capacitor",
+            "Diode"
           ],
-          "answer": "Option A"
+          "answer": "Connecting low-resistance shunt in parallel"
         },
         {
-          "question": "Current Electricity Concept 20: Select the correct answer",
+          "id": "p12-w9-q20",
+          "question": "Galvanometer converted to voltmeter by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Connecting high resistance in series",
+            "Low resistance in parallel",
+            "Capacitor",
+            "Inductor"
           ],
-          "answer": "Option A"
+          "answer": "Connecting high resistance in series"
         },
         {
-          "question": "Current Electricity Concept 21: Select the correct answer",
+          "id": "p12-w9-q21",
+          "question": "Ideal ammeter has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero resistance",
+            "Infinite resistance",
+            "High resistance",
+            "1 Ω"
           ],
-          "answer": "Option A"
+          "answer": "Zero resistance"
         },
         {
-          "question": "Current Electricity Concept 22: Select the correct answer",
+          "id": "p12-w9-q22",
+          "question": "Ideal voltmeter has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Infinite resistance",
+            "Zero resistance",
+            "Low resistance",
+            "1 Ω"
           ],
-          "answer": "Option A"
+          "answer": "Infinite resistance"
         },
         {
-          "question": "Current Electricity Concept 23: Select the correct answer",
+          "id": "p12-w9-q23",
+          "question": "A 100 W bulb at 220 V running for 5 h uses energy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5 kWh",
+            "100 J",
+            "1000 J",
+            "5 kWh"
           ],
-          "answer": "Option A"
+          "answer": "0.5 kWh"
         },
         {
-          "question": "Current Electricity Concept 24: Select the correct answer",
+          "id": "p12-w9-q24",
+          "question": "Internal resistance of typical AA battery ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less than 1 Ω",
+            "100 Ω",
+            "1000 Ω",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Less than 1 Ω"
         },
         {
-          "question": "Current Electricity Concept 25: Select the correct answer",
+          "id": "p12-w9-q25",
+          "question": "Grouping cells of EMF ε and internal r: n cells in series give terminal V (no load):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nε",
+            "ε/n",
+            "ε",
+            "ε²"
           ],
-          "answer": "Option A"
+          "answer": "nε"
         }
       ]
     },
@@ -16073,254 +16248,279 @@
       "topic": "Current Electricity - Meter Bridge, Potentiometer",
       "questions": [
         {
-          "question": "Current Electricity Concept 1: Select the correct answer",
+          "id": "p12-w10-q1",
+          "question": "Meter bridge is used to find:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unknown resistance",
+            "Current",
+            "Voltage",
+            "EMF"
           ],
-          "answer": "Option A"
+          "answer": "Unknown resistance"
         },
         {
-          "question": "Current Electricity Concept 2: Select the correct answer",
+          "id": "p12-w10-q2",
+          "question": "The balancing length in meter bridge is determined by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Galvanometer showing null deflection",
+            "Max deflection",
+            "Half deflection",
+            "Any deflection"
           ],
-          "answer": "Option A"
+          "answer": "Galvanometer showing null deflection"
         },
         {
-          "question": "Current Electricity Concept 3: Select the correct answer",
+          "id": "p12-w10-q3",
+          "question": "Meter bridge wire is typically made of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Manganin or constantan (uniform resistivity)",
+            "Silver",
+            "Iron",
+            "Gold"
           ],
-          "answer": "Option A"
+          "answer": "Manganin or constantan (uniform resistivity)"
         },
         {
-          "question": "Current Electricity Concept 4: Select the correct answer",
+          "id": "p12-w10-q4",
+          "question": "If balancing length is 60 cm with known R=20 Ω in left, unknown S = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "30 Ω (using R/S = l₁/(100-l₁))",
+            "60 Ω",
+            "120 Ω",
+            "100 Ω"
           ],
-          "answer": "Option A"
+          "answer": "30 Ω (using R/S = l₁/(100-l₁))"
         },
         {
-          "question": "Current Electricity Concept 5: Select the correct answer",
+          "id": "p12-w10-q5",
+          "question": "In meter bridge, why is galvanometer placed between C and D (jockey):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "To detect null deflection across the bridge",
+            "To measure current",
+            "To measure voltage",
+            "To cancel EMF"
           ],
-          "answer": "Option A"
+          "answer": "To detect null deflection across the bridge"
         },
         {
-          "question": "Current Electricity Concept 6: Select the correct answer",
+          "id": "p12-w10-q6",
+          "question": "Potentiometer wire is selected to have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Uniform cross-section and constant resistance per unit length",
+            "Varying thickness",
+            "High resistance spots",
+            "No resistance"
           ],
-          "answer": "Option A"
+          "answer": "Uniform cross-section and constant resistance per unit length"
         },
         {
-          "question": "Current Electricity Concept 7: Select the correct answer",
+          "id": "p12-w10-q7",
+          "question": "Potentiometer can compare:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "EMFs of two cells",
+            "Only one EMF",
+            "Currents only",
+            "Resistances only"
           ],
-          "answer": "Option A"
+          "answer": "EMFs of two cells"
         },
         {
-          "question": "Current Electricity Concept 8: Select the correct answer",
+          "id": "p12-w10-q8",
+          "question": "Sensitivity of potentiometer increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longer wire (smaller gradient)",
+            "Shorter wire",
+            "High gradient",
+            "High current"
           ],
-          "answer": "Option A"
+          "answer": "Longer wire (smaller gradient)"
         },
         {
-          "question": "Current Electricity Concept 9: Select the correct answer",
+          "id": "p12-w10-q9",
+          "question": "If potentiometer wire resistance is made smaller, gradient:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Current Electricity Concept 10: Select the correct answer",
+          "id": "p12-w10-q10",
+          "question": "Internal resistance of cell found by potentiometer using:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Comparison with and without external load",
+            "Direct measurement",
+            "Only one reading",
+            "Ohm's law on load"
           ],
-          "answer": "Option A"
+          "answer": "Comparison with and without external load"
         },
         {
-          "question": "Current Electricity Concept 11: Select the correct answer",
+          "id": "p12-w10-q11",
+          "question": "In potentiometer, driver cell must have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "EMF greater than cell being measured",
+            "EMF smaller",
+            "EMF equal",
+            "No EMF"
           ],
-          "answer": "Option A"
+          "answer": "EMF greater than cell being measured"
         },
         {
-          "question": "Current Electricity Concept 12: Select the correct answer",
+          "id": "p12-w10-q12",
+          "question": "Length l₁ balances EMF ε₁, l₂ balances ε₂. Ratio ε₁/ε₂ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "l₁/l₂",
+            "l₂/l₁",
+            "l₁·l₂",
+            "l₁ - l₂"
           ],
-          "answer": "Option A"
+          "answer": "l₁/l₂"
         },
         {
-          "question": "Current Electricity Concept 13: Select the correct answer",
+          "id": "p12-w10-q13",
+          "question": "For internal resistance, balance length with open circuit l₁ and with resistance R l₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "r = R(l₁ - l₂)/l₂",
+            "r = R·l₂",
+            "r = l₁ - R",
+            "r = R/l₁"
           ],
-          "answer": "Option A"
+          "answer": "r = R(l₁ - l₂)/l₂"
         },
         {
-          "question": "Current Electricity Concept 14: Select the correct answer",
+          "id": "p12-w10-q14",
+          "question": "Precautions in potentiometer experiment include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Clean connections, avoid parallax, same polarity",
+            "Loose connections",
+            "Random polarity",
+            "Variable length"
           ],
-          "answer": "Option A"
+          "answer": "Clean connections, avoid parallax, same polarity"
         },
         {
-          "question": "Current Electricity Concept 15: Select the correct answer",
+          "id": "p12-w10-q15",
+          "question": "Why is potentiometer called an ideal voltmeter?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "It draws no current at balance",
+            "It has low resistance",
+            "It measures only current",
+            "It uses battery"
           ],
-          "answer": "Option A"
+          "answer": "It draws no current at balance"
         },
         {
-          "question": "Current Electricity Concept 16: Select the correct answer",
+          "id": "p12-w10-q16",
+          "question": "In meter bridge, end corrections are needed because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small extra resistances at ends affect accuracy",
+            "Wire is not uniform",
+            "Galvanometer drift",
+            "Battery variation"
           ],
-          "answer": "Option A"
+          "answer": "Small extra resistances at ends affect accuracy"
         },
         {
-          "question": "Current Electricity Concept 17: Select the correct answer",
+          "id": "p12-w10-q17",
+          "question": "Slide wire resistance per unit length is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resistance per cm / potential gradient",
+            "Resistivity",
+            "Current density",
+            "Magnetic field"
           ],
-          "answer": "Option A"
+          "answer": "Resistance per cm / potential gradient"
         },
         {
-          "question": "Current Electricity Concept 18: Select the correct answer",
+          "id": "p12-w10-q18",
+          "question": "In meter bridge with wire of 100 cm and balance at 40 cm, R=4 Ω, S = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6 Ω",
+            "10 Ω",
+            "2 Ω",
+            "40 Ω"
           ],
-          "answer": "Option A"
+          "answer": "6 Ω"
         },
         {
-          "question": "Current Electricity Concept 19: Select the correct answer",
+          "id": "p12-w10-q19",
+          "question": "If jockey presses the wire firmly:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Damage and uneven resistance",
+            "Better reading",
+            "No effect",
+            "Shorter wire"
           ],
-          "answer": "Option A"
+          "answer": "Damage and uneven resistance"
         },
         {
-          "question": "Current Electricity Concept 20: Select the correct answer",
+          "id": "p12-w10-q20",
+          "question": "Meter bridge is less accurate when unknown resistance is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Very small or very large (balance near ends)",
+            "Moderate",
+            "Equal to known",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "Very small or very large (balance near ends)"
         },
         {
-          "question": "Current Electricity Concept 21: Select the correct answer",
+          "id": "p12-w10-q21",
+          "question": "A galvanometer can be used as a null detector in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both potentiometer and Wheatstone bridge",
+            "Only ammeter",
+            "Only voltmeter",
+            "Rheostat"
           ],
-          "answer": "Option A"
+          "answer": "Both potentiometer and Wheatstone bridge"
         },
         {
-          "question": "Current Electricity Concept 22: Select the correct answer",
+          "id": "p12-w10-q22",
+          "question": "The standard cell used in potentiometer is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weston cadmium cell (constant EMF)",
+            "Leclanche cell",
+            "Daniell cell",
+            "Lithium ion"
           ],
-          "answer": "Option A"
+          "answer": "Weston cadmium cell (constant EMF)"
         },
         {
-          "question": "Current Electricity Concept 23: Select the correct answer",
+          "id": "p12-w10-q23",
+          "question": "EMF of Weston cadmium cell ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.0186 V",
+            "1.5 V",
+            "2 V",
+            "9 V"
           ],
-          "answer": "Option A"
+          "answer": "1.0186 V"
         },
         {
-          "question": "Current Electricity Concept 24: Select the correct answer",
+          "id": "p12-w10-q24",
+          "question": "Specific resistance (resistivity) of meter bridge wire is best:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High and constant with T",
+            "Low and variable",
+            "Zero",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "High and constant with T"
         },
         {
-          "question": "Current Electricity Concept 25: Select the correct answer",
+          "id": "p12-w10-q25",
+          "question": "The meter bridge uses which resistance combination principle?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Wheatstone balance with two ratios of lengths",
+            "Series only",
+            "Parallel only",
+            "Kirchhoff junction"
           ],
-          "answer": "Option A"
+          "answer": "Wheatstone balance with two ratios of lengths"
         }
       ]
     },
