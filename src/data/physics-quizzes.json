@@ -1541,254 +1541,254 @@
       "topic": "Motion in a Plane – Scalars & Vectors, Vector Addition",
       "questions": [
         {
-          "question": "Question 1 for Week 7",
+          "question": "Which of the following is a scalar quantity?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Velocity",
+            "Displacement",
+            "Speed",
+            "Acceleration"
           ],
-          "answer": "Option A"
+          "answer": "Speed"
         },
         {
-          "question": "Question 2 for Week 7",
+          "question": "Which of the following is a vector quantity?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass",
+            "Temperature",
+            "Work",
+            "Force"
           ],
-          "answer": "Option A"
+          "answer": "Force"
         },
         {
-          "question": "Question 3 for Week 7",
+          "question": "The magnitude of the resultant of two vectors of magnitudes 3 and 4 acting at right angles is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "5",
+            "7",
+            "12"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Question 4 for Week 7",
+          "question": "If two vectors of equal magnitude P make an angle of 60° with each other, the magnitude of their resultant is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P",
+            "√2 P",
+            "√3 P",
+            "2P"
           ],
-          "answer": "Option A"
+          "answer": "√3 P"
         },
         {
-          "question": "Question 5 for Week 7",
+          "question": "The resultant of two vectors is maximum when the angle between them is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "45°",
+            "90°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "0°"
         },
         {
-          "question": "Question 6 for Week 7",
+          "question": "The resultant of two vectors is minimum when the angle between them is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "90°",
+            "180°",
+            "270°"
           ],
-          "answer": "Option A"
+          "answer": "180°"
         },
         {
-          "question": "Question 7 for Week 7",
+          "question": "Two equal vectors have a resultant equal in magnitude to either. The angle between them is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "60°",
+            "90°",
+            "120°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "120°"
         },
         {
-          "question": "Question 8 for Week 7",
+          "question": "Vector addition obeys which of the following laws?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Commutative only",
+            "Associative only",
+            "Both commutative and associative",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Both commutative and associative"
         },
         {
-          "question": "Question 9 for Week 7",
+          "question": "A unit vector is a vector whose magnitude is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "1",
+            "Variable",
+            "Depends on direction"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Question 10 for Week 7",
+          "question": "The unit vector along the x-axis is denoted by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ĵ",
+            "k̂",
+            "î",
+            "r̂"
           ],
-          "answer": "Option A"
+          "answer": "î"
         },
         {
-          "question": "Question 11 for Week 7",
+          "question": "If A⃗ = 3î + 4ĵ, the magnitude of A⃗ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "4",
+            "5",
+            "7"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Question 12 for Week 7",
+          "question": "The angle θ that A⃗ = î + ĵ makes with the x-axis is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "30°",
+            "45°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "45°"
         },
         {
-          "question": "Question 13 for Week 7",
+          "question": "Null vector has magnitude:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "Undefined",
+            "∞"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Question 14 for Week 7",
+          "question": "Two vectors are said to be equal if they have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same magnitude only",
+            "Same direction only",
+            "Same magnitude and same direction",
+            "Same initial point"
           ],
-          "answer": "Option A"
+          "answer": "Same magnitude and same direction"
         },
         {
-          "question": "Question 15 for Week 7",
+          "question": "The parallelogram law of vector addition gives the resultant R of vectors P and Q inclined at angle θ as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P + Q",
+            "√(P² + Q² + 2PQcosθ)",
+            "√(P² + Q² − 2PQcosθ)",
+            "P² + Q²"
           ],
-          "answer": "Option A"
+          "answer": "√(P² + Q² + 2PQcosθ)"
         },
         {
-          "question": "Question 16 for Week 7",
+          "question": "Three vectors each of magnitude A are in equilibrium. The angle between any two is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "60°",
+            "90°",
+            "120°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "120°"
         },
         {
-          "question": "Question 17 for Week 7",
+          "question": "If |A⃗ + B⃗| = |A⃗ − B⃗|, then the angle between A⃗ and B⃗ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "45°",
+            "90°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "90°"
         },
         {
-          "question": "Question 18 for Week 7",
+          "question": "Which of the following cannot be the resultant of two vectors of magnitudes 3 N and 5 N?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 N",
+            "5 N",
+            "8 N",
+            "9 N"
           ],
-          "answer": "Option A"
+          "answer": "9 N"
         },
         {
-          "question": "Question 19 for Week 7",
+          "question": "A vector whose magnitude is same but direction is opposite is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unit vector",
+            "Null vector",
+            "Negative vector",
+            "Position vector"
           ],
-          "answer": "Option A"
+          "answer": "Negative vector"
         },
         {
-          "question": "Question 20 for Week 7",
+          "question": "Position vector gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Speed of the particle",
+            "Displacement from a reference point",
+            "Acceleration",
+            "Force"
           ],
-          "answer": "Option A"
+          "answer": "Displacement from a reference point"
         },
         {
-          "question": "Question 21 for Week 7",
+          "question": "Two forces of 5 N each act on a body at 90°. The resultant force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 N",
+            "5√2 N",
+            "10 N",
+            "7.5 N"
           ],
-          "answer": "Option A"
+          "answer": "5√2 N"
         },
         {
-          "question": "Question 22 for Week 7",
+          "question": "The triangle law of vector addition applies to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Scalars",
+            "Vectors regardless of type",
+            "Only parallel vectors",
+            "Only equal vectors"
           ],
-          "answer": "Option A"
+          "answer": "Vectors regardless of type"
         },
         {
-          "question": "Question 23 for Week 7",
+          "question": "If the resultant of two equal forces is equal to either one, the angle between them is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "90°",
+            "120°",
+            "60°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "120°"
         },
         {
-          "question": "Question 24 for Week 7",
+          "question": "Displacement is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A scalar",
+            "A vector",
+            "Always positive",
+            "Path length"
           ],
-          "answer": "Option A"
+          "answer": "A vector"
         },
         {
-          "question": "Question 25 for Week 7",
+          "question": "Electric current has magnitude and direction but is called a scalar because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "It is very small",
+            "It does not obey vector addition rules",
+            "It always acts along the wire",
+            "It is negative"
           ],
-          "answer": "Option A"
+          "answer": "It does not obey vector addition rules"
         }
       ]
     },
@@ -1797,254 +1797,254 @@
       "topic": "Motion in a Plane – Resolution of Vectors, Dot & Cross Product",
       "questions": [
         {
-          "question": "Question 1 for Week 8",
+          "question": "The component of a vector A along a direction making angle θ with it is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A sinθ",
+            "A cosθ",
+            "A tanθ",
+            "A/cosθ"
           ],
-          "answer": "Option A"
+          "answer": "A cosθ"
         },
         {
-          "question": "Question 2 for Week 8",
+          "question": "If A⃗ = 3î + 4ĵ, its x-component is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "4",
+            "5",
+            "7"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Question 3 for Week 8",
+          "question": "The dot product A⃗·B⃗ of two vectors is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "AB sinθ",
+            "AB cosθ",
+            "ABtanθ",
+            "A + B"
           ],
-          "answer": "Option A"
+          "answer": "AB cosθ"
         },
         {
-          "question": "Question 4 for Week 8",
+          "question": "The cross product A⃗×B⃗ has magnitude:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "AB cosθ",
+            "AB sinθ",
+            "AB tanθ",
+            "A + B"
           ],
-          "answer": "Option A"
+          "answer": "AB sinθ"
         },
         {
-          "question": "Question 5 for Week 8",
+          "question": "For perpendicular vectors A⃗ and B⃗:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A⃗·B⃗ = 0",
+            "A⃗×B⃗ = 0",
+            "A⃗·B⃗ = AB",
+            "|A⃗×B⃗|=0"
           ],
-          "answer": "Option A"
+          "answer": "A⃗·B⃗ = 0"
         },
         {
-          "question": "Question 6 for Week 8",
+          "question": "For parallel vectors A⃗ and B⃗:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A⃗·B⃗ = 0",
+            "A⃗×B⃗ = 0",
+            "A⃗·B⃗ = −AB",
+            "A⃗·B⃗ = ∞"
           ],
-          "answer": "Option A"
+          "answer": "A⃗×B⃗ = 0"
         },
         {
-          "question": "Question 7 for Week 8",
+          "question": "The dot product is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A vector",
+            "A scalar",
+            "Zero always",
+            "Imaginary"
           ],
-          "answer": "Option A"
+          "answer": "A scalar"
         },
         {
-          "question": "Question 8 for Week 8",
+          "question": "The cross product is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A scalar",
+            "A vector",
+            "Always zero",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "A vector"
         },
         {
-          "question": "Question 9 for Week 8",
+          "question": "î·î equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "1",
+            "î",
+            "ĵ"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Question 10 for Week 8",
+          "question": "î×ĵ equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "1",
+            "î",
+            "k̂"
           ],
-          "answer": "Option A"
+          "answer": "k̂"
         },
         {
-          "question": "Question 11 for Week 8",
+          "question": "The angle between A⃗ = î + ĵ and B⃗ = î − ĵ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "45°",
+            "90°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "90°"
         },
         {
-          "question": "Question 12 for Week 8",
+          "question": "If A⃗·B⃗ = AB, the angle between them is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "90°",
+            "180°",
+            "45°"
           ],
-          "answer": "Option A"
+          "answer": "0°"
         },
         {
-          "question": "Question 13 for Week 8",
+          "question": "The work done by a force F⃗ in displacement s⃗ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F⃗×s⃗",
+            "F⃗·s⃗",
+            "F·s·tanθ",
+            "F/s"
           ],
-          "answer": "Option A"
+          "answer": "F⃗·s⃗"
         },
         {
-          "question": "Question 14 for Week 8",
+          "question": "Torque is defined as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F⃗·r⃗",
+            "r⃗×F⃗",
+            "r⃗+F⃗",
+            "r⃗−F⃗"
           ],
-          "answer": "Option A"
+          "answer": "r⃗×F⃗"
         },
         {
-          "question": "Question 15 for Week 8",
+          "question": "For A⃗ = 2î + 3ĵ and B⃗ = î + ĵ, A⃗·B⃗ equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "6",
+            "3",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Question 16 for Week 8",
+          "question": "Vectors are resolved into components because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "They look nicer",
+            "Independent analysis along axes simplifies problems",
+            "It avoids vector notation",
+            "Components are scalars"
           ],
-          "answer": "Option A"
+          "answer": "Independent analysis along axes simplifies problems"
         },
         {
-          "question": "Question 17 for Week 8",
+          "question": "The magnitude of a vector in 3D with components (a, b, c) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "a + b + c",
+            "√(a² + b² + c²)",
+            "abc",
+            "a² + b² + c²"
           ],
-          "answer": "Option A"
+          "answer": "√(a² + b² + c²)"
         },
         {
-          "question": "Question 18 for Week 8",
+          "question": "If A⃗×B⃗ = 0 (both non-zero), then A⃗ and B⃗ are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Perpendicular",
+            "Anti-parallel",
+            "Parallel or anti-parallel",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Parallel or anti-parallel"
         },
         {
-          "question": "Question 19 for Week 8",
+          "question": "The angle between A⃗ and B⃗ when A⃗·B⃗ = −|A⃗||B⃗|:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0°",
+            "90°",
+            "180°",
+            "45°"
           ],
-          "answer": "Option A"
+          "answer": "180°"
         },
         {
-          "question": "Question 20 for Week 8",
+          "question": "A·B = B·A because the dot product is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Anti-commutative",
+            "Commutative",
+            "Non-associative",
+            "Undefined"
           ],
-          "answer": "Option A"
+          "answer": "Commutative"
         },
         {
-          "question": "Question 21 for Week 8",
+          "question": "A×B = −B×A because the cross product is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Commutative",
+            "Anti-commutative",
+            "Zero",
+            "Associative only"
           ],
-          "answer": "Option A"
+          "answer": "Anti-commutative"
         },
         {
-          "question": "Question 22 for Week 8",
+          "question": "If a force 10 N makes 60° with the x-axis, its x-component is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 N",
+            "10 N",
+            "8.66 N",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "5 N"
         },
         {
-          "question": "Question 23 for Week 8",
+          "question": "If a force 10 N makes 60° with the x-axis, its y-component is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 N",
+            "10 N",
+            "8.66 N",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "8.66 N"
         },
         {
-          "question": "Question 24 for Week 8",
+          "question": "Area of parallelogram with sides A⃗ and B⃗ equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A⃗·B⃗",
+            "|A⃗×B⃗|",
+            "|A⃗||B⃗|cosθ",
+            "A+B"
           ],
-          "answer": "Option A"
+          "answer": "|A⃗×B⃗|"
         },
         {
-          "question": "Question 25 for Week 8",
+          "question": "Volume of parallelepiped formed by A⃗, B⃗, C⃗ equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A⃗·(B⃗×C⃗)",
+            "A⃗×B⃗×C⃗",
+            "A⃗+B⃗+C⃗",
+            "A⃗·B⃗·C⃗"
           ],
-          "answer": "Option A"
+          "answer": "A⃗·(B⃗×C⃗)"
         }
       ]
     },
@@ -2053,254 +2053,254 @@
       "topic": "Motion in a Plane – Projectile Motion",
       "questions": [
         {
-          "question": "Question 1 for Week 9",
+          "question": "Path of a projectile (ignoring air resistance) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Straight line",
+            "Circle",
+            "Parabola",
+            "Ellipse"
           ],
-          "answer": "Option A"
+          "answer": "Parabola"
         },
         {
-          "question": "Question 2 for Week 9",
+          "question": "Maximum range of a projectile is achieved at angle of projection:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "30°",
+            "45°",
+            "60°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "45°"
         },
         {
-          "question": "Question 3 for Week 9",
+          "question": "At the highest point of a projectile motion, the velocity is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Horizontal component only",
+            "Vertical component only",
+            "Maximum"
           ],
-          "answer": "Option A"
+          "answer": "Horizontal component only"
         },
         {
-          "question": "Question 4 for Week 9",
+          "question": "At the highest point of a projectile, acceleration is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "g downward",
+            "g upward",
+            "Horizontal"
           ],
-          "answer": "Option A"
+          "answer": "g downward"
         },
         {
-          "question": "Question 5 for Week 9",
+          "question": "Time of flight for a projectile with initial velocity u at angle θ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u sinθ/g",
+            "2u sinθ/g",
+            "u²sin2θ/g",
+            "u²/g"
           ],
-          "answer": "Option A"
+          "answer": "2u sinθ/g"
         },
         {
-          "question": "Question 6 for Week 9",
+          "question": "Maximum height of a projectile is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u sinθ/g",
+            "u²sin²θ/(2g)",
+            "u²sin2θ/g",
+            "2u sinθ/g"
           ],
-          "answer": "Option A"
+          "answer": "u²sin²θ/(2g)"
         },
         {
-          "question": "Question 7 for Week 9",
+          "question": "Range of a projectile is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u sinθ/g",
+            "u²sin²θ/(2g)",
+            "u²sin2θ/g",
+            "u sin2θ/g"
           ],
-          "answer": "Option A"
+          "answer": "u²sin2θ/g"
         },
         {
-          "question": "Question 8 for Week 9",
+          "question": "A projectile fired at 30° and 60° with same u have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same range",
+            "Same height",
+            "Same time of flight",
+            "Same velocity at peak"
           ],
-          "answer": "Option A"
+          "answer": "Same range"
         },
         {
-          "question": "Question 9 for Week 9",
+          "question": "For maximum range on level ground, the ratio of max height to range is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/2",
+            "1/4",
+            "1",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "1/4"
         },
         {
-          "question": "Question 10 for Week 9",
+          "question": "A stone is thrown horizontally with velocity 10 m/s from a cliff of height 80 m. Time to reach ground (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 s",
+            "4 s",
+            "8 s",
+            "16 s"
           ],
-          "answer": "Option A"
+          "answer": "4 s"
         },
         {
-          "question": "Question 11 for Week 9",
+          "question": "In the above case the horizontal range is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 m",
+            "40 m",
+            "80 m",
+            "160 m"
           ],
-          "answer": "Option A"
+          "answer": "40 m"
         },
         {
-          "question": "Question 12 for Week 9",
+          "question": "A projectile has range R and max height H. Angle of projection satisfies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tanθ = 2H/R",
+            "tanθ = 4H/R",
+            "tanθ = R/H",
+            "tanθ = H/R"
           ],
-          "answer": "Option A"
+          "answer": "tanθ = 4H/R"
         },
         {
-          "question": "Question 13 for Week 9",
+          "question": "A body projected at 45° with u = 20 m/s; max height is (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 m",
+            "10 m",
+            "20 m",
+            "40 m"
           ],
-          "answer": "Option A"
+          "answer": "10 m"
         },
         {
-          "question": "Question 14 for Week 9",
+          "question": "A body projected at 45° with u = 20 m/s has range:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 m",
+            "40 m",
+            "10 m",
+            "80 m"
           ],
-          "answer": "Option A"
+          "answer": "40 m"
         },
         {
-          "question": "Question 15 for Week 9",
+          "question": "A projectile is thrown vertically upward with 20 m/s. Time of flight (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 s",
+            "2 s",
+            "4 s",
+            "8 s"
           ],
-          "answer": "Option A"
+          "answer": "4 s"
         },
         {
-          "question": "Question 16 for Week 9",
+          "question": "Horizontal component of velocity of a projectile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Becomes zero at top"
           ],
-          "answer": "Option A"
+          "answer": "Remains constant"
         },
         {
-          "question": "Question 17 for Week 9",
+          "question": "Vertical component of velocity at highest point is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u",
+            "u sinθ",
+            "0",
+            "u cosθ"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Question 18 for Week 9",
+          "question": "If air resistance is considered, the range of a projectile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Stays same",
+            "Becomes zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Question 19 for Week 9",
+          "question": "A ball is projected with velocity 10 m/s at 60°. Time to reach max height (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5 s",
+            "√3/2 s",
+            "√3 s",
+            "1 s"
           ],
-          "answer": "Option A"
+          "answer": "√3/2 s"
         },
         {
-          "question": "Question 20 for Week 9",
+          "question": "The trajectory y = ax − bx² represents:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Circle",
+            "Parabolic motion of a projectile",
+            "SHM",
+            "Straight line"
           ],
-          "answer": "Option A"
+          "answer": "Parabolic motion of a projectile"
         },
         {
-          "question": "Question 21 for Week 9",
+          "question": "Two projectiles with angles θ and (90°−θ) have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Equal heights",
+            "Equal ranges",
+            "Equal times of flight",
+            "Equal speeds at peak"
           ],
-          "answer": "Option A"
+          "answer": "Equal ranges"
         },
         {
-          "question": "Question 22 for Week 9",
+          "question": "At maximum height, kinetic energy of the projectile is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "½mu²cos²θ",
+            "½mu²"
           ],
-          "answer": "Option A"
+          "answer": "½mu²cos²θ"
         },
         {
-          "question": "Question 23 for Week 9",
+          "question": "Total energy of a projectile at any point (no air resistance) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Variable",
+            "Constant",
+            "Zero at top",
+            "Maximum at top"
           ],
-          "answer": "Option A"
+          "answer": "Constant"
         },
         {
-          "question": "Question 24 for Week 9",
+          "question": "A stone is dropped from a moving plane (horizontal). To an observer on the plane the stone moves:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "In a parabola",
+            "Vertically downward",
+            "Horizontally",
+            "In a circle"
           ],
-          "answer": "Option A"
+          "answer": "Vertically downward"
         },
         {
-          "question": "Question 25 for Week 9",
+          "question": "If a projectile is fired at 45° with u=40 m/s, max range (g=10) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "80 m",
+            "160 m",
+            "200 m",
+            "320 m"
           ],
-          "answer": "Option A"
+          "answer": "160 m"
         }
       ]
     },
@@ -2309,254 +2309,254 @@
       "topic": "Motion in a Plane – Uniform Circular Motion",
       "questions": [
         {
-          "question": "Question 1 for Week 10",
+          "question": "In uniform circular motion, which is constant?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Velocity",
+            "Acceleration",
+            "Speed",
+            "Displacement"
           ],
-          "answer": "Option A"
+          "answer": "Speed"
         },
         {
-          "question": "Question 2 for Week 10",
+          "question": "Centripetal acceleration is directed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tangentially",
+            "Away from centre",
+            "Toward the centre",
+            "Along velocity"
           ],
-          "answer": "Option A"
+          "answer": "Toward the centre"
         },
         {
-          "question": "Question 3 for Week 10",
+          "question": "Centripetal acceleration = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/r",
+            "v²/r",
+            "vr",
+            "r/v²"
           ],
-          "answer": "Option A"
+          "answer": "v²/r"
         },
         {
-          "question": "Question 4 for Week 10",
+          "question": "Angular velocity ω relates to linear velocity v by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v = ω/r",
+            "v = ωr",
+            "v = ω²r",
+            "v = r/ω"
           ],
-          "answer": "Option A"
+          "answer": "v = ωr"
         },
         {
-          "question": "Question 5 for Week 10",
+          "question": "Period T of uniform circular motion is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π/ω",
+            "ω/2π",
+            "2πr",
+            "ω·r"
           ],
-          "answer": "Option A"
+          "answer": "2π/ω"
         },
         {
-          "question": "Question 6 for Week 10",
+          "question": "Frequency f equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π/T",
+            "1/T",
+            "T",
+            "ωT"
           ],
-          "answer": "Option A"
+          "answer": "1/T"
         },
         {
-          "question": "Question 7 for Week 10",
+          "question": "Centripetal force on a body moving in a circle of radius r with speed v is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mv²/r",
+            "mvr",
+            "m/v²r",
+            "mv/r²"
           ],
-          "answer": "Option A"
+          "answer": "mv²/r"
         },
         {
-          "question": "Question 8 for Week 10",
+          "question": "A car of mass 1000 kg moves in a circle of radius 50 m at 10 m/s. The centripetal force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100 N",
+            "1000 N",
+            "2000 N",
+            "5000 N"
           ],
-          "answer": "Option A"
+          "answer": "2000 N"
         },
         {
-          "question": "Question 9 for Week 10",
+          "question": "A satellite moving in a circular orbit experiences which net force?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Gravitational pull of Earth",
+            "Air drag",
+            "Magnetic force"
           ],
-          "answer": "Option A"
+          "answer": "Gravitational pull of Earth"
         },
         {
-          "question": "Question 10 for Week 10",
+          "question": "In uniform circular motion, the work done by the centripetal force in one revolution is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Maximum",
+            "Minimum",
+            "Zero",
+            "½mv²"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Question 11 for Week 10",
+          "question": "Tangential acceleration in uniform circular motion is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v²/r",
+            "zero",
+            "g",
+            "ωr"
           ],
-          "answer": "Option A"
+          "answer": "zero"
         },
         {
-          "question": "Question 12 for Week 10",
+          "question": "If ω is constant, the direction of velocity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Is constant",
+            "Changes continuously",
+            "Reverses every cycle",
+            "Is zero"
           ],
-          "answer": "Option A"
+          "answer": "Changes continuously"
         },
         {
-          "question": "Question 13 for Week 10",
+          "question": "For a particle moving with ω = 2 rad/s in a circle of radius 0.5 m, speed is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.25 m/s",
+            "0.5 m/s",
+            "1 m/s",
+            "4 m/s"
           ],
-          "answer": "Option A"
+          "answer": "1 m/s"
         },
         {
-          "question": "Question 14 for Week 10",
+          "question": "Centripetal force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A real new type of force",
+            "A component of net force directed to centre",
+            "Always friction",
+            "Always gravity"
           ],
-          "answer": "Option A"
+          "answer": "A component of net force directed to centre"
         },
         {
-          "question": "Question 15 for Week 10",
+          "question": "A stone tied to a string whirled in a horizontal circle; the string tension provides:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tangential force",
+            "Centripetal force",
+            "Zero",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "Centripetal force"
         },
         {
-          "question": "Question 16 for Week 10",
+          "question": "If the speed of circular motion doubles, centripetal acceleration becomes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Half",
+            "Same",
+            "Double",
+            "Four times"
           ],
-          "answer": "Option A"
+          "answer": "Four times"
         },
         {
-          "question": "Question 17 for Week 10",
+          "question": "Relation between angular and linear acceleration in circular motion:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "a = α/r",
+            "a = αr",
+            "a = α+r",
+            "a = α²r"
           ],
-          "answer": "Option A"
+          "answer": "a = αr"
         },
         {
-          "question": "Question 18 for Week 10",
+          "question": "A conical pendulum moves in a horizontal circle. The component providing centripetal force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tension cosθ",
+            "Tension sinθ",
+            "mg",
+            "mg sinθ"
           ],
-          "answer": "Option A"
+          "answer": "Tension sinθ"
         },
         {
-          "question": "Question 19 for Week 10",
+          "question": "If radius is doubled and speed kept constant, centripetal force becomes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Half",
+            "Double",
+            "Same",
+            "Four times"
           ],
-          "answer": "Option A"
+          "answer": "Half"
         },
         {
-          "question": "Question 20 for Week 10",
+          "question": "Angular velocity of Earth about its own axis (in rad/s) is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7.27×10⁻⁵",
+            "1.16×10⁻⁵",
+            "2π",
+            "π/12"
           ],
-          "answer": "Option A"
+          "answer": "7.27×10⁻⁵"
         },
         {
-          "question": "Question 21 for Week 10",
+          "question": "For uniform circular motion, velocity and acceleration are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Parallel",
+            "Anti-parallel",
+            "Perpendicular",
+            "Same vectors"
           ],
-          "answer": "Option A"
+          "answer": "Perpendicular"
         },
         {
-          "question": "Question 22 for Week 10",
+          "question": "An object moves in a circle with changing speed. It has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Only centripetal acceleration",
+            "Only tangential acceleration",
+            "Both centripetal and tangential",
+            "No acceleration"
           ],
-          "answer": "Option A"
+          "answer": "Both centripetal and tangential"
         },
         {
-          "question": "Question 23 for Week 10",
+          "question": "A car moving at 20 m/s on a curve of radius 50 m experiences centripetal acceleration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 m/s²",
+            "8 m/s²",
+            "10 m/s²",
+            "20 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "8 m/s²"
         },
         {
-          "question": "Question 24 for Week 10",
+          "question": "Unit of angular velocity is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "m/s",
+            "m/s²",
+            "rad/s",
+            "rad"
           ],
-          "answer": "Option A"
+          "answer": "rad/s"
         },
         {
-          "question": "Question 25 for Week 10",
+          "question": "The minimum speed at the top of a vertical circle (radius r) for string taut (g=10 m/s², r=0.4 m):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 m/s",
+            "2 m/s",
+            "4 m/s",
+            "20 m/s"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s"
         }
       ]
     },
@@ -2565,254 +2565,254 @@
       "topic": "Laws of Motion – Newton's First & Second Laws, Inertia",
       "questions": [
         {
-          "question": "Question 1 for Week 11",
+          "question": "Newton's first law is also called the law of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Action-reaction",
+            "Inertia",
+            "Conservation of energy",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "Inertia"
         },
         {
-          "question": "Question 2 for Week 11",
+          "question": "Inertia of a body depends on its:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Velocity",
+            "Acceleration",
+            "Mass",
+            "Shape"
           ],
-          "answer": "Option A"
+          "answer": "Mass"
         },
         {
-          "question": "Question 3 for Week 11",
+          "question": "Newton's second law states F =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ma",
+            "m/a",
+            "m·v",
+            "m·s"
           ],
-          "answer": "Option A"
+          "answer": "ma"
         },
         {
-          "question": "Question 4 for Week 11",
+          "question": "The SI unit of force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Newton",
+            "Dyne",
+            "kg",
+            "joule"
           ],
-          "answer": "Option A"
+          "answer": "Newton"
         },
         {
-          "question": "Question 5 for Week 11",
+          "question": "1 Newton equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 kg·m/s",
+            "1 kg·m/s²",
+            "1 kg/m²",
+            "1 kg·m²/s²"
           ],
-          "answer": "Option A"
+          "answer": "1 kg·m/s²"
         },
         {
-          "question": "Question 6 for Week 11",
+          "question": "If a force of 10 N acts on a 2 kg object, the acceleration is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 m/s²",
+            "5 m/s²",
+            "10 m/s²",
+            "20 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "5 m/s²"
         },
         {
-          "question": "Question 7 for Week 11",
+          "question": "Momentum of a body is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "m/v",
+            "mv",
+            "m+v",
+            "½mv²"
           ],
-          "answer": "Option A"
+          "answer": "mv"
         },
         {
-          "question": "Question 8 for Week 11",
+          "question": "Force is the rate of change of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass",
+            "Velocity",
+            "Momentum",
+            "Energy"
           ],
-          "answer": "Option A"
+          "answer": "Momentum"
         },
         {
-          "question": "Question 9 for Week 11",
+          "question": "Impulse equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Force × displacement",
+            "Force × time",
+            "Force / time",
+            "Work / time"
           ],
-          "answer": "Option A"
+          "answer": "Force × time"
         },
         {
-          "question": "Question 10 for Week 11",
+          "question": "Impulse has the same units as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Force",
+            "Energy",
+            "Momentum",
+            "Power"
           ],
-          "answer": "Option A"
+          "answer": "Momentum"
         },
         {
-          "question": "Question 11 for Week 11",
+          "question": "A body of mass 5 kg initially at rest is acted on by force 20 N for 3 s. Final velocity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 m/s",
+            "8 m/s",
+            "12 m/s",
+            "15 m/s"
           ],
-          "answer": "Option A"
+          "answer": "12 m/s"
         },
         {
-          "question": "Question 12 for Week 11",
+          "question": "The law of inertia is stated correctly by which of the following?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Every body continues in its state of rest or uniform motion in a straight line unless compelled by an external force to change that state",
+            "Every action has an equal reaction",
+            "Force equals mass times acceleration",
+            "Momentum is conserved"
           ],
-          "answer": "Option A"
+          "answer": "Every body continues in its state of rest or uniform motion in a straight line unless compelled by an external force to change that state"
         },
         {
-          "question": "Question 13 for Week 11",
+          "question": "If the net external force on a body is zero, the body is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "At rest only",
+            "Moving uniformly only",
+            "Either at rest or moving uniformly",
+            "Accelerating"
           ],
-          "answer": "Option A"
+          "answer": "Either at rest or moving uniformly"
         },
         {
-          "question": "Question 14 for Week 11",
+          "question": "A cricket player lowers his hands while catching a ball to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increase force",
+            "Reduce time and increase force",
+            "Increase time and reduce force",
+            "Keep force constant"
           ],
-          "answer": "Option A"
+          "answer": "Increase time and reduce force"
         },
         {
-          "question": "Question 15 for Week 11",
+          "question": "An object of 2 kg moves with velocity 3 m/s. Its momentum is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.5 kg·m/s",
+            "5 kg·m/s",
+            "6 kg·m/s",
+            "9 kg·m/s"
           ],
-          "answer": "Option A"
+          "answer": "6 kg·m/s"
         },
         {
-          "question": "Question 16 for Week 11",
+          "question": "When a bus starts suddenly, passengers tend to fall backward. This is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Inertia of motion",
+            "Inertia of rest",
+            "Action-reaction",
+            "Friction"
           ],
-          "answer": "Option A"
+          "answer": "Inertia of rest"
         },
         {
-          "question": "Question 17 for Week 11",
+          "question": "When a bus stops suddenly, passengers tend to fall forward because of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Inertia of rest",
+            "Inertia of motion",
+            "Gravity",
+            "Friction"
           ],
-          "answer": "Option A"
+          "answer": "Inertia of motion"
         },
         {
-          "question": "Question 18 for Week 11",
+          "question": "Newton's second law in vector form is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F⃗ = m a⃗",
+            "F⃗ = m/a⃗",
+            "F⃗ = m·v⃗",
+            "F⃗ = m·g"
           ],
-          "answer": "Option A"
+          "answer": "F⃗ = m a⃗"
         },
         {
-          "question": "Question 19 for Week 11",
+          "question": "Force applied on a 10 kg object accelerating at 2 m/s²:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 N",
+            "10 N",
+            "20 N",
+            "50 N"
           ],
-          "answer": "Option A"
+          "answer": "20 N"
         },
         {
-          "question": "Question 20 for Week 11",
+          "question": "If the same force acts on two bodies of different masses, the one with greater mass has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Greater acceleration",
+            "Smaller acceleration",
+            "Same acceleration",
+            "Zero acceleration"
           ],
-          "answer": "Option A"
+          "answer": "Smaller acceleration"
         },
         {
-          "question": "Question 21 for Week 11",
+          "question": "A body weighs 20 N on Earth. Its mass is (g=10 m/s²):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 kg",
+            "2 kg",
+            "10 kg",
+            "20 kg"
           ],
-          "answer": "Option A"
+          "answer": "2 kg"
         },
         {
-          "question": "Question 22 for Week 11",
+          "question": "Dimensional formula of force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "MLT⁻¹",
+            "MLT⁻²",
+            "ML²T⁻²",
+            "ML²T⁻¹"
           ],
-          "answer": "Option A"
+          "answer": "MLT⁻²"
         },
         {
-          "question": "Question 23 for Week 11",
+          "question": "Newton's first law defines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Force and inertia",
+            "Energy",
+            "Momentum",
+            "Work"
           ],
-          "answer": "Option A"
+          "answer": "Force and inertia"
         },
         {
-          "question": "Question 24 for Week 11",
+          "question": "If the impulse delivered to an object is 10 N·s, its change in momentum is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 kg·m/s",
+            "5 kg·m/s",
+            "10 kg·m/s",
+            "100 kg·m/s"
           ],
-          "answer": "Option A"
+          "answer": "10 kg·m/s"
         },
         {
-          "question": "Question 25 for Week 11",
+          "question": "A rocket ejects gas to propel itself. This demonstrates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "First law",
+            "Inertia",
+            "Conservation of momentum and Newton's laws",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "Conservation of momentum and Newton's laws"
         }
       ]
     },
@@ -2821,254 +2821,254 @@
       "topic": "Laws of Motion – Newton's Third Law, Free Body Diagrams",
       "questions": [
         {
-          "question": "Question 1 for Week 12",
+          "question": "Newton's third law states that:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Every action has an equal and opposite reaction",
+            "Every force causes acceleration",
+            "Every body has mass",
+            "Force = rate of change of momentum"
           ],
-          "answer": "Option A"
+          "answer": "Every action has an equal and opposite reaction"
         },
         {
-          "question": "Question 2 for Week 12",
+          "question": "Action and reaction forces act on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same body",
+            "Different bodies",
+            "Same direction",
+            "Air"
           ],
-          "answer": "Option A"
+          "answer": "Different bodies"
         },
         {
-          "question": "Question 3 for Week 12",
+          "question": "A book resting on a table: reaction to book's weight (gravity) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Normal force from table",
+            "The pull book exerts on Earth",
+            "Friction",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "The pull book exerts on Earth"
         },
         {
-          "question": "Question 4 for Week 12",
+          "question": "When a rocket moves up, the gas is expelled:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Upward",
+            "Sideways",
+            "Downward",
+            "Nowhere"
           ],
-          "answer": "Option A"
+          "answer": "Downward"
         },
         {
-          "question": "Question 5 for Week 12",
+          "question": "A free body diagram shows:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "All forces on one body",
+            "All bodies in the system",
+            "Only gravity",
+            "Only friction"
           ],
-          "answer": "Option A"
+          "answer": "All forces on one body"
         },
         {
-          "question": "Question 6 for Week 12",
+          "question": "The normal reaction on a body on a horizontal surface equals its weight when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Body is accelerating",
+            "Surface is smooth only",
+            "No other vertical force is present",
+            "There is friction"
           ],
-          "answer": "Option A"
+          "answer": "No other vertical force is present"
         },
         {
-          "question": "Question 7 for Week 12",
+          "question": "A person pushes a wall with 50 N. Force on person is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "25 N",
+            "50 N",
+            "100 N",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "50 N"
         },
         {
-          "question": "Question 8 for Week 12",
+          "question": "Two blocks A (2 kg) and B (3 kg) on smooth surface with F=10 N on A pushing B. Acceleration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 m/s²",
+            "2 m/s²",
+            "3 m/s²",
+            "5 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s²"
         },
         {
-          "question": "Question 9 for Week 12",
+          "question": "In the above, force A exerts on B:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 N",
+            "6 N",
+            "10 N",
+            "12 N"
           ],
-          "answer": "Option A"
+          "answer": "6 N"
         },
         {
-          "question": "Question 10 for Week 12",
+          "question": "Tension in a light string attached to a 5 kg mass hanging in equilibrium (g=10 m/s²):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "25 N",
+            "50 N",
+            "100 N",
+            "500 N"
           ],
-          "answer": "Option A"
+          "answer": "50 N"
         },
         {
-          "question": "Question 11 for Week 12",
+          "question": "When a horse pulls a cart, the cart moves forward because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Action = reaction on different bodies",
+            "Horse exceeds the pull of cart",
+            "The ground pushes back on horse enabling net forward force",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "The ground pushes back on horse enabling net forward force"
         },
         {
-          "question": "Question 12 for Week 12",
+          "question": "A 2 kg block placed in a lift accelerating up at 2 m/s²; normal reaction is (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "16 N",
+            "20 N",
+            "24 N",
+            "40 N"
           ],
-          "answer": "Option A"
+          "answer": "24 N"
         },
         {
-          "question": "Question 13 for Week 12",
+          "question": "A 2 kg block in a lift accelerating down at 2 m/s²; normal reaction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "16 N",
+            "20 N",
+            "24 N",
+            "40 N"
           ],
-          "answer": "Option A"
+          "answer": "16 N"
         },
         {
-          "question": "Question 14 for Week 12",
+          "question": "In a free fall, apparent weight is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mg",
+            "0",
+            "2mg",
+            "½mg"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Question 15 for Week 12",
+          "question": "A stone thrown horizontally hits a wall. The wall exerts force due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Only gravity",
+            "Only air",
+            "Newton's third law reaction",
+            "Inertia"
           ],
-          "answer": "Option A"
+          "answer": "Newton's third law reaction"
         },
         {
-          "question": "Question 16 for Week 12",
+          "question": "If action force is 20 N, reaction force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 N",
+            "20 N",
+            "40 N",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "20 N"
         },
         {
-          "question": "Question 17 for Week 12",
+          "question": "In static equilibrium, net force equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mg",
+            "Weight",
+            "Zero",
+            "Tension"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Question 18 for Week 12",
+          "question": "Two masses 3 kg and 5 kg connected by a string over a frictionless pulley (Atwood). Acceleration (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "2.5 m/s²",
+            "5 m/s²",
+            "7.5 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "2.5 m/s²"
         },
         {
-          "question": "Question 19 for Week 12",
+          "question": "In above Atwood, tension in string:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "25 N",
+            "30 N",
+            "37.5 N",
+            "50 N"
           ],
-          "answer": "Option A"
+          "answer": "37.5 N"
         },
         {
-          "question": "Question 20 for Week 12",
+          "question": "A man jumps from a boat to the shore. The boat moves backward because of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gravity",
+            "Friction",
+            "Conservation of momentum (Newton's 3rd law)",
+            "Energy conservation"
           ],
-          "answer": "Option A"
+          "answer": "Conservation of momentum (Newton's 3rd law)"
         },
         {
-          "question": "Question 21 for Week 12",
+          "question": "On a smooth inclined plane of angle θ, acceleration of a block sliding down:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "g",
+            "g sinθ",
+            "g cosθ",
+            "g tanθ"
           ],
-          "answer": "Option A"
+          "answer": "g sinθ"
         },
         {
-          "question": "Question 22 for Week 12",
+          "question": "On a smooth inclined plane of angle θ, normal reaction on block of mass m:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mg",
+            "mg sinθ",
+            "mg cosθ",
+            "mg tanθ"
           ],
-          "answer": "Option A"
+          "answer": "mg cosθ"
         },
         {
-          "question": "Question 23 for Week 12",
+          "question": "A 2 kg block on a smooth incline of 30° accelerates at (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2.5 m/s²",
+            "5 m/s²",
+            "7.5 m/s²",
+            "10 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "5 m/s²"
         },
         {
-          "question": "Question 24 for Week 12",
+          "question": "A 3 kg mass on a rope pulled up with 45 N; acceleration is (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 m/s²",
+            "10 m/s²",
+            "15 m/s²",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "5 m/s²"
         },
         {
-          "question": "Question 25 for Week 12",
+          "question": "In equilibrium, sum of forces on a body equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mg",
+            "0",
+            "Maximum force",
+            "Any value"
           ],
-          "answer": "Option A"
+          "answer": "0"
         }
       ]
     },
@@ -3077,254 +3077,254 @@
       "topic": "Laws of Motion – Friction (Static, Kinetic, Rolling)",
       "questions": [
         {
-          "question": "Question 1 for Week 13",
+          "question": "Friction opposes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gravity",
+            "Relative motion or tendency of motion",
+            "Normal force",
+            "Inertia"
           ],
-          "answer": "Option A"
+          "answer": "Relative motion or tendency of motion"
         },
         {
-          "question": "Question 2 for Week 13",
+          "question": "Coefficient of static friction μ_s compared to kinetic μ_k is generally:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ_s < μ_k",
+            "μ_s = μ_k",
+            "μ_s > μ_k",
+            "Depends only on surfaces"
           ],
-          "answer": "Option A"
+          "answer": "μ_s > μ_k"
         },
         {
-          "question": "Question 3 for Week 13",
+          "question": "Maximum static friction equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ_s·mg",
+            "μ_s·N",
+            "μ_k·N",
+            "N"
           ],
-          "answer": "Option A"
+          "answer": "μ_s·N"
         },
         {
-          "question": "Question 4 for Week 13",
+          "question": "Kinetic friction equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ_s·N",
+            "μ_k·N",
+            "μ_k·mg",
+            "μ_r·N"
           ],
-          "answer": "Option A"
+          "answer": "μ_k·N"
         },
         {
-          "question": "Question 5 for Week 13",
+          "question": "A block of mass 5 kg rests on a surface with μ_s=0.4. Minimum force to just move it (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 N",
+            "15 N",
+            "20 N",
+            "25 N"
           ],
-          "answer": "Option A"
+          "answer": "20 N"
         },
         {
-          "question": "Question 6 for Week 13",
+          "question": "Rolling friction is generally:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Largest",
+            "Between static and kinetic",
+            "Smallest",
+            "Same as kinetic"
           ],
-          "answer": "Option A"
+          "answer": "Smallest"
         },
         {
-          "question": "Question 7 for Week 13",
+          "question": "Angle of friction θ and coefficient of friction μ satisfy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ = sinθ",
+            "μ = cosθ",
+            "μ = tanθ",
+            "μ = secθ"
           ],
-          "answer": "Option A"
+          "answer": "μ = tanθ"
         },
         {
-          "question": "Question 8 for Week 13",
+          "question": "Angle of repose α of a rough incline where μ is the coefficient of friction satisfies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ = tanα",
+            "μ = sinα",
+            "μ = cosα",
+            "μ = cotα"
           ],
-          "answer": "Option A"
+          "answer": "μ = tanα"
         },
         {
-          "question": "Question 9 for Week 13",
+          "question": "On a rough incline with angle θ greater than angle of repose, the block:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Stays at rest",
+            "Slides down",
+            "Moves up",
+            "Hovers"
           ],
-          "answer": "Option A"
+          "answer": "Slides down"
         },
         {
-          "question": "Question 10 for Week 13",
+          "question": "A 2 kg block on a horizontal surface with μ_k=0.2 is given push with 6 N (g=10). Acceleration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5 m/s²",
+            "1 m/s²",
+            "2 m/s²",
+            "3 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "1 m/s²"
         },
         {
-          "question": "Question 11 for Week 13",
+          "question": "Friction force when a 2 kg block is pushed with 3 N on a surface with μ_s=0.5 (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3 N",
+            "5 N",
+            "10 N",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "3 N"
         },
         {
-          "question": "Question 12 for Week 13",
+          "question": "If applied force on a stationary block is less than μ_s·N, friction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Maximum static",
+            "Kinetic",
+            "Equal to applied force",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Equal to applied force"
         },
         {
-          "question": "Question 13 for Week 13",
+          "question": "Friction depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Area of contact only",
+            "Nature of surfaces and normal force",
+            "Mass only",
+            "Gravity only"
           ],
-          "answer": "Option A"
+          "answer": "Nature of surfaces and normal force"
         },
         {
-          "question": "Question 14 for Week 13",
+          "question": "When skidding brakes are used, friction is primarily:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Static",
+            "Kinetic",
+            "Rolling",
+            "Fluid"
           ],
-          "answer": "Option A"
+          "answer": "Kinetic"
         },
         {
-          "question": "Question 15 for Week 13",
+          "question": "Advantages of friction include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Walking, writing, braking",
+            "Wear and tear only",
+            "Heat generation only",
+            "Energy loss only"
           ],
-          "answer": "Option A"
+          "answer": "Walking, writing, braking"
         },
         {
-          "question": "Question 16 for Week 13",
+          "question": "To reduce friction, we can use:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lubricants and ball bearings",
+            "Rough surfaces",
+            "Higher normal force",
+            "Adhesives"
           ],
-          "answer": "Option A"
+          "answer": "Lubricants and ball bearings"
         },
         {
-          "question": "Question 17 for Week 13",
+          "question": "A body of mass 10 kg is pulled on a rough horizontal surface (μ=0.1) with force 30 N (g=10). Acceleration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5 m/s²",
+            "1 m/s²",
+            "2 m/s²",
+            "3 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s²"
         },
         {
-          "question": "Question 18 for Week 13",
+          "question": "Coefficient of rolling friction is typically:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5",
+            "Larger than 0.5",
+            "0.1 to 0.01",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "0.1 to 0.01"
         },
         {
-          "question": "Question 19 for Week 13",
+          "question": "A block just slides on incline when tanθ equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ_s",
+            "μ_k",
+            "sinθ",
+            "cosθ"
           ],
-          "answer": "Option A"
+          "answer": "μ_s"
         },
         {
-          "question": "Question 20 for Week 13",
+          "question": "A box slides down a 37° incline with μ_k=0.5 (g=10). Acceleration (sin37=0.6, cos37=0.8):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 m/s²",
+            "2 m/s²",
+            "4 m/s²",
+            "6 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s²"
         },
         {
-          "question": "Question 21 for Week 13",
+          "question": "A car of mass 1000 kg moving at 10 m/s stops in 5 s on friction alone. Friction force:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "500 N",
+            "1000 N",
+            "2000 N",
+            "5000 N"
           ],
-          "answer": "Option A"
+          "answer": "2000 N"
         },
         {
-          "question": "Question 22 for Week 13",
+          "question": "In the above, μ_k is (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.1",
+            "0.2",
+            "0.5",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "0.2"
         },
         {
-          "question": "Question 23 for Week 13",
+          "question": "Limiting friction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kinetic friction",
+            "Max static friction",
+            "Rolling friction",
+            "Always zero"
           ],
-          "answer": "Option A"
+          "answer": "Max static friction"
         },
         {
-          "question": "Question 24 for Week 13",
+          "question": "The friction on a freely rolling wheel is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Static friction at point of contact",
+            "Kinetic friction always",
+            "Rolling friction equal to static max",
+            "Zero always"
           ],
-          "answer": "Option A"
+          "answer": "Static friction at point of contact"
         },
         {
-          "question": "Question 25 for Week 13",
+          "question": "A 5 kg block is pushed horizontally on a rough surface with μ_s=0.3, μ_k=0.2 (g=10). A force of 12 N:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Moves the block with 0.4 m/s² acceleration",
+            "Does not move the block",
+            "Moves with 1 m/s²",
+            "Moves with 2 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "Moves the block with 0.4 m/s² acceleration"
         }
       ]
     },
@@ -3333,254 +3333,254 @@
       "topic": "Laws of Motion – Circular Motion Dynamics, Banking of Roads",
       "questions": [
         {
-          "question": "Question 1 for Week 14",
+          "question": "Centripetal force needed for circular motion is provided on a level road by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tension",
+            "Friction",
+            "Normal reaction",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "Friction"
         },
         {
-          "question": "Question 2 for Week 14",
+          "question": "Maximum speed on a level circular road with friction coefficient μ and radius r (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(μrg)",
+            "μrg",
+            "μ/rg",
+            "√(rg/μ)"
           ],
-          "answer": "Option A"
+          "answer": "√(μrg)"
         },
         {
-          "question": "Question 3 for Week 14",
+          "question": "Banking of road helps by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increasing friction",
+            "Providing component of normal to act as centripetal force",
+            "Reducing weight",
+            "Changing mass"
           ],
-          "answer": "Option A"
+          "answer": "Providing component of normal to act as centripetal force"
         },
         {
-          "question": "Question 4 for Week 14",
+          "question": "Angle of banking θ for speed v and radius r (no friction) satisfies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tanθ = v/rg",
+            "tanθ = v²/rg",
+            "tanθ = rg/v²",
+            "tanθ = v²r/g"
           ],
-          "answer": "Option A"
+          "answer": "tanθ = v²/rg"
         },
         {
-          "question": "Question 5 for Week 14",
+          "question": "For maximum safe speed on a banked road (no friction) with radius 50 m and banking angle 30° (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(50·10·tan30°)",
+            "√(50·10)",
+            "Same as level road",
+            "50·tan30°"
           ],
-          "answer": "Option A"
+          "answer": "√(50·10·tan30°)"
         },
         {
-          "question": "Question 6 for Week 14",
+          "question": "On a rough banked road, maximum safe speed is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same as no friction",
+            "Smaller than no friction case",
+            "Larger than no friction case",
+            "Independent of θ"
           ],
-          "answer": "Option A"
+          "answer": "Larger than no friction case"
         },
         {
-          "question": "Question 7 for Week 14",
+          "question": "Conical pendulum: tension T provides:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Only weight",
+            "Horizontal centripetal and vertical weight components",
+            "Only centripetal",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Horizontal centripetal and vertical weight components"
         },
         {
-          "question": "Question 8 for Week 14",
+          "question": "In vertical circle, minimum speed at top of loop (radius r, g=10) for string taut:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(rg)",
+            "√(2rg)",
+            "√(3rg)",
+            "√(5rg)"
           ],
-          "answer": "Option A"
+          "answer": "√(rg)"
         },
         {
-          "question": "Question 9 for Week 14",
+          "question": "Minimum speed at bottom of loop for completing full vertical circle:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(2rg)",
+            "√(3rg)",
+            "√(5rg)",
+            "√(rg)"
           ],
-          "answer": "Option A"
+          "answer": "√(5rg)"
         },
         {
-          "question": "Question 10 for Week 14",
+          "question": "Difference in tension at top and bottom of a vertical loop equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2mg",
+            "4mg",
+            "6mg",
+            "8mg"
           ],
-          "answer": "Option A"
+          "answer": "6mg"
         },
         {
-          "question": "Question 11 for Week 14",
+          "question": "A car rounding a curve on a banked road needs:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Larger μ if banking is sufficient",
+            "No friction if banked for design speed",
+            "More fuel",
+            "Nothing"
           ],
-          "answer": "Option A"
+          "answer": "No friction if banked for design speed"
         },
         {
-          "question": "Question 12 for Week 14",
+          "question": "For a motorcyclist on a circular track, lean angle θ for speed v and radius r:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tanθ = v/rg",
+            "tanθ = v²/rg",
+            "tanθ = rg/v²",
+            "tanθ = v·r·g"
           ],
-          "answer": "Option A"
+          "answer": "tanθ = v²/rg"
         },
         {
-          "question": "Question 13 for Week 14",
+          "question": "A 1000 kg car moves at 20 m/s round a curve of radius 100 m. Centripetal force:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1000 N",
+            "2000 N",
+            "4000 N",
+            "8000 N"
           ],
-          "answer": "Option A"
+          "answer": "4000 N"
         },
         {
-          "question": "Question 14 for Week 14",
+          "question": "In above case, coefficient of friction required (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.1",
+            "0.2",
+            "0.4",
+            "0.8"
           ],
-          "answer": "Option A"
+          "answer": "0.4"
         },
         {
-          "question": "Question 15 for Week 14",
+          "question": "The outer rail of a curved railway track is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lower",
+            "Higher",
+            "Same level",
+            "Removed"
           ],
-          "answer": "Option A"
+          "answer": "Higher"
         },
         {
-          "question": "Question 16 for Week 14",
+          "question": "A stone tied to a string of length 1 m is whirled in a vertical circle. Minimum speed at top (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 m/s",
+            "√10 m/s",
+            "5 m/s",
+            "10 m/s"
           ],
-          "answer": "Option A"
+          "answer": "√10 m/s"
         },
         {
-          "question": "Question 17 for Week 14",
+          "question": "Minimum speed at bottom in above case:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√10 m/s",
+            "√30 m/s",
+            "√50 m/s",
+            "10 m/s"
           ],
-          "answer": "Option A"
+          "answer": "√50 m/s"
         },
         {
-          "question": "Question 18 for Week 14",
+          "question": "Maximum speed on a level road of μ=0.5, r=20 m (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 m/s",
+            "√100 m/s",
+            "20 m/s",
+            "5 m/s"
           ],
-          "answer": "Option A"
+          "answer": "10 m/s"
         },
         {
-          "question": "Question 19 for Week 14",
+          "question": "A car moves on a banked track at design speed. Friction required is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Maximum",
+            "Equal to weight",
+            "Zero",
+            "μ·N"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Question 20 for Week 14",
+          "question": "Period of a conical pendulum of length L and half-angle θ:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π√(L/g)",
+            "2π√(L cosθ/g)",
+            "2π√(L sinθ/g)",
+            "2π√(g/L)"
           ],
-          "answer": "Option A"
+          "answer": "2π√(L cosθ/g)"
         },
         {
-          "question": "Question 21 for Week 14",
+          "question": "In uniform circular motion on a rough banked curve with angle θ and coefficient μ, max speed is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√[rg(tanθ+μ)/(1−μ tanθ)]",
+            "√(rg tanθ)",
+            "√(rg μ)",
+            "√(rg)"
           ],
-          "answer": "Option A"
+          "answer": "√[rg(tanθ+μ)/(1−μ tanθ)]"
         },
         {
-          "question": "Question 22 for Week 14",
+          "question": "A cyclist goes round a curve of radius 10 m at 5 m/s. Lean angle (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tan⁻¹(1/4)",
+            "tan⁻¹(1/2)",
+            "tan⁻¹(1)",
+            "45°"
           ],
-          "answer": "Option A"
+          "answer": "tan⁻¹(1/4)"
         },
         {
-          "question": "Question 23 for Week 14",
+          "question": "For circular motion, external centripetal force must be provided by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Normal force alone",
+            "Component of some real force toward centre",
+            "Friction only",
+            "Gravity only"
           ],
-          "answer": "Option A"
+          "answer": "Component of some real force toward centre"
         },
         {
-          "question": "Question 24 for Week 14",
+          "question": "A car moving at 15 m/s on a flat curve of radius 45 m needs a minimum μ of (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.25",
+            "0.5",
+            "0.75",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "0.5"
         },
         {
-          "question": "Question 25 for Week 14",
+          "question": "If a car enters a curve too fast on a banked road (v > v_design) without friction, it will tend to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Slide inward",
+            "Slide outward",
+            "Stop",
+            "Stay fine"
           ],
-          "answer": "Option A"
+          "answer": "Slide outward"
         }
       ]
     },
