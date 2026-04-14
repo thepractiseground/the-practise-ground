@@ -10676,254 +10676,279 @@
       "topic": "Revision – Kinematics (Straight Line + Plane)",
       "questions": [
         {
-          "question": "Week 42 Question 1: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q1",
+          "question": "Displacement is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Vector quantity",
+            "Scalar quantity",
+            "Dimensionless",
+            "Always positive"
           ],
-          "answer": "Option A"
+          "answer": "Vector quantity"
         },
         {
-          "question": "Week 42 Question 2: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q2",
+          "question": "Distance is always:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-negative scalar",
+            "Vector",
+            "Negative",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Non-negative scalar"
         },
         {
-          "question": "Week 42 Question 3: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q3",
+          "question": "Slope of position-time graph gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Velocity",
+            "Acceleration",
+            "Displacement",
+            "Time"
           ],
-          "answer": "Option A"
+          "answer": "Velocity"
         },
         {
-          "question": "Week 42 Question 4: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q4",
+          "question": "Slope of velocity-time graph gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acceleration",
+            "Displacement",
+            "Velocity",
+            "Momentum"
           ],
-          "answer": "Option A"
+          "answer": "Acceleration"
         },
         {
-          "question": "Week 42 Question 5: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q5",
+          "question": "Area under v-t graph gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Displacement",
+            "Acceleration",
+            "Speed",
+            "Time"
           ],
-          "answer": "Option A"
+          "answer": "Displacement"
         },
         {
-          "question": "Week 42 Question 6: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q6",
+          "question": "For uniform motion, a-t graph is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Horizontal line at zero",
+            "Straight sloped line",
+            "Parabola",
+            "Vertical line"
           ],
-          "answer": "Option A"
+          "answer": "Horizontal line at zero"
         },
         {
-          "question": "Week 42 Question 7: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q7",
+          "question": "First equation of motion: v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u + at",
+            "u² + 2as",
+            "s + ut",
+            "at²"
           ],
-          "answer": "Option A"
+          "answer": "u + at"
         },
         {
-          "question": "Week 42 Question 8: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q8",
+          "question": "Second equation of motion: s = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ut + ½at²",
+            "u + at",
+            "v² - u²",
+            "a/t"
           ],
-          "answer": "Option A"
+          "answer": "ut + ½at²"
         },
         {
-          "question": "Week 42 Question 9: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q9",
+          "question": "Third equation of motion: v² = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u² + 2as",
+            "u + at",
+            "ut + ½at²",
+            "2as"
           ],
-          "answer": "Option A"
+          "answer": "u² + 2as"
         },
         {
-          "question": "Week 42 Question 10: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q10",
+          "question": "A ball dropped from rest falls with acceleration (ignore air resistance):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "g downward",
+            "g upward",
+            "Zero",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "g downward"
         },
         {
-          "question": "Week 42 Question 11: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q11",
+          "question": "Time of flight for vertical projection upward with speed u:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2u/g",
+            "u/g",
+            "u²/g",
+            "u/2g"
           ],
-          "answer": "Option A"
+          "answer": "2u/g"
         },
         {
-          "question": "Week 42 Question 12: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q12",
+          "question": "Maximum height of vertical projection: H = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u²/(2g)",
+            "u/(2g)",
+            "2u/g",
+            "ug"
           ],
-          "answer": "Option A"
+          "answer": "u²/(2g)"
         },
         {
-          "question": "Week 42 Question 13: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q13",
+          "question": "Range of projectile (level ground): R = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u² sin(2θ)/g",
+            "u² sinθ/g",
+            "u sin(2θ)/g",
+            "u/g"
           ],
-          "answer": "Option A"
+          "answer": "u² sin(2θ)/g"
         },
         {
-          "question": "Week 42 Question 14: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q14",
+          "question": "Maximum range of projectile is achieved at angle:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "45°",
+            "30°",
+            "60°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "45°"
         },
         {
-          "question": "Week 42 Question 15: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q15",
+          "question": "Time of flight of projectile: T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2u sinθ/g",
+            "u sinθ/g",
+            "u cosθ/g",
+            "2u cosθ/g"
           ],
-          "answer": "Option A"
+          "answer": "2u sinθ/g"
         },
         {
-          "question": "Week 42 Question 16: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q16",
+          "question": "Maximum height of projectile: H = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "u² sin²θ/(2g)",
+            "u² cos²θ/(2g)",
+            "u sinθ/g",
+            "u²/g"
           ],
-          "answer": "Option A"
+          "answer": "u² sin²θ/(2g)"
         },
         {
-          "question": "Week 42 Question 17: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q17",
+          "question": "A projectile's horizontal component of velocity (no air resistance):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Stays constant",
+            "Increases",
+            "Decreases",
+            "Oscillates"
           ],
-          "answer": "Option A"
+          "answer": "Stays constant"
         },
         {
-          "question": "Week 42 Question 18: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q18",
+          "question": "In 2D motion, motion along x and y can be analyzed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Independently",
+            "Only together",
+            "Only on straight line",
+            "Randomly"
           ],
-          "answer": "Option A"
+          "answer": "Independently"
         },
         {
-          "question": "Week 42 Question 19: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q19",
+          "question": "Relative velocity of A w.r.t. B = v_A - v_B; if both in same direction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Subtract magnitudes",
+            "Add magnitudes",
+            "Multiply",
+            "Divide"
           ],
-          "answer": "Option A"
+          "answer": "Subtract magnitudes"
         },
         {
-          "question": "Week 42 Question 20: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q20",
+          "question": "A train moving at 20 m/s is passed by a car at 30 m/s same direction. Relative velocity =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 m/s",
+            "50 m/s",
+            "30 m/s",
+            "600 m/s"
           ],
-          "answer": "Option A"
+          "answer": "10 m/s"
         },
         {
-          "question": "Week 42 Question 21: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q21",
+          "question": "In uniform circular motion, speed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Constant, velocity changes",
+            "Changes",
+            "Zero",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "Constant, velocity changes"
         },
         {
-          "question": "Week 42 Question 22: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q22",
+          "question": "Centripetal acceleration: a_c = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v²/r",
+            "v/r",
+            "vr",
+            "r/v²"
           ],
-          "answer": "Option A"
+          "answer": "v²/r"
         },
         {
-          "question": "Week 42 Question 23: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q23",
+          "question": "Instantaneous velocity = limit of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Δr/Δt as Δt → 0",
+            "Δr × Δt",
+            "r/t",
+            "average velocity"
           ],
-          "answer": "Option A"
+          "answer": "Δr/Δt as Δt → 0"
         },
         {
-          "question": "Week 42 Question 24: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q24",
+          "question": "Dimensions of velocity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[LT⁻¹]",
+            "[LT⁻²]",
+            "[L]",
+            "[T]"
           ],
-          "answer": "Option A"
+          "answer": "[LT⁻¹]"
         },
         {
-          "question": "Week 42 Question 25: Revision – Kinematics (Straight Line + P...",
+          "id": "p11-w42-q25",
+          "question": "A stone is thrown horizontally from a cliff; it reaches ground in time independent of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Initial horizontal speed",
+            "Height",
+            "g",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Initial horizontal speed"
         }
       ]
     },
@@ -10932,254 +10957,279 @@
       "topic": "Revision – Laws of Motion & Friction",
       "questions": [
         {
-          "question": "Week 43 Question 1: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q1",
+          "question": "Newton's first law is also called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Law of inertia",
+            "Law of momentum",
+            "Law of action-reaction",
+            "Gravitation"
           ],
-          "answer": "Option A"
+          "answer": "Law of inertia"
         },
         {
-          "question": "Week 43 Question 2: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q2",
+          "question": "Newton's second law: F = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "dp/dt",
+            "mv",
+            "ma only at low v",
+            "p/t"
           ],
-          "answer": "Option A"
+          "answer": "dp/dt"
         },
         {
-          "question": "Week 43 Question 3: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q3",
+          "question": "Newton's third law is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Action-reaction pair equal and opposite",
+            "Inertia principle",
+            "Force = ma",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "Action-reaction pair equal and opposite"
         },
         {
-          "question": "Week 43 Question 4: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q4",
+          "question": "Linear momentum is defined as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mv",
+            "ma",
+            "F/m",
+            "mv²"
           ],
-          "answer": "Option A"
+          "answer": "mv"
         },
         {
-          "question": "Week 43 Question 5: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q5",
+          "question": "Conservation of momentum holds when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Net external force is zero",
+            "System is accelerating",
+            "Friction is present",
+            "Any time"
           ],
-          "answer": "Option A"
+          "answer": "Net external force is zero"
         },
         {
-          "question": "Week 43 Question 6: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q6",
+          "question": "A body in equilibrium has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero net force",
+            "Maximum force",
+            "Variable force",
+            "Zero mass"
           ],
-          "answer": "Option A"
+          "answer": "Zero net force"
         },
         {
-          "question": "Week 43 Question 7: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q7",
+          "question": "Coefficient of static friction μ_s vs kinetic friction μ_k:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ_s > μ_k",
+            "μ_s < μ_k",
+            "Equal",
+            "Always zero"
           ],
-          "answer": "Option A"
+          "answer": "μ_s > μ_k"
         },
         {
-          "question": "Week 43 Question 8: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q8",
+          "question": "Kinetic friction force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "μ_k × Normal force",
+            "mg only",
+            "Weight/2",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "μ_k × Normal force"
         },
         {
-          "question": "Week 43 Question 9: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q9",
+          "question": "Friction acts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Opposite to relative motion or tendency",
+            "Along motion",
+            "Perpendicular to motion only",
+            "Zero always"
           ],
-          "answer": "Option A"
+          "answer": "Opposite to relative motion or tendency"
         },
         {
-          "question": "Week 43 Question 10: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q10",
+          "question": "On a horizontal surface with friction, a block moves with constant velocity, so net force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "Gravity",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 43 Question 11: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q11",
+          "question": "The angle of friction θ satisfies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tanθ = μ",
+            "sinθ = μ",
+            "cosθ = μ",
+            "μ = 1"
           ],
-          "answer": "Option A"
+          "answer": "tanθ = μ"
         },
         {
-          "question": "Week 43 Question 12: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q12",
+          "question": "Angle of repose for a block on incline, with μ_s:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tan⁻¹(μ_s)",
+            "sin⁻¹(μ_s)",
+            "90°",
+            "0°"
           ],
-          "answer": "Option A"
+          "answer": "tan⁻¹(μ_s)"
         },
         {
-          "question": "Week 43 Question 13: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q13",
+          "question": "Tension in light string connecting two masses is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same throughout",
+            "Greater on heavier side",
+            "Zero",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "Same throughout"
         },
         {
-          "question": "Week 43 Question 14: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q14",
+          "question": "On an incline of angle θ, component of weight along incline is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mg sinθ",
+            "mg cosθ",
+            "mg",
+            "mg tanθ"
           ],
-          "answer": "Option A"
+          "answer": "mg sinθ"
         },
         {
-          "question": "Week 43 Question 15: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q15",
+          "question": "Normal reaction on incline of angle θ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mg cosθ",
+            "mg sinθ",
+            "mg",
+            "mg/cosθ"
           ],
-          "answer": "Option A"
+          "answer": "mg cosθ"
         },
         {
-          "question": "Week 43 Question 16: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q16",
+          "question": "Banking of roads is done to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Provide centripetal force without relying on friction",
+            "Reduce speed",
+            "Increase friction",
+            "Protect from wind"
           ],
-          "answer": "Option A"
+          "answer": "Provide centripetal force without relying on friction"
         },
         {
-          "question": "Week 43 Question 17: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q17",
+          "question": "On a banked curve (frictionless), v² = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "rg tanθ",
+            "rg sinθ",
+            "rg/cosθ",
+            "r/g"
           ],
-          "answer": "Option A"
+          "answer": "rg tanθ"
         },
         {
-          "question": "Week 43 Question 18: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q18",
+          "question": "A block on rough horizontal surface pulled by 20 N, μ_k = 0.2, m = 5 kg. If a = ? (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 m/s²",
+            "4 m/s²",
+            "6 m/s²",
+            "1 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s²"
         },
         {
-          "question": "Week 43 Question 19: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q19",
+          "question": "Free body diagram shows:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "All forces on a body",
+            "Only gravity",
+            "Only friction",
+            "Velocity"
           ],
-          "answer": "Option A"
+          "answer": "All forces on a body"
         },
         {
-          "question": "Week 43 Question 20: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q20",
+          "question": "Impulse = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Change in momentum (F·Δt)",
+            "Force/time",
+            "Mass×velocity²",
+            "Energy"
           ],
-          "answer": "Option A"
+          "answer": "Change in momentum (F·Δt)"
         },
         {
-          "question": "Week 43 Question 21: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q21",
+          "question": "SI unit of impulse:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N·s",
+            "N/s",
+            "J",
+            "W"
           ],
-          "answer": "Option A"
+          "answer": "N·s"
         },
         {
-          "question": "Week 43 Question 22: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q22",
+          "question": "Rolling friction is generally:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Smaller than kinetic friction",
+            "Larger",
+            "Same",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Smaller than kinetic friction"
         },
         {
-          "question": "Week 43 Question 23: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q23",
+          "question": "Friction can be reduced by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Polishing and lubrication",
+            "Heating",
+            "Increasing load",
+            "Increasing area"
           ],
-          "answer": "Option A"
+          "answer": "Polishing and lubrication"
         },
         {
-          "question": "Week 43 Question 24: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q24",
+          "question": "In a frictionless system, pulling a block needs:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Net force",
+            "No force to keep it moving",
+            "Unlimited force",
+            "Variable"
           ],
-          "answer": "Option A"
+          "answer": "No force to keep it moving"
         },
         {
-          "question": "Week 43 Question 25: Revision – Laws of Motion & Friction...",
+          "id": "p11-w43-q25",
+          "question": "A bullet of mass 0.01 kg moving at 200 m/s embeds in block of 0.99 kg. Common velocity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 m/s",
+            "20 m/s",
+            "200 m/s",
+            "0.2 m/s"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s"
         }
       ]
     },
@@ -11188,254 +11238,279 @@
       "topic": "Revision – Work, Energy, Power & Collisions",
       "questions": [
         {
-          "question": "Week 44 Question 1: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q1",
+          "question": "Work done by constant force F over displacement d (angle θ):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Fd cosθ",
+            "Fd sinθ",
+            "Fd",
+            "F/d"
           ],
-          "answer": "Option A"
+          "answer": "Fd cosθ"
         },
         {
-          "question": "Week 44 Question 2: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q2",
+          "question": "SI unit of work:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Joule",
+            "Watt",
+            "Newton",
+            "Pascal"
           ],
-          "answer": "Option A"
+          "answer": "Joule"
         },
         {
-          "question": "Week 44 Question 3: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q3",
+          "question": "Kinetic energy = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½mv²",
+            "mv",
+            "mgh",
+            "ma"
           ],
-          "answer": "Option A"
+          "answer": "½mv²"
         },
         {
-          "question": "Week 44 Question 4: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q4",
+          "question": "Work-energy theorem: W_net = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔKE",
+            "ΔPE",
+            "PE + KE",
+            "F × t"
           ],
-          "answer": "Option A"
+          "answer": "ΔKE"
         },
         {
-          "question": "Week 44 Question 5: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q5",
+          "question": "Gravitational PE near Earth's surface:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mgh",
+            "mh",
+            "½mgh²",
+            "Fg"
           ],
-          "answer": "Option A"
+          "answer": "mgh"
         },
         {
-          "question": "Week 44 Question 6: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q6",
+          "question": "Mechanical energy is conserved when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Only conservative forces do work",
+            "Friction is present",
+            "External forces act",
+            "Always"
           ],
-          "answer": "Option A"
+          "answer": "Only conservative forces do work"
         },
         {
-          "question": "Week 44 Question 7: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q7",
+          "question": "Power = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Work/time",
+            "Work × time",
+            "Energy × time",
+            "Force/time"
           ],
-          "answer": "Option A"
+          "answer": "Work/time"
         },
         {
-          "question": "Week 44 Question 8: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q8",
+          "question": "SI unit of power:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Watt",
+            "Joule",
+            "Newton",
+            "Hertz"
           ],
-          "answer": "Option A"
+          "answer": "Watt"
         },
         {
-          "question": "Week 44 Question 9: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q9",
+          "question": "1 horsepower ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "746 W",
+            "1000 W",
+            "100 W",
+            "10000 W"
           ],
-          "answer": "Option A"
+          "answer": "746 W"
         },
         {
-          "question": "Week 44 Question 10: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q10",
+          "question": "1 kWh = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3.6 × 10⁶ J",
+            "3600 J",
+            "1000 J",
+            "10⁶ J"
           ],
-          "answer": "Option A"
+          "answer": "3.6 × 10⁶ J"
         },
         {
-          "question": "Week 44 Question 11: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q11",
+          "question": "Power can be written as P = F·v when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Force is along velocity",
+            "Perpendicular",
+            "Zero",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Force is along velocity"
         },
         {
-          "question": "Week 44 Question 12: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q12",
+          "question": "Elastic PE stored in a spring: U = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½kx²",
+            "kx",
+            "kx²",
+            "mgh"
           ],
-          "answer": "Option A"
+          "answer": "½kx²"
         },
         {
-          "question": "Week 44 Question 13: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q13",
+          "question": "An elastic collision conserves:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both KE and momentum",
+            "Momentum only",
+            "KE only",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Both KE and momentum"
         },
         {
-          "question": "Week 44 Question 14: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q14",
+          "question": "In a perfectly inelastic collision:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Objects stick together, momentum conserved",
+            "Separate, KE conserved",
+            "Both conserved",
+            "Nothing conserved"
           ],
-          "answer": "Option A"
+          "answer": "Objects stick together, momentum conserved"
         },
         {
-          "question": "Week 44 Question 15: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q15",
+          "question": "For 1D elastic collision between equal masses with one at rest:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "They exchange velocities",
+            "Both stop",
+            "Both continue",
+            "They stick"
           ],
-          "answer": "Option A"
+          "answer": "They exchange velocities"
         },
         {
-          "question": "Week 44 Question 16: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q16",
+          "question": "Coefficient of restitution e for elastic collision:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "0.5",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Week 44 Question 17: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q17",
+          "question": "For perfectly inelastic collision, e = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "1",
+            "0.5",
+            "Infinity"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 44 Question 18: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q18",
+          "question": "A conservative force satisfies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Work done in closed loop = 0",
+            "Work always positive",
+            "Depends on path",
+            "Always zero"
           ],
-          "answer": "Option A"
+          "answer": "Work done in closed loop = 0"
         },
         {
-          "question": "Week 44 Question 19: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q19",
+          "question": "Friction is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-conservative force",
+            "Conservative force",
+            "Gravitational",
+            "Electrical"
           ],
-          "answer": "Option A"
+          "answer": "Non-conservative force"
         },
         {
-          "question": "Week 44 Question 20: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q20",
+          "question": "The area under F-x graph gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Work done",
+            "Power",
+            "Energy density",
+            "Impulse"
           ],
-          "answer": "Option A"
+          "answer": "Work done"
         },
         {
-          "question": "Week 44 Question 21: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q21",
+          "question": "Power developed by a horse pulling 200 N at 5 m/s steady:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1000 W",
+            "100 W",
+            "40 W",
+            "10000 W"
           ],
-          "answer": "Option A"
+          "answer": "1000 W"
         },
         {
-          "question": "Week 44 Question 22: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q22",
+          "question": "A body of mass 2 kg falls 5 m. KE just before impact (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100 J",
+            "50 J",
+            "10 J",
+            "1000 J"
           ],
-          "answer": "Option A"
+          "answer": "100 J"
         },
         {
-          "question": "Week 44 Question 23: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q23",
+          "question": "When a ball bounces back with lower speed, the collision is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Partially elastic",
+            "Perfectly elastic",
+            "Perfectly inelastic",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Partially elastic"
         },
         {
-          "question": "Week 44 Question 24: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q24",
+          "question": "In explosion, fragments fly apart. Momentum is conserved if:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No external force",
+            "External force present",
+            "Always",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "No external force"
         },
         {
-          "question": "Week 44 Question 25: Revision – Work, Energy, Power & Collisi...",
+          "id": "p11-w44-q25",
+          "question": "Internal forces between parts of a system can change:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "KE, not total momentum",
+            "Momentum, not KE",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "KE, not total momentum"
         }
       ]
     },
@@ -11444,254 +11519,279 @@
       "topic": "Revision – Rotational Motion & Gravitation",
       "questions": [
         {
-          "question": "Week 45 Question 1: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q1",
+          "question": "Moment of inertia depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass and distribution relative to axis",
+            "Only mass",
+            "Only velocity",
+            "Only force"
           ],
-          "answer": "Option A"
+          "answer": "Mass and distribution relative to axis"
         },
         {
-          "question": "Week 45 Question 2: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q2",
+          "question": "MOI of uniform solid sphere about diameter:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(2/5)MR²",
+            "(2/3)MR²",
+            "MR²",
+            "(1/2)MR²"
           ],
-          "answer": "Option A"
+          "answer": "(2/5)MR²"
         },
         {
-          "question": "Week 45 Question 3: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q3",
+          "question": "MOI of thin uniform ring about its axis:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "MR²",
+            "½MR²",
+            "(2/5)MR²",
+            "(1/3)MR²"
           ],
-          "answer": "Option A"
+          "answer": "MR²"
         },
         {
-          "question": "Week 45 Question 4: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q4",
+          "question": "MOI of solid disc about its axis:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½MR²",
+            "MR²",
+            "(2/5)MR²",
+            "(1/3)MR²"
           ],
-          "answer": "Option A"
+          "answer": "½MR²"
         },
         {
-          "question": "Week 45 Question 5: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q5",
+          "question": "Rotational KE = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½Iω²",
+            "½mv²",
+            "Iω",
+            "mω²"
           ],
-          "answer": "Option A"
+          "answer": "½Iω²"
         },
         {
-          "question": "Week 45 Question 6: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q6",
+          "question": "Torque τ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "r × F",
+            "F·v",
+            "m·a",
+            "p/t"
           ],
-          "answer": "Option A"
+          "answer": "r × F"
         },
         {
-          "question": "Week 45 Question 7: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q7",
+          "question": "Angular momentum L = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Iω",
+            "mv",
+            "mω",
+            "F × r"
           ],
-          "answer": "Option A"
+          "answer": "Iω"
         },
         {
-          "question": "Week 45 Question 8: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q8",
+          "question": "Conservation of angular momentum holds when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Net external torque is zero",
+            "Mass changes",
+            "Friction present",
+            "Always"
           ],
-          "answer": "Option A"
+          "answer": "Net external torque is zero"
         },
         {
-          "question": "Week 45 Question 9: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q9",
+          "question": "An ice skater pulls in arms → angular velocity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases (MOI decreases)",
+            "Decreases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases (MOI decreases)"
         },
         {
-          "question": "Week 45 Question 10: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q10",
+          "question": "Work done by torque W = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "τ·θ",
+            "τ/θ",
+            "F·d",
+            "I·ω"
           ],
-          "answer": "Option A"
+          "answer": "τ·θ"
         },
         {
-          "question": "Week 45 Question 11: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q11",
+          "question": "Power in rotation P = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "τω",
+            "τ/ω",
+            "Iω²",
+            "Fω"
           ],
-          "answer": "Option A"
+          "answer": "τω"
         },
         {
-          "question": "Week 45 Question 12: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q12",
+          "question": "Rolling without slipping: v_cm = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rω",
+            "R/ω",
+            "R + ω",
+            "Rω²"
           ],
-          "answer": "Option A"
+          "answer": "Rω"
         },
         {
-          "question": "Week 45 Question 13: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q13",
+          "question": "Universal law of gravitation: F = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gm₁m₂/r²",
+            "Gm₁m₂/r",
+            "Gm₁m₂·r²",
+            "Gm₁+m₂"
           ],
-          "answer": "Option A"
+          "answer": "Gm₁m₂/r²"
         },
         {
-          "question": "Week 45 Question 14: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q14",
+          "question": "Value of G ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.67 × 10⁻¹¹ N·m²/kg²",
+            "9.8",
+            "3 × 10⁸",
+            "1.6 × 10⁻¹⁹"
           ],
-          "answer": "Option A"
+          "answer": "6.67 × 10⁻¹¹ N·m²/kg²"
         },
         {
-          "question": "Week 45 Question 15: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q15",
+          "question": "Acceleration due to gravity at Earth's surface ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9.8 m/s²",
+            "10 m/s² always exact",
+            "1.6 m/s²",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "9.8 m/s²"
         },
         {
-          "question": "Week 45 Question 16: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q16",
+          "question": "At height h above Earth's surface, g' = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "g(R/(R+h))²",
+            "g(R+h)/R",
+            "g/h",
+            "g·h"
           ],
-          "answer": "Option A"
+          "answer": "g(R/(R+h))²"
         },
         {
-          "question": "Week 45 Question 17: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q17",
+          "question": "Escape velocity from Earth ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "11.2 km/s",
+            "7.9 km/s",
+            "3×10⁸ m/s",
+            "100 m/s"
           ],
-          "answer": "Option A"
+          "answer": "11.2 km/s"
         },
         {
-          "question": "Week 45 Question 18: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q18",
+          "question": "Orbital velocity at Earth's surface ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7.9 km/s",
+            "11.2 km/s",
+            "1 km/s",
+            "100 km/s"
           ],
-          "answer": "Option A"
+          "answer": "7.9 km/s"
         },
         {
-          "question": "Week 45 Question 19: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q19",
+          "question": "Kepler's 3rd law: T² ∝ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "a³ (semi-major axis cubed)",
+            "a",
+            "a²",
+            "1/a"
           ],
-          "answer": "Option A"
+          "answer": "a³ (semi-major axis cubed)"
         },
         {
-          "question": "Week 45 Question 20: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q20",
+          "question": "A geostationary satellite has period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "24 hours",
+            "12 hours",
+            "1 hour",
+            "48 hours"
           ],
-          "answer": "Option A"
+          "answer": "24 hours"
         },
         {
-          "question": "Week 45 Question 21: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q21",
+          "question": "Gravitational PE between two masses: U = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "-Gm₁m₂/r",
+            "Gm₁m₂/r",
+            "Gm₁m₂r",
+            "-Gm₁m₂r²"
           ],
-          "answer": "Option A"
+          "answer": "-Gm₁m₂/r"
         },
         {
-          "question": "Week 45 Question 22: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q22",
+          "question": "Inside a uniform spherical shell, gravitational field is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Constant non-zero",
+            "Varies with r",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 45 Question 23: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q23",
+          "question": "At the center of Earth, effective g is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "9.8 m/s²",
+            "6.67×10⁻¹¹"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 45 Question 24: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q24",
+          "question": "Newton's shell theorem says external gravity of a sphere acts as if mass is at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Center",
+            "Surface",
+            "Rim",
+            "Equator"
           ],
-          "answer": "Option A"
+          "answer": "Center"
         },
         {
-          "question": "Week 45 Question 25: Revision – Rotational Motion & Gravitati...",
+          "id": "p11-w45-q25",
+          "question": "If radius of planet doubles (mass same), g becomes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "g/4",
+            "2g",
+            "g/2",
+            "4g"
           ],
-          "answer": "Option A"
+          "answer": "g/4"
         }
       ]
     },
@@ -11700,254 +11800,279 @@
       "topic": "Revision – Properties of Solids & Fluids",
       "questions": [
         {
-          "question": "Week 46 Question 1: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q1",
+          "question": "Stress has same dimensions as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pressure",
+            "Force",
+            "Energy",
+            "Momentum"
           ],
-          "answer": "Option A"
+          "answer": "Pressure"
         },
         {
-          "question": "Week 46 Question 2: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q2",
+          "question": "Strain is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dimensionless",
+            "Pascal",
+            "Newton",
+            "Joule"
           ],
-          "answer": "Option A"
+          "answer": "Dimensionless"
         },
         {
-          "question": "Week 46 Question 3: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q3",
+          "question": "Young's modulus Y = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longitudinal stress / longitudinal strain",
+            "Shear stress / shear strain",
+            "Volume stress / volume strain",
+            "Stress × strain"
           ],
-          "answer": "Option A"
+          "answer": "Longitudinal stress / longitudinal strain"
         },
         {
-          "question": "Week 46 Question 4: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q4",
+          "question": "SI unit of Y:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pa (N/m²)",
+            "N",
+            "m²",
+            "J"
           ],
-          "answer": "Option A"
+          "answer": "Pa (N/m²)"
         },
         {
-          "question": "Week 46 Question 5: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q5",
+          "question": "Hooke's law: Stress ∝ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Strain (within elastic limit)",
+            "Any strain",
+            "Plastic strain",
+            "Time"
           ],
-          "answer": "Option A"
+          "answer": "Strain (within elastic limit)"
         },
         {
-          "question": "Week 46 Question 6: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q6",
+          "question": "Steel is more elastic than rubber because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Larger Y for steel → resists deformation more",
+            "Rubber is inelastic",
+            "Steel deforms more",
+            "Rubber has no strain"
           ],
-          "answer": "Option A"
+          "answer": "Larger Y for steel → resists deformation more"
         },
         {
-          "question": "Week 46 Question 7: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q7",
+          "question": "Bulk modulus B = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "-V(dP/dV)",
+            "Y/shear",
+            "F/A",
+            "ρg"
           ],
-          "answer": "Option A"
+          "answer": "-V(dP/dV)"
         },
         {
-          "question": "Week 46 Question 8: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q8",
+          "question": "Compressibility = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/B",
+            "B",
+            "B²",
+            "B⁻²"
           ],
-          "answer": "Option A"
+          "answer": "1/B"
         },
         {
-          "question": "Week 46 Question 9: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q9",
+          "question": "Poisson's ratio σ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "lateral strain / longitudinal strain (both magnitudes)",
+            "shear/volume",
+            "stress/strain",
+            "1 always"
           ],
-          "answer": "Option A"
+          "answer": "lateral strain / longitudinal strain (both magnitudes)"
         },
         {
-          "question": "Week 46 Question 10: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q10",
+          "question": "Pressure at depth h in fluid: P = P₀ + :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ρgh",
+            "ρ/h",
+            "ρh²",
+            "g/h"
           ],
-          "answer": "Option A"
+          "answer": "ρgh"
         },
         {
-          "question": "Week 46 Question 11: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q11",
+          "question": "Pascal's law states that pressure applied to enclosed fluid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Is transmitted undiminished",
+            "Doubles downward",
+            "Vanishes",
+            "Halves"
           ],
-          "answer": "Option A"
+          "answer": "Is transmitted undiminished"
         },
         {
-          "question": "Week 46 Question 12: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q12",
+          "question": "Hydraulic lift uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pascal's law",
+            "Archimedes",
+            "Bernoulli",
+            "Stokes"
           ],
-          "answer": "Option A"
+          "answer": "Pascal's law"
         },
         {
-          "question": "Week 46 Question 13: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q13",
+          "question": "Archimedes' principle: Buoyant force = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weight of displaced fluid",
+            "Weight of object",
+            "Density × g",
+            "Pressure × area"
           ],
-          "answer": "Option A"
+          "answer": "Weight of displaced fluid"
         },
         {
-          "question": "Week 46 Question 14: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q14",
+          "question": "An object floats when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Density < fluid density",
+            "Density > fluid density",
+            "Equal masses",
+            "Any"
           ],
-          "answer": "Option A"
+          "answer": "Density < fluid density"
         },
         {
-          "question": "Week 46 Question 15: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q15",
+          "question": "Viscosity SI unit:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pa·s",
+            "N/m",
+            "m²/s",
+            "kg/m³"
           ],
-          "answer": "Option A"
+          "answer": "Pa·s"
         },
         {
-          "question": "Week 46 Question 16: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q16",
+          "question": "Bernoulli's equation: P + ½ρv² + ρgh = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Constant (along streamline)",
+            "Zero",
+            "ρg",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Constant (along streamline)"
         },
         {
-          "question": "Week 46 Question 17: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q17",
+          "question": "Venturi meter measures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Flow rate of fluid",
+            "Viscosity",
+            "Density",
+            "Temperature"
           ],
-          "answer": "Option A"
+          "answer": "Flow rate of fluid"
         },
         {
-          "question": "Week 46 Question 18: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q18",
+          "question": "Lift on aircraft wing is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pressure difference from Bernoulli",
+            "Gravity",
+            "Buoyancy",
+            "Friction"
           ],
-          "answer": "Option A"
+          "answer": "Pressure difference from Bernoulli"
         },
         {
-          "question": "Week 46 Question 19: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q19",
+          "question": "Stokes' law for sphere in viscous fluid: F = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6πηrv",
+            "4πr²",
+            "ρgV",
+            "ηA"
           ],
-          "answer": "Option A"
+          "answer": "6πηrv"
         },
         {
-          "question": "Week 46 Question 20: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q20",
+          "question": "Terminal velocity depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Size, density of sphere and fluid, η",
+            "Time only",
+            "Height only",
+            "Mass only"
           ],
-          "answer": "Option A"
+          "answer": "Size, density of sphere and fluid, η"
         },
         {
-          "question": "Week 46 Question 21: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q21",
+          "question": "Surface tension SI unit:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N/m",
+            "N·m",
+            "Pa",
+            "J/s"
           ],
-          "answer": "Option A"
+          "answer": "N/m"
         },
         {
-          "question": "Week 46 Question 22: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q22",
+          "question": "Capillary rise: h = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2T cosθ/(ρgr)",
+            "T/(ρg)",
+            "T·ρ·g·r",
+            "2T/ρg"
           ],
-          "answer": "Option A"
+          "answer": "2T cosθ/(ρgr)"
         },
         {
-          "question": "Week 46 Question 23: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q23",
+          "question": "Water rises in a capillary because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "It wets glass (contact angle < 90°)",
+            "It doesn't wet glass",
+            "High viscosity",
+            "High density"
           ],
-          "answer": "Option A"
+          "answer": "It wets glass (contact angle < 90°)"
         },
         {
-          "question": "Week 46 Question 24: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q24",
+          "question": "Mercury in a capillary:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Depresses below reservoir",
+            "Rises above",
+            "Remains same",
+            "Boils"
           ],
-          "answer": "Option A"
+          "answer": "Depresses below reservoir"
         },
         {
-          "question": "Week 46 Question 25: Revision – Properties of Solids & Fluids...",
+          "id": "p11-w46-q25",
+          "question": "Reynolds number determines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Laminar vs turbulent flow",
+            "Viscosity only",
+            "Buoyancy",
+            "Pressure"
           ],
-          "answer": "Option A"
+          "answer": "Laminar vs turbulent flow"
         }
       ]
     },
@@ -11956,254 +12081,279 @@
       "topic": "Revision – Thermal Properties & Thermodynamics",
       "questions": [
         {
-          "question": "Week 47 Question 1: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q1",
+          "question": "Temperature scales: C, F, K relation: T(K) = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "°C + 273.15",
+            "°C - 273.15",
+            "5/9(°F - 32)",
+            "°F + 32"
           ],
-          "answer": "Option A"
+          "answer": "°C + 273.15"
         },
         {
-          "question": "Week 47 Question 2: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q2",
+          "question": "Normal human body temp ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "37°C",
+            "50°C",
+            "25°C",
+            "100°C"
           ],
-          "answer": "Option A"
+          "answer": "37°C"
         },
         {
-          "question": "Week 47 Question 3: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q3",
+          "question": "Coefficient of linear expansion α has units:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "K⁻¹",
+            "K",
+            "m/K",
+            "m²"
           ],
-          "answer": "Option A"
+          "answer": "K⁻¹"
         },
         {
-          "question": "Week 47 Question 4: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q4",
+          "question": "Linear expansion: ΔL = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "L₀ α ΔT",
+            "L₀ ΔT",
+            "αΔT",
+            "L₀/α"
           ],
-          "answer": "Option A"
+          "answer": "L₀ α ΔT"
         },
         {
-          "question": "Week 47 Question 5: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q5",
+          "question": "Volume expansion coefficient γ ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3α (isotropic)",
+            "α",
+            "α/3",
+            "2α"
           ],
-          "answer": "Option A"
+          "answer": "3α (isotropic)"
         },
         {
-          "question": "Week 47 Question 6: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q6",
+          "question": "Water anomaly: max density at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4°C",
+            "0°C",
+            "100°C",
+            "-4°C"
           ],
-          "answer": "Option A"
+          "answer": "4°C"
         },
         {
-          "question": "Week 47 Question 7: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q7",
+          "question": "Heat required: Q = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mcΔT",
+            "m/cΔT",
+            "c/mΔT",
+            "ΔT/(mc)"
           ],
-          "answer": "Option A"
+          "answer": "mcΔT"
         },
         {
-          "question": "Week 47 Question 8: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q8",
+          "question": "Specific heat SI unit:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "J/(kg·K)",
+            "kcal",
+            "cal·°C",
+            "J/K"
           ],
-          "answer": "Option A"
+          "answer": "J/(kg·K)"
         },
         {
-          "question": "Week 47 Question 9: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q9",
+          "question": "Latent heat of fusion of ice ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "334 kJ/kg",
+            "540 kJ/kg",
+            "100 kJ/kg",
+            "4.18 J/g"
           ],
-          "answer": "Option A"
+          "answer": "334 kJ/kg"
         },
         {
-          "question": "Week 47 Question 10: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q10",
+          "question": "Latent heat of vaporization of water ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2260 kJ/kg",
+            "334 kJ/kg",
+            "100 kJ/kg",
+            "4.18 kJ/kg"
           ],
-          "answer": "Option A"
+          "answer": "2260 kJ/kg"
         },
         {
-          "question": "Week 47 Question 11: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q11",
+          "question": "Thermal conduction rate: Q/t = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kAΔT/L",
+            "kΔT",
+            "A/L",
+            "kAL"
           ],
-          "answer": "Option A"
+          "answer": "kAΔT/L"
         },
         {
-          "question": "Week 47 Question 12: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q12",
+          "question": "Radiation rate per unit area (Stefan):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "σT⁴",
+            "σT",
+            "σ/T",
+            "σT²"
           ],
-          "answer": "Option A"
+          "answer": "σT⁴"
         },
         {
-          "question": "Week 47 Question 13: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q13",
+          "question": "Wien's law: λ_max·T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Constant b ≈ 2.9×10⁻³ m·K",
+            "Variable",
+            "Zero",
+            "T²"
           ],
-          "answer": "Option A"
+          "answer": "Constant b ≈ 2.9×10⁻³ m·K"
         },
         {
-          "question": "Week 47 Question 14: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q14",
+          "question": "A perfect blackbody has emissivity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "0.5",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Week 47 Question 15: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q15",
+          "question": "Zeroth law of thermodynamics concerns:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Thermal equilibrium",
+            "Energy conservation",
+            "Entropy",
+            "Temperature scale"
           ],
-          "answer": "Option A"
+          "answer": "Thermal equilibrium"
         },
         {
-          "question": "Week 47 Question 16: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q16",
+          "question": "First law of thermodynamics: ΔU = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Q - W",
+            "Q + W",
+            "W - Q",
+            "Q/W"
           ],
-          "answer": "Option A"
+          "answer": "Q - W"
         },
         {
-          "question": "Week 47 Question 17: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q17",
+          "question": "Isothermal process: ΔT = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Variable",
+            "Constant Q",
+            "Constant W"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 47 Question 18: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q18",
+          "question": "Adiabatic process has Q = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Variable",
+            "Max",
+            "Constant"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 47 Question 19: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q19",
+          "question": "Second law of thermodynamics states:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat flows spontaneously hot → cold",
+            "Energy is not conserved",
+            "Entropy decreases",
+            "Work creates heat"
           ],
-          "answer": "Option A"
+          "answer": "Heat flows spontaneously hot → cold"
         },
         {
-          "question": "Week 47 Question 20: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q20",
+          "question": "Carnot engine efficiency η = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 - T_cold/T_hot",
+            "T_cold/T_hot",
+            "T_hot/T_cold",
+            "1 - T_hot/T_cold"
           ],
-          "answer": "Option A"
+          "answer": "1 - T_cold/T_hot"
         },
         {
-          "question": "Week 47 Question 21: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q21",
+          "question": "Carnot cycle consists of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 isothermal + 2 adiabatic",
+            "4 isothermal",
+            "2 isobaric + 2 isochoric",
+            "4 adiabatic"
           ],
-          "answer": "Option A"
+          "answer": "2 isothermal + 2 adiabatic"
         },
         {
-          "question": "Week 47 Question 22: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q22",
+          "question": "Entropy change of reversible process: ΔS = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Q_rev/T",
+            "Q × T",
+            "T/Q",
+            "Q + T"
           ],
-          "answer": "Option A"
+          "answer": "Q_rev/T"
         },
         {
-          "question": "Week 47 Question 23: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q23",
+          "question": "Entropy of universe in irreversible process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Constant",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Week 47 Question 24: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q24",
+          "question": "No engine can be more efficient than:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carnot",
+            "Otto",
+            "Diesel",
+            "Rankine"
           ],
-          "answer": "Option A"
+          "answer": "Carnot"
         },
         {
-          "question": "Week 47 Question 25: Revision – Thermal Properties & Thermody...",
+          "id": "p11-w47-q25",
+          "question": "Refrigerator coefficient of performance = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Q_cold/W",
+            "W/Q_cold",
+            "Q_hot/W",
+            "W/Q_hot"
           ],
-          "answer": "Option A"
+          "answer": "Q_cold/W"
         }
       ]
     },
@@ -12212,254 +12362,279 @@
       "topic": "Revision – Kinetic Theory & Oscillations",
       "questions": [
         {
-          "question": "Week 48 Question 1: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q1",
+          "question": "Ideal gas equation: PV = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nRT",
+            "nkT",
+            "RT",
+            "RT/n"
           ],
-          "answer": "Option A"
+          "answer": "nRT"
         },
         {
-          "question": "Week 48 Question 2: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q2",
+          "question": "R (gas constant) ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8.314 J/(mol·K)",
+            "1.38×10⁻²³",
+            "6.02×10²³",
+            "9.8"
           ],
-          "answer": "Option A"
+          "answer": "8.314 J/(mol·K)"
         },
         {
-          "question": "Week 48 Question 3: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q3",
+          "question": "Boltzmann constant k = R/N_A ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.38×10⁻²³ J/K",
+            "8.314 J/K",
+            "6.67×10⁻¹¹",
+            "9.8"
           ],
-          "answer": "Option A"
+          "answer": "1.38×10⁻²³ J/K"
         },
         {
-          "question": "Week 48 Question 4: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q4",
+          "question": "Avogadro's number N_A ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.02×10²³",
+            "1.38×10⁻²³",
+            "8.314",
+            "9.1×10⁻³¹"
           ],
-          "answer": "Option A"
+          "answer": "6.02×10²³"
         },
         {
-          "question": "Week 48 Question 5: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q5",
+          "question": "Average translational KE per molecule = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(3/2)kT",
+            "kT",
+            "RT",
+            "(1/2)kT"
           ],
-          "answer": "Option A"
+          "answer": "(3/2)kT"
         },
         {
-          "question": "Week 48 Question 6: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q6",
+          "question": "RMS speed of gas molecules = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(3RT/M)",
+            "√(3kT/m)",
+            "Both A and B",
+            "kT/m"
           ],
-          "answer": "Option A"
+          "answer": "Both A and B"
         },
         {
-          "question": "Week 48 Question 7: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q7",
+          "question": "DOF for monatomic ideal gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "5",
+            "7",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Week 48 Question 8: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q8",
+          "question": "DOF for diatomic gas at room T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "7",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Week 48 Question 9: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q9",
+          "question": "Cv for monatomic gas = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(3/2)R",
+            "(5/2)R",
+            "(7/2)R",
+            "R"
           ],
-          "answer": "Option A"
+          "answer": "(3/2)R"
         },
         {
-          "question": "Week 48 Question 10: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q10",
+          "question": "Cp - Cv = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R (ideal gas)",
+            "2R",
+            "kT",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "R (ideal gas)"
         },
         {
-          "question": "Week 48 Question 11: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q11",
+          "question": "γ = Cp/Cv for monatomic ideal gas = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5/3",
+            "7/5",
+            "9/7",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "5/3"
         },
         {
-          "question": "Week 48 Question 12: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q12",
+          "question": "Mean free path λ = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/(√2 n π d²)",
+            "kT/P",
+            "Both expressions (equivalent)",
+            "v/t"
           ],
-          "answer": "Option A"
+          "answer": "Both expressions (equivalent)"
         },
         {
-          "question": "Week 48 Question 13: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q13",
+          "question": "SHM acceleration: a = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "-ω²x",
+            "ω²x",
+            "-ωx",
+            "Constant"
           ],
-          "answer": "Option A"
+          "answer": "-ω²x"
         },
         {
-          "question": "Week 48 Question 14: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q14",
+          "question": "Spring-mass time period: T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π√(m/k)",
+            "2π√(k/m)",
+            "√(m/k)",
+            "π m/k"
           ],
-          "answer": "Option A"
+          "answer": "2π√(m/k)"
         },
         {
-          "question": "Week 48 Question 15: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q15",
+          "question": "Simple pendulum period: T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π√(L/g)",
+            "2π√(g/L)",
+            "L/g",
+            "√L"
           ],
-          "answer": "Option A"
+          "answer": "2π√(L/g)"
         },
         {
-          "question": "Week 48 Question 16: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q16",
+          "question": "Total energy of SHM: E = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½mω²A²",
+            "½mω²x²",
+            "mω²A",
+            "½kA"
           ],
-          "answer": "Option A"
+          "answer": "½mω²A²"
         },
         {
-          "question": "Week 48 Question 17: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q17",
+          "question": "In SHM, KE at displacement x = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½mω²(A² - x²)",
+            "½mω²x²",
+            "½mω²A²",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "½mω²(A² - x²)"
         },
         {
-          "question": "Week 48 Question 18: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q18",
+          "question": "In SHM, max velocity = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ωA",
+            "ω²A",
+            "ωA²",
+            "A/ω"
           ],
-          "answer": "Option A"
+          "answer": "ωA"
         },
         {
-          "question": "Week 48 Question 19: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q19",
+          "question": "Damped oscillation amplitude decays:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Exponentially",
+            "Linearly",
+            "Quadratically",
+            "Doesn't decay"
           ],
-          "answer": "Option A"
+          "answer": "Exponentially"
         },
         {
-          "question": "Week 48 Question 20: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q20",
+          "question": "Resonance condition:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Driving freq ≈ natural freq",
+            "Driving = 0",
+            "Amplitude = 0",
+            "Damping = ∞"
           ],
-          "answer": "Option A"
+          "answer": "Driving freq ≈ natural freq"
         },
         {
-          "question": "Week 48 Question 21: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q21",
+          "question": "Forced oscillation steady frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Driving frequency",
+            "Natural frequency",
+            "Average",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Driving frequency"
         },
         {
-          "question": "Week 48 Question 22: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q22",
+          "question": "Shock absorbers are designed to be:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Critically damped",
+            "Underdamped",
+            "Overdamped",
+            "Undamped"
           ],
-          "answer": "Option A"
+          "answer": "Critically damped"
         },
         {
-          "question": "Week 48 Question 23: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q23",
+          "question": "If two SHMs are in phase, resultant amplitude (equal A each):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2A",
+            "A",
+            "0",
+            "A√2"
           ],
-          "answer": "Option A"
+          "answer": "2A"
         },
         {
-          "question": "Week 48 Question 24: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q24",
+          "question": "Phase difference π between same-A SHMs gives amplitude:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "2A",
+            "A",
+            "A/2"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Week 48 Question 25: Revision – Kinetic Theory & Oscillations...",
+          "id": "p11-w48-q25",
+          "question": "For a seconds pendulum, T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 s",
+            "1 s",
+            "4 s",
+            "0.5 s"
           ],
-          "answer": "Option A"
+          "answer": "2 s"
         }
       ]
     },
@@ -12468,254 +12643,279 @@
       "topic": "Revision – Waves & Sound",
       "questions": [
         {
-          "question": "Week 49 Question 1: Revision – Waves & Sound...",
+          "id": "p11-w49-q1",
+          "question": "Wave carries:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy and momentum, not matter",
+            "Matter alone",
+            "Momentum only",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Energy and momentum, not matter"
         },
         {
-          "question": "Week 49 Question 2: Revision – Waves & Sound...",
+          "id": "p11-w49-q2",
+          "question": "Sound is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longitudinal mechanical wave",
+            "Transverse",
+            "EM",
+            "Gravity wave"
           ],
-          "answer": "Option A"
+          "answer": "Longitudinal mechanical wave"
         },
         {
-          "question": "Week 49 Question 3: Revision – Waves & Sound...",
+          "id": "p11-w49-q3",
+          "question": "Speed of sound in solid > gas because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher elasticity dominates",
+            "Higher density dominates",
+            "Lower pressure",
+            "Lower friction"
           ],
-          "answer": "Option A"
+          "answer": "Higher elasticity dominates"
         },
         {
-          "question": "Week 49 Question 4: Revision – Waves & Sound...",
+          "id": "p11-w49-q4",
+          "question": "Laplace formula: v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(γP/ρ)",
+            "√(P/ρ)",
+            "√(ρ/P)",
+            "γ/Pρ"
           ],
-          "answer": "Option A"
+          "answer": "√(γP/ρ)"
         },
         {
-          "question": "Week 49 Question 5: Revision – Waves & Sound...",
+          "id": "p11-w49-q5",
+          "question": "v, f, λ relation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v = fλ",
+            "v = f + λ",
+            "v = f/λ",
+            "v = f·λ²"
           ],
-          "answer": "Option A"
+          "answer": "v = fλ"
         },
         {
-          "question": "Week 49 Question 6: Revision – Waves & Sound...",
+          "id": "p11-w49-q6",
+          "question": "String fixed at both ends, fundamental = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/(2L)",
+            "v/L",
+            "v/(4L)",
+            "2v/L"
           ],
-          "answer": "Option A"
+          "answer": "v/(2L)"
         },
         {
-          "question": "Week 49 Question 7: Revision – Waves & Sound...",
+          "id": "p11-w49-q7",
+          "question": "Closed organ pipe fundamental = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/(4L)",
+            "v/(2L)",
+            "v/L",
+            "4v/L"
           ],
-          "answer": "Option A"
+          "answer": "v/(4L)"
         },
         {
-          "question": "Week 49 Question 8: Revision – Waves & Sound...",
+          "id": "p11-w49-q8",
+          "question": "Open organ pipe fundamental = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/(2L)",
+            "v/(4L)",
+            "v/L",
+            "2v/L"
           ],
-          "answer": "Option A"
+          "answer": "v/(2L)"
         },
         {
-          "question": "Week 49 Question 9: Revision – Waves & Sound...",
+          "id": "p11-w49-q9",
+          "question": "Closed pipe has only:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Odd harmonics",
+            "Even harmonics",
+            "All",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Odd harmonics"
         },
         {
-          "question": "Week 49 Question 10: Revision – Waves & Sound...",
+          "id": "p11-w49-q10",
+          "question": "Open pipe has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "All harmonics",
+            "Only odd",
+            "Only even",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "All harmonics"
         },
         {
-          "question": "Week 49 Question 11: Revision – Waves & Sound...",
+          "id": "p11-w49-q11",
+          "question": "Node is point of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero displacement",
+            "Max displacement",
+            "Max velocity",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Zero displacement"
         },
         {
-          "question": "Week 49 Question 12: Revision – Waves & Sound...",
+          "id": "p11-w49-q12",
+          "question": "Antinode is point of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Max displacement",
+            "Zero displacement",
+            "Zero velocity",
+            "Zero KE"
           ],
-          "answer": "Option A"
+          "answer": "Max displacement"
         },
         {
-          "question": "Week 49 Question 13: Revision – Waves & Sound...",
+          "id": "p11-w49-q13",
+          "question": "Distance between adjacent nodes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "λ/2",
+            "λ",
+            "λ/4",
+            "2λ"
           ],
-          "answer": "Option A"
+          "answer": "λ/2"
         },
         {
-          "question": "Week 49 Question 14: Revision – Waves & Sound...",
+          "id": "p11-w49-q14",
+          "question": "Beats frequency = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "|f₁ - f₂|",
+            "f₁ + f₂",
+            "f₁ × f₂",
+            "f₁/f₂"
           ],
-          "answer": "Option A"
+          "answer": "|f₁ - f₂|"
         },
         {
-          "question": "Week 49 Question 15: Revision – Waves & Sound...",
+          "id": "p11-w49-q15",
+          "question": "Doppler for approaching source:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "f' > f",
+            "f' < f",
+            "f' = f",
+            "f' = 0"
           ],
-          "answer": "Option A"
+          "answer": "f' > f"
         },
         {
-          "question": "Week 49 Question 16: Revision – Waves & Sound...",
+          "id": "p11-w49-q16",
+          "question": "Doppler for receding source:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "f' < f",
+            "f' > f",
+            "f' = f",
+            "f' = ∞"
           ],
-          "answer": "Option A"
+          "answer": "f' < f"
         },
         {
-          "question": "Week 49 Question 17: Revision – Waves & Sound...",
+          "id": "p11-w49-q17",
+          "question": "Red-shift in astronomy indicates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Source moving away",
+            "Source approaching",
+            "Stationary",
+            "Source heating"
           ],
-          "answer": "Option A"
+          "answer": "Source moving away"
         },
         {
-          "question": "Week 49 Question 18: Revision – Waves & Sound...",
+          "id": "p11-w49-q18",
+          "question": "Speed of sound in air at 0°C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "331 m/s",
+            "1500 m/s",
+            "3×10⁸ m/s",
+            "100 m/s"
           ],
-          "answer": "Option A"
+          "answer": "331 m/s"
         },
         {
-          "question": "Week 49 Question 19: Revision – Waves & Sound...",
+          "id": "p11-w49-q19",
+          "question": "Audible range humans:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 Hz - 20 kHz",
+            "0 - 100 Hz",
+            "1 kHz - 100 kHz",
+            "> 100 kHz"
           ],
-          "answer": "Option A"
+          "answer": "20 Hz - 20 kHz"
         },
         {
-          "question": "Week 49 Question 20: Revision – Waves & Sound...",
+          "id": "p11-w49-q20",
+          "question": "Ultrasonic uses include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Medical imaging and cleaning",
+            "X-ray imaging",
+            "FM radio",
+            "GPS"
           ],
-          "answer": "Option A"
+          "answer": "Medical imaging and cleaning"
         },
         {
-          "question": "Week 49 Question 21: Revision – Waves & Sound...",
+          "id": "p11-w49-q21",
+          "question": "Intensity of sound ∝ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amplitude squared",
+            "Amplitude",
+            "Frequency only",
+            "Phase"
           ],
-          "answer": "Option A"
+          "answer": "Amplitude squared"
         },
         {
-          "question": "Week 49 Question 22: Revision – Waves & Sound...",
+          "id": "p11-w49-q22",
+          "question": "Sound level (dB) = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 log₁₀(I/I₀)",
+            "ln(I/I₀)",
+            "I × I₀",
+            "I/I₀"
           ],
-          "answer": "Option A"
+          "answer": "10 log₁₀(I/I₀)"
         },
         {
-          "question": "Week 49 Question 23: Revision – Waves & Sound...",
+          "id": "p11-w49-q23",
+          "question": "Increase in intensity by 10× corresponds to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+10 dB",
+            "+1 dB",
+            "+100 dB",
+            "0 dB"
           ],
-          "answer": "Option A"
+          "answer": "+10 dB"
         },
         {
-          "question": "Week 49 Question 24: Revision – Waves & Sound...",
+          "id": "p11-w49-q24",
+          "question": "Pitch depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Frequency",
+            "Amplitude",
+            "Loudness",
+            "Phase"
           ],
-          "answer": "Option A"
+          "answer": "Frequency"
         },
         {
-          "question": "Week 49 Question 25: Revision – Waves & Sound...",
+          "id": "p11-w49-q25",
+          "question": "Quality (timbre) depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Harmonic content",
+            "Amplitude only",
+            "Pitch only",
+            "Speed"
           ],
-          "answer": "Option A"
+          "answer": "Harmonic content"
         }
       ]
     },
@@ -12724,254 +12924,279 @@
       "topic": "Mixed Practice – Numerical Problems (Mechanics)",
       "questions": [
         {
-          "question": "Week 50 Question 1: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q1",
+          "question": "A car accelerates from rest at 2 m/s² for 5 s. Final velocity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 m/s",
+            "5 m/s",
+            "25 m/s",
+            "2 m/s"
           ],
-          "answer": "Option A"
+          "answer": "10 m/s"
         },
         {
-          "question": "Week 50 Question 2: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q2",
+          "question": "A body at rest accelerates at 3 m/s² for 4 s. Distance travelled:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "24 m",
+            "12 m",
+            "48 m",
+            "6 m"
           ],
-          "answer": "Option A"
+          "answer": "24 m"
         },
         {
-          "question": "Week 50 Question 3: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q3",
+          "question": "A stone dropped reaches ground in 3 s. Height (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "45 m",
+            "30 m",
+            "90 m",
+            "15 m"
           ],
-          "answer": "Option A"
+          "answer": "45 m"
         },
         {
-          "question": "Week 50 Question 4: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q4",
+          "question": "Projectile launched at 30° with 20 m/s. Time of flight (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 s",
+            "4 s",
+            "1 s",
+            "3 s"
           ],
-          "answer": "Option A"
+          "answer": "2 s"
         },
         {
-          "question": "Week 50 Question 5: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q5",
+          "question": "Projectile at 45°, 20 m/s. Range (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "40 m",
+            "20 m",
+            "80 m",
+            "10 m"
           ],
-          "answer": "Option A"
+          "answer": "40 m"
         },
         {
-          "question": "Week 50 Question 6: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q6",
+          "question": "Projectile at 45°, 20 m/s. Max height (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 m",
+            "20 m",
+            "5 m",
+            "40 m"
           ],
-          "answer": "Option A"
+          "answer": "10 m"
         },
         {
-          "question": "Week 50 Question 7: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q7",
+          "question": "5 kg at 4 m/s has momentum:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 kg·m/s",
+            "9 kg·m/s",
+            "40 kg·m/s",
+            "1 kg·m/s"
           ],
-          "answer": "Option A"
+          "answer": "20 kg·m/s"
         },
         {
-          "question": "Week 50 Question 8: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q8",
+          "question": "Force 10 N on 2 kg causes acceleration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5 m/s²",
+            "2 m/s²",
+            "20 m/s²",
+            "0.2 m/s²"
           ],
-          "answer": "Option A"
+          "answer": "5 m/s²"
         },
         {
-          "question": "Week 50 Question 9: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q9",
+          "question": "Block m=4 kg on rough surface μ=0.25 (g=10). Friction force:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 N",
+            "4 N",
+            "40 N",
+            "1 N"
           ],
-          "answer": "Option A"
+          "answer": "10 N"
         },
         {
-          "question": "Week 50 Question 10: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q10",
+          "question": "Incline 30°, m=10 kg (g=10). Component along incline:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50 N",
+            "100 N",
+            "86.6 N",
+            "25 N"
           ],
-          "answer": "Option A"
+          "answer": "50 N"
         },
         {
-          "question": "Week 50 Question 11: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q11",
+          "question": "Work done by 10 N force moving 5 m (parallel):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50 J",
+            "2 J",
+            "15 J",
+            "5 J"
           ],
-          "answer": "Option A"
+          "answer": "50 J"
         },
         {
-          "question": "Week 50 Question 12: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q12",
+          "question": "1 kg body at 10 m/s. KE:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50 J",
+            "10 J",
+            "100 J",
+            "5 J"
           ],
-          "answer": "Option A"
+          "answer": "50 J"
         },
         {
-          "question": "Week 50 Question 13: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q13",
+          "question": "Power to lift 20 kg by 5 m in 10 s (g=10):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100 W",
+            "10 W",
+            "1000 W",
+            "50 W"
           ],
-          "answer": "Option A"
+          "answer": "100 W"
         },
         {
-          "question": "Week 50 Question 14: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q14",
+          "question": "Spring k=200 N/m compressed 0.1 m. PE:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 J",
+            "20 J",
+            "0.1 J",
+            "10 J"
           ],
-          "answer": "Option A"
+          "answer": "1 J"
         },
         {
-          "question": "Week 50 Question 15: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q15",
+          "question": "Ball 2 kg at 5 m/s collides with 3 kg at rest; stick together. Common v:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 m/s",
+            "5 m/s",
+            "10 m/s",
+            "0.5 m/s"
           ],
-          "answer": "Option A"
+          "answer": "2 m/s"
         },
         {
-          "question": "Week 50 Question 16: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q16",
+          "question": "Solid sphere m=5 kg, R=0.2 m. MOI about diameter:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.08 kg·m²",
+            "0.2 kg·m²",
+            "1 kg·m²",
+            "0.02 kg·m²"
           ],
-          "answer": "Option A"
+          "answer": "0.08 kg·m²"
         },
         {
-          "question": "Week 50 Question 17: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q17",
+          "question": "Ring of m=2 kg, R=0.5 m. MOI about axis:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5 kg·m²",
+            "1 kg·m²",
+            "0.25 kg·m²",
+            "0.125 kg·m²"
           ],
-          "answer": "Option A"
+          "answer": "0.5 kg·m²"
         },
         {
-          "question": "Week 50 Question 18: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q18",
+          "question": "Torque 10 N·m applied 5 s; initial ω=0, I=2 kg·m². Final ω:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "25 rad/s",
+            "2 rad/s",
+            "50 rad/s",
+            "10 rad/s"
           ],
-          "answer": "Option A"
+          "answer": "25 rad/s"
         },
         {
-          "question": "Week 50 Question 19: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q19",
+          "question": "Satellite at Earth's radius (g=10, R=6.4×10⁶). Orbital v ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8 km/s",
+            "11.2 km/s",
+            "3 km/s",
+            "100 km/s"
           ],
-          "answer": "Option A"
+          "answer": "8 km/s"
         },
         {
-          "question": "Week 50 Question 20: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q20",
+          "question": "Escape v from Earth ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "11.2 km/s",
+            "8 km/s",
+            "3×10⁸ m/s",
+            "5 km/s"
           ],
-          "answer": "Option A"
+          "answer": "11.2 km/s"
         },
         {
-          "question": "Week 50 Question 21: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q21",
+          "question": "Pendulum L=1 m (g=10). Period ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π/√10 s",
+            "2π s",
+            "1 s",
+            "10 s"
           ],
-          "answer": "Option A"
+          "answer": "2π/√10 s"
         },
         {
-          "question": "Week 50 Question 22: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q22",
+          "question": "Car goes around a banked curve (tanθ = 0.5, r=20 m, g=10). Speed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10 m/s",
+            "5 m/s",
+            "20 m/s",
+            "100 m/s"
           ],
-          "answer": "Option A"
+          "answer": "10 m/s"
         },
         {
-          "question": "Week 50 Question 23: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q23",
+          "question": "Two 1 kg masses, separated 1 m. Gravitational force:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.67×10⁻¹¹ N",
+            "9.8 N",
+            "10⁻⁵ N",
+            "1 N"
           ],
-          "answer": "Option A"
+          "answer": "6.67×10⁻¹¹ N"
         },
         {
-          "question": "Week 50 Question 24: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q24",
+          "question": "A 50 kg body on Moon (g_m = 1.6). Weight:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "80 N",
+            "490 N",
+            "50 N",
+            "800 N"
           ],
-          "answer": "Option A"
+          "answer": "80 N"
         },
         {
-          "question": "Week 50 Question 25: Mixed Practice – Numerical Problems (Mec...",
+          "id": "p11-w50-q25",
+          "question": "Centripetal force on 2 kg mass at r=1 m, v=5 m/s:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50 N",
+            "10 N",
+            "5 N",
+            "25 N"
           ],
-          "answer": "Option A"
+          "answer": "50 N"
         }
       ]
     },
@@ -12980,254 +13205,279 @@
       "topic": "Mixed Practice – Numerical Problems (Thermodynamics & Waves)",
       "questions": [
         {
-          "question": "Week 51 Question 1: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q1",
+          "question": "A rod of length 1 m heated from 20 to 120°C, α = 10⁻⁵ /K. ΔL = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 mm",
+            "10 cm",
+            "0.1 m",
+            "1 cm"
           ],
-          "answer": "Option A"
+          "answer": "1 mm"
         },
         {
-          "question": "Week 51 Question 2: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q2",
+          "question": "Heat to raise 2 kg water from 20 to 70°C (c=4186 J/kg·K):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4.186×10⁵ J",
+            "1000 J",
+            "10⁶ J",
+            "4186 J"
           ],
-          "answer": "Option A"
+          "answer": "4.186×10⁵ J"
         },
         {
-          "question": "Week 51 Question 3: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q3",
+          "question": "Heat to melt 1 kg ice at 0°C (L_f = 334 kJ/kg):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "334 kJ",
+            "100 kJ",
+            "1000 kJ",
+            "4.18 kJ"
           ],
-          "answer": "Option A"
+          "answer": "334 kJ"
         },
         {
-          "question": "Week 51 Question 4: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q4",
+          "question": "Carnot engine T_hot=500 K, T_cold=300 K. Efficiency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "40%",
+            "60%",
+            "100%",
+            "20%"
           ],
-          "answer": "Option A"
+          "answer": "40%"
         },
         {
-          "question": "Week 51 Question 5: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q5",
+          "question": "Carnot engine with η=50%, T_cold=300 K. T_hot:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "600 K",
+            "300 K",
+            "450 K",
+            "150 K"
           ],
-          "answer": "Option A"
+          "answer": "600 K"
         },
         {
-          "question": "Week 51 Question 6: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q6",
+          "question": "Ideal gas PV=nRT. 1 mol at 300 K, P=10⁵ Pa. V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.025 m³ (≈24.9 L)",
+            "10 m³",
+            "0.1 m³",
+            "1 m³"
           ],
-          "answer": "Option A"
+          "answer": "0.025 m³ (≈24.9 L)"
         },
         {
-          "question": "Week 51 Question 7: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q7",
+          "question": "Isothermal compression halves V. Work done on gas (nRT ln2):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nRT ln2",
+            "-nRT",
+            "nR/T",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "nRT ln2"
         },
         {
-          "question": "Week 51 Question 8: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q8",
+          "question": "Monatomic ideal gas, n=1 mol at 300 K. U = (3/2)RT:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3741 J (≈3.74 kJ)",
+            "1000 J",
+            "8.314 J",
+            "10 kJ"
           ],
-          "answer": "Option A"
+          "answer": "3741 J (≈3.74 kJ)"
         },
         {
-          "question": "Week 51 Question 9: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q9",
+          "question": "Cp of monatomic ideal = (5/2)R ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20.8 J/(mol·K)",
+            "12.47 J/(mol·K)",
+            "8.314 J/(mol·K)",
+            "30 J/(mol·K)"
           ],
-          "answer": "Option A"
+          "answer": "20.8 J/(mol·K)"
         },
         {
-          "question": "Week 51 Question 10: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q10",
+          "question": "Entropy change when 1 kg ice melts at 0°C (L=334 kJ/kg, T=273 K):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈1223 J/K",
+            "334 J/K",
+            "273 J/K",
+            "10⁶ J/K"
           ],
-          "answer": "Option A"
+          "answer": "≈1223 J/K"
         },
         {
-          "question": "Week 51 Question 11: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q11",
+          "question": "Sound in air at 27°C, γ=1.4, M=28.8 g/mol. v ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "348 m/s",
+            "331 m/s",
+            "400 m/s",
+            "100 m/s"
           ],
-          "answer": "Option A"
+          "answer": "348 m/s"
         },
         {
-          "question": "Week 51 Question 12: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q12",
+          "question": "String L=1 m, tension 100 N, μ=0.01 kg/m. Fundamental:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50 Hz",
+            "100 Hz",
+            "25 Hz",
+            "10 Hz"
           ],
-          "answer": "Option A"
+          "answer": "50 Hz"
         },
         {
-          "question": "Week 51 Question 13: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q13",
+          "question": "Open pipe length 0.5 m, v_sound=340 m/s. Fundamental:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "340 Hz",
+            "170 Hz",
+            "680 Hz",
+            "100 Hz"
           ],
-          "answer": "Option A"
+          "answer": "340 Hz"
         },
         {
-          "question": "Week 51 Question 14: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q14",
+          "question": "Closed pipe 0.5 m, v=340. Fundamental:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "170 Hz",
+            "340 Hz",
+            "680 Hz",
+            "100 Hz"
           ],
-          "answer": "Option A"
+          "answer": "170 Hz"
         },
         {
-          "question": "Week 51 Question 15: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q15",
+          "question": "Two forks 256 Hz and 260 Hz. Beats/s:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4",
+            "2",
+            "8",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "4"
         },
         {
-          "question": "Week 51 Question 16: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q16",
+          "question": "Source 500 Hz moving 34 m/s toward stationary observer, v=340. f'=:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "555.6 Hz",
+            "500 Hz",
+            "450 Hz",
+            "340 Hz"
           ],
-          "answer": "Option A"
+          "answer": "555.6 Hz"
         },
         {
-          "question": "Week 51 Question 17: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q17",
+          "question": "Source stationary, observer moves 34 m/s toward it. Heard f (source=500, v=340):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "550 Hz",
+            "500 Hz",
+            "450 Hz",
+            "340 Hz"
           ],
-          "answer": "Option A"
+          "answer": "550 Hz"
         },
         {
-          "question": "Week 51 Question 18: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q18",
+          "question": "A wave y = 2 sin(4πx - 400πt). Wavelength:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5 m",
+            "4 m",
+            "2π m",
+            "100 m"
           ],
-          "answer": "Option A"
+          "answer": "0.5 m"
         },
         {
-          "question": "Week 51 Question 19: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q19",
+          "question": "Same wave: frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "200 Hz",
+            "400 Hz",
+            "π Hz",
+            "2 Hz"
           ],
-          "answer": "Option A"
+          "answer": "200 Hz"
         },
         {
-          "question": "Week 51 Question 20: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q20",
+          "question": "Same wave: speed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100 m/s",
+            "400 m/s",
+            "2 m/s",
+            "10 m/s"
           ],
-          "answer": "Option A"
+          "answer": "100 m/s"
         },
         {
-          "question": "Week 51 Question 21: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q21",
+          "question": "SHM amplitude 5 cm, f=2 Hz. v_max:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20π cm/s",
+            "10 cm/s",
+            "5π cm/s",
+            "2π cm/s"
           ],
-          "answer": "Option A"
+          "answer": "20π cm/s"
         },
         {
-          "question": "Week 51 Question 22: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q22",
+          "question": "Spring k=100 N/m, mass 1 kg. T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π/10 s ≈ 0.628 s",
+            "2π s",
+            "1 s",
+            "0.1 s"
           ],
-          "answer": "Option A"
+          "answer": "2π/10 s ≈ 0.628 s"
         },
         {
-          "question": "Week 51 Question 23: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q23",
+          "question": "Seconds pendulum length on Earth (g=9.8):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈0.994 m",
+            "1 m exactly",
+            "2 m",
+            "0.5 m"
           ],
-          "answer": "Option A"
+          "answer": "≈0.994 m"
         },
         {
-          "question": "Week 51 Question 24: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q24",
+          "question": "Intensity quadrupled → sound level increases by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈6 dB",
+            "2 dB",
+            "10 dB",
+            "1 dB"
           ],
-          "answer": "Option A"
+          "answer": "≈6 dB"
         },
         {
-          "question": "Week 51 Question 25: Mixed Practice – Numerical Problems (The...",
+          "id": "p11-w51-q25",
+          "question": "Wien's law: λ_max for T=1000 K (b=2.9×10⁻³ m·K):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2.9 µm",
+            "290 nm",
+            "2.9 mm",
+            "29 nm"
           ],
-          "answer": "Option A"
+          "answer": "2.9 µm"
         }
       ]
     },
@@ -13236,254 +13486,279 @@
       "topic": "Comprehensive Revision – Full Syllabus",
       "questions": [
         {
-          "question": "Week 52 Question 1: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q1",
+          "question": "Fundamental SI unit of length:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "metre",
+            "cm",
+            "inch",
+            "foot"
           ],
-          "answer": "Option A"
+          "answer": "metre"
         },
         {
-          "question": "Week 52 Question 2: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q2",
+          "question": "Dimensions of force:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[MLT⁻²]",
+            "[MLT⁻¹]",
+            "[ML²T⁻²]",
+            "[L]"
           ],
-          "answer": "Option A"
+          "answer": "[MLT⁻²]"
         },
         {
-          "question": "Week 52 Question 3: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q3",
+          "question": "Significant figures in 0.0024:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "3",
+            "4",
+            "5"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Week 52 Question 4: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q4",
+          "question": "Instantaneous velocity is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "dx/dt",
+            "Δx/Δt",
+            "average velocity",
+            "x/t"
           ],
-          "answer": "Option A"
+          "answer": "dx/dt"
         },
         {
-          "question": "Week 52 Question 5: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q5",
+          "question": "Uniform circular motion has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Centripetal acceleration only",
+            "Tangential acceleration",
+            "Zero acceleration",
+            "Both positive and negative"
           ],
-          "answer": "Option A"
+          "answer": "Centripetal acceleration only"
         },
         {
-          "question": "Week 52 Question 6: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q6",
+          "question": "Inertia depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass",
+            "Velocity",
+            "Acceleration",
+            "Force"
           ],
-          "answer": "Option A"
+          "answer": "Mass"
         },
         {
-          "question": "Week 52 Question 7: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q7",
+          "question": "Angular momentum: L = Iω conserved if:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "External torque is zero",
+            "Force is zero",
+            "Mass changes",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "External torque is zero"
         },
         {
-          "question": "Week 52 Question 8: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q8",
+          "question": "Gravitational force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Always attractive",
+            "Repulsive",
+            "Zero at surface",
+            "Constant everywhere"
           ],
-          "answer": "Option A"
+          "answer": "Always attractive"
         },
         {
-          "question": "Week 52 Question 9: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q9",
+          "question": "Young's modulus measures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longitudinal elasticity",
+            "Volumetric elasticity",
+            "Shear elasticity",
+            "Density"
           ],
-          "answer": "Option A"
+          "answer": "Longitudinal elasticity"
         },
         {
-          "question": "Week 52 Question 10: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q10",
+          "question": "Bernoulli's principle is based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy conservation along streamline",
+            "Momentum conservation",
+            "Mass conservation only",
+            "Viscosity"
           ],
-          "answer": "Option A"
+          "answer": "Energy conservation along streamline"
         },
         {
-          "question": "Week 52 Question 11: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q11",
+          "question": "First law of thermodynamics is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy conservation",
+            "Entropy increase",
+            "Zeroth law alternative",
+            "Heat flows from hot to cold"
           ],
-          "answer": "Option A"
+          "answer": "Energy conservation"
         },
         {
-          "question": "Week 52 Question 12: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q12",
+          "question": "Second law of thermodynamics implies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat does not spontaneously flow cold to hot",
+            "Energy is not conserved",
+            "Heat equals work",
+            "Entropy decreases"
           ],
-          "answer": "Option A"
+          "answer": "Heat does not spontaneously flow cold to hot"
         },
         {
-          "question": "Week 52 Question 13: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q13",
+          "question": "Ideal gas law: PV = nRT applies to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ideal (low pressure, high T) gases",
+            "All gases exactly",
+            "Solids",
+            "Liquids"
           ],
-          "answer": "Option A"
+          "answer": "Ideal (low pressure, high T) gases"
         },
         {
-          "question": "Week 52 Question 14: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q14",
+          "question": "Mean KE ∝ T for ideal gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "True (3/2 kT)",
+            "False",
+            "Only at 0 K",
+            "Only for solids"
           ],
-          "answer": "Option A"
+          "answer": "True (3/2 kT)"
         },
         {
-          "question": "Week 52 Question 15: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q15",
+          "question": "SHM is motion in which restoring force is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Proportional to displacement and oppositely directed",
+            "Constant",
+            "Random",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Proportional to displacement and oppositely directed"
         },
         {
-          "question": "Week 52 Question 16: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q16",
+          "question": "Pendulum's period depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Length and g",
+            "Mass",
+            "Amplitude (small)",
+            "Colour"
           ],
-          "answer": "Option A"
+          "answer": "Length and g"
         },
         {
-          "question": "Week 52 Question 17: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q17",
+          "question": "Sound is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longitudinal mechanical wave",
+            "Transverse wave",
+            "EM wave",
+            "Gravity wave"
           ],
-          "answer": "Option A"
+          "answer": "Longitudinal mechanical wave"
         },
         {
-          "question": "Week 52 Question 18: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q18",
+          "question": "Doppler effect:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Frequency changes with relative motion",
+            "Frequency unchanged",
+            "Light only",
+            "Mass changes"
           ],
-          "answer": "Option A"
+          "answer": "Frequency changes with relative motion"
         },
         {
-          "question": "Week 52 Question 19: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q19",
+          "question": "Resonance in organ pipe:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Produces maximum amplitude sound",
+            "Destroys sound",
+            "Irrelevant",
+            "Cools the pipe"
           ],
-          "answer": "Option A"
+          "answer": "Produces maximum amplitude sound"
         },
         {
-          "question": "Week 52 Question 20: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q20",
+          "question": "Work-energy theorem: W = ΔKE, valid for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Any force",
+            "Only conservative",
+            "Only friction",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "Any force"
         },
         {
-          "question": "Week 52 Question 21: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q21",
+          "question": "Momentum is conserved in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Collisions (any type, if no external force)",
+            "Only elastic",
+            "Only inelastic",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "Collisions (any type, if no external force)"
         },
         {
-          "question": "Week 52 Question 22: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q22",
+          "question": "KE is conserved in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Elastic collisions only",
+            "All collisions",
+            "No collisions",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Elastic collisions only"
         },
         {
-          "question": "Week 52 Question 23: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q23",
+          "question": "Kepler's second law implies constant:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Areal velocity",
+            "Speed",
+            "Angular speed",
+            "Tangential velocity"
           ],
-          "answer": "Option A"
+          "answer": "Areal velocity"
         },
         {
-          "question": "Week 52 Question 24: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q24",
+          "question": "Geostationary satellite orbit radius (from Earth center):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈42,000 km",
+            "6400 km",
+            "1000 km",
+            "400 km"
           ],
-          "answer": "Option A"
+          "answer": "≈42,000 km"
         },
         {
-          "question": "Week 52 Question 25: Comprehensive Revision – Full Syllabus...",
+          "id": "p11-w52-q25",
+          "question": "Physics is fundamentally about:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Explaining nature using mathematical laws",
+            "Memorizing facts",
+            "Only experiments",
+            "Only theory"
           ],
-          "answer": "Option A"
+          "answer": "Explaining nature using mathematical laws"
         }
       ]
     }
