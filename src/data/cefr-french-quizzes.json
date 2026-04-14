@@ -172,7 +172,7 @@
             "Si",
             "Oui"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'no'?",
@@ -182,7 +182,7 @@
             "Oui",
             "Rien"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "How do you say 'I don't understand' in French?",
@@ -268,7 +268,7 @@
             "zéro",
             "un"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "What is the French word for the number 'five'?",
@@ -278,7 +278,7 @@
             "cinq",
             "sept"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "What is the French word for the number 'ten'?",
@@ -318,7 +318,7 @@
             "soixante",
             "soixante-dix"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "What is the French word for the number 'hundred'?",
@@ -338,7 +338,7 @@
             "vingt-trois",
             "vingt-sept"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "How do you write the number 42 in French?",
@@ -368,7 +368,7 @@
             "neuf",
             "six"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "What is the French word for the number 'nine'?",
@@ -388,7 +388,7 @@
             "onze",
             "dix"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "What is the French word for the number 'fifteen'?",
@@ -418,7 +418,7 @@
             "soixante",
             "soixante-dix"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "How do you write the number 70 in French?",
@@ -428,7 +428,7 @@
             "quatre-vingts",
             "soixante"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "How do you write the number 80 in French?",
@@ -438,7 +438,7 @@
             "soixante-dix",
             "quatre-vingt-dix"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "How do you write the number 90 in French?",
@@ -478,7 +478,7 @@
             "cinq",
             "quatre"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "What is the French word for the number 'eight'?",
@@ -488,7 +488,7 @@
             "huit",
             "neuf"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "How do you write the number 21 in French?",
@@ -524,7 +524,7 @@
             "mercredi",
             "lundi"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'Friday'?",
@@ -534,7 +534,7 @@
             "vendredi",
             "dimanche"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What is the French word for 'Sunday'?",
@@ -544,7 +544,7 @@
             "mardi",
             "lundi"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "What is the French word for 'January'?",
@@ -574,7 +574,7 @@
             "février",
             "décembre"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'spring'?",
@@ -594,7 +594,7 @@
             "printemps",
             "été"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'autumn'?",
@@ -624,7 +624,7 @@
             "mardi",
             "jeudi"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What is the French word for 'Wednesday'?",
@@ -634,7 +634,7 @@
             "mercredi",
             "jeudi"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "What is the French word for 'Thursday'?",
@@ -644,7 +644,7 @@
             "vendredi",
             "samedi"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "What is the French word for 'Saturday'?",
@@ -674,7 +674,7 @@
             "avril",
             "juin"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What is the French word for 'July'?",
@@ -684,7 +684,7 @@
             "septembre",
             "juin"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "What is the French word for 'September'?",
@@ -694,7 +694,7 @@
             "octobre",
             "novembre"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "What is the French word for 'October'?",
@@ -724,7 +724,7 @@
             "juin",
             "juillet"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "What is the French word for 'August'?",
@@ -734,7 +734,7 @@
             "septembre",
             "août"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'November'?",
@@ -744,7 +744,7 @@
             "janvier",
             "novembre"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'day'?",
@@ -780,7 +780,7 @@
             "le",
             "les"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "Choose the correct article: ___ table (table - feminine)",
@@ -830,7 +830,7 @@
             "l'",
             "la"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Choose the correct article: ___ maison (house - feminine)",
@@ -873,12 +873,12 @@
           "answer": "B"
         },
         {
-          "question": "Choose the correct article: ___ cars (plural)",
+          "question": "Choose the correct article: ___ voitures (cars - plural)",
           "options": [
             "le",
             "les",
-            "la",
-            "l'"
+            "l'",
+            "la"
           ],
           "answer": "B"
         },
@@ -930,7 +930,7 @@
             "le",
             "les"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ garçon (boy - masculine)",
@@ -950,7 +950,7 @@
             "l'",
             "la"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Choose the correct article: ___ pain (bread - masculine)",
@@ -980,7 +980,7 @@
             "l'",
             "les"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ fleur (flower - feminine)",
@@ -1036,7 +1036,7 @@
             "des",
             "une"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ table (a table - feminine)",
@@ -1046,7 +1046,7 @@
             "un",
             "des"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ jus (some juice)",
@@ -1086,7 +1086,7 @@
             "un lait",
             "du lait"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Choose the correct article: ___ amie (a friend - feminine)",
@@ -1096,7 +1096,7 @@
             "un",
             "de l'"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ ami (a friend - masculine)",
@@ -1106,7 +1106,7 @@
             "du",
             "des"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ voiture (a car - feminine)",
@@ -1146,7 +1146,7 @@
             "un viande",
             "de la viande"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Choose the correct article: ___ légumes (some vegetables)",
@@ -1196,7 +1196,7 @@
             "une",
             "un"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Choose the correct article: ___ café (some coffee)",
@@ -1206,7 +1206,7 @@
             "un café",
             "du café"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "Choose the correct article: ___ beurre (some butter)",
@@ -1236,7 +1236,7 @@
             "de l'",
             "une"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ église (a church - feminine)",
@@ -1246,7 +1246,7 @@
             "une",
             "un"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "Choose the correct article: ___ sel (some salt)",
@@ -1256,7 +1256,7 @@
             "un sel",
             "des sel"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Choose the correct article: ___ miel (some honey)",
@@ -1292,7 +1292,7 @@
             "Neither",
             "Masculine"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Is 'table' (table) masculine or feminine?",
@@ -1302,7 +1302,7 @@
             "Both",
             "Neither"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "Is 'maison' (house) masculine or feminine?",
@@ -1312,7 +1312,7 @@
             "Both",
             "Feminine"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "Is 'garçon' (boy) masculine or feminine?",
@@ -1342,7 +1342,7 @@
             "Both",
             "Masculine"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Is 'fleur' (flower) masculine or feminine?",
@@ -1352,7 +1352,7 @@
             "Neither",
             "Masculine"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Is 'chat' (cat) masculine or feminine?",
@@ -1362,7 +1362,7 @@
             "Feminine",
             "Masculine"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "Is 'chien' (dog) masculine or feminine?",
@@ -1392,7 +1392,7 @@
             "Feminine",
             "Both"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Is 'eau' (water) masculine or feminine?",
@@ -1402,7 +1402,7 @@
             "Neither",
             "Feminine"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "Is 'jour' (day) masculine or feminine?",
@@ -1442,7 +1442,7 @@
             "Neither",
             "Masculine"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Is 'voiture' (car) masculine or feminine?",
@@ -1452,7 +1452,7 @@
             "Masculine",
             "Neither"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Is 'porte' (door) masculine or feminine?",
@@ -1462,7 +1462,7 @@
             "Masculine",
             "Neither"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Is 'fenêtre' (window) masculine or feminine?",
@@ -1492,7 +1492,7 @@
             "Feminine",
             "Masculine"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Is 'homme' (man) masculine or feminine?",
@@ -1512,7 +1512,7 @@
             "Masculine",
             "Neither"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Is 'enfant' (child) masculine or feminine?",
@@ -1804,7 +1804,7 @@
             "je",
             "il"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "Which pronoun means 'you' (informal singular) in French?",
@@ -1814,7 +1814,7 @@
             "je",
             "vous"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Which pronoun means 'he' in French?",
@@ -1824,7 +1824,7 @@
             "il",
             "elle"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "Which pronoun means 'she' in French?",
@@ -1854,7 +1854,7 @@
             "nous",
             "vous"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Which pronoun means 'they' (masculine or mixed) in French?",
@@ -1864,7 +1864,7 @@
             "on",
             "ils"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Which pronoun means 'they' (feminine plural) in French?",
@@ -1874,7 +1874,7 @@
             "elles",
             "ils"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "Which pronoun means 'one' or 'we' (informal) in French?",
@@ -2004,7 +2004,7 @@
             "suis",
             "êtes"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "Complete: Tu ___ architecte.",
@@ -2014,7 +2014,7 @@
             "êtes",
             "suis"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Complete: Il ___ infirmier.",
@@ -2070,7 +2070,7 @@
             "parlons",
             "parle"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "Conjugate 'parler' in the 'nous' form (present tense):",
@@ -2260,7 +2260,7 @@
             "parlent",
             "parles"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Complete: Tu ___ à l'école (aller is not -ER, use 'travailler' instead: travailles).",
@@ -2270,7 +2270,7 @@
             "travaillent",
             "travaille"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Complete: Nous ___ en France (habiter).",
@@ -2376,7 +2376,7 @@
             "choisissons",
             "choisissent"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Conjugate 'réussir' (to succeed) in the 'nous' form (present tense):",
@@ -2436,7 +2436,7 @@
             "grandit",
             "grandissons"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "Conjugate 'grandir' in the 'nous' form (present tense):",
@@ -2592,7 +2592,7 @@
             "vendons",
             "vend"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Conjugate 'vendre' in the 'nous' form (present tense):",
@@ -2642,7 +2642,7 @@
             "attend",
             "attendent"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Conjugate 'attendre' in the 'nous' form (present tense):",
@@ -2898,7 +2898,7 @@
             "ai",
             "as"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "Conjugate 'avoir' in the 'il' form (present tense):",
@@ -3254,7 +3254,7 @@
             "font",
             "fais"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Conjugate 'faire' in the 'vous' form (present tense):",
@@ -3360,7 +3360,7 @@
             "ne",
             "rien"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Translate to French: 'I am not happy'",
@@ -3410,7 +3410,7 @@
             "Je ne rien vois",
             "Je vois ne rien"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "How do you say 'no more' in a negative construction?",
@@ -3510,7 +3510,7 @@
             "pas rien",
             "jamais rien"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Translate: 'They don't eat meat'",
@@ -3872,7 +3872,7 @@
             "After",
             "Before"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "Choose the correct order: ___ voiture rouge",
@@ -3922,7 +3922,7 @@
             "Can be either",
             "Before"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Choose the correct order: un ___ étudiant",
@@ -4128,7 +4128,7 @@
             "cousin",
             "frère"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'sister'?",
@@ -4178,7 +4178,7 @@
             "tante",
             "cousine"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "What is the French word for 'cousin' (masculine)?",
@@ -4228,7 +4228,7 @@
             "garçon",
             "enfant"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "What is the French word for 'daughter'?",
@@ -4740,7 +4740,7 @@
             "soir",
             "matin"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "What is the French word for 'evening'?",
@@ -5202,7 +5202,7 @@
             "Comment",
             "Pourquoi"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "What question word means 'When'?",
@@ -5252,7 +5252,7 @@
             "Quoi",
             "Qui"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Complete: ___ est la pharmacie? (Where is the pharmacy?)",
@@ -5864,7 +5864,7 @@
             "rouge",
             "rose"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "What is the French word for 'clothing'?",
@@ -6176,7 +6176,7 @@
             "se laver",
             "se tremper"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "What is the reflexive verb meaning 'to wash'?",
@@ -6226,7 +6226,7 @@
             "s'asseoir",
             "se pencher"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What is the reflexive verb meaning 'to go to bed'?",
@@ -6276,7 +6276,7 @@
             "me lève",
             "nous levons"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Conjugate 'se lever' in the 'il' form (present tense):",
@@ -6376,7 +6376,7 @@
             "Ils se brrossent dents",
             "Ils se brossent les dents"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "What is the reflexive pronoun for 'je'?",
@@ -6482,7 +6482,7 @@
             "ai",
             "a"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Conjugate 'parler' (regular -ER): Je ___ français.",

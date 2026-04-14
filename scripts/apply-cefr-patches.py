@@ -32,6 +32,29 @@ APPLY = [
     ("/tmp/cefr-patch-struct-esc1.json", DATA_DIR / "cefr-spanish-quizzes.json", "c1"),
     ("/tmp/cefr-patch-struct-ena2.json", DATA_DIR / "cefr-quizzes.json", "a2"),
     ("/tmp/cefr-patch-struct-enb1.json", DATA_DIR / "cefr-quizzes.json", "b1"),
+    # Phase C-continued deep audits
+    ("/tmp/cefr-patch-continued-esa1.json", DATA_DIR / "cefr-spanish-quizzes.json", "a1"),
+    ("/tmp/cefr-patch-continued-esb1.json", DATA_DIR / "cefr-spanish-quizzes.json", "b1"),
+    ("/tmp/cefr-patch-continued-ena2.json", DATA_DIR / "cefr-quizzes.json", "a2"),
+    ("/tmp/cefr-patch-continued-enb1.json", DATA_DIR / "cefr-quizzes.json", "b1"),
+    ("/tmp/cefr-patch-continued-dea1.json", DATA_DIR / "cefr-german-quizzes.json", "a1"),
+    # Trailing-digit sweep (generated below)
+    ("/tmp/cefr-patch-td-dea1.json", DATA_DIR / "cefr-german-quizzes.json", "a1"),
+    ("/tmp/cefr-patch-td-esa1.json", DATA_DIR / "cefr-spanish-quizzes.json", "a1"),
+    ("/tmp/cefr-patch-td-esb1.json", DATA_DIR / "cefr-spanish-quizzes.json", "b1"),
+    ("/tmp/cefr-patch-td-esc1.json", DATA_DIR / "cefr-spanish-quizzes.json", "c1"),
+    ("/tmp/cefr-patch-td-ena2.json", DATA_DIR / "cefr-quizzes.json", "a2"),
+    ("/tmp/cefr-patch-td-enb1.json", DATA_DIR / "cefr-quizzes.json", "b1"),
+    # Second-pass TD cleanup (agent used wrong_answer where options were malformed)
+    ("/tmp/cefr-patch-td2-esb1.json", DATA_DIR / "cefr-spanish-quizzes.json", "b1"),
+    # Placeholder-question replacements from prior structural fix
+    ("/tmp/cefr-patch-placeholder-dea1.json", DATA_DIR / "cefr-german-quizzes.json", "a1"),
+    # Content-quality fixes from manual content review
+    ("/tmp/cefr-patch-quality-esb1.json", DATA_DIR / "cefr-spanish-quizzes.json", "b1"),
+    # Vocab-lookup wrong-answer auto-fixes (French a1 regression)
+    ("/tmp/cefr-patch-vocab-fra1.json", DATA_DIR / "cefr-french-quizzes.json", "a1"),
+    # Deep grammar/content audit of French a1 (articles, gender, pronouns, conjugation)
+    ("/tmp/cefr-patch-grammar-fra1.json", DATA_DIR / "cefr-french-quizzes.json", "a1"),
 ]
 
 

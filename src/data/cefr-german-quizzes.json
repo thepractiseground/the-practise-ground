@@ -847,7 +847,7 @@
           "options": [
             "die",
             "das",
-            "die1",
+            "einen",
             "der"
           ],
           "answer": "D"
@@ -1546,7 +1546,7 @@
             "Tischs",
             "Tische",
             "Tischen",
-            "Tische1"
+            "Tischern"
           ],
           "answer": "B"
         },
@@ -1754,7 +1754,7 @@
           "question": "What is the plural of 'die Nase'?",
           "options": [
             "Nasen",
-            "Nasen1",
+            "Näsen",
             "Nases",
             "Naseren"
           ],
@@ -1784,11 +1784,11 @@
           "question": "What is the plural of 'die Schule'?",
           "options": [
             "Schulen",
-            "Schulen1",
+            "Schulene",
             "Schulers",
             "Schules"
           ],
-          "answer": "B"
+          "answer": "A"
         }
       ]
     },
@@ -2066,7 +2066,7 @@
           "question": "What is the 'du' form of 'spielen' in present tense?",
           "options": [
             "spielst",
-            "spielst1",
+            "spiele",
             "spielet",
             "spielen"
           ],
@@ -2275,9 +2275,9 @@
         {
           "question": "What is the 'ihr' form of 'machen'?",
           "options": [
-            "macht",
+            "machte",
             "machst",
-            "macht1",
+            "macht",
             "machen"
           ],
           "answer": "C"
@@ -2511,9 +2511,9 @@
         {
           "question": "Conjugate 'wachsen' (a→ä) for 'du':",
           "options": [
-            "wächst",
+            "wachse",
             "wachst",
-            "wächst1",
+            "wächst",
             "wacht"
           ],
           "answer": "C"
@@ -2667,9 +2667,9 @@
         {
           "question": "What is the 'ihr' form of 'haben'?",
           "options": [
-            "habt",
+            "haben",
             "hast",
-            "habt1",
+            "habt",
             "hat"
           ],
           "answer": "C"
@@ -2886,7 +2886,7 @@
             "wissen",
             "weiß",
             "weißt",
-            "weiß1"
+            "wisse"
           ],
           "answer": "B"
         },
@@ -2895,7 +2895,7 @@
           "options": [
             "wissen",
             "weiß",
-            "weiß1",
+            "wisse",
             "weißt"
           ],
           "answer": "D"
@@ -2905,7 +2905,7 @@
           "options": [
             "weißt",
             "weiß",
-            "weiß1",
+            "wisse",
             "wissen"
           ],
           "answer": "B"
@@ -3005,7 +3005,7 @@
           "options": [
             "weiß",
             "weißt",
-            "weiß1",
+            "wisse",
             "wissen"
           ],
           "answer": "D"
@@ -3045,7 +3045,7 @@
           "options": [
             "weiß",
             "weißt",
-            "weißt1",
+            "wisse",
             "wissen"
           ],
           "answer": "A"
@@ -4737,7 +4737,7 @@
           "options": [
             "zwei Uhr",
             "um zwei",
-            "zwei Uhr1",
+            "um zwei Uhr",
             "zweite Uhr"
           ],
           "answer": "C"
@@ -6505,14 +6505,14 @@
           "answer": "A"
         },
         {
-          "question": "[NEEDS NEW Q] Duplicate of wk25/q9",
+          "question": "Was bedeutet 'Guten Appetit!' auf Englisch?",
           "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
+            "Good morning!",
+            "Enjoy your meal!",
+            "Good night!",
+            "Thank you!"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "What is the correct accusative form of 'ein Kind'?",
@@ -6555,14 +6555,14 @@
           "answer": "A"
         },
         {
-          "question": "[NEEDS NEW Q] Duplicate of wk1/q5",
+          "question": "Wie sagt man 'danke' auf Deutsch?",
           "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
+            "bitte",
+            "danke",
+            "entschuldigung",
+            "tschüss"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "How do you say 'I go to school' in German?",

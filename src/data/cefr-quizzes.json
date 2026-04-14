@@ -927,7 +927,7 @@
           "options": [
             "understand",
             "understood",
-            "understood1",
+            "understanding",
             "understands"
           ],
           "answer": "A"
@@ -4020,9 +4020,9 @@
             "yourself",
             "your",
             "you",
-            "you1"
+            "yours"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "I like ___.",
@@ -4080,9 +4080,9 @@
             "its",
             "it",
             "itself",
-            "it1"
+            "them"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "I told ___ everything.",
@@ -6720,7 +6720,7 @@
             "has",
             "have"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "We _____ lunch yet.",
@@ -9210,11 +9210,11 @@
           "question": "He told her to _____ the questions carefully.",
           "options": [
             "read",
-            "read1",
+            "to read",
             "reading",
             "reads"
           ],
-          "answer": "B"
+          "answer": "A"
         }
       ]
     },
@@ -9800,7 +9800,7 @@
             "reading",
             "read",
             "to read",
-            "read1"
+            "reads"
           ],
           "answer": "A"
         },
@@ -9829,7 +9829,7 @@
           "options": [
             "quit",
             "to quit",
-            "quit1",
+            "quits",
             "quitting"
           ],
           "answer": "B"

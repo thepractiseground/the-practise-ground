@@ -1389,7 +1389,7 @@
           "options": [
             "Días",
             "Diae",
-            "Días1",
+            "Dia",
             "Dis"
           ],
           "answer": "A"
@@ -1616,7 +1616,7 @@
             "Ellas",
             "Ellos",
             "Ello",
-            "Ellas1"
+            "Vosotras"
           ],
           "answer": "A"
         },
@@ -3322,9 +3322,9 @@
             "Jovenita",
             "Jovena",
             "Joven",
-            "Joven1"
+            "Jóvenes"
           ],
-          "answer": "D"
+          "answer": "C"
         }
       ]
     },
@@ -6698,7 +6698,7 @@
             "comes",
             "comió",
             "comé",
-            "comió1"
+            "comieron"
           ],
           "answer": "B"
         },
@@ -6757,10 +6757,10 @@
           "options": [
             "aprenderás",
             "aprendiste",
-            "aprendiste1",
+            "aprendisteis",
             "aprendías"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Complete: Mi hermano _____ en la oficina ayer.",
@@ -6868,9 +6868,9 @@
             "visitaremos",
             "visitamos",
             "visitaban",
-            "visitamos1"
+            "visitaríamos"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Which is the correct preterite form of 'decidir' for 'ellos'?",
@@ -7504,7 +7504,7 @@
           "question": "Which correctly shows background (imperfect) and main event (preterite)?",
           "options": [
             "Hablé mientras estudiaba",
-            "Hablé mientras estudiaba1",
+            "Estudiaba mientras hablaba",
             "Hablé mientras estudiaste",
             "Hablaba mientras estudiaba"
           ],
@@ -7535,7 +7535,7 @@
           "options": [
             "era, fui",
             "fui, iba",
-            "fui, iba1",
+            "fui, fueron",
             "era, iba"
           ],
           "answer": "D"
@@ -7707,11 +7707,11 @@
           "answer": "D"
         },
         {
-          "question": "Complete: Nosotros _____ todo el trabajo hace una hora.",
+          "question": "Complete: Nosotros _____ todo el trabajo esta mañana.",
           "options": [
             "hemos terminado",
-            "terminamos",
-            "hemos terminado1",
+            "terminábamos",
+            "hemos terminar",
             "habemos terminado"
           ],
           "answer": "A"
@@ -7791,10 +7791,10 @@
           "options": [
             "he leído",
             "he leo",
-            "he leído1",
+            "hube leído",
             "has leído"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "Which is the correct present perfect form of 'abrir' for 'él'?",
@@ -8508,9 +8508,9 @@
           "question": "What direct object pronoun replaces 'María'?",
           "options": [
             "la",
-            "la1",
+            "le",
             "lo",
-            "le"
+            "los"
           ],
           "answer": "A"
         },
@@ -8735,10 +8735,10 @@
           "options": [
             "Les",
             "Os",
-            "Les1",
+            "Lo",
             "Nos"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "What indirect object pronoun is used in 'Ella nos da un regalo'?",
@@ -9994,31 +9994,31 @@
           "question": "El café está muy _____ (cold). Necesito esperar.",
           "options": [
             "frío",
-            "frío1",
-            "frío2",
-            "frío3"
+            "helado",
+            "fresca",
+            "congelado"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Mi hermano es muy _____ (tired/boring). No me divierte.",
           "options": [
             "aburrido",
-            "aburrido1",
-            "aburrido2",
-            "aburrido3"
+            "cansado",
+            "dormido",
+            "triste"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "La ventana está _____ (open). Hace frío en la casa.",
           "options": [
             "abierta",
-            "abierta1",
-            "abierta2",
-            "abierta3"
+            "cerrada",
+            "rota",
+            "clausurada"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Este libro es muy _____ (interesting). Lo recomiendo.",
@@ -10862,7 +10862,7 @@
           "question": "Es poco probable que nosotros _____ esta oportunidad.",
           "options": [
             "desaprovechamos",
-            "desaprovechamos1",
+            "desaprovechásemos",
             "desaprovecharemos",
             "desaprovechemos"
           ],
@@ -11817,8 +11817,8 @@
           "options": [
             "dentro",
             "adentro",
-            "adentro1",
-            "interioramente"
+            "internamente",
+            "ubicado"
           ],
           "answer": "B"
         },
@@ -14921,7 +14921,7 @@
           "options": [
             "vaya",
             "irá",
-            "vaya1",
+            "iba",
             "va"
           ],
           "answer": "D"
@@ -15669,7 +15669,7 @@
           "options": [
             "haya",
             "habría",
-            "habría1",
+            "habrá",
             "hay"
           ],
           "answer": "B"
@@ -15688,11 +15688,11 @@
           "question": "Él preguntó cuándo ___.",
           "options": [
             "volvería",
-            "volvería1",
+            "volviera",
             "volveré",
             "vuelvo"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Ellas comentaron que el clima ___ cambiando.",
@@ -15810,7 +15810,7 @@
             "habría",
             "hay",
             "haya",
-            "habría1"
+            "hubiese"
           ],
           "answer": "A"
         },
@@ -15985,10 +15985,10 @@
           "options": [
             "que",
             "cuales",
-            "cuales1",
+            "quienes",
             "cuyas"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Mi profesor, con el ___ trabajo desde hace años, es excelente.",
@@ -16202,9 +16202,9 @@
             "puedo",
             "pueda",
             "podría",
-            "podría1"
+            "podremos"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Nos complace ___ de su interés.",
@@ -16272,7 +16272,7 @@
             "nuestra empresa",
             "su empresa",
             "su servidor",
-            "su servidor1"
+            "un servidor"
           ],
           "answer": "C"
         },
@@ -17355,7 +17355,7 @@
           "options": [
             "fortunica",
             "fortunilla",
-            "fortunilla1",
+            "fortuncito",
             "fortunazo"
           ],
           "answer": "D"
@@ -18169,14 +18169,14 @@
           "answer": "B"
         },
         {
-          "question": "¡Ojalá ___ todo te salga bien!",
+          "question": "¡Ojalá ___ salga bien todo!",
           "options": [
-            "te",
-            "te1",
-            "te2",
-            "te3"
+            "que",
+            "sea",
+            "quizá",
+            "tal vez"
           ],
-          "answer": "B"
+          "answer": "A"
         }
       ]
     },
@@ -18209,7 +18209,7 @@
           "options": [
             "las",
             "les",
-            "les1",
+            "los",
             "lo"
           ],
           "answer": "A"
@@ -18525,7 +18525,7 @@
           "options": [
             "están",
             "estás",
-            "estás1",
+            "estaba",
             "estoy"
           ],
           "answer": "B"
@@ -18685,7 +18685,7 @@
           "options": [
             "tienen",
             "tienes",
-            "tienes1",
+            "tengo",
             "tenés"
           ],
           "answer": "D"
@@ -19096,8 +19096,8 @@
           "question": "Para ____, se debe respetar los plazos establecidos.",
           "options": [
             "hacer seguimiento",
-            "hacer seguimiento1",
-            "hacer seguimiento2",
+            "llevar seguimiento",
+            "tomar seguimiento",
             "dar seguimiento"
           ],
           "answer": "D"
@@ -19746,9 +19746,9 @@
             "triunfase",
             "triunfara",
             "triunfe",
-            "triunfe1"
+            "triunfaría"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Aunque ___ todo, no habría servido.",
@@ -19913,9 +19913,9 @@
         {
           "question": "¿Qué ___ habría hecho?",
           "options": [
-            "hubieramos",
+            "hubiéramos",
             "hubiera",
-            "hubiera1",
+            "hubo",
             "hubieras"
           ],
           "answer": "B"
