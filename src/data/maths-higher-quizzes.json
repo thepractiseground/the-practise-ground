@@ -13890,14 +13890,15 @@
           "answer": "ln(x)/2"
         },
         {
-          "question": "Review question for Functions - One-one, Onto, Bijective, Inverse Functions",
+          "id": "12-w2-q25",
+          "question": "Function f: R→R, f(x) = 3x is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "One-one and onto",
+            "One-one but not onto",
+            "Onto but not one-one",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "One-one and onto"
         }
       ]
     },
@@ -14146,14 +14147,15 @@
           "answer": "a*b ∈ S for all a,b ∈ S"
         },
         {
-          "question": "Review question for Composition of Functions & Binary Operations",
+          "id": "12-w3-q25",
+          "question": "If f(x) = x² and g(x) = x+1, then (fog)(2) equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9",
+            "5",
+            "4",
+            "7"
           ],
-          "answer": "Option A"
+          "answer": "9"
         }
       ]
     },
@@ -14402,14 +14404,15 @@
           "answer": "x = √2/2"
         },
         {
-          "question": "Review question for Inverse Trigonometric Functions - Properties & Graphs",
+          "id": "12-w4-q25",
+          "question": "Principal value of sin⁻¹(1/2):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "π/6",
+            "π/3",
+            "π/4",
+            "π/2"
           ],
-          "answer": "Option A"
+          "answer": "π/6"
         }
       ]
     },
@@ -14648,24 +14651,26 @@
           "answer": "[-1/√2, 1/√2]"
         },
         {
-          "question": "Review question for Inverse Trigonometric Functions - Problems",
+          "id": "12-w5-q24",
+          "question": "Principal value of cos⁻¹(-1/2):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π/3",
+            "π/3",
+            "π/6",
+            "5π/6"
           ],
-          "answer": "Option A"
+          "answer": "2π/3"
         },
         {
-          "question": "Review question for Inverse Trigonometric Functions - Problems",
+          "id": "12-w5-q25",
+          "question": "tan⁻¹(1) + tan⁻¹(2) + tan⁻¹(3) equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "π",
+            "π/2",
+            "3π/4",
+            "π/4"
           ],
-          "answer": "Option A"
+          "answer": "π"
         }
       ]
     },
@@ -14914,14 +14919,15 @@
           "answer": "Involutory"
         },
         {
-          "question": "Review question for Matrices - Types, Operations, Transpose",
+          "id": "12-w6-q25",
+          "question": "If A is a 3×4 matrix, then Aᵀ has order:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4×3",
+            "3×4",
+            "3×3",
+            "4×4"
           ],
-          "answer": "Option A"
+          "answer": "4×3"
         }
       ]
     },
@@ -15170,14 +15176,15 @@
           "answer": "I + A"
         },
         {
-          "question": "Review question for Matrix Multiplication & Properties",
+          "id": "12-w7-q25",
+          "question": "If A is 2×3 and B is 3×2, then AB is of order:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2×2",
+            "3×3",
+            "2×3",
+            "Not defined"
           ],
-          "answer": "Option A"
+          "answer": "2×2"
         }
       ]
     },
@@ -15426,14 +15433,15 @@
           "answer": "[1 -2/3; 0 1/3]"
         },
         {
-          "question": "Review question for Elementary Row/Column Operations, Invertible Matrices",
+          "id": "12-w8-q25",
+          "question": "A square matrix A is invertible iff:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "det(A) ≠ 0",
+            "det(A) = 0",
+            "A is symmetric",
+            "A is singular"
           ],
-          "answer": "Option A"
+          "answer": "det(A) ≠ 0"
         }
       ]
     },
@@ -15682,14 +15690,15 @@
           "answer": "Product of rectangular matrices"
         },
         {
-          "question": "Review question for Determinants - Expansion, Properties",
+          "id": "12-w9-q25",
+          "question": "Determinant of identity matrix Iₙ:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "n",
+            "-1"
           ],
-          "answer": "Option A"
+          "answer": "1"
         }
       ]
     },
@@ -15938,14 +15947,15 @@
           "answer": "Both 1 and 3"
         },
         {
-          "question": "Review question for Cofactors, Adjoint, Inverse using Determinants",
+          "id": "12-w10-q25",
+          "question": "If A is a square matrix, then A·(adj A) equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "|A|·I",
+            "I",
+            "0",
+            "|A|"
           ],
-          "answer": "Option A"
+          "answer": "|A|·I"
         }
       ]
     },
@@ -16194,14 +16204,15 @@
           "answer": "6"
         },
         {
-          "question": "Review question for Applications - Solving System of Linear Equations (Cramer's Rule)",
+          "id": "12-w11-q25",
+          "question": "System AX = B has unique solution if:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "|A| ≠ 0",
+            "|A| = 0 and (adj A)·B = 0",
+            "|A| = 0 and (adj A)·B ≠ 0",
+            "B = 0"
           ],
-          "answer": "Option A"
+          "answer": "|A| ≠ 0"
         }
       ]
     },
@@ -16450,14 +16461,15 @@
           "answer": "Both 1 and 2"
         },
         {
-          "question": "Review question for Continuity - Definition, Algebra of Continuous Functions",
+          "id": "12-w12-q25",
+          "question": "The function f(x) = |x| is continuous:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Everywhere",
+            "Only at x = 0",
+            "Only for x > 0",
+            "Nowhere"
           ],
-          "answer": "Option A"
+          "answer": "Everywhere"
         }
       ]
     },
@@ -16706,14 +16718,15 @@
           "answer": "1/(x ln a)"
         },
         {
-          "question": "Review question for Differentiability & Derivatives of Composite Functions",
+          "id": "12-w13-q25",
+          "question": "Derivative of sin(x²) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2x cos(x²)",
+            "cos(x²)",
+            "2x sin(x²)",
+            "cos(2x)"
           ],
-          "answer": "Option A"
+          "answer": "2x cos(x²)"
         }
       ]
     },
@@ -16952,24 +16965,26 @@
           "answer": "x^x(ln(x) + 1)"
         },
         {
-          "question": "Review question for Chain Rule, Implicit Differentiation, Parametric Differentiation",
+          "id": "12-w14-q24",
+          "question": "If y = log(sin x), dy/dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "cot x",
+            "tan x",
+            "-cot x",
+            "sec x"
           ],
-          "answer": "Option A"
+          "answer": "cot x"
         },
         {
-          "question": "Review question for Chain Rule, Implicit Differentiation, Parametric Differentiation",
+          "id": "12-w14-q25",
+          "question": "If x = at², y = 2at, then dy/dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1/t",
+            "t",
+            "2t",
+            "a/t"
           ],
-          "answer": "Option A"
+          "answer": "1/t"
         }
       ]
     },
@@ -17218,14 +17233,15 @@
           "answer": "Both 1 and 3"
         },
         {
-          "question": "Review question for Logarithmic Differentiation, Higher Order Derivatives",
+          "id": "12-w15-q25",
+          "question": "If y = xˣ, then dy/dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "xˣ(1 + ln x)",
+            "x·xˣ⁻¹",
+            "xˣ ln x",
+            "xˣ"
           ],
-          "answer": "Option A"
+          "answer": "xˣ(1 + ln x)"
         }
       ]
     },
@@ -17474,14 +17490,15 @@
           "answer": "-1"
         },
         {
-          "question": "Review question for Applications - Rate of Change, Tangents & Normals",
+          "id": "12-w16-q25",
+          "question": "Slope of tangent to y = x² at x = 2:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4",
+            "2",
+            "8",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "4"
         }
       ]
     },
@@ -17730,14 +17747,15 @@
           "answer": "No local extrema"
         },
         {
-          "question": "Review question for Increasing/Decreasing Functions, Maxima & Minima",
+          "id": "12-w17-q25",
+          "question": "f(x) = x² on [-1, 1] has absolute minimum at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "x = 0",
+            "x = 1",
+            "x = -1",
+            "x = ±1"
           ],
-          "answer": "Option A"
+          "answer": "x = 0"
         }
       ]
     },
@@ -17986,14 +18004,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Applications of Derivatives - Optimization Problems",
+          "id": "12-w18-q25",
+          "question": "A rectangle of perimeter 20 m has maximum area when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "It is a square of side 5 m",
+            "Sides are 4 m and 6 m",
+            "Sides are 3 m and 7 m",
+            "Sides are 2 m and 8 m"
           ],
-          "answer": "Option A"
+          "answer": "It is a square of side 5 m"
         }
       ]
     },
@@ -18242,14 +18261,15 @@
           "answer": "Both 2 and 3"
         },
         {
-          "question": "Review question for Integration - Standard Integrals, Basic Rules",
+          "id": "12-w19-q25",
+          "question": "∫sec²x dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "tan x + C",
+            "cot x + C",
+            "sec x + C",
+            "-cot x + C"
           ],
-          "answer": "Option A"
+          "answer": "tan x + C"
         }
       ]
     },
@@ -18498,14 +18518,15 @@
           "answer": "Standard form or simpler form"
         },
         {
-          "question": "Review question for Integration by Substitution",
+          "id": "12-w20-q25",
+          "question": "∫ 2x·cos(x²) dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sin(x²) + C",
+            "cos(x²) + C",
+            "-sin(x²) + C",
+            "2 sin(x²) + C"
           ],
-          "answer": "Option A"
+          "answer": "sin(x²) + C"
         }
       ]
     },
@@ -18754,14 +18775,15 @@
           "answer": "ln|(x+2)²(x+3)| + C"
         },
         {
-          "question": "Review question for Integration using Partial Fractions",
+          "id": "12-w21-q25",
+          "question": "∫ 1/(x²-1) dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(1/2) ln|(x-1)/(x+1)| + C",
+            "ln|x-1| + C",
+            "(1/2) ln|x²-1| + C",
+            "tan⁻¹x + C"
           ],
-          "answer": "Option A"
+          "answer": "(1/2) ln|(x-1)/(x+1)| + C"
         }
       ]
     },
@@ -19010,14 +19032,15 @@
           "answer": "Use tabular method"
         },
         {
-          "question": "Review question for Integration by Parts",
+          "id": "12-w22-q25",
+          "question": "∫ x·eˣ dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(x-1)eˣ + C",
+            "x·eˣ + C",
+            "(x+1)eˣ + C",
+            "eˣ + C"
           ],
-          "answer": "Option A"
+          "answer": "(x-1)eˣ + C"
         }
       ]
     },
@@ -19266,14 +19289,15 @@
           "answer": "lim_(t→∞) ∫_a^t f(x)dx"
         },
         {
-          "question": "Review question for Definite Integrals & Properties",
+          "id": "12-w23-q25",
+          "question": "∫₀^π sin x dx equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "0",
+            "1",
+            "π"
           ],
-          "answer": "Option A"
+          "answer": "2"
         }
       ]
     },
@@ -19522,14 +19546,15 @@
           "answer": "π"
         },
         {
-          "question": "Review question for Area Under Curves",
+          "id": "12-w24-q25",
+          "question": "Area bounded by y = x², x-axis, x = 0 and x = 3:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9",
+            "27",
+            "6",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "9"
         }
       ]
     },
@@ -19778,14 +19803,15 @@
           "answer": "d²y/dx² + P dy/dx + Q y = R"
         },
         {
-          "question": "Review question for Differential Equations - Order, Degree, Formation",
+          "id": "12-w25-q25",
+          "question": "Order and degree of (d²y/dx²)³ + (dy/dx)⁴ = sin x:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Order 2, degree 3",
+            "Order 3, degree 2",
+            "Order 2, degree 4",
+            "Order 4, degree 2"
           ],
-          "answer": "Option A"
+          "answer": "Order 2, degree 3"
         }
       ]
     },
@@ -20034,14 +20060,15 @@
           "answer": "All of above"
         },
         {
-          "question": "Review question for Differential Equations - Variable Separable & Homogeneous",
+          "id": "12-w26-q25",
+          "question": "Solution of dy/dx = y/x is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "y = cx",
+            "y = c·eˣ",
+            "y² = cx",
+            "xy = c"
           ],
-          "answer": "Option A"
+          "answer": "y = cx"
         }
       ]
     },
@@ -20280,24 +20307,26 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Linear First Order Differential Equations",
+          "id": "12-w27-q24",
+          "question": "Integrating factor of dy/dx + y = eˣ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "eˣ",
+            "e⁻ˣ",
+            "x",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "eˣ"
         },
         {
-          "question": "Review question for Linear First Order Differential Equations",
+          "id": "12-w27-q25",
+          "question": "General solution of dy/dx + y = 0:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "y = C·e⁻ˣ",
+            "y = C·eˣ",
+            "y = C/x",
+            "y = Cx"
           ],
-          "answer": "Option A"
+          "answer": "y = C·e⁻ˣ"
         }
       ]
     },
@@ -20546,14 +20575,15 @@
           "answer": "Midpoint of AB"
         },
         {
-          "question": "Review question for Vectors - Types, Addition, Section Formula",
+          "id": "12-w28-q25",
+          "question": "Magnitude of vector a = 3î + 4ĵ:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "7",
+            "12",
+            "25"
           ],
-          "answer": "Option A"
+          "answer": "5"
         }
       ]
     },
@@ -20802,14 +20832,15 @@
           "answer": "9"
         },
         {
-          "question": "Review question for Scalar (Dot) Product & Properties",
+          "id": "12-w29-q25",
+          "question": "a·b where a = î + ĵ and b = î - ĵ:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "2",
+            "-2",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "0"
         }
       ]
     },
@@ -21058,14 +21089,15 @@
           "answer": "Perpendicular"
         },
         {
-          "question": "Review question for Vector (Cross) Product & Applications",
+          "id": "12-w30-q25",
+          "question": "|a × b| equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "|a||b| sinθ",
+            "|a||b| cosθ",
+            "|a||b|",
+            "|a| + |b|"
           ],
-          "answer": "Option A"
+          "answer": "|a||b| sinθ"
         }
       ]
     },
@@ -21304,24 +21336,26 @@
           "answer": "Two opposite directions"
         },
         {
-          "question": "Review question for Three Dimensional Geometry - Direction Cosines/Ratios",
+          "id": "12-w31-q24",
+          "question": "Sum of squares of direction cosines of any line:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "3",
+            "Depends on line"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Review question for Three Dimensional Geometry - Direction Cosines/Ratios",
+          "id": "12-w31-q25",
+          "question": "If direction ratios are 2, -3, 6, direction cosines are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2/7, -3/7, 6/7",
+            "1/2, -1/3, 1/6",
+            "2, -3, 6",
+            "1/7, -1/7, 1/7"
           ],
-          "answer": "Option A"
+          "answer": "2/7, -3/7, 6/7"
         }
       ]
     },
@@ -21570,14 +21604,15 @@
           "answer": "t = 1"
         },
         {
-          "question": "Review question for Equations of Lines in 3D (Cartesian & Vector form)",
+          "id": "12-w32-q25",
+          "question": "Cartesian equation of line through (x₀, y₀, z₀) with direction ratios (a, b, c):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(x-x₀)/a = (y-y₀)/b = (z-z₀)/c",
+            "ax + by + cz = 0",
+            "(x+x₀)/a = (y+y₀)/b = (z+z₀)/c",
+            "x/a + y/b + z/c = 1"
           ],
-          "answer": "Option A"
+          "answer": "(x-x₀)/a = (y-y₀)/b = (z-z₀)/c"
         }
       ]
     },
@@ -21826,14 +21861,15 @@
           "answer": "Parallel"
         },
         {
-          "question": "Review question for Equations of Planes, Coplanarity",
+          "id": "12-w33-q25",
+          "question": "Equation of plane with intercepts a, b, c on axes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "x/a + y/b + z/c = 1",
+            "ax + by + cz = 1",
+            "x/a - y/b + z/c = 0",
+            "x + y + z = a+b+c"
           ],
-          "answer": "Option A"
+          "answer": "x/a + y/b + z/c = 1"
         }
       ]
     },
@@ -22082,14 +22118,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Distance of Point from Plane, Angle between Lines/Planes",
+          "id": "12-w34-q25",
+          "question": "Distance of point (1, 2, 3) from plane x + y + z = 6:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "1",
+            "√3",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "0"
         }
       ]
     },
@@ -22328,24 +22365,26 @@
           "answer": "(8, 0) and (0, 4)"
         },
         {
-          "question": "Review question for Linear Programming - Graphical Method, Corner Point Theorem",
+          "id": "12-w35-q24",
+          "question": "Feasible region of LPP is always:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Convex",
+            "Concave",
+            "Circular",
+            "Arbitrary shape"
           ],
-          "answer": "Option A"
+          "answer": "Convex"
         },
         {
-          "question": "Review question for Linear Programming - Graphical Method, Corner Point Theorem",
+          "id": "12-w35-q25",
+          "question": "In LPP, optimal solution occurs at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A corner point of feasible region",
+            "Centre of feasible region",
+            "Any interior point",
+            "Only origin"
           ],
-          "answer": "Option A"
+          "answer": "A corner point of feasible region"
         }
       ]
     },
@@ -22594,14 +22633,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Linear Programming - Applications & Optimization",
+          "id": "12-w36-q25",
+          "question": "If objective function Z = 3x + 2y is to be maximised and corner points are (0,0), (4,0), (2,3), (0,5), max Z is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "12",
+            "10",
+            "13",
+            "8"
           ],
-          "answer": "Option A"
+          "answer": "12"
         }
       ]
     },
@@ -23106,14 +23146,15 @@
           "answer": "Both 2 and 3"
         },
         {
-          "question": "Review question for Multiplication Theorem, Independent Events",
+          "id": "12-w38-q25",
+          "question": "If P(A) = 0.6, P(B) = 0.5 and A, B are independent, P(A∩B):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.3",
+            "1.1",
+            "0.1",
+            "0.5"
           ],
-          "answer": "Option A"
+          "answer": "0.3"
         }
       ]
     },
@@ -23362,14 +23403,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Bayes' Theorem & Applications",
+          "id": "12-w39-q25",
+          "question": "Bayes' theorem: P(Aᵢ|B) =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P(Aᵢ)·P(B|Aᵢ) / Σⱼ P(Aⱼ)·P(B|Aⱼ)",
+            "P(B|Aᵢ)·P(Aᵢ) / P(B)² ",
+            "P(B)·P(Aᵢ) / P(B|Aᵢ)",
+            "P(Aᵢ) + P(B|Aᵢ)"
           ],
-          "answer": "Option A"
+          "answer": "P(Aᵢ)·P(B|Aᵢ) / Σⱼ P(Aⱼ)·P(B|Aⱼ)"
         }
       ]
     },
@@ -23618,14 +23660,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Random Variables & Probability Distributions",
+          "id": "12-w40-q25",
+          "question": "A random variable X has distribution: X: 1,2,3 with P: 0.2, 0.5, 0.3. E(X) equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2.1",
+            "2.0",
+            "1.5",
+            "3.0"
           ],
-          "answer": "Option A"
+          "answer": "2.1"
         }
       ]
     },
@@ -23874,14 +23917,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Mean & Variance of Random Variables, Binomial Distribution",
+          "id": "12-w41-q25",
+          "question": "For binomial distribution B(n, p), mean and variance are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "np and npq",
+            "np² and npq",
+            "npq and np",
+            "n and p"
           ],
-          "answer": "Option A"
+          "answer": "np and npq"
         }
       ]
     },
@@ -24130,14 +24174,15 @@
           "answer": "All above"
         },
         {
-          "question": "Review question for Revision - Relations, Functions, Inverse Trig",
+          "id": "12-w42-q25",
+          "question": "If R = {(a,b) : a = b} on set A, R is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Equivalence relation",
+            "Only reflexive",
+            "Only symmetric",
+            "Only transitive"
           ],
-          "answer": "Option A"
+          "answer": "Equivalence relation"
         }
       ]
     },
