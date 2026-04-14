@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.thepractiseground.in/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/maths/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/science/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/physics/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/chemistry/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/biology/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/maths-higher/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/english/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/french/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/german/sitemap.xml
+Sitemap: https://www.thepractiseground.in/quiz/spanish/sitemap.xml
