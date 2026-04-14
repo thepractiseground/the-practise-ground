@@ -7236,254 +7236,279 @@
       "topic": "Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
       "questions": [
         {
-          "question": "Q1 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 1,
+          "question": "What is the inductive effect?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Permanent polarisation of σ-bond due to EN difference",
+            "Delocalisation of π-electrons",
+            "Overlap of σ-bond with π-bond",
+            "Resonance effect"
           ],
-          "answer": "Option A"
+          "answer": "Permanent polarisation of σ-bond due to EN difference"
         },
         {
-          "question": "Q2 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 2,
+          "question": "Which group shows +I effect (electron donating)?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−CH₃",
+            "−NO₂",
+            "−COOH",
+            "−Cl"
           ],
-          "answer": "Option A"
+          "answer": "−CH₃"
         },
         {
-          "question": "Q3 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 3,
+          "question": "Which group shows −I effect (electron withdrawing)?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−NO₂",
+            "−CH₃",
+            "−C₂H₅",
+            "−C(CH₃)₃"
           ],
-          "answer": "Option A"
+          "answer": "−NO₂"
         },
         {
-          "question": "Q4 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 4,
+          "question": "Order of +I effect:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−C(CH₃)₃ > −CH(CH₃)₂ > −C₂H₅ > −CH₃",
+            "−CH₃ > −C₂H₅ > −C(CH₃)₃",
+            "−NO₂ > −CN > −COOH",
+            "−Cl > −Br > −I"
           ],
-          "answer": "Option A"
+          "answer": "−C(CH₃)₃ > −CH(CH₃)₂ > −C₂H₅ > −CH₃"
         },
         {
-          "question": "Q5 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 5,
+          "question": "Order of −I effect (strongest first):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−NO₂ > −CN > −SO₃H > −COOH > −F",
+            "−CH₃ > −NH₂ > −OH",
+            "−F > −CH₃ > −H",
+            "−I > −Br > −Cl > −F"
           ],
-          "answer": "Option A"
+          "answer": "−NO₂ > −CN > −SO₃H > −COOH > −F"
         },
         {
-          "question": "Q6 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 6,
+          "question": "Inductive effect decreases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Distance (becomes negligible after 3rd C)",
+            "Increasing temperature",
+            "Increasing pressure",
+            "Molecular weight"
           ],
-          "answer": "Option A"
+          "answer": "Distance (becomes negligible after 3rd C)"
         },
         {
-          "question": "Q7 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 7,
+          "question": "Resonance effect involves delocalisation of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "π-electrons or lone pairs",
+            "σ-electrons only",
+            "Nuclei",
+            "Inner shell electrons"
           ],
-          "answer": "Option A"
+          "answer": "π-electrons or lone pairs"
         },
         {
-          "question": "Q8 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 8,
+          "question": "+R (+M) groups are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron donating via resonance (−OH, −NH₂, −OR, −X)",
+            "Electron withdrawing",
+            "Non-polar",
+            "Acidic"
           ],
-          "answer": "Option A"
+          "answer": "Electron donating via resonance (−OH, −NH₂, −OR, −X)"
         },
         {
-          "question": "Q9 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 9,
+          "question": "−R (−M) groups are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron withdrawing via resonance (−NO₂, −CN, −COOH, −CHO)",
+            "Electron donating",
+            "Alkyl groups",
+            "Halogens"
           ],
-          "answer": "Option A"
+          "answer": "Electron withdrawing via resonance (−NO₂, −CN, −COOH, −CHO)"
         },
         {
-          "question": "Q10 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 10,
+          "question": "Which shows both +I and +M effect?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−OR",
+            "−NO₂",
+            "−CN",
+            "−COOH"
           ],
-          "answer": "Option A"
+          "answer": "−OR"
         },
         {
-          "question": "Q11 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 11,
+          "question": "Hyperconjugation is also called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Baker-Nathan effect / no-bond resonance",
+            "Resonance effect",
+            "Inductive effect",
+            "Electromeric effect"
           ],
-          "answer": "Option A"
+          "answer": "Baker-Nathan effect / no-bond resonance"
         },
         {
-          "question": "Q12 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 12,
+          "question": "Hyperconjugation involves:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "σ-C-H bond overlap with adjacent π-bond or p-orbital",
+            "Only π-bonds",
+            "Only σ-bonds",
+            "Lone pairs"
           ],
-          "answer": "Option A"
+          "answer": "σ-C-H bond overlap with adjacent π-bond or p-orbital"
         },
         {
-          "question": "Q13 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 13,
+          "question": "Stability of alkenes by hyperconjugation (α-H):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More α-H → more stable",
+            "Less α-H → more stable",
+            "Not related",
+            "Depends on chain length"
           ],
-          "answer": "Option A"
+          "answer": "More α-H → more stable"
         },
         {
-          "question": "Q14 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 14,
+          "question": "Number of α-H in 2-methylbut-2-ene ((CH₃)₂C=CHCH₃):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9",
+            "6",
+            "3",
+            "12"
           ],
-          "answer": "Option A"
+          "answer": "9"
         },
         {
-          "question": "Q15 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 15,
+          "question": "Stability order of carbocations:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3° > 2° > 1° > CH₃⁺",
+            "CH₃⁺ > 1° > 2° > 3°",
+            "1° > 2° > 3°",
+            "All equal"
           ],
-          "answer": "Option A"
+          "answer": "3° > 2° > 1° > CH₃⁺"
         },
         {
-          "question": "Q16 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 16,
+          "question": "Tertiary carbocation is most stable due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Hyperconjugation and +I of alkyl groups",
+            "Resonance only",
+            "Low mass",
+            "High EN"
           ],
-          "answer": "Option A"
+          "answer": "Hyperconjugation and +I of alkyl groups"
         },
         {
-          "question": "Q17 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 17,
+          "question": "Stability order of free radicals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3° > 2° > 1° > CH₃·",
+            "CH₃· > 1° > 2° > 3°",
+            "All equal",
+            "1° > 2° > 3°"
           ],
-          "answer": "Option A"
+          "answer": "3° > 2° > 1° > CH₃·"
         },
         {
-          "question": "Q18 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 18,
+          "question": "Stability order of carbanions:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₃⁻ > 1° > 2° > 3° (opposite of carbocation)",
+            "3° > 2° > 1° > CH₃⁻",
+            "All equal",
+            "1° > 2° > 3°"
           ],
-          "answer": "Option A"
+          "answer": "CH₃⁻ > 1° > 2° > 3° (opposite of carbocation)"
         },
         {
-          "question": "Q19 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 19,
+          "question": "Electromeric effect (E effect) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temporary shift of π-e⁻ in presence of attacking reagent",
+            "Permanent polarisation",
+            "Resonance",
+            "Hyperconjugation"
           ],
-          "answer": "Option A"
+          "answer": "Temporary shift of π-e⁻ in presence of attacking reagent"
         },
         {
-          "question": "Q20 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 20,
+          "question": "+E effect is observed when attacking reagent is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrophile",
+            "Nucleophile",
+            "Radical",
+            "Base"
           ],
-          "answer": "Option A"
+          "answer": "Electrophile"
         },
         {
-          "question": "Q21 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 21,
+          "question": "Benzyl cation stability is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resonance with benzene ring",
+            "Inductive effect only",
+            "Hyperconjugation",
+            "H-bonding"
           ],
-          "answer": "Option A"
+          "answer": "Resonance with benzene ring"
         },
         {
-          "question": "Q22 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 22,
+          "question": "Allyl cation stabilised by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resonance with adjacent C=C",
+            "Inductive effect",
+            "H-bonding",
+            "Lone pair"
           ],
-          "answer": "Option A"
+          "answer": "Resonance with adjacent C=C"
         },
         {
-          "question": "Q23 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 23,
+          "question": "Acidity of carboxylic acids increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−I groups (Cl, NO₂) near COOH",
+            "+I groups (alkyl)",
+            "Increasing chain length",
+            "Presence of −NH₂"
           ],
-          "answer": "Option A"
+          "answer": "−I groups (Cl, NO₂) near COOH"
         },
         {
-          "question": "Q24 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 24,
+          "question": "Order of acidity: HCOOH, CH₃COOH, ClCH₂COOH, CCl₃COOH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CCl₃COOH > ClCH₂COOH > HCOOH > CH₃COOH",
+            "CH₃COOH > HCOOH > ClCH₂COOH > CCl₃COOH",
+            "All equal",
+            "HCOOH > CCl₃COOH"
           ],
-          "answer": "Option A"
+          "answer": "CCl₃COOH > ClCH₂COOH > HCOOH > CH₃COOH"
         },
         {
-          "question": "Q25 Week 27: Topic - Organic Chemistry – Electronic Effects (Inductive, Resonance, Hyperconjugation)",
+          "id": 25,
+          "question": "Basicity order of amines in gas phase:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3° > 2° > 1° > NH₃ (follows +I)",
+            "NH₃ > 1° > 2° > 3°",
+            "All equal",
+            "2° > 3° > 1°"
           ],
-          "answer": "Option A"
+          "answer": "3° > 2° > 1° > NH₃ (follows +I)"
         }
       ]
     },
@@ -7492,254 +7517,279 @@
       "topic": "Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
       "questions": [
         {
-          "question": "Q1 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 1,
+          "question": "Substitution reaction involves:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Replacement of an atom/group by another",
+            "Addition of atoms",
+            "Removal to form π-bond",
+            "Rearrangement only"
           ],
-          "answer": "Option A"
+          "answer": "Replacement of an atom/group by another"
         },
         {
-          "question": "Q2 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 2,
+          "question": "SN1 reaction proceeds via:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carbocation intermediate, two steps",
+            "Single step",
+            "Carbanion",
+            "Free radical"
           ],
-          "answer": "Option A"
+          "answer": "Carbocation intermediate, two steps"
         },
         {
-          "question": "Q3 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 3,
+          "question": "SN2 reaction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "One-step, bimolecular, backside attack with inversion",
+            "Two-step",
+            "Unimolecular",
+            "Free-radical"
           ],
-          "answer": "Option A"
+          "answer": "One-step, bimolecular, backside attack with inversion"
         },
         {
-          "question": "Q4 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 4,
+          "question": "SN1 is favoured by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3° substrates, polar protic solvents",
+            "1° substrates",
+            "Non-polar solvents",
+            "Low T"
           ],
-          "answer": "Option A"
+          "answer": "3° substrates, polar protic solvents"
         },
         {
-          "question": "Q5 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 5,
+          "question": "SN2 is favoured by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1° substrates, polar aprotic solvents, strong nucleophile",
+            "3° substrates",
+            "Carbocation stability",
+            "Heat alone"
           ],
-          "answer": "Option A"
+          "answer": "1° substrates, polar aprotic solvents, strong nucleophile"
         },
         {
-          "question": "Q6 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 6,
+          "question": "Walden inversion is observed in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SN2 reactions",
+            "SN1",
+            "E1",
+            "E2"
           ],
-          "answer": "Option A"
+          "answer": "SN2 reactions"
         },
         {
-          "question": "Q7 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 7,
+          "question": "Racemisation occurs in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SN1 reactions (planar carbocation attacked from both sides)",
+            "SN2",
+            "E1",
+            "E2"
           ],
-          "answer": "Option A"
+          "answer": "SN1 reactions (planar carbocation attacked from both sides)"
         },
         {
-          "question": "Q8 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 8,
+          "question": "Addition reaction is characteristic of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unsaturated compounds (alkenes, alkynes, carbonyls)",
+            "Alkanes",
+            "Aromatics",
+            "Alcohols"
           ],
-          "answer": "Option A"
+          "answer": "Unsaturated compounds (alkenes, alkynes, carbonyls)"
         },
         {
-          "question": "Q9 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 9,
+          "question": "Electrophilic addition to alkene (HBr) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Markovnikov product (H to less-sub C, Br to more-sub C)",
+            "Anti-Markovnikov",
+            "Radical addition",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Markovnikov product (H to less-sub C, Br to more-sub C)"
         },
         {
-          "question": "Q10 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 10,
+          "question": "Nucleophilic addition occurs in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carbonyl compounds (aldehydes/ketones)",
+            "Alkenes",
+            "Alkanes",
+            "Aromatics"
           ],
-          "answer": "Option A"
+          "answer": "Carbonyl compounds (aldehydes/ketones)"
         },
         {
-          "question": "Q11 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 11,
+          "question": "Free radical addition occurs with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HBr + peroxide (anti-Markovnikov, Kharasch effect)",
+            "HCl + peroxide",
+            "HI + peroxide",
+            "All acids"
           ],
-          "answer": "Option A"
+          "answer": "HBr + peroxide (anti-Markovnikov, Kharasch effect)"
         },
         {
-          "question": "Q12 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 12,
+          "question": "Elimination E1 involves:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carbocation, two steps",
+            "Single step concerted",
+            "Carbanion",
+            "Radical"
           ],
-          "answer": "Option A"
+          "answer": "Carbocation, two steps"
         },
         {
-          "question": "Q13 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 13,
+          "question": "Elimination E2 is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "One-step, bimolecular, anti-periplanar",
+            "Two-step",
+            "Carbanion mechanism",
+            "Radical mechanism"
           ],
-          "answer": "Option A"
+          "answer": "One-step, bimolecular, anti-periplanar"
         },
         {
-          "question": "Q14 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 14,
+          "question": "Saytzeff rule states:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More substituted alkene is major product",
+            "Less substituted alkene is major",
+            "Equal amounts",
+            "Only cis"
           ],
-          "answer": "Option A"
+          "answer": "More substituted alkene is major product"
         },
         {
-          "question": "Q15 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 15,
+          "question": "Hofmann rule gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less substituted alkene (with bulky base)",
+            "More substituted",
+            "Equal amounts",
+            "Only trans"
           ],
-          "answer": "Option A"
+          "answer": "Less substituted alkene (with bulky base)"
         },
         {
-          "question": "Q16 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 16,
+          "question": "Electrophiles are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron-deficient species (Lewis acids)",
+            "Electron-rich",
+            "Neutral",
+            "Radicals"
           ],
-          "answer": "Option A"
+          "answer": "Electron-deficient species (Lewis acids)"
         },
         {
-          "question": "Q17 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 17,
+          "question": "Nucleophiles are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electron-rich species (Lewis bases)",
+            "Electron-deficient",
+            "Neutral",
+            "Radicals"
           ],
-          "answer": "Option A"
+          "answer": "Electron-rich species (Lewis bases)"
         },
         {
-          "question": "Q18 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 18,
+          "question": "Example of electrophile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NO₂⁺, H⁺, Cl⁺",
+            "OH⁻, NH₃",
+            "H₂O",
+            "RO⁻"
           ],
-          "answer": "Option A"
+          "answer": "NO₂⁺, H⁺, Cl⁺"
         },
         {
-          "question": "Q19 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 19,
+          "question": "Example of nucleophile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "OH⁻, CN⁻, NH₃, H₂O",
+            "H⁺, NO₂⁺",
+            "AlCl₃",
+            "Br⁺"
           ],
-          "answer": "Option A"
+          "answer": "OH⁻, CN⁻, NH₃, H₂O"
         },
         {
-          "question": "Q20 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 20,
+          "question": "Rearrangement reactions typically form:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More stable carbocation",
+            "Less stable carbocation",
+            "Same",
+            "No effect"
           ],
-          "answer": "Option A"
+          "answer": "More stable carbocation"
         },
         {
-          "question": "Q21 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 21,
+          "question": "1,2-hydride shift occurs in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SN1/E1 reactions to give more stable carbocation",
+            "SN2",
+            "E2",
+            "Radical"
           ],
-          "answer": "Option A"
+          "answer": "SN1/E1 reactions to give more stable carbocation"
         },
         {
-          "question": "Q22 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 22,
+          "question": "Homolytic bond cleavage gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Two free radicals",
+            "Two ions",
+            "One radical and one ion",
+            "Nothing"
           ],
-          "answer": "Option A"
+          "answer": "Two free radicals"
         },
         {
-          "question": "Q23 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 23,
+          "question": "Heterolytic bond cleavage gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cation and anion",
+            "Two radicals",
+            "Two cations",
+            "Two anions"
           ],
-          "answer": "Option A"
+          "answer": "Cation and anion"
         },
         {
-          "question": "Q24 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 24,
+          "question": "Condensation reaction releases:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small molecule (H₂O, HCl, NH₃)",
+            "Hydrogen gas only",
+            "CO₂ only",
+            "Nothing"
           ],
-          "answer": "Option A"
+          "answer": "Small molecule (H₂O, HCl, NH₃)"
         },
         {
-          "question": "Q25 Week 28: Topic - Organic Chemistry – Types of Reactions (Substitution, Addition, Elimination)",
+          "id": 25,
+          "question": "Aldol condensation forms:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "β-hydroxy aldehyde/ketone (later α,β-unsaturated)",
+            "Ester",
+            "Ether",
+            "Alcohol only"
           ],
-          "answer": "Option A"
+          "answer": "β-hydroxy aldehyde/ketone (later α,β-unsaturated)"
         }
       ]
     },
@@ -7748,254 +7798,279 @@
       "topic": "Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
       "questions": [
         {
-          "question": "Q1 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 1,
+          "question": "General formula for alkanes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ₊₁"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ₊₂"
         },
         {
-          "question": "Q2 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 2,
+          "question": "Alkanes are also called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Paraffins (little affinity)",
+            "Olefins",
+            "Acetylenes",
+            "Aromatics"
           ],
-          "answer": "Option A"
+          "answer": "Paraffins (little affinity)"
         },
         {
-          "question": "Q3 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 3,
+          "question": "Hybridisation of C in alkanes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q4 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 4,
+          "question": "C-C bond length in ethane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "154 pm",
+            "134 pm",
+            "120 pm",
+            "110 pm"
           ],
-          "answer": "Option A"
+          "answer": "154 pm"
         },
         {
-          "question": "Q5 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 5,
+          "question": "Wurtz reaction: 2R-X + 2Na →",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R-R + 2NaX",
+            "R-H + NaX",
+            "R-OH + NaX",
+            "R-ONa + HX"
           ],
-          "answer": "Option A"
+          "answer": "R-R + 2NaX"
         },
         {
-          "question": "Q6 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 6,
+          "question": "Wurtz reaction used to prepare:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Symmetrical alkanes with even number of C",
+            "Alkenes",
+            "Alkynes",
+            "Alcohols"
           ],
-          "answer": "Option A"
+          "answer": "Symmetrical alkanes with even number of C"
         },
         {
-          "question": "Q7 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 7,
+          "question": "Kolbe's electrolysis of RCOONa gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R-R + 2CO₂ + H₂",
+            "Alcohol",
+            "Ketone",
+            "Ester"
           ],
-          "answer": "Option A"
+          "answer": "R-R + 2CO₂ + H₂"
         },
         {
-          "question": "Q8 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 8,
+          "question": "Hydrogenation of alkenes gives alkanes using:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂ / Ni (or Pt, Pd)",
+            "HCl",
+            "H₂O / H⁺",
+            "Br₂"
           ],
-          "answer": "Option A"
+          "answer": "H₂ / Ni (or Pt, Pd)"
         },
         {
-          "question": "Q9 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 9,
+          "question": "Reduction of R-X with Zn/HCl gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R-H (alkane)",
+            "R-OH",
+            "R-R",
+            "Alkene"
           ],
-          "answer": "Option A"
+          "answer": "R-H (alkane)"
         },
         {
-          "question": "Q10 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 10,
+          "question": "Alkanes mainly undergo:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Free-radical substitution",
+            "Electrophilic addition",
+            "Nucleophilic addition",
+            "Ionic substitution"
           ],
-          "answer": "Option A"
+          "answer": "Free-radical substitution"
         },
         {
-          "question": "Q11 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 11,
+          "question": "Halogenation of methane with Cl₂ requires:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "UV light or heat",
+            "Dark",
+            "Low T",
+            "Catalyst only"
           ],
-          "answer": "Option A"
+          "answer": "UV light or heat"
         },
         {
-          "question": "Q12 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 12,
+          "question": "Mechanism of halogenation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Free-radical chain (initiation, propagation, termination)",
+            "SN2",
+            "SN1",
+            "EAS"
           ],
-          "answer": "Option A"
+          "answer": "Free-radical chain (initiation, propagation, termination)"
         },
         {
-          "question": "Q13 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 13,
+          "question": "Reactivity of halogens in halogenation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F₂ > Cl₂ > Br₂ > I₂",
+            "I₂ > Br₂ > Cl₂ > F₂",
+            "Cl₂ > F₂",
+            "All equal"
           ],
-          "answer": "Option A"
+          "answer": "F₂ > Cl₂ > Br₂ > I₂"
         },
         {
-          "question": "Q14 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 14,
+          "question": "Selectivity of halogenation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "I₂ most selective (3° > 2° > 1°), F₂ least",
+            "F₂ most selective",
+            "All equal",
+            "Cl₂ > Br₂ > I₂ selectivity"
           ],
-          "answer": "Option A"
+          "answer": "I₂ most selective (3° > 2° > 1°), F₂ least"
         },
         {
-          "question": "Q15 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 15,
+          "question": "Isomerisation of n-alkane to branched alkane requires:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "AlCl₃ / HCl catalyst",
+            "Na",
+            "NaOH",
+            "Water"
           ],
-          "answer": "Option A"
+          "answer": "AlCl₃ / HCl catalyst"
         },
         {
-          "question": "Q16 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 16,
+          "question": "Aromatization of n-hexane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gives benzene (Cr₂O₃/Al₂O₃, 500°C)",
+            "Gives cyclohexene",
+            "Gives ethene",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Gives benzene (Cr₂O₃/Al₂O₃, 500°C)"
         },
         {
-          "question": "Q17 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 17,
+          "question": "Pyrolysis (cracking) of alkanes gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Smaller alkanes + alkenes",
+            "Only alkanes",
+            "Only H₂",
+            "Ethers"
           ],
-          "answer": "Option A"
+          "answer": "Smaller alkanes + alkenes"
         },
         {
-          "question": "Q18 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 18,
+          "question": "Combustion of alkanes produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO₂ + H₂O + heat",
+            "CO + H₂",
+            "CO₂ only",
+            "CH₃OH"
           ],
-          "answer": "Option A"
+          "answer": "CO₂ + H₂O + heat"
         },
         {
-          "question": "Q19 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 19,
+          "question": "Octane number indicates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Antiknock quality of petrol",
+            "Viscosity",
+            "Density",
+            "Boiling point"
           ],
-          "answer": "Option A"
+          "answer": "Antiknock quality of petrol"
         },
         {
-          "question": "Q20 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 20,
+          "question": "Iso-octane (2,2,4-trimethylpentane) has octane number:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100",
+            "0",
+            "50",
+            "200"
           ],
-          "answer": "Option A"
+          "answer": "100"
         },
         {
-          "question": "Q21 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 21,
+          "question": "n-heptane has octane number:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "100",
+            "50",
+            "200"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q22 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 22,
+          "question": "Conformations of ethane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Eclipsed and staggered",
+            "Only cis-trans",
+            "Only optical",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Eclipsed and staggered"
         },
         {
-          "question": "Q23 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 23,
+          "question": "Most stable conformation of ethane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Staggered (60° apart)",
+            "Eclipsed",
+            "Gauche",
+            "Half-chair"
           ],
-          "answer": "Option A"
+          "answer": "Staggered (60° apart)"
         },
         {
-          "question": "Q24 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 24,
+          "question": "Energy difference between eclipsed and staggered ethane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈12.5 kJ/mol",
+            "100 kJ/mol",
+            "0",
+            "1000 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "≈12.5 kJ/mol"
         },
         {
-          "question": "Q25 Week 29: Topic - Hydrocarbons – Alkanes (Preparation, Properties, Reactions)",
+          "id": 25,
+          "question": "Most stable conformation of n-butane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Anti (180°)",
+            "Gauche",
+            "Eclipsed",
+            "Skew"
           ],
-          "answer": "Option A"
+          "answer": "Anti (180°)"
         }
       ]
     },
@@ -8004,254 +8079,279 @@
       "topic": "Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
       "questions": [
         {
-          "question": "Q1 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 1,
+          "question": "General formula for alkenes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ₊₁"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ"
         },
         {
-          "question": "Q2 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 2,
+          "question": "Alkenes are also called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Olefins",
+            "Paraffins",
+            "Acetylenes",
+            "Aromatics"
           ],
-          "answer": "Option A"
+          "answer": "Olefins"
         },
         {
-          "question": "Q3 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 3,
+          "question": "Hybridisation of C in alkene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q4 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 4,
+          "question": "C=C bond length in ethene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "134 pm",
+            "154 pm",
+            "120 pm",
+            "110 pm"
           ],
-          "answer": "Option A"
+          "answer": "134 pm"
         },
         {
-          "question": "Q5 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 5,
+          "question": "Bond angle in ethene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "120°",
+            "109.5°",
+            "180°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "120°"
         },
         {
-          "question": "Q6 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 6,
+          "question": "Dehydration of alcohol to alkene uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conc. H₂SO₄ at 170°C",
+            "Dilute HCl",
+            "NaOH",
+            "Water"
           ],
-          "answer": "Option A"
+          "answer": "Conc. H₂SO₄ at 170°C"
         },
         {
-          "question": "Q7 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 7,
+          "question": "Dehydrohalogenation of alkyl halide with alc. KOH gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkene (E2)",
+            "Alkane",
+            "Alcohol",
+            "Ether"
           ],
-          "answer": "Option A"
+          "answer": "Alkene (E2)"
         },
         {
-          "question": "Q8 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 8,
+          "question": "Dehalogenation of vicinal dihalide with Zn dust gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkene",
+            "Alkane",
+            "Alkyne",
+            "Alcohol"
           ],
-          "answer": "Option A"
+          "answer": "Alkene"
         },
         {
-          "question": "Q9 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 9,
+          "question": "Markovnikov's rule for HX addition:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H goes to C with more H, X to C with fewer H",
+            "X to C with more H",
+            "Random",
+            "Based on mass"
           ],
-          "answer": "Option A"
+          "answer": "H goes to C with more H, X to C with fewer H"
         },
         {
-          "question": "Q10 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 10,
+          "question": "Addition of HBr to propene gives (Markovnikov):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-bromopropane",
+            "1-bromopropane",
+            "1,2-dibromopropane",
+            "Propanol"
           ],
-          "answer": "Option A"
+          "answer": "2-bromopropane"
         },
         {
-          "question": "Q11 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 11,
+          "question": "Addition of HBr to propene in presence of peroxide (anti-Markovnikov) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1-bromopropane (Kharasch)",
+            "2-bromopropane",
+            "1,2-dibromopropane",
+            "Propanol"
           ],
-          "answer": "Option A"
+          "answer": "1-bromopropane (Kharasch)"
         },
         {
-          "question": "Q12 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 12,
+          "question": "Peroxide effect works only for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HBr, not HCl or HI",
+            "HCl",
+            "HI",
+            "All HX"
           ],
-          "answer": "Option A"
+          "answer": "HBr, not HCl or HI"
         },
         {
-          "question": "Q13 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 13,
+          "question": "Addition of H₂O/H₂SO₄ to propene gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Propan-2-ol (Markovnikov)",
+            "Propan-1-ol",
+            "Propanal",
+            "Propanoic acid"
           ],
-          "answer": "Option A"
+          "answer": "Propan-2-ol (Markovnikov)"
         },
         {
-          "question": "Q14 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 14,
+          "question": "Hydroboration-oxidation gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Anti-Markovnikov alcohol (B₂H₆ then H₂O₂/OH⁻)",
+            "Markovnikov alcohol",
+            "Ketone",
+            "Alkyne"
           ],
-          "answer": "Option A"
+          "answer": "Anti-Markovnikov alcohol (B₂H₆ then H₂O₂/OH⁻)"
         },
         {
-          "question": "Q15 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 15,
+          "question": "Oxymercuration-demercuration gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Markovnikov alcohol without rearrangement",
+            "Anti-Markovnikov",
+            "Ether",
+            "Ester"
           ],
-          "answer": "Option A"
+          "answer": "Markovnikov alcohol without rearrangement"
         },
         {
-          "question": "Q16 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 16,
+          "question": "Addition of Br₂ to alkene gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Vicinal dibromide (trans-addition via bromonium ion)",
+            "Geminal dibromide",
+            "Bromoalcohol",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Vicinal dibromide (trans-addition via bromonium ion)"
         },
         {
-          "question": "Q17 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 17,
+          "question": "Addition of cold dilute KMnO₄ (Baeyer's) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "cis-diol",
+            "trans-diol",
+            "Aldehyde",
+            "Ketone"
           ],
-          "answer": "Option A"
+          "answer": "cis-diol"
         },
         {
-          "question": "Q18 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 18,
+          "question": "Ozonolysis of CH₃CH=CHCH₃ with Zn/H₂O gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 CH₃CHO",
+            "CH₃COCH₃",
+            "CH₃CHO + HCHO",
+            "CH₄"
           ],
-          "answer": "Option A"
+          "answer": "2 CH₃CHO"
         },
         {
-          "question": "Q19 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 19,
+          "question": "Catalytic hydrogenation of alkene requires:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂, Ni/Pt/Pd",
+            "Na",
+            "HCl",
+            "H₂O"
           ],
-          "answer": "Option A"
+          "answer": "H₂, Ni/Pt/Pd"
         },
         {
-          "question": "Q20 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 20,
+          "question": "Polymerisation of ethene gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Polyethene",
+            "Polypropene",
+            "PVC",
+            "Teflon"
           ],
-          "answer": "Option A"
+          "answer": "Polyethene"
         },
         {
-          "question": "Q21 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 21,
+          "question": "Wacker process converts ethene to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acetaldehyde (PdCl₂/CuCl₂/O₂)",
+            "Ethanol",
+            "Ethene oxide",
+            "Vinyl chloride"
           ],
-          "answer": "Option A"
+          "answer": "Acetaldehyde (PdCl₂/CuCl₂/O₂)"
         },
         {
-          "question": "Q22 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 22,
+          "question": "Geometrical isomers (cis-trans) in alkenes require:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Different groups on each C of C=C",
+            "Same groups",
+            "3° carbons",
+            "Any carbons"
           ],
-          "answer": "Option A"
+          "answer": "Different groups on each C of C=C"
         },
         {
-          "question": "Q23 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 23,
+          "question": "In E/Z nomenclature Z means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher priority groups on same side (cis-like)",
+            "Opposite",
+            "Lower priority same side",
+            "Any"
           ],
-          "answer": "Option A"
+          "answer": "Higher priority groups on same side (cis-like)"
         },
         {
-          "question": "Q24 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 24,
+          "question": "Stability of alkenes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More substituted > less substituted (hyperconjugation)",
+            "Opposite",
+            "All equal",
+            "Depends only on size"
           ],
-          "answer": "Option A"
+          "answer": "More substituted > less substituted (hyperconjugation)"
         },
         {
-          "question": "Q25 Week 30: Topic - Hydrocarbons – Alkenes (Preparation, Properties, Markovnikov's Rule)",
+          "id": 25,
+          "question": "Trans-alkene is more stable than cis due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less steric strain",
+            "H-bonding",
+            "Resonance",
+            "Inductive effect"
           ],
-          "answer": "Option A"
+          "answer": "Less steric strain"
         }
       ]
     },
@@ -8260,254 +8360,279 @@
       "topic": "Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
       "questions": [
         {
-          "question": "Q1 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 1,
+          "question": "General formula for alkynes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ₊₁"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ₋₂"
         },
         {
-          "question": "Q2 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 2,
+          "question": "Alkynes are also called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acetylenes",
+            "Paraffins",
+            "Olefins",
+            "Aromatics"
           ],
-          "answer": "Option A"
+          "answer": "Acetylenes"
         },
         {
-          "question": "Q3 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 3,
+          "question": "Hybridisation of C in alkyne:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp",
+            "sp²",
+            "sp³",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp"
         },
         {
-          "question": "Q4 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 4,
+          "question": "C≡C bond length in ethyne:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "120 pm",
+            "134 pm",
+            "154 pm",
+            "110 pm"
           ],
-          "answer": "Option A"
+          "answer": "120 pm"
         },
         {
-          "question": "Q5 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 5,
+          "question": "Bond angle in ethyne:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "180° (linear)",
+            "120°",
+            "109.5°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "180° (linear)"
         },
         {
-          "question": "Q6 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 6,
+          "question": "Industrial preparation of ethyne from CaC₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂",
+            "CaC₂ + H₂ → CaH₂",
+            "CaC₂ + CO₂ → ...",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂"
         },
         {
-          "question": "Q7 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 7,
+          "question": "Electronic arc preparation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C + H₂ at very high T",
+            "Na + C",
+            "CH₄ at low T",
+            "CO + H₂"
           ],
-          "answer": "Option A"
+          "answer": "C + H₂ at very high T"
         },
         {
-          "question": "Q8 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 8,
+          "question": "Kolbe's electrolysis of sodium fumarate gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethyne",
+            "Ethane",
+            "Ethene",
+            "Methane"
           ],
-          "answer": "Option A"
+          "answer": "Ethyne"
         },
         {
-          "question": "Q9 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 9,
+          "question": "Alkynes with terminal C-H (≡CH) are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acidic (pKa ≈ 25)",
+            "Basic",
+            "Neutral",
+            "Strongly acidic"
           ],
-          "answer": "Option A"
+          "answer": "Acidic (pKa ≈ 25)"
         },
         {
-          "question": "Q10 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 10,
+          "question": "Acidity order: H₂O, NH₃, RC≡CH, RH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O > RC≡CH > NH₃ > RH",
+            "RH > NH₃ > RC≡CH > H₂O",
+            "All equal",
+            "NH₃ > H₂O"
           ],
-          "answer": "Option A"
+          "answer": "H₂O > RC≡CH > NH₃ > RH"
         },
         {
-          "question": "Q11 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 11,
+          "question": "Terminal alkyne with Na gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sodium acetylide + H₂",
+            "Alkene",
+            "Alkane",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Sodium acetylide + H₂"
         },
         {
-          "question": "Q12 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 12,
+          "question": "Terminal alkyne with NaNH₂ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sodium acetylide + NH₃",
+            "No reaction",
+            "Alkene",
+            "Alkane"
           ],
-          "answer": "Option A"
+          "answer": "Sodium acetylide + NH₃"
         },
         {
-          "question": "Q13 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 13,
+          "question": "Reaction with AgNO₃/NH₄OH gives (test for terminal alkyne):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "White ppt of Ag-acetylide",
+            "No ppt",
+            "Red ppt",
+            "Black ppt"
           ],
-          "answer": "Option A"
+          "answer": "White ppt of Ag-acetylide"
         },
         {
-          "question": "Q14 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 14,
+          "question": "Reaction with Cu₂Cl₂/NH₄OH gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Red ppt of Cu-acetylide",
+            "White ppt",
+            "Black ppt",
+            "No ppt"
           ],
-          "answer": "Option A"
+          "answer": "Red ppt of Cu-acetylide"
         },
         {
-          "question": "Q15 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 15,
+          "question": "Hydrogenation of alkyne with Lindlar's catalyst gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cis-alkene",
+            "Trans-alkene",
+            "Alkane",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Cis-alkene"
         },
         {
-          "question": "Q16 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 16,
+          "question": "Hydrogenation with Na/liq NH₃ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trans-alkene",
+            "Cis-alkene",
+            "Alkane",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Trans-alkene"
         },
         {
-          "question": "Q17 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 17,
+          "question": "Full hydrogenation (H₂/Ni) of alkyne gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkane",
+            "Alkene",
+            "Another alkyne",
+            "Alcohol"
           ],
-          "answer": "Option A"
+          "answer": "Alkane"
         },
         {
-          "question": "Q18 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 18,
+          "question": "Addition of H₂O/Hg²⁺/H₂SO₄ to alkyne gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ketone (except ethyne → acetaldehyde)",
+            "Alcohol",
+            "Aldehyde always",
+            "Ether"
           ],
-          "answer": "Option A"
+          "answer": "Ketone (except ethyne → acetaldehyde)"
         },
         {
-          "question": "Q19 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 19,
+          "question": "Ethyne + H₂O/Hg²⁺/H₂SO₄ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acetaldehyde",
+            "Acetone",
+            "Acetic acid",
+            "Ethanol"
           ],
-          "answer": "Option A"
+          "answer": "Acetaldehyde"
         },
         {
-          "question": "Q20 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 20,
+          "question": "Addition of Br₂ to alkyne gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tetrabromide",
+            "Dibromide only",
+            "Monobromide",
+            "Tribromide"
           ],
-          "answer": "Option A"
+          "answer": "Tetrabromide"
         },
         {
-          "question": "Q21 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 21,
+          "question": "Polymerisation of ethyne at red hot tube gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Benzene (3 molecules)",
+            "Cyclohexane",
+            "Ethane",
+            "Ethene"
           ],
-          "answer": "Option A"
+          "answer": "Benzene (3 molecules)"
         },
         {
-          "question": "Q22 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 22,
+          "question": "Cup and Cupreous Cu₂Cl₂ polymerises ethyne to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Vinyl acetylene",
+            "Benzene",
+            "Ethene",
+            "Ethane"
           ],
-          "answer": "Option A"
+          "answer": "Vinyl acetylene"
         },
         {
-          "question": "Q23 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 23,
+          "question": "Ozonolysis of alkyne gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carboxylic acids",
+            "Aldehydes only",
+            "Ketones only",
+            "Alcohols"
           ],
-          "answer": "Option A"
+          "answer": "Carboxylic acids"
         },
         {
-          "question": "Q24 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 24,
+          "question": "Oxyacetylene flame temperature:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈3000°C (used for welding)",
+            "1000°C",
+            "500°C",
+            "5000°C"
           ],
-          "answer": "Option A"
+          "answer": "≈3000°C (used for welding)"
         },
         {
-          "question": "Q25 Week 31: Topic - Hydrocarbons – Alkynes (Preparation, Properties, Acidic Nature)",
+          "id": 25,
+          "question": "% s-character of sp carbon:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50%",
+            "33%",
+            "25%",
+            "75%"
           ],
-          "answer": "Option A"
+          "answer": "50%"
         }
       ]
     },
@@ -8516,254 +8641,279 @@
       "topic": "Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
       "questions": [
         {
-          "question": "Q1 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 1,
+          "question": "Benzene molecular formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C₆H₆",
+            "C₆H₁₂",
+            "C₆H₁₀",
+            "C₆H₁₄"
           ],
-          "answer": "Option A"
+          "answer": "C₆H₆"
         },
         {
-          "question": "Q2 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 2,
+          "question": "Hybridisation of C in benzene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q3 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 3,
+          "question": "Benzene C-C bond length:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "139 pm (between single 154 and double 134)",
+            "154 pm",
+            "134 pm",
+            "120 pm"
           ],
-          "answer": "Option A"
+          "answer": "139 pm (between single 154 and double 134)"
         },
         {
-          "question": "Q4 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 4,
+          "question": "Benzene stability is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Aromaticity / resonance",
+            "Large size",
+            "H-bonding",
+            "Polar C-H"
           ],
-          "answer": "Option A"
+          "answer": "Aromaticity / resonance"
         },
         {
-          "question": "Q5 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 5,
+          "question": "Huckel's rule for aromaticity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Planar cyclic with (4n+2) π-electrons",
+            "(4n) π-e⁻",
+            "Must be saturated",
+            "Any cyclic"
           ],
-          "answer": "Option A"
+          "answer": "Planar cyclic with (4n+2) π-electrons"
         },
         {
-          "question": "Q6 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 6,
+          "question": "Number of π-electrons in benzene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6",
+            "4",
+            "8",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "6"
         },
         {
-          "question": "Q7 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 7,
+          "question": "Resonance energy of benzene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "≈150 kJ/mol",
+            "50 kJ/mol",
+            "500 kJ/mol",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "≈150 kJ/mol"
         },
         {
-          "question": "Q8 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 8,
+          "question": "Benzene undergoes mainly:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrophilic aromatic substitution",
+            "Nucleophilic addition",
+            "Free radical addition",
+            "Oxidation only"
           ],
-          "answer": "Option A"
+          "answer": "Electrophilic aromatic substitution"
         },
         {
-          "question": "Q9 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 9,
+          "question": "Nitration of benzene uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conc. HNO₃ + conc. H₂SO₄",
+            "Dilute HNO₃",
+            "NaNO₂",
+            "HNO₂"
           ],
-          "answer": "Option A"
+          "answer": "Conc. HNO₃ + conc. H₂SO₄"
         },
         {
-          "question": "Q10 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 10,
+          "question": "Electrophile in nitration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NO₂⁺ (nitronium ion)",
+            "NO⁻",
+            "NO",
+            "NO₃⁻"
           ],
-          "answer": "Option A"
+          "answer": "NO₂⁺ (nitronium ion)"
         },
         {
-          "question": "Q11 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 11,
+          "question": "Sulphonation of benzene uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Fuming H₂SO₄ (oleum)",
+            "Dilute H₂SO₄",
+            "HCl",
+            "NaOH"
           ],
-          "answer": "Option A"
+          "answer": "Fuming H₂SO₄ (oleum)"
         },
         {
-          "question": "Q12 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 12,
+          "question": "Electrophile in sulphonation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SO₃ / HSO₃⁺",
+            "H⁺",
+            "SO₄²⁻",
+            "OH⁻"
           ],
-          "answer": "Option A"
+          "answer": "SO₃ / HSO₃⁺"
         },
         {
-          "question": "Q13 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 13,
+          "question": "Halogenation of benzene (Br₂/FeBr₃) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Bromobenzene + HBr",
+            "Hexabromocyclohexane",
+            "Phenol",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Bromobenzene + HBr"
         },
         {
-          "question": "Q14 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 14,
+          "question": "Friedel-Crafts alkylation uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R-X + anhydrous AlCl₃",
+            "R-OH only",
+            "R-NH₂",
+            "Na"
           ],
-          "answer": "Option A"
+          "answer": "R-X + anhydrous AlCl₃"
         },
         {
-          "question": "Q15 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 15,
+          "question": "Friedel-Crafts acylation uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "RCOCl + AlCl₃",
+            "RCl",
+            "RCOOH",
+            "Na"
           ],
-          "answer": "Option A"
+          "answer": "RCOCl + AlCl₃"
         },
         {
-          "question": "Q16 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 16,
+          "question": "Friedel-Crafts fails on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Strongly deactivated rings (nitrobenzene)",
+            "Benzene",
+            "Toluene",
+            "Aniline (works but messy)"
           ],
-          "answer": "Option A"
+          "answer": "Strongly deactivated rings (nitrobenzene)"
         },
         {
-          "question": "Q17 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 17,
+          "question": "Activating groups (ortho-para directing):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−NH₂, −OH, −OR, −CH₃, −X (weakly deactivating but o/p directing)",
+            "−NO₂, −CN, −COOH",
+            "−SO₃H",
+            "−CHO"
           ],
-          "answer": "Option A"
+          "answer": "−NH₂, −OH, −OR, −CH₃, −X (weakly deactivating but o/p directing)"
         },
         {
-          "question": "Q18 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 18,
+          "question": "Deactivating groups (meta directing):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−NO₂, −CN, −COOH, −SO₃H, −CHO",
+            "−NH₂, −OH",
+            "−CH₃",
+            "−OR"
           ],
-          "answer": "Option A"
+          "answer": "−NO₂, −CN, −COOH, −SO₃H, −CHO"
         },
         {
-          "question": "Q19 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 19,
+          "question": "−OH on benzene directs incoming electrophile to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ortho and para",
+            "Meta only",
+            "Ipso",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Ortho and para"
         },
         {
-          "question": "Q20 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 20,
+          "question": "−NO₂ on benzene directs electrophile to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Meta",
+            "Ortho",
+            "Para",
+            "Both o/p"
           ],
-          "answer": "Option A"
+          "answer": "Meta"
         },
         {
-          "question": "Q21 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 21,
+          "question": "Halogens on benzene are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weakly deactivating but o/p directing",
+            "Strongly activating",
+            "Meta directing",
+            "Ipso directing"
           ],
-          "answer": "Option A"
+          "answer": "Weakly deactivating but o/p directing"
         },
         {
-          "question": "Q22 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 22,
+          "question": "Cyclohexane + Pt/Pd (525°C) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Benzene (dehydrogenation)",
+            "Hexane",
+            "Hexene",
+            "Toluene"
           ],
-          "answer": "Option A"
+          "answer": "Benzene (dehydrogenation)"
         },
         {
-          "question": "Q23 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 23,
+          "question": "Phenol + Zn dust (distilled) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Benzene",
+            "Cyclohexanol",
+            "Toluene",
+            "Benzoic acid"
           ],
-          "answer": "Option A"
+          "answer": "Benzene"
         },
         {
-          "question": "Q24 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 24,
+          "question": "Benzene + Cl₂ in sunlight (no catalyst) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Benzene hexachloride (BHC / C₆H₆Cl₆)",
+            "Chlorobenzene",
+            "Phenol",
+            "Dichlorobenzene"
           ],
-          "answer": "Option A"
+          "answer": "Benzene hexachloride (BHC / C₆H₆Cl₆)"
         },
         {
-          "question": "Q25 Week 32: Topic - Hydrocarbons – Aromatic (Benzene, Electrophilic Substitution, Directive Effects)",
+          "id": 25,
+          "question": "Toluene oxidation with KMnO₄/H₂SO₄ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Benzoic acid",
+            "Phenol",
+            "Benzaldehyde",
+            "Benzophenone"
           ],
-          "answer": "Option A"
+          "answer": "Benzoic acid"
         }
       ]
     },
@@ -8772,254 +8922,279 @@
       "topic": "States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
       "questions": [
         {
-          "question": "Q1 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 1,
+          "question": "Boyle's law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P ∝ 1/V at constant T, n",
+            "P ∝ V",
+            "P ∝ T",
+            "V ∝ T"
           ],
-          "answer": "Option A"
+          "answer": "P ∝ 1/V at constant T, n"
         },
         {
-          "question": "Q2 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 2,
+          "question": "Boyle's law equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P₁V₁ = P₂V₂",
+            "P₁/T₁ = P₂/T₂",
+            "V₁/T₁ = V₂/T₂",
+            "PV = nRT"
           ],
-          "answer": "Option A"
+          "answer": "P₁V₁ = P₂V₂"
         },
         {
-          "question": "Q3 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 3,
+          "question": "Charles's law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "V ∝ T at constant P, n",
+            "V ∝ 1/T",
+            "P ∝ T",
+            "V ∝ P"
           ],
-          "answer": "Option A"
+          "answer": "V ∝ T at constant P, n"
         },
         {
-          "question": "Q4 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 4,
+          "question": "Charles's law equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "V₁/T₁ = V₂/T₂",
+            "P₁V₁ = P₂V₂",
+            "PV = nRT",
+            "P₁/T₁ = P₂/T₂"
           ],
-          "answer": "Option A"
+          "answer": "V₁/T₁ = V₂/T₂"
         },
         {
-          "question": "Q5 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 5,
+          "question": "Gay-Lussac's law (pressure-temperature):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P ∝ T at constant V, n",
+            "P ∝ V",
+            "P ∝ 1/T",
+            "V ∝ T"
           ],
-          "answer": "Option A"
+          "answer": "P ∝ T at constant V, n"
         },
         {
-          "question": "Q6 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 6,
+          "question": "Avogadro's law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "V ∝ n at constant P, T",
+            "V ∝ 1/n",
+            "P ∝ n",
+            "P ∝ 1/n"
           ],
-          "answer": "Option A"
+          "answer": "V ∝ n at constant P, T"
         },
         {
-          "question": "Q7 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 7,
+          "question": "At STP (0°C, 1 atm), molar volume of gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "22.4 L",
+            "24 L",
+            "10 L",
+            "20 L"
           ],
-          "answer": "Option A"
+          "answer": "22.4 L"
         },
         {
-          "question": "Q8 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 8,
+          "question": "At SATP (25°C, 1 bar), molar volume:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "24.79 L",
+            "22.4 L",
+            "10 L",
+            "25 L"
           ],
-          "answer": "Option A"
+          "answer": "24.79 L"
         },
         {
-          "question": "Q9 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 9,
+          "question": "Absolute zero in Kelvin:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0 K = −273.15°C",
+            "0°C",
+            "−100 K",
+            "100 K"
           ],
-          "answer": "Option A"
+          "answer": "0 K = −273.15°C"
         },
         {
-          "question": "Q10 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 10,
+          "question": "Charles's law cannot be verified at very low T because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gas liquefies",
+            "It still holds exactly",
+            "Pressure becomes zero",
+            "Volume becomes negative"
           ],
-          "answer": "Option A"
+          "answer": "Gas liquefies"
         },
         {
-          "question": "Q11 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 11,
+          "question": "Graham's law of diffusion:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rate ∝ 1/√M",
+            "Rate ∝ M",
+            "Rate ∝ √M",
+            "Rate ∝ 1/M"
           ],
-          "answer": "Option A"
+          "answer": "Rate ∝ 1/√M"
         },
         {
-          "question": "Q12 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 12,
+          "question": "Which gas diffuses fastest?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂ (lowest molar mass)",
+            "O₂",
+            "CO₂",
+            "SO₂"
           ],
-          "answer": "Option A"
+          "answer": "H₂ (lowest molar mass)"
         },
         {
-          "question": "Q13 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 13,
+          "question": "Dalton's law of partial pressures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P_total = ΣP_i (for non-reacting gases)",
+            "P_total = P₁·P₂",
+            "P_total = P_avg",
+            "P_total independent of composition"
           ],
-          "answer": "Option A"
+          "answer": "P_total = ΣP_i (for non-reacting gases)"
         },
         {
-          "question": "Q14 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 14,
+          "question": "Partial pressure of a gas = (mole fraction) ×",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Total pressure",
+            "Temperature",
+            "Volume",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Total pressure"
         },
         {
-          "question": "Q15 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 15,
+          "question": "Ideal gas equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PV = nRT",
+            "PV = RT",
+            "P/V = nRT",
+            "PT = nRV"
           ],
-          "answer": "Option A"
+          "answer": "PV = nRT"
         },
         {
-          "question": "Q16 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 16,
+          "question": "Value of R in SI units (J/mol·K):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8.314",
+            "0.0821",
+            "1.987",
+            "62.36"
           ],
-          "answer": "Option A"
+          "answer": "8.314"
         },
         {
-          "question": "Q17 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 17,
+          "question": "Value of R in L·atm/mol·K:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.0821",
+            "8.314",
+            "1.987",
+            "62.36"
           ],
-          "answer": "Option A"
+          "answer": "0.0821"
         },
         {
-          "question": "Q18 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 18,
+          "question": "If pressure is halved at constant T, volume:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Q19 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 19,
+          "question": "At constant P, if T doubles (in K), V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Q20 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 20,
+          "question": "At constant V, if T triples, P:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Triples",
+            "Reduces by 1/3",
+            "Doubles",
+            "Halves"
           ],
-          "answer": "Option A"
+          "answer": "Triples"
         },
         {
-          "question": "Q21 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 21,
+          "question": "Combined gas law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P₁V₁/T₁ = P₂V₂/T₂",
+            "P₁V₁ = P₂V₂ only",
+            "V₁/T₁ = V₂/T₂ only",
+            "PV = nRT only"
           ],
-          "answer": "Option A"
+          "answer": "P₁V₁/T₁ = P₂V₂/T₂"
         },
         {
-          "question": "Q22 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 22,
+          "question": "STP pressure in kPa:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "101.325 kPa",
+            "100 kPa",
+            "1 kPa",
+            "1013 kPa"
           ],
-          "answer": "Option A"
+          "answer": "101.325 kPa"
         },
         {
-          "question": "Q23 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 23,
+          "question": "1 atm equals how many mm Hg?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "760 mm Hg",
+            "1000 mm Hg",
+            "100 mm Hg",
+            "76 mm Hg"
           ],
-          "answer": "Option A"
+          "answer": "760 mm Hg"
         },
         {
-          "question": "Q24 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 24,
+          "question": "1 atm equals how many Pa?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "101325 Pa",
+            "1 Pa",
+            "1000 Pa",
+            "760 Pa"
           ],
-          "answer": "Option A"
+          "answer": "101325 Pa"
         },
         {
-          "question": "Q25 Week 33: Topic - States of Matter – Gas Laws (Boyle, Charles, Avogadro)",
+          "id": 25,
+          "question": "1 bar equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁵ Pa",
+            "1 Pa",
+            "101325 Pa",
+            "760 Pa"
           ],
-          "answer": "Option A"
+          "answer": "10⁵ Pa"
         }
       ]
     },
@@ -9028,254 +9203,279 @@
       "topic": "States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
       "questions": [
         {
-          "question": "Q1 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 1,
+          "question": "Ideal gas obeys:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PV = nRT at all P and T",
+            "Only at high P",
+            "Only at low T",
+            "Never"
           ],
-          "answer": "Option A"
+          "answer": "PV = nRT at all P and T"
         },
         {
-          "question": "Q2 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 2,
+          "question": "Assumptions of kinetic molecular theory:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Point particles, elastic collisions, negligible IMF, random motion",
+            "Strong IMF, inelastic",
+            "Large particles only",
+            "No motion"
           ],
-          "answer": "Option A"
+          "answer": "Point particles, elastic collisions, negligible IMF, random motion"
         },
         {
-          "question": "Q3 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 3,
+          "question": "Kinetic energy of gas depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature only (absolute)",
+            "Pressure",
+            "Volume",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Temperature only (absolute)"
         },
         {
-          "question": "Q4 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 4,
+          "question": "Average KE per mole = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(3/2)RT",
+            "(3/2)kT",
+            "(5/2)RT",
+            "RT"
           ],
-          "answer": "Option A"
+          "answer": "(3/2)RT"
         },
         {
-          "question": "Q5 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 5,
+          "question": "Average KE per molecule = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(3/2)kT",
+            "(3/2)RT",
+            "kT",
+            "RT"
           ],
-          "answer": "Option A"
+          "answer": "(3/2)kT"
         },
         {
-          "question": "Q6 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 6,
+          "question": "Most probable speed (u_mp):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(2RT/M)",
+            "√(3RT/M)",
+            "√(8RT/πM)",
+            "RT/M"
           ],
-          "answer": "Option A"
+          "answer": "√(2RT/M)"
         },
         {
-          "question": "Q7 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 7,
+          "question": "Average speed (u_avg):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(8RT/πM)",
+            "√(2RT/M)",
+            "√(3RT/M)",
+            "RT/M"
           ],
-          "answer": "Option A"
+          "answer": "√(8RT/πM)"
         },
         {
-          "question": "Q8 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 8,
+          "question": "Root mean square speed (u_rms):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(3RT/M)",
+            "√(2RT/M)",
+            "√(8RT/πM)",
+            "RT/M"
           ],
-          "answer": "Option A"
+          "answer": "√(3RT/M)"
         },
         {
-          "question": "Q9 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 9,
+          "question": "Ratio u_mp : u_avg : u_rms:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 : 1.128 : 1.224",
+            "1 : 2 : 3",
+            "All equal",
+            "3 : 2 : 1"
           ],
-          "answer": "Option A"
+          "answer": "1 : 1.128 : 1.224"
         },
         {
-          "question": "Q10 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 10,
+          "question": "At same T, light gas has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher u_rms",
+            "Lower u_rms",
+            "Same u_rms",
+            "Zero u_rms"
           ],
-          "answer": "Option A"
+          "answer": "Higher u_rms"
         },
         {
-          "question": "Q11 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 11,
+          "question": "Maxwell-Boltzmann distribution shows:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Distribution of molecular speeds at given T",
+            "Only one speed",
+            "Pressure vs V",
+            "Composition"
           ],
-          "answer": "Option A"
+          "answer": "Distribution of molecular speeds at given T"
         },
         {
-          "question": "Q12 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 12,
+          "question": "As T increases, u_mp:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q13 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 13,
+          "question": "Real gas deviates from ideal behaviour because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Molecules have finite size and IMF",
+            "They are point particles",
+            "No collisions",
+            "Temperature too high"
           ],
-          "answer": "Option A"
+          "answer": "Molecules have finite size and IMF"
         },
         {
-          "question": "Q14 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 14,
+          "question": "Compressibility factor Z = PV/nRT:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Z=1 for ideal, ≠1 for real",
+            "Z=0 always",
+            "Z>10 for ideal",
+            "Z infinite"
           ],
-          "answer": "Option A"
+          "answer": "Z=1 for ideal, ≠1 for real"
         },
         {
-          "question": "Q15 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 15,
+          "question": "Z < 1 means gas is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More compressible than ideal (attractive forces dominate)",
+            "Less compressible",
+            "Ideal",
+            "Impossible"
           ],
-          "answer": "Option A"
+          "answer": "More compressible than ideal (attractive forces dominate)"
         },
         {
-          "question": "Q16 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 16,
+          "question": "Z > 1 means gas is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less compressible than ideal (repulsion dominates)",
+            "More compressible",
+            "Ideal",
+            "Impossible"
           ],
-          "answer": "Option A"
+          "answer": "Less compressible than ideal (repulsion dominates)"
         },
         {
-          "question": "Q17 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 17,
+          "question": "Van der Waals equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(P + an²/V²)(V − nb) = nRT",
+            "PV = nRT",
+            "PV = RT",
+            "P + V = nRT"
           ],
-          "answer": "Option A"
+          "answer": "(P + an²/V²)(V − nb) = nRT"
         },
         {
-          "question": "Q18 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 18,
+          "question": "Constant 'a' in vdW equation represents:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Strength of intermolecular attraction",
+            "Molecular volume",
+            "Pressure",
+            "T"
           ],
-          "answer": "Option A"
+          "answer": "Strength of intermolecular attraction"
         },
         {
-          "question": "Q19 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 19,
+          "question": "Constant 'b' in vdW equation represents:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Excluded volume (4× molecular volume per mole)",
+            "Attraction",
+            "Temperature",
+            "Pressure"
           ],
-          "answer": "Option A"
+          "answer": "Excluded volume (4× molecular volume per mole)"
         },
         {
-          "question": "Q20 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 20,
+          "question": "Gas with highest 'a' (strongest IMF):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O, NH₃",
+            "H₂",
+            "He",
+            "Ar"
           ],
-          "answer": "Option A"
+          "answer": "H₂O, NH₃"
         },
         {
-          "question": "Q21 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 21,
+          "question": "Boyle temperature (T_B):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature at which gas behaves ideally over wide P range",
+            "Absolute zero",
+            "STP temperature",
+            "Critical T"
           ],
-          "answer": "Option A"
+          "answer": "Temperature at which gas behaves ideally over wide P range"
         },
         {
-          "question": "Q22 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 22,
+          "question": "Critical temperature (T_c):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Above which gas cannot be liquefied",
+            "Below absolute zero",
+            "At STP",
+            "Boyle T"
           ],
-          "answer": "Option A"
+          "answer": "Above which gas cannot be liquefied"
         },
         {
-          "question": "Q23 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 23,
+          "question": "Critical T of CO₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "31.1°C",
+            "100°C",
+            "0°C",
+            "−273°C"
           ],
-          "answer": "Option A"
+          "answer": "31.1°C"
         },
         {
-          "question": "Q24 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 24,
+          "question": "Liquefaction easier for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High T_c, strong IMF",
+            "Low T_c, weak IMF",
+            "All same",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "High T_c, strong IMF"
         },
         {
-          "question": "Q25 Week 34: Topic - States of Matter – Ideal Gas Equation, Kinetic Molecular Theory, Real Gases",
+          "id": 25,
+          "question": "Joule-Thomson expansion cools most gases except:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂, He (above inversion T)",
+            "N₂",
+            "O₂",
+            "CO₂"
           ],
-          "answer": "Option A"
+          "answer": "H₂, He (above inversion T)"
         }
       ]
     },
@@ -9284,254 +9484,279 @@
       "topic": "States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
       "questions": [
         {
-          "question": "Q1 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 1,
+          "question": "Vapour pressure of a liquid depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Temperature and nature of liquid",
+            "Volume of container",
+            "Amount of liquid",
+            "Surface area only"
           ],
-          "answer": "Option A"
+          "answer": "Temperature and nature of liquid"
         },
         {
-          "question": "Q2 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 2,
+          "question": "Boiling point is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T at which vapour pressure = atmospheric pressure",
+            "Melting point",
+            "T of maximum density",
+            "Freezing point"
           ],
-          "answer": "Option A"
+          "answer": "T at which vapour pressure = atmospheric pressure"
         },
         {
-          "question": "Q3 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 3,
+          "question": "Normal boiling point of water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100°C at 1 atm",
+            "0°C",
+            "25°C",
+            "−10°C"
           ],
-          "answer": "Option A"
+          "answer": "100°C at 1 atm"
         },
         {
-          "question": "Q4 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 4,
+          "question": "BP increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increasing IMF, increasing molar mass",
+            "Decreasing IMF",
+            "Volume",
+            "Amount"
           ],
-          "answer": "Option A"
+          "answer": "Increasing IMF, increasing molar mass"
         },
         {
-          "question": "Q5 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 5,
+          "question": "Order of BP: H₂O, H₂S, H₂Se, H₂Te:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O > H₂Te > H₂Se > H₂S (H-bonding in H₂O)",
+            "H₂Te > H₂Se > H₂S > H₂O",
+            "All equal",
+            "H₂S > H₂O"
           ],
-          "answer": "Option A"
+          "answer": "H₂O > H₂Te > H₂Se > H₂S (H-bonding in H₂O)"
         },
         {
-          "question": "Q6 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 6,
+          "question": "Clausius-Clapeyron equation relates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ln(P₂/P₁) = −ΔH_vap/R · (1/T₂ − 1/T₁)",
+            "PV = nRT",
+            "P = ρgh",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "ln(P₂/P₁) = −ΔH_vap/R · (1/T₂ − 1/T₁)"
         },
         {
-          "question": "Q7 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 7,
+          "question": "Surface tension arises from:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Net inward force on surface molecules",
+            "Gravitation",
+            "Pressure",
+            "Only temperature"
           ],
-          "answer": "Option A"
+          "answer": "Net inward force on surface molecules"
         },
         {
-          "question": "Q8 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 8,
+          "question": "Surface tension of water at 20°C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "72.8 mN/m",
+            "100 mN/m",
+            "10 mN/m",
+            "1 N/m"
           ],
-          "answer": "Option A"
+          "answer": "72.8 mN/m"
         },
         {
-          "question": "Q9 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 9,
+          "question": "Surface tension decreases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increasing T",
+            "Decreasing T",
+            "Increasing area",
+            "Pressure"
           ],
-          "answer": "Option A"
+          "answer": "Increasing T"
         },
         {
-          "question": "Q10 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 10,
+          "question": "Adding soap to water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases surface tension",
+            "Increases",
+            "No effect",
+            "Increases density"
           ],
-          "answer": "Option A"
+          "answer": "Decreases surface tension"
         },
         {
-          "question": "Q11 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 11,
+          "question": "Capillary action: water rises in glass capillary because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Adhesion > cohesion",
+            "Cohesion > adhesion",
+            "No forces",
+            "Gravity only"
           ],
-          "answer": "Option A"
+          "answer": "Adhesion > cohesion"
         },
         {
-          "question": "Q12 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 12,
+          "question": "Mercury in glass capillary:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Depresses (cohesion > adhesion)",
+            "Rises",
+            "No change",
+            "Boils"
           ],
-          "answer": "Option A"
+          "answer": "Depresses (cohesion > adhesion)"
         },
         {
-          "question": "Q13 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 13,
+          "question": "Droplets are spherical because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sphere has minimum surface area for given V",
+            "Maximum area",
+            "Random shape",
+            "Gravity"
           ],
-          "answer": "Option A"
+          "answer": "Sphere has minimum surface area for given V"
         },
         {
-          "question": "Q14 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 14,
+          "question": "Viscosity is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resistance to flow of liquid",
+            "Pressure of gas",
+            "Vapour pressure",
+            "Density"
           ],
-          "answer": "Option A"
+          "answer": "Resistance to flow of liquid"
         },
         {
-          "question": "Q15 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 15,
+          "question": "Viscosity unit (SI):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pa·s (or poiseuille)",
+            "atm",
+            "mm Hg",
+            "J/mol"
           ],
-          "answer": "Option A"
+          "answer": "Pa·s (or poiseuille)"
         },
         {
-          "question": "Q16 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 16,
+          "question": "CGS unit of viscosity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Poise (1 P = 0.1 Pa·s)",
+            "Pascal",
+            "Joule",
+            "Newton"
           ],
-          "answer": "Option A"
+          "answer": "Poise (1 P = 0.1 Pa·s)"
         },
         {
-          "question": "Q17 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 17,
+          "question": "Viscosity of liquids as T increases:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q18 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 18,
+          "question": "Glycerol is more viscous than water due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Extensive H-bonding and larger size",
+            "Lower mass",
+            "Smaller molecules",
+            "Lower IMF"
           ],
-          "answer": "Option A"
+          "answer": "Extensive H-bonding and larger size"
         },
         {
-          "question": "Q19 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 19,
+          "question": "Honey pours slowly because of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High viscosity",
+            "Low viscosity",
+            "High vapour pressure",
+            "High surface tension"
           ],
-          "answer": "Option A"
+          "answer": "High viscosity"
         },
         {
-          "question": "Q20 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 20,
+          "question": "Poiseuille's equation: rate of flow ∝",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "r⁴ (for laminar flow in tube)",
+            "r",
+            "r²",
+            "r³"
           ],
-          "answer": "Option A"
+          "answer": "r⁴ (for laminar flow in tube)"
         },
         {
-          "question": "Q21 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 21,
+          "question": "Liquids are condensed states where:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "IMF comparable to thermal energy",
+            "No IMF",
+            "Thermal energy >> IMF",
+            "No motion"
           ],
-          "answer": "Option A"
+          "answer": "IMF comparable to thermal energy"
         },
         {
-          "question": "Q22 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 22,
+          "question": "Ratio of vapour pressure of solution / pure solvent = X_solvent (Raoult's law):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P_solution = X_solvent × P°_solvent",
+            "P_solution = P°_solvent",
+            "P_solution = X_solute · P°",
+            "P_solution = 0"
           ],
-          "answer": "Option A"
+          "answer": "P_solution = X_solvent × P°_solvent"
         },
         {
-          "question": "Q23 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 23,
+          "question": "Evaporation is faster with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher T, lower humidity, more surface area",
+            "Higher humidity",
+            "Lower T",
+            "Enclosed container"
           ],
-          "answer": "Option A"
+          "answer": "Higher T, lower humidity, more surface area"
         },
         {
-          "question": "Q24 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 24,
+          "question": "Latent heat of vaporisation of water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "40.7 kJ/mol (at 100°C)",
+            "5 kJ/mol",
+            "0",
+            "500 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "40.7 kJ/mol (at 100°C)"
         },
         {
-          "question": "Q25 Week 35: Topic - States of Matter – Liquids (Vapour Pressure, Boiling, Surface Tension, Viscosity)",
+          "id": 25,
+          "question": "Density of water is maximum at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4°C",
+            "0°C",
+            "100°C",
+            "25°C"
           ],
-          "answer": "Option A"
+          "answer": "4°C"
         }
       ]
     },
@@ -9540,254 +9765,279 @@
       "topic": "Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
       "questions": [
         {
-          "question": "Q1 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 1,
+          "question": "Hydrogen's position in periodic table is unique because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resembles alkali metals, halogens, and carbon group",
+            "Only alkali",
+            "Only halogen",
+            "Only noble gas"
           ],
-          "answer": "Option A"
+          "answer": "Resembles alkali metals, halogens, and carbon group"
         },
         {
-          "question": "Q2 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 2,
+          "question": "Isotopes of hydrogen:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Protium (¹H), Deuterium (²H), Tritium (³H)",
+            "Only ¹H",
+            "Only ²H",
+            "H₂O isotopes"
           ],
-          "answer": "Option A"
+          "answer": "Protium (¹H), Deuterium (²H), Tritium (³H)"
         },
         {
-          "question": "Q3 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 3,
+          "question": "Tritium is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Radioactive, β emitter, half-life 12.33 y",
+            "Stable",
+            "α emitter",
+            "γ emitter only"
           ],
-          "answer": "Option A"
+          "answer": "Radioactive, β emitter, half-life 12.33 y"
         },
         {
-          "question": "Q4 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 4,
+          "question": "H₂ preparation by lab (Zn + HCl):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zn + 2HCl → ZnCl₂ + H₂",
+            "Zn + NaOH",
+            "Zn + H₂O only",
+            "Zn + O₂"
           ],
-          "answer": "Option A"
+          "answer": "Zn + 2HCl → ZnCl₂ + H₂"
         },
         {
-          "question": "Q5 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 5,
+          "question": "Industrial H₂ from steam-methane reforming:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₄ + H₂O → CO + 3H₂ (Ni catalyst)",
+            "CH₄ + O₂ → CO₂ + H₂O",
+            "CH₄ + HCl",
+            "CO₂ + H₂O"
           ],
-          "answer": "Option A"
+          "answer": "CH₄ + H₂O → CO + 3H₂ (Ni catalyst)"
         },
         {
-          "question": "Q6 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 6,
+          "question": "Water gas is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO + H₂",
+            "CO₂ + H₂",
+            "CO₂ + H₂O",
+            "H₂ only"
           ],
-          "answer": "Option A"
+          "answer": "CO + H₂"
         },
         {
-          "question": "Q7 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 7,
+          "question": "Producer gas is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO + N₂ (from C + air)",
+            "CO + H₂",
+            "CH₄ + H₂",
+            "H₂ + N₂"
           ],
-          "answer": "Option A"
+          "answer": "CO + N₂ (from C + air)"
         },
         {
-          "question": "Q8 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 8,
+          "question": "H₂ is obtained electrolytically at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cathode",
+            "Anode",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Cathode"
         },
         {
-          "question": "Q9 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 9,
+          "question": "Para-hydrogen and ortho-hydrogen differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Spin of two H nuclei (antiparallel vs parallel)",
+            "Charges",
+            "Masses",
+            "Electrons"
           ],
-          "answer": "Option A"
+          "answer": "Spin of two H nuclei (antiparallel vs parallel)"
         },
         {
-          "question": "Q10 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 10,
+          "question": "Ordinary H₂ at 25°C has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "75% ortho, 25% para",
+            "100% ortho",
+            "100% para",
+            "50-50"
           ],
-          "answer": "Option A"
+          "answer": "75% ortho, 25% para"
         },
         {
-          "question": "Q11 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 11,
+          "question": "Ionic hydrides are formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Group 1 (except Be), Group 2 (except Be, Mg)",
+            "Non-metals",
+            "Transition metals",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Group 1 (except Be), Group 2 (except Be, Mg)"
         },
         {
-          "question": "Q12 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 12,
+          "question": "Ionic hydrides contain:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H⁻ (hydride) ion",
+            "H⁺",
+            "H₂",
+            "H₃O⁺"
           ],
-          "answer": "Option A"
+          "answer": "H⁻ (hydride) ion"
         },
         {
-          "question": "Q13 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 13,
+          "question": "Covalent hydrides are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-metal hydrides (CH₄, NH₃, H₂O)",
+            "NaH",
+            "CaH₂",
+            "KH"
           ],
-          "answer": "Option A"
+          "answer": "Non-metal hydrides (CH₄, NH₃, H₂O)"
         },
         {
-          "question": "Q14 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 14,
+          "question": "Metallic (interstitial) hydrides are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Formed by transition metals, non-stoichiometric",
+            "Ionic",
+            "Polar covalent",
+            "Noble"
           ],
-          "answer": "Option A"
+          "answer": "Formed by transition metals, non-stoichiometric"
         },
         {
-          "question": "Q15 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 15,
+          "question": "Hardness of water is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ca²⁺, Mg²⁺ ions",
+            "Na⁺, K⁺",
+            "Cl⁻",
+            "OH⁻"
           ],
-          "answer": "Option A"
+          "answer": "Ca²⁺, Mg²⁺ ions"
         },
         {
-          "question": "Q16 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 16,
+          "question": "Temporary hardness is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Bicarbonates of Ca/Mg (removed by boiling)",
+            "Chlorides/sulphates",
+            "NaCl",
+            "HCl"
           ],
-          "answer": "Option A"
+          "answer": "Bicarbonates of Ca/Mg (removed by boiling)"
         },
         {
-          "question": "Q17 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 17,
+          "question": "Permanent hardness is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chlorides and sulphates of Ca/Mg",
+            "Bicarbonates",
+            "NaCl",
+            "HCl"
           ],
-          "answer": "Option A"
+          "answer": "Chlorides and sulphates of Ca/Mg"
         },
         {
-          "question": "Q18 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 18,
+          "question": "Permanent hardness removed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Washing soda / ion-exchange / Calgon method",
+            "Boiling",
+            "Filtering",
+            "Adding CaCl₂"
           ],
-          "answer": "Option A"
+          "answer": "Washing soda / ion-exchange / Calgon method"
         },
         {
-          "question": "Q19 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 19,
+          "question": "H₂O₂ preparation by industrial (anthraquinone):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Autoxidation of 2-alkylanthraquinol",
+            "H₂ + O₂",
+            "NaOH + Cl₂",
+            "H₂O + HCl"
           ],
-          "answer": "Option A"
+          "answer": "Autoxidation of 2-alkylanthraquinol"
         },
         {
-          "question": "Q20 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 20,
+          "question": "Structure of H₂O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Open-book (non-planar, 2 OH groups)",
+            "Planar",
+            "Linear",
+            "Tetrahedral"
           ],
-          "answer": "Option A"
+          "answer": "Open-book (non-planar, 2 OH groups)"
         },
         {
-          "question": "Q21 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 21,
+          "question": "H₂O₂ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both oxidising and reducing agent",
+            "Only oxidising",
+            "Only reducing",
+            "Inert"
           ],
-          "answer": "Option A"
+          "answer": "Both oxidising and reducing agent"
         },
         {
-          "question": "Q22 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 22,
+          "question": "Strength of H₂O₂: '10 V' means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 volume gives 10 volumes of O₂ at STP",
+            "10 g H₂O₂ per L",
+            "10 M",
+            "10%"
           ],
-          "answer": "Option A"
+          "answer": "1 volume gives 10 volumes of O₂ at STP"
         },
         {
-          "question": "Q23 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 23,
+          "question": "Decomposition of H₂O₂ (catalysed by MnO₂):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2H₂O₂ → 2H₂O + O₂",
+            "H₂O₂ → H₂ + O₂",
+            "Stable, no decomposition",
+            "H₂O₂ → H₂O only"
           ],
-          "answer": "Option A"
+          "answer": "2H₂O₂ → 2H₂O + O₂"
         },
         {
-          "question": "Q24 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 24,
+          "question": "H₂O₂ is stored in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Wax-lined dark bottles (away from light/dust)",
+            "Clear bottles in sun",
+            "Metal cans",
+            "Open containers"
           ],
-          "answer": "Option A"
+          "answer": "Wax-lined dark bottles (away from light/dust)"
         },
         {
-          "question": "Q25 Week 36: Topic - Hydrogen – Position, Isotopes, Preparation, Properties, Water, H₂O₂",
+          "id": 25,
+          "question": "Heavy water (D₂O) is used as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Moderator in nuclear reactors",
+            "Fuel",
+            "Coolant only",
+            "Electrolyte"
           ],
-          "answer": "Option A"
+          "answer": "Moderator in nuclear reactors"
         }
       ]
     },
@@ -9796,254 +10046,279 @@
       "topic": "s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
       "questions": [
         {
-          "question": "Q1 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 1,
+          "question": "Group 1 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkali metals",
+            "Alkaline earth",
+            "Halogens",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Alkali metals"
         },
         {
-          "question": "Q2 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 2,
+          "question": "Group 1 electronic configuration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ns¹",
+            "ns²",
+            "ns²np¹",
+            "ns²np⁵"
           ],
-          "answer": "Option A"
+          "answer": "ns¹"
         },
         {
-          "question": "Q3 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 3,
+          "question": "Most abundant alkali metal in earth's crust:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na",
+            "Li",
+            "K",
+            "Cs"
           ],
-          "answer": "Option A"
+          "answer": "Na"
         },
         {
-          "question": "Q4 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 4,
+          "question": "Least abundant (stable) alkali metal:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cs",
+            "Li",
+            "Na",
+            "K"
           ],
-          "answer": "Option A"
+          "answer": "Cs"
         },
         {
-          "question": "Q5 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 5,
+          "question": "Alkali metals are stored in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kerosene",
+            "Water",
+            "Air",
+            "Alcohol"
           ],
-          "answer": "Option A"
+          "answer": "Kerosene"
         },
         {
-          "question": "Q6 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 6,
+          "question": "Down the group, atomic radius of alkali metals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q7 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 7,
+          "question": "Ionisation energy down the group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q8 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 8,
+          "question": "Reactivity of alkali metals down the group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Unchanged",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q9 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 9,
+          "question": "Melting point of alkali metals down the group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases (metallic bond weakens)",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases (metallic bond weakens)"
         },
         {
-          "question": "Q10 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 10,
+          "question": "Oxidation state of alkali metals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+1",
+            "+2",
+            "−1",
+            "+3"
           ],
-          "answer": "Option A"
+          "answer": "+1"
         },
         {
-          "question": "Q11 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 11,
+          "question": "Alkali metal + O₂ (limited) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "M₂O (oxide, mainly Li)",
+            "MO",
+            "MO₂",
+            "M₂O₂"
           ],
-          "answer": "Option A"
+          "answer": "M₂O (oxide, mainly Li)"
         },
         {
-          "question": "Q12 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 12,
+          "question": "Na + O₂ gives mainly:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₂O₂ (peroxide)",
+            "Na₂O",
+            "NaO₂",
+            "NaO"
           ],
-          "answer": "Option A"
+          "answer": "Na₂O₂ (peroxide)"
         },
         {
-          "question": "Q13 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 13,
+          "question": "K, Rb, Cs + O₂ give mainly:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "MO₂ (superoxide)",
+            "M₂O",
+            "M₂O₂",
+            "M₂O₃"
           ],
-          "answer": "Option A"
+          "answer": "MO₂ (superoxide)"
         },
         {
-          "question": "Q14 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 14,
+          "question": "Alkali metal + H₂O gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "MOH + H₂",
+            "MO + H₂",
+            "M₂O + H₂",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "MOH + H₂"
         },
         {
-          "question": "Q15 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 15,
+          "question": "Most vigorous reaction with water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cs > Rb > K > Na > Li",
+            "Li > Na > K > Rb",
+            "Na most",
+            "Li most"
           ],
-          "answer": "Option A"
+          "answer": "Cs > Rb > K > Na > Li"
         },
         {
-          "question": "Q16 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 16,
+          "question": "Flame colour of Na:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Golden yellow",
+            "Red",
+            "Violet",
+            "Blue"
           ],
-          "answer": "Option A"
+          "answer": "Golden yellow"
         },
         {
-          "question": "Q17 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 17,
+          "question": "Flame colour of K:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Violet/lilac",
+            "Yellow",
+            "Green",
+            "Blue"
           ],
-          "answer": "Option A"
+          "answer": "Violet/lilac"
         },
         {
-          "question": "Q18 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 18,
+          "question": "Flame colour of Li:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Crimson red",
+            "Yellow",
+            "Violet",
+            "Green"
           ],
-          "answer": "Option A"
+          "answer": "Crimson red"
         },
         {
-          "question": "Q19 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 19,
+          "question": "Alkali metals in liquid NH₃ give:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Blue solution (solvated electrons)",
+            "Yellow",
+            "Red",
+            "Colourless"
           ],
-          "answer": "Option A"
+          "answer": "Blue solution (solvated electrons)"
         },
         {
-          "question": "Q20 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 20,
+          "question": "Blue colour is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ammoniated (solvated) electrons",
+            "Na⁺ ions",
+            "NH₂⁻",
+            "H₂"
           ],
-          "answer": "Option A"
+          "answer": "Ammoniated (solvated) electrons"
         },
         {
-          "question": "Q21 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 21,
+          "question": "Diagonal relationship:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Li with Mg, Be with Al",
+            "Na with Mg",
+            "K with Ca",
+            "Cs with Ba"
           ],
-          "answer": "Option A"
+          "answer": "Li with Mg, Be with Al"
         },
         {
-          "question": "Q22 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 22,
+          "question": "NaOH preparation by electrolysis (Castner-Kellner):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrolysis of brine with Hg cathode",
+            "NaCl + H₂O (thermal)",
+            "Na + H₂O",
+            "Na₂CO₃ + Ca(OH)₂"
           ],
-          "answer": "Option A"
+          "answer": "Electrolysis of brine with Hg cathode"
         },
         {
-          "question": "Q23 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 23,
+          "question": "Na₂CO₃ (washing soda) by Solvay process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Uses NH₃, CO₂, NaCl, H₂O",
+            "Na + HCl",
+            "NaCl + HCl",
+            "Na + CO₂"
           ],
-          "answer": "Option A"
+          "answer": "Uses NH₃, CO₂, NaCl, H₂O"
         },
         {
-          "question": "Q24 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 24,
+          "question": "NaHCO₃ (baking soda) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mild alkali, used in baking and antacid",
+            "Strong base",
+            "Strong acid",
+            "Salt only"
           ],
-          "answer": "Option A"
+          "answer": "Mild alkali, used in baking and antacid"
         },
         {
-          "question": "Q25 Week 37: Topic - s-Block Elements – Group 1 (Alkali Metals), Properties, Compounds",
+          "id": 25,
+          "question": "Soda ash is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Anhydrous Na₂CO₃",
+            "NaHCO₃",
+            "NaOH",
+            "Na₂O₂"
           ],
-          "answer": "Option A"
+          "answer": "Anhydrous Na₂CO₃"
         }
       ]
     },
@@ -10052,254 +10327,279 @@
       "topic": "s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
       "questions": [
         {
-          "question": "Q1 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 1,
+          "question": "Group 2 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkaline earth metals",
+            "Alkali metals",
+            "Halogens",
+            "Chalcogens"
           ],
-          "answer": "Option A"
+          "answer": "Alkaline earth metals"
         },
         {
-          "question": "Q2 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 2,
+          "question": "Group 2 electronic configuration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ns²",
+            "ns¹",
+            "ns²np¹",
+            "ns²np²"
           ],
-          "answer": "Option A"
+          "answer": "ns²"
         },
         {
-          "question": "Q3 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 3,
+          "question": "Group 2 elements:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Be, Mg, Ca, Sr, Ba, Ra",
+            "Li, Na, K, Rb, Cs",
+            "B, Al, Ga, In",
+            "N, P, As"
           ],
-          "answer": "Option A"
+          "answer": "Be, Mg, Ca, Sr, Ba, Ra"
         },
         {
-          "question": "Q4 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 4,
+          "question": "Oxidation state of alkaline earth metals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+2",
+            "+1",
+            "−2",
+            "+3"
           ],
-          "answer": "Option A"
+          "answer": "+2"
         },
         {
-          "question": "Q5 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 5,
+          "question": "Which is radioactive?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ra",
+            "Ba",
+            "Ca",
+            "Mg"
           ],
-          "answer": "Option A"
+          "answer": "Ra"
         },
         {
-          "question": "Q6 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 6,
+          "question": "Down the group, reactivity of Group 2 metals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q7 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 7,
+          "question": "Atomic/ionic radius of Group 2 vs Group 1 (same period):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Smaller (higher Z_eff)",
+            "Larger",
+            "Equal",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Smaller (higher Z_eff)"
         },
         {
-          "question": "Q8 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 8,
+          "question": "IE of Group 2 vs Group 1 (same period):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher",
+            "Lower",
+            "Equal",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Higher"
         },
         {
-          "question": "Q9 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 9,
+          "question": "Density trend in Group 2:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases then increases (Ca lowest)",
+            "Always increases",
+            "Always decreases",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Decreases then increases (Ca lowest)"
         },
         {
-          "question": "Q10 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 10,
+          "question": "Be is different from other Group 2 because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small size, high polarising power, covalent compounds",
+            "Lowest EN",
+            "Radioactive",
+            "Gas at RT"
           ],
-          "answer": "Option A"
+          "answer": "Small size, high polarising power, covalent compounds"
         },
         {
-          "question": "Q11 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 11,
+          "question": "Mg burns in air with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dazzling white flame",
+            "Yellow flame",
+            "Red flame",
+            "No flame"
           ],
-          "answer": "Option A"
+          "answer": "Dazzling white flame"
         },
         {
-          "question": "Q12 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 12,
+          "question": "Mg + N₂ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mg₃N₂",
+            "MgN",
+            "Mg₂N",
+            "Mg(NO₃)₂"
           ],
-          "answer": "Option A"
+          "answer": "Mg₃N₂"
         },
         {
-          "question": "Q13 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 13,
+          "question": "Ca(OH)₂ is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Slaked lime",
+            "Quicklime",
+            "Lime water (solution)",
+            "Plaster of Paris"
           ],
-          "answer": "Option A"
+          "answer": "Slaked lime"
         },
         {
-          "question": "Q14 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 14,
+          "question": "CaO is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Quicklime",
+            "Slaked lime",
+            "Lime water",
+            "Limestone"
           ],
-          "answer": "Option A"
+          "answer": "Quicklime"
         },
         {
-          "question": "Q15 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 15,
+          "question": "CaCO₃ is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Limestone (common form)",
+            "Quicklime",
+            "Slaked lime",
+            "Dolomite"
           ],
-          "answer": "Option A"
+          "answer": "Limestone (common form)"
         },
         {
-          "question": "Q16 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 16,
+          "question": "Dolomite is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaCO₃·MgCO₃",
+            "CaSO₄",
+            "CaCl₂",
+            "MgCl₂"
           ],
-          "answer": "Option A"
+          "answer": "CaCO₃·MgCO₃"
         },
         {
-          "question": "Q17 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 17,
+          "question": "Plaster of Paris formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaSO₄·½H₂O",
+            "CaSO₄·2H₂O",
+            "CaSO₄",
+            "CaCO₃"
           ],
-          "answer": "Option A"
+          "answer": "CaSO₄·½H₂O"
         },
         {
-          "question": "Q18 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 18,
+          "question": "Gypsum formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaSO₄·2H₂O",
+            "CaSO₄·½H₂O",
+            "CaSO₄",
+            "CaO"
           ],
-          "answer": "Option A"
+          "answer": "CaSO₄·2H₂O"
         },
         {
-          "question": "Q19 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 19,
+          "question": "PoP when mixed with water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sets into hard mass, expands slightly",
+            "Dissolves",
+            "No reaction",
+            "Liquefies permanently"
           ],
-          "answer": "Option A"
+          "answer": "Sets into hard mass, expands slightly"
         },
         {
-          "question": "Q20 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 20,
+          "question": "Calcium flame colour:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Brick red",
+            "Green",
+            "Yellow",
+            "Violet"
           ],
-          "answer": "Option A"
+          "answer": "Brick red"
         },
         {
-          "question": "Q21 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 21,
+          "question": "Barium flame colour:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Apple green",
+            "Red",
+            "Violet",
+            "Yellow"
           ],
-          "answer": "Option A"
+          "answer": "Apple green"
         },
         {
-          "question": "Q22 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 22,
+          "question": "Strontium flame colour:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Crimson red",
+            "Yellow",
+            "Green",
+            "Blue"
           ],
-          "answer": "Option A"
+          "answer": "Crimson red"
         },
         {
-          "question": "Q23 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 23,
+          "question": "Milk of magnesia is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mg(OH)₂ suspension",
+            "Ca(OH)₂",
+            "MgCl₂",
+            "MgSO₄"
           ],
-          "answer": "Option A"
+          "answer": "Mg(OH)₂ suspension"
         },
         {
-          "question": "Q24 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 24,
+          "question": "Epsom salt is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "MgSO₄·7H₂O",
+            "CaSO₄",
+            "MgCl₂",
+            "Na₂SO₄"
           ],
-          "answer": "Option A"
+          "answer": "MgSO₄·7H₂O"
         },
         {
-          "question": "Q25 Week 38: Topic - s-Block Elements – Group 2 (Alkaline Earth Metals), Properties, Compounds",
+          "id": 25,
+          "question": "Diagonal relationship in Group 2:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Be with Al",
+            "Mg with Na",
+            "Ca with K",
+            "Ba with Cs"
           ],
-          "answer": "Option A"
+          "answer": "Be with Al"
         }
       ]
     },
@@ -10308,254 +10608,279 @@
       "topic": "p-Block Elements – Group 13 (Boron Family), General Properties",
       "questions": [
         {
-          "question": "Q1 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 1,
+          "question": "Group 13 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Boron family",
+            "Carbon family",
+            "Nitrogen family",
+            "Oxygen family"
           ],
-          "answer": "Option A"
+          "answer": "Boron family"
         },
         {
-          "question": "Q2 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 2,
+          "question": "Group 13 elements:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "B, Al, Ga, In, Tl",
+            "C, Si, Ge, Sn, Pb",
+            "N, P, As, Sb, Bi",
+            "O, S, Se, Te, Po"
           ],
-          "answer": "Option A"
+          "answer": "B, Al, Ga, In, Tl"
         },
         {
-          "question": "Q3 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 3,
+          "question": "Group 13 electronic configuration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ns²np¹",
+            "ns²",
+            "ns²np²",
+            "ns²np⁵"
           ],
-          "answer": "Option A"
+          "answer": "ns²np¹"
         },
         {
-          "question": "Q4 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 4,
+          "question": "Common oxidation state:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+3 (also +1 for heavier elements)",
+            "+2 only",
+            "+1 only",
+            "+5"
           ],
-          "answer": "Option A"
+          "answer": "+3 (also +1 for heavier elements)"
         },
         {
-          "question": "Q5 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 5,
+          "question": "Inert pair effect is most prominent in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tl (+1 more stable than +3)",
+            "B",
+            "Al",
+            "Ga"
           ],
-          "answer": "Option A"
+          "answer": "Tl (+1 more stable than +3)"
         },
         {
-          "question": "Q6 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 6,
+          "question": "B is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-metal (metalloid)",
+            "Metal",
+            "Noble gas",
+            "Halogen"
           ],
-          "answer": "Option A"
+          "answer": "Non-metal (metalloid)"
         },
         {
-          "question": "Q7 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 7,
+          "question": "Al and below are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Metals",
+            "Non-metals",
+            "Metalloids",
+            "Gases"
           ],
-          "answer": "Option A"
+          "answer": "Metals"
         },
         {
-          "question": "Q8 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 8,
+          "question": "Most abundant metal in earth's crust:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Al",
+            "Fe",
+            "Cu",
+            "Zn"
           ],
-          "answer": "Option A"
+          "answer": "Al"
         },
         {
-          "question": "Q9 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 9,
+          "question": "Bauxite is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Al₂O₃·2H₂O (Al ore)",
+            "FeO",
+            "CaCO₃",
+            "NaCl"
           ],
-          "answer": "Option A"
+          "answer": "Al₂O₃·2H₂O (Al ore)"
         },
         {
-          "question": "Q10 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 10,
+          "question": "Al extracted by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Hall-Héroult (electrolysis of Al₂O₃ in molten cryolite)",
+            "Smelting",
+            "Bessemer",
+            "Froth flotation only"
           ],
-          "answer": "Option A"
+          "answer": "Hall-Héroult (electrolysis of Al₂O₃ in molten cryolite)"
         },
         {
-          "question": "Q11 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 11,
+          "question": "Cryolite is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₃AlF₆",
+            "Al₂O₃",
+            "AlCl₃",
+            "AlF₃"
           ],
-          "answer": "Option A"
+          "answer": "Na₃AlF₆"
         },
         {
-          "question": "Q12 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 12,
+          "question": "B exists as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Icosahedral B₁₂ units (amorphous or crystalline)",
+            "Diatomic",
+            "Monatomic gas",
+            "Rings"
           ],
-          "answer": "Option A"
+          "answer": "Icosahedral B₁₂ units (amorphous or crystalline)"
         },
         {
-          "question": "Q13 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 13,
+          "question": "B is obtained by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reduction of B₂O₃ with Mg",
+            "Electrolysis",
+            "Reduction with C",
+            "Decomposition only"
           ],
-          "answer": "Option A"
+          "answer": "Reduction of B₂O₃ with Mg"
         },
         {
-          "question": "Q14 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 14,
+          "question": "Diborane (B₂H₆) has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3c-2e banana bonds (bridging H)",
+            "Normal covalent bonds",
+            "Ionic bonds",
+            "Metallic bonds"
           ],
-          "answer": "Option A"
+          "answer": "3c-2e banana bonds (bridging H)"
         },
         {
-          "question": "Q15 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 15,
+          "question": "Number of terminal vs bridging H in B₂H₆:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 terminal + 2 bridging",
+            "6 terminal",
+            "0 bridging",
+            "4 bridging"
           ],
-          "answer": "Option A"
+          "answer": "4 terminal + 2 bridging"
         },
         {
-          "question": "Q16 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 16,
+          "question": "Boric acid (H₃BO₃) structure:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Layered (2D) with H-bonding",
+            "Tetrahedral",
+            "Diatomic",
+            "Chain"
           ],
-          "answer": "Option A"
+          "answer": "Layered (2D) with H-bonding"
         },
         {
-          "question": "Q17 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 17,
+          "question": "H₃BO₃ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Weak monobasic acid (Lewis acid, accepts OH⁻ from water)",
+            "Strong triprotic",
+            "Base",
+            "Amphoteric"
           ],
-          "answer": "Option A"
+          "answer": "Weak monobasic acid (Lewis acid, accepts OH⁻ from water)"
         },
         {
-          "question": "Q18 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 18,
+          "question": "Borax formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₂B₄O₇·10H₂O",
+            "NaBO₂",
+            "NaBH₄",
+            "B(OH)₃"
           ],
-          "answer": "Option A"
+          "answer": "Na₂B₄O₇·10H₂O"
         },
         {
-          "question": "Q19 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 19,
+          "question": "Borax bead test identifies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Transition metal ions (distinctive colours)",
+            "Alkali metals",
+            "Non-metals",
+            "Halides"
           ],
-          "answer": "Option A"
+          "answer": "Transition metal ions (distinctive colours)"
         },
         {
-          "question": "Q20 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 20,
+          "question": "Al₂O₃ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amphoteric",
+            "Only acidic",
+            "Only basic",
+            "Neutral"
           ],
-          "answer": "Option A"
+          "answer": "Amphoteric"
         },
         {
-          "question": "Q21 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 21,
+          "question": "Al + NaOH gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sodium aluminate + H₂",
+            "Al(OH)₃",
+            "Al₂O₃",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Sodium aluminate + H₂"
         },
         {
-          "question": "Q22 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 22,
+          "question": "Al + HCl gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "AlCl₃ + H₂",
+            "Al₂O₃",
+            "Al(OH)₃",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "AlCl₃ + H₂"
         },
         {
-          "question": "Q23 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 23,
+          "question": "Al is passivated by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conc. HNO₃ (forms oxide layer)",
+            "Dilute HCl",
+            "NaOH",
+            "Water"
           ],
-          "answer": "Option A"
+          "answer": "Conc. HNO₃ (forms oxide layer)"
         },
         {
-          "question": "Q24 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 24,
+          "question": "AlCl₃ exists as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dimer Al₂Cl₆ in vapour",
+            "Monomer always",
+            "Ionic always",
+            "Atomic"
           ],
-          "answer": "Option A"
+          "answer": "Dimer Al₂Cl₆ in vapour"
         },
         {
-          "question": "Q25 Week 39: Topic - p-Block Elements – Group 13 (Boron Family), General Properties",
+          "id": 25,
+          "question": "Alums general formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "M₂SO₄·M′₂(SO₄)₃·24H₂O",
+            "NaCl",
+            "KMnO₄",
+            "Al(OH)₃"
           ],
-          "answer": "Option A"
+          "answer": "M₂SO₄·M′₂(SO₄)₃·24H₂O"
         }
       ]
     },
