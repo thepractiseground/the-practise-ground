@@ -8709,254 +8709,279 @@
       "topic": "Oscillations – Simple Harmonic Motion (SHM), Displacement, Velocity, Acceleration",
       "questions": [
         {
-          "question": "Week 35 Question 1: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q1",
+          "question": "A motion that repeats itself at regular intervals of time is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Periodic motion",
+            "Rotational motion",
+            "Translational motion",
+            "Random motion"
           ],
-          "answer": "Option A"
+          "answer": "Periodic motion"
         },
         {
-          "question": "Week 35 Question 2: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q2",
+          "question": "The motion of a particle in SHM is characterized by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Constant velocity",
+            "Constant acceleration",
+            "Acceleration ∝ displacement (opposite direction)",
+            "Zero acceleration"
           ],
-          "answer": "Option A"
+          "answer": "Acceleration ∝ displacement (opposite direction)"
         },
         {
-          "question": "Week 35 Question 3: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q3",
+          "question": "The general equation of SHM is x(t) = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A sin(ωt + φ)",
+            "At + B",
+            "A e^(ωt)",
+            "A/t"
           ],
-          "answer": "Option A"
+          "answer": "A sin(ωt + φ)"
         },
         {
-          "question": "Week 35 Question 4: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q4",
+          "question": "In SHM, A denotes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Angular frequency",
+            "Amplitude",
+            "Phase",
+            "Period"
           ],
-          "answer": "Option A"
+          "answer": "Amplitude"
         },
         {
-          "question": "Week 35 Question 5: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q5",
+          "question": "The angular frequency ω relates to time period T by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ω = 2π/T",
+            "ω = T/2π",
+            "ω = πT",
+            "ω = T²"
           ],
-          "answer": "Option A"
+          "answer": "ω = 2π/T"
         },
         {
-          "question": "Week 35 Question 6: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q6",
+          "question": "Frequency f and time period T are related by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "f = 1/T",
+            "f = T",
+            "f = T²",
+            "f = 2T"
           ],
-          "answer": "Option A"
+          "answer": "f = 1/T"
         },
         {
-          "question": "Week 35 Question 7: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q7",
+          "question": "The SI unit of angular frequency is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "rad/s",
+            "Hz",
+            "s",
+            "m/s"
           ],
-          "answer": "Option A"
+          "answer": "rad/s"
         },
         {
-          "question": "Week 35 Question 8: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q8",
+          "question": "In SHM, the velocity at displacement x from mean position is v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ω√(A² - x²)",
+            "ωA",
+            "ωx",
+            "ω/A"
           ],
-          "answer": "Option A"
+          "answer": "ω√(A² - x²)"
         },
         {
-          "question": "Week 35 Question 9: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q9",
+          "question": "The maximum velocity in SHM occurs at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Extreme position",
+            "Mean position",
+            "Quarter amplitude",
+            "Anywhere"
           ],
-          "answer": "Option A"
+          "answer": "Mean position"
         },
         {
-          "question": "Week 35 Question 10: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q10",
+          "question": "The maximum velocity v_max in SHM = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ωA",
+            "ω²A",
+            "ωA²",
+            "A/ω"
           ],
-          "answer": "Option A"
+          "answer": "ωA"
         },
         {
-          "question": "Week 35 Question 11: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q11",
+          "question": "The acceleration in SHM is a = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "-ω²x",
+            "-ωx",
+            "ω²x",
+            "-x"
           ],
-          "answer": "Option A"
+          "answer": "-ω²x"
         },
         {
-          "question": "Week 35 Question 12: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q12",
+          "question": "The maximum acceleration a_max in SHM = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ω²A",
+            "ωA",
+            "ω²A²",
+            "A/ω"
           ],
-          "answer": "Option A"
+          "answer": "ω²A"
         },
         {
-          "question": "Week 35 Question 13: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q13",
+          "question": "At the mean position in SHM, acceleration is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Maximum",
+            "Zero",
+            "Half of maximum",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 35 Question 14: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q14",
+          "question": "At extreme positions in SHM, velocity is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Maximum",
+            "Zero",
+            "Half of maximum",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 35 Question 15: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q15",
+          "question": "The phase (ωt + φ) of SHM determines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amplitude only",
+            "State of the particle at time t",
+            "Time period",
+            "Frequency"
           ],
-          "answer": "Option A"
+          "answer": "State of the particle at time t"
         },
         {
-          "question": "Week 35 Question 16: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q16",
+          "question": "In SHM, displacement and acceleration are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "In same phase",
+            "Out of phase by π",
+            "Out of phase by π/2",
+            "Unrelated"
           ],
-          "answer": "Option A"
+          "answer": "Out of phase by π"
         },
         {
-          "question": "Week 35 Question 17: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q17",
+          "question": "In SHM, velocity and displacement differ in phase by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "π/2",
+            "π",
+            "2π"
           ],
-          "answer": "Option A"
+          "answer": "π/2"
         },
         {
-          "question": "Week 35 Question 18: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q18",
+          "question": "SHM is a special case of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Uniform circular motion projected on a diameter",
+            "Rotational motion",
+            "Linear motion",
+            "Projectile motion"
           ],
-          "answer": "Option A"
+          "answer": "Uniform circular motion projected on a diameter"
         },
         {
-          "question": "Week 35 Question 19: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q19",
+          "question": "If x = A cos(ωt), the particle starts from:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mean position",
+            "Extreme position",
+            "Quarter amplitude",
+            "3A/4"
           ],
-          "answer": "Option A"
+          "answer": "Extreme position"
         },
         {
-          "question": "Week 35 Question 20: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q20",
+          "question": "If x = A sin(ωt), the particle at t=0 is at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mean position moving towards +A",
+            "Extreme position",
+            "Quarter amplitude",
+            "3A/4"
           ],
-          "answer": "Option A"
+          "answer": "Mean position moving towards +A"
         },
         {
-          "question": "Week 35 Question 21: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q21",
+          "question": "The time period T of SHM is independent of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amplitude",
+            "Mass",
+            "Spring constant",
+            "Length"
           ],
-          "answer": "Option A"
+          "answer": "Amplitude"
         },
         {
-          "question": "Week 35 Question 22: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q22",
+          "question": "Two SHMs are said to be in phase if their phase difference is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0 or 2π",
+            "π",
+            "π/2",
+            "π/4"
           ],
-          "answer": "Option A"
+          "answer": "0 or 2π"
         },
         {
-          "question": "Week 35 Question 23: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q23",
+          "question": "The phase constant φ in SHM depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Initial conditions of motion",
+            "Frequency",
+            "Amplitude",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Initial conditions of motion"
         },
         {
-          "question": "Week 35 Question 24: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q24",
+          "question": "A particle executes SHM with amplitude 5 cm and frequency 2 Hz. Max velocity = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20π cm/s",
+            "10 cm/s",
+            "5π cm/s",
+            "2π cm/s"
           ],
-          "answer": "Option A"
+          "answer": "20π cm/s"
         },
         {
-          "question": "Week 35 Question 25: Oscillations – Simple Harmonic Motion (S...",
+          "id": "p11-w35-q25",
+          "question": "Dimensions of angular frequency are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[T⁻¹]",
+            "[LT⁻¹]",
+            "[T]",
+            "[MLT⁻²]"
           ],
-          "answer": "Option A"
+          "answer": "[T⁻¹]"
         }
       ]
     },
@@ -8965,254 +8990,279 @@
       "topic": "Oscillations – Energy in SHM, Time Period of Spring & Pendulum",
       "questions": [
         {
-          "question": "Week 36 Question 1: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q1",
+          "question": "The kinetic energy in SHM at displacement x is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½mω²(A² - x²)",
+            "½mω²A²",
+            "½mω²x²",
+            "mω²A²"
           ],
-          "answer": "Option A"
+          "answer": "½mω²(A² - x²)"
         },
         {
-          "question": "Week 36 Question 2: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q2",
+          "question": "The potential energy in SHM at displacement x is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½mω²x²",
+            "½mω²A²",
+            "½mω²(A² - x²)",
+            "mω²x"
           ],
-          "answer": "Option A"
+          "answer": "½mω²x²"
         },
         {
-          "question": "Week 36 Question 3: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q3",
+          "question": "The total mechanical energy in SHM is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½mω²A²",
+            "½mω²x²",
+            "mω²A",
+            "zero"
           ],
-          "answer": "Option A"
+          "answer": "½mω²A²"
         },
         {
-          "question": "Week 36 Question 4: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q4",
+          "question": "In SHM, total energy is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Conserved",
+            "Increasing",
+            "Decreasing",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Conserved"
         },
         {
-          "question": "Week 36 Question 5: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q5",
+          "question": "Maximum KE in SHM occurs at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mean position",
+            "Extreme position",
+            "Quarter amplitude",
+            "Anywhere"
           ],
-          "answer": "Option A"
+          "answer": "Mean position"
         },
         {
-          "question": "Week 36 Question 6: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q6",
+          "question": "Maximum PE in SHM occurs at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Extreme position",
+            "Mean position",
+            "Quarter amplitude",
+            "Anywhere"
           ],
-          "answer": "Option A"
+          "answer": "Extreme position"
         },
         {
-          "question": "Week 36 Question 7: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q7",
+          "question": "At mean position, PE is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "Maximum",
+            "Half of total",
+            "Equal to KE"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 36 Question 8: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q8",
+          "question": "At x = A/√2, KE equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PE",
+            "Twice PE",
+            "Half of PE",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "PE"
         },
         {
-          "question": "Week 36 Question 9: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q9",
+          "question": "The frequency of KE oscillation in SHM compared to displacement is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Double",
+            "Same",
+            "Half",
+            "Quadruple"
           ],
-          "answer": "Option A"
+          "answer": "Double"
         },
         {
-          "question": "Week 36 Question 10: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q10",
+          "question": "The time period of a spring-mass system is T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π√(m/k)",
+            "2π√(k/m)",
+            "π√(m/k)",
+            "√(m/k)"
           ],
-          "answer": "Option A"
+          "answer": "2π√(m/k)"
         },
         {
-          "question": "Week 36 Question 11: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q11",
+          "question": "The frequency of a spring-mass system is f = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(1/2π)√(k/m)",
+            "2π√(k/m)",
+            "√(k/m)",
+            "(1/2π)√(m/k)"
           ],
-          "answer": "Option A"
+          "answer": "(1/2π)√(k/m)"
         },
         {
-          "question": "Week 36 Question 12: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q12",
+          "question": "If mass is doubled in spring-mass system, time period becomes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√2 times",
+            "2 times",
+            "½ times",
+            "unchanged"
           ],
-          "answer": "Option A"
+          "answer": "√2 times"
         },
         {
-          "question": "Week 36 Question 13: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q13",
+          "question": "If spring constant is quadrupled, time period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halves",
+            "Doubles",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Halves"
         },
         {
-          "question": "Week 36 Question 14: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q14",
+          "question": "Two identical springs in parallel have effective k = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2k",
+            "k/2",
+            "k",
+            "4k"
           ],
-          "answer": "Option A"
+          "answer": "2k"
         },
         {
-          "question": "Week 36 Question 15: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q15",
+          "question": "Two identical springs in series have effective k = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "k/2",
+            "2k",
+            "k",
+            "4k"
           ],
-          "answer": "Option A"
+          "answer": "k/2"
         },
         {
-          "question": "Week 36 Question 16: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q16",
+          "question": "Time period of simple pendulum T = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π√(L/g)",
+            "2π√(g/L)",
+            "π√(L/g)",
+            "√(L/g)"
           ],
-          "answer": "Option A"
+          "answer": "2π√(L/g)"
         },
         {
-          "question": "Week 36 Question 17: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q17",
+          "question": "The period of pendulum is independent of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass of bob",
+            "Length",
+            "g",
+            "Amplitude for small angles"
           ],
-          "answer": "Option A"
+          "answer": "Mass of bob"
         },
         {
-          "question": "Week 36 Question 18: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q18",
+          "question": "If length of pendulum is quadrupled, its time period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Week 36 Question 19: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q19",
+          "question": "On the Moon (g_moon = g/6), pendulum period compared to Earth:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√6 times",
+            "6 times",
+            "1/√6 times",
+            "Same"
           ],
-          "answer": "Option A"
+          "answer": "√6 times"
         },
         {
-          "question": "Week 36 Question 20: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q20",
+          "question": "A second's pendulum has time period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 s",
+            "1 s",
+            "0.5 s",
+            "4 s"
           ],
-          "answer": "Option A"
+          "answer": "2 s"
         },
         {
-          "question": "Week 36 Question 21: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q21",
+          "question": "Length of second's pendulum on Earth ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "99.4 cm",
+            "100 cm",
+            "50 cm",
+            "25 cm"
           ],
-          "answer": "Option A"
+          "answer": "99.4 cm"
         },
         {
-          "question": "Week 36 Question 22: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q22",
+          "question": "A pendulum at equator vs poles:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longer period at equator",
+            "Shorter period at equator",
+            "Same period",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Longer period at equator"
         },
         {
-          "question": "Week 36 Question 23: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q23",
+          "question": "The SHM assumption for pendulum requires:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small angular displacement",
+            "Large amplitude",
+            "Constant tension",
+            "Frictionless string"
           ],
-          "answer": "Option A"
+          "answer": "Small angular displacement"
         },
         {
-          "question": "Week 36 Question 24: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q24",
+          "question": "Spring potential energy at extension x is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½kx²",
+            "kx",
+            "kx²",
+            "½k x"
           ],
-          "answer": "Option A"
+          "answer": "½kx²"
         },
         {
-          "question": "Week 36 Question 25: Oscillations – Energy in SHM, Time Perio...",
+          "id": "p11-w36-q25",
+          "question": "A 2 kg mass on spring of k = 200 N/m. Frequency ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(1/2π) × 10 Hz",
+            "10 Hz",
+            "20 Hz",
+            "2π Hz"
           ],
-          "answer": "Option A"
+          "answer": "(1/2π) × 10 Hz"
         }
       ]
     },
@@ -9221,254 +9271,279 @@
       "topic": "Oscillations – Damped, Forced & Resonance",
       "questions": [
         {
-          "question": "Week 37 Question 1: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q1",
+          "question": "Damped oscillations occur when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy is continuously dissipated",
+            "Energy is conserved",
+            "No friction present",
+            "Amplitude constant"
           ],
-          "answer": "Option A"
+          "answer": "Energy is continuously dissipated"
         },
         {
-          "question": "Week 37 Question 2: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q2",
+          "question": "In damped SHM, amplitude decreases with time:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Exponentially",
+            "Linearly",
+            "Quadratically",
+            "Constantly"
           ],
-          "answer": "Option A"
+          "answer": "Exponentially"
         },
         {
-          "question": "Week 37 Question 3: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q3",
+          "question": "The equation of damped SHM is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "m d²x/dt² + b dx/dt + kx = 0",
+            "m d²x/dt² + kx = 0",
+            "m d²x/dt² = 0",
+            "kx = 0"
           ],
-          "answer": "Option A"
+          "answer": "m d²x/dt² + b dx/dt + kx = 0"
         },
         {
-          "question": "Week 37 Question 4: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q4",
+          "question": "The damping constant b has SI units of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "kg/s",
+            "kg·m/s",
+            "N/m",
+            "m/s"
           ],
-          "answer": "Option A"
+          "answer": "kg/s"
         },
         {
-          "question": "Week 37 Question 5: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q5",
+          "question": "In underdamped motion, the system:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Oscillates with decreasing amplitude",
+            "Returns to equilibrium without oscillating",
+            "Does not move",
+            "Oscillates forever"
           ],
-          "answer": "Option A"
+          "answer": "Oscillates with decreasing amplitude"
         },
         {
-          "question": "Week 37 Question 6: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q6",
+          "question": "In critically damped motion:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "System returns to equilibrium in shortest time without oscillation",
+            "Oscillates forever",
+            "Oscillates with increasing amplitude",
+            "Does not move"
           ],
-          "answer": "Option A"
+          "answer": "System returns to equilibrium in shortest time without oscillation"
         },
         {
-          "question": "Week 37 Question 7: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q7",
+          "question": "In overdamped motion:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "System returns to equilibrium slowly without oscillation",
+            "Oscillates freely",
+            "Resonates",
+            "Oscillates with decreasing amplitude"
           ],
-          "answer": "Option A"
+          "answer": "System returns to equilibrium slowly without oscillation"
         },
         {
-          "question": "Week 37 Question 8: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q8",
+          "question": "A vehicle shock absorber is typically designed to be:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Critically damped",
+            "Overdamped",
+            "Underdamped",
+            "Undamped"
           ],
-          "answer": "Option A"
+          "answer": "Critically damped"
         },
         {
-          "question": "Week 37 Question 9: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q9",
+          "question": "Amplitude of damped oscillator decreases as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A₀ e^(-bt/2m)",
+            "A₀/t",
+            "A₀ e^(+bt)",
+            "A₀ t²"
           ],
-          "answer": "Option A"
+          "answer": "A₀ e^(-bt/2m)"
         },
         {
-          "question": "Week 37 Question 10: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q10",
+          "question": "Forced oscillations occur when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "External periodic force is applied",
+            "No external force",
+            "Damping is absent",
+            "System is isolated"
           ],
-          "answer": "Option A"
+          "answer": "External periodic force is applied"
         },
         {
-          "question": "Week 37 Question 11: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q11",
+          "question": "In steady-state forced oscillation, frequency = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Driving frequency",
+            "Natural frequency",
+            "Sum of both",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Driving frequency"
         },
         {
-          "question": "Week 37 Question 12: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q12",
+          "question": "Resonance occurs when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Driving frequency ≈ natural frequency",
+            "Driving frequency = 2× natural",
+            "Driving frequency = 0",
+            "Amplitude = 0"
           ],
-          "answer": "Option A"
+          "answer": "Driving frequency ≈ natural frequency"
         },
         {
-          "question": "Week 37 Question 13: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q13",
+          "question": "At resonance, amplitude becomes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Maximum",
+            "Minimum",
+            "Zero",
+            "Infinite always"
           ],
-          "answer": "Option A"
+          "answer": "Maximum"
         },
         {
-          "question": "Week 37 Question 14: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q14",
+          "question": "Soldiers are asked to break step on bridges to avoid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resonance",
+            "Damping",
+            "Friction",
+            "Weight imbalance"
           ],
-          "answer": "Option A"
+          "answer": "Resonance"
         },
         {
-          "question": "Week 37 Question 15: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q15",
+          "question": "The sharpness of resonance depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Damping",
+            "Amplitude",
+            "Frequency alone",
+            "Phase"
           ],
-          "answer": "Option A"
+          "answer": "Damping"
         },
         {
-          "question": "Week 37 Question 16: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q16",
+          "question": "Less damping means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sharper resonance peak",
+            "Flatter peak",
+            "No resonance",
+            "Overdamping"
           ],
-          "answer": "Option A"
+          "answer": "Sharper resonance peak"
         },
         {
-          "question": "Week 37 Question 17: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q17",
+          "question": "The quality factor Q of oscillator is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ω₀/2γ",
+            "2γ/ω₀",
+            "γ/ω₀",
+            "γω₀"
           ],
-          "answer": "Option A"
+          "answer": "ω₀/2γ"
         },
         {
-          "question": "Week 37 Question 18: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q18",
+          "question": "Higher Q means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less damping, longer oscillation",
+            "More damping",
+            "Faster decay",
+            "No oscillation"
           ],
-          "answer": "Option A"
+          "answer": "Less damping, longer oscillation"
         },
         {
-          "question": "Week 37 Question 19: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q19",
+          "question": "Pushing a child on swing at the right time illustrates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resonance",
+            "Friction",
+            "Damping",
+            "Gravitation"
           ],
-          "answer": "Option A"
+          "answer": "Resonance"
         },
         {
-          "question": "Week 37 Question 20: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q20",
+          "question": "Free oscillations have frequency equal to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Natural frequency",
+            "Driving frequency",
+            "Zero",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Natural frequency"
         },
         {
-          "question": "Week 37 Question 21: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q21",
+          "question": "In a tuning fork held in air, the oscillations are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Damped",
+            "Undamped",
+            "Forced resonant",
+            "Simple"
           ],
-          "answer": "Option A"
+          "answer": "Damped"
         },
         {
-          "question": "Week 37 Question 22: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q22",
+          "question": "The acoustic resonance of a vibrating string fixed at both ends requires:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "L = nλ/2",
+            "L = nλ",
+            "L = λ/4",
+            "L = 2nλ"
           ],
-          "answer": "Option A"
+          "answer": "L = nλ/2"
         },
         {
-          "question": "Week 37 Question 23: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q23",
+          "question": "In resonance tube experiment, air column is adjusted to find:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Velocity of sound",
+            "Density",
+            "Pressure",
+            "Frequency of tuning fork"
           ],
-          "answer": "Option A"
+          "answer": "Velocity of sound"
         },
         {
-          "question": "Week 37 Question 24: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q24",
+          "question": "The Tacoma Narrows bridge collapse is an example of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resonance with wind",
+            "Frictional failure",
+            "Overheating",
+            "Metal fatigue only"
           ],
-          "answer": "Option A"
+          "answer": "Resonance with wind"
         },
         {
-          "question": "Week 37 Question 25: Oscillations – Damped, Forced & Resonanc...",
+          "id": "p11-w37-q25",
+          "question": "Musical instruments produce sound by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Resonance of vibrating elements",
+            "Random oscillations",
+            "Friction",
+            "Heat emission"
           ],
-          "answer": "Option A"
+          "answer": "Resonance of vibrating elements"
         }
       ]
     },
@@ -9477,254 +9552,279 @@
       "topic": "Waves – Types (Transverse, Longitudinal), Speed of Waves",
       "questions": [
         {
-          "question": "Week 38 Question 1: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q1",
+          "question": "A wave is a disturbance that:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Transfers energy without transferring matter",
+            "Transfers both energy and matter",
+            "Transfers matter only",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Transfers energy without transferring matter"
         },
         {
-          "question": "Week 38 Question 2: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q2",
+          "question": "In a transverse wave, particle motion is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Perpendicular to wave propagation",
+            "Parallel to wave propagation",
+            "Circular",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Perpendicular to wave propagation"
         },
         {
-          "question": "Week 38 Question 3: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q3",
+          "question": "In a longitudinal wave, particle motion is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Parallel to wave propagation",
+            "Perpendicular to propagation",
+            "Circular",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Parallel to wave propagation"
         },
         {
-          "question": "Week 38 Question 4: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q4",
+          "question": "Sound waves in air are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Longitudinal",
+            "Transverse",
+            "Electromagnetic",
+            "Matter waves"
           ],
-          "answer": "Option A"
+          "answer": "Longitudinal"
         },
         {
-          "question": "Week 38 Question 5: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q5",
+          "question": "Light waves are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Transverse electromagnetic",
+            "Longitudinal",
+            "Mechanical",
+            "Matter waves"
           ],
-          "answer": "Option A"
+          "answer": "Transverse electromagnetic"
         },
         {
-          "question": "Week 38 Question 6: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q6",
+          "question": "Waves on a stretched string are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Transverse",
+            "Longitudinal",
+            "Electromagnetic",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Transverse"
         },
         {
-          "question": "Week 38 Question 7: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q7",
+          "question": "Transverse waves require a medium with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shear elasticity",
+            "Bulk modulus only",
+            "No elasticity",
+            "No mass"
           ],
-          "answer": "Option A"
+          "answer": "Shear elasticity"
         },
         {
-          "question": "Week 38 Question 8: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q8",
+          "question": "Transverse waves cannot travel through:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Liquids/gases (bulk)",
+            "Solids",
+            "Strings",
+            "Membranes"
           ],
-          "answer": "Option A"
+          "answer": "Liquids/gases (bulk)"
         },
         {
-          "question": "Week 38 Question 9: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q9",
+          "question": "The SI unit of wavelength is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "m",
+            "Hz",
+            "m/s",
+            "s"
           ],
-          "answer": "Option A"
+          "answer": "m"
         },
         {
-          "question": "Week 38 Question 10: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q10",
+          "question": "The relation between v, f, λ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v = fλ",
+            "v = f/λ",
+            "v = f + λ",
+            "v = f²λ"
           ],
-          "answer": "Option A"
+          "answer": "v = fλ"
         },
         {
-          "question": "Week 38 Question 11: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q11",
+          "question": "The speed of transverse wave on a string is v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(T/μ)",
+            "√(μ/T)",
+            "T × μ",
+            "T + μ"
           ],
-          "answer": "Option A"
+          "answer": "√(T/μ)"
         },
         {
-          "question": "Week 38 Question 12: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q12",
+          "question": "μ in the string wave formula is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass per unit length (linear mass density)",
+            "Tension",
+            "Young's modulus",
+            "Frequency"
           ],
-          "answer": "Option A"
+          "answer": "Mass per unit length (linear mass density)"
         },
         {
-          "question": "Week 38 Question 13: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q13",
+          "question": "Speed of sound in air at 0°C is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "331 m/s",
+            "1500 m/s",
+            "3×10⁸ m/s",
+            "100 m/s"
           ],
-          "answer": "Option A"
+          "answer": "331 m/s"
         },
         {
-          "question": "Week 38 Question 14: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q14",
+          "question": "Speed of sound in a solid is generally:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Highest",
+            "Lowest",
+            "Equal to liquid",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Highest"
         },
         {
-          "question": "Week 38 Question 15: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q15",
+          "question": "Speed of sound v in gas = √(γP/ρ) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Laplace's formula",
+            "Newton's formula",
+            "Doppler's formula",
+            "Bernoulli's"
           ],
-          "answer": "Option A"
+          "answer": "Laplace's formula"
         },
         {
-          "question": "Week 38 Question 16: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q16",
+          "question": "Newton's formula for speed of sound is v = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(P/ρ)",
+            "√(γP/ρ)",
+            "√(γρ/P)",
+            "γP/ρ"
           ],
-          "answer": "Option A"
+          "answer": "√(P/ρ)"
         },
         {
-          "question": "Week 38 Question 17: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q17",
+          "question": "The ratio γ = Cp/Cv for a diatomic gas is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7/5",
+            "5/3",
+            "1",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "7/5"
         },
         {
-          "question": "Week 38 Question 18: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q18",
+          "question": "Speed of sound in air does not depend on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Pressure (at constant T)",
+            "Temperature",
+            "Humidity",
+            "Nature of gas"
           ],
-          "answer": "Option A"
+          "answer": "Pressure (at constant T)"
         },
         {
-          "question": "Week 38 Question 19: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q19",
+          "question": "Speed of sound in air increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increase in temperature",
+            "Decrease in temperature",
+            "Increase in pressure",
+            "Decrease in density"
           ],
-          "answer": "Option A"
+          "answer": "Increase in temperature"
         },
         {
-          "question": "Week 38 Question 20: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q20",
+          "question": "At 0°C speed is 331 m/s. At 20°C it is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "343 m/s",
+            "300 m/s",
+            "400 m/s",
+            "200 m/s"
           ],
-          "answer": "Option A"
+          "answer": "343 m/s"
         },
         {
-          "question": "Week 38 Question 21: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q21",
+          "question": "Wave number k is defined as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2π/λ",
+            "2πλ",
+            "1/λ",
+            "λ/2π"
           ],
-          "answer": "Option A"
+          "answer": "2π/λ"
         },
         {
-          "question": "Week 38 Question 22: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q22",
+          "question": "Equation of a plane progressive wave: y = A sin(kx - ωt). Here ω/k equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Wave speed v",
+            "Amplitude",
+            "Wavelength",
+            "Frequency"
           ],
-          "answer": "Option A"
+          "answer": "Wave speed v"
         },
         {
-          "question": "Week 38 Question 23: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q23",
+          "question": "The wave travels in +x direction if the equation is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "y = A sin(kx - ωt)",
+            "y = A sin(kx + ωt)",
+            "y = A cos(kx)",
+            "y = A"
           ],
-          "answer": "Option A"
+          "answer": "y = A sin(kx - ωt)"
         },
         {
-          "question": "Week 38 Question 24: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q24",
+          "question": "The phase velocity of a wave is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v = ω/k",
+            "v = k/ω",
+            "v = kω",
+            "v = k + ω"
           ],
-          "answer": "Option A"
+          "answer": "v = ω/k"
         },
         {
-          "question": "Week 38 Question 25: Waves – Types (Transverse, Longitudinal)...",
+          "id": "p11-w38-q25",
+          "question": "The intensity of a wave is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy per unit area per unit time",
+            "Total energy",
+            "Amplitude squared only",
+            "Frequency only"
           ],
-          "answer": "Option A"
+          "answer": "Energy per unit area per unit time"
         }
       ]
     },
@@ -9733,254 +9833,279 @@
       "topic": "Waves – Superposition Principle, Standing Waves",
       "questions": [
         {
-          "question": "Week 39 Question 1: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q1",
+          "question": "The principle of superposition states that resultant displacement is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sum of individual displacements",
+            "Product of displacements",
+            "Average of displacements",
+            "Maximum of displacements"
           ],
-          "answer": "Option A"
+          "answer": "Sum of individual displacements"
         },
         {
-          "question": "Week 39 Question 2: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q2",
+          "question": "Constructive interference occurs when waves are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "In phase",
+            "Out of phase by π",
+            "Out of phase by π/2",
+            "Unrelated"
           ],
-          "answer": "Option A"
+          "answer": "In phase"
         },
         {
-          "question": "Week 39 Question 3: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q3",
+          "question": "Destructive interference occurs when phase difference is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "π (or odd × π)",
+            "0",
+            "2π",
+            "π/4"
           ],
-          "answer": "Option A"
+          "answer": "π (or odd × π)"
         },
         {
-          "question": "Week 39 Question 4: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q4",
+          "question": "In constructive interference, resultant amplitude is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "A₁ + A₂",
+            "A₁ - A₂",
+            "A₁ × A₂",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "A₁ + A₂"
         },
         {
-          "question": "Week 39 Question 5: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q5",
+          "question": "In destructive interference (equal amplitudes), resultant amplitude is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero",
+            "2A",
+            "A",
+            "A²"
           ],
-          "answer": "Option A"
+          "answer": "Zero"
         },
         {
-          "question": "Week 39 Question 6: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q6",
+          "question": "A standing wave is formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Superposition of two identical waves moving in opposite directions",
+            "One wave only",
+            "Two different-frequency waves",
+            "Wave reflection at infinity"
           ],
-          "answer": "Option A"
+          "answer": "Superposition of two identical waves moving in opposite directions"
         },
         {
-          "question": "Week 39 Question 7: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q7",
+          "question": "In a standing wave, a node is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Point of zero displacement",
+            "Point of max displacement",
+            "Point of max velocity",
+            "Any point"
           ],
-          "answer": "Option A"
+          "answer": "Point of zero displacement"
         },
         {
-          "question": "Week 39 Question 8: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q8",
+          "question": "In a standing wave, an antinode is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Point of maximum amplitude",
+            "Point of zero displacement",
+            "Any point",
+            "A moving point"
           ],
-          "answer": "Option A"
+          "answer": "Point of maximum amplitude"
         },
         {
-          "question": "Week 39 Question 9: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q9",
+          "question": "Distance between consecutive nodes in a standing wave is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "λ/2",
+            "λ",
+            "λ/4",
+            "2λ"
           ],
-          "answer": "Option A"
+          "answer": "λ/2"
         },
         {
-          "question": "Week 39 Question 10: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q10",
+          "question": "Distance between a node and adjacent antinode is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "λ/4",
+            "λ/2",
+            "λ",
+            "λ/8"
           ],
-          "answer": "Option A"
+          "answer": "λ/4"
         },
         {
-          "question": "Week 39 Question 11: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q11",
+          "question": "Standing waves do NOT transfer:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy",
+            "Amplitude",
+            "Wavelength",
+            "Frequency"
           ],
-          "answer": "Option A"
+          "answer": "Energy"
         },
         {
-          "question": "Week 39 Question 12: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q12",
+          "question": "In a string fixed at both ends, ends are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Nodes",
+            "Antinodes",
+            "Either",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Nodes"
         },
         {
-          "question": "Week 39 Question 13: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q13",
+          "question": "Fundamental frequency of string fixed at both ends is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/2L",
+            "v/L",
+            "v/4L",
+            "2v/L"
           ],
-          "answer": "Option A"
+          "answer": "v/2L"
         },
         {
-          "question": "Week 39 Question 14: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q14",
+          "question": "Harmonics on a string fixed at both ends are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "All integral multiples of fundamental",
+            "Only odd multiples",
+            "Only even multiples",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "All integral multiples of fundamental"
         },
         {
-          "question": "Week 39 Question 15: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q15",
+          "question": "The nth harmonic frequency is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nv/2L",
+            "v/2L",
+            "v/nL",
+            "2nv/L"
           ],
-          "answer": "Option A"
+          "answer": "nv/2L"
         },
         {
-          "question": "Week 39 Question 16: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q16",
+          "question": "If tension in string is quadrupled, fundamental frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doubles",
+            "Halves",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Doubles"
         },
         {
-          "question": "Week 39 Question 17: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q17",
+          "question": "If linear mass density is quadrupled, frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halves",
+            "Doubles",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Halves"
         },
         {
-          "question": "Week 39 Question 18: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q18",
+          "question": "Thicker strings on guitar produce:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lower pitch (lower frequency)",
+            "Higher pitch",
+            "Same pitch",
+            "No sound"
           ],
-          "answer": "Option A"
+          "answer": "Lower pitch (lower frequency)"
         },
         {
-          "question": "Week 39 Question 19: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q19",
+          "question": "Tightening a string raises its:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Frequency (pitch)",
+            "Wavelength",
+            "Amplitude",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Frequency (pitch)"
         },
         {
-          "question": "Week 39 Question 20: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q20",
+          "question": "The equation of a standing wave is y = 2A sin(kx)cos(ωt). Position of nodes satisfies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sin(kx) = 0",
+            "cos(ωt) = 0",
+            "sin(kx) = 1",
+            "cos(ωt) = 1"
           ],
-          "answer": "Option A"
+          "answer": "sin(kx) = 0"
         },
         {
-          "question": "Week 39 Question 21: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q21",
+          "question": "Energy in standing wave:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Oscillates between KE and PE, not transmitted",
+            "Travels with wave",
+            "Is zero",
+            "Radiates"
           ],
-          "answer": "Option A"
+          "answer": "Oscillates between KE and PE, not transmitted"
         },
         {
-          "question": "Week 39 Question 22: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q22",
+          "question": "Reflection of wave at a fixed end undergoes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Phase reversal (π shift)",
+            "No phase change",
+            "Phase change of π/2",
+            "Phase change of 2π"
           ],
-          "answer": "Option A"
+          "answer": "Phase reversal (π shift)"
         },
         {
-          "question": "Week 39 Question 23: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q23",
+          "question": "Reflection at a free end undergoes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No phase change",
+            "Phase reversal",
+            "Phase change of π/2",
+            "Phase change of 2π"
           ],
-          "answer": "Option A"
+          "answer": "No phase change"
         },
         {
-          "question": "Week 39 Question 24: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q24",
+          "question": "Violin, guitar, sitar string vibrations are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Standing transverse waves",
+            "Travelling longitudinal",
+            "Damped free",
+            "Electromagnetic"
           ],
-          "answer": "Option A"
+          "answer": "Standing transverse waves"
         },
         {
-          "question": "Week 39 Question 25: Waves – Superposition Principle, Standin...",
+          "id": "p11-w39-q25",
+          "question": "If two waves differ in frequency, their superposition leads to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Beats",
+            "Standing waves",
+            "Nothing",
+            "Polarization"
           ],
-          "answer": "Option A"
+          "answer": "Beats"
         }
       ]
     },
@@ -9989,254 +10114,279 @@
       "topic": "Waves – Beats, Doppler Effect",
       "questions": [
         {
-          "question": "Week 40 Question 1: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q1",
+          "question": "Beats are produced by superposition of two waves of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Slightly different frequencies",
+            "Same frequency",
+            "Same amplitude only",
+            "Different directions"
           ],
-          "answer": "Option A"
+          "answer": "Slightly different frequencies"
         },
         {
-          "question": "Week 40 Question 2: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q2",
+          "question": "The beat frequency equals:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "|f₁ - f₂|",
+            "f₁ + f₂",
+            "f₁ × f₂",
+            "Average of f₁ and f₂"
           ],
-          "answer": "Option A"
+          "answer": "|f₁ - f₂|"
         },
         {
-          "question": "Week 40 Question 3: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q3",
+          "question": "If two tuning forks of 256 Hz and 260 Hz sound together, beats heard = :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 per second",
+            "2 per second",
+            "8 per second",
+            "1 per second"
           ],
-          "answer": "Option A"
+          "answer": "4 per second"
         },
         {
-          "question": "Week 40 Question 4: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q4",
+          "question": "Beats are audible when beat frequency is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Less than about 10 Hz",
+            "Above 20 kHz",
+            "Equal to individual frequencies",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Less than about 10 Hz"
         },
         {
-          "question": "Week 40 Question 5: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q5",
+          "question": "Beats are used to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tune musical instruments",
+            "Measure velocity of light",
+            "Determine density",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Tune musical instruments"
         },
         {
-          "question": "Week 40 Question 6: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q6",
+          "question": "When beat frequency becomes zero, the two sources are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tuned to same frequency",
+            "Out of tune",
+            "Silent",
+            "Non-interfering"
           ],
-          "answer": "Option A"
+          "answer": "Tuned to same frequency"
         },
         {
-          "question": "Week 40 Question 7: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q7",
+          "question": "Doppler effect is the change in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Observed frequency due to relative motion",
+            "Amplitude of wave",
+            "Direction of wave",
+            "Speed of light"
           ],
-          "answer": "Option A"
+          "answer": "Observed frequency due to relative motion"
         },
         {
-          "question": "Week 40 Question 8: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q8",
+          "question": "Doppler effect occurs with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sound and light waves",
+            "Sound only",
+            "Light only",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Sound and light waves"
         },
         {
-          "question": "Week 40 Question 9: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q9",
+          "question": "When source moves towards stationary observer, observed frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Remains same",
+            "Becomes zero"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Week 40 Question 10: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q10",
+          "question": "When source moves away from stationary observer, observed frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Remains same",
+            "Doubles"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Week 40 Question 11: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q11",
+          "question": "The Doppler formula for source moving towards stationary observer is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "f' = f × v/(v - vs)",
+            "f' = f × (v - vs)/v",
+            "f' = f × v/(v + vs)",
+            "f' = f × vs/v"
           ],
-          "answer": "Option A"
+          "answer": "f' = f × v/(v - vs)"
         },
         {
-          "question": "Week 40 Question 12: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q12",
+          "question": "The Doppler formula for observer moving towards stationary source is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "f' = f × (v + vo)/v",
+            "f' = f × v/(v + vo)",
+            "f' = f × (v - vo)/v",
+            "f' = f × vo/v"
           ],
-          "answer": "Option A"
+          "answer": "f' = f × (v + vo)/v"
         },
         {
-          "question": "Week 40 Question 13: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q13",
+          "question": "If observer and source both move towards each other:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "f' = f × (v + vo)/(v - vs)",
+            "f' = f × (v - vo)/(v + vs)",
+            "f' = f",
+            "f' = 0"
           ],
-          "answer": "Option A"
+          "answer": "f' = f × (v + vo)/(v - vs)"
         },
         {
-          "question": "Week 40 Question 14: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q14",
+          "question": "The Doppler effect is not observed when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Motion is perpendicular to line of sight",
+            "Source moves towards observer",
+            "Observer moves towards source",
+            "They move along the same line"
           ],
-          "answer": "Option A"
+          "answer": "Motion is perpendicular to line of sight"
         },
         {
-          "question": "Week 40 Question 15: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q15",
+          "question": "Red-shift in astronomy indicates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Galaxy is moving away from us",
+            "Galaxy is approaching",
+            "Galaxy is stationary",
+            "Source is heating up"
           ],
-          "answer": "Option A"
+          "answer": "Galaxy is moving away from us"
         },
         {
-          "question": "Week 40 Question 16: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q16",
+          "question": "Blue-shift indicates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Source approaching observer",
+            "Source receding",
+            "Source stationary",
+            "Absorption"
           ],
-          "answer": "Option A"
+          "answer": "Source approaching observer"
         },
         {
-          "question": "Week 40 Question 17: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q17",
+          "question": "SONAR uses Doppler to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Measure speed of underwater objects",
+            "Generate sound",
+            "Convert sound to light",
+            "Navigate by GPS"
           ],
-          "answer": "Option A"
+          "answer": "Measure speed of underwater objects"
         },
         {
-          "question": "Week 40 Question 18: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q18",
+          "question": "RADAR detecting vehicle speed uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Doppler shift of radio waves",
+            "Reflection only",
+            "Light intensity",
+            "Compass"
           ],
-          "answer": "Option A"
+          "answer": "Doppler shift of radio waves"
         },
         {
-          "question": "Week 40 Question 19: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q19",
+          "question": "A source of 500 Hz moves at 34 m/s towards observer (v_sound = 340 m/s). Observed f ≈ :",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "555.6 Hz",
+            "500 Hz",
+            "450 Hz",
+            "340 Hz"
           ],
-          "answer": "Option A"
+          "answer": "555.6 Hz"
         },
         {
-          "question": "Week 40 Question 20: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q20",
+          "question": "If both source and observer move in same direction with same speed, observed f:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Equals f",
+            "Greater than f",
+            "Less than f",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Equals f"
         },
         {
-          "question": "Week 40 Question 21: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q21",
+          "question": "Doppler shift is more noticeable when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Relative speed is significant fraction of wave speed",
+            "Sources are dim",
+            "Waves are weak",
+            "Distances are large"
           ],
-          "answer": "Option A"
+          "answer": "Relative speed is significant fraction of wave speed"
         },
         {
-          "question": "Week 40 Question 22: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q22",
+          "question": "A police siren appears higher pitched when the car:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Approaches you",
+            "Recedes from you",
+            "Is stationary",
+            "Has siren off"
           ],
-          "answer": "Option A"
+          "answer": "Approaches you"
         },
         {
-          "question": "Week 40 Question 23: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q23",
+          "question": "The observed change in frequency in Doppler effect depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Relative velocity component along line of sight",
+            "Amplitude",
+            "Colour",
+            "Medium density alone"
           ],
-          "answer": "Option A"
+          "answer": "Relative velocity component along line of sight"
         },
         {
-          "question": "Week 40 Question 24: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q24",
+          "question": "The expansion of universe is evidenced by Hubble's observation of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cosmological red-shift",
+            "Blue-shift",
+            "Constant frequency",
+            "Absorption lines only"
           ],
-          "answer": "Option A"
+          "answer": "Cosmological red-shift"
         },
         {
-          "question": "Week 40 Question 25: Waves – Beats, Doppler Effect...",
+          "id": "p11-w40-q25",
+          "question": "For Doppler effect in light, the classical formula is modified due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Special relativity",
+            "Gravity",
+            "Thermodynamics",
+            "Quantum effects only"
           ],
-          "answer": "Option A"
+          "answer": "Special relativity"
         }
       ]
     },
@@ -10245,254 +10395,279 @@
       "topic": "Waves – Vibrations of Strings & Air Columns (Organ Pipes)",
       "questions": [
         {
-          "question": "Week 41 Question 1: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q1",
+          "question": "A closed organ pipe is closed at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "One end",
+            "Both ends",
+            "Neither end",
+            "Middle"
           ],
-          "answer": "Option A"
+          "answer": "One end"
         },
         {
-          "question": "Week 41 Question 2: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q2",
+          "question": "An open organ pipe is open at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both ends",
+            "One end",
+            "Neither end",
+            "Middle"
           ],
-          "answer": "Option A"
+          "answer": "Both ends"
         },
         {
-          "question": "Week 41 Question 3: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q3",
+          "question": "Closed end of an organ pipe is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Displacement node / pressure antinode",
+            "Displacement antinode",
+            "Pressure node",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Displacement node / pressure antinode"
         },
         {
-          "question": "Week 41 Question 4: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q4",
+          "question": "Open end of an organ pipe is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Displacement antinode / pressure node",
+            "Displacement node",
+            "Pressure antinode",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Displacement antinode / pressure node"
         },
         {
-          "question": "Week 41 Question 5: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q5",
+          "question": "Fundamental frequency of closed pipe of length L is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/4L",
+            "v/2L",
+            "v/L",
+            "4v/L"
           ],
-          "answer": "Option A"
+          "answer": "v/4L"
         },
         {
-          "question": "Week 41 Question 6: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q6",
+          "question": "Fundamental frequency of open pipe of length L is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "v/2L",
+            "v/4L",
+            "v/L",
+            "2v/L"
           ],
-          "answer": "Option A"
+          "answer": "v/2L"
         },
         {
-          "question": "Week 41 Question 7: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q7",
+          "question": "Closed organ pipe supports:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Only odd harmonics",
+            "Only even harmonics",
+            "All harmonics",
+            "No harmonics"
           ],
-          "answer": "Option A"
+          "answer": "Only odd harmonics"
         },
         {
-          "question": "Week 41 Question 8: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q8",
+          "question": "Open organ pipe supports:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "All harmonics",
+            "Only odd",
+            "Only even",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "All harmonics"
         },
         {
-          "question": "Week 41 Question 9: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q9",
+          "question": "The 3rd harmonic of closed pipe has frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3v/4L",
+            "3v/2L",
+            "v/4L",
+            "v/2L"
           ],
-          "answer": "Option A"
+          "answer": "3v/4L"
         },
         {
-          "question": "Week 41 Question 10: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q10",
+          "question": "An open pipe and closed pipe of same length have fundamental ratio:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2:1 (open:closed)",
+            "1:2",
+            "1:1",
+            "4:1"
           ],
-          "answer": "Option A"
+          "answer": "2:1 (open:closed)"
         },
         {
-          "question": "Week 41 Question 11: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q11",
+          "question": "If a closed pipe's length doubles, fundamental frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halves",
+            "Doubles",
+            "Quadruples",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Halves"
         },
         {
-          "question": "Week 41 Question 12: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q12",
+          "question": "Quality/timbre of sound depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Presence of harmonics (overtones)",
+            "Loudness only",
+            "Pitch only",
+            "Speed only"
           ],
-          "answer": "Option A"
+          "answer": "Presence of harmonics (overtones)"
         },
         {
-          "question": "Week 41 Question 13: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q13",
+          "question": "Loudness of sound depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amplitude squared (intensity)",
+            "Frequency only",
+            "Wavelength",
+            "Phase"
           ],
-          "answer": "Option A"
+          "answer": "Amplitude squared (intensity)"
         },
         {
-          "question": "Week 41 Question 14: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q14",
+          "question": "Pitch of sound depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Frequency",
+            "Amplitude",
+            "Phase",
+            "Direction"
           ],
-          "answer": "Option A"
+          "answer": "Frequency"
         },
         {
-          "question": "Week 41 Question 15: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q15",
+          "question": "Audible range for humans is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "20 Hz to 20 kHz",
+            "0 to 100 Hz",
+            "1 kHz to 100 kHz",
+            "100 kHz to 1 MHz"
           ],
-          "answer": "Option A"
+          "answer": "20 Hz to 20 kHz"
         },
         {
-          "question": "Week 41 Question 16: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q16",
+          "question": "Ultrasonic waves have frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Above 20 kHz",
+            "Below 20 Hz",
+            "Between 20 and 20 kHz",
+            "Near zero"
           ],
-          "answer": "Option A"
+          "answer": "Above 20 kHz"
         },
         {
-          "question": "Week 41 Question 17: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q17",
+          "question": "Infrasonic waves have frequency:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Below 20 Hz",
+            "Above 20 kHz",
+            "Between 20 and 20 kHz",
+            "Exactly 10 kHz"
           ],
-          "answer": "Option A"
+          "answer": "Below 20 Hz"
         },
         {
-          "question": "Week 41 Question 18: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q18",
+          "question": "End correction in organ pipes arises due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Antinode forming slightly beyond open end",
+            "Temperature effect",
+            "Friction",
+            "Phase lag"
           ],
-          "answer": "Option A"
+          "answer": "Antinode forming slightly beyond open end"
         },
         {
-          "question": "Week 41 Question 19: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q19",
+          "question": "For open pipe, effective length = L + 2e where e is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "End correction per end",
+            "Length of pipe",
+            "Wavelength",
+            "Amplitude"
           ],
-          "answer": "Option A"
+          "answer": "End correction per end"
         },
         {
-          "question": "Week 41 Question 20: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q20",
+          "question": "Speed of sound in air at 27°C is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "348 m/s",
+            "331 m/s",
+            "300 m/s",
+            "400 m/s"
           ],
-          "answer": "Option A"
+          "answer": "348 m/s"
         },
         {
-          "question": "Week 41 Question 21: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q21",
+          "question": "A sonometer is used to study:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Vibrations of stretched strings",
+            "Beats only",
+            "Air columns",
+            "Magnets"
           ],
-          "answer": "Option A"
+          "answer": "Vibrations of stretched strings"
         },
         {
-          "question": "Week 41 Question 22: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q22",
+          "question": "The velocity of transverse wave on sonometer wire depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tension and linear mass density",
+            "Length only",
+            "Frequency only",
+            "Amplitude"
           ],
-          "answer": "Option A"
+          "answer": "Tension and linear mass density"
         },
         {
-          "question": "Week 41 Question 23: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q23",
+          "question": "Resonance tube experiment determines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Velocity of sound in air",
+            "Density of water",
+            "Wavelength of light",
+            "Pressure"
           ],
-          "answer": "Option A"
+          "answer": "Velocity of sound in air"
         },
         {
-          "question": "Week 41 Question 24: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q24",
+          "question": "In resonance tube, first resonance length L₁ corresponds to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "λ/4 (approx, with end correction)",
+            "λ/2",
+            "λ",
+            "3λ/4"
           ],
-          "answer": "Option A"
+          "answer": "λ/4 (approx, with end correction)"
         },
         {
-          "question": "Week 41 Question 25: Waves – Vibrations of Strings & Air Colu...",
+          "id": "p11-w41-q25",
+          "question": "Second resonance length in resonance tube is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3λ/4",
+            "λ/4",
+            "λ/2",
+            "λ"
           ],
-          "answer": "Option A"
+          "answer": "3λ/4"
         }
       ]
     },
