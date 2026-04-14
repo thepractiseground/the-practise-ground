@@ -1,5 +1,21 @@
 # The Practice Ground (TPG) — Project Context
 
+## ⚠️ Standing Directive (read first, act always)
+> **"We cannot have bad quality issues — it's about the students getting accurate information."**
+
+This is the non-negotiable quality bar for every TPG task. It applies to:
+- **Quizzes** — every question must have a correct answer that is actually present in the options, exactly 4 unique options, real NCERT/CEFR-aligned content, zero placeholders (no "Option A/B/C/D" strings, no dummy text).
+- **Blog posts** — facts must be accurate, citations trustworthy, FAQs answerable, grammar clean.
+- **Images & assets** — no broken links, correct alt text, no misleading visuals.
+- **Data files** — schema valid, structurally consistent (e.g., 25 Qs/week), enrichment complete (intro, objectives, study tips).
+
+**Action rules:**
+1. Before shipping ANY content change, run structural + content validation (see `scripts/qa-verify-all.py`).
+2. If a placeholder, broken option, or fabricated fact is detected, fix it in the same session — do not defer.
+3. Prefer NCERT / CBSE / CEFR-aligned sources. When uncertain, verify or flag rather than guess.
+4. Commit with a descriptive message and push so the fix reaches students immediately.
+5. Never reduce the quality bar for speed. Students > velocity.
+
 ## Overview
 Educational platform at **thepractiseground.in** offering free quizzes for English, Maths, Science (Grades 5-12) and language learning (French, German, Spanish at A1-C1 CEFR levels).
 
