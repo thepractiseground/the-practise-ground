@@ -10889,254 +10889,279 @@
       "topic": "p-Block Elements – Group 14 (Carbon Family), General Properties",
       "questions": [
         {
-          "question": "Q1 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 1,
+          "question": "Group 14 elements:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C, Si, Ge, Sn, Pb",
+            "B, Al, Ga, In, Tl",
+            "N, P, As, Sb",
+            "O, S, Se, Te"
           ],
-          "answer": "Option A"
+          "answer": "C, Si, Ge, Sn, Pb"
         },
         {
-          "question": "Q2 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 2,
+          "question": "Group 14 electronic configuration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ns²np²",
+            "ns²np¹",
+            "ns²np³",
+            "ns²np⁴"
           ],
-          "answer": "Option A"
+          "answer": "ns²np²"
         },
         {
-          "question": "Q3 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 3,
+          "question": "Common oxidation states of Group 14:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+4 and +2",
+            "+3 only",
+            "+5 and +3",
+            "+1 only"
           ],
-          "answer": "Option A"
+          "answer": "+4 and +2"
         },
         {
-          "question": "Q4 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 4,
+          "question": "Inert pair effect causes Pb to prefer:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+2",
+            "+4",
+            "+3",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "+2"
         },
         {
-          "question": "Q5 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 5,
+          "question": "Nature of elements down Group 14:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-metal (C) → metalloid (Si, Ge) → metal (Sn, Pb)",
+            "All metals",
+            "All non-metals",
+            "All metalloids"
           ],
-          "answer": "Option A"
+          "answer": "Non-metal (C) → metalloid (Si, Ge) → metal (Sn, Pb)"
         },
         {
-          "question": "Q6 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 6,
+          "question": "Catenation order in Group 14:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C >> Si > Ge ≈ Sn > Pb",
+            "Pb > Sn > Si > C",
+            "All equal",
+            "Si > C"
           ],
-          "answer": "Option A"
+          "answer": "C >> Si > Ge ≈ Sn > Pb"
         },
         {
-          "question": "Q7 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 7,
+          "question": "Allotropes of carbon:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Diamond, graphite, fullerene, CNT, graphene",
+            "Only diamond",
+            "Only graphite",
+            "Only fullerene"
           ],
-          "answer": "Option A"
+          "answer": "Diamond, graphite, fullerene, CNT, graphene"
         },
         {
-          "question": "Q8 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 8,
+          "question": "Hybridisation of C in diamond:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q9 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 9,
+          "question": "Hybridisation of C in graphite:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d²"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q10 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 10,
+          "question": "Diamond conducts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat but not electricity",
+            "Both",
+            "Neither",
+            "Only electricity"
           ],
-          "answer": "Option A"
+          "answer": "Heat but not electricity"
         },
         {
-          "question": "Q11 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 11,
+          "question": "Graphite conducts electricity because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Delocalised π-electrons between layers",
+            "Ionic bonding",
+            "Free protons",
+            "H-bonding"
           ],
-          "answer": "Option A"
+          "answer": "Delocalised π-electrons between layers"
         },
         {
-          "question": "Q12 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 12,
+          "question": "Fullerene C₆₀ shape:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Soccer ball (20 hexagons + 12 pentagons)",
+            "Cube",
+            "Sphere smooth",
+            "Flat disc"
           ],
-          "answer": "Option A"
+          "answer": "Soccer ball (20 hexagons + 12 pentagons)"
         },
         {
-          "question": "Q13 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 13,
+          "question": "CO₂ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Linear, non-polar",
+            "Bent, polar",
+            "Trigonal planar",
+            "Tetrahedral"
           ],
-          "answer": "Option A"
+          "answer": "Linear, non-polar"
         },
         {
-          "question": "Q14 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 14,
+          "question": "CO is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Strong reducing agent and toxic",
+            "Base",
+            "Acid",
+            "Inert"
           ],
-          "answer": "Option A"
+          "answer": "Strong reducing agent and toxic"
         },
         {
-          "question": "Q15 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 15,
+          "question": "CO is toxic because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Binds to haemoglobin forming carboxyhaemoglobin",
+            "Dissolves in water",
+            "Burns",
+            "Expands"
           ],
-          "answer": "Option A"
+          "answer": "Binds to haemoglobin forming carboxyhaemoglobin"
         },
         {
-          "question": "Q16 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 16,
+          "question": "SiO₂ structure:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3D network of SiO₄ tetrahedra",
+            "Discrete molecules like CO₂",
+            "Linear",
+            "Layered only"
           ],
-          "answer": "Option A"
+          "answer": "3D network of SiO₄ tetrahedra"
         },
         {
-          "question": "Q17 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 17,
+          "question": "Silicones are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Organosilicon polymers (R₂SiO)ₙ",
+            "Silicates",
+            "Carbides",
+            "Borides"
           ],
-          "answer": "Option A"
+          "answer": "Organosilicon polymers (R₂SiO)ₙ"
         },
         {
-          "question": "Q18 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 18,
+          "question": "Silicates contain:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SiO₄⁴⁻ tetrahedra",
+            "CO₃²⁻",
+            "NO₃⁻",
+            "SO₄²⁻"
           ],
-          "answer": "Option A"
+          "answer": "SiO₄⁴⁻ tetrahedra"
         },
         {
-          "question": "Q19 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 19,
+          "question": "Zeolites are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3D aluminosilicates used as catalysts and ion exchangers",
+            "Metals",
+            "Pure SiO₂",
+            "Clays only"
           ],
-          "answer": "Option A"
+          "answer": "3D aluminosilicates used as catalysts and ion exchangers"
         },
         {
-          "question": "Q20 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 20,
+          "question": "Producer gas contains:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO + N₂",
+            "CO + H₂",
+            "CO₂ + H₂",
+            "CH₄ + H₂"
           ],
-          "answer": "Option A"
+          "answer": "CO + N₂"
         },
         {
-          "question": "Q21 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 21,
+          "question": "Water gas contains:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO + H₂",
+            "CO + N₂",
+            "CO₂ + H₂",
+            "CH₄ + H₂"
           ],
-          "answer": "Option A"
+          "answer": "CO + H₂"
         },
         {
-          "question": "Q22 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 22,
+          "question": "CO₂ + H₂O ⇌ ?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂CO₃ (carbonic acid)",
+            "CO + H₂",
+            "CH₄",
+            "HCO⁻"
           ],
-          "answer": "Option A"
+          "answer": "H₂CO₃ (carbonic acid)"
         },
         {
-          "question": "Q23 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 23,
+          "question": "PbO₂ + HCl gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PbCl₂ + Cl₂ + H₂O",
+            "PbCl₄ only",
+            "Pb + HCl",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "PbCl₂ + Cl₂ + H₂O"
         },
         {
-          "question": "Q24 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 24,
+          "question": "SnCl₂ is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reducing agent",
+            "Oxidising agent",
+            "Neutral",
+            "Inert"
           ],
-          "answer": "Option A"
+          "answer": "Reducing agent"
         },
         {
-          "question": "Q25 Week 40: Topic - p-Block Elements – Group 14 (Carbon Family), General Properties",
+          "id": 25,
+          "question": "Glass is a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amorphous supercooled liquid (silicate)",
+            "Crystalline solid",
+            "Metal",
+            "Ionic solid"
           ],
-          "answer": "Option A"
+          "answer": "Amorphous supercooled liquid (silicate)"
         }
       ]
     },
@@ -11145,254 +11170,279 @@
       "topic": "Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
       "questions": [
         {
-          "question": "Q1 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 1,
+          "question": "Major air pollutants:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO, NOₓ, SO₂, CO₂, particulates, hydrocarbons",
+            "Only CO₂",
+            "Only N₂",
+            "Only O₂"
           ],
-          "answer": "Option A"
+          "answer": "CO, NOₓ, SO₂, CO₂, particulates, hydrocarbons"
         },
         {
-          "question": "Q2 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 2,
+          "question": "Main source of CO:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Incomplete combustion of fossil fuels",
+            "Photosynthesis",
+            "Plants",
+            "Oceans"
           ],
-          "answer": "Option A"
+          "answer": "Incomplete combustion of fossil fuels"
         },
         {
-          "question": "Q3 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 3,
+          "question": "SO₂ comes mainly from:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Burning of sulphur-containing coal/oil",
+            "Plants",
+            "Volcanoes only",
+            "Refrigerators"
           ],
-          "answer": "Option A"
+          "answer": "Burning of sulphur-containing coal/oil"
         },
         {
-          "question": "Q4 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 4,
+          "question": "NOₓ (NO + NO₂) comes from:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High-T combustion in vehicle engines",
+            "Plants",
+            "Oceans",
+            "Refrigerators"
           ],
-          "answer": "Option A"
+          "answer": "High-T combustion in vehicle engines"
         },
         {
-          "question": "Q5 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 5,
+          "question": "Photochemical smog forms by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NOₓ + hydrocarbons + sunlight → ozone, PAN",
+            "CO₂ + water",
+            "SO₂ + water",
+            "Only pollen"
           ],
-          "answer": "Option A"
+          "answer": "NOₓ + hydrocarbons + sunlight → ozone, PAN"
         },
         {
-          "question": "Q6 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 6,
+          "question": "PAN stands for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Peroxyacetyl nitrate",
+            "Polyaromatic nitrogen",
+            "Primary ambient nitrogen",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Peroxyacetyl nitrate"
         },
         {
-          "question": "Q7 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 7,
+          "question": "Classical (London) smog is rich in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SO₂ + smoke (sulphurous smog)",
+            "O₃",
+            "NOₓ",
+            "PAN"
           ],
-          "answer": "Option A"
+          "answer": "SO₂ + smoke (sulphurous smog)"
         },
         {
-          "question": "Q8 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 8,
+          "question": "BOD stands for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Biochemical oxygen demand",
+            "Biological organic density",
+            "Biotic oxygen drop",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Biochemical oxygen demand"
         },
         {
-          "question": "Q9 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 9,
+          "question": "High BOD indicates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High organic pollution",
+            "Clean water",
+            "High DO",
+            "Low bacteria"
           ],
-          "answer": "Option A"
+          "answer": "High organic pollution"
         },
         {
-          "question": "Q10 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 10,
+          "question": "Eutrophication is caused by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Excess nutrients (N, P) causing algal bloom",
+            "High DO",
+            "Low T",
+            "Low CO₂"
           ],
-          "answer": "Option A"
+          "answer": "Excess nutrients (N, P) causing algal bloom"
         },
         {
-          "question": "Q11 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 11,
+          "question": "Major water pollutants:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heavy metals (Pb, Hg, Cd), pesticides, nitrates, sewage",
+            "Only water",
+            "Only sand",
+            "Only CO₂"
           ],
-          "answer": "Option A"
+          "answer": "Heavy metals (Pb, Hg, Cd), pesticides, nitrates, sewage"
         },
         {
-          "question": "Q12 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 12,
+          "question": "Minamata disease caused by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Hg poisoning (organic mercury)",
+            "Pb",
+            "Cd",
+            "As"
           ],
-          "answer": "Option A"
+          "answer": "Hg poisoning (organic mercury)"
         },
         {
-          "question": "Q13 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 13,
+          "question": "Itai-itai disease caused by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cd poisoning",
+            "Hg",
+            "Pb",
+            "As"
           ],
-          "answer": "Option A"
+          "answer": "Cd poisoning"
         },
         {
-          "question": "Q14 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 14,
+          "question": "Blue baby syndrome caused by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High nitrates in water (methaemoglobinaemia)",
+            "Pb",
+            "Hg",
+            "CO₂"
           ],
-          "answer": "Option A"
+          "answer": "High nitrates in water (methaemoglobinaemia)"
         },
         {
-          "question": "Q15 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 15,
+          "question": "Stratospheric ozone (O₃) absorbs:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "UV-B and UV-C",
+            "IR only",
+            "Visible only",
+            "X-rays only"
           ],
-          "answer": "Option A"
+          "answer": "UV-B and UV-C"
         },
         {
-          "question": "Q16 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 16,
+          "question": "Ozone layer is in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Stratosphere (15-35 km)",
+            "Troposphere",
+            "Mesosphere",
+            "Thermosphere"
           ],
-          "answer": "Option A"
+          "answer": "Stratosphere (15-35 km)"
         },
         {
-          "question": "Q17 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 17,
+          "question": "CFCs deplete ozone by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Releasing Cl radicals which catalyse O₃ destruction",
+            "Direct reaction with O₂",
+            "Absorbing UV",
+            "Forming O₂"
           ],
-          "answer": "Option A"
+          "answer": "Releasing Cl radicals which catalyse O₃ destruction"
         },
         {
-          "question": "Q18 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 18,
+          "question": "Chain reaction for O₃ depletion by Cl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cl + O₃ → ClO + O₂ ; ClO + O → Cl + O₂",
+            "Cl + O₂ → ClO₂",
+            "O₃ → O₂",
+            "Cl + O → ClO only"
           ],
-          "answer": "Option A"
+          "answer": "Cl + O₃ → ClO + O₂ ; ClO + O → Cl + O₂"
         },
         {
-          "question": "Q19 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 19,
+          "question": "Ozone hole over:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Antarctica (discovered 1985)",
+            "Equator",
+            "Arctic only (before 2020)",
+            "Pacific"
           ],
-          "answer": "Option A"
+          "answer": "Antarctica (discovered 1985)"
         },
         {
-          "question": "Q20 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 20,
+          "question": "Montreal Protocol (1987) controlled:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CFCs and ozone-depleting substances",
+            "CO₂ only",
+            "SO₂",
+            "Methane"
           ],
-          "answer": "Option A"
+          "answer": "CFCs and ozone-depleting substances"
         },
         {
-          "question": "Q21 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 21,
+          "question": "Kyoto Protocol (1997) targets:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Greenhouse gases (CO₂, CH₄, N₂O, etc.)",
+            "CFCs",
+            "SO₂",
+            "NOₓ"
           ],
-          "answer": "Option A"
+          "answer": "Greenhouse gases (CO₂, CH₄, N₂O, etc.)"
         },
         {
-          "question": "Q22 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 22,
+          "question": "DO (dissolved oxygen) at 20°C saturation ≈",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9 ppm",
+            "0 ppm",
+            "100 ppm",
+            "50 ppm"
           ],
-          "answer": "Option A"
+          "answer": "9 ppm"
         },
         {
-          "question": "Q23 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 23,
+          "question": "Respirable suspended particulates (RSPM) size:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "< 2.5 μm (PM2.5) or < 10 μm (PM10)",
+            "> 100 μm",
+            "> 1 mm",
+            "Visible only"
           ],
-          "answer": "Option A"
+          "answer": "< 2.5 μm (PM2.5) or < 10 μm (PM10)"
         },
         {
-          "question": "Q24 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 24,
+          "question": "Smog word origin:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Smoke + fog",
+            "Smoke + oxygen",
+            "Smoke + gas",
+            "Sulphur + fog"
           ],
-          "answer": "Option A"
+          "answer": "Smoke + fog"
         },
         {
-          "question": "Q25 Week 41: Topic - Environmental Chemistry – Air Pollution, Water Pollution, Ozone Depletion",
+          "id": 25,
+          "question": "Major vehicular pollutant reduced by catalytic converter:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO → CO₂, NOₓ → N₂, HC → CO₂ + H₂O",
+            "Only CO₂",
+            "Only SO₂",
+            "Only H₂O"
           ],
-          "answer": "Option A"
+          "answer": "CO → CO₂, NOₓ → N₂, HC → CO₂ + H₂O"
         }
       ]
     },
@@ -11401,254 +11451,279 @@
       "topic": "Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
       "questions": [
         {
-          "question": "Q1 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 1,
+          "question": "Green chemistry principles include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atom economy, safer reagents, renewables, waste prevention",
+            "Maximum waste",
+            "Toxic solvents",
+            "Non-renewable feedstock only"
           ],
-          "answer": "Option A"
+          "answer": "Atom economy, safer reagents, renewables, waste prevention"
         },
         {
-          "question": "Q2 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 2,
+          "question": "Atom economy measures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "% atoms of reactants in final product",
+            "Cost per atom",
+            "Number of reactions",
+            "Yield of heat"
           ],
-          "answer": "Option A"
+          "answer": "% atoms of reactants in final product"
         },
         {
-          "question": "Q3 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 3,
+          "question": "Ideal reaction for green chemistry:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "High atom economy, water or solvent-free, catalytic",
+            "Low yield",
+            "High waste",
+            "Multi-step with waste"
           ],
-          "answer": "Option A"
+          "answer": "High atom economy, water or solvent-free, catalytic"
         },
         {
-          "question": "Q4 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 4,
+          "question": "Acid rain has pH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "< 5.6",
+            "> 7",
+            "= 7",
+            "= 10"
           ],
-          "answer": "Option A"
+          "answer": "< 5.6"
         },
         {
-          "question": "Q5 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 5,
+          "question": "Main causes of acid rain:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SO₂ and NOₓ → H₂SO₄ and HNO₃",
+            "CO₂ only",
+            "CH₄ only",
+            "O₃"
           ],
-          "answer": "Option A"
+          "answer": "SO₂ and NOₓ → H₂SO₄ and HNO₃"
         },
         {
-          "question": "Q6 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 6,
+          "question": "Effects of acid rain:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Damages buildings, forests, aquatic life",
+            "Improves crops",
+            "Clears air",
+            "Heats atmosphere"
           ],
-          "answer": "Option A"
+          "answer": "Damages buildings, forests, aquatic life"
         },
         {
-          "question": "Q7 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 7,
+          "question": "Marble cancer is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Acid rain reacting with CaCO₃ in marble monuments",
+            "CO₂",
+            "Ozone",
+            "Heat"
           ],
-          "answer": "Option A"
+          "answer": "Acid rain reacting with CaCO₃ in marble monuments"
         },
         {
-          "question": "Q8 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 8,
+          "question": "Greenhouse effect means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trapping of IR by GHGs (CO₂, CH₄, N₂O, H₂O vapour) in atmosphere",
+            "Heating Earth's surface by direct UV",
+            "Cooling",
+            "Photosynthesis"
           ],
-          "answer": "Option A"
+          "answer": "Trapping of IR by GHGs (CO₂, CH₄, N₂O, H₂O vapour) in atmosphere"
         },
         {
-          "question": "Q9 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 9,
+          "question": "Main anthropogenic GHG:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO₂ (from fossil fuels)",
+            "O₂",
+            "N₂",
+            "Ar"
           ],
-          "answer": "Option A"
+          "answer": "CO₂ (from fossil fuels)"
         },
         {
-          "question": "Q10 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 10,
+          "question": "Global warming potential (GWP) of CH₄ vs CO₂ (100-yr):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "~28× CO₂",
+            "Equal",
+            "Less than CO₂",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "~28× CO₂"
         },
         {
-          "question": "Q11 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 11,
+          "question": "Major consequence of global warming:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rising sea level, extreme weather, glacier melt",
+            "Colder winters only",
+            "Nothing",
+            "Photosynthesis increase"
           ],
-          "answer": "Option A"
+          "answer": "Rising sea level, extreme weather, glacier melt"
         },
         {
-          "question": "Q12 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 12,
+          "question": "CO₂ concentration (current, ppm) is roughly:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "~420 ppm",
+            "50 ppm",
+            "1000 ppm",
+            "10 ppm"
           ],
-          "answer": "Option A"
+          "answer": "~420 ppm"
         },
         {
-          "question": "Q13 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 13,
+          "question": "Biodegradable waste means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decomposed by microbes naturally",
+            "Persists forever",
+            "Radioactive",
+            "Metallic"
           ],
-          "answer": "Option A"
+          "answer": "Decomposed by microbes naturally"
         },
         {
-          "question": "Q14 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 14,
+          "question": "Non-biodegradable includes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Plastics, glass, DDT, heavy metals",
+            "Paper",
+            "Food",
+            "Leaves"
           ],
-          "answer": "Option A"
+          "answer": "Plastics, glass, DDT, heavy metals"
         },
         {
-          "question": "Q15 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 15,
+          "question": "Three Rs of waste management:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reduce, Reuse, Recycle",
+            "Remove, Replace, Resell",
+            "Read, Write, Rest",
+            "Run, React, Reset"
           ],
-          "answer": "Option A"
+          "answer": "Reduce, Reuse, Recycle"
         },
         {
-          "question": "Q16 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 16,
+          "question": "Dry cleaning uses liquid CO₂ because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-toxic alternative to tetrachloroethene (greener)",
+            "Cheaper",
+            "Faster",
+            "Larger scale"
           ],
-          "answer": "Option A"
+          "answer": "Non-toxic alternative to tetrachloroethene (greener)"
         },
         {
-          "question": "Q17 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 17,
+          "question": "H₂O₂ is preferred in green bleaching because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decomposes to H₂O + O₂ (no toxic residue)",
+            "Non-reactive",
+            "Leaves chloride",
+            "Cheap only"
           ],
-          "answer": "Option A"
+          "answer": "Decomposes to H₂O + O₂ (no toxic residue)"
         },
         {
-          "question": "Q18 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 18,
+          "question": "Sustainable development means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Meeting needs now without compromising future",
+            "Maximum consumption",
+            "No technology",
+            "No waste ever"
           ],
-          "answer": "Option A"
+          "answer": "Meeting needs now without compromising future"
         },
         {
-          "question": "Q19 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 19,
+          "question": "Green synthesis example: ibuprofen (BHC route) replaces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6-step with 40% atom economy → 3-step with 77%",
+            "5-step → 100% waste",
+            "No change",
+            "Inert"
           ],
-          "answer": "Option A"
+          "answer": "6-step with 40% atom economy → 3-step with 77%"
         },
         {
-          "question": "Q20 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 20,
+          "question": "Carbon footprint measures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Total GHG emitted by an activity",
+            "Size of forest",
+            "Solar flux",
+            "Pure CO₂ only"
           ],
-          "answer": "Option A"
+          "answer": "Total GHG emitted by an activity"
         },
         {
-          "question": "Q21 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 21,
+          "question": "Renewable energy sources:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Solar, wind, hydro, biomass, geothermal",
+            "Only coal",
+            "Only oil",
+            "Only nuclear fission"
           ],
-          "answer": "Option A"
+          "answer": "Solar, wind, hydro, biomass, geothermal"
         },
         {
-          "question": "Q22 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 22,
+          "question": "Ozone depleting substances (ODS) include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CFCs, halons, CCl₄, methyl bromide",
+            "CO₂",
+            "CH₄",
+            "N₂"
           ],
-          "answer": "Option A"
+          "answer": "CFCs, halons, CCl₄, methyl bromide"
         },
         {
-          "question": "Q23 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 23,
+          "question": "HFCs replaced CFCs but:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Are still potent GHGs (global warming)",
+            "Are inert",
+            "Are cheaper only",
+            "Are natural"
           ],
-          "answer": "Option A"
+          "answer": "Are still potent GHGs (global warming)"
         },
         {
-          "question": "Q24 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 24,
+          "question": "Paris Agreement (2015) aims to limit warming to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Well below 2°C, preferably 1.5°C",
+            "5°C",
+            "10°C",
+            "0°C"
           ],
-          "answer": "Option A"
+          "answer": "Well below 2°C, preferably 1.5°C"
         },
         {
-          "question": "Q25 Week 42: Topic - Environmental Chemistry – Green Chemistry, Acid Rain, Greenhouse Effect",
+          "id": 25,
+          "question": "Best practice for reducing carbon footprint at home:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Use energy-efficient appliances, public transport, LED",
+            "Drive more",
+            "Heat more",
+            "Buy more"
           ],
-          "answer": "Option A"
+          "answer": "Use energy-efficient appliances, public transport, LED"
         }
       ]
     },
@@ -11657,254 +11732,279 @@
       "topic": "Revision – Basic Concepts & Atomic Structure",
       "questions": [
         {
-          "question": "Q1 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 1,
+          "question": "Mole concept: 1 mole =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.022 × 10²³ particles",
+            "10²³",
+            "100",
+            "1000"
           ],
-          "answer": "Option A"
+          "answer": "6.022 × 10²³ particles"
         },
         {
-          "question": "Q2 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 2,
+          "question": "Avogadro's number is defined by the number of atoms in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "12 g of ¹²C (exact now)",
+            "1 g of H",
+            "22.4 L",
+            "100 g"
           ],
-          "answer": "Option A"
+          "answer": "12 g of ¹²C (exact now)"
         },
         {
-          "question": "Q3 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 3,
+          "question": "Molar mass of water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "18 g/mol",
+            "16",
+            "20",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "18 g/mol"
         },
         {
-          "question": "Q4 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 4,
+          "question": "Molarity (M) =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mol solute / L solution",
+            "g solute / L",
+            "mol / kg solvent",
+            "mass fraction"
           ],
-          "answer": "Option A"
+          "answer": "mol solute / L solution"
         },
         {
-          "question": "Q5 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 5,
+          "question": "Molality (m) =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "mol solute / kg solvent",
+            "mol / L",
+            "g / L",
+            "% by mass"
           ],
-          "answer": "Option A"
+          "answer": "mol solute / kg solvent"
         },
         {
-          "question": "Q6 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 6,
+          "question": "Mole fraction (X_A) =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "n_A / (n_A + n_B)",
+            "mol/L",
+            "mol/kg",
+            "g/L"
           ],
-          "answer": "Option A"
+          "answer": "n_A / (n_A + n_B)"
         },
         {
-          "question": "Q7 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 7,
+          "question": "Normality (N) × equivalent mass =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "g/L",
+            "mol/L",
+            "mol/kg",
+            "%"
           ],
-          "answer": "Option A"
+          "answer": "g/L"
         },
         {
-          "question": "Q8 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 8,
+          "question": "Empirical formula represents:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Simplest whole-number ratio of atoms",
+            "Actual number of atoms",
+            "Molar mass",
+            "Structure"
           ],
-          "answer": "Option A"
+          "answer": "Simplest whole-number ratio of atoms"
         },
         {
-          "question": "Q9 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 9,
+          "question": "For C₂H₄ empirical formula is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₂",
+            "C₂H₄",
+            "CH",
+            "C₂H₂"
           ],
-          "answer": "Option A"
+          "answer": "CH₂"
         },
         {
-          "question": "Q10 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 10,
+          "question": "Stoichiometry is based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Balanced chemical equation",
+            "Mass only",
+            "Volume only",
+            "Temperature"
           ],
-          "answer": "Option A"
+          "answer": "Balanced chemical equation"
         },
         {
-          "question": "Q11 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 11,
+          "question": "Limiting reagent:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Consumed first, limits product",
+            "Consumed last",
+            "Excess",
+            "Catalyst"
           ],
-          "answer": "Option A"
+          "answer": "Consumed first, limits product"
         },
         {
-          "question": "Q12 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 12,
+          "question": "% yield = ?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(Actual / Theoretical) × 100",
+            "Actual × Theoretical",
+            "Actual + Theoretical",
+            "100 only"
           ],
-          "answer": "Option A"
+          "answer": "(Actual / Theoretical) × 100"
         },
         {
-          "question": "Q13 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 13,
+          "question": "Cathode rays are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrons",
+            "Protons",
+            "Neutrons",
+            "Photons"
           ],
-          "answer": "Option A"
+          "answer": "Electrons"
         },
         {
-          "question": "Q14 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 14,
+          "question": "Charge of electron:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−1.6 × 10⁻¹⁹ C",
+            "+1.6 × 10⁻¹⁹ C",
+            "0",
+            "2e"
           ],
-          "answer": "Option A"
+          "answer": "−1.6 × 10⁻¹⁹ C"
         },
         {
-          "question": "Q15 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 15,
+          "question": "Mass of electron:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9.1 × 10⁻³¹ kg",
+            "1.67 × 10⁻²⁷ kg",
+            "0",
+            "1 g"
           ],
-          "answer": "Option A"
+          "answer": "9.1 × 10⁻³¹ kg"
         },
         {
-          "question": "Q16 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 16,
+          "question": "Proton mass:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.67 × 10⁻²⁷ kg",
+            "9.1 × 10⁻³¹",
+            "2.5 × 10⁻²⁷",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "1.67 × 10⁻²⁷ kg"
         },
         {
-          "question": "Q17 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 17,
+          "question": "Isotopes have same Z but:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Different A",
+            "Different Z",
+            "Same A",
+            "Different charges"
           ],
-          "answer": "Option A"
+          "answer": "Different A"
         },
         {
-          "question": "Q18 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 18,
+          "question": "Isobars have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same A, different Z",
+            "Same Z, different A",
+            "Same electrons",
+            "Same neutrons"
           ],
-          "answer": "Option A"
+          "answer": "Same A, different Z"
         },
         {
-          "question": "Q19 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 19,
+          "question": "Bohr radius (n=1, H):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.529 Å",
+            "1 Å",
+            "2 Å",
+            "0.1 Å"
           ],
-          "answer": "Option A"
+          "answer": "0.529 Å"
         },
         {
-          "question": "Q20 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 20,
+          "question": "Energy of H (n=1):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−13.6 eV",
+            "+13.6 eV",
+            "0",
+            "−1.6 eV"
           ],
-          "answer": "Option A"
+          "answer": "−13.6 eV"
         },
         {
-          "question": "Q21 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 21,
+          "question": "Photoelectric effect proves:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Particle nature of light",
+            "Wave nature",
+            "Neither",
+            "Both equally"
           ],
-          "answer": "Option A"
+          "answer": "Particle nature of light"
         },
         {
-          "question": "Q22 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 22,
+          "question": "De Broglie wavelength:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "λ = h/mv",
+            "λ = h·mv",
+            "λ = mc²",
+            "λ = nh"
           ],
-          "answer": "Option A"
+          "answer": "λ = h/mv"
         },
         {
-          "question": "Q23 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 23,
+          "question": "Heisenberg uncertainty: Δx·Δp ≥",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "h/4π",
+            "h",
+            "h/2",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "h/4π"
         },
         {
-          "question": "Q24 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 24,
+          "question": "Number of orbitals in f subshell:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7",
+            "5",
+            "3",
+            "9"
           ],
-          "answer": "Option A"
+          "answer": "7"
         },
         {
-          "question": "Q25 Week 43: Topic - Revision – Basic Concepts & Atomic Structure",
+          "id": 25,
+          "question": "Maximum electrons in M-shell (n=3):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "18",
+            "8",
+            "32",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "18"
         }
       ]
     },
@@ -11913,254 +12013,279 @@
       "topic": "Revision – Periodic Table & Chemical Bonding",
       "questions": [
         {
-          "question": "Q1 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 1,
+          "question": "Dobereiner proposed:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Triads",
+            "Octaves",
+            "Periodic law",
+            "Modern PT"
           ],
-          "answer": "Option A"
+          "answer": "Triads"
         },
         {
-          "question": "Q2 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 2,
+          "question": "Mendeleev arranged elements by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic mass",
+            "Atomic number",
+            "Density",
+            "Size"
           ],
-          "answer": "Option A"
+          "answer": "Atomic mass"
         },
         {
-          "question": "Q3 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 3,
+          "question": "Modern periodic law based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic number",
+            "Atomic mass",
+            "Density",
+            "Valency"
           ],
-          "answer": "Option A"
+          "answer": "Atomic number"
         },
         {
-          "question": "Q4 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 4,
+          "question": "Period 2 elements:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Li to Ne",
+            "H to He",
+            "Na to Ar",
+            "K to Kr"
           ],
-          "answer": "Option A"
+          "answer": "Li to Ne"
         },
         {
-          "question": "Q5 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 5,
+          "question": "Group 17 is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halogens",
+            "Alkali",
+            "Alkaline earth",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Halogens"
         },
         {
-          "question": "Q6 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 6,
+          "question": "Atomic radius along period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q7 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 7,
+          "question": "IE down the group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q8 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 8,
+          "question": "EA along period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Generally increases (more negative)",
+            "Always decreases",
+            "Zero",
+            "Unchanged"
           ],
-          "answer": "Option A"
+          "answer": "Generally increases (more negative)"
         },
         {
-          "question": "Q9 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 9,
+          "question": "Electronegativity highest in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F",
+            "Cl",
+            "O",
+            "N"
           ],
-          "answer": "Option A"
+          "answer": "F"
         },
         {
-          "question": "Q10 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 10,
+          "question": "Most metallic element:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cs (or Fr)",
+            "Na",
+            "Li",
+            "K"
           ],
-          "answer": "Option A"
+          "answer": "Cs (or Fr)"
         },
         {
-          "question": "Q11 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 11,
+          "question": "Ionic bond formed between:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Metal and non-metal",
+            "Two metals",
+            "Two non-metals",
+            "Noble gas pair"
           ],
-          "answer": "Option A"
+          "answer": "Metal and non-metal"
         },
         {
-          "question": "Q12 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 12,
+          "question": "Covalent bond formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sharing of electrons",
+            "Transfer only",
+            "Proton exchange",
+            "Metallic sea"
           ],
-          "answer": "Option A"
+          "answer": "Sharing of electrons"
         },
         {
-          "question": "Q13 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 13,
+          "question": "Lattice energy of NaCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−787 kJ/mol (high magnitude = stable)",
+            "0",
+            "−10 kJ",
+            "+100 kJ"
           ],
-          "answer": "Option A"
+          "answer": "−787 kJ/mol (high magnitude = stable)"
         },
         {
-          "question": "Q14 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 14,
+          "question": "VSEPR shape of NH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trigonal pyramidal (bond angle 107°)",
+            "Tetrahedral",
+            "T-shape",
+            "Square planar"
           ],
-          "answer": "Option A"
+          "answer": "Trigonal pyramidal (bond angle 107°)"
         },
         {
-          "question": "Q15 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 15,
+          "question": "VSEPR shape of H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Bent (104.5°)",
+            "Linear",
+            "Tetrahedral",
+            "Pyramidal"
           ],
-          "answer": "Option A"
+          "answer": "Bent (104.5°)"
         },
         {
-          "question": "Q16 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 16,
+          "question": "Hybridisation of C in CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q17 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 17,
+          "question": "Hybridisation of B in BF₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q18 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 18,
+          "question": "Hybridisation of S in SF₆:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³d²",
+            "sp³",
+            "sp³d",
+            "sp"
           ],
-          "answer": "Option A"
+          "answer": "sp³d²"
         },
         {
-          "question": "Q19 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 19,
+          "question": "Bond order of O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "1",
+            "1.5",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q20 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 20,
+          "question": "Bond order of N₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "2",
+            "1",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Q21 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 21,
+          "question": "O₂ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Paramagnetic",
+            "Diamagnetic",
+            "Neither",
+            "Ionic"
           ],
-          "answer": "Option A"
+          "answer": "Paramagnetic"
         },
         {
-          "question": "Q22 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 22,
+          "question": "H-bonding strongest with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F, O, N",
+            "C, H",
+            "Metals",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "F, O, N"
         },
         {
-          "question": "Q23 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 23,
+          "question": "Ice is less dense than water because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Open H-bonded lattice",
+            "Trapped air",
+            "Lower mass",
+            "More protons"
           ],
-          "answer": "Option A"
+          "answer": "Open H-bonded lattice"
         },
         {
-          "question": "Q24 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 24,
+          "question": "Fajan's rule: covalent character increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small cation, large anion, high cation charge",
+            "Large cation, small anion",
+            "Equal sizes",
+            "No effect"
           ],
-          "answer": "Option A"
+          "answer": "Small cation, large anion, high cation charge"
         },
         {
-          "question": "Q25 Week 44: Topic - Revision – Periodic Table & Chemical Bonding",
+          "id": 25,
+          "question": "MO bond order formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(N_b − N_a)/2",
+            "(N_a − N_b)/2",
+            "N_b + N_a",
+            "N_b × N_a"
           ],
-          "answer": "Option A"
+          "answer": "(N_b − N_a)/2"
         }
       ]
     },
@@ -12169,254 +12294,279 @@
       "topic": "Revision – Thermodynamics & Equilibrium",
       "questions": [
         {
-          "question": "Q1 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 1,
+          "question": "First law of thermodynamics:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔU = q + w",
+            "ΔS > 0",
+            "ΔG = 0",
+            "H = U + PV"
           ],
-          "answer": "Option A"
+          "answer": "ΔU = q + w"
         },
         {
-          "question": "Q2 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 2,
+          "question": "State function example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "U, H, S, G",
+            "q",
+            "w",
+            "Path"
           ],
-          "answer": "Option A"
+          "answer": "U, H, S, G"
         },
         {
-          "question": "Q3 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 3,
+          "question": "Enthalpy definition:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H = U + PV",
+            "H = q/T",
+            "H = U − TS",
+            "H = ΔG"
           ],
-          "answer": "Option A"
+          "answer": "H = U + PV"
         },
         {
-          "question": "Q4 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 4,
+          "question": "Hess's law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH path-independent (sum of steps)",
+            "ΔH = q only",
+            "ΔH depends on path",
+            "ΔH zero"
           ],
-          "answer": "Option A"
+          "answer": "ΔH path-independent (sum of steps)"
         },
         {
-          "question": "Q5 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 5,
+          "question": "Exothermic reaction has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH < 0",
+            "ΔH > 0",
+            "ΔH = 0",
+            "ΔG > 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔH < 0"
         },
         {
-          "question": "Q6 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 6,
+          "question": "Standard enthalpy of formation of element:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0 (in standard state)",
+            "Depends on compound",
+            "Always negative",
+            "Always positive"
           ],
-          "answer": "Option A"
+          "answer": "0 (in standard state)"
         },
         {
-          "question": "Q7 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 7,
+          "question": "Second law expression:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔS_universe > 0 for spontaneous",
+            "ΔH < 0",
+            "ΔG > 0",
+            "Always ΔS = 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔS_universe > 0 for spontaneous"
         },
         {
-          "question": "Q8 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 8,
+          "question": "Gibbs free energy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "G = H − TS",
+            "G = U + PV",
+            "G = TS",
+            "G = q/T"
           ],
-          "answer": "Option A"
+          "answer": "G = H − TS"
         },
         {
-          "question": "Q9 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 9,
+          "question": "Spontaneity criterion:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔG < 0",
+            "ΔG > 0",
+            "ΔG = 0",
+            "ΔH > 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔG < 0"
         },
         {
-          "question": "Q10 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 10,
+          "question": "At equilibrium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔG = 0",
+            "ΔG < 0",
+            "ΔG > 0",
+            "q = 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔG = 0"
         },
         {
-          "question": "Q11 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 11,
+          "question": "ΔG° = −RT ln K (equilibrium).",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "True",
+            "False",
+            "Only at STP",
+            "Only for solids"
           ],
-          "answer": "Option A"
+          "answer": "True"
         },
         {
-          "question": "Q12 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 12,
+          "question": "For spontaneous at all T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH < 0, ΔS > 0",
+            "ΔH > 0, ΔS < 0",
+            "ΔH > 0, ΔS > 0",
+            "ΔH < 0, ΔS < 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔH < 0, ΔS > 0"
         },
         {
-          "question": "Q13 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 13,
+          "question": "For non-spontaneous at all T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔH > 0, ΔS < 0",
+            "ΔH < 0, ΔS > 0",
+            "ΔH > 0, ΔS > 0",
+            "ΔH < 0, ΔS < 0"
           ],
-          "answer": "Option A"
+          "answer": "ΔH > 0, ΔS < 0"
         },
         {
-          "question": "Q14 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 14,
+          "question": "Kp and Kc related by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kp = Kc(RT)^Δn",
+            "Kp = Kc",
+            "Kp = Kc/RT",
+            "Kp = Kc×T"
           ],
-          "answer": "Option A"
+          "answer": "Kp = Kc(RT)^Δn"
         },
         {
-          "question": "Q15 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 15,
+          "question": "If Q < K, reaction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Forward direction",
+            "Reverse",
+            "At equilibrium",
+            "Stops"
           ],
-          "answer": "Option A"
+          "answer": "Forward direction"
         },
         {
-          "question": "Q16 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 16,
+          "question": "Le Chatelier: increasing pressure favours:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Side with fewer moles",
+            "Side with more moles",
+            "No effect",
+            "Catalyst"
           ],
-          "answer": "Option A"
+          "answer": "Side with fewer moles"
         },
         {
-          "question": "Q17 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 17,
+          "question": "Adding catalyst:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Does not change K or position of equilibrium",
+            "Shifts forward",
+            "Shifts reverse",
+            "Increases K"
           ],
-          "answer": "Option A"
+          "answer": "Does not change K or position of equilibrium"
         },
         {
-          "question": "Q18 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 18,
+          "question": "pH = 3 means [H⁺] =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁻³ M",
+            "10⁻¹¹ M",
+            "3 M",
+            "0.3 M"
           ],
-          "answer": "Option A"
+          "answer": "10⁻³ M"
         },
         {
-          "question": "Q19 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 19,
+          "question": "Ka × Kb =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kw = 10⁻¹⁴",
+            "1",
+            "0",
+            "Kp"
           ],
-          "answer": "Option A"
+          "answer": "Kw = 10⁻¹⁴"
         },
         {
-          "question": "Q20 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 20,
+          "question": "Buffer at pH = pKa when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[A⁻] = [HA]",
+            "[A⁻] >> [HA]",
+            "[HA] >> [A⁻]",
+            "Only acid"
           ],
-          "answer": "Option A"
+          "answer": "[A⁻] = [HA]"
         },
         {
-          "question": "Q21 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 21,
+          "question": "Ksp for AgCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "s²",
+            "s³",
+            "4s³",
+            "s"
           ],
-          "answer": "Option A"
+          "answer": "s²"
         },
         {
-          "question": "Q22 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 22,
+          "question": "Ksp for CaF₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4s³",
+            "s²",
+            "27s⁴",
+            "s"
           ],
-          "answer": "Option A"
+          "answer": "4s³"
         },
         {
-          "question": "Q23 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 23,
+          "question": "Common ion effect:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases solubility",
+            "Increases",
+            "No effect",
+            "Only at low T"
           ],
-          "answer": "Option A"
+          "answer": "Decreases solubility"
         },
         {
-          "question": "Q24 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 24,
+          "question": "Buffer equation (Henderson-Hasselbalch):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "pH = pKa + log([A⁻]/[HA])",
+            "pH = pKa",
+            "pH = Kw",
+            "pH = 7"
           ],
-          "answer": "Option A"
+          "answer": "pH = pKa + log([A⁻]/[HA])"
         },
         {
-          "question": "Q25 Week 45: Topic - Revision – Thermodynamics & Equilibrium",
+          "id": 25,
+          "question": "Le Chatelier for exothermic reaction: increasing T",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shifts backward (K decreases)",
+            "Shifts forward",
+            "No effect",
+            "K increases"
           ],
-          "answer": "Option A"
+          "answer": "Shifts backward (K decreases)"
         }
       ]
     },
@@ -12425,254 +12575,279 @@
       "topic": "Revision – Redox Reactions",
       "questions": [
         {
-          "question": "Q1 Week 46: Topic - Revision – Redox Reactions",
+          "id": 1,
+          "question": "Oxidation is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Loss of electrons / increase in oxidation number",
+            "Gain of electrons",
+            "No change",
+            "Loss of protons"
           ],
-          "answer": "Option A"
+          "answer": "Loss of electrons / increase in oxidation number"
         },
         {
-          "question": "Q2 Week 46: Topic - Revision – Redox Reactions",
+          "id": 2,
+          "question": "Reduction is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gain of electrons",
+            "Loss of electrons",
+            "Loss of protons",
+            "No change"
           ],
-          "answer": "Option A"
+          "answer": "Gain of electrons"
         },
         {
-          "question": "Q3 Week 46: Topic - Revision – Redox Reactions",
+          "id": 3,
+          "question": "Oxidation number of H in NaH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−1",
+            "+1",
+            "0",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "−1"
         },
         {
-          "question": "Q4 Week 46: Topic - Revision – Redox Reactions",
+          "id": 4,
+          "question": "Oxidation number of O in H₂O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−1",
+            "−2",
+            "+2",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "−1"
         },
         {
-          "question": "Q5 Week 46: Topic - Revision – Redox Reactions",
+          "id": 5,
+          "question": "Oxidation number of Mn in KMnO₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+7",
+            "+4",
+            "+2",
+            "+6"
           ],
-          "answer": "Option A"
+          "answer": "+7"
         },
         {
-          "question": "Q6 Week 46: Topic - Revision – Redox Reactions",
+          "id": 6,
+          "question": "Oxidation number of Cr in K₂Cr₂O₇:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+6",
+            "+3",
+            "+7",
+            "+4"
           ],
-          "answer": "Option A"
+          "answer": "+6"
         },
         {
-          "question": "Q7 Week 46: Topic - Revision – Redox Reactions",
+          "id": 7,
+          "question": "Oxidation number of S in H₂SO₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+6",
+            "+4",
+            "+2",
+            "+8"
           ],
-          "answer": "Option A"
+          "answer": "+6"
         },
         {
-          "question": "Q8 Week 46: Topic - Revision – Redox Reactions",
+          "id": 8,
+          "question": "Oxidation number of N in HNO₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+5",
+            "+3",
+            "−3",
+            "+1"
           ],
-          "answer": "Option A"
+          "answer": "+5"
         },
         {
-          "question": "Q9 Week 46: Topic - Revision – Redox Reactions",
+          "id": 9,
+          "question": "Disproportionation reaction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same element oxidised and reduced",
+            "Only oxidised",
+            "Only reduced",
+            "No redox"
           ],
-          "answer": "Option A"
+          "answer": "Same element oxidised and reduced"
         },
         {
-          "question": "Q10 Week 46: Topic - Revision – Redox Reactions",
+          "id": 10,
+          "question": "Example of disproportionation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2H₂O₂ → 2H₂O + O₂",
+            "NaCl + AgNO₃",
+            "HCl + NaOH",
+            "Zn + HCl"
           ],
-          "answer": "Option A"
+          "answer": "2H₂O₂ → 2H₂O + O₂"
         },
         {
-          "question": "Q11 Week 46: Topic - Revision – Redox Reactions",
+          "id": 11,
+          "question": "Standard hydrogen electrode potential:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.00 V",
+            "1.00 V",
+            "−0.76 V",
+            "0.34 V"
           ],
-          "answer": "Option A"
+          "answer": "0.00 V"
         },
         {
-          "question": "Q12 Week 46: Topic - Revision – Redox Reactions",
+          "id": 12,
+          "question": "E° of Zn²⁺/Zn:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−0.76 V",
+            "0",
+            "+0.34 V",
+            "+0.76 V"
           ],
-          "answer": "Option A"
+          "answer": "−0.76 V"
         },
         {
-          "question": "Q13 Week 46: Topic - Revision – Redox Reactions",
+          "id": 13,
+          "question": "E° of Cu²⁺/Cu:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+0.34 V",
+            "−0.34 V",
+            "0",
+            "+0.76"
           ],
-          "answer": "Option A"
+          "answer": "+0.34 V"
         },
         {
-          "question": "Q14 Week 46: Topic - Revision – Redox Reactions",
+          "id": 14,
+          "question": "Daniell cell EMF:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+1.10 V",
+            "0",
+            "−1.10",
+            "+0.76"
           ],
-          "answer": "Option A"
+          "answer": "+1.10 V"
         },
         {
-          "question": "Q15 Week 46: Topic - Revision – Redox Reactions",
+          "id": 15,
+          "question": "Galvanic cell converts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chemical → electrical",
+            "Electrical → chemical",
+            "Heat → electrical",
+            "Light → chemical"
           ],
-          "answer": "Option A"
+          "answer": "Chemical → electrical"
         },
         {
-          "question": "Q16 Week 46: Topic - Revision – Redox Reactions",
+          "id": 16,
+          "question": "At anode (Galvanic cell):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Oxidation",
+            "Reduction",
+            "No reaction",
+            "Both"
           ],
-          "answer": "Option A"
+          "answer": "Oxidation"
         },
         {
-          "question": "Q17 Week 46: Topic - Revision – Redox Reactions",
+          "id": 17,
+          "question": "At cathode (Galvanic cell):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reduction",
+            "Oxidation",
+            "Ionisation",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Reduction"
         },
         {
-          "question": "Q18 Week 46: Topic - Revision – Redox Reactions",
+          "id": 18,
+          "question": "Nernst equation (25°C, 1 bar):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "E = E° − (0.0591/n) log Q",
+            "E = E° + RT",
+            "E = RT/nF",
+            "E = 0"
           ],
-          "answer": "Option A"
+          "answer": "E = E° − (0.0591/n) log Q"
         },
         {
-          "question": "Q19 Week 46: Topic - Revision – Redox Reactions",
+          "id": 19,
+          "question": "ΔG° =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−nFE°",
+            "+nFE°",
+            "E°/F",
+            "F/E°"
           ],
-          "answer": "Option A"
+          "answer": "−nFE°"
         },
         {
-          "question": "Q20 Week 46: Topic - Revision – Redox Reactions",
+          "id": 20,
+          "question": "Faraday's constant F =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "96500 C/mol",
+            "6.022e23",
+            "1.6e-19",
+            "8.314"
           ],
-          "answer": "Option A"
+          "answer": "96500 C/mol"
         },
         {
-          "question": "Q21 Week 46: Topic - Revision – Redox Reactions",
+          "id": 21,
+          "question": "Balancing redox in acidic medium uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H⁺ and H₂O",
+            "OH⁻ and H₂O",
+            "Only H⁺",
+            "Only H₂O"
           ],
-          "answer": "Option A"
+          "answer": "H⁺ and H₂O"
         },
         {
-          "question": "Q22 Week 46: Topic - Revision – Redox Reactions",
+          "id": 22,
+          "question": "Balancing redox in basic medium uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "OH⁻ and H₂O",
+            "H⁺ and H₂O",
+            "Only OH⁻",
+            "Only H₂O"
           ],
-          "answer": "Option A"
+          "answer": "OH⁻ and H₂O"
         },
         {
-          "question": "Q23 Week 46: Topic - Revision – Redox Reactions",
+          "id": 23,
+          "question": "n-factor of KMnO₄ in acidic medium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "2",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q24 Week 46: Topic - Revision – Redox Reactions",
+          "id": 24,
+          "question": "n-factor of K₂Cr₂O₇ in acidic medium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6",
+            "3",
+            "2",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "6"
         },
         {
-          "question": "Q25 Week 46: Topic - Revision – Redox Reactions",
+          "id": 25,
+          "question": "Cell reaction Zn + Cu²⁺ → Zn²⁺ + Cu has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ΔG° < 0, spontaneous",
+            "ΔG° > 0",
+            "ΔG° = 0",
+            "Not spontaneous"
           ],
-          "answer": "Option A"
+          "answer": "ΔG° < 0, spontaneous"
         }
       ]
     },
@@ -12681,254 +12856,279 @@
       "topic": "Revision – Organic Chemistry (Basics & Nomenclature)",
       "questions": [
         {
-          "question": "Q1 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 1,
+          "question": "IUPAC name for (CH₃)₃CH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-methylpropane",
+            "isobutane (common)",
+            "Trimethylmethane",
+            "n-butane"
           ],
-          "answer": "Option A"
+          "answer": "2-methylpropane"
         },
         {
-          "question": "Q2 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 2,
+          "question": "IUPAC name for CH₃CH=CHCH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "but-2-ene",
+            "but-1-ene",
+            "butane",
+            "but-1-yne"
           ],
-          "answer": "Option A"
+          "answer": "but-2-ene"
         },
         {
-          "question": "Q3 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 3,
+          "question": "IUPAC name for CH₃-C≡C-CH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "but-2-yne",
+            "but-1-yne",
+            "butene",
+            "butane"
           ],
-          "answer": "Option A"
+          "answer": "but-2-yne"
         },
         {
-          "question": "Q4 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 4,
+          "question": "IUPAC name for CH₃CHO:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethanal",
+            "Methanal",
+            "Propanal",
+            "Acetaldehyde (common)"
           ],
-          "answer": "Option A"
+          "answer": "Ethanal"
         },
         {
-          "question": "Q5 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 5,
+          "question": "IUPAC name for CH₃COCH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Propan-2-one",
+            "Propanone",
+            "Acetone (common)",
+            "Butanone"
           ],
-          "answer": "Option A"
+          "answer": "Propan-2-one"
         },
         {
-          "question": "Q6 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 6,
+          "question": "IUPAC name for CH₃COOH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ethanoic acid",
+            "Methanoic acid",
+            "Propanoic acid",
+            "Acetic acid (common)"
           ],
-          "answer": "Option A"
+          "answer": "Ethanoic acid"
         },
         {
-          "question": "Q7 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 7,
+          "question": "IUPAC name for CH₃OH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Methanol",
+            "Ethanol",
+            "Methanol acid",
+            "Formaldehyde"
           ],
-          "answer": "Option A"
+          "answer": "Methanol"
         },
         {
-          "question": "Q8 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 8,
+          "question": "Functional group priority (decreasing):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−COOH > −CHO > >C=O > −OH > −NH₂",
+            "−OH > −COOH",
+            "−NH₂ > −COOH",
+            "All equal"
           ],
-          "answer": "Option A"
+          "answer": "−COOH > −CHO > >C=O > −OH > −NH₂"
         },
         {
-          "question": "Q9 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 9,
+          "question": "General formula of alkanes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ₊₁"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ₊₂"
         },
         {
-          "question": "Q10 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 10,
+          "question": "General formula of alkenes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ₊₁"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ"
         },
         {
-          "question": "Q11 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 11,
+          "question": "General formula of alkynes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ₊₁"
           ],
-          "answer": "Option A"
+          "answer": "CₙH₂ₙ₋₂"
         },
         {
-          "question": "Q12 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 12,
+          "question": "Structural isomers of C₄H₁₀:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "n-butane, isobutane",
+            "1",
+            "3",
+            "4"
           ],
-          "answer": "Option A"
+          "answer": "n-butane, isobutane"
         },
         {
-          "question": "Q13 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 13,
+          "question": "Chain isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carbon skeleton",
+            "Position of group",
+            "Functional group",
+            "Space"
           ],
-          "answer": "Option A"
+          "answer": "Carbon skeleton"
         },
         {
-          "question": "Q14 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 14,
+          "question": "Position isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Position of substituent",
+            "Skeleton",
+            "Functional group",
+            "Space"
           ],
-          "answer": "Option A"
+          "answer": "Position of substituent"
         },
         {
-          "question": "Q15 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 15,
+          "question": "Functional isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Functional group (e.g., ether vs alcohol)",
+            "Skeleton only",
+            "Space only",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Functional group (e.g., ether vs alcohol)"
         },
         {
-          "question": "Q16 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 16,
+          "question": "Tautomers:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Functional isomers in rapid equilibrium (keto-enol)",
+            "Geometrical",
+            "Optical",
+            "Chain"
           ],
-          "answer": "Option A"
+          "answer": "Functional isomers in rapid equilibrium (keto-enol)"
         },
         {
-          "question": "Q17 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 17,
+          "question": "Geometrical isomers require:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C=C with different groups on each C",
+            "Chiral C",
+            "Single bond rotation",
+            "Same groups"
           ],
-          "answer": "Option A"
+          "answer": "C=C with different groups on each C"
         },
         {
-          "question": "Q18 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 18,
+          "question": "Optical isomers differ in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rotation of plane-polarised light",
+            "Boiling point",
+            "Colour",
+            "Solubility"
           ],
-          "answer": "Option A"
+          "answer": "Rotation of plane-polarised light"
         },
         {
-          "question": "Q19 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 19,
+          "question": "Chiral centre:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C with 4 different groups",
+            "3 same groups",
+            "2 substituents",
+            "Any C"
           ],
-          "answer": "Option A"
+          "answer": "C with 4 different groups"
         },
         {
-          "question": "Q20 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 20,
+          "question": "Meso compound is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Optically inactive with chiral centres (internal mirror)",
+            "Chiral active",
+            "No stereocentres",
+            "Racemic"
           ],
-          "answer": "Option A"
+          "answer": "Optically inactive with chiral centres (internal mirror)"
         },
         {
-          "question": "Q21 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 21,
+          "question": "Racemic mixture:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50:50 enantiomers (optically inactive)",
+            "Pure R",
+            "Pure S",
+            "Meso"
           ],
-          "answer": "Option A"
+          "answer": "50:50 enantiomers (optically inactive)"
         },
         {
-          "question": "Q22 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 22,
+          "question": "Enantiomers are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Non-superimposable mirror images",
+            "Identical",
+            "Same molecule",
+            "Geometrical"
           ],
-          "answer": "Option A"
+          "answer": "Non-superimposable mirror images"
         },
         {
-          "question": "Q23 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 23,
+          "question": "Diastereomers are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Stereoisomers, NOT mirror images",
+            "Enantiomers",
+            "Same compound",
+            "Identical"
           ],
-          "answer": "Option A"
+          "answer": "Stereoisomers, NOT mirror images"
         },
         {
-          "question": "Q24 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 24,
+          "question": "Homologous series:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Same general formula, same functional group, differ by CH₂",
+            "Different formulas",
+            "Random",
+            "Different FGs"
           ],
-          "answer": "Option A"
+          "answer": "Same general formula, same functional group, differ by CH₂"
         },
         {
-          "question": "Q25 Week 47: Topic - Revision – Organic Chemistry (Basics & Nomenclature)",
+          "id": 25,
+          "question": "Free radicals are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Species with unpaired electron",
+            "Ion with charge",
+            "Lone pair",
+            "Salt"
           ],
-          "answer": "Option A"
+          "answer": "Species with unpaired electron"
         }
       ]
     },
@@ -12937,254 +13137,279 @@
       "topic": "Revision – Hydrocarbons",
       "questions": [
         {
-          "question": "Q1 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 1,
+          "question": "Wurtz reaction uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2R-X + 2Na → R-R + 2NaX",
+            "R-OH + Na",
+            "R-X + HCl",
+            "R + O₂"
           ],
-          "answer": "Option A"
+          "answer": "2R-X + 2Na → R-R + 2NaX"
         },
         {
-          "question": "Q2 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 2,
+          "question": "Kolbe electrolysis gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkane from R-COONa",
+            "Alkene",
+            "Ester",
+            "Alcohol"
           ],
-          "answer": "Option A"
+          "answer": "Alkane from R-COONa"
         },
         {
-          "question": "Q3 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 3,
+          "question": "Methane halogenation uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Free-radical chain",
+            "SN1",
+            "SN2",
+            "E1"
           ],
-          "answer": "Option A"
+          "answer": "Free-radical chain"
         },
         {
-          "question": "Q4 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 4,
+          "question": "Markovnikov's rule applies to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HX addition to unsymmetrical alkene",
+            "Alkane halogenation",
+            "Alkyne polymerisation",
+            "Benzene"
           ],
-          "answer": "Option A"
+          "answer": "HX addition to unsymmetrical alkene"
         },
         {
-          "question": "Q5 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 5,
+          "question": "Peroxide effect gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Anti-Markovnikov product with HBr",
+            "Markovnikov",
+            "No product",
+            "Alkane"
           ],
-          "answer": "Option A"
+          "answer": "Anti-Markovnikov product with HBr"
         },
         {
-          "question": "Q6 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 6,
+          "question": "Baeyer's reagent for alkene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cold dilute alkaline KMnO₄",
+            "Conc. H₂SO₄",
+            "HCl",
+            "NaOH"
           ],
-          "answer": "Option A"
+          "answer": "Cold dilute alkaline KMnO₄"
         },
         {
-          "question": "Q7 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 7,
+          "question": "Alkene + cold dilute KMnO₄ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "cis-diol",
+            "Aldehyde",
+            "Ketone",
+            "Carboxylic acid"
           ],
-          "answer": "Option A"
+          "answer": "cis-diol"
         },
         {
-          "question": "Q8 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 8,
+          "question": "Alkene + hot KMnO₄ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carboxylic acids (cleavage)",
+            "Diol",
+            "Alcohol",
+            "Ether"
           ],
-          "answer": "Option A"
+          "answer": "Carboxylic acids (cleavage)"
         },
         {
-          "question": "Q9 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 9,
+          "question": "Ozonolysis of alkene (Zn/H₂O) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Aldehydes/ketones",
+            "Carboxylic acids",
+            "Alcohols",
+            "Ethers"
           ],
-          "answer": "Option A"
+          "answer": "Aldehydes/ketones"
         },
         {
-          "question": "Q10 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 10,
+          "question": "Ozonolysis of alkyne (Zn/H₂O) gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Carboxylic acids",
+            "Aldehydes",
+            "Alcohols",
+            "Ethers"
           ],
-          "answer": "Option A"
+          "answer": "Carboxylic acids"
         },
         {
-          "question": "Q11 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 11,
+          "question": "Acidic hydrogen in alkyne:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Terminal ≡C-H",
+            "Internal CH",
+            "Any CH",
+            "CH₂"
           ],
-          "answer": "Option A"
+          "answer": "Terminal ≡C-H"
         },
         {
-          "question": "Q12 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 12,
+          "question": "Tollens test identifies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Terminal alkyne (silver acetylide white ppt)",
+            "Alkene",
+            "Alcohol",
+            "Ether"
           ],
-          "answer": "Option A"
+          "answer": "Terminal alkyne (silver acetylide white ppt)"
         },
         {
-          "question": "Q13 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 13,
+          "question": "Lindlar's catalyst gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cis-alkene from alkyne",
+            "Trans-alkene",
+            "Alkane",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Cis-alkene from alkyne"
         },
         {
-          "question": "Q14 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 14,
+          "question": "Na/liq NH₃ reduction of alkyne gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trans-alkene",
+            "Cis-alkene",
+            "Alkane",
+            "Carboxylic acid"
           ],
-          "answer": "Option A"
+          "answer": "Trans-alkene"
         },
         {
-          "question": "Q15 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 15,
+          "question": "Benzene molecular formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C₆H₆",
+            "C₆H₁₂",
+            "C₆H₁₀",
+            "C₆H₁₄"
           ],
-          "answer": "Option A"
+          "answer": "C₆H₆"
         },
         {
-          "question": "Q16 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 16,
+          "question": "Benzene is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Aromatic, planar, 6 delocalised π-e⁻",
+            "Aliphatic",
+            "Cyclic saturated",
+            "Amorphous"
           ],
-          "answer": "Option A"
+          "answer": "Aromatic, planar, 6 delocalised π-e⁻"
         },
         {
-          "question": "Q17 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 17,
+          "question": "EAS electrophile for nitration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NO₂⁺",
+            "NO⁻",
+            "HNO₂",
+            "Cl⁺"
           ],
-          "answer": "Option A"
+          "answer": "NO₂⁺"
         },
         {
-          "question": "Q18 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 18,
+          "question": "EAS electrophile for sulphonation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SO₃/HSO₃⁺",
+            "SO₂",
+            "SO₄²⁻",
+            "H⁺"
           ],
-          "answer": "Option A"
+          "answer": "SO₃/HSO₃⁺"
         },
         {
-          "question": "Q19 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 19,
+          "question": "Friedel-Crafts alkylation uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R-X + AlCl₃",
+            "R-OH",
+            "R-NH₂",
+            "R + Na"
           ],
-          "answer": "Option A"
+          "answer": "R-X + AlCl₃"
         },
         {
-          "question": "Q20 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 20,
+          "question": "Friedel-Crafts acylation uses:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "RCOCl + AlCl₃",
+            "R-X + Na",
+            "RCOOH",
+            "Mg"
           ],
-          "answer": "Option A"
+          "answer": "RCOCl + AlCl₃"
         },
         {
-          "question": "Q21 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 21,
+          "question": "Activating group is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−OH (o/p directing)",
+            "−NO₂",
+            "−CN",
+            "−SO₃H"
           ],
-          "answer": "Option A"
+          "answer": "−OH (o/p directing)"
         },
         {
-          "question": "Q22 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 22,
+          "question": "Deactivating group is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−NO₂ (m directing)",
+            "−CH₃",
+            "−OH",
+            "−OR"
           ],
-          "answer": "Option A"
+          "answer": "−NO₂ (m directing)"
         },
         {
-          "question": "Q23 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 23,
+          "question": "Carcinogenic polycyclic aromatic:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Benzo[a]pyrene",
+            "Benzene only",
+            "Toluene",
+            "Naphthalene only"
           ],
-          "answer": "Option A"
+          "answer": "Benzo[a]pyrene"
         },
         {
-          "question": "Q24 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 24,
+          "question": "Octane number of iso-octane:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100",
+            "0",
+            "50",
+            "200"
           ],
-          "answer": "Option A"
+          "answer": "100"
         },
         {
-          "question": "Q25 Week 48: Topic - Revision – Hydrocarbons",
+          "id": 25,
+          "question": "Petrol is a mixture of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C5-C12 hydrocarbons",
+            "Only methane",
+            "Only benzene",
+            "Only alkynes"
           ],
-          "answer": "Option A"
+          "answer": "C5-C12 hydrocarbons"
         }
       ]
     },
@@ -13193,254 +13418,279 @@
       "topic": "Revision – States of Matter & Hydrogen",
       "questions": [
         {
-          "question": "Q1 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 1,
+          "question": "At STP (0°C, 1 atm), 1 mole gas occupies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "22.4 L",
+            "24.79 L",
+            "10 L",
+            "100 L"
           ],
-          "answer": "Option A"
+          "answer": "22.4 L"
         },
         {
-          "question": "Q2 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 2,
+          "question": "Ideal gas equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "PV = nRT",
+            "PV = RT",
+            "P/V = nRT",
+            "PT = nRV"
           ],
-          "answer": "Option A"
+          "answer": "PV = nRT"
         },
         {
-          "question": "Q3 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 3,
+          "question": "Dalton's law of partial pressures:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "P_total = ΣP_i",
+            "P_total = P₁·P₂",
+            "P_total = 0",
+            "P_total = R·T"
           ],
-          "answer": "Option A"
+          "answer": "P_total = ΣP_i"
         },
         {
-          "question": "Q4 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 4,
+          "question": "Graham's law:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rate ∝ 1/√M",
+            "Rate ∝ M",
+            "Rate ∝ √M",
+            "Rate ∝ 1/M²"
           ],
-          "answer": "Option A"
+          "answer": "Rate ∝ 1/√M"
         },
         {
-          "question": "Q5 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 5,
+          "question": "u_rms =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(3RT/M)",
+            "√(2RT/M)",
+            "√(8RT/πM)",
+            "√(RT/M)"
           ],
-          "answer": "Option A"
+          "answer": "√(3RT/M)"
         },
         {
-          "question": "Q6 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 6,
+          "question": "u_mp =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "√(2RT/M)",
+            "√(3RT/M)",
+            "√(8RT/πM)",
+            "RT/M"
           ],
-          "answer": "Option A"
+          "answer": "√(2RT/M)"
         },
         {
-          "question": "Q7 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 7,
+          "question": "Van der Waals equation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(P + an²/V²)(V − nb) = nRT",
+            "PV = nRT",
+            "P + V = nRT",
+            "PV = 0"
           ],
-          "answer": "Option A"
+          "answer": "(P + an²/V²)(V − nb) = nRT"
         },
         {
-          "question": "Q8 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 8,
+          "question": "'a' constant in vdW represents:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "IMF",
+            "Molecular volume",
+            "T",
+            "P"
           ],
-          "answer": "Option A"
+          "answer": "IMF"
         },
         {
-          "question": "Q9 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 9,
+          "question": "Z = PV/nRT; Z=1 for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ideal gas",
+            "All gases",
+            "Only H₂",
+            "Only noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Ideal gas"
         },
         {
-          "question": "Q10 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 10,
+          "question": "Critical T of CO₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "31.1°C",
+            "0°C",
+            "100°C",
+            "−273°C"
           ],
-          "answer": "Option A"
+          "answer": "31.1°C"
         },
         {
-          "question": "Q11 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 11,
+          "question": "Vapour pressure of liquid increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T",
+            "Volume",
+            "Amount",
+            "Area"
           ],
-          "answer": "Option A"
+          "answer": "T"
         },
         {
-          "question": "Q12 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 12,
+          "question": "Boiling point of water at sea level:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "100°C",
+            "0°C",
+            "25°C",
+            "50°C"
           ],
-          "answer": "Option A"
+          "answer": "100°C"
         },
         {
-          "question": "Q13 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 13,
+          "question": "Surface tension of water (20°C):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "72.8 mN/m",
+            "100",
+            "10",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "72.8 mN/m"
         },
         {
-          "question": "Q14 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 14,
+          "question": "Viscosity of liquids with T:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Unchanged",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q15 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 15,
+          "question": "Density of water max at:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4°C",
+            "0°C",
+            "100°C",
+            "25°C"
           ],
-          "answer": "Option A"
+          "answer": "4°C"
         },
         {
-          "question": "Q16 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 16,
+          "question": "Isotopes of H:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "¹H, ²H, ³H",
+            "¹H only",
+            "²H only",
+            "³H only"
           ],
-          "answer": "Option A"
+          "answer": "¹H, ²H, ³H"
         },
         {
-          "question": "Q17 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 17,
+          "question": "Water gas:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CO + H₂",
+            "CO + N₂",
+            "CO₂ + H₂",
+            "CH₄ + H₂"
           ],
-          "answer": "Option A"
+          "answer": "CO + H₂"
         },
         {
-          "question": "Q18 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 18,
+          "question": "Hardness due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ca²⁺, Mg²⁺",
+            "Na⁺",
+            "K⁺",
+            "Cl⁻"
           ],
-          "answer": "Option A"
+          "answer": "Ca²⁺, Mg²⁺"
         },
         {
-          "question": "Q19 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 19,
+          "question": "H₂O₂ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Oxidising and reducing",
+            "Only oxidising",
+            "Only reducing",
+            "Inert"
           ],
-          "answer": "Option A"
+          "answer": "Oxidising and reducing"
         },
         {
-          "question": "Q20 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 20,
+          "question": "H₂O₂ stored in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Wax-lined dark bottles",
+            "Clear sun",
+            "Metal",
+            "Open"
           ],
-          "answer": "Option A"
+          "answer": "Wax-lined dark bottles"
         },
         {
-          "question": "Q21 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 21,
+          "question": "Heavy water (D₂O) used as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Moderator in nuclear reactors",
+            "Fuel",
+            "Coolant only",
+            "Electrolyte"
           ],
-          "answer": "Option A"
+          "answer": "Moderator in nuclear reactors"
         },
         {
-          "question": "Q22 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 22,
+          "question": "Permanent hardness removed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ion-exchange / washing soda",
+            "Boiling",
+            "Filtration",
+            "Adding CaCl₂"
           ],
-          "answer": "Option A"
+          "answer": "Ion-exchange / washing soda"
         },
         {
-          "question": "Q23 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 23,
+          "question": "Temporary hardness removed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Boiling",
+            "Ion-exchange",
+            "Adding CaCl₂",
+            "Filtering"
           ],
-          "answer": "Option A"
+          "answer": "Boiling"
         },
         {
-          "question": "Q24 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 24,
+          "question": "Ionic hydrides formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "s-block (except Be, Mg)",
+            "Non-metals",
+            "Noble gases",
+            "Halogens"
           ],
-          "answer": "Option A"
+          "answer": "s-block (except Be, Mg)"
         },
         {
-          "question": "Q25 Week 49: Topic - Revision – States of Matter & Hydrogen",
+          "id": 25,
+          "question": "BOD means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Biochemical oxygen demand",
+            "Biological overall density",
+            "Biotic oxygen drop",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "Biochemical oxygen demand"
         }
       ]
     },
@@ -13449,254 +13699,279 @@
       "topic": "Revision – s-Block & p-Block Elements",
       "questions": [
         {
-          "question": "Q1 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 1,
+          "question": "Group 1 e⁻ config:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ns¹",
+            "ns²",
+            "ns²np¹",
+            "ns²np⁵"
           ],
-          "answer": "Option A"
+          "answer": "ns¹"
         },
         {
-          "question": "Q2 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 2,
+          "question": "Group 2 e⁻ config:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "ns²",
+            "ns¹",
+            "ns²np¹",
+            "ns²np²"
           ],
-          "answer": "Option A"
+          "answer": "ns²"
         },
         {
-          "question": "Q3 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 3,
+          "question": "Flame colour of Na:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Yellow",
+            "Red",
+            "Violet",
+            "Blue"
           ],
-          "answer": "Option A"
+          "answer": "Yellow"
         },
         {
-          "question": "Q4 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 4,
+          "question": "Flame colour of K:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Violet",
+            "Yellow",
+            "Red",
+            "Green"
           ],
-          "answer": "Option A"
+          "answer": "Violet"
         },
         {
-          "question": "Q5 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 5,
+          "question": "Flame colour of Ca:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Brick red",
+            "Yellow",
+            "Violet",
+            "Green"
           ],
-          "answer": "Option A"
+          "answer": "Brick red"
         },
         {
-          "question": "Q6 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 6,
+          "question": "Flame colour of Ba:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Apple green",
+            "Red",
+            "Yellow",
+            "Blue"
           ],
-          "answer": "Option A"
+          "answer": "Apple green"
         },
         {
-          "question": "Q7 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 7,
+          "question": "Diagonal relationship:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Li↔Mg, Be↔Al",
+            "Na↔Mg",
+            "K↔Ca",
+            "Cs↔Ba"
           ],
-          "answer": "Option A"
+          "answer": "Li↔Mg, Be↔Al"
         },
         {
-          "question": "Q8 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 8,
+          "question": "Alkali metals stored in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Kerosene",
+            "Water",
+            "Alcohol",
+            "Air"
           ],
-          "answer": "Option A"
+          "answer": "Kerosene"
         },
         {
-          "question": "Q9 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 9,
+          "question": "Alkali metals + H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "MOH + H₂",
+            "MO + H₂",
+            "No reaction",
+            "M₂O + H₂"
           ],
-          "answer": "Option A"
+          "answer": "MOH + H₂"
         },
         {
-          "question": "Q10 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 10,
+          "question": "Solvay process produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₂CO₃",
+            "NaOH",
+            "NaCl",
+            "KNO₃"
           ],
-          "answer": "Option A"
+          "answer": "Na₂CO₃"
         },
         {
-          "question": "Q11 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 11,
+          "question": "Quicklime:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaO",
+            "Ca(OH)₂",
+            "CaCO₃",
+            "CaSO₄"
           ],
-          "answer": "Option A"
+          "answer": "CaO"
         },
         {
-          "question": "Q12 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 12,
+          "question": "Slaked lime:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ca(OH)₂",
+            "CaO",
+            "CaCO₃",
+            "CaSO₄"
           ],
-          "answer": "Option A"
+          "answer": "Ca(OH)₂"
         },
         {
-          "question": "Q13 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 13,
+          "question": "Plaster of Paris:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaSO₄·½H₂O",
+            "CaSO₄·2H₂O",
+            "CaSO₄",
+            "CaO"
           ],
-          "answer": "Option A"
+          "answer": "CaSO₄·½H₂O"
         },
         {
-          "question": "Q14 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 14,
+          "question": "Gypsum:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaSO₄·2H₂O",
+            "CaSO₄·½H₂O",
+            "CaSO₄",
+            "CaO"
           ],
-          "answer": "Option A"
+          "answer": "CaSO₄·2H₂O"
         },
         {
-          "question": "Q15 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 15,
+          "question": "Limestone:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CaCO₃",
+            "CaSO₄",
+            "CaCl₂",
+            "Ca(OH)₂"
           ],
-          "answer": "Option A"
+          "answer": "CaCO₃"
         },
         {
-          "question": "Q16 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 16,
+          "question": "Boron family:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Group 13",
+            "Group 14",
+            "Group 15",
+            "Group 16"
           ],
-          "answer": "Option A"
+          "answer": "Group 13"
         },
         {
-          "question": "Q17 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 17,
+          "question": "Most abundant metal in earth's crust:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Al",
+            "Fe",
+            "Na",
+            "K"
           ],
-          "answer": "Option A"
+          "answer": "Al"
         },
         {
-          "question": "Q18 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 18,
+          "question": "Bauxite ore of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Al",
+            "Fe",
+            "Cu",
+            "Zn"
           ],
-          "answer": "Option A"
+          "answer": "Al"
         },
         {
-          "question": "Q19 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 19,
+          "question": "Hall-Héroult process:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Electrolysis of Al₂O₃ in molten cryolite",
+            "Smelting of Al",
+            "Bessemer process",
+            "Reduction with C"
           ],
-          "answer": "Option A"
+          "answer": "Electrolysis of Al₂O₃ in molten cryolite"
         },
         {
-          "question": "Q20 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 20,
+          "question": "Cryolite:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₃AlF₆",
+            "AlF₃",
+            "Al₂O₃",
+            "AlCl₃"
           ],
-          "answer": "Option A"
+          "answer": "Na₃AlF₆"
         },
         {
-          "question": "Q21 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 21,
+          "question": "B₂H₆ (diborane) has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3c-2e bridge bonds",
+            "Normal covalent",
+            "Ionic",
+            "Metallic"
           ],
-          "answer": "Option A"
+          "answer": "3c-2e bridge bonds"
         },
         {
-          "question": "Q22 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 22,
+          "question": "Borax formula:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₂B₄O₇·10H₂O",
+            "NaBO₂",
+            "B(OH)₃",
+            "BF₃"
           ],
-          "answer": "Option A"
+          "answer": "Na₂B₄O₇·10H₂O"
         },
         {
-          "question": "Q23 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 23,
+          "question": "Graphite conducts due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Delocalised π-electrons",
+            "Ionic bonds",
+            "Free protons",
+            "H-bonds"
           ],
-          "answer": "Option A"
+          "answer": "Delocalised π-electrons"
         },
         {
-          "question": "Q24 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 24,
+          "question": "Diamond has hybridisation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q25 Week 50: Topic - Revision – s-Block & p-Block Elements",
+          "id": 25,
+          "question": "Silicones are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Organosilicon polymers",
+            "Pure Si",
+            "Silicates",
+            "Carbides"
           ],
-          "answer": "Option A"
+          "answer": "Organosilicon polymers"
         }
       ]
     },
@@ -13705,254 +13980,279 @@
       "topic": "Mixed Practice – Numerical Problems",
       "questions": [
         {
-          "question": "Q1 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 1,
+          "question": "5 g of NaOH in 500 mL solution; molarity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.25 M",
+            "0.5",
+            "0.125",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "0.25 M"
         },
         {
-          "question": "Q2 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 2,
+          "question": "Moles in 44 g CO₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 mol",
+            "2",
+            "0.5",
+            "10"
           ],
-          "answer": "Option A"
+          "answer": "1 mol"
         },
         {
-          "question": "Q3 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 3,
+          "question": "Mass of 0.5 mol H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9 g",
+            "18",
+            "36",
+            "4.5"
           ],
-          "answer": "Option A"
+          "answer": "9 g"
         },
         {
-          "question": "Q4 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 4,
+          "question": "Molecules in 2 mol O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.2044×10²⁴",
+            "6.022×10²³",
+            "3.011×10²³",
+            "1.2×10²³"
           ],
-          "answer": "Option A"
+          "answer": "1.2044×10²⁴"
         },
         {
-          "question": "Q5 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 5,
+          "question": "Volume of 2 mol CO₂ at STP:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "44.8 L",
+            "22.4",
+            "11.2",
+            "67.2"
           ],
-          "answer": "Option A"
+          "answer": "44.8 L"
         },
         {
-          "question": "Q6 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 6,
+          "question": "pH of 0.01 M HCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "1",
+            "12",
+            "14"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q7 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 7,
+          "question": "pH of 0.01 M NaOH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "12",
+            "2",
+            "14",
+            "7"
           ],
-          "answer": "Option A"
+          "answer": "12"
         },
         {
-          "question": "Q8 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 8,
+          "question": "[H⁺] in solution of pH 3:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁻³ M",
+            "10⁻¹¹",
+            "10⁻⁷",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "10⁻³ M"
         },
         {
-          "question": "Q9 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 9,
+          "question": "Ka of acid (Ka=10⁻⁵) and 0.1M acid, [H⁺] ≈",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁻³ M",
+            "10⁻⁵",
+            "0.1",
+            "10⁻⁷"
           ],
-          "answer": "Option A"
+          "answer": "10⁻³ M"
         },
         {
-          "question": "Q10 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 10,
+          "question": "Ksp of AgCl = 1.8×10⁻¹⁰; solubility:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "~1.34×10⁻⁵ M",
+            "1.8×10⁻¹⁰",
+            "1×10⁻⁵",
+            "10⁻⁷"
           ],
-          "answer": "Option A"
+          "answer": "~1.34×10⁻⁵ M"
         },
         {
-          "question": "Q11 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 11,
+          "question": "ΔH = −100 kJ, ΔS = −200 J/K at 300 K; ΔG:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−40 kJ",
+            "−100",
+            "+40",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "−40 kJ"
         },
         {
-          "question": "Q12 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 12,
+          "question": "Bond energy: H-Cl 431, H-H 436, Cl-Cl 242 kJ/mol; ΔH of H₂+Cl₂→2HCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−184 kJ",
+            "+184",
+            "−92",
+            "+92"
           ],
-          "answer": "Option A"
+          "answer": "−184 kJ"
         },
         {
-          "question": "Q13 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 13,
+          "question": "2 mol ideal gas at 300 K, 2 atm; V:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "24.6 L",
+            "12.3",
+            "49.2",
+            "22.4"
           ],
-          "answer": "Option A"
+          "answer": "24.6 L"
         },
         {
-          "question": "Q14 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 14,
+          "question": "Kc = 4 for A⇌B at T; at equilibrium [A]=0.5, [B]:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "0.125",
+            "4",
+            "0.5"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q15 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 15,
+          "question": "Half-life of first-order reaction with k=0.1/s:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.93 s",
+            "10 s",
+            "0.1",
+            "100"
           ],
-          "answer": "Option A"
+          "answer": "6.93 s"
         },
         {
-          "question": "Q16 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 16,
+          "question": "Enthalpy of neutralisation of strong acid + strong base:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−57.1 kJ/mol",
+            "−100",
+            "0",
+            "+57.1"
           ],
-          "answer": "Option A"
+          "answer": "−57.1 kJ/mol"
         },
         {
-          "question": "Q17 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 17,
+          "question": "Equivalent mass of H₂SO₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "49",
+            "98",
+            "196",
+            "24.5"
           ],
-          "answer": "Option A"
+          "answer": "49"
         },
         {
-          "question": "Q18 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 18,
+          "question": "n-factor of KMnO₄ in acidic medium:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "2",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q19 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 19,
+          "question": "1 mole electron = charge:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "96500 C (1 F)",
+            "6.022e23 C",
+            "1 C",
+            "10 C"
           ],
-          "answer": "Option A"
+          "answer": "96500 C (1 F)"
         },
         {
-          "question": "Q20 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 20,
+          "question": "Atoms in 24 g Mg (M=24):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.022×10²³",
+            "1.2×10²⁴",
+            "3×10²³",
+            "2×10²³"
           ],
-          "answer": "Option A"
+          "answer": "6.022×10²³"
         },
         {
-          "question": "Q21 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 21,
+          "question": "Molality of 1 m NaCl in 1 kg water means:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 mol NaCl per kg water",
+            "1 mol per L",
+            "1 g per L",
+            "1 mol per mol"
           ],
-          "answer": "Option A"
+          "answer": "1 mol NaCl per kg water"
         },
         {
-          "question": "Q22 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 22,
+          "question": "% by mass of NaCl in 5 g NaCl + 95 g water:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5%",
+            "95%",
+            "10%",
+            "1%"
           ],
-          "answer": "Option A"
+          "answer": "5%"
         },
         {
-          "question": "Q23 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 23,
+          "question": "Normality of 0.5 M H₂SO₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 N",
+            "0.25",
+            "0.5",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "1 N"
         },
         {
-          "question": "Q24 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 24,
+          "question": "Mole fraction of water in 18 g H₂O + 46 g C₂H₅OH:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.5",
+            "0.25",
+            "1",
+            "0.75"
           ],
-          "answer": "Option A"
+          "answer": "0.5"
         },
         {
-          "question": "Q25 Week 51: Topic - Mixed Practice – Numerical Problems",
+          "id": 25,
+          "question": "For reaction 2A+B→C, if rate=k[A]²[B], order is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "2",
+            "1",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "3"
         }
       ]
     },
@@ -13961,254 +14261,279 @@
       "topic": "Comprehensive Revision – Full Syllabus",
       "questions": [
         {
-          "question": "Q1 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 1,
+          "question": "Most electronegative element:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F",
+            "Cl",
+            "O",
+            "N"
           ],
-          "answer": "Option A"
+          "answer": "F"
         },
         {
-          "question": "Q2 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 2,
+          "question": "Bond order of O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "3",
+            "1",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q3 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 3,
+          "question": "O₂ molecular magnetism:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Paramagnetic",
+            "Diamagnetic",
+            "Ferromagnetic",
+            "Non-magnetic"
           ],
-          "answer": "Option A"
+          "answer": "Paramagnetic"
         },
         {
-          "question": "Q4 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 4,
+          "question": "Hybridisation of C in diamond:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q5 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 5,
+          "question": "Hybridisation of C in graphite:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q6 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 6,
+          "question": "pH of pure water at 25°C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7",
+            "0",
+            "14",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "7"
         },
         {
-          "question": "Q7 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 7,
+          "question": "At equilibrium ΔG =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "<0",
+            ">0",
+            "∞"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q8 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 8,
+          "question": "Standard enthalpy of formation of element:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "Depends",
+            "Always negative",
+            "Always positive"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q9 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 9,
+          "question": "Ideal gas: molar volume at STP:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "22.4 L",
+            "24",
+            "10",
+            "100"
           ],
-          "answer": "Option A"
+          "answer": "22.4 L"
         },
         {
-          "question": "Q10 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 10,
+          "question": "Avogadro number:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.022×10²³",
+            "10²³",
+            "10²⁴",
+            "6×10¹⁰"
           ],
-          "answer": "Option A"
+          "answer": "6.022×10²³"
         },
         {
-          "question": "Q11 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 11,
+          "question": "Catalyst changes:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rate, not equilibrium position",
+            "Equilibrium position",
+            "Only ΔH",
+            "Only K"
           ],
-          "answer": "Option A"
+          "answer": "Rate, not equilibrium position"
         },
         {
-          "question": "Q12 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 12,
+          "question": "Increasing T for exothermic forward reaction:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "K decreases, shifts backward",
+            "K increases",
+            "No effect",
+            "Shifts forward"
           ],
-          "answer": "Option A"
+          "answer": "K decreases, shifts backward"
         },
         {
-          "question": "Q13 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 13,
+          "question": "Redox agent that itself reduces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Reducing agent",
+            "Oxidising",
+            "Amphoteric",
+            "Catalyst"
           ],
-          "answer": "Option A"
+          "answer": "Reducing agent"
         },
         {
-          "question": "Q14 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 14,
+          "question": "Na + H₂O gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NaOH + H₂",
+            "Na₂O + H₂",
+            "Na + OH",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "NaOH + H₂"
         },
         {
-          "question": "Q15 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 15,
+          "question": "Mg + N₂ gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mg₃N₂",
+            "MgN",
+            "MgN₃",
+            "No reaction"
           ],
-          "answer": "Option A"
+          "answer": "Mg₃N₂"
         },
         {
-          "question": "Q16 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 16,
+          "question": "Solvay process produces:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na₂CO₃",
+            "NaOH",
+            "NaCl",
+            "KNO₃"
           ],
-          "answer": "Option A"
+          "answer": "Na₂CO₃"
         },
         {
-          "question": "Q17 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 17,
+          "question": "Hall-Héroult process extracts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Al",
+            "Cu",
+            "Fe",
+            "Na"
           ],
-          "answer": "Option A"
+          "answer": "Al"
         },
         {
-          "question": "Q18 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 18,
+          "question": "Alkyne acidity is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp hybridised C-H",
+            "sp³",
+            "sp²",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp hybridised C-H"
         },
         {
-          "question": "Q19 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 19,
+          "question": "Markovnikov product of HBr + propene:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2-bromopropane",
+            "1-bromopropane",
+            "1,2-dibromopropane",
+            "propanol"
           ],
-          "answer": "Option A"
+          "answer": "2-bromopropane"
         },
         {
-          "question": "Q20 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 20,
+          "question": "Benzene nitration electrophile:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NO₂⁺",
+            "NO₃⁻",
+            "HNO₂",
+            "NO"
           ],
-          "answer": "Option A"
+          "answer": "NO₂⁺"
         },
         {
-          "question": "Q21 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 21,
+          "question": "H-bonding strongest in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HF",
+            "HCl",
+            "HBr",
+            "HI"
           ],
-          "answer": "Option A"
+          "answer": "HF"
         },
         {
-          "question": "Q22 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 22,
+          "question": "Most stable carbocation:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3° > 2° > 1° > CH₃⁺",
+            "CH₃⁺ > 1° > 2° > 3°",
+            "1° > CH₃⁺",
+            "All equal"
           ],
-          "answer": "Option A"
+          "answer": "3° > 2° > 1° > CH₃⁺"
         },
         {
-          "question": "Q23 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 23,
+          "question": "Diamond conducts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Heat only",
+            "Electricity only",
+            "Both",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Heat only"
         },
         {
-          "question": "Q24 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 24,
+          "question": "Graphite conducts:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both heat and electricity",
+            "Heat only",
+            "Electricity only",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Both heat and electricity"
         },
         {
-          "question": "Q25 Week 52: Topic - Comprehensive Revision – Full Syllabus",
+          "id": 25,
+          "question": "Al₂O₃ nature:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Amphoteric",
+            "Only acidic",
+            "Only basic",
+            "Neutral"
           ],
-          "answer": "Option A"
+          "answer": "Amphoteric"
         }
       ]
     }
