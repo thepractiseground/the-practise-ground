@@ -773,254 +773,279 @@
       "topic": "Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
       "questions": [
         {
-          "question": "Q1 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q1",
+          "question": "Cathode rays were discovered by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "J.J. Thomson",
+            "Rutherford",
+            "Goldstein",
+            "Chadwick"
           ],
-          "answer": "Option A"
+          "answer": "J.J. Thomson"
         },
         {
-          "question": "Q2 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q2",
+          "question": "The charge on an electron is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−1.6 × 10⁻¹⁹ C",
+            "+1.6 × 10⁻¹⁹ C",
+            "−1.6 × 10⁻¹⁸ C",
+            "zero"
           ],
-          "answer": "Option A"
+          "answer": "−1.6 × 10⁻¹⁹ C"
         },
         {
-          "question": "Q3 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q3",
+          "question": "The charge-to-mass ratio (e/m) of electron is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.758 × 10¹¹ C/kg",
+            "9.11 × 10⁻³¹ C/kg",
+            "1.6 × 10⁻¹⁹ C/kg",
+            "6.022 × 10²³ C/kg"
           ],
-          "answer": "Option A"
+          "answer": "1.758 × 10¹¹ C/kg"
         },
         {
-          "question": "Q4 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q4",
+          "question": "Mass of one electron is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "9.11 × 10⁻³¹ kg",
+            "1.67 × 10⁻²⁷ kg",
+            "1.6 × 10⁻¹⁹ kg",
+            "9.11 × 10⁻²⁷ kg"
           ],
-          "answer": "Option A"
+          "answer": "9.11 × 10⁻³¹ kg"
         },
         {
-          "question": "Q5 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q5",
+          "question": "Anode rays (canal rays) were discovered by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Goldstein",
+            "Thomson",
+            "Rutherford",
+            "Bohr"
           ],
-          "answer": "Option A"
+          "answer": "Goldstein"
         },
         {
-          "question": "Q6 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q6",
+          "question": "The proton was discovered by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Rutherford",
+            "Thomson",
+            "Chadwick",
+            "Goldstein"
           ],
-          "answer": "Option A"
+          "answer": "Rutherford"
         },
         {
-          "question": "Q7 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q7",
+          "question": "The neutron was discovered by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Chadwick",
+            "Rutherford",
+            "Thomson",
+            "Bohr"
           ],
-          "answer": "Option A"
+          "answer": "Chadwick"
         },
         {
-          "question": "Q8 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q8",
+          "question": "Mass of a proton is approximately:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.672 × 10⁻²⁷ kg",
+            "9.11 × 10⁻³¹ kg",
+            "1.6 × 10⁻¹⁹ kg",
+            "6.022 × 10²³ kg"
           ],
-          "answer": "Option A"
+          "answer": "1.672 × 10⁻²⁷ kg"
         },
         {
-          "question": "Q9 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q9",
+          "question": "Thomson's model of atom is often called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Plum pudding model",
+            "Nuclear model",
+            "Planetary model",
+            "Quantum model"
           ],
-          "answer": "Option A"
+          "answer": "Plum pudding model"
         },
         {
-          "question": "Q10 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q10",
+          "question": "In Rutherford's α-particle scattering experiment, most α-particles:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Passed through undeflected",
+            "Bounced back",
+            "Were absorbed",
+            "Were deflected 90°"
           ],
-          "answer": "Option A"
+          "answer": "Passed through undeflected"
         },
         {
-          "question": "Q11 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q11",
+          "question": "Rutherford concluded that the atom has a:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small dense positive nucleus",
+            "Uniform positive charge",
+            "Negative nucleus",
+            "Hollow structure"
           ],
-          "answer": "Option A"
+          "answer": "Small dense positive nucleus"
         },
         {
-          "question": "Q12 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q12",
+          "question": "The size of the nucleus compared to atom is about:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10⁻⁵ times",
+            "10⁻² times",
+            "1/2 times",
+            "Same"
           ],
-          "answer": "Option A"
+          "answer": "10⁻⁵ times"
         },
         {
-          "question": "Q13 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q13",
+          "question": "An atom of ³⁵Cl has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "17 protons, 18 neutrons",
+            "18 protons, 17 neutrons",
+            "17 protons, 17 neutrons",
+            "18 protons, 18 neutrons"
           ],
-          "answer": "Option A"
+          "answer": "17 protons, 18 neutrons"
         },
         {
-          "question": "Q14 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q14",
+          "question": "Isotopes have the same:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic number",
+            "Mass number",
+            "Number of neutrons",
+            "Density"
           ],
-          "answer": "Option A"
+          "answer": "Atomic number"
         },
         {
-          "question": "Q15 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q15",
+          "question": "Isobars have the same:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mass number",
+            "Atomic number",
+            "Number of neutrons",
+            "Electrons"
           ],
-          "answer": "Option A"
+          "answer": "Mass number"
         },
         {
-          "question": "Q16 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q16",
+          "question": "₁H¹, ₁H², ₁H³ are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Isotopes",
+            "Isobars",
+            "Isotones",
+            "Isoelectronic"
           ],
-          "answer": "Option A"
+          "answer": "Isotopes"
         },
         {
-          "question": "Q17 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q17",
+          "question": "¹⁴₆C and ¹⁴₇N are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Isobars",
+            "Isotopes",
+            "Isotones",
+            "Same element"
           ],
-          "answer": "Option A"
+          "answer": "Isobars"
         },
         {
-          "question": "Q18 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q18",
+          "question": "A species having same number of neutrons is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Isotones",
+            "Isotopes",
+            "Isobars",
+            "Isomers"
           ],
-          "answer": "Option A"
+          "answer": "Isotones"
         },
         {
-          "question": "Q19 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q19",
+          "question": "Frequency and wavelength are related by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "c = νλ",
+            "c = ν/λ",
+            "λ = cν",
+            "ν = c × λ"
           ],
-          "answer": "Option A"
+          "answer": "c = νλ"
         },
         {
-          "question": "Q20 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q20",
+          "question": "The energy of a photon is given by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "E = hν",
+            "E = mc²",
+            "E = ½mv²",
+            "E = hc"
           ],
-          "answer": "Option A"
+          "answer": "E = hν"
         },
         {
-          "question": "Q21 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q21",
+          "question": "Planck's constant h has value:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6.626 × 10⁻³⁴ J·s",
+            "9.11 × 10⁻³¹ J·s",
+            "1.6 × 10⁻¹⁹ J·s",
+            "3 × 10⁸ J·s"
           ],
-          "answer": "Option A"
+          "answer": "6.626 × 10⁻³⁴ J·s"
         },
         {
-          "question": "Q22 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q22",
+          "question": "The threshold frequency in photoelectric effect is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Minimum ν to eject electron",
+            "Maximum ν possible",
+            "Frequency of light",
+            "Half of work function"
           ],
-          "answer": "Option A"
+          "answer": "Minimum ν to eject electron"
         },
         {
-          "question": "Q23 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q23",
+          "question": "Work function W and threshold frequency ν₀ are related by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W = hν₀",
+            "W = ν₀/h",
+            "W = hc/ν₀",
+            "W = h²ν₀"
           ],
-          "answer": "Option A"
+          "answer": "W = hν₀"
         },
         {
-          "question": "Q24 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q24",
+          "question": "Einstein's photoelectric equation: KE_max =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "hν − hν₀",
+            "hν + hν₀",
+            "hν × hν₀",
+            "ν/ν₀"
           ],
-          "answer": "Option A"
+          "answer": "hν − hν₀"
         },
         {
-          "question": "Q25 Week 4: Topic - Structure of Atom – Discovery of Subatomic Particles, Thomson & Rutherford Models",
+          "id": "c11-w4-q25",
+          "question": "Electromagnetic spectrum in order of increasing wavelength:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "γ < X < UV < visible < IR < radio",
+            "Radio < IR < visible < UV < X < γ",
+            "Visible < UV < IR",
+            "Random order"
           ],
-          "answer": "Option A"
+          "answer": "γ < X < UV < visible < IR < radio"
         }
       ]
     },
@@ -1029,254 +1054,279 @@
       "topic": "Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
       "questions": [
         {
-          "question": "Q1 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q1",
+          "question": "Bohr's first postulate: electron revolves in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Stationary orbits",
+            "Random paths",
+            "Elliptical paths",
+            "Straight lines"
           ],
-          "answer": "Option A"
+          "answer": "Stationary orbits"
         },
         {
-          "question": "Q2 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q2",
+          "question": "Angular momentum of electron in Bohr orbit is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "nh/2π",
+            "h/2π",
+            "nh",
+            "n²h"
           ],
-          "answer": "Option A"
+          "answer": "nh/2π"
         },
         {
-          "question": "Q3 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q3",
+          "question": "Energy of electron in nth Bohr orbit of H-atom:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "−13.6/n² eV",
+            "−13.6 × n² eV",
+            "−13.6 eV",
+            "−13.6/n eV"
           ],
-          "answer": "Option A"
+          "answer": "−13.6/n² eV"
         },
         {
-          "question": "Q4 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q4",
+          "question": "Radius of first Bohr orbit of H-atom is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.529 Å",
+            "5.29 Å",
+            "0.0529 Å",
+            "1 Å"
           ],
-          "answer": "Option A"
+          "answer": "0.529 Å"
         },
         {
-          "question": "Q5 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q5",
+          "question": "Radius of nth Bohr orbit: rₙ =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0.529 × n² Å",
+            "0.529 × n Å",
+            "0.529/n² Å",
+            "0.529/n Å"
           ],
-          "answer": "Option A"
+          "answer": "0.529 × n² Å"
         },
         {
-          "question": "Q6 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q6",
+          "question": "Lyman series of H-spectrum lies in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "UV region",
+            "Visible",
+            "IR",
+            "Microwave"
           ],
-          "answer": "Option A"
+          "answer": "UV region"
         },
         {
-          "question": "Q7 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q7",
+          "question": "Balmer series lies in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Visible region",
+            "UV",
+            "IR",
+            "Radio"
           ],
-          "answer": "Option A"
+          "answer": "Visible region"
         },
         {
-          "question": "Q8 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q8",
+          "question": "Rydberg formula for H-atom: 1/λ =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "R(1/n₁² − 1/n₂²)",
+            "R(n₁² − n₂²)",
+            "Rn₁n₂",
+            "R/(n₁ + n₂)"
           ],
-          "answer": "Option A"
+          "answer": "R(1/n₁² − 1/n₂²)"
         },
         {
-          "question": "Q9 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q9",
+          "question": "Value of Rydberg constant R_H:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.097 × 10⁷ m⁻¹",
+            "6.626 × 10⁻³⁴ m⁻¹",
+            "3 × 10⁸ m⁻¹",
+            "9.11 × 10⁻³¹ m⁻¹"
           ],
-          "answer": "Option A"
+          "answer": "1.097 × 10⁷ m⁻¹"
         },
         {
-          "question": "Q10 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q10",
+          "question": "de Broglie wavelength: λ =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "h/mv",
+            "mv/h",
+            "hv/m",
+            "h/v"
           ],
-          "answer": "Option A"
+          "answer": "h/mv"
         },
         {
-          "question": "Q11 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q11",
+          "question": "Heisenberg's uncertainty principle: Δx·Δp ≥",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "h/4π",
+            "h/2π",
+            "h",
+            "2πh"
           ],
-          "answer": "Option A"
+          "answer": "h/4π"
         },
         {
-          "question": "Q12 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q12",
+          "question": "Principal quantum number n determines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Size and energy of orbital",
+            "Shape",
+            "Orientation",
+            "Spin"
           ],
-          "answer": "Option A"
+          "answer": "Size and energy of orbital"
         },
         {
-          "question": "Q13 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q13",
+          "question": "Azimuthal quantum number l determines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Shape of orbital",
+            "Size",
+            "Orientation",
+            "Spin"
           ],
-          "answer": "Option A"
+          "answer": "Shape of orbital"
         },
         {
-          "question": "Q14 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q14",
+          "question": "For n = 3, allowed values of l are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0, 1, 2",
+            "0, 1, 2, 3",
+            "1, 2, 3",
+            "0, 1"
           ],
-          "answer": "Option A"
+          "answer": "0, 1, 2"
         },
         {
-          "question": "Q15 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q15",
+          "question": "Magnetic quantum number m_l determines:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Orientation of orbital",
+            "Shape",
+            "Size",
+            "Spin"
           ],
-          "answer": "Option A"
+          "answer": "Orientation of orbital"
         },
         {
-          "question": "Q16 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q16",
+          "question": "For l = 2 (d-orbital), number of m_l values:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "7",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q17 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q17",
+          "question": "Spin quantum number m_s values:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+½ and −½",
+            "0 and 1",
+            "+1 and −1",
+            "±2"
           ],
-          "answer": "Option A"
+          "answer": "+½ and −½"
         },
         {
-          "question": "Q18 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q18",
+          "question": "Shape of s-orbital is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Spherical",
+            "Dumbbell",
+            "Double dumbbell",
+            "Tetrahedral"
           ],
-          "answer": "Option A"
+          "answer": "Spherical"
         },
         {
-          "question": "Q19 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q19",
+          "question": "Shape of p-orbital is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dumbbell",
+            "Spherical",
+            "Clover leaf",
+            "Cubic"
           ],
-          "answer": "Option A"
+          "answer": "Dumbbell"
         },
         {
-          "question": "Q20 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q20",
+          "question": "Number of orbitals in d-subshell:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "7",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q21 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q21",
+          "question": "Maximum electrons in n=3 shell:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "18",
+            "8",
+            "10",
+            "32"
           ],
-          "answer": "Option A"
+          "answer": "18"
         },
         {
-          "question": "Q22 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q22",
+          "question": "Maximum electrons in 4f subshell:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "14",
+            "10",
+            "6",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "14"
         },
         {
-          "question": "Q23 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q23",
+          "question": "Nodal surface where ψ = 0 is called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Node",
+            "Orbital",
+            "Shell",
+            "Orbit"
           ],
-          "answer": "Option A"
+          "answer": "Node"
         },
         {
-          "question": "Q24 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q24",
+          "question": "Number of radial nodes = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "n − l − 1",
+            "n − l",
+            "l",
+            "n"
           ],
-          "answer": "Option A"
+          "answer": "n − l − 1"
         },
         {
-          "question": "Q25 Week 5: Topic - Structure of Atom – Bohr's Model, Quantum Numbers, Orbitals",
+          "id": "c11-w5-q25",
+          "question": "Number of angular nodes = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "l",
+            "n",
+            "n − l",
+            "m"
           ],
-          "answer": "Option A"
+          "answer": "l"
         }
       ]
     },
@@ -1285,254 +1335,279 @@
       "topic": "Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
       "questions": [
         {
-          "question": "Q1 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q1",
+          "question": "Aufbau principle states electrons fill:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lower energy orbitals first",
+            "Higher first",
+            "s orbitals only",
+            "Randomly"
           ],
-          "answer": "Option A"
+          "answer": "Lower energy orbitals first"
         },
         {
-          "question": "Q2 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q2",
+          "question": "Order of filling: 4s vs 3d:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4s fills before 3d",
+            "3d before 4s",
+            "Same energy",
+            "Never fills"
           ],
-          "answer": "Option A"
+          "answer": "4s fills before 3d"
         },
         {
-          "question": "Q3 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q3",
+          "question": "Pauli's exclusion principle states:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "No two electrons have same 4 quantum numbers",
+            "Electrons fill singly",
+            "Two electrons per orbital",
+            "Same spin only"
           ],
-          "answer": "Option A"
+          "answer": "No two electrons have same 4 quantum numbers"
         },
         {
-          "question": "Q4 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q4",
+          "question": "Maximum electrons per orbital:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "1",
+            "3",
+            "4"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q5 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q5",
+          "question": "Hund's rule of maximum multiplicity:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Orbitals of same subshell filled singly first",
+            "Paired first",
+            "Random",
+            "Lowest energy only"
           ],
-          "answer": "Option A"
+          "answer": "Orbitals of same subshell filled singly first"
         },
         {
-          "question": "Q6 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q6",
+          "question": "Electronic configuration of N (Z=7):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1s² 2s² 2p³",
+            "1s² 2s² 2p⁴",
+            "1s² 2s² 2p²",
+            "1s² 2p⁵"
           ],
-          "answer": "Option A"
+          "answer": "1s² 2s² 2p³"
         },
         {
-          "question": "Q7 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q7",
+          "question": "Electronic configuration of O (Z=8):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1s² 2s² 2p⁴",
+            "1s² 2s² 2p⁵",
+            "1s² 2s² 2p³",
+            "1s² 2s² 2p⁶"
           ],
-          "answer": "Option A"
+          "answer": "1s² 2s² 2p⁴"
         },
         {
-          "question": "Q8 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q8",
+          "question": "Electronic configuration of Na (Z=11):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1s² 2s² 2p⁶ 3s¹",
+            "1s² 2s² 2p⁵ 3s²",
+            "[Ne] 3s²",
+            "[Ar] 3s¹"
           ],
-          "answer": "Option A"
+          "answer": "1s² 2s² 2p⁶ 3s¹"
         },
         {
-          "question": "Q9 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q9",
+          "question": "Electronic configuration of Cr (Z=24) (actual):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[Ar] 3d⁵ 4s¹",
+            "[Ar] 3d⁴ 4s²",
+            "[Ar] 3d⁶ 4s⁰",
+            "[Ne] 3d⁵"
           ],
-          "answer": "Option A"
+          "answer": "[Ar] 3d⁵ 4s¹"
         },
         {
-          "question": "Q10 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q10",
+          "question": "Electronic configuration of Cu (Z=29) (actual):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[Ar] 3d¹⁰ 4s¹",
+            "[Ar] 3d⁹ 4s²",
+            "[Ar] 3d⁸ 4s³",
+            "[Ar] 3d¹⁰ 4s²"
           ],
-          "answer": "Option A"
+          "answer": "[Ar] 3d¹⁰ 4s¹"
         },
         {
-          "question": "Q11 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q11",
+          "question": "Why is [Ar] 3d⁵ 4s¹ more stable than [Ar] 3d⁴ 4s²:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Half-filled stability",
+            "Fully filled",
+            "Higher energy",
+            "Aufbau"
           ],
-          "answer": "Option A"
+          "answer": "Half-filled stability"
         },
         {
-          "question": "Q12 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q12",
+          "question": "Cu: 3d¹⁰4s¹ is more stable due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Fully-filled d subshell",
+            "Half-filled",
+            "Paired s",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Fully-filled d subshell"
         },
         {
-          "question": "Q13 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q13",
+          "question": "Fe (Z=26) configuration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[Ar] 3d⁶ 4s²",
+            "[Ar] 3d⁸ 4s⁰",
+            "[Ar] 3d⁷ 4s¹",
+            "[Ar] 3d⁵ 4s³"
           ],
-          "answer": "Option A"
+          "answer": "[Ar] 3d⁶ 4s²"
         },
         {
-          "question": "Q14 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q14",
+          "question": "Zn (Z=30) configuration:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "[Ar] 3d¹⁰ 4s²",
+            "[Ar] 3d⁹ 4s¹",
+            "[Kr] 3d¹⁰",
+            "[Ar] 4s² 3d⁸"
           ],
-          "answer": "Option A"
+          "answer": "[Ar] 3d¹⁰ 4s²"
         },
         {
-          "question": "Q15 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q15",
+          "question": "Number of unpaired electrons in Fe²⁺ ([Ar] 3d⁶):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4",
+            "6",
+            "2",
+            "0"
           ],
-          "answer": "Option A"
+          "answer": "4"
         },
         {
-          "question": "Q16 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q16",
+          "question": "Number of unpaired electrons in Mn²⁺ ([Ar] 3d⁵):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "1",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q17 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q17",
+          "question": "Ground state configuration of carbon (Z=6):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1s² 2s² 2p²",
+            "1s² 2p⁴",
+            "1s² 2s⁴",
+            "1s² 2s² 2p¹ 2p¹"
           ],
-          "answer": "Option A"
+          "answer": "1s² 2s² 2p²"
         },
         {
-          "question": "Q18 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q18",
+          "question": "Stability order: half-filled, fully-filled subshells are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More stable",
+            "Less stable",
+            "Equally stable",
+            "Unstable"
           ],
-          "answer": "Option A"
+          "answer": "More stable"
         },
         {
-          "question": "Q19 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q19",
+          "question": "Electron spin generates:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Magnetic moment",
+            "Gravity",
+            "Electric force",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Magnetic moment"
         },
         {
-          "question": "Q20 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q20",
+          "question": "Magnetic moment μ = √[n(n+2)] BM, where n is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unpaired electrons",
+            "Total electrons",
+            "Protons",
+            "Neutrons"
           ],
-          "answer": "Option A"
+          "answer": "Unpaired electrons"
         },
         {
-          "question": "Q21 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q21",
+          "question": "(n+l) rule: 4s and 3d — which has lower (n+l)?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4s [(4+0)=4] lower than 3d [(3+2)=5]",
+            "3d lower",
+            "Equal",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "4s [(4+0)=4] lower than 3d [(3+2)=5]"
         },
         {
-          "question": "Q22 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q22",
+          "question": "A paramagnetic species has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Unpaired electrons",
+            "All paired",
+            "Zero electrons",
+            "Positive charge"
           ],
-          "answer": "Option A"
+          "answer": "Unpaired electrons"
         },
         {
-          "question": "Q23 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q23",
+          "question": "Diamagnetic species have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "All electrons paired",
+            "Unpaired electrons",
+            "Net spin",
+            "Magnetic moment"
           ],
-          "answer": "Option A"
+          "answer": "All electrons paired"
         },
         {
-          "question": "Q24 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q24",
+          "question": "Noble gas configuration of Ar:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1s² 2s² 2p⁶ 3s² 3p⁶",
+            "1s² 2s² 2p⁶",
+            "[Ne] 3s² 3p⁴",
+            "[Kr]"
           ],
-          "answer": "Option A"
+          "answer": "1s² 2s² 2p⁶ 3s² 3p⁶"
         },
         {
-          "question": "Q25 Week 6: Topic - Structure of Atom – Aufbau, Pauli, Hund's Rules, Electronic Configuration",
+          "id": "c11-w6-q25",
+          "question": "Shorthand (core) notation uses the:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Previous noble gas",
+            "Next noble gas",
+            "Hydrogen",
+            "Carbon"
           ],
-          "answer": "Option A"
+          "answer": "Previous noble gas"
         }
       ]
     },
@@ -1541,254 +1616,279 @@
       "topic": "Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
       "questions": [
         {
-          "question": "Q1 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q1",
+          "question": "Dobereiner's triads are based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic masses (middle = average)",
+            "Atomic numbers",
+            "Density",
+            "Color"
           ],
-          "answer": "Option A"
+          "answer": "Atomic masses (middle = average)"
         },
         {
-          "question": "Q2 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q2",
+          "question": "Newland's law of octaves applied to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Elements arranged by atomic mass",
+            "Atomic number",
+            "Density",
+            "Valency"
           ],
-          "answer": "Option A"
+          "answer": "Elements arranged by atomic mass"
         },
         {
-          "question": "Q3 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q3",
+          "question": "Mendeleev's periodic law states properties are periodic function of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic mass",
+            "Atomic number",
+            "Density",
+            "Valency"
           ],
-          "answer": "Option A"
+          "answer": "Atomic mass"
         },
         {
-          "question": "Q4 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q4",
+          "question": "Modern periodic law states properties are periodic function of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic number",
+            "Atomic mass",
+            "Electrons",
+            "Protons only"
           ],
-          "answer": "Option A"
+          "answer": "Atomic number"
         },
         {
-          "question": "Q5 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q5",
+          "question": "Modern periodic law was given by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Moseley",
+            "Mendeleev",
+            "Newland",
+            "Lothar Meyer"
           ],
-          "answer": "Option A"
+          "answer": "Moseley"
         },
         {
-          "question": "Q6 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q6",
+          "question": "Moseley's work was based on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "X-ray spectra",
+            "Density",
+            "Atomic mass",
+            "Melting point"
           ],
-          "answer": "Option A"
+          "answer": "X-ray spectra"
         },
         {
-          "question": "Q7 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q7",
+          "question": "Number of periods in modern periodic table:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "7",
+            "8",
+            "6",
+            "9"
           ],
-          "answer": "Option A"
+          "answer": "7"
         },
         {
-          "question": "Q8 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q8",
+          "question": "Number of groups in modern periodic table:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "18",
+            "7",
+            "8",
+            "16"
           ],
-          "answer": "Option A"
+          "answer": "18"
         },
         {
-          "question": "Q9 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q9",
+          "question": "The IUPAC name for element with Z=119 is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ununennium",
+            "Ununseptium",
+            "Flerovium",
+            "Oganesson"
           ],
-          "answer": "Option A"
+          "answer": "Ununennium"
         },
         {
-          "question": "Q10 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q10",
+          "question": "Group 1 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkali metals",
+            "Alkaline earth",
+            "Halogens",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Alkali metals"
         },
         {
-          "question": "Q11 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q11",
+          "question": "Group 2 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Alkaline earth metals",
+            "Alkali metals",
+            "Chalcogens",
+            "Pnictogens"
           ],
-          "answer": "Option A"
+          "answer": "Alkaline earth metals"
         },
         {
-          "question": "Q12 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q12",
+          "question": "Group 17 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Halogens",
+            "Chalcogens",
+            "Noble gases",
+            "Alkali metals"
           ],
-          "answer": "Option A"
+          "answer": "Halogens"
         },
         {
-          "question": "Q13 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q13",
+          "question": "Group 18 elements are called:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Noble gases",
+            "Halogens",
+            "Alkaline earth",
+            "Transition"
           ],
-          "answer": "Option A"
+          "answer": "Noble gases"
         },
         {
-          "question": "Q14 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q14",
+          "question": "d-block elements are in groups:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3–12",
+            "1–2",
+            "13–18",
+            "1–7"
           ],
-          "answer": "Option A"
+          "answer": "3–12"
         },
         {
-          "question": "Q15 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q15",
+          "question": "f-block elements include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lanthanides and actinides",
+            "Only lanthanides",
+            "Only actinides",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Lanthanides and actinides"
         },
         {
-          "question": "Q16 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q16",
+          "question": "s-block contains groups:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1 and 2",
+            "3–12",
+            "13–17",
+            "18"
           ],
-          "answer": "Option A"
+          "answer": "1 and 2"
         },
         {
-          "question": "Q17 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q17",
+          "question": "p-block contains groups:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "13–18",
+            "1–2",
+            "3–12",
+            "f-block"
           ],
-          "answer": "Option A"
+          "answer": "13–18"
         },
         {
-          "question": "Q18 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q18",
+          "question": "Element with Z=11 belongs to period/group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Period 3, Group 1",
+            "Period 2, Group 1",
+            "Period 3, Group 11",
+            "Period 4, Group 1"
           ],
-          "answer": "Option A"
+          "answer": "Period 3, Group 1"
         },
         {
-          "question": "Q19 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q19",
+          "question": "Element with configuration [Ar] 3d⁷ 4s² is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Co (Z=27)",
+            "Fe (Z=26)",
+            "Ni (Z=28)",
+            "Mn (Z=25)"
           ],
-          "answer": "Option A"
+          "answer": "Co (Z=27)"
         },
         {
-          "question": "Q20 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q20",
+          "question": "Lanthanide contraction is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Poor shielding by 4f electrons",
+            "Fully filled s",
+            "Small nuclei",
+            "Hund's rule"
           ],
-          "answer": "Option A"
+          "answer": "Poor shielding by 4f electrons"
         },
         {
-          "question": "Q21 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q21",
+          "question": "Cause of periodicity in properties:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Recurrence of similar configuration",
+            "Same mass",
+            "Same density",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Recurrence of similar configuration"
         },
         {
-          "question": "Q22 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q22",
+          "question": "Eka-aluminium predicted by Mendeleev was later identified as:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Gallium",
+            "Germanium",
+            "Scandium",
+            "Technetium"
           ],
-          "answer": "Option A"
+          "answer": "Gallium"
         },
         {
-          "question": "Q23 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q23",
+          "question": "Which pair has same group but different periods:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na, K",
+            "Na, Mg",
+            "Na, Al",
+            "Na, Cl"
           ],
-          "answer": "Option A"
+          "answer": "Na, K"
         },
         {
-          "question": "Q24 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q24",
+          "question": "Element in Period 4, Group 17 is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Br",
+            "Cl",
+            "I",
+            "F"
           ],
-          "answer": "Option A"
+          "answer": "Br"
         },
         {
-          "question": "Q25 Week 7: Topic - Classification of Elements – Genesis, Mendeleev's, Modern Periodic Table",
+          "id": "c11-w7-q25",
+          "question": "Transuranic elements have Z:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "> 92",
+            "< 92",
+            "= 92",
+            "= 118 only"
           ],
-          "answer": "Option A"
+          "answer": "> 92"
         }
       ]
     },
@@ -1797,254 +1897,279 @@
       "topic": "Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
       "questions": [
         {
-          "question": "Q1 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q1",
+          "question": "Atomic radius along a period (left to right):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Constant",
+            "Zigzag"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q2 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q2",
+          "question": "Atomic radius down a group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Constant",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q3 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q3",
+          "question": "Reason for decrease in radius along period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increase in Z_eff",
+            "More shells",
+            "Shielding",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Increase in Z_eff"
         },
         {
-          "question": "Q4 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q4",
+          "question": "Reason for increase in radius down a group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More shells",
+            "Higher Z_eff",
+            "Fewer electrons",
+            "Less shielding"
           ],
-          "answer": "Option A"
+          "answer": "More shells"
         },
         {
-          "question": "Q5 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q5",
+          "question": "Cation is ___ than parent atom:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Smaller",
+            "Larger",
+            "Same",
+            "Double"
           ],
-          "answer": "Option A"
+          "answer": "Smaller"
         },
         {
-          "question": "Q6 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q6",
+          "question": "Anion is ___ than parent atom:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Larger",
+            "Smaller",
+            "Same",
+            "Half"
           ],
-          "answer": "Option A"
+          "answer": "Larger"
         },
         {
-          "question": "Q7 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q7",
+          "question": "Order of radii: Na⁺, Mg²⁺, Al³⁺ (isoelectronic):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na⁺ > Mg²⁺ > Al³⁺",
+            "Al³⁺ > Mg²⁺ > Na⁺",
+            "All equal",
+            "Mg²⁺ largest"
           ],
-          "answer": "Option A"
+          "answer": "Na⁺ > Mg²⁺ > Al³⁺"
         },
         {
-          "question": "Q8 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q8",
+          "question": "First ionization enthalpy (IE₁) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy to remove 1 outermost electron",
+            "Energy to add electron",
+            "Energy to form bond",
+            "Heat of formation"
           ],
-          "answer": "Option A"
+          "answer": "Energy to remove 1 outermost electron"
         },
         {
-          "question": "Q9 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q9",
+          "question": "IE along a period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Constant",
+            "Alternates"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q10 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q10",
+          "question": "IE down a group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Constant",
+            "Zigzag"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q11 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q11",
+          "question": "IE order: Li, Be, B, C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Li < B < Be < C",
+            "Li < Be < B < C",
+            "Li > B > Be > C",
+            "Li > Be > B > C"
           ],
-          "answer": "Option A"
+          "answer": "Li < B < Be < C"
         },
         {
-          "question": "Q12 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q12",
+          "question": "IE of Be > B because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2s² is more stable",
+            "B has more electrons",
+            "Be has more protons",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "2s² is more stable"
         },
         {
-          "question": "Q13 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q13",
+          "question": "IE of N > O because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Half-filled 2p³ stability of N",
+            "O is larger",
+            "N is heavier",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Half-filled 2p³ stability of N"
         },
         {
-          "question": "Q14 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q14",
+          "question": "Successive ionization energies:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "IE₁ < IE₂ < IE₃ ...",
+            "IE₁ > IE₂",
+            "All equal",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "IE₁ < IE₂ < IE₃ ..."
         },
         {
-          "question": "Q15 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q15",
+          "question": "Element with highest IE₁ in period 2:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ne",
+            "Li",
+            "F",
+            "O"
           ],
-          "answer": "Option A"
+          "answer": "Ne"
         },
         {
-          "question": "Q16 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q16",
+          "question": "Electron gain enthalpy (ΔH_eg) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Energy change on adding e⁻",
+            "Energy to remove",
+            "Bond energy",
+            "Heat of ionization"
           ],
-          "answer": "Option A"
+          "answer": "Energy change on adding e⁻"
         },
         {
-          "question": "Q17 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q17",
+          "question": "ΔH_eg of halogens is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Most negative",
+            "Most positive",
+            "Zero",
+            "Very small"
           ],
-          "answer": "Option A"
+          "answer": "Most negative"
         },
         {
-          "question": "Q18 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q18",
+          "question": "ΔH_eg of noble gases:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Positive (absorbs energy)",
+            "Most negative",
+            "Zero",
+            "Large negative"
           ],
-          "answer": "Option A"
+          "answer": "Positive (absorbs energy)"
         },
         {
-          "question": "Q19 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q19",
+          "question": "Which has more negative ΔH_eg: Cl or F?",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cl (more negative)",
+            "F (more negative)",
+            "Equal",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "Cl (more negative)"
         },
         {
-          "question": "Q20 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q20",
+          "question": "Electronegativity (EN) is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tendency to attract bonded electrons",
+            "To lose electrons",
+            "To form cation",
+            "Mass"
           ],
-          "answer": "Option A"
+          "answer": "Tendency to attract bonded electrons"
         },
         {
-          "question": "Q21 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q21",
+          "question": "Pauling's scale max EN is for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Fluorine (4.0)",
+            "Oxygen",
+            "Chlorine",
+            "Nitrogen"
           ],
-          "answer": "Option A"
+          "answer": "Fluorine (4.0)"
         },
         {
-          "question": "Q22 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q22",
+          "question": "EN order: F, Cl, Br, I:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F > Cl > Br > I",
+            "I > Br > Cl > F",
+            "All equal",
+            "Cl > F"
           ],
-          "answer": "Option A"
+          "answer": "F > Cl > Br > I"
         },
         {
-          "question": "Q23 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q23",
+          "question": "Metallic character along a period:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Decreases",
+            "Increases",
+            "Constant",
+            "Zigzag"
           ],
-          "answer": "Option A"
+          "answer": "Decreases"
         },
         {
-          "question": "Q24 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q24",
+          "question": "Metallic character down a group:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increases",
+            "Decreases",
+            "Constant",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Increases"
         },
         {
-          "question": "Q25 Week 8: Topic - Classification of Elements – Periodic Trends (Atomic Radius, IE, EA, EN)",
+          "id": "c11-w8-q25",
+          "question": "Most metallic element is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Francium (Fr)",
+            "Cesium (Cs)",
+            "Sodium",
+            "Fluorine"
           ],
-          "answer": "Option A"
+          "answer": "Cesium (Cs)"
         }
       ]
     },
@@ -2053,254 +2178,279 @@
       "topic": "Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
       "questions": [
         {
-          "question": "Q1 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q1",
+          "question": "Ionic bond is formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Transfer of electrons",
+            "Sharing",
+            "Overlapping",
+            "Resonance"
           ],
-          "answer": "Option A"
+          "answer": "Transfer of electrons"
         },
         {
-          "question": "Q2 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q2",
+          "question": "Ionic compounds are formed between:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Metal and non-metal",
+            "Two non-metals",
+            "Two metals",
+            "Noble gases"
           ],
-          "answer": "Option A"
+          "answer": "Metal and non-metal"
         },
         {
-          "question": "Q3 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q3",
+          "question": "Favorable conditions for ionic bond:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Low IE of metal, high EA of non-metal",
+            "High IE, low EA",
+            "Both high",
+            "Both low"
           ],
-          "answer": "Option A"
+          "answer": "Low IE of metal, high EA of non-metal"
         },
         {
-          "question": "Q4 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q4",
+          "question": "Lattice energy is defined as energy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Released when 1 mol ionic solid forms from gaseous ions",
+            "Absorbed in melting",
+            "To break covalent bond",
+            "Heat of formation"
           ],
-          "answer": "Option A"
+          "answer": "Released when 1 mol ionic solid forms from gaseous ions"
         },
         {
-          "question": "Q5 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q5",
+          "question": "Lattice energy depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Charge and size of ions",
+            "Temperature only",
+            "Color",
+            "Density"
           ],
-          "answer": "Option A"
+          "answer": "Charge and size of ions"
         },
         {
-          "question": "Q6 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q6",
+          "question": "Lattice energy is higher for ions with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher charge, smaller size",
+            "Lower charge, larger size",
+            "Same charge",
+            "Equal size"
           ],
-          "answer": "Option A"
+          "answer": "Higher charge, smaller size"
         },
         {
-          "question": "Q7 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q7",
+          "question": "Born-Haber cycle is used to calculate:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lattice energy",
+            "Bond energy",
+            "IE",
+            "EA"
           ],
-          "answer": "Option A"
+          "answer": "Lattice energy"
         },
         {
-          "question": "Q8 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q8",
+          "question": "In Born-Haber cycle for NaCl, sublimation refers to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na(s) → Na(g)",
+            "Cl₂ → 2Cl",
+            "Na → Na⁺",
+            "NaCl(s) formation"
           ],
-          "answer": "Option A"
+          "answer": "Na(s) → Na(g)"
         },
         {
-          "question": "Q9 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q9",
+          "question": "Ionization energy step in Born-Haber:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Na(g) → Na⁺(g) + e⁻",
+            "Na(s) → Na(g)",
+            "Cl → Cl⁻",
+            "Na⁺ + Cl⁻ → NaCl"
           ],
-          "answer": "Option A"
+          "answer": "Na(g) → Na⁺(g) + e⁻"
         },
         {
-          "question": "Q10 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q10",
+          "question": "Bond dissociation step for Cl₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "½Cl₂(g) → Cl(g)",
+            "Cl⁻ → Cl",
+            "Cl₂ → 2Cl⁻",
+            "Cl → Cl⁺"
           ],
-          "answer": "Option A"
+          "answer": "½Cl₂(g) → Cl(g)"
         },
         {
-          "question": "Q11 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q11",
+          "question": "Electron gain step:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Cl(g) + e⁻ → Cl⁻(g)",
+            "Na → Na⁺",
+            "Cl → Cl⁺",
+            "Cl⁻ → Cl"
           ],
-          "answer": "Option A"
+          "answer": "Cl(g) + e⁻ → Cl⁻(g)"
         },
         {
-          "question": "Q12 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q12",
+          "question": "Lattice formation enthalpy U of NaCl is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Large negative (−787 kJ/mol)",
+            "Positive",
+            "Zero",
+            "Small positive"
           ],
-          "answer": "Option A"
+          "answer": "Large negative (−787 kJ/mol)"
         },
         {
-          "question": "Q13 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q13",
+          "question": "High melting point of ionic compounds is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Strong electrostatic forces",
+            "Weak vdW",
+            "Covalent bonds",
+            "Metallic bond"
           ],
-          "answer": "Option A"
+          "answer": "Strong electrostatic forces"
         },
         {
-          "question": "Q14 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q14",
+          "question": "Ionic compounds are soluble in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Polar solvents (water)",
+            "Non-polar solvents",
+            "Benzene",
+            "CCl₄"
           ],
-          "answer": "Option A"
+          "answer": "Polar solvents (water)"
         },
         {
-          "question": "Q15 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q15",
+          "question": "Ionic compounds conduct electricity when:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Molten or dissolved",
+            "Solid",
+            "Never",
+            "As gas"
           ],
-          "answer": "Option A"
+          "answer": "Molten or dissolved"
         },
         {
-          "question": "Q16 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q16",
+          "question": "Fajan's rules predict:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Covalent character in ionic bonds",
+            "Bond length",
+            "IE",
+            "EA"
           ],
-          "answer": "Option A"
+          "answer": "Covalent character in ionic bonds"
         },
         {
-          "question": "Q17 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q17",
+          "question": "Covalent character increases with:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Small cation, large anion, high charge",
+            "Large cation, small anion",
+            "Same size",
+            "Low charge"
           ],
-          "answer": "Option A"
+          "answer": "Small cation, large anion, high charge"
         },
         {
-          "question": "Q18 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q18",
+          "question": "Which compound is most covalent: NaCl, MgCl₂, AlCl₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "AlCl₃",
+            "NaCl",
+            "MgCl₂",
+            "All same"
           ],
-          "answer": "Option A"
+          "answer": "AlCl₃"
         },
         {
-          "question": "Q19 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q19",
+          "question": "Polarizing power of cation depends on:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Charge and size",
+            "Color",
+            "Mass",
+            "Volume only"
           ],
-          "answer": "Option A"
+          "answer": "Charge and size"
         },
         {
-          "question": "Q20 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q20",
+          "question": "Polarizability of anion is higher for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Larger anions",
+            "Smaller anions",
+            "Neutral",
+            "Cations"
           ],
-          "answer": "Option A"
+          "answer": "Larger anions"
         },
         {
-          "question": "Q21 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q21",
+          "question": "Crystal structure of NaCl is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Face-centered cubic",
+            "Body-centered cubic",
+            "Hexagonal",
+            "Triclinic"
           ],
-          "answer": "Option A"
+          "answer": "Face-centered cubic"
         },
         {
-          "question": "Q22 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q22",
+          "question": "Coordination number in NaCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "6:6",
+            "4:4",
+            "8:8",
+            "12:12"
           ],
-          "answer": "Option A"
+          "answer": "6:6"
         },
         {
-          "question": "Q23 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q23",
+          "question": "Coordination number in CsCl:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8:8",
+            "6:6",
+            "4:4",
+            "12:12"
           ],
-          "answer": "Option A"
+          "answer": "8:8"
         },
         {
-          "question": "Q24 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q24",
+          "question": "Coordination number in ZnS (zinc blende):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4:4",
+            "6:6",
+            "8:8",
+            "3:3"
           ],
-          "answer": "Option A"
+          "answer": "4:4"
         },
         {
-          "question": "Q25 Week 9: Topic - Chemical Bonding – Ionic Bond, Lattice Energy, Born-Haber Cycle",
+          "id": "c11-w9-q25",
+          "question": "Bond energy of ionic bond is typically:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "400–4000 kJ/mol",
+            "10 kJ/mol",
+            "Negative always",
+            "Less than vdW"
           ],
-          "answer": "Option A"
+          "answer": "400–4000 kJ/mol"
         }
       ]
     },
@@ -2309,254 +2459,279 @@
       "topic": "Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
       "questions": [
         {
-          "question": "Q1 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q1",
+          "question": "Covalent bond is formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sharing of electrons",
+            "Transfer",
+            "Electrostatic",
+            "Metallic"
           ],
-          "answer": "Option A"
+          "answer": "Sharing of electrons"
         },
         {
-          "question": "Q2 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q2",
+          "question": "Octet rule states atoms tend to have:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "8 electrons in valence shell",
+            "2 electrons",
+            "10 electrons",
+            "18 electrons"
           ],
-          "answer": "Option A"
+          "answer": "8 electrons in valence shell"
         },
         {
-          "question": "Q3 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q3",
+          "question": "Lewis symbol shows:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Valence electrons as dots",
+            "All electrons",
+            "Protons",
+            "Nucleus"
           ],
-          "answer": "Option A"
+          "answer": "Valence electrons as dots"
         },
         {
-          "question": "Q4 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q4",
+          "question": "Number of valence electrons in N:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "5",
+            "3",
+            "7",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "5"
         },
         {
-          "question": "Q5 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q5",
+          "question": "Lewis structure of H₂O has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 bond pairs, 2 lone pairs on O",
+            "4 bond pairs",
+            "1 lone pair",
+            "3 bond pairs"
           ],
-          "answer": "Option A"
+          "answer": "2 bond pairs, 2 lone pairs on O"
         },
         {
-          "question": "Q6 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q6",
+          "question": "Lewis structure of NH₃ has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3 bond pairs, 1 lone pair on N",
+            "4 bond pairs",
+            "0 lone pairs",
+            "2 lone pairs"
           ],
-          "answer": "Option A"
+          "answer": "3 bond pairs, 1 lone pair on N"
         },
         {
-          "question": "Q7 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q7",
+          "question": "Number of covalent bonds in CO₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 (two double bonds)",
+            "2",
+            "6",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "4 (two double bonds)"
         },
         {
-          "question": "Q8 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q8",
+          "question": "Number of bonds in N₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3 (triple bond)",
+            "1",
+            "2",
+            "4"
           ],
-          "answer": "Option A"
+          "answer": "3 (triple bond)"
         },
         {
-          "question": "Q9 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q9",
+          "question": "Single bond consists of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "One σ bond",
+            "One π bond",
+            "σ + π",
+            "Two σ"
           ],
-          "answer": "Option A"
+          "answer": "One σ bond"
         },
         {
-          "question": "Q10 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q10",
+          "question": "Double bond consists of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1σ + 1π",
+            "2σ",
+            "2π",
+            "1σ + 2π"
           ],
-          "answer": "Option A"
+          "answer": "1σ + 1π"
         },
         {
-          "question": "Q11 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q11",
+          "question": "Triple bond consists of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1σ + 2π",
+            "3σ",
+            "2σ + 1π",
+            "3π"
           ],
-          "answer": "Option A"
+          "answer": "1σ + 2π"
         },
         {
-          "question": "Q12 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q12",
+          "question": "Bond order for N₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "2",
+            "1",
+            "4"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Q13 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q13",
+          "question": "Formal charge formula: FC =",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(Valence e⁻) − (lone pair e⁻) − ½(bond pair e⁻)",
+            "Valence − shared",
+            "Lone − bonded",
+            "Total e⁻"
           ],
-          "answer": "Option A"
+          "answer": "(Valence e⁻) − (lone pair e⁻) − ½(bond pair e⁻)"
         },
         {
-          "question": "Q14 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q14",
+          "question": "Formal charge on C in CO₂ is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0",
+            "+1",
+            "−1",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "0"
         },
         {
-          "question": "Q15 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q15",
+          "question": "Formal charge on O in ozone O₃ central atom:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "+1",
+            "0",
+            "−1",
+            "+2"
           ],
-          "answer": "Option A"
+          "answer": "+1"
         },
         {
-          "question": "Q16 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q16",
+          "question": "Exception to octet rule — incomplete octet:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "BF₃ (6 e⁻ around B)",
+            "PCl₅",
+            "SF₆",
+            "CO₂"
           ],
-          "answer": "Option A"
+          "answer": "BF₃ (6 e⁻ around B)"
         },
         {
-          "question": "Q17 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q17",
+          "question": "Exception — expanded octet:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "SF₆ (12 e⁻ around S)",
+            "H₂O",
+            "NH₃",
+            "CH₄"
           ],
-          "answer": "Option A"
+          "answer": "SF₆ (12 e⁻ around S)"
         },
         {
-          "question": "Q18 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q18",
+          "question": "Exception — odd electron species:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "NO (11 valence e⁻)",
+            "CO₂",
+            "N₂",
+            "CH₄"
           ],
-          "answer": "Option A"
+          "answer": "NO (11 valence e⁻)"
         },
         {
-          "question": "Q19 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q19",
+          "question": "Resonance structures differ only in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Position of electrons",
+            "Position of atoms",
+            "Formula",
+            "Both"
           ],
-          "answer": "Option A"
+          "answer": "Position of electrons"
         },
         {
-          "question": "Q20 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q20",
+          "question": "Resonance hybrid is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More stable than any contributor",
+            "Less stable",
+            "Same as average",
+            "Does not exist"
           ],
-          "answer": "Option A"
+          "answer": "More stable than any contributor"
         },
         {
-          "question": "Q21 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q21",
+          "question": "Resonance in benzene gives it:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Delocalized π electrons",
+            "Localized bonds",
+            "Ionic character",
+            "No stability"
           ],
-          "answer": "Option A"
+          "answer": "Delocalized π electrons"
         },
         {
-          "question": "Q22 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q22",
+          "question": "Number of resonance structures of CO₃²⁻:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "2",
+            "4",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Q23 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q23",
+          "question": "Bond length order: C−C, C=C, C≡C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C−C > C=C > C≡C",
+            "C≡C > C=C > C−C",
+            "Equal",
+            "C=C longest"
           ],
-          "answer": "Option A"
+          "answer": "C−C > C=C > C≡C"
         },
         {
-          "question": "Q24 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q24",
+          "question": "Bond energy order: C−C, C=C, C≡C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "C≡C > C=C > C−C",
+            "C−C > C=C > C≡C",
+            "Equal",
+            "C=C highest"
           ],
-          "answer": "Option A"
+          "answer": "C≡C > C=C > C−C"
         },
         {
-          "question": "Q25 Week 10: Topic - Chemical Bonding – Covalent Bond, Lewis Structures, Formal Charge",
+          "id": "c11-w10-q25",
+          "question": "A coordinate (dative) bond is:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both electrons from one atom",
+            "One from each",
+            "Ionic",
+            "Metallic"
           ],
-          "answer": "Option A"
+          "answer": "Both electrons from one atom"
         }
       ]
     },
@@ -2565,254 +2740,279 @@
       "topic": "Chemical Bonding – VSEPR Theory, Molecular Geometry",
       "questions": [
         {
-          "question": "Q1 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q1",
+          "question": "VSEPR stands for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Valence Shell Electron Pair Repulsion",
+            "Valence Shell Exchange",
+            "Voltage Electron Pair",
+            "Vibrational Spectrum"
           ],
-          "answer": "Option A"
+          "answer": "Valence Shell Electron Pair Repulsion"
         },
         {
-          "question": "Q2 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q2",
+          "question": "VSEPR theory was given by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Sidgwick & Powell (Gillespie & Nyholm)",
+            "Bohr",
+            "Lewis",
+            "Pauling"
           ],
-          "answer": "Option A"
+          "answer": "Sidgwick & Powell (Gillespie & Nyholm)"
         },
         {
-          "question": "Q3 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q3",
+          "question": "Repulsion order (maximum first):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "lp-lp > lp-bp > bp-bp",
+            "bp-bp > lp-bp",
+            "All equal",
+            "lp-bp > lp-lp"
           ],
-          "answer": "Option A"
+          "answer": "lp-lp > lp-bp > bp-bp"
         },
         {
-          "question": "Q4 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q4",
+          "question": "Shape of BeCl₂ (AB₂, no lp):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Linear",
+            "Bent",
+            "Trigonal",
+            "Tetrahedral"
           ],
-          "answer": "Option A"
+          "answer": "Linear"
         },
         {
-          "question": "Q5 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q5",
+          "question": "Bond angle in BeCl₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "180°",
+            "120°",
+            "109.5°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "180°"
         },
         {
-          "question": "Q6 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q6",
+          "question": "Shape of BF₃ (AB₃):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trigonal planar",
+            "Pyramidal",
+            "Bent",
+            "Tetrahedral"
           ],
-          "answer": "Option A"
+          "answer": "Trigonal planar"
         },
         {
-          "question": "Q7 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q7",
+          "question": "Bond angle in BF₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "120°",
+            "109.5°",
+            "90°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "120°"
         },
         {
-          "question": "Q8 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q8",
+          "question": "Shape of CH₄ (AB₄):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Tetrahedral",
+            "Square planar",
+            "Pyramidal",
+            "Linear"
           ],
-          "answer": "Option A"
+          "answer": "Tetrahedral"
         },
         {
-          "question": "Q9 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q9",
+          "question": "Bond angle in CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "109.5°",
+            "120°",
+            "90°",
+            "104.5°"
           ],
-          "answer": "Option A"
+          "answer": "109.5°"
         },
         {
-          "question": "Q10 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q10",
+          "question": "Shape of NH₃ (AB₃E, 1 lp):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trigonal pyramidal",
+            "Trigonal planar",
+            "Tetrahedral",
+            "Bent"
           ],
-          "answer": "Option A"
+          "answer": "Trigonal pyramidal"
         },
         {
-          "question": "Q11 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q11",
+          "question": "Bond angle in NH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "107°",
+            "109.5°",
+            "120°",
+            "104.5°"
           ],
-          "answer": "Option A"
+          "answer": "107°"
         },
         {
-          "question": "Q12 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q12",
+          "question": "Shape of H₂O (AB₂E₂, 2 lp):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Bent (angular)",
+            "Linear",
+            "Tetrahedral",
+            "T-shape"
           ],
-          "answer": "Option A"
+          "answer": "Bent (angular)"
         },
         {
-          "question": "Q13 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q13",
+          "question": "Bond angle in H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "104.5°",
+            "109.5°",
+            "120°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "104.5°"
         },
         {
-          "question": "Q14 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q14",
+          "question": "Bond angle decreases NH₃ (107°) to H₂O (104.5°) because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "More lone pairs",
+            "Less repulsion",
+            "Bigger atom",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "More lone pairs"
         },
         {
-          "question": "Q15 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q15",
+          "question": "Shape of PCl₅ (AB₅):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Trigonal bipyramidal",
+            "Square pyramidal",
+            "Octahedral",
+            "Tetrahedral"
           ],
-          "answer": "Option A"
+          "answer": "Trigonal bipyramidal"
         },
         {
-          "question": "Q16 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q16",
+          "question": "Axial bond angle in PCl₅:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "90° (axial-equatorial)",
+            "120°",
+            "109.5°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "90° (axial-equatorial)"
         },
         {
-          "question": "Q17 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q17",
+          "question": "Shape of SF₆ (AB₆):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Octahedral",
+            "Trigonal bipyramidal",
+            "Tetrahedral",
+            "Cubic"
           ],
-          "answer": "Option A"
+          "answer": "Octahedral"
         },
         {
-          "question": "Q18 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q18",
+          "question": "Bond angle in SF₆:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "90° (all)",
+            "109.5°",
+            "120°",
+            "60°"
           ],
-          "answer": "Option A"
+          "answer": "90° (all)"
         },
         {
-          "question": "Q19 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q19",
+          "question": "Shape of SF₄ (AB₄E):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "See-saw",
+            "Square planar",
+            "Tetrahedral",
+            "Linear"
           ],
-          "answer": "Option A"
+          "answer": "See-saw"
         },
         {
-          "question": "Q20 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q20",
+          "question": "Shape of ClF₃ (AB₃E₂):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "T-shape",
+            "Trigonal planar",
+            "Linear",
+            "Bent"
           ],
-          "answer": "Option A"
+          "answer": "T-shape"
         },
         {
-          "question": "Q21 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q21",
+          "question": "Shape of XeF₂ (AB₂E₃):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Linear",
+            "Bent",
+            "T-shape",
+            "Trigonal"
           ],
-          "answer": "Option A"
+          "answer": "Linear"
         },
         {
-          "question": "Q22 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q22",
+          "question": "Shape of XeF₄ (AB₄E₂):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Square planar",
+            "Tetrahedral",
+            "See-saw",
+            "Octahedral"
           ],
-          "answer": "Option A"
+          "answer": "Square planar"
         },
         {
-          "question": "Q23 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q23",
+          "question": "Shape of BrF₅ (AB₅E):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Square pyramidal",
+            "Trigonal bipyramidal",
+            "Octahedral",
+            "T-shape"
           ],
-          "answer": "Option A"
+          "answer": "Square pyramidal"
         },
         {
-          "question": "Q24 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q24",
+          "question": "Total electron pairs in SO₄²⁻:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4 (tetrahedral)",
+            "3",
+            "5",
+            "6"
           ],
-          "answer": "Option A"
+          "answer": "4 (tetrahedral)"
         },
         {
-          "question": "Q25 Week 11: Topic - Chemical Bonding – VSEPR Theory, Molecular Geometry",
+          "id": "c11-w11-q25",
+          "question": "Polar molecule among CO₂, H₂O, CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O",
+            "CO₂",
+            "CH₄",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "H₂O"
         }
       ]
     },
@@ -2821,254 +3021,279 @@
       "topic": "Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
       "questions": [
         {
-          "question": "Q1 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q1",
+          "question": "Hybridization is mixing of:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Atomic orbitals of similar energy",
+            "Different shells",
+            "Nuclei",
+            "Electrons only"
           ],
-          "answer": "Option A"
+          "answer": "Atomic orbitals of similar energy"
         },
         {
-          "question": "Q2 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q2",
+          "question": "Hybridization in BeCl₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp",
+            "sp²",
+            "sp³",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp"
         },
         {
-          "question": "Q3 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q3",
+          "question": "Hybridization in BF₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp",
+            "sp³",
+            "sp³d²"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q4 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q4",
+          "question": "Hybridization in CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q5 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q5",
+          "question": "Hybridization in NH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "dsp²"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q6 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q6",
+          "question": "Hybridization in H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³",
+            "sp²",
+            "sp",
+            "d²sp"
           ],
-          "answer": "Option A"
+          "answer": "sp³"
         },
         {
-          "question": "Q7 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q7",
+          "question": "Hybridization in C₂H₄ (each C):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "dsp²"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q8 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q8",
+          "question": "Hybridization in C₂H₂ (each C):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp",
+            "sp²",
+            "sp³",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp"
         },
         {
-          "question": "Q9 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q9",
+          "question": "Hybridization in PCl₅:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³d",
+            "sp³",
+            "sp³d²",
+            "sp²"
           ],
-          "answer": "Option A"
+          "answer": "sp³d"
         },
         {
-          "question": "Q10 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q10",
+          "question": "Hybridization in SF₆:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³d²",
+            "sp³d",
+            "sp³",
+            "d²sp³"
           ],
-          "answer": "Option A"
+          "answer": "sp³d²"
         },
         {
-          "question": "Q11 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q11",
+          "question": "sp hybrid orbital angle:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "180°",
+            "120°",
+            "109.5°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "180°"
         },
         {
-          "question": "Q12 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q12",
+          "question": "sp² hybrid orbital angle:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "120°",
+            "180°",
+            "109.5°",
+            "90°"
           ],
-          "answer": "Option A"
+          "answer": "120°"
         },
         {
-          "question": "Q13 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q13",
+          "question": "sp³ hybrid orbital angle:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "109.5°",
+            "120°",
+            "90°",
+            "180°"
           ],
-          "answer": "Option A"
+          "answer": "109.5°"
         },
         {
-          "question": "Q14 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q14",
+          "question": "Number of hybrid orbitals formed from sp³:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "4",
+            "3",
+            "2",
+            "5"
           ],
-          "answer": "Option A"
+          "answer": "4"
         },
         {
-          "question": "Q15 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q15",
+          "question": "% s-character in sp hybrid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "50%",
+            "33%",
+            "25%",
+            "100%"
           ],
-          "answer": "Option A"
+          "answer": "50%"
         },
         {
-          "question": "Q16 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q16",
+          "question": "% s-character in sp² hybrid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "33.3%",
+            "50%",
+            "25%",
+            "75%"
           ],
-          "answer": "Option A"
+          "answer": "33.3%"
         },
         {
-          "question": "Q17 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q17",
+          "question": "% s-character in sp³ hybrid:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "25%",
+            "50%",
+            "33%",
+            "75%"
           ],
-          "answer": "Option A"
+          "answer": "25%"
         },
         {
-          "question": "Q18 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q18",
+          "question": "Bond length order: C−C in CH₄, C₂H₄, C₂H₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₄ > C₂H₄ > C₂H₂",
+            "C₂H₂ > C₂H₄ > CH₄",
+            "All equal",
+            "CH₄ < C₂H₂"
           ],
-          "answer": "Option A"
+          "answer": "CH₄ > C₂H₄ > C₂H₂"
         },
         {
-          "question": "Q19 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q19",
+          "question": "Hybridization in NO₃⁻:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp² (trigonal planar)",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp² (trigonal planar)"
         },
         {
-          "question": "Q20 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q20",
+          "question": "Hybridization in SO₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp³d",
+            "sp"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q21 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q21",
+          "question": "Hybridization in XeF₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³d",
+            "sp³",
+            "sp³d²",
+            "sp²"
           ],
-          "answer": "Option A"
+          "answer": "sp³d"
         },
         {
-          "question": "Q22 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q22",
+          "question": "Hybridization in XeF₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³d²",
+            "sp³d",
+            "sp³",
+            "dsp²"
           ],
-          "answer": "Option A"
+          "answer": "sp³d²"
         },
         {
-          "question": "Q23 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q23",
+          "question": "Hybridization in XeF₆:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp³d³",
+            "sp³d²",
+            "sp³d",
+            "sp³"
           ],
-          "answer": "Option A"
+          "answer": "sp³d³"
         },
         {
-          "question": "Q24 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q24",
+          "question": "Hybridization in benzene (each C):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         },
         {
-          "question": "Q25 Week 12: Topic - Chemical Bonding – Hybridization (sp, sp², sp³, sp³d, sp³d²)",
+          "id": "c11-w12-q25",
+          "question": "Hybridization in CO₃²⁻ central C:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "sp²",
+            "sp³",
+            "sp",
+            "sp³d"
           ],
-          "answer": "Option A"
+          "answer": "sp²"
         }
       ]
     },
@@ -3077,254 +3302,279 @@
       "topic": "Chemical Bonding – Molecular Orbital Theory",
       "questions": [
         {
-          "question": "Q1 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q1",
+          "question": "MO theory was proposed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Mulliken & Hund",
+            "Pauling",
+            "Sidgwick",
+            "Lewis"
           ],
-          "answer": "Option A"
+          "answer": "Mulliken & Hund"
         },
         {
-          "question": "Q2 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q2",
+          "question": "Number of MOs formed from N AOs:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "N",
+            "2N",
+            "N/2",
+            "1"
           ],
-          "answer": "Option A"
+          "answer": "N"
         },
         {
-          "question": "Q3 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q3",
+          "question": "Bonding MO has energy:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lower than AOs",
+            "Higher than AOs",
+            "Same as AOs",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Lower than AOs"
         },
         {
-          "question": "Q4 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q4",
+          "question": "Antibonding MO (e.g. σ*) has:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher energy than AOs",
+            "Lower energy",
+            "Same",
+            "Negative"
           ],
-          "answer": "Option A"
+          "answer": "Higher energy than AOs"
         },
         {
-          "question": "Q5 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q5",
+          "question": "Bond order = ",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "(N_b − N_a)/2",
+            "N_b + N_a",
+            "N_b/N_a",
+            "(N_b − N_a)"
           ],
-          "answer": "Option A"
+          "answer": "(N_b − N_a)/2"
         },
         {
-          "question": "Q6 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q6",
+          "question": "Bond order of H₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "2",
+            "½"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Q7 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q7",
+          "question": "Bond order of He₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "0 (unstable)",
+            "1",
+            "2",
+            "½"
           ],
-          "answer": "Option A"
+          "answer": "0 (unstable)"
         },
         {
-          "question": "Q8 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q8",
+          "question": "Bond order of N₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "3",
+            "2",
+            "1",
+            "2.5"
           ],
-          "answer": "Option A"
+          "answer": "3"
         },
         {
-          "question": "Q9 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q9",
+          "question": "Bond order of O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2",
+            "3",
+            "1",
+            "1.5"
           ],
-          "answer": "Option A"
+          "answer": "2"
         },
         {
-          "question": "Q10 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q10",
+          "question": "Magnetic nature of O₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Paramagnetic",
+            "Diamagnetic",
+            "Ferromagnetic",
+            "Antiferromagnetic"
           ],
-          "answer": "Option A"
+          "answer": "Paramagnetic"
         },
         {
-          "question": "Q11 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q11",
+          "question": "O₂ is paramagnetic because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2 unpaired e⁻ in π* orbitals",
+            "All paired",
+            "Ionic",
+            "High energy"
           ],
-          "answer": "Option A"
+          "answer": "2 unpaired e⁻ in π* orbitals"
         },
         {
-          "question": "Q12 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q12",
+          "question": "Bond order of O₂⁻ (superoxide):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.5",
+            "2",
+            "1",
+            "2.5"
           ],
-          "answer": "Option A"
+          "answer": "1.5"
         },
         {
-          "question": "Q13 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q13",
+          "question": "Bond order of O₂²⁻ (peroxide):",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "2",
+            "1.5",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Q14 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q14",
+          "question": "Bond order of F₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1",
+            "0",
+            "2",
+            "3"
           ],
-          "answer": "Option A"
+          "answer": "1"
         },
         {
-          "question": "Q15 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q15",
+          "question": "Which is not stable: He₂ or Be₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Both (bond order = 0)",
+            "Only He₂",
+            "Only Be₂",
+            "Both stable"
           ],
-          "answer": "Option A"
+          "answer": "Both (bond order = 0)"
         },
         {
-          "question": "Q16 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q16",
+          "question": "MO energy order for O₂, F₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "σ1s < σ*1s < σ2s < σ*2s < σ2p_z < π2p < π*2p < σ*2p_z",
+            "Reverse",
+            "σ < π only",
+            "All equal"
           ],
-          "answer": "Option A"
+          "answer": "σ1s < σ*1s < σ2s < σ*2s < σ2p_z < π2p < π*2p < σ*2p_z"
         },
         {
-          "question": "Q17 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q17",
+          "question": "For B₂, C₂, N₂ the order differs in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "π2p < σ2p_z",
+            "σ before π",
+            "Same as O₂",
+            "No change"
           ],
-          "answer": "Option A"
+          "answer": "π2p < σ2p_z"
         },
         {
-          "question": "Q18 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q18",
+          "question": "Bond order and stability:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher bond order → more stable",
+            "Opposite",
+            "Unrelated",
+            "Random"
           ],
-          "answer": "Option A"
+          "answer": "Higher bond order → more stable"
         },
         {
-          "question": "Q19 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q19",
+          "question": "Bond length and bond order:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Higher bond order → shorter",
+            "Longer",
+            "Same",
+            "Zero"
           ],
-          "answer": "Option A"
+          "answer": "Higher bond order → shorter"
         },
         {
-          "question": "Q20 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q20",
+          "question": "N₂⁺ bond order:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2.5",
+            "3",
+            "1.5",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "2.5"
         },
         {
-          "question": "Q21 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q21",
+          "question": "N₂⁻ bond order:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "2.5",
+            "3",
+            "1.5",
+            "2"
           ],
-          "answer": "Option A"
+          "answer": "2.5"
         },
         {
-          "question": "Q22 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q22",
+          "question": "HOMO stands for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Highest Occupied MO",
+            "Highest Oxidation",
+            "Hybrid",
+            "Helium"
           ],
-          "answer": "Option A"
+          "answer": "Highest Occupied MO"
         },
         {
-          "question": "Q23 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q23",
+          "question": "LUMO stands for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Lowest Unoccupied MO",
+            "Lowest Oxidation",
+            "Lattice",
+            "Linear"
           ],
-          "answer": "Option A"
+          "answer": "Lowest Unoccupied MO"
         },
         {
-          "question": "Q24 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q24",
+          "question": "Constructive overlap gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Bonding MO",
+            "Antibonding MO",
+            "No MO",
+            "Non-bonding"
           ],
-          "answer": "Option A"
+          "answer": "Bonding MO"
         },
         {
-          "question": "Q25 Week 13: Topic - Chemical Bonding – Molecular Orbital Theory",
+          "id": "c11-w13-q25",
+          "question": "Destructive overlap gives:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Antibonding MO (with node)",
+            "Bonding",
+            "No effect",
+            "Hybrid"
           ],
-          "answer": "Option A"
+          "answer": "Antibonding MO (with node)"
         }
       ]
     },
@@ -3333,254 +3583,279 @@
       "topic": "Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
       "questions": [
         {
-          "question": "Q1 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q1",
+          "question": "Hydrogen bond is between H bonded to ___ and another ___ atom:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "F/O/N; F/O/N",
+            "C; C",
+            "H; H",
+            "Metal; metal"
           ],
-          "answer": "Option A"
+          "answer": "F/O/N; F/O/N"
         },
         {
-          "question": "Q2 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q2",
+          "question": "Why does water have high boiling point:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Extensive H-bonding",
+            "High mass",
+            "Covalent bonds",
+            "Metallic"
           ],
-          "answer": "Option A"
+          "answer": "Extensive H-bonding"
         },
         {
-          "question": "Q3 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q3",
+          "question": "Intramolecular H-bond is in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "o-nitrophenol",
+            "p-nitrophenol",
+            "Water",
+            "HF dimer"
           ],
-          "answer": "Option A"
+          "answer": "o-nitrophenol"
         },
         {
-          "question": "Q4 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q4",
+          "question": "Intermolecular H-bond example:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HF chains",
+            "o-nitrophenol",
+            "N₂",
+            "CCl₄"
           ],
-          "answer": "Option A"
+          "answer": "HF chains"
         },
         {
-          "question": "Q5 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q5",
+          "question": "H-bond energy is about:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "10–40 kJ/mol",
+            "400 kJ/mol",
+            "1000 kJ/mol",
+            "0.1 kJ/mol"
           ],
-          "answer": "Option A"
+          "answer": "10–40 kJ/mol"
         },
         {
-          "question": "Q6 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q6",
+          "question": "Boiling point order: H₂O > H₂S because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H₂O has H-bonding",
+            "H₂S is ionic",
+            "H₂S heavier",
+            "No reason"
           ],
-          "answer": "Option A"
+          "answer": "H₂O has H-bonding"
         },
         {
-          "question": "Q7 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q7",
+          "question": "Ice is less dense than water because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Open cage structure due to H-bonds",
+            "Lower mass",
+            "Fewer molecules",
+            "Higher temperature"
           ],
-          "answer": "Option A"
+          "answer": "Open cage structure due to H-bonds"
         },
         {
-          "question": "Q8 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q8",
+          "question": "H-bonds are present in which biomolecules:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "DNA, proteins",
+            "Only carbohydrates",
+            "Lipids only",
+            "None"
           ],
-          "answer": "Option A"
+          "answer": "DNA, proteins"
         },
         {
-          "question": "Q9 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q9",
+          "question": "Metallic bond is formed by:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Delocalized sea of electrons",
+            "Sharing pairs",
+            "Transfer",
+            "H-bonding"
           ],
-          "answer": "Option A"
+          "answer": "Delocalized sea of electrons"
         },
         {
-          "question": "Q10 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q10",
+          "question": "Metals conduct electricity because:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Free-moving electrons",
+            "H-bonds",
+            "Ionic",
+            "Covalent"
           ],
-          "answer": "Option A"
+          "answer": "Free-moving electrons"
         },
         {
-          "question": "Q11 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q11",
+          "question": "Malleability of metals due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Layers of atoms can slide",
+            "Strong covalent",
+            "Ionic lattice",
+            "H-bonds"
           ],
-          "answer": "Option A"
+          "answer": "Layers of atoms can slide"
         },
         {
-          "question": "Q12 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q12",
+          "question": "Which is strongest: metallic bond of Na or W:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "W (more valence e⁻, higher charge)",
+            "Na",
+            "Both equal",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "W (more valence e⁻, higher charge)"
         },
         {
-          "question": "Q13 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q13",
+          "question": "van der Waals forces include:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Dispersion, dipole-dipole, dipole-induced dipole",
+            "H-bond only",
+            "Ionic",
+            "Covalent"
           ],
-          "answer": "Option A"
+          "answer": "Dispersion, dipole-dipole, dipole-induced dipole"
         },
         {
-          "question": "Q14 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q14",
+          "question": "London dispersion forces are:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Instantaneous induced dipole forces",
+            "Permanent dipoles",
+            "H-bonds",
+            "Ionic"
           ],
-          "answer": "Option A"
+          "answer": "Instantaneous induced dipole forces"
         },
         {
-          "question": "Q15 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q15",
+          "question": "Dispersion force is largest for:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Large, more polarizable atoms",
+            "Small atoms",
+            "Polar",
+            "Ions"
           ],
-          "answer": "Option A"
+          "answer": "Large, more polarizable atoms"
         },
         {
-          "question": "Q16 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q16",
+          "question": "Dipole-dipole force exists in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "HCl",
+            "N₂",
+            "CH₄",
+            "He"
           ],
-          "answer": "Option A"
+          "answer": "HCl"
         },
         {
-          "question": "Q17 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q17",
+          "question": "Dispersion force only in:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Noble gases, nonpolar molecules",
+            "H₂O",
+            "HF",
+            "NH₃"
           ],
-          "answer": "Option A"
+          "answer": "Noble gases, nonpolar molecules"
         },
         {
-          "question": "Q18 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q18",
+          "question": "Relative strength order:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Ionic > H-bond > dipole-dipole > dispersion",
+            "Reverse",
+            "Random",
+            "Equal"
           ],
-          "answer": "Option A"
+          "answer": "Ionic > H-bond > dipole-dipole > dispersion"
         },
         {
-          "question": "Q19 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q19",
+          "question": "Boiling point of halogens increases F₂ < Cl₂ < Br₂ < I₂ due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Increasing dispersion force",
+            "H-bond",
+            "Ionic",
+            "Covalent"
           ],
-          "answer": "Option A"
+          "answer": "Increasing dispersion force"
         },
         {
-          "question": "Q20 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q20",
+          "question": "Which has higher bp: o-nitrophenol or p-nitrophenol:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "p-nitrophenol (intermolecular H-bond)",
+            "o-nitrophenol",
+            "Equal",
+            "Neither"
           ],
-          "answer": "Option A"
+          "answer": "p-nitrophenol (intermolecular H-bond)"
         },
         {
-          "question": "Q21 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q21",
+          "question": "Polarity in HCl is due to:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Difference in EN",
+            "Same EN",
+            "Ionic bond",
+            "H-bond"
           ],
-          "answer": "Option A"
+          "answer": "Difference in EN"
         },
         {
-          "question": "Q22 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q22",
+          "question": "Dipole moment of CO₂:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "Zero (linear, symmetric)",
+            "Non-zero",
+            "Very large",
+            "Infinite"
           ],
-          "answer": "Option A"
+          "answer": "Zero (linear, symmetric)"
         },
         {
-          "question": "Q23 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q23",
+          "question": "Dipole moment of H₂O:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "1.85 D (bent, net dipole)",
+            "Zero",
+            "10 D",
+            "0.1 D"
           ],
-          "answer": "Option A"
+          "answer": "1.85 D (bent, net dipole)"
         },
         {
-          "question": "Q24 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q24",
+          "question": "Which has no H-bonding: HF, H₂O, NH₃, CH₄:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "CH₄",
+            "HF",
+            "H₂O",
+            "NH₃"
           ],
-          "answer": "Option A"
+          "answer": "CH₄"
         },
         {
-          "question": "Q25 Week 14: Topic - Chemical Bonding – Hydrogen Bonding, Metallic Bonding, van der Waals Forces",
+          "id": "c11-w14-q25",
+          "question": "Strongest intermolecular force in liquid NH₃:",
           "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
+            "H-bonding",
+            "Ionic",
+            "Dispersion only",
+            "Metallic"
           ],
-          "answer": "Option A"
+          "answer": "H-bonding"
         }
       ]
     },
