@@ -1,7 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
-export const alt = "The Practise Ground - Free English & Maths Quizzes for Grades 5-10";
+export const alt = "The Practise Ground - Free Quizzes for Grades 5-12 & Language Learning A1-C1";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -49,7 +48,7 @@ export default async function Image() {
             lineHeight: "1.3",
           }}
         >
-          Free English & Maths Quizzes
+          Free English, Maths & Science Quizzes
         </div>
 
         {/* Subtitle */}
@@ -61,7 +60,7 @@ export default async function Image() {
             marginBottom: "30px",
           }}
         >
-          Grades 5-10 | 23,400+ Questions | No Sign-up
+          Grades 5-12 · Languages A1-C1 · 23,400+ Questions · No Sign-up
         </div>
 
         {/* Stats row */}
@@ -74,7 +73,7 @@ export default async function Image() {
         >
           {[
             { num: "52", label: "Weeks per Grade" },
-            { num: "6", label: "Grade Levels" },
+            { num: "8", label: "Grade Levels" },
             { num: "100%", label: "Free Forever" },
           ].map((stat) => (
             <div
