@@ -6661,254 +6661,279 @@
       "topic": "Conic Sections – Parabola (Standard Forms, Focus, Directrix, Latus Rectum)",
       "questions": [
         {
-          "question": "Conic question 1 for week 27: What is the relationship?",
+          "id": "11-w27-q1",
+          "question": "Standard equation of parabola with vertex at origin opening right:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y² = 4ax",
+            "x² = 4ay",
+            "y² = -4ax",
+            "x² = -4ay"
           ],
-          "answer": "Option A is correct"
+          "answer": "y² = 4ax"
         },
         {
-          "question": "Conic question 2 for week 27: What is the relationship?",
+          "id": "11-w27-q2",
+          "question": "Focus of parabola y² = 12x:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(3, 0)",
+            "(0, 3)",
+            "(-3, 0)",
+            "(0, -3)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(3, 0)"
         },
         {
-          "question": "Conic question 3 for week 27: What is the relationship?",
+          "id": "11-w27-q3",
+          "question": "Directrix of parabola y² = 8x:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x = -2",
+            "x = 2",
+            "y = -2",
+            "y = 2"
           ],
-          "answer": "Option A is correct"
+          "answer": "x = -2"
         },
         {
-          "question": "Conic question 4 for week 27: What is the relationship?",
+          "id": "11-w27-q4",
+          "question": "Length of latus rectum of y² = 4ax:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "4a",
+            "2a",
+            "a",
+            "a/2"
           ],
-          "answer": "Option A is correct"
+          "answer": "4a"
         },
         {
-          "question": "Conic question 5 for week 27: What is the relationship?",
+          "id": "11-w27-q5",
+          "question": "Parabola x² = -16y opens:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Downwards",
+            "Upwards",
+            "Leftwards",
+            "Rightwards"
           ],
-          "answer": "Option A is correct"
+          "answer": "Downwards"
         },
         {
-          "question": "Conic question 6 for week 27: What is the relationship?",
+          "id": "11-w27-q6",
+          "question": "Axis of parabola y² = 4ax is:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x-axis",
+            "y-axis",
+            "y = x",
+            "y = -x"
           ],
-          "answer": "Option A is correct"
+          "answer": "x-axis"
         },
         {
-          "question": "Conic question 7 for week 27: What is the relationship?",
+          "id": "11-w27-q7",
+          "question": "Eccentricity of parabola:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "1",
+            "0",
+            "<1",
+            ">1"
           ],
-          "answer": "Option A is correct"
+          "answer": "1"
         },
         {
-          "question": "Conic question 8 for week 27: What is the relationship?",
+          "id": "11-w27-q8",
+          "question": "Vertex of parabola y² = 20x:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(0, 0)",
+            "(5, 0)",
+            "(0, 5)",
+            "(-5, 0)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(0, 0)"
         },
         {
-          "question": "Conic question 9 for week 27: What is the relationship?",
+          "id": "11-w27-q9",
+          "question": "Length of latus rectum of y² = 16x:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "16",
+            "8",
+            "4",
+            "2"
           ],
-          "answer": "Option A is correct"
+          "answer": "16"
         },
         {
-          "question": "Conic question 10 for week 27: What is the relationship?",
+          "id": "11-w27-q10",
+          "question": "Equation of parabola with focus (2, 0) and directrix x = -2:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y² = 8x",
+            "y² = 4x",
+            "x² = 8y",
+            "y² = -8x"
           ],
-          "answer": "Option A is correct"
+          "answer": "y² = 8x"
         },
         {
-          "question": "Conic question 11 for week 27: What is the relationship?",
+          "id": "11-w27-q11",
+          "question": "Parabola y² = 4ax passes through point (a, 2a)?",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Yes",
+            "No",
+            "Only if a=1",
+            "Only if a=2"
           ],
-          "answer": "Option A is correct"
+          "answer": "Yes"
         },
         {
-          "question": "Conic question 12 for week 27: What is the relationship?",
+          "id": "11-w27-q12",
+          "question": "Point on y² = 8x closest to focus (2, 0):",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Vertex (0, 0)",
+            "(2, 4)",
+            "(2, -4)",
+            "(8, 8)"
           ],
-          "answer": "Option A is correct"
+          "answer": "Vertex (0, 0)"
         },
         {
-          "question": "Conic question 13 for week 27: What is the relationship?",
+          "id": "11-w27-q13",
+          "question": "Focal distance of point (x₁, y₁) on y² = 4ax:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x₁ + a",
+            "x₁ - a",
+            "y₁ + a",
+            "2a"
           ],
-          "answer": "Option A is correct"
+          "answer": "x₁ + a"
         },
         {
-          "question": "Conic question 14 for week 27: What is the relationship?",
+          "id": "11-w27-q14",
+          "question": "If focus is (0, 3) and directrix y = -3, parabola equation:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x² = 12y",
+            "y² = 12x",
+            "x² = -12y",
+            "x² = 6y"
           ],
-          "answer": "Option A is correct"
+          "answer": "x² = 12y"
         },
         {
-          "question": "Conic question 15 for week 27: What is the relationship?",
+          "id": "11-w27-q15",
+          "question": "Parabola x² = 4ay opens:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Upwards",
+            "Downwards",
+            "Rightwards",
+            "Leftwards"
           ],
-          "answer": "Option A is correct"
+          "answer": "Upwards"
         },
         {
-          "question": "Conic question 16 for week 27: What is the relationship?",
+          "id": "11-w27-q16",
+          "question": "Equation of directrix of x² = -8y:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y = 2",
+            "y = -2",
+            "x = 2",
+            "x = -2"
           ],
-          "answer": "Option A is correct"
+          "answer": "y = 2"
         },
         {
-          "question": "Conic question 17 for week 27: What is the relationship?",
+          "id": "11-w27-q17",
+          "question": "Length of latus rectum of x² = 12y:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "12",
+            "6",
+            "3",
+            "24"
           ],
-          "answer": "Option A is correct"
+          "answer": "12"
         },
         {
-          "question": "Conic question 18 for week 27: What is the relationship?",
+          "id": "11-w27-q18",
+          "question": "Parametric form of y² = 4ax:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(at², 2at)",
+            "(2at, at²)",
+            "(at, 2at²)",
+            "(t, 2at)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(at², 2at)"
         },
         {
-          "question": "Conic question 19 for week 27: What is the relationship?",
+          "id": "11-w27-q19",
+          "question": "A parabola with latus rectum 8 and vertex at origin opening right:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y² = 8x",
+            "y² = 4x",
+            "y² = 16x",
+            "x² = 8y"
           ],
-          "answer": "Option A is correct"
+          "answer": "y² = 8x"
         },
         {
-          "question": "Conic question 20 for week 27: What is the relationship?",
+          "id": "11-w27-q20",
+          "question": "Ends of latus rectum of y² = 4ax:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(a, ±2a)",
+            "(2a, ±a)",
+            "(a, ±a)",
+            "(-a, ±2a)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(a, ±2a)"
         },
         {
-          "question": "Conic question 21 for week 27: What is the relationship?",
+          "id": "11-w27-q21",
+          "question": "If vertex is (0, 0) and axis is y-axis with focus (0, -4):",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x² = -16y",
+            "x² = 16y",
+            "y² = -16x",
+            "y² = 16x"
           ],
-          "answer": "Option A is correct"
+          "answer": "x² = -16y"
         },
         {
-          "question": "Conic question 22 for week 27: What is the relationship?",
+          "id": "11-w27-q22",
+          "question": "Point (3, 6) lies on which parabola?",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y² = 12x",
+            "y² = 6x",
+            "x² = 12y",
+            "y² = 4x"
           ],
-          "answer": "Option A is correct"
+          "answer": "y² = 12x"
         },
         {
-          "question": "Conic question 23 for week 27: What is the relationship?",
+          "id": "11-w27-q23",
+          "question": "Latus rectum of parabola y² = 4ax is perpendicular to:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Axis (x-axis)",
+            "Directrix",
+            "Tangent at vertex",
+            "y-axis always"
           ],
-          "answer": "Option A is correct"
+          "answer": "Axis (x-axis)"
         },
         {
-          "question": "Conic question 24 for week 27: What is the relationship?",
+          "id": "11-w27-q24",
+          "question": "Distance between focus and directrix of y² = 4ax:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2a",
+            "a",
+            "4a",
+            "a/2"
           ],
-          "answer": "Option A is correct"
+          "answer": "2a"
         },
         {
-          "question": "Conic question 25 for week 27: What is the relationship?",
+          "id": "11-w27-q25",
+          "question": "Focal chord passes through:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Focus",
+            "Vertex",
+            "Directrix",
+            "Origin"
           ],
-          "answer": "Option A is correct"
+          "answer": "Focus"
         }
       ]
     },
@@ -6917,254 +6942,279 @@
       "topic": "Conic Sections – Ellipse (Standard Forms, Eccentricity, Properties)",
       "questions": [
         {
-          "question": "Conic question 1 for week 28: What is the relationship?",
+          "id": "11-w28-q1",
+          "question": "Standard form of ellipse with major axis along x-axis:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x²/a² + y²/b² = 1 (a>b)",
+            "x²/a² - y²/b² = 1",
+            "x² + y² = a²",
+            "y²/a² + x²/b² = 1 (a>b)"
           ],
-          "answer": "Option A is correct"
+          "answer": "x²/a² + y²/b² = 1 (a>b)"
         },
         {
-          "question": "Conic question 2 for week 28: What is the relationship?",
+          "id": "11-w28-q2",
+          "question": "For ellipse x²/25 + y²/9 = 1, a and b:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "a=5, b=3",
+            "a=3, b=5",
+            "a=25, b=9",
+            "a=√5, b=√3"
           ],
-          "answer": "Option A is correct"
+          "answer": "a=5, b=3"
         },
         {
-          "question": "Conic question 3 for week 28: What is the relationship?",
+          "id": "11-w28-q3",
+          "question": "Eccentricity of x²/25 + y²/16 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "3/5",
+            "4/5",
+            "1/5",
+            "5/3"
           ],
-          "answer": "Option A is correct"
+          "answer": "3/5"
         },
         {
-          "question": "Conic question 4 for week 28: What is the relationship?",
+          "id": "11-w28-q4",
+          "question": "Relation b² = a²(1-e²) holds for:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Ellipse",
+            "Parabola",
+            "Hyperbola",
+            "Circle only"
           ],
-          "answer": "Option A is correct"
+          "answer": "Ellipse"
         },
         {
-          "question": "Conic question 5 for week 28: What is the relationship?",
+          "id": "11-w28-q5",
+          "question": "Foci of ellipse x²/25 + y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(±4, 0)",
+            "(0, ±4)",
+            "(±3, 0)",
+            "(±5, 0)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(±4, 0)"
         },
         {
-          "question": "Conic question 6 for week 28: What is the relationship?",
+          "id": "11-w28-q6",
+          "question": "Length of major axis of x²/16 + y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "8",
+            "6",
+            "4",
+            "3"
           ],
-          "answer": "Option A is correct"
+          "answer": "8"
         },
         {
-          "question": "Conic question 7 for week 28: What is the relationship?",
+          "id": "11-w28-q7",
+          "question": "Length of minor axis of x²/25 + y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "6",
+            "10",
+            "8",
+            "4"
           ],
-          "answer": "Option A is correct"
+          "answer": "6"
         },
         {
-          "question": "Conic question 8 for week 28: What is the relationship?",
+          "id": "11-w28-q8",
+          "question": "Vertices of x²/25 + y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(±5, 0)",
+            "(±3, 0)",
+            "(0, ±5)",
+            "(0, ±3)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(±5, 0)"
         },
         {
-          "question": "Conic question 9 for week 28: What is the relationship?",
+          "id": "11-w28-q9",
+          "question": "Length of latus rectum of ellipse x²/a² + y²/b² = 1 (a>b):",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2b²/a",
+            "2a²/b",
+            "b²/a",
+            "a²/b"
           ],
-          "answer": "Option A is correct"
+          "answer": "2b²/a"
         },
         {
-          "question": "Conic question 10 for week 28: What is the relationship?",
+          "id": "11-w28-q10",
+          "question": "Latus rectum of x²/25 + y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "18/5",
+            "9/5",
+            "16/5",
+            "6/5"
           ],
-          "answer": "Option A is correct"
+          "answer": "18/5"
         },
         {
-          "question": "Conic question 11 for week 28: What is the relationship?",
+          "id": "11-w28-q11",
+          "question": "Sum of distances from any point on ellipse to two foci:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2a",
+            "2b",
+            "a + b",
+            "a - b"
           ],
-          "answer": "Option A is correct"
+          "answer": "2a"
         },
         {
-          "question": "Conic question 12 for week 28: What is the relationship?",
+          "id": "11-w28-q12",
+          "question": "For x²/9 + y²/25 = 1, major axis lies along:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y-axis",
+            "x-axis",
+            "y = x",
+            "Line through origin"
           ],
-          "answer": "Option A is correct"
+          "answer": "y-axis"
         },
         {
-          "question": "Conic question 13 for week 28: What is the relationship?",
+          "id": "11-w28-q13",
+          "question": "Eccentricity of ellipse is always:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "0 < e < 1",
+            "e > 1",
+            "e = 1",
+            "e = 0"
           ],
-          "answer": "Option A is correct"
+          "answer": "0 < e < 1"
         },
         {
-          "question": "Conic question 14 for week 28: What is the relationship?",
+          "id": "11-w28-q14",
+          "question": "If e = 0, ellipse becomes:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Circle",
+            "Parabola",
+            "Hyperbola",
+            "Line"
           ],
-          "answer": "Option A is correct"
+          "answer": "Circle"
         },
         {
-          "question": "Conic question 15 for week 28: What is the relationship?",
+          "id": "11-w28-q15",
+          "question": "Directrices of x²/a² + y²/b² = 1 (a>b):",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x = ±a/e",
+            "y = ±b/e",
+            "x = ±ae",
+            "x = ±b/e"
           ],
-          "answer": "Option A is correct"
+          "answer": "x = ±a/e"
         },
         {
-          "question": "Conic question 16 for week 28: What is the relationship?",
+          "id": "11-w28-q16",
+          "question": "Distance between foci of ellipse is:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2ae",
+            "2a/e",
+            "a/e",
+            "ae"
           ],
-          "answer": "Option A is correct"
+          "answer": "2ae"
         },
         {
-          "question": "Conic question 17 for week 28: What is the relationship?",
+          "id": "11-w28-q17",
+          "question": "If 2a = 10 and 2b = 8, eccentricity:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "3/5",
+            "4/5",
+            "1/5",
+            "2/5"
           ],
-          "answer": "Option A is correct"
+          "answer": "3/5"
         },
         {
-          "question": "Conic question 18 for week 28: What is the relationship?",
+          "id": "11-w28-q18",
+          "question": "Parametric equations of ellipse x²/a² + y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(a cosθ, b sinθ)",
+            "(a sinθ, b cosθ)",
+            "(a sec θ, b tan θ)",
+            "(at², 2at)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(a cosθ, b sinθ)"
         },
         {
-          "question": "Conic question 19 for week 28: What is the relationship?",
+          "id": "11-w28-q19",
+          "question": "For ellipse, relation between a, b, e and c (c = ae):",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "c² = a² - b²",
+            "c² = a² + b²",
+            "b² = a² + c²",
+            "a² = b² + c²"
           ],
-          "answer": "Option A is correct"
+          "answer": "c² = a² - b²"
         },
         {
-          "question": "Conic question 20 for week 28: What is the relationship?",
+          "id": "11-w28-q20",
+          "question": "An ellipse with foci (±3, 0) and sum of focal distances = 10:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x²/25 + y²/16 = 1",
+            "x²/16 + y²/25 = 1",
+            "x²/25 + y²/9 = 1",
+            "x²/9 + y²/16 = 1"
           ],
-          "answer": "Option A is correct"
+          "answer": "x²/25 + y²/16 = 1"
         },
         {
-          "question": "Conic question 21 for week 28: What is the relationship?",
+          "id": "11-w28-q21",
+          "question": "If e of ellipse → 1, the ellipse:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Becomes very elongated",
+            "Becomes a circle",
+            "Becomes parabola",
+            "No change"
           ],
-          "answer": "Option A is correct"
+          "answer": "Becomes very elongated"
         },
         {
-          "question": "Conic question 22 for week 28: What is the relationship?",
+          "id": "11-w28-q22",
+          "question": "Centre of x²/25 + y²/16 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(0, 0)",
+            "(5, 0)",
+            "(0, 4)",
+            "(5, 4)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(0, 0)"
         },
         {
-          "question": "Conic question 23 for week 28: What is the relationship?",
+          "id": "11-w28-q23",
+          "question": "Ends of minor axis of x²/9 + y²/4 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(0, ±2)",
+            "(±3, 0)",
+            "(±2, 0)",
+            "(0, ±3)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(0, ±2)"
         },
         {
-          "question": "Conic question 24 for week 28: What is the relationship?",
+          "id": "11-w28-q24",
+          "question": "Area enclosed by ellipse x²/a² + y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "πab",
+            "πa²",
+            "πb²",
+            "π(a+b)"
           ],
-          "answer": "Option A is correct"
+          "answer": "πab"
         },
         {
-          "question": "Conic question 25 for week 28: What is the relationship?",
+          "id": "11-w28-q25",
+          "question": "If x²/49 + y²/25 = 1, e equals:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "√24/7",
+            "5/7",
+            "2/7",
+            "√(24/49)"
           ],
-          "answer": "Option A is correct"
+          "answer": "√24/7"
         }
       ]
     },
@@ -7173,254 +7223,279 @@
       "topic": "Conic Sections – Hyperbola (Standard Forms, Asymptotes, Properties)",
       "questions": [
         {
-          "question": "Conic question 1 for week 29: What is the relationship?",
+          "id": "11-w29-q1",
+          "question": "Standard form of hyperbola with transverse axis along x-axis:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x²/a² - y²/b² = 1",
+            "x²/a² + y²/b² = 1",
+            "y²/a² - x²/b² = 1",
+            "x² - y² = a²"
           ],
-          "answer": "Option A is correct"
+          "answer": "x²/a² - y²/b² = 1"
         },
         {
-          "question": "Conic question 2 for week 29: What is the relationship?",
+          "id": "11-w29-q2",
+          "question": "For hyperbola b² = a²(e² - 1), eccentricity:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "e > 1",
+            "0 < e < 1",
+            "e = 1",
+            "e = 0"
           ],
-          "answer": "Option A is correct"
+          "answer": "e > 1"
         },
         {
-          "question": "Conic question 3 for week 29: What is the relationship?",
+          "id": "11-w29-q3",
+          "question": "Foci of x²/9 - y²/16 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(±5, 0)",
+            "(0, ±5)",
+            "(±4, 0)",
+            "(±3, 0)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(±5, 0)"
         },
         {
-          "question": "Conic question 4 for week 29: What is the relationship?",
+          "id": "11-w29-q4",
+          "question": "Eccentricity of x²/16 - y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "5/4",
+            "4/5",
+            "3/4",
+            "3/5"
           ],
-          "answer": "Option A is correct"
+          "answer": "5/4"
         },
         {
-          "question": "Conic question 5 for week 29: What is the relationship?",
+          "id": "11-w29-q5",
+          "question": "Length of transverse axis of x²/9 - y²/16 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "6",
+            "8",
+            "3",
+            "4"
           ],
-          "answer": "Option A is correct"
+          "answer": "6"
         },
         {
-          "question": "Conic question 6 for week 29: What is the relationship?",
+          "id": "11-w29-q6",
+          "question": "Vertices of x²/16 - y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(±4, 0)",
+            "(±3, 0)",
+            "(0, ±4)",
+            "(0, ±3)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(±4, 0)"
         },
         {
-          "question": "Conic question 7 for week 29: What is the relationship?",
+          "id": "11-w29-q7",
+          "question": "Length of conjugate axis of x²/16 - y²/9 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "6",
+            "8",
+            "3",
+            "4"
           ],
-          "answer": "Option A is correct"
+          "answer": "6"
         },
         {
-          "question": "Conic question 8 for week 29: What is the relationship?",
+          "id": "11-w29-q8",
+          "question": "Length of latus rectum of hyperbola x²/a² - y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2b²/a",
+            "2a²/b",
+            "a²/b",
+            "b²/a"
           ],
-          "answer": "Option A is correct"
+          "answer": "2b²/a"
         },
         {
-          "question": "Conic question 9 for week 29: What is the relationship?",
+          "id": "11-w29-q9",
+          "question": "Latus rectum of x²/9 - y²/16 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "32/3",
+            "16/3",
+            "8/3",
+            "9/16"
           ],
-          "answer": "Option A is correct"
+          "answer": "32/3"
         },
         {
-          "question": "Conic question 10 for week 29: What is the relationship?",
+          "id": "11-w29-q10",
+          "question": "Difference of distances from any point on hyperbola to two foci:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2a",
+            "2b",
+            "a + b",
+            "|a - b|"
           ],
-          "answer": "Option A is correct"
+          "answer": "2a"
         },
         {
-          "question": "Conic question 11 for week 29: What is the relationship?",
+          "id": "11-w29-q11",
+          "question": "Asymptotes of x²/a² - y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y = ±(b/a)x",
+            "y = ±(a/b)x",
+            "y = ±x",
+            "x² + y² = a²"
           ],
-          "answer": "Option A is correct"
+          "answer": "y = ±(b/a)x"
         },
         {
-          "question": "Conic question 12 for week 29: What is the relationship?",
+          "id": "11-w29-q12",
+          "question": "A rectangular hyperbola has eccentricity:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "√2",
+            "1",
+            "√3",
+            "2"
           ],
-          "answer": "Option A is correct"
+          "answer": "√2"
         },
         {
-          "question": "Conic question 13 for week 29: What is the relationship?",
+          "id": "11-w29-q13",
+          "question": "Rectangular hyperbola: a = b, equation xy = c² has asymptotes:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x-axis and y-axis",
+            "y = x and y = -x",
+            "y = x only",
+            "y = -x only"
           ],
-          "answer": "Option A is correct"
+          "answer": "x-axis and y-axis"
         },
         {
-          "question": "Conic question 14 for week 29: What is the relationship?",
+          "id": "11-w29-q14",
+          "question": "For y²/a² - x²/b² = 1, transverse axis lies along:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y-axis",
+            "x-axis",
+            "y = x",
+            "origin"
           ],
-          "answer": "Option A is correct"
+          "answer": "y-axis"
         },
         {
-          "question": "Conic question 15 for week 29: What is the relationship?",
+          "id": "11-w29-q15",
+          "question": "Directrices of x²/a² - y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "x = ±a/e",
+            "y = ±b/e",
+            "x = ±ae",
+            "y = ±ae"
           ],
-          "answer": "Option A is correct"
+          "answer": "x = ±a/e"
         },
         {
-          "question": "Conic question 16 for week 29: What is the relationship?",
+          "id": "11-w29-q16",
+          "question": "For x²/9 - y²/16 = 1, a² + b² equals:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "25 (= c²)",
+            "7",
+            "144",
+            "12"
           ],
-          "answer": "Option A is correct"
+          "answer": "25 (= c²)"
         },
         {
-          "question": "Conic question 17 for week 29: What is the relationship?",
+          "id": "11-w29-q17",
+          "question": "Relation between a, b, c for hyperbola (c = ae):",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "c² = a² + b²",
+            "c² = a² - b²",
+            "b² = a² + c²",
+            "a² = b² + c²"
           ],
-          "answer": "Option A is correct"
+          "answer": "c² = a² + b²"
         },
         {
-          "question": "Conic question 18 for week 29: What is the relationship?",
+          "id": "11-w29-q18",
+          "question": "If e = 2 and a = 3, then b equals:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "3√3",
+            "3",
+            "√3",
+            "6"
           ],
-          "answer": "Option A is correct"
+          "answer": "3√3"
         },
         {
-          "question": "Conic question 19 for week 29: What is the relationship?",
+          "id": "11-w29-q19",
+          "question": "Conjugate hyperbola of x²/a² - y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "y²/b² - x²/a² = 1",
+            "x²/a² + y²/b² = 1",
+            "x²/b² - y²/a² = 1",
+            "Same equation"
           ],
-          "answer": "Option A is correct"
+          "answer": "y²/b² - x²/a² = 1"
         },
         {
-          "question": "Conic question 20 for week 29: What is the relationship?",
+          "id": "11-w29-q20",
+          "question": "If 2a = 8 and 2b = 6, eccentricity of x²/16 - y²/9 = 1 is:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "5/4",
+            "4/5",
+            "3/5",
+            "5/3"
           ],
-          "answer": "Option A is correct"
+          "answer": "5/4"
         },
         {
-          "question": "Conic question 21 for week 29: What is the relationship?",
+          "id": "11-w29-q21",
+          "question": "Parametric equations of x²/a² - y²/b² = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(a secθ, b tanθ)",
+            "(a cosθ, b sinθ)",
+            "(at², 2at)",
+            "(a tanθ, b secθ)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(a secθ, b tanθ)"
         },
         {
-          "question": "Conic question 22 for week 29: What is the relationship?",
+          "id": "11-w29-q22",
+          "question": "Distance between foci of hyperbola:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "2ae",
+            "2a",
+            "2b",
+            "2a/e"
           ],
-          "answer": "Option A is correct"
+          "answer": "2ae"
         },
         {
-          "question": "Conic question 23 for week 29: What is the relationship?",
+          "id": "11-w29-q23",
+          "question": "Hyperbola x²/25 - y²/144 = 1 has foci:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(±13, 0)",
+            "(±5, 0)",
+            "(±12, 0)",
+            "(0, ±13)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(±13, 0)"
         },
         {
-          "question": "Conic question 24 for week 29: What is the relationship?",
+          "id": "11-w29-q24",
+          "question": "Centre of x²/16 - y²/25 = 1:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "(0, 0)",
+            "(4, 0)",
+            "(0, 5)",
+            "(4, 5)"
           ],
-          "answer": "Option A is correct"
+          "answer": "(0, 0)"
         },
         {
-          "question": "Conic question 25 for week 29: What is the relationship?",
+          "id": "11-w29-q25",
+          "question": "The conic xy = c² (c ≠ 0) is:",
           "options": [
-            "Option A is correct",
-            "Option B applies here",
-            "Option C is the answer",
-            "Option D fits"
+            "Rectangular hyperbola",
+            "Parabola",
+            "Ellipse",
+            "Circle"
           ],
-          "answer": "Option A is correct"
+          "answer": "Rectangular hyperbola"
         }
       ]
     },
