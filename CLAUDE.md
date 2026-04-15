@@ -5,12 +5,13 @@
 
 This is the non-negotiable quality bar for every TPG task. It applies to:
 - **Quizzes** — every question must have a correct answer that is actually present in the options, exactly 4 unique options, real NCERT/CEFR-aligned content, zero placeholders (no "Option A/B/C/D" strings, no dummy text).
+  - **Answer format rule (non-negotiable):** Every `answer` field MUST be a single capital letter `"A"`, `"B"`, `"C"`, or `"D"` — pointing at the zero-indexed position in the `options` array (A=index 0, B=1, C=2, D=3). Never store the answer text itself, never store `"a"`/`" A "`/`"1"`/`"option A"` — the `QuizEngine.tsx` component only accepts the single-letter form. CI enforces this via `scripts/qa-structural-all-files.py` on every PR.
 - **Blog posts** — facts must be accurate, citations trustworthy, FAQs answerable, grammar clean.
 - **Images & assets** — no broken links, correct alt text, no misleading visuals.
 - **Data files** — schema valid, structurally consistent (e.g., 25 Qs/week), enrichment complete (intro, objectives, study tips).
 
 **Action rules:**
-1. Before shipping ANY content change, run structural + content validation (see `scripts/qa-verify-all.py`).
+1. Before shipping ANY content change, run structural + content validation (see `scripts/qa-structural-all-files.py` — CI enforces this on every PR touching `src/data/*.json`).
 2. If a placeholder, broken option, or fabricated fact is detected, fix it in the same session — do not defer.
 3. Prefer NCERT / CBSE / CEFR-aligned sources. When uncertain, verify or flag rather than guess.
 4. Commit with a descriptive message and push so the fix reaches students immediately.

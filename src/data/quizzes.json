@@ -13269,6 +13269,46 @@
             "What a surprise!"
           ],
           "answer": "A"
+        },
+        {
+          "question": "Which is an imperative sentence?",
+          "options": [
+            "Please pass the salt.",
+            "The dog is barking.",
+            "Where are you going?",
+            "What a lovely day!"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which is an exclamatory sentence?",
+          "options": [
+            "What a beautiful garden!",
+            "She reads a book.",
+            "Close the window.",
+            "Is he coming today?"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In \"The children are playing in the park.\" What is the verb?",
+          "options": [
+            "are playing",
+            "children",
+            "park",
+            "in"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In \"My brother plays football every evening.\" Who is the subject?",
+          "options": [
+            "My brother",
+            "football",
+            "evening",
+            "plays"
+          ],
+          "answer": "A"
         }
       ]
     }

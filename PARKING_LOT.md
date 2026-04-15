@@ -369,3 +369,47 @@ GSC data shows most users are on mobile. Need a thorough audit of tap targets, f
 8. **Share/download buttons** — New ImageActions component mobile testing
 
 ---
+
+## Phase D — Exhaustive Factual Audit of Untouched Content
+
+**Added:** 15 Apr 2026
+
+### Context
+Phase C (quiz correctness audit) patched 129 items across CEFR French/Spanish/German/Italian buckets, but the sampling approach assumed that buckets which *looked* clean actually were clean. Spot-checks during Phase C revealed 93 systemic regressions in French A1 (previously assumed clean) — duplicate questions, wrong answers, bilingual dictionary mismatches. This strongly implies similar hidden defects exist across the much larger English/Maths/Science footprint that was never audited.
+
+The standing directive from `CLAUDE.md` — *"We cannot have bad quality issues — it's about the students getting accurate information"* — means we cannot ship these untouched buckets with an assumption of correctness.
+
+### Scope (approx. question counts)
+| Bucket | Weeks | Questions | Audit status |
+|---|---|---|---|
+| English g5–g10 | 6 grades × 52 wks × 25 q | ~7,800 | Untouched |
+| Maths g5–g10 | 6 grades × 52 wks × 25 q | ~7,800 | Untouched |
+| Science g5–g10 | 6 grades × 52 wks × 25 q | ~7,800 | Untouched |
+| g11–g12 (all subjects) | beyond format fixes | ~? | Partial (format only) |
+| **Total** | | **~23,400+** | |
+
+(Note: g5 week 52 short-count fill — 21→25 questions — is being handled in the Phase E commit, not parked.)
+
+### Proposed Approach (cheapest → most expensive)
+1. **Build deterministic detectors first** — following the successful bilingual-dictionary auto-fixer pattern from Phase C. Candidates:
+   - NCERT-aligned fact dictionary for Science (states of matter, cell organelles, solar system, periodic table basics)
+   - Arithmetic/identity verifier for Maths (LCM/HCF, times tables, simple algebra)
+   - Grammar-rule detector for English (subject-verb agreement, tense, article use)
+2. **Traffic-prioritised deep audits** — GA/sitemap rank → audit top 20 % of URLs that drive 80 % of sessions first
+3. **Agent-driven semantic review** — only for residual items detectors can't catch
+4. **Sample-verify after each pass** — mandatory, per Phase C lessons
+
+### Rough Effort
+- Brute-force agent audit of all 23,400 questions: 2–4 weeks
+- Detector-led + traffic-prioritised: 3–5 days for 80 % coverage
+
+### Trigger to Pick This Up
+- After a regression is reported from production
+- After GSC shows a sustained quality signal drop
+- Or when there is dedicated audit bandwidth (≥ 1 week uninterrupted)
+
+### Pre-requisite (done in Phase E)
+- Structural CI (`qa-structural-all-files.py` on every PR) — prevents new regressions while deep audit is deferred
+- Explicit answer-format rule in `CLAUDE.md` — stops single-letter drift
+
+---
