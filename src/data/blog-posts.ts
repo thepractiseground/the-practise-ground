@@ -3596,8 +3596,8 @@ A: It's helpful for calculations, but geometry is about understanding relationsh
   },
   {
     slug: "letter-writing-format-guide",
-    title: "Letter Writing Format: Formal & Informal With Solved Examples",
-    metaDescription: "Master the exact letter writing format for formal and informal letters. Solved examples, common mistakes to avoid, and a quick-revision checklist. CBSE, ICSE & Cambridge.",
+    title: "Letter Writing Format (2026): Formal & Informal Letters With Examples",
+    metaDescription: "The exact formal and informal letter writing format — with sample letters, common mistakes to avoid, and a quick-revision checklist for Class 8, 9 & 10 (CBSE, ICSE & Cambridge).",
     keywords: ["formal letter format", "informal letter format", "letter writing english exam", "how to write a letter", "letter writing for students", "format of formal letter", "formal and informal letter format"],
     excerpt: "Letter writing is a regular question in English exams worldwide. This guide teaches you the exact format for formal and informal letters with real examples.",
     author: "The Practise Ground Team",
@@ -10862,8 +10862,8 @@ Your next step? Grab a previous year CBSE paper and solve 5-10 numericals using 
 },
 {
   slug: "chemistry-remember-reactions-formulas",
-  title: "How to Remember Chemical Reactions and Formulas (Memory Tricks)",
-  metaDescription: "Struggling to memorise chemical equations? Learn pattern-based shortcuts, reactivity series mnemonics, and visual strategies that make chemistry formulas stick.",
+  title: "How to Remember Chemical Reactions & Formulas: Memory Tricks (Class 9-10)",
+  metaDescription: "Struggling to memorise chemical equations? Learn pattern-based shortcuts, reactivity-series mnemonics, and visual strategies that make Class 9 & 10 chemistry formulas stick for board exams.",
   keywords: ["how to remember chemical reactions", "chemistry formula tips", "chemistry mnemonics", "balancing equations tricks", "reactivity series", "CBSE chemistry"],
   excerpt: "Chemistry isn't about rote memorization. Learn pattern recognition, visual strategies, and clever mnemonics that make reactions and formulas stick permanently.",
   author: "The Practise Ground Team",
