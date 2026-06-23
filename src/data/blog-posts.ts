@@ -3611,6 +3611,30 @@ A: It's helpful for calculations, but geometry is about understanding relationsh
 
 Letter writing appears regularly in English exams worldwide—from CBSE and ICSE in India to Cambridge internationally. Whether you're writing a formal letter to the Principal or an informal letter to a friend, knowing the correct format is essential to score full marks. Let's learn both formats with examples!
 
+## Letter Writing Format at a Glance
+
+Short on time? Use this quick-reference template, then read on for full worked examples.
+
+**Formal letter format** (top to bottom):
+
+1. Sender's address
+2. Date
+3. Receiver's address (designation + institution)
+4. Subject line
+5. Salutation — *Dear Sir/Madam,*
+6. Body — purpose, details, closing request (3-4 short paragraphs)
+7. Complimentary close — *Yours faithfully,*
+8. Signature — your name and class/designation
+
+**Informal letter format** (top to bottom):
+
+1. Sender's address (optional)
+2. Date
+3. Salutation — *Dear [Name],*
+4. Body — friendly, flowing paragraphs
+5. Complimentary close — *With love,* or *Your friend,*
+6. Signature — your first name
+
 ## Two Types of Letters
 
 1. **Formal Letters** - Professional or official letters
@@ -3815,6 +3839,8 @@ Sign your name (first name is fine).
 - Avoid repetition
 - Use varied sentence structures
 
+Brush up the grammar examiners reward: [subject–verb agreement](/blog/subject-verb-agreement-rules), [English tenses](/blog/english-tenses-explained-simply), and the [common mistakes students make](/blog/common-english-mistakes-students). A stronger [vocabulary](/blog/improve-english-vocabulary) lifts your Language score too.
+
 ### Format (1-2 marks)
 - Follow the correct format for formal or informal letters
 - Use proper salutation and closing
@@ -3851,11 +3877,27 @@ Write a formal letter to the Principal requesting permission to organize a chari
 ### Informal Letter Prompt
 Write an informal letter to your cousin congratulating them on their success in entrance exams and asking them to visit during summer holidays.
 
-## Master Letter Writing with Our Quiz
+## Practise Letter Writing and Grammar
 
-Letter writing is a guaranteed question in your exam. Practice regularly to perfect your skills!
+Letter writing is a guaranteed question in your exam, and clean grammar is what turns a good letter into a full-marks one. Practise free, with no sign-up:
+
+- **English by grade:** [Class 8](/quiz/8), [Class 9](/quiz/9), [Class 10](/quiz/10)
+- **Grammar drills:** [English grammar practice quizzes](/blog/english-grammar-practice-quizzes)
+- **Exam technique:** [How to score high in English board exams](/blog/score-high-english-board-exams)
 
 ## FAQ: Letter Writing Questions
+
+**Q: What is the format of a formal letter?**
+A: A formal letter has seven parts in order: sender's address, date, receiver's address, a subject line, the salutation (Dear Sir/Madam,), the body in 3-4 short paragraphs, and a complimentary close (Yours faithfully,) followed by your name and class.
+
+**Q: What is the difference between a formal and an informal letter?**
+A: A formal letter is for official or professional matters — it needs a subject line, formal language, and "Yours faithfully/sincerely." An informal letter is personal, skips the subject line, uses friendly language, and closes with "Your friend," or "With love,".
+
+**Q: How do you start and end a formal letter?**
+A: Start with "Dear Sir/Madam," (or "Dear Mr./Ms. [Name]," if you know them) and end with "Yours faithfully," when you opened with Sir/Madam, or "Yours sincerely," when you used the person's name.
+
+**Q: What is the letter writing format for Class 10?**
+A: Class 10 (CBSE/ICSE) uses the standard formal format above. Keep the body to three focused paragraphs — purpose, details, and a closing request — because marks are split across format, content, and language.
 
 **Q: Do I need to include my address if writing informally?**
 A: It's optional. If your address helps in context (like writing from a holiday), include it. Otherwise, skip it.
@@ -3869,11 +3911,19 @@ A: Formal: 3-4 paragraphs. Informal: Can vary, usually 3-5 paragraphs based on c
 **Q: Should I write a draft first?**
 A: Yes! Write a draft, check for mistakes, and then write the final version neatly.
 
+## Related English Guides
+
+- [How to Score High in English Board Exams](/blog/score-high-english-board-exams)
+- [Subject–Verb Agreement Rules](/blog/subject-verb-agreement-rules)
+- [English Tenses Explained Simply](/blog/english-tenses-explained-simply)
+- [Common English Mistakes Students Make](/blog/common-english-mistakes-students)
+- [Improve Your English Vocabulary](/blog/improve-english-vocabulary)
+
 ## Conclusion
 
 Mastering letter writing format ensures you don't lose easy marks in your exam. Remember the key difference: formal letters for official matters and informal letters for personal communication. Use the formats and examples above as your guide, and practice regularly. Soon, writing perfect letters will become automatic!
 
-Ready to practice? Take our English quizzes and master this important skill!`,
+Ready to practise? Take our [English quizzes](/quiz/10) and master this important skill!`,
   },
   {
     slug: "algebra-made-simple-basics-to-confidence",
