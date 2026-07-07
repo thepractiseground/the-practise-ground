@@ -31,6 +31,12 @@ const GUIDES: Record<string, GuideLink[]> = {
     { slug: "electricity-circuits-guide", title: "Electricity and Circuits Guide" },
     { slug: "science-experiments-home-grade-5-8", title: "Science Experiments to Try at Home" },
   ],
+  french: [
+    { slug: "learn-french-online-free-quizzes-a1-b1-c1", title: "Learn French Online with Free Quizzes (A1–C1)" },
+    { slug: "why-learn-a-second-language-benefits-students", title: "Why Learn a Second Language?" },
+    { slug: "learn-spanish-online-free-quizzes-a1-b1-c1", title: "Learn Spanish Online with Free Quizzes" },
+    { slug: "learn-german-online-free-quizzes-beginners-advanced", title: "Learn German Online with Free Quizzes" },
+  ],
 };
 
 // Deterministic, SSG-friendly rotation so different weeks surface different guides.

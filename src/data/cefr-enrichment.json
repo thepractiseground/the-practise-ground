@@ -1,0 +1,123 @@
+{
+  "french": {
+    "a1": {
+      "1": {
+        "introduction": "Greetings and introductions are the first things you learn in French — how to say hello, goodbye, and introduce yourself politely. From the very first conversation French separates formal address (vous) from informal (tu), so getting these phrases right sets the tone for everything that follows.",
+        "learningObjectives": [
+          "Use bonjour, bonsoir, salut and au revoir correctly",
+          "Introduce yourself with je m'appelle and ask someone's name",
+          "Choose between formal (vous) and informal (tu) greetings",
+          "Respond to comment ça va? and everyday courtesies"
+        ]
+      },
+      "2": {
+        "introduction": "French numbers from 1 to 100 follow clear patterns until the seventies, where counting switches to a base-of-twenty style — soixante-dix is literally 'sixty-ten' and quatre-vingts is 'four-twenties'. Numbers are essential for prices, ages, dates and telling the time.",
+        "learningObjectives": [
+          "Count and spell the numbers 1 to 100",
+          "Handle the tricky 70s, 80s and 90s (soixante-dix, quatre-vingts, quatre-vingt-dix)",
+          "Use numbers for prices, ages and quantities",
+          "Recognise numbers in both spoken and written French"
+        ]
+      },
+      "3": {
+        "introduction": "Days, months and seasons let you talk about your schedule, birthdays and the weather. In French these words are not capitalised, and you pair seasons with specific prepositions such as en été (in summer) and au printemps (in spring).",
+        "learningObjectives": [
+          "Name the seven days and twelve months in French",
+          "Talk about the four seasons with the correct prepositions",
+          "Give dates in the French order (day before month)",
+          "Distinguish lundi ('on Monday') from le lundi ('on Mondays')"
+        ]
+      },
+      "4": {
+        "introduction": "The definite articles le, la, l' and les all mean 'the', but the form you choose depends on the noun's gender and number. French uses definite articles far more than English, including with general ideas and things you like or dislike.",
+        "learningObjectives": [
+          "Match le, la, l' and les to a noun's gender and number",
+          "Use l' before nouns beginning with a vowel or silent h",
+          "Apply definite articles with general and abstract nouns",
+          "Tell singular and plural article forms apart"
+        ]
+      },
+      "5": {
+        "introduction": "Indefinite articles (un, une, des) mean 'a', 'an' or 'some', while partitive articles (du, de la, de l') express an unspecified quantity — some bread, some water. Choosing correctly is one of the trickiest early skills, because English often uses no article at all.",
+        "learningObjectives": [
+          "Use un, une and des for countable nouns",
+          "Use du, de la and de l' for uncountable quantities",
+          "Change the article to de in negative sentences",
+          "Tell indefinite and partitive articles apart in context"
+        ]
+      },
+      "6": {
+        "introduction": "Every French noun is either masculine or feminine, and that gender shapes the articles, adjectives and pronouns around it. Some endings hint at gender (-tion is usually feminine, -age often masculine), but the safest habit is to learn each noun together with its article.",
+        "learningObjectives": [
+          "Identify common masculine and feminine noun endings",
+          "Learn new nouns together with le or la",
+          "Predict gender from typical suffixes",
+          "Spot frequent exceptions to the usual patterns"
+        ]
+      },
+      "7": {
+        "introduction": "Most French nouns form their plural by adding -s, but this -s is silent, so plurals are heard through the article (les, des) rather than the noun itself. A few endings follow special rules, such as bateau to bateaux and animal to animaux.",
+        "learningObjectives": [
+          "Form regular plurals by adding a silent -s",
+          "Apply -x plurals for nouns ending in -eau and -eu",
+          "Change -al endings to -aux",
+          "Rely on plural articles to signal number in speech"
+        ]
+      },
+      "8": {
+        "introduction": "Subject pronouns (je, tu, il, elle, on, nous, vous, ils, elles) replace the person or thing doing the action and determine the verb ending. French has two words for 'you' — informal tu and formal or plural vous — and uses on constantly to mean 'we' in everyday speech.",
+        "learningObjectives": [
+          "Match each subject pronoun to its verb form",
+          "Choose between tu and vous appropriately",
+          "Use on as an informal 'we'",
+          "Distinguish ils and elles for mixed and single-gender groups"
+        ]
+      },
+      "9": {
+        "introduction": "Regular -ER verbs are the largest and most predictable verb group in French, covering roughly 90% of all verbs. Once you know the endings -e, -es, -e, -ons, -ez, -ent on the stem of a verb like parler, you can conjugate thousands of others.",
+        "learningObjectives": [
+          "Conjugate regular -ER verbs in the present tense",
+          "Apply the endings -e, -es, -e, -ons, -ez, -ent",
+          "Form the stem by dropping the -er ending",
+          "Use common -ER verbs such as parler, aimer and habiter"
+        ]
+      },
+      "10": {
+        "introduction": "Regular -IR verbs such as finir add -iss- in the plural forms, giving the endings -is, -is, -it, -issons, -issez, -issent. This group includes many useful verbs about change and choice, like choisir and grandir.",
+        "learningObjectives": [
+          "Conjugate regular -IR verbs in the present tense",
+          "Add the -iss- infix in the nous, vous and ils/elles forms",
+          "Use verbs such as finir, choisir and réfléchir",
+          "Contrast the -IR endings with the -ER group"
+        ]
+      },
+      "11": {
+        "introduction": "Regular -RE verbs like vendre and attendre drop the -re and add -s, -s, nothing, -ons, -ez, -ent. The third-person singular takes no ending at all (il vend), which often surprises new learners.",
+        "learningObjectives": [
+          "Conjugate regular -RE verbs in the present tense",
+          "Note the empty ending in the il/elle form",
+          "Use verbs such as vendre, attendre and répondre",
+          "Compare -RE endings with the -ER and -IR groups"
+        ]
+      },
+      "12": {
+        "introduction": "Être (to be) and avoir (to have) are the two most important verbs in French: they are irregular, extremely common, and later build the perfect tense. Learning their present-tense forms by heart is one of the best early investments a learner can make.",
+        "learningObjectives": [
+          "Conjugate être: suis, es, est, sommes, êtes, sont",
+          "Conjugate avoir: ai, as, a, avons, avez, ont",
+          "Use avoir for age (j'ai 12 ans) and possession",
+          "Use être for identity, nationality and description"
+        ]
+      },
+      "13": {
+        "introduction": "Alongside être and avoir, a small set of irregular verbs — aller, faire, venir and prendre — appears constantly in everyday French. They don't follow the regular patterns, so they are worth memorising as high-frequency building blocks.",
+        "learningObjectives": [
+          "Conjugate aller, faire, venir and prendre in the present",
+          "Use aller for movement and near-future plans",
+          "Use faire for activities, weather and sports",
+          "Recognise these verbs in common fixed expressions"
+        ]
+      }
+    }
+  }
+}
