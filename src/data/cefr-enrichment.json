@@ -117,6 +117,359 @@
           "Use faire for activities, weather and sports",
           "Recognise these verbs in common fixed expressions"
         ]
+      },
+      "14": {
+        "introduction": "French negation wraps around the verb: ne goes before it and a second word (pas, jamais, rien, plus) after it. Learning these pairs lets you say what you don't do, no longer do, or never do.",
+        "learningObjectives": [
+          "Place ne...pas correctly around the verb",
+          "Use ne...jamais, ne...rien and ne...plus",
+          "Change the article to de after a negative",
+          "Answer questions in the negative"
+        ]
+      },
+      "15": {
+        "introduction": "French adjectives agree with the noun they describe in gender and number, usually adding -e for feminine and -s for plural. Getting this agreement right is essential for natural-sounding French.",
+        "learningObjectives": [
+          "Make adjectives agree in gender and number",
+          "Add -e for feminine and -s for plural",
+          "Handle adjectives already ending in -e",
+          "Recognise common irregular feminine forms"
+        ]
+      },
+      "16": {
+        "introduction": "Most French adjectives come after the noun, but a small group of common ones (grand, petit, beau, bon) go before it. Knowing which is which keeps your descriptions correct.",
+        "learningObjectives": [
+          "Place most adjectives after the noun",
+          "Put short common adjectives (beauty, age, goodness, size) before it",
+          "Use beau, nouveau and vieux before nouns",
+          "Spot adjectives that change meaning by position"
+        ]
+      },
+      "17": {
+        "introduction": "This topic covers vocabulary for family members plus the possessive adjectives (mon, ma, mes) needed to talk about relatives. Possessives agree with the thing owned, not the owner.",
+        "learningObjectives": [
+          "Name family members in French",
+          "Use possessives mon, ma, mes, ton, ta, tes",
+          "Match possessives to the gender of the noun owned",
+          "Describe relationships and marital status"
+        ]
+      },
+      "18": {
+        "introduction": "Talking about food brings together vocabulary and the partitive articles (du, de la, des) for 'some'. You'll order, express preferences and describe meals.",
+        "learningObjectives": [
+          "Name common foods, drinks and meals",
+          "Use partitive articles du, de la, de l', des",
+          "Express likes and dislikes with the definite article",
+          "Order food and drink politely"
+        ]
+      },
+      "19": {
+        "introduction": "French tells time with il est + the hour, using et quart, et demie and moins le quart for the fractions. Both the 12-hour and 24-hour clocks are common.",
+        "learningObjectives": [
+          "Ask and answer Quelle heure est-il?",
+          "Use et quart, et demie and moins le quart",
+          "Read the 24-hour clock used for schedules",
+          "Say at what time with à"
+        ]
+      },
+      "20": {
+        "introduction": "Prepositions like à, de, en, dans, sur, sous and avec show location, direction and relationships. Some contract with articles (à + le = au, de + les = des).",
+        "learningObjectives": [
+          "Use à, de, en, dans, sur, sous and avec",
+          "Form contractions au, aux, du, des",
+          "Show location and direction",
+          "Choose the right preposition with places"
+        ]
+      },
+      "21": {
+        "introduction": "French offers three ways to ask a question: rising intonation, est-ce que, and inversion. They range from casual speech to more formal writing.",
+        "learningObjectives": [
+          "Ask yes/no questions with intonation",
+          "Form questions with est-ce que",
+          "Use subject-verb inversion",
+          "Choose the right style for the situation"
+        ]
+      },
+      "22": {
+        "introduction": "Weather expressions mostly use the verb faire (il fait beau, il fait froid), with a few using il y a and il pleut. This lets you describe conditions and seasons.",
+        "learningObjectives": [
+          "Answer Quel temps fait-il?",
+          "Use faire for most weather expressions",
+          "Use il pleut, il neige and il y a du vent",
+          "Link weather to the seasons"
+        ]
+      },
+      "23": {
+        "introduction": "This topic combines clothing vocabulary with colour adjectives, which agree with the noun. A few colours are invariable, a common exception.",
+        "learningObjectives": [
+          "Name common items of clothing",
+          "Make colour adjectives agree in gender and number",
+          "Use the verb porter (to wear)",
+          "Note invariable colours like orange and marron"
+        ]
+      },
+      "24": {
+        "introduction": "Body vocabulary is often used with the definite article rather than a possessive (j'ai mal à la tête). This topic also supports describing aches and pains.",
+        "learningObjectives": [
+          "Name the main parts of the body",
+          "Use the definite article with body parts",
+          "Say avoir mal à to describe pain",
+          "Form contractions au and aux with à"
+        ]
+      },
+      "25": {
+        "introduction": "Daily routines use reflexive verbs (se lever, se laver) where the action reflects back on the subject. The reflexive pronoun changes with each person.",
+        "learningObjectives": [
+          "Conjugate reflexive verbs like se lever and se laver",
+          "Match reflexive pronouns me, te, se, nous, vous to the subject",
+          "Describe a daily routine in order",
+          "Place the reflexive pronoun before the verb"
+        ]
+      },
+      "26": {
+        "introduction": "This review week pulls together the whole A1 syllabus — articles, genders, present-tense verbs, negation, adjectives and everyday vocabulary — a check of your beginner foundations before B1.",
+        "learningObjectives": [
+          "Revise articles, noun gender and plurals",
+          "Consolidate present-tense verb conjugations",
+          "Apply negation and adjective agreement",
+          "Test your A1 vocabulary across topics"
+        ]
+      }
+    },
+    "b1": {
+      "1": {
+        "introduction": "The passé composé is the main past tense for completed actions, formed with avoir plus a past participle. Most verbs use avoir, so this is the starting point.",
+        "learningObjectives": [
+          "Form the passé composé with avoir + past participle",
+          "Build regular participles (-é, -i, -u)",
+          "Learn irregular participles (eu, fait, pris)",
+          "Use it for completed past actions"
+        ]
+      },
+      "2": {
+        "introduction": "A specific set of verbs — mostly movement and change of state — form the passé composé with être rather than avoir. The mnemonic DR MRS VANDERTRAMP helps you remember them.",
+        "learningObjectives": [
+          "Identify the être verbs (DR MRS VANDERTRAMP)",
+          "Form the passé composé with être + participle",
+          "Make the participle agree with the subject",
+          "Distinguish être and avoir verbs"
+        ]
+      },
+      "3": {
+        "introduction": "With être the past participle agrees with the subject; with avoir it agrees with a preceding direct object. These agreement rules are a key B1 skill.",
+        "learningObjectives": [
+          "Agree the participle with the subject for être verbs",
+          "Agree with a preceding direct object for avoir verbs",
+          "Add -e and -s endings correctly",
+          "Spot when no agreement is needed"
+        ]
+      },
+      "4": {
+        "introduction": "The imparfait describes ongoing, habitual or background past actions. It is built from the nous present stem plus -ais, -ais, -ait, -ions, -iez, -aient.",
+        "learningObjectives": [
+          "Form the imparfait from the nous present stem",
+          "Apply the endings -ais, -ait, -ions, -aient",
+          "Use it for habits, descriptions and background",
+          "Conjugate the irregular stem of être (ét-)"
+        ]
+      },
+      "5": {
+        "introduction": "Choosing between the two past tenses is one of the biggest B1 challenges: passé composé for completed events, imparfait for ongoing or background. They often appear together in a story.",
+        "learningObjectives": [
+          "Use passé composé for finished, specific actions",
+          "Use imparfait for descriptions and habits",
+          "Combine both tenses in a narrative",
+          "Interpret how the choice changes meaning"
+        ]
+      },
+      "6": {
+        "introduction": "The plus-que-parfait ('had done') describes an action that happened before another past action. It uses the imparfait of avoir or être plus a past participle.",
+        "learningObjectives": [
+          "Form the plus-que-parfait with imparfait of avoir/être",
+          "Express an action prior to another past action",
+          "Apply participle agreement rules",
+          "Use it in reported speech and si clauses"
+        ]
+      },
+      "7": {
+        "introduction": "The future simple ('will do') adds endings to the infinitive: -ai, -as, -a, -ons, -ez, -ont. Many common verbs have irregular future stems (serai, aurai, irai).",
+        "learningObjectives": [
+          "Form the future simple on the infinitive stem",
+          "Apply the endings -ai, -as, -a, -ons, -ez, -ont",
+          "Learn irregular stems (être, avoir, aller, faire)",
+          "Talk about future plans and predictions"
+        ]
+      },
+      "8": {
+        "introduction": "The conditional ('would do') uses the future stem plus imparfait endings. It expresses politeness, hypotheticals and wishes (je voudrais).",
+        "learningObjectives": [
+          "Form the conditional from the future stem + imparfait endings",
+          "Use it for polite requests (je voudrais, pourriez-vous)",
+          "Express hypothetical situations",
+          "Recognise irregular conditional stems"
+        ]
+      },
+      "9": {
+        "introduction": "Direct object pronouns (me, te, le, la, nous, vous, les) replace the noun receiving the action and go before the verb, avoiding repetition of the object.",
+        "learningObjectives": [
+          "Replace direct objects with le, la, les, etc.",
+          "Place the pronoun before the conjugated verb",
+          "Elide le/la to l' before a vowel",
+          "Agree the participle when the pronoun precedes"
+        ]
+      },
+      "10": {
+        "introduction": "Indirect object pronouns (me, te, lui, nous, vous, leur) replace à + a person. Lui and leur are the third-person forms for both genders.",
+        "learningObjectives": [
+          "Replace à + person with lui and leur",
+          "Distinguish indirect from direct object pronouns",
+          "Place the pronoun before the verb",
+          "Use with verbs like parler à and donner à"
+        ]
+      },
+      "11": {
+        "introduction": "The pronoun y replaces à + place or thing, and en replaces de + noun or a quantity. Both go before the verb and are extremely common.",
+        "learningObjectives": [
+          "Use y for à + place or thing",
+          "Use en for de + noun and quantities",
+          "Place y and en before the verb",
+          "Combine them with expressions of quantity"
+        ]
+      },
+      "12": {
+        "introduction": "When several object pronouns appear together they follow a fixed order (me/te/se, then le/la/les, then lui/leur, then y, then en). Mastering this order makes speech flow.",
+        "learningObjectives": [
+          "Order multiple pronouns correctly",
+          "Combine direct and indirect object pronouns",
+          "Add y and en in the right position",
+          "Place the cluster before the verb"
+        ]
+      },
+      "13": {
+        "introduction": "Comparisons use plus...que, moins...que and aussi...que; superlatives use le/la plus and le/la moins. Bon and bien have irregular forms (meilleur, mieux).",
+        "learningObjectives": [
+          "Form comparatives with plus/moins/aussi...que",
+          "Form superlatives with le plus and le moins",
+          "Use irregular meilleur and mieux",
+          "Agree superlative adjectives with the noun"
+        ]
+      },
+      "14": {
+        "introduction": "Relative pronouns (qui, que, dont, où) join two clauses. Qui is the subject, que the object, dont replaces de, and où refers to place or time.",
+        "learningObjectives": [
+          "Use qui as the subject of a relative clause",
+          "Use que as the direct object",
+          "Use dont for de + noun",
+          "Use où for place and time"
+        ]
+      },
+      "15": {
+        "introduction": "The present subjunctive is formed from the ils present stem plus subjunctive endings. It appears after certain expressions rather than standing alone.",
+        "learningObjectives": [
+          "Form the subjunctive from the ils present stem",
+          "Apply endings -e, -es, -e, -ions, -iez, -ent",
+          "Learn irregular subjunctives (être, avoir, aller, faire)",
+          "Recognise when the subjunctive is triggered"
+        ]
+      },
+      "16": {
+        "introduction": "The subjunctive follows expressions of necessity, wish, emotion and doubt — il faut que, je veux que, bien que. It signals subjectivity rather than fact.",
+        "learningObjectives": [
+          "Use the subjunctive after il faut que and je veux que",
+          "Use it after emotion and doubt",
+          "Use it after conjunctions like bien que and pour que",
+          "Contrast it with the indicative"
+        ]
+      },
+      "17": {
+        "introduction": "The imperative gives commands and suggestions using the tu, nous and vous forms without the subject pronoun. -ER verbs drop the -s in the tu form.",
+        "learningObjectives": [
+          "Form commands in the tu, nous and vous forms",
+          "Drop the subject pronoun",
+          "Remove the -s from tu forms of -ER verbs",
+          "Attach pronouns after affirmative commands (parle-moi)"
+        ]
+      },
+      "18": {
+        "introduction": "The passive voice uses être plus a past participle that agrees with the subject, with the agent introduced by par. It shifts focus onto the receiver of the action.",
+        "learningObjectives": [
+          "Form the passive with être + past participle",
+          "Agree the participle with the subject",
+          "Introduce the agent with par",
+          "Convert active sentences to passive"
+        ]
+      },
+      "19": {
+        "introduction": "Reported (indirect) speech relays what someone said, requiring changes to pronouns, tenses and time words. Present becomes imparfait and future becomes conditional.",
+        "learningObjectives": [
+          "Convert direct quotes to indirect speech",
+          "Shift tenses back (present to imparfait)",
+          "Adjust pronouns and time expressions",
+          "Introduce statements with que and questions with si"
+        ]
+      },
+      "20": {
+        "introduction": "Conditional 'if' sentences follow fixed patterns: Type 1 (si + present, future) for real possibilities and Type 2 (si + imparfait, conditional) for hypotheticals.",
+        "learningObjectives": [
+          "Form Type 1 si clauses (si + present, future)",
+          "Form Type 2 si clauses (si + imparfait, conditional)",
+          "Match the tense in each half",
+          "Express real vs hypothetical conditions"
+        ]
+      },
+      "21": {
+        "introduction": "Many French adverbs are formed by adding -ment to the feminine adjective (heureuse becomes heureusement). Their placement usually follows the conjugated verb.",
+        "learningObjectives": [
+          "Form adverbs with -ment from adjectives",
+          "Place adverbs after the conjugated verb",
+          "Use common irregular adverbs (bien, mal, vite)",
+          "Position adverbs with compound tenses"
+        ]
+      },
+      "22": {
+        "introduction": "Logical connectors (cependant, pourtant, en revanche, d'ailleurs) link ideas and show contrast, addition or consequence, making writing more cohesive at B1 level.",
+        "learningObjectives": [
+          "Use contrast connectors cependant and pourtant",
+          "Use en revanche and par contre",
+          "Add ideas with d'ailleurs and de plus",
+          "Structure arguments cohesively"
+        ]
+      },
+      "23": {
+        "introduction": "This topic builds vocabulary for trips, transport and directions, alongside the prepositions used with countries and cities (en France, au Canada, à Paris).",
+        "learningObjectives": [
+          "Use travel and transport vocabulary",
+          "Choose prepositions for countries and cities",
+          "Ask for and give directions",
+          "Handle common travel situations"
+        ]
+      },
+      "24": {
+        "introduction": "Health vocabulary lets you describe symptoms and visit a doctor, often using avoir mal à and reflexive verbs like se sentir. This is practical B1 communication.",
+        "learningObjectives": [
+          "Describe symptoms with avoir mal à",
+          "Use se sentir to say how you feel",
+          "Name common ailments and remedies",
+          "Communicate at a pharmacy or doctor's"
+        ]
+      },
+      "25": {
+        "introduction": "Professional vocabulary covers jobs, workplaces and formal communication. Note that French drops the article when stating a profession (je suis professeur).",
+        "learningObjectives": [
+          "Name jobs and workplaces",
+          "State a profession without an article",
+          "Use a formal register for work contexts",
+          "Talk about tasks and responsibilities"
+        ]
+      },
+      "26": {
+        "introduction": "This review consolidates the B1 syllabus — the past tenses, pronouns, subjunctive and si clauses — before moving toward C1, checking that intermediate structures are secure.",
+        "learningObjectives": [
+          "Revise passé composé, imparfait and future",
+          "Consolidate object pronouns and y/en",
+          "Apply the subjunctive and si clauses",
+          "Test B1 vocabulary across themes"
+        ]
       }
     }
   }
