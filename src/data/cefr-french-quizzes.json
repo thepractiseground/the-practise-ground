@@ -162,7 +162,7 @@
             "D'où venez-vous?",
             "Où habites-tu?"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What is the French word for 'yes'?",
@@ -212,7 +212,7 @@
             "Quel est votre nom?",
             "Comment tu t'appelles?"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "What does 'À demain' mean?",
@@ -232,7 +232,7 @@
             "Bonne journée",
             "Bonsoir"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "What is the French word for 'and'?",
@@ -790,7 +790,7 @@
             "la",
             "l'"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Choose the correct article: ___ homme (man - masculine)",
@@ -810,7 +810,7 @@
             "la",
             "le"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "Choose the correct article: ___ enfants (children - plural)",
@@ -840,7 +840,7 @@
             "l'",
             "les"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "Choose the correct article: ___ arbre (tree - masculine)",
@@ -900,7 +900,7 @@
             "la",
             "le"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ épée (sword - feminine)",
@@ -940,7 +940,7 @@
             "l'",
             "le"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Choose the correct article: ___ fille (girl - feminine)",
@@ -990,7 +990,7 @@
             "les",
             "le"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Choose the correct article: ___ été (summer - masculine)",
@@ -1136,7 +1136,7 @@
             "du fromage",
             "un fromage"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Choose the correct article: ___ viande (some meat)",
@@ -1186,7 +1186,7 @@
             "un",
             "de l'"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Choose the correct article: ___ outil (a tool - masculine)",
@@ -1392,7 +1392,7 @@
             "Feminine",
             "Both"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Is 'eau' (water) masculine or feminine?",
@@ -1412,7 +1412,7 @@
             "Masculine",
             "Feminine"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "Is 'nuit' (night) masculine or feminine?",
@@ -1442,7 +1442,7 @@
             "Neither",
             "Masculine"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Is 'voiture' (car) masculine or feminine?",
@@ -1502,7 +1502,7 @@
             "Neither",
             "Both"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Is 'femme' (woman) masculine or feminine?",
@@ -1558,7 +1558,7 @@
             "tablès",
             "table"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "What is the plural of 'chat' (cat)?",
@@ -1608,7 +1608,7 @@
             "arbrés",
             "arbre"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "What is the plural of 'fleur' (flower)?",
@@ -1668,7 +1668,7 @@
             "jour",
             "jours"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "question": "What is the plural of 'nuit' (night)?",
@@ -1708,7 +1708,7 @@
             "porte",
             "portès"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "What is the plural of 'fenêtre' (window)?",
@@ -1758,7 +1758,7 @@
             "animaux",
             "animals"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What is the plural of 'cheval' (horse)?",
@@ -1904,7 +1904,7 @@
             "Il",
             "Nous"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Choose the correct subject pronoun: ___ est docteur.",
@@ -4640,7 +4640,7 @@
             "Il est deux heures",
             "Il y a deux heures"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "How do you say 'It is 3:30' (half past three)?",
@@ -4946,7 +4946,7 @@
             "parmi",
             "sans"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Complete: Je vais ___ l'école.",
@@ -6432,7 +6432,7 @@
             "vingt-trois",
             "vingt-deux"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "What day is today if tomorrow is Thursday?",
@@ -8155,7 +8155,7 @@
         {
           "question": "He had closed the door when the alarm rang. (Il _____ la porte quand l'alarme _____)",
           "options": [
-            "avait fermée / a sonné",
+            "avait fermé / a sonné",
             "fermait / a sonné",
             "a fermé / sonnait",
             "aura fermé / sonne"
@@ -9902,7 +9902,7 @@
             "bon",
             "bien"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "The best solution. (_____ bonne solution.)",
@@ -11883,7 +11883,7 @@
           "answer": "A"
         },
         {
-          "question": "Adverbe de 'bon': 'Cela sent ____.'",
+          "question": "Adverbe de 'bon' : 'Il travaille ___.'",
           "options": [
             "bien",
             "bon",
@@ -13631,7 +13631,7 @@
           "options": [
             "a reçue",
             "recevra",
-            "ait reçue",
+            "ait reçu",
             "reçoive"
           ],
           "answer": "C"
@@ -13681,7 +13681,7 @@
           "options": [
             "as commise",
             "commettes",
-            "aies commise",
+            "aies commis",
             "commits"
           ],
           "answer": "C"
@@ -13762,7 +13762,7 @@
             "maîtrisera",
             "a maîtrisée",
             "maîtrise",
-            "ait maîtrisée"
+            "ait maîtrisé"
           ],
           "answer": "D"
         },
@@ -13772,16 +13772,16 @@
             "accepterez",
             "avez acceptée",
             "acceptiez",
-            "ayez acceptée"
+            "ayez accepté"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Complétez: Pourvu qu'ils _____ cette difficulté.",
           "options": [
             "surmonteront",
             "surmontent",
-            "aient surmontée",
+            "aient surmonté",
             "ont surmontée"
           ],
           "answer": "C"
@@ -13801,7 +13801,7 @@
           "options": [
             "dise",
             "a dite",
-            "ait dite",
+            "ait dit",
             "dira"
           ],
           "answer": "C"
@@ -14422,7 +14422,7 @@
             "accepterai",
             "aurais acceptée"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "Si j'avais ___ cette offre, ma vie serait très différente aujourd'hui.",
@@ -16430,7 +16430,7 @@
             "saisisses",
             "saises"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "question": "Choisissez l'expression juste: Mettre son grain de sel, c'est:",
@@ -16962,7 +16962,7 @@
             "de",
             "à"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Il a enfin renoncé _____ son vieux projet inachevé.",
@@ -16982,7 +16982,7 @@
             "à...de",
             "à...à"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Je tiens _____ souligner l'importance _____ ce détail.",
@@ -17012,7 +17012,7 @@
             "à...de",
             "en...en"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "question": "Vous aspirez _____ devenir ingénieur ou avocat?",
@@ -17062,7 +17062,7 @@
             "à...à",
             "à...de"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Elles se sont engagées _____ participer _____ ce projet humanitaire.",
@@ -17082,7 +17082,7 @@
             "à...de",
             "à...dans"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "Vous consentez _____ cette augmentation salariale substantielle?",
@@ -18245,24 +18245,24 @@
           "answer": "A"
         },
         {
-          "question": "'Constipé' signifie _____, pas 'constipated'.",
+          "question": "'Location' signifie _____, pas 'location' (anglais).",
           "options": [
-            "déprimé",
-            "concerned/preoccupied",
-            "malade",
-            "qui a des problèmes digestifs"
+            "a rental / a lease",
+            "un lieu précis",
+            "une position",
+            "un cadenas"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "'Eventual' signifie _____, pas 'eventual'.",
           "options": [
             "possible",
             "fortuit",
-            "qui peut arriver",
+            "définitif",
             "coincidental"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "'Assister' signifie _____, pas 'to assist'.",
@@ -18385,12 +18385,12 @@
           "answer": "C"
         },
         {
-          "question": "'Officiel' signifie _____, pas 'official'.",
+          "question": "'Journée' signifie _____, pas 'journey'.",
           "options": [
-            "to serve (as a priest)",
-            "autorisé",
-            "une personne en autorité",
-            "reconnu"
+            "a (whole) day",
+            "un voyage",
+            "un long trajet",
+            "une étape"
           ],
           "answer": "A"
         },
@@ -18412,7 +18412,7 @@
             "l'aspect physique",
             "le teint de la peau"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "question": "'préserver' en français n'équivaut pas entièrement à 'to preserve' mais plutôt à _____.",
