@@ -1781,14 +1781,14 @@
           "answer": "D"
         },
         {
-          "question": "What is the only subject pronoun that is always lowercase in Spanish?",
+          "question": "Which subject pronoun is lowercase in Spanish but capitalized in English?",
           "options": [
             "Tú",
             "Yo",
             "Él",
             "Nosotros"
           ],
-          "answer": "D"
+          "answer": "B"
         }
       ]
     },
@@ -3732,7 +3732,7 @@
           "question": "Which word means 'husband'?",
           "options": [
             "Esposo",
-            "Marido",
+            "Hermano",
             "Esposa",
             "Novio"
           ],
@@ -4522,7 +4522,7 @@
             "A el principio",
             "Por el principio",
             "En el principio",
-            "De el principio"
+            "Del principio"
           ],
           "answer": "D"
         },
@@ -8958,7 +8958,7 @@
             "Me, te",
             "Te, me"
           ],
-          "answer": "D"
+          "answer": "C"
         }
       ]
     },
@@ -13890,7 +13890,7 @@
             "vamos",
             "iríamos"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "question": "Según el experto, el error ___ evitable.",

@@ -2130,7 +2130,7 @@
             "tanzst",
             "tanzest"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Conjugate 'hören' (to hear) for 'er':",
@@ -5302,7 +5302,7 @@
             "bei",
             "nach"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "question": "Complete: 'Das Buch ist _____ dem Tisch.' (The book is on the table.) [preposition used for location with dative]",
@@ -8555,12 +8555,12 @@
           "answer": "A"
         },
         {
-          "question": "Ergänzen Sie: Der Anfang ___ (of the story) ist interessant.",
+          "question": "Ergänzen Sie (Genitiv): 'Der Anfang ___ ist interessant.' (of the story)",
           "options": [
-            "des Geschichten",
-            "den Geschichten",
-            "des Geschichte",
-            "der Geschichten"
+            "der Geschichte",
+            "die Geschichte",
+            "dem Geschichte",
+            "des Geschichtes"
           ],
           "answer": "A"
         },
@@ -13120,7 +13120,7 @@
             "gehen können",
             "können gehen"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Das Buch ist interessant, _____ teuer.",
@@ -14111,10 +14111,10 @@
         {
           "question": "Konjunktiv II Vergangenheit: 'Wenn du mir vertraut ___, hätte ich dir alles gesagt.'",
           "options": [
-            "hätte gesprochen",
-            "würde sprechen",
-            "spräche",
-            "hätte sprechen"
+            "hättest",
+            "hattest",
+            "würdest",
+            "hast"
           ],
           "answer": "A"
         },
@@ -14407,10 +14407,10 @@
         {
           "question": "Konditionalsatz Typ I: 'Falls du kommst, ___ ich dich abholen.'",
           "options": [
-            "hälfe",
-            "hilft",
-            "hielte",
-            "hätte geholfen"
+            "werde",
+            "würde",
+            "hätte",
+            "wäre"
           ],
           "answer": "A"
         },
@@ -14741,12 +14741,12 @@
           "answer": "B"
         },
         {
-          "question": "Partizipialattribut: 'Das ___ Wasser war sehr kalt.' (past participle of 'gefrieren')",
+          "question": "Partizipialattribut: 'Das ___ Wasser war sehr kalt.' (Partizip II von 'gefrieren')",
           "options": [
-            "käme",
-            "komme",
-            "käme zu",
-            "könnte kommen"
+            "gefrorene",
+            "frierende",
+            "gefrorenes",
+            "gefroren"
           ],
           "answer": "A"
         },
@@ -14889,10 +14889,10 @@
         {
           "question": "Die Nominalisierung von 'schön' ist ___.",
           "options": [
-            "fände",
-            "findet",
-            "fand",
-            "hätte gefunden"
+            "die Schönheit",
+            "die Schöne",
+            "die Verschönerung",
+            "das Schönsein"
           ],
           "answer": "A"
         },
@@ -15069,10 +15069,10 @@
         {
           "question": "Die Nominalisierung von 'mutig' ist ___.",
           "options": [
-            "ginge",
-            "geht",
-            "ging",
-            "würde gehen"
+            "der Mut",
+            "die Mutigkeit",
+            "die Ermutigung",
+            "die Mutlosigkeit"
           ],
           "answer": "A"
         },
@@ -15133,14 +15133,14 @@
           "answer": "C"
         },
         {
-          "question": "Passiv mit Modal: 'Die Aufgabe ___ sofort erledigt werden können.",
+          "question": "Passiv mit Modalverb: 'Die Aufgabe ___ sofort erledigt werden.'",
           "options": [
-            "wird können",
-            "kann werden",
             "kann",
-            "konnte"
+            "kann werden",
+            "wird können",
+            "konnte werden"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "question": "Vorgangspassiv Präteritum: 'Das Haus ___ vor zwei Jahren gebaut.",
@@ -15213,12 +15213,12 @@
           "answer": "B"
         },
         {
-          "question": "Zustandspassiv: 'Der Patient ___ behandelt. (state of treatment)",
+          "question": "Zustandspassiv: 'Der Patient ___ schon behandelt.' (Zustand)",
           "options": [
-            "täte",
-            "tut",
-            "tat",
-            "hätte getan"
+            "ist",
+            "wird",
+            "hat",
+            "kann"
           ],
           "answer": "A"
         },
@@ -15313,14 +15313,14 @@
           "answer": "D"
         },
         {
-          "question": "Passiv mit Modal Konjunktiv II: 'Die Aufgabe ___ erledigt werden können, falls wir Zeit hätten.",
+          "question": "Passiv mit Modal (Konjunktiv II): 'Die Aufgabe ___ erledigt werden, falls wir Zeit hätten.'",
           "options": [
-            "könne",
-            "werde können",
             "könnte",
-            "könnte werden"
+            "könnte werden",
+            "werde können",
+            "könne"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "question": "Vorgangspassiv Futur: 'Das Gesetz ___ im nächsten Jahr verabschiedet werden.",
@@ -15421,10 +15421,10 @@
         {
           "question": "Wegen + Genitiv: '___ des Fehlers mussten wir alles neu machen.'",
           "options": [
-            "trüge",
-            "trägt",
-            "trug",
-            "würde tragen"
+            "Wegen",
+            "Während",
+            "Trotz",
+            "Statt"
           ],
           "answer": "A"
         },
@@ -15635,12 +15635,12 @@
           "answer": "D"
         },
         {
-          "question": "Relativpronomen 'wo': 'Das Land, ___ wir waren, war wunderschön.'",
+          "question": "Relativpronomen 'wo': 'Das Land, ___ wir Urlaub machten, war wunderschön.'",
           "options": [
-            "wüsse",
-            "weiß",
-            "wusste",
-            "hätte gewusst"
+            "wo",
+            "das",
+            "den",
+            "wohin"
           ],
           "answer": "A"
         },
@@ -15805,12 +15805,12 @@
           "answer": "D"
         },
         {
-          "question": "Pronominaladverbium 'womit': 'Das Werkzeug, ___ wir arbeiteten, war nützlich.'",
+          "question": "Pronominaladverb 'womit': 'Das Werkzeug, ___ wir arbeiteten, war nützlich.'",
           "options": [
-            "verbote",
-            "verbietet",
-            "verbot",
-            "hätte verboten"
+            "womit",
+            "worauf",
+            "wovon",
+            "das"
           ],
           "answer": "A"
         },
@@ -15921,12 +15921,12 @@
           "answer": "B"
         },
         {
-          "question": "Vermutung mit Perfekt: 'Er ___ die Stadt verlassen haben.' (must have left)",
+          "question": "Vermutung (subjektiver Gebrauch): 'Er ___ die Stadt schon verlassen haben.' (muss wohl)",
           "options": [
-            "stünde",
-            "steht",
-            "stand",
-            "hätte gestanden"
+            "muss",
+            "mag",
+            "darf",
+            "soll"
           ],
           "answer": "A"
         },
@@ -16257,12 +16257,12 @@
           "answer": "B"
         },
         {
-          "question": "Akademisches Deutsch: 'Die Untersuchung trägt dazu ___, dass ...'",
+          "question": "Akademisches Deutsch: 'Die Untersuchung trägt dazu ___, dass das Problem gelöst wird.'",
           "options": [
-            "nähme",
-            "nimmt",
-            "nahm",
-            "hätte genommen"
+            "bei",
+            "zu",
+            "an",
+            "auf"
           ],
           "answer": "A"
         },
@@ -16473,12 +16473,12 @@
           "answer": "D"
         },
         {
-          "question": "Redewendung: 'Das ist ___ Größe.'",
+          "question": "Redewendung: 'Er hat Tomaten auf den ___.' (etwas Offensichtliches nicht sehen)",
           "options": [
-            "dächte",
-            "denkt",
-            "dachte",
-            "hätte gedacht"
+            "Augen",
+            "Ohren",
+            "Händen",
+            "Füßen"
           ],
           "answer": "A"
         },
@@ -16809,12 +16809,12 @@
           "answer": "A"
         },
         {
-          "question": "Trennbares Verb: 'Er ___ die alte Kleidung ___' (ausziehen)",
+          "question": "Trennbares Verb: 'Er ___ die alte Kleidung aus.' (ausziehen)",
           "options": [
-            "schriebe",
-            "schreibt",
-            "schrieb",
-            "hätte geschrieben"
+            "zieht",
+            "auszieht",
+            "zog",
+            "ausgezogen"
           ],
           "answer": "A"
         },
@@ -16975,12 +16975,12 @@
           "answer": "C"
         },
         {
-          "question": "Präposition-Verb: 'Ich verliere mich ___ deine Schönheit.' (in/um)",
+          "question": "Feste Präposition: 'Ich denke oft ___ dich.' (denken an)",
           "options": [
-            "züge",
-            "zieht",
-            "zog",
-            "hätte gezogen"
+            "an",
+            "auf",
+            "über",
+            "für"
           ],
           "answer": "A"
         },
@@ -17271,12 +17271,12 @@
           "answer": "D"
         },
         {
-          "question": "Nomen-Verb: 'Die Idee ___ Wirklichkeit.'",
+          "question": "Nomen-Verb-Verbindung: 'Der Plan ___ in Erfüllung.'",
           "options": [
-            "schwöre",
-            "schwört",
-            "schwor",
-            "hätte geschworen"
+            "geht",
+            "macht",
+            "kommt",
+            "stellt"
           ],
           "answer": "A"
         },
@@ -17609,10 +17609,10 @@
         {
           "question": "Konnektor: 'Das Kind war brav. ___ bekam es ein Geschenk.'",
           "options": [
-            "sähe",
-            "sieht",
-            "sah",
-            "hätte gesehen"
+            "Daher",
+            "Obwohl",
+            "Trotzdem",
+            "Dennoch"
           ],
           "answer": "A"
         },
@@ -18059,12 +18059,12 @@
           "answer": "B"
         },
         {
-          "question": "Wissenschaftliche Formulierung: 'Die vorliegende Studie zielt ___ ab, ...'",
+          "question": "Wissenschaftliche Formulierung: 'Die vorliegende Studie zielt ___ ab, das Problem zu lösen.'",
           "options": [
-            "tränke",
-            "trinkt",
-            "trank",
-            "hätte getrunken"
+            "darauf",
+            "darüber",
+            "davon",
+            "dazu"
           ],
           "answer": "A"
         },
@@ -18285,12 +18285,12 @@
           "answer": "D"
         },
         {
-          "question": "Geschäftsdeutsch: 'Wie besprochen, ___ wir die Zahlung.'",
+          "question": "Geschäftsdeutsch: 'Wie besprochen, ___ wir die Zahlung morgen.'",
           "options": [
-            "sänge",
-            "singt",
-            "sang",
-            "hätte gesungen"
+            "leisten",
+            "singen",
+            "fahren",
+            "kochen"
           ],
           "answer": "A"
         },
@@ -18463,10 +18463,10 @@
         {
           "question": "Diskurspartikel: 'Du wirst ___ sehen, dass ich Recht hatte.'",
           "options": [
-            "liefe",
-            "läuft",
-            "lief",
-            "hätte gelaufen"
+            "schon",
+            "kaum",
+            "nie",
+            "selten"
           ],
           "answer": "A"
         },
@@ -18747,12 +18747,12 @@
           "answer": "C"
         },
         {
-          "question": "Schweizer Deutsch: 'Die Schweizer sagen ___ statt 'Brille'.'",
+          "question": "Schweizer Deutsch: 'Die Schweizer sagen ___ statt 'Fahrrad'.'",
           "options": [
-            "bäte",
-            "bittet",
-            "bat",
-            "hätte gebeten"
+            "Velo",
+            "Rad",
+            "Bike",
+            "Töff"
           ],
           "answer": "A"
         },
@@ -19125,10 +19125,10 @@
         {
           "question": "Nuancierte Bedeutung: 'Ein ___ ist ein großer Erfolg oder Sieg.'",
           "options": [
-            "gäbe",
-            "gibt",
-            "gab",
-            "hätte gegeben"
+            "Triumph",
+            "Debakel",
+            "Misserfolg",
+            "Rückschlag"
           ],
           "answer": "A"
         },
@@ -19555,12 +19555,12 @@
           "answer": "C"
         },
         {
-          "question": "Schachtelsatz: 'Der Mann, dessen Sohn, der Anwalt, der die Fälle gewinnt, ist, erfolgreich ist, reich.'",
+          "question": "Nebensatz-Verbstellung: 'Sie sagte, dass sie sehr müde ___.'",
           "options": [
-            "bliebe",
-            "bleibt",
-            "blieb",
-            "hätte bleiben"
+            "ist",
+            "ist sie",
+            "sie ist",
+            "sein"
           ],
           "answer": "A"
         },
@@ -19763,10 +19763,10 @@
         {
           "question": "Welche Relativklausel ist korrekt?",
           "options": [
-            "führe",
-            "führt",
-            "führte",
-            "hätte geführt"
+            "Der Mann, der dort steht, ist mein Vater.",
+            "Der Mann, den dort steht, ist mein Vater.",
+            "Der Mann, dem dort steht, ist mein Vater.",
+            "Der Mann, dessen dort steht, ist mein Vater."
           ],
           "answer": "A"
         },
