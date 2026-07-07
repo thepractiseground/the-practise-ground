@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SPANISH_CEFR_LEVELS, SPANISH_LEVEL_INFO, getSpanishLevelWeeks, getSpanishWeek, getAllSpanishLevelWeekPairs } from "@/lib/cefr-spanish-quiz-data";
+import { getCefrEnrichment } from "@/lib/quiz-enrichment";
 import QuizEngine from "@/components/QuizEngine";
 import QuizQuestionList from "@/components/QuizQuestionList";
 import HeroImage from "@/components/HeroImage";
+import RelatedGuides from "@/components/RelatedGuides";
 import type { Metadata } from "next";
 
 interface Props {
@@ -60,6 +62,7 @@ export default async function SpanishCefrQuizPage({ params }: Props) {
   const nextWeek = currentIdx < allWeeks.length - 1 ? allWeeks[currentIdx + 1] : null;
 
   const topic = weekData.topic;
+  const enrichment = getCefrEnrichment("spanish", level, weekNum);
 
   return (
     <div className="bg-theme-gradient min-h-screen pb-16">
@@ -86,6 +89,30 @@ export default async function SpanishCefrQuizPage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {/* Topic Introduction & Learning Objectives */}
+      {enrichment && (
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6">
+          <div className="bg-white rounded-xl border border-gray-100 p-5 sm:p-6 shadow-sm">
+            <p className="text-gray-700 leading-relaxed">{enrichment.introduction}</p>
+            {enrichment.learningObjectives.length > 0 && (
+              <div className="mt-4">
+                <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">What you&apos;ll practise</h2>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {enrichment.learningObjectives.map((obj, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
+                      <svg className="w-4 h-4 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      {obj}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Server-rendered question list for SEO */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
@@ -128,6 +155,8 @@ export default async function SpanishCefrQuizPage({ params }: Props) {
           ) : <div />}
         </div>
       </div>
+
+      <RelatedGuides subject="spanish" seed={weekNum} />
 
       {/* Quiz Schema */}
       <script

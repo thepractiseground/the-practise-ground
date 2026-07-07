@@ -946,5 +946,479 @@
         ]
       }
     }
+  },
+  "spanish": {
+    "a1": {
+      "1": {
+        "introduction": "Greetings and introductions are your first Spanish conversations — hola, buenos días, adiós — and introducing yourself with me llamo. Spanish distinguishes the informal tú from the formal usted from the very first hello.",
+        "learningObjectives": [
+          "Use hola, buenos días, buenas tardes and adiós",
+          "Introduce yourself with me llamo or soy",
+          "Choose between informal tú and formal usted",
+          "Ask ¿cómo te llamas? and ¿cómo estás?"
+        ]
+      },
+      "2": {
+        "introduction": "Spanish numbers are regular after 30, but the teens and twenties have special one-word forms (dieciséis, veintiuno). Numbers are essential for prices, ages and time.",
+        "learningObjectives": [
+          "Count and spell numbers 1 to 100",
+          "Use the special forms for 16-29 (dieciséis, veintidós)",
+          "Use numbers for prices, ages and quantities",
+          "Recognise numbers in speech and writing"
+        ]
+      },
+      "3": {
+        "introduction": "Days, months and seasons let you talk about your schedule and the weather. In Spanish they are not capitalised, and you use el or los with days (el lunes) to mean 'on Monday'.",
+        "learningObjectives": [
+          "Name the seven days and twelve months",
+          "Talk about the four seasons",
+          "Use el lunes and los lunes for 'on Monday(s)'",
+          "Give dates in Spanish"
+        ]
+      },
+      "4": {
+        "introduction": "Spanish articles agree with the noun in gender and number: el, la, los, las mean 'the' and un, una, unos, unas mean 'a' or 'some'. Choosing the right one depends on gender.",
+        "learningObjectives": [
+          "Use el, la, los, las for 'the'",
+          "Use un, una, unos, unas for 'a' or 'some'",
+          "Match articles to gender and number",
+          "Recognise gender from the article"
+        ]
+      },
+      "5": {
+        "introduction": "Most Spanish nouns are masculine if they end in -o and feminine if they end in -a, though there are important exceptions (el día, la mano). Gender affects articles and adjectives.",
+        "learningObjectives": [
+          "Use -o (masculine) and -a (feminine) as a guide",
+          "Learn exceptions (el día, la mano, el problema)",
+          "Match articles and adjectives to gender",
+          "Learn each noun with its article"
+        ]
+      },
+      "6": {
+        "introduction": "Spanish forms plurals by adding -s after a vowel and -es after a consonant (libro to libros, ciudad to ciudades). The article also becomes plural.",
+        "learningObjectives": [
+          "Add -s after a vowel and -es after a consonant",
+          "Change the article to los or las",
+          "Adjust spelling (luz to luces)",
+          "Make the whole phrase agree in number"
+        ]
+      },
+      "7": {
+        "introduction": "Subject pronouns (yo, tú, él, ella, nosotros, vosotros, ellos) are often dropped in Spanish because the verb ending already shows the subject. Spain uses vosotros; Latin America uses ustedes.",
+        "learningObjectives": [
+          "Match subject pronouns to verb endings",
+          "Understand why pronouns are often omitted",
+          "Choose tú, usted, vosotros or ustedes",
+          "Distinguish él/ella and ellos/ellas"
+        ]
+      },
+      "8": {
+        "introduction": "Regular -AR verbs are the biggest verb group. Drop -ar and add -o, -as, -a, -amos, -áis, -an to conjugate verbs like hablar, trabajar and estudiar.",
+        "learningObjectives": [
+          "Conjugate regular -AR verbs in the present",
+          "Apply the endings -o, -as, -a, -amos, -áis, -an",
+          "Form the stem by dropping -ar",
+          "Use hablar, trabajar and estudiar"
+        ]
+      },
+      "9": {
+        "introduction": "Regular -ER verbs drop -er and add -o, -es, -e, -emos, -éis, -en (comer, beber, leer). The endings differ from -AR only in the vowel.",
+        "learningObjectives": [
+          "Conjugate regular -ER verbs in the present",
+          "Apply the endings -o, -es, -e, -emos, -éis, -en",
+          "Use comer, beber and leer",
+          "Contrast -ER with -AR endings"
+        ]
+      },
+      "10": {
+        "introduction": "Regular -IR verbs drop -ir and add -o, -es, -e, -imos, -ís, -en (vivir, escribir, abrir). They match -ER except in the nosotros and vosotros forms.",
+        "learningObjectives": [
+          "Conjugate regular -IR verbs in the present",
+          "Apply the endings -o, -es, -e, -imos, -ís, -en",
+          "Use vivir, escribir and abrir",
+          "Note where -IR differs from -ER"
+        ]
+      },
+      "11": {
+        "introduction": "Spanish has two verbs for 'to be': ser for permanent traits, identity and time, and estar for location, feelings and temporary states. Choosing correctly is a defining early skill.",
+        "learningObjectives": [
+          "Conjugate ser (soy, eres, es) and estar (estoy, estás, está)",
+          "Use ser for identity, origin and time",
+          "Use estar for location and feelings",
+          "Contrast permanent and temporary states"
+        ]
+      },
+      "12": {
+        "introduction": "High-frequency verbs like tener, ir, hacer and poder are irregular and appear constantly, so they are worth memorising early. Tener and ir also form useful expressions.",
+        "learningObjectives": [
+          "Conjugate tener, ir, hacer and poder",
+          "Use tener for age and possession (tengo 12 años)",
+          "Use ir a plus an infinitive for the near future",
+          "Recognise these verbs in common phrases"
+        ]
+      },
+      "13": {
+        "introduction": "Spanish adjectives agree with the noun in gender and number, usually ending in -o/-a and adding -s for plural. Adjectives normally come after the noun.",
+        "learningObjectives": [
+          "Make adjectives agree in gender and number",
+          "Place most adjectives after the noun",
+          "Handle adjectives ending in -e or a consonant",
+          "Form plural adjectives with -s or -es"
+        ]
+      },
+      "14": {
+        "introduction": "Colours are common adjectives that agree with the noun (un coche rojo, una casa roja). This topic supports describing objects and people.",
+        "learningObjectives": [
+          "Name the common colours in Spanish",
+          "Make colour adjectives agree with the noun",
+          "Describe objects and people",
+          "Combine colours with other adjectives"
+        ]
+      },
+      "15": {
+        "introduction": "Family vocabulary combines with possessive adjectives (mi, tu, su, nuestro) that agree in number. Masculine plurals can include both genders (los padres = parents).",
+        "learningObjectives": [
+          "Name family members in Spanish",
+          "Use possessives mi, tu, su, nuestro",
+          "Agree possessives in number",
+          "Use masculine plurals for mixed groups"
+        ]
+      },
+      "16": {
+        "introduction": "Food vocabulary supports ordering and talking about meals, often with querer and the verb gustar. It is practical everyday Spanish.",
+        "learningObjectives": [
+          "Name common foods and drinks",
+          "Order food with quiero and me gustaría",
+          "Talk about the meals of the day",
+          "Express food preferences"
+        ]
+      },
+      "17": {
+        "introduction": "Spanish tells time with ¿Qué hora es? and es la una or son las..., using y and menos for minutes (son las tres y media). The 24-hour clock is used for schedules.",
+        "learningObjectives": [
+          "Ask and answer ¿Qué hora es?",
+          "Use es la una and son las dos",
+          "Add minutes with y and menos (y media, menos cuarto)",
+          "Say at what time with a las"
+        ]
+      },
+      "18": {
+        "introduction": "Prepositions like en, de, a, con, por and para show place, direction and relationships. De and a contract with el (de + el = del, a + el = al).",
+        "learningObjectives": [
+          "Use en, de, a, con, por and para",
+          "Form the contractions del and al",
+          "Show location and direction",
+          "Choose the right preposition in context"
+        ]
+      },
+      "19": {
+        "introduction": "Spanish question words (qué, quién, dónde, cuándo, cómo, cuánto) carry a written accent and open information questions, framed by inverted punctuation.",
+        "learningObjectives": [
+          "Use qué, quién, dónde, cuándo, cómo and cuánto",
+          "Write the accent on question words",
+          "Use inverted question marks (¿...?)",
+          "Ask for people, things, places and reasons"
+        ]
+      },
+      "20": {
+        "introduction": "Weather uses hacer (hace calor, hace frío), plus hay and está for some conditions. This lets you talk about the weather and seasons.",
+        "learningObjectives": [
+          "Answer ¿Qué tiempo hace?",
+          "Use hace for most weather expressions",
+          "Use llueve, nieva and está nublado",
+          "Link weather to the seasons"
+        ]
+      },
+      "21": {
+        "introduction": "Clothing vocabulary combines with shopping phrases and the verb llevar (to wear). You will ask for prices, sizes and colours.",
+        "learningObjectives": [
+          "Name common items of clothing",
+          "Use llevar (to wear) and comprar (to buy)",
+          "Ask about price and size (¿cuánto cuesta?)",
+          "Handle a simple shopping conversation"
+        ]
+      },
+      "22": {
+        "introduction": "Body vocabulary is often used with the definite article and reflexive verbs (me duele la cabeza) rather than a possessive. It supports describing aches and pains.",
+        "learningObjectives": [
+          "Name the main parts of the body",
+          "Use the definite article with body parts",
+          "Say me duele and me duelen for pain",
+          "Describe symptoms simply"
+        ]
+      },
+      "23": {
+        "introduction": "Daily routines use reflexive verbs (levantarse, ducharse) with a reflexive pronoun (me, te, se) before the verb. They describe actions done to oneself.",
+        "learningObjectives": [
+          "Use reflexive pronouns me, te, se, nos, os",
+          "Conjugate levantarse and ducharse",
+          "Describe a daily routine in order",
+          "Place the reflexive pronoun before the verb"
+        ]
+      },
+      "24": {
+        "introduction": "The verb gustar works backwards: what you like is the subject, and you are the indirect object (me gusta el café). Encantar and interesar follow the same pattern.",
+        "learningObjectives": [
+          "Use me gusta (singular) and me gustan (plural)",
+          "Add indirect object pronouns (me, te, le, nos, les)",
+          "Use a mí and a ti for emphasis and clarity",
+          "Apply the pattern to encantar and interesar"
+        ]
+      },
+      "25": {
+        "introduction": "Hay means 'there is' or 'there are' and never changes form. Demonstratives (este, ese, aquel) point to things by distance and agree in gender and number.",
+        "learningObjectives": [
+          "Use hay for 'there is' and 'there are'",
+          "Use este, ese and aquel by distance",
+          "Agree demonstratives in gender and number",
+          "Combine hay with quantities"
+        ]
+      },
+      "26": {
+        "introduction": "This review pulls together the A1 syllabus — articles, gender, present-tense verbs, ser vs estar, gustar and everyday vocabulary — before moving to B1.",
+        "learningObjectives": [
+          "Revise articles, gender and plurals",
+          "Consolidate present-tense conjugation",
+          "Apply ser vs estar and gustar",
+          "Test A1 vocabulary across topics"
+        ]
+      }
+    },
+    "b1": {
+      "1": {
+        "introduction": "The preterite is the past tense for completed actions. Regular verbs add -é, -aste, -ó for -AR and -í, -iste, -ió for -ER/-IR. It reports finished events.",
+        "learningObjectives": [
+          "Conjugate regular preterite -AR verbs",
+          "Conjugate regular -ER and -IR preterite verbs",
+          "Use it for completed past actions",
+          "Note the accents on -é and -ó"
+        ]
+      },
+      "2": {
+        "introduction": "Many common verbs are irregular in the preterite, with special stems and endings (hice, tuve, estuve). Ser and ir share the same preterite forms (fui).",
+        "learningObjectives": [
+          "Learn irregular stems (hacer to hic-, tener to tuv-)",
+          "Use the irregular endings -e, -iste, -o",
+          "Recognise that ser and ir share fui",
+          "Use estar, hacer and tener in the past"
+        ]
+      },
+      "3": {
+        "introduction": "The imperfect describes ongoing, habitual or background past actions. Its endings are very regular (-aba for -AR; -ía for -ER/-IR), with only three irregular verbs.",
+        "learningObjectives": [
+          "Form the imperfect with -aba and -ía endings",
+          "Use it for habits, descriptions and background",
+          "Learn the three irregulars (ser, ir, ver)",
+          "Contrast it with the preterite"
+        ]
+      },
+      "4": {
+        "introduction": "Choosing between the two past tenses is a major B1 skill: preterite for completed events, imperfect for ongoing or background. They often appear together in a story.",
+        "learningObjectives": [
+          "Use the preterite for finished, specific actions",
+          "Use the imperfect for descriptions and habits",
+          "Combine both in a narrative",
+          "Interpret how the choice changes meaning"
+        ]
+      },
+      "5": {
+        "introduction": "The present perfect (he hablado) links the past to the present, formed with haber plus a past participle. Regular participles end in -ado for -AR and -ido for -ER/-IR.",
+        "learningObjectives": [
+          "Form the present perfect with haber plus a participle",
+          "Build regular participles (-ado, -ido)",
+          "Learn irregular participles (hecho, dicho, visto)",
+          "Use it for recent or relevant past actions"
+        ]
+      },
+      "6": {
+        "introduction": "The future ('will do') adds -é, -ás, -á, -emos, -éis, -án to the infinitive. Some common verbs have irregular stems (tendré, haré, podré).",
+        "learningObjectives": [
+          "Form the future on the infinitive stem",
+          "Apply the endings -é, -ás, -á, -emos, -éis, -án",
+          "Learn irregular stems (tener, hacer, poder)",
+          "Express plans and predictions"
+        ]
+      },
+      "7": {
+        "introduction": "The conditional ('would do') uses the same stems as the future plus imperfect endings (-ía). It expresses politeness, hypotheticals and wishes.",
+        "learningObjectives": [
+          "Form the conditional with future stems plus -ía endings",
+          "Use it for polite requests (me gustaría, podría)",
+          "Express hypothetical situations",
+          "Share the irregular stems with the future"
+        ]
+      },
+      "8": {
+        "introduction": "Direct object pronouns (me, te, lo, la, nos, los, las) replace the noun receiving the action and go before the conjugated verb. Lo and la agree in gender.",
+        "learningObjectives": [
+          "Replace direct objects with lo, la, los, las",
+          "Place the pronoun before the conjugated verb",
+          "Attach it to infinitives and gerunds",
+          "Agree lo and la with gender"
+        ]
+      },
+      "9": {
+        "introduction": "Indirect object pronouns (me, te, le, nos, les) show to or for whom. Le and les often appear with a redundant a plus person for clarity (le doy el libro a Ana).",
+        "learningObjectives": [
+          "Use le and les for the indirect object",
+          "Add a plus person for clarity",
+          "Place the pronoun before the verb",
+          "Distinguish direct and indirect pronouns"
+        ]
+      },
+      "10": {
+        "introduction": "When both pronouns appear, the indirect comes before the direct, and le/les becomes se before lo/la/los/las (se lo doy). Getting the order right is a key B1 step.",
+        "learningObjectives": [
+          "Put the indirect pronoun before the direct",
+          "Change le/les to se before lo and la",
+          "Attach both to infinitives and commands",
+          "Use se lo and se la correctly"
+        ]
+      },
+      "11": {
+        "introduction": "Beyond daily routine, reflexive verbs express change of state, reciprocity and emotion (aburrirse, quejarse). The pronoun changes with the subject and can attach to infinitives.",
+        "learningObjectives": [
+          "Use reflexive pronouns across all persons",
+          "Express change of state and emotion",
+          "Handle reciprocal actions (se escriben)",
+          "Attach the pronoun to infinitives and gerunds"
+        ]
+      },
+      "12": {
+        "introduction": "Comparisons use más/menos...que and tan...como; superlatives use el or la más. Some words are irregular (bueno to mejor, malo to peor).",
+        "learningObjectives": [
+          "Form comparatives with más/menos...que",
+          "Use tan...como for equality",
+          "Form superlatives with el más and el menos",
+          "Learn irregular mejor and peor"
+        ]
+      },
+      "13": {
+        "introduction": "Por and para both translate as 'for', but por marks cause, exchange and duration, while para marks purpose, destination and deadlines. This contrast is a classic B1 challenge.",
+        "learningObjectives": [
+          "Use para for purpose, destination and deadlines",
+          "Use por for cause, exchange and duration",
+          "Learn fixed expressions (por favor, para siempre)",
+          "Choose correctly in context"
+        ]
+      },
+      "14": {
+        "introduction": "At B1, ser and estar are contrasted with adjectives that change meaning (es aburrido = boring; está aburrido = bored). The choice conveys real differences.",
+        "learningObjectives": [
+          "Contrast ser and estar with adjectives",
+          "Learn meaning changes (aburrido, listo, rico)",
+          "Use estar for results and conditions",
+          "Use ser for essential qualities"
+        ]
+      },
+      "15": {
+        "introduction": "The present subjunctive is formed from the yo present stem plus 'opposite' endings (-AR verbs take -e; -ER/-IR take -a). It appears in dependent clauses, not alone.",
+        "learningObjectives": [
+          "Form the subjunctive from the yo present stem",
+          "Apply the opposite endings (-e for -AR; -a for -ER/-IR)",
+          "Learn irregular subjunctives (sea, vaya, haya)",
+          "Recognise when it is triggered"
+        ]
+      },
+      "16": {
+        "introduction": "The subjunctive follows expressions of wish and emotion when the subject changes — quiero que vengas, espero que estés bien. It signals influence over another person.",
+        "learningObjectives": [
+          "Use the subjunctive after quiero que and espero que",
+          "Change subjects between the clauses",
+          "Use it after emotion (me alegro de que)",
+          "Contrast it with the infinitive for the same subject"
+        ]
+      },
+      "17": {
+        "introduction": "The subjunctive also follows doubt and denial — no creo que, dudo que, es posible que. When the speaker is certain, the indicative is used instead.",
+        "learningObjectives": [
+          "Use the subjunctive after no creo que and dudo que",
+          "Use it after impersonal expressions (es posible que)",
+          "Switch to the indicative when certain",
+          "Recognise doubt as the trigger"
+        ]
+      },
+      "18": {
+        "introduction": "Commands (the imperative) tell people what to do. Affirmative tú uses the él form (habla), while usted, ustedes and all negatives use subjunctive forms.",
+        "learningObjectives": [
+          "Form affirmative tú commands (habla, come)",
+          "Use subjunctive forms for usted and ustedes",
+          "Form negative commands with no plus the subjunctive",
+          "Attach or place pronouns correctly"
+        ]
+      },
+      "19": {
+        "introduction": "Relative pronouns (que, quien, donde, lo que) join clauses. Que is the most common; quien refers to people; lo que means 'what' or 'that which'.",
+        "learningObjectives": [
+          "Use que to join clauses",
+          "Use quien for people after a preposition",
+          "Use donde for places",
+          "Use lo que for 'what' or 'that which'"
+        ]
+      },
+      "20": {
+        "introduction": "Spanish often avoids the true passive, preferring the passive se (se venden casas) and the impersonal se (se habla español) to state actions without a subject.",
+        "learningObjectives": [
+          "Form the passive se (se venden casas)",
+          "Use the impersonal se (se dice que...)",
+          "Contrast it with the true passive (ser + participle)",
+          "Choose the natural Spanish structure"
+        ]
+      },
+      "21": {
+        "introduction": "Many Spanish adverbs are formed by adding -mente to the feminine adjective (rápida to rápidamente). Adverbial phrases (con cuidado) are common alternatives.",
+        "learningObjectives": [
+          "Form adverbs with -mente from adjectives",
+          "Use common adverbs (bien, mal, siempre)",
+          "Replace adverbs with phrases (con cuidado)",
+          "Position adverbs naturally"
+        ]
+      },
+      "22": {
+        "introduction": "Logical connectors (sin embargo, además, por lo tanto, aunque) link ideas and show contrast, addition and consequence, making writing more cohesive at B1.",
+        "learningObjectives": [
+          "Use contrast connectors (sin embargo, aunque)",
+          "Add ideas with además and también",
+          "Show consequence with por lo tanto",
+          "Structure arguments cohesively"
+        ]
+      },
+      "23": {
+        "introduction": "This topic builds vocabulary for trips and transport, alongside the prepositions used for movement (en autobús, a pie) and destinations.",
+        "learningObjectives": [
+          "Use travel and transport vocabulary",
+          "Say en tren, en avión and a pie",
+          "Ask for and give directions",
+          "Handle common travel situations"
+        ]
+      },
+      "24": {
+        "introduction": "Health vocabulary lets you describe symptoms and visit a doctor, often using doler like gustar (me duele) and reflexive verbs. It is practical B1 communication.",
+        "learningObjectives": [
+          "Describe symptoms with me duele and tengo",
+          "Use doler like gustar",
+          "Name common ailments and remedies",
+          "Communicate at the pharmacy or doctor's"
+        ]
+      },
+      "25": {
+        "introduction": "Professional vocabulary covers jobs and workplaces. Spanish states a profession without an article (soy profesor) and forms feminine titles (profesora).",
+        "learningObjectives": [
+          "Name jobs and workplaces",
+          "State a profession without an article",
+          "Form feminine job titles",
+          "Talk about tasks and responsibilities"
+        ]
+      },
+      "26": {
+        "introduction": "This review consolidates the B1 syllabus — the past tenses, object pronouns, por vs para, and the subjunctive — before moving toward C1.",
+        "learningObjectives": [
+          "Revise preterite, imperfect and present perfect",
+          "Consolidate object pronouns and por vs para",
+          "Apply the subjunctive for wishes and doubt",
+          "Test B1 vocabulary across themes"
+        ]
+      }
+    }
   }
 }
