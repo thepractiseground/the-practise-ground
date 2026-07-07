@@ -5,6 +5,7 @@ import { getQuizEnrichment } from "@/lib/quiz-enrichment";
 import QuizEngine from "@/components/QuizEngine";
 import QuizQuestionList from "@/components/QuizQuestionList";
 import HeroImage from "@/components/HeroImage";
+import RelatedGuides from "@/components/RelatedGuides";
 import type { Metadata } from "next";
 
 interface Props {
@@ -155,6 +156,8 @@ export default async function ScienceQuizPage({ params }: Props) {
           ) : <div />}
         </div>
       </div>
+
+      <RelatedGuides subject="science" seed={weekNum} />
 
       {/* Quiz Schema */}
       <script
