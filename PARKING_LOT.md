@@ -4,6 +4,33 @@ Ideas and tasks to revisit later.
 
 ---
 
+## Third / R3 Language Quizzes — Indian Languages First (NEP/CBSE R3)
+
+**Added:** 7 Jul 2026 | **Status:** Not started (site currently: English + French/German/Spanish CEFR only)
+
+**Why now:** CBSE has made a third language (R3) mandatory from Class 6 (2026-27 session), phased to full Class-10 board integration by 2030-31; NEP's three-language formula requires two of three to be Indian languages. Curriculum-aligned *quiz practice* for Indian third languages is essentially unserved (Kannada/Hindi/Marathi grammar MCQs ≈ near zero), which is TPG's proven SEO wedge.
+
+**Source docs (top-level project folder, not repo):** `TPG_Third_Language_Market_Research.md`, `TPG 3rd language Chat.pages`.
+
+### Revised phase sequence (Indian languages first, per NEP)
+- **Phase 1 — build first:** Kannada, Hindi, Marathi (Class 6-8 → later 9-10), CBSE-aligned R3 syllabus.
+- **Phase 2:** other Indian languages (Tamil, Sanskrit, Telugu, Bengali) + state boards (Karnataka SSLC, Maharashtra SSC).
+- **Phase 3 — parked:** French, German (foreign languages).
+
+### Content architecture (proposed)
+`/third-language/{kannada,hindi,marathi,...}/class-{6..10}/` → grammar (sandhi, samasa, vibhakti / vyakarana), literature comprehension from prescribed texts, letter/essay writing.
+
+### SEO targets (low competition, rising demand)
+"Kannada third language quiz Class 8 CBSE", "Hindi third language grammar Class 7", "Marathi grammar MCQ CBSE", "CBSE R3 language practice quiz", "Kannada vyakarana MCQ Class 10".
+
+### NON-NEGOTIABLE quality gate
+Indian-language grammar (sandhi, pratyaya, vibhakti, agreement, script) is hard to auto-verify and error-prone (~5-10% expected from AI drafts). **Every batch must pass native-speaker review before publishing.** Reinforced by the Jul 2026 CEFR audit, which found systematic answer-key errors (French mis-keying, German C1 option corruption) in the existing data — do not repeat that with Indian languages.
+
+### Open decisions before building
+Board scope (CBSE-only first), exact per-class syllabus/textbooks (e.g. NCERT Hindi Vasant/Durva; Kannada/Marathi state textbooks), Unicode fonts (Noto Sans Kannada/Devanagari), reviewer sourcing, and whether to add text-to-speech audio.
+
+---
+
 ## GSC Re-check After Quiz-Page Enrichment
 
 **Added:** 7 Jul 2026 | **Do around:** early Aug 2026 (after Google recrawls)
