@@ -471,6 +471,242 @@
           "Test B1 vocabulary across themes"
         ]
       }
+    },
+    "c1": {
+      "1": {
+        "introduction": "The passé simple is the literary past tense, used in novels, history and formal writing instead of the passé composé. At C1 you mainly need to recognise its forms (il alla, il fut, il eut) rather than produce them.",
+        "learningObjectives": [
+          "Recognise passé simple endings for -er, -ir and -re verbs",
+          "Identify irregular stems (fut, eut, fit, vint)",
+          "Understand where it replaces the passé composé",
+          "Read literary and historical narration"
+        ]
+      },
+      "2": {
+        "introduction": "The past subjunctive (que j'aie fait, que je sois venu) expresses a completed action in a subjunctive context, formed with the present subjunctive of avoir or être plus a participle.",
+        "learningObjectives": [
+          "Form the subjonctif passé with avoir/être plus a participle",
+          "Use it after the usual subjunctive triggers",
+          "Show that the action is already completed",
+          "Apply participle agreement rules"
+        ]
+      },
+      "3": {
+        "introduction": "The past conditional (j'aurais fait) expresses what would have happened, appearing in Type 3 si clauses and in expressions of regret or reproach.",
+        "learningObjectives": [
+          "Form the conditionnel passé with the conditional of avoir/être plus a participle",
+          "Express unreal past outcomes",
+          "Use it in reproaches (tu aurais dû)",
+          "Combine it with the plus-que-parfait"
+        ]
+      },
+      "4": {
+        "introduction": "The future perfect (j'aurai fini) describes an action completed before another future action, using the future of avoir or être plus a participle.",
+        "learningObjectives": [
+          "Form the futur antérieur with the future of avoir/être plus a participle",
+          "Express an action finished before another future one",
+          "Use it after quand and dès que",
+          "Apply participle agreement"
+        ]
+      },
+      "5": {
+        "introduction": "This lesson completes the si-clause system, adding Type 3 (si + plus-que-parfait, conditionnel passé) for unreal past situations alongside the real and hypothetical types.",
+        "learningObjectives": [
+          "Review Type 1 and Type 2 si clauses",
+          "Form Type 3 (si + plus-que-parfait, conditionnel passé)",
+          "Match tenses across all three types",
+          "Express unreal past conditions and regrets"
+        ]
+      },
+      "6": {
+        "introduction": "Certain conjunctions always take the subjunctive — avant que, pour que, bien que, à moins que. Recognising these triggers is central to advanced accuracy.",
+        "learningObjectives": [
+          "Use the subjunctive after avant que and pour que",
+          "Use it after bien que and à moins que",
+          "Distinguish these from indicative conjunctions",
+          "Avoid the subjunctive when the subject does not change"
+        ]
+      },
+      "7": {
+        "introduction": "At C1 the choice between subjunctive and indicative carries real meaning — certainty and fact take the indicative, while doubt, will and emotion take the subjunctive.",
+        "learningObjectives": [
+          "Use the indicative for certainty and fact",
+          "Use the subjunctive for doubt, will and emotion",
+          "Handle verbs that switch by meaning (croire, penser)",
+          "Read the nuance the mood signals"
+        ]
+      },
+      "8": {
+        "introduction": "Beyond qui and que, C1 French uses lequel, auquel, duquel and the neutral ce qui, ce que, ce dont to build precise, complex sentences.",
+        "learningObjectives": [
+          "Use lequel and its contractions (auquel, duquel)",
+          "Use ce qui, ce que and ce dont",
+          "Choose the pronoun by preposition and gender",
+          "Combine clauses elegantly"
+        ]
+      },
+      "9": {
+        "introduction": "French often avoids the passive by using on (on parle français ici). This lesson contrasts the true passive with the very common on construction.",
+        "learningObjectives": [
+          "Form the passive with être plus a participle",
+          "Replace the passive with on",
+          "Choose the more natural French structure",
+          "Introduce the agent with par or de"
+        ]
+      },
+      "10": {
+        "introduction": "Advanced reported speech requires precise tense shifts and changes to time and place words when the reporting verb is in the past.",
+        "learningObjectives": [
+          "Apply full tense shifts in past reporting",
+          "Change time and place expressions",
+          "Report questions, commands and statements",
+          "Maintain coherence across long passages"
+        ]
+      },
+      "11": {
+        "introduction": "The gérondif (en marchant) expresses simultaneous or manner actions, while the participe présent (marchant) can replace a relative clause. Both use the -ant form.",
+        "learningObjectives": [
+          "Form the -ant participle from the nous stem",
+          "Use the gérondif with en for simultaneity",
+          "Use the participe présent to replace qui-clauses",
+          "Distinguish the two constructions"
+        ]
+      },
+      "12": {
+        "introduction": "This lesson builds the vocabulary and structures of formal and professional French — polite formulas, a nominal style and the vous register.",
+        "learningObjectives": [
+          "Use formal politeness formulas",
+          "Prefer a nominal, precise style",
+          "Maintain the vous register consistently",
+          "Write professional emails and requests"
+        ]
+      },
+      "13": {
+        "introduction": "Idiomatic expressions rarely translate word for word (poser un lapin, coûter les yeux de la tête). Recognising them is essential for real understanding.",
+        "learningObjectives": [
+          "Learn common French idioms",
+          "Understand figurative rather than literal meaning",
+          "Use idioms appropriately in context",
+          "Recognise them in speech and writing"
+        ]
+      },
+      "14": {
+        "introduction": "Fixed verb structures like avoir beau, être en train de and venir de add nuance about time and concession that single tenses cannot express.",
+        "learningObjectives": [
+          "Use venir de for the recent past",
+          "Use être en train de for ongoing action",
+          "Use avoir beau to express concession",
+          "Combine these with other tenses"
+        ]
+      },
+      "15": {
+        "introduction": "At C1, prepositions (à, de, en, dans) carry nuanced differences that affect meaning. This lesson focuses on tricky and idiomatic uses.",
+        "learningObjectives": [
+          "Distinguish nuanced uses of à and de",
+          "Choose between en and dans for time and place",
+          "Learn verb + preposition patterns",
+          "Avoid common preposition errors"
+        ]
+      },
+      "16": {
+        "introduction": "Nominalisation turns verbs and adjectives into nouns (développer to le développement), a hallmark of formal and academic French that makes writing denser and more precise.",
+        "learningObjectives": [
+          "Turn verbs and adjectives into nouns",
+          "Recognise common noun-forming suffixes",
+          "Use a nominal style in formal writing",
+          "Reformulate sentences with nominalisation"
+        ]
+      },
+      "17": {
+        "introduction": "Sophisticated connectors (néanmoins, en dépit de, quoique, tandis que) express fine shades of contrast, concession and simultaneity in argumentative writing.",
+        "learningObjectives": [
+          "Use néanmoins and en dépit de for concession",
+          "Use quoique with the subjunctive",
+          "Use tandis que for contrast and simultaneity",
+          "Structure a nuanced argument"
+        ]
+      },
+      "18": {
+        "introduction": "The ne explétif (je crains qu'il ne vienne) is a non-negating ne found after certain verbs and conjunctions. This lesson covers it and other literary negation.",
+        "learningObjectives": [
+          "Recognise the non-negating ne explétif",
+          "Use it after craindre, avant que and à moins que",
+          "Distinguish it from true negation",
+          "Read literary negation forms"
+        ]
+      },
+      "19": {
+        "introduction": "French has clear registers — familier, courant and soutenu — and choosing the right one is a defining C1 skill for social and professional appropriateness.",
+        "learningObjectives": [
+          "Distinguish familier, courant and soutenu registers",
+          "Match register to context and audience",
+          "Adjust vocabulary and structures accordingly",
+          "Recognise register in texts"
+        ]
+      },
+      "20": {
+        "introduction": "False friends look like English words but mean something different (actuellement = currently, not actually). Knowing them prevents common errors.",
+        "learningObjectives": [
+          "Recognise common English-French false friends",
+          "Avoid mistranslating actuellement, sensible and librairie",
+          "Use the correct French meaning",
+          "Spot false friends in context"
+        ]
+      },
+      "21": {
+        "introduction": "This lesson builds the structures of academic and literary French — complex sentences, the passé simple, and precise, abstract vocabulary.",
+        "learningObjectives": [
+          "Read academic and literary registers",
+          "Use complex, subordinated sentences",
+          "Handle abstract and precise vocabulary",
+          "Recognise literary tenses"
+        ]
+      },
+      "22": {
+        "introduction": "Formal French correspondence follows fixed conventions — set opening and closing formulas, the conditional for politeness, and a precise, impersonal tone.",
+        "learningObjectives": [
+          "Use standard opening and closing formulas",
+          "Apply the conditional for polite requests",
+          "Maintain a formal, impersonal tone",
+          "Structure professional letters and emails"
+        ]
+      },
+      "23": {
+        "introduction": "At C1, precision comes from choosing among near-synonyms with different shades of meaning. This lesson sharpens lexical accuracy.",
+        "learningObjectives": [
+          "Distinguish near-synonyms by nuance",
+          "Choose the most precise word",
+          "Expand active vocabulary",
+          "Avoid repetition through variation"
+        ]
+      },
+      "24": {
+        "introduction": "Spotting and correcting errors in French sentences trains the precision needed at C1 — agreement, mood, prepositions and register.",
+        "learningObjectives": [
+          "Identify grammatical errors in sentences",
+          "Correct agreement, mood and tense mistakes",
+          "Explain why a form is wrong",
+          "Self-edit your own writing"
+        ]
+      },
+      "25": {
+        "introduction": "C1 understanding includes cultural and francophone references — from institutions to idioms rooted in history and the wider French-speaking world.",
+        "learningObjectives": [
+          "Recognise key cultural references",
+          "Understand francophone diversity",
+          "Interpret culturally loaded expressions",
+          "Connect language to context"
+        ]
+      },
+      "26": {
+        "introduction": "This review consolidates the whole C1 syllabus — literary tenses, the full subjunctive, advanced pronouns, register and nuanced vocabulary.",
+        "learningObjectives": [
+          "Revise literary and compound tenses",
+          "Consolidate subjunctive usage",
+          "Apply advanced pronouns and connectors",
+          "Test register and nuanced vocabulary"
+        ]
+      }
     }
   },
   "german": {
@@ -945,6 +1181,242 @@
           "Use Konjunktiv II and the passive"
         ]
       }
+    },
+    "c1": {
+      "1": {
+        "introduction": "Futur II (er wird gegangen sein) expresses an assumption about the past or an action completed by a future point, combining werden, a participle and haben or sein.",
+        "learningObjectives": [
+          "Form Futur II with werden plus a participle plus haben/sein",
+          "Express completed future actions",
+          "Use it for assumptions about the past",
+          "Choose the correct auxiliary"
+        ]
+      },
+      "2": {
+        "introduction": "Konjunktiv I (er sei, er habe, er komme) marks indirect speech in formal and written German, especially journalism, keeping the reporter neutral.",
+        "learningObjectives": [
+          "Form Konjunktiv I for indirect speech",
+          "Use er sei, er habe and er komme",
+          "Apply it in reported statements and news",
+          "Switch to Konjunktiv II when forms coincide"
+        ]
+      },
+      "3": {
+        "introduction": "Advanced Konjunktiv II uses genuine one-word subjunctive forms (käme, gäbe, wüsste) rather than würde, which is preferred in more formal style.",
+        "learningObjectives": [
+          "Form irregular Konjunktiv II (käme, gäbe, wüsste)",
+          "Prefer one-word forms in formal style",
+          "Use them for hypotheticals and politeness",
+          "Contrast them with the würde form"
+        ]
+      },
+      "4": {
+        "introduction": "The past Konjunktiv II (hätte gemacht, wäre gegangen) expresses unreal past situations and regrets, using hätte or wäre plus a participle.",
+        "learningObjectives": [
+          "Form the past Konjunktiv II with hätte/wäre plus a participle",
+          "Express unreal past situations",
+          "Use it for regret (ich hätte ... sollen)",
+          "Combine it with wenn-clauses"
+        ]
+      },
+      "5": {
+        "introduction": "This lesson unites all conditional types — real (wenn + present), unreal present (Konjunktiv II) and unreal past (past Konjunktiv II).",
+        "learningObjectives": [
+          "Form real conditionals with the present",
+          "Form unreal present conditionals with Konjunktiv II",
+          "Form unreal past conditionals with hätte/wäre",
+          "Match tenses across the types"
+        ]
+      },
+      "6": {
+        "introduction": "Partizipialattribute pack a whole clause into an extended adjective phrase before the noun (das gestern gekaufte Buch), a hallmark of written German.",
+        "learningObjectives": [
+          "Read extended participial attributes",
+          "Build them from relative clauses",
+          "Place the phrase correctly before the noun",
+          "Decline the participle as an adjective"
+        ]
+      },
+      "7": {
+        "introduction": "Nominalisierung turns verbs and adjectives into nouns (entwickeln to die Entwicklung), giving the dense, formal style typical of academic German.",
+        "learningObjectives": [
+          "Turn verbs and adjectives into nouns",
+          "Recognise noun-forming suffixes (-ung, -keit, -heit)",
+          "Use a nominal style in formal writing",
+          "Reformulate clauses as noun phrases"
+        ]
+      },
+      "8": {
+        "introduction": "German distinguishes the process passive (Vorgangspassiv, wird gebaut) from the state passive (Zustandspassiv, ist gebaut), and can combine the passive with modal verbs.",
+        "learningObjectives": [
+          "Contrast Vorgangspassiv and Zustandspassiv",
+          "Form the passive with modal verbs",
+          "Use werden vs sein correctly",
+          "Introduce the agent with von or durch"
+        ]
+      },
+      "9": {
+        "introduction": "Advanced genitive use centres on prepositions like trotz, wegen, während and statt, which govern the genitive in careful, formal German.",
+        "learningObjectives": [
+          "Use genitive prepositions (trotz, wegen, während, statt)",
+          "Form correct genitive articles and endings",
+          "Recognise dative use in casual speech",
+          "Write in a formal genitive style"
+        ]
+      },
+      "10": {
+        "introduction": "Relative clauses with was, wo and prepositional forms (worüber, wofür) refer to whole ideas or things, extending precision at C1.",
+        "learningObjectives": [
+          "Use was to refer to whole clauses",
+          "Use wo-compounds (worüber, wofür)",
+          "Choose relative pronouns after prepositions",
+          "Build precise complex sentences"
+        ]
+      },
+      "11": {
+        "introduction": "Modal verbs can express the speaker's assessment rather than ability — er müsste zu Hause sein, plus dürfte and könnte for speculation.",
+        "learningObjectives": [
+          "Use müsste, dürfte and könnte for speculation",
+          "Distinguish subjective from objective modal use",
+          "Express degrees of certainty",
+          "Interpret modal nuance in context"
+        ]
+      },
+      "12": {
+        "introduction": "Wissenschaftssprache uses a nominal style, the passive and precise connectors to sound objective and formal.",
+        "learningObjectives": [
+          "Use a nominal, impersonal academic style",
+          "Prefer the passive for objectivity",
+          "Employ precise academic connectors",
+          "Structure formal arguments"
+        ]
+      },
+      "13": {
+        "introduction": "Redewendungen carry figurative meanings that don't translate literally (die Daumen drücken, ins Gras beißen). Recognising them is key to fluency.",
+        "learningObjectives": [
+          "Learn common German idioms",
+          "Understand figurative meaning",
+          "Use idioms appropriately",
+          "Recognise them in speech and text"
+        ]
+      },
+      "14": {
+        "introduction": "German separable prefixes (aufstehen) split off, while inseparable ones (verstehen) do not, and prefixes often change a verb's meaning completely.",
+        "learningObjectives": [
+          "Distinguish separable and inseparable prefixes",
+          "Split separable prefixes correctly",
+          "Recognise how prefixes change meaning",
+          "Place separated prefixes at the sentence end"
+        ]
+      },
+      "15": {
+        "introduction": "Many verbs pair with a fixed preposition and case (sich freuen auf, warten auf), which must be memorised as a unit.",
+        "learningObjectives": [
+          "Learn verb + preposition combinations",
+          "Use the correct case after each",
+          "Form da- and wo-compounds",
+          "Use sich freuen auf and über correctly"
+        ]
+      },
+      "16": {
+        "introduction": "Functional verb structures (in Betracht ziehen, zur Verfügung stehen) combine a noun and a light verb, common in formal and bureaucratic German.",
+        "learningObjectives": [
+          "Use common Nomen-Verb-Verbindungen",
+          "Recognise the light-verb pattern",
+          "Prefer them in formal registers",
+          "Match them to simple-verb equivalents"
+        ]
+      },
+      "17": {
+        "introduction": "Sophisticated connectors (dennoch, infolgedessen, zumal, insofern) express nuanced contrast, consequence and reason in formal writing.",
+        "learningObjectives": [
+          "Use dennoch for concession",
+          "Use infolgedessen for consequence",
+          "Use zumal and insofern precisely",
+          "Structure nuanced arguments"
+        ]
+      },
+      "18": {
+        "introduction": "Cohesion devices (derjenige, solch-, dies-) link sentences and avoid repetition, giving written German its tight structure.",
+        "learningObjectives": [
+          "Use derjenige, solch- and dies- for reference",
+          "Avoid repetition across sentences",
+          "Build cohesive paragraphs",
+          "Track references in long texts"
+        ]
+      },
+      "19": {
+        "introduction": "Academic German relies on complex sentences, nominalisation and hedging to present arguments objectively.",
+        "learningObjectives": [
+          "Structure academic paragraphs",
+          "Use a nominal and passive style",
+          "Hedge claims appropriately",
+          "Signpost an argument"
+        ]
+      },
+      "20": {
+        "introduction": "Formal business correspondence follows fixed conventions — set salutations, the Konjunktiv for politeness, and a precise, impersonal tone.",
+        "learningObjectives": [
+          "Use standard business salutations and closings",
+          "Apply the Konjunktiv for polite requests",
+          "Maintain a formal, impersonal tone",
+          "Write professional emails and letters"
+        ]
+      },
+      "21": {
+        "introduction": "Flavouring particles (doch, mal, ja, eben, halt, schon) add tone and attitude that are hard to translate but essential to natural German.",
+        "learningObjectives": [
+          "Use doch, mal, ja and schon for tone",
+          "Understand each particle's nuance",
+          "Add attitude to statements and requests",
+          "Recognise particles in speech"
+        ]
+      },
+      "22": {
+        "introduction": "German varies across Austria, Switzerland and northern versus southern Germany in vocabulary, pronunciation and some grammar.",
+        "learningObjectives": [
+          "Recognise Austrian and Swiss variants",
+          "Note north-south vocabulary differences",
+          "Understand regional greetings",
+          "Adapt to standard vs regional forms"
+        ]
+      },
+      "23": {
+        "introduction": "C1 precision comes from choosing among near-synonyms and nuanced abstract vocabulary.",
+        "learningObjectives": [
+          "Distinguish near-synonyms by nuance",
+          "Use precise abstract vocabulary",
+          "Expand active vocabulary",
+          "Vary word choice to avoid repetition"
+        ]
+      },
+      "24": {
+        "introduction": "Identifying and correcting errors trains C1 precision in case, word order, mood and prepositions.",
+        "learningObjectives": [
+          "Identify grammatical errors",
+          "Correct case, order and mood mistakes",
+          "Explain why a form is wrong",
+          "Self-edit your writing"
+        ]
+      },
+      "25": {
+        "introduction": "Schachtelsätze nest multiple clauses within one sentence, a feature of formal German that demands careful verb placement.",
+        "learningObjectives": [
+          "Read and build nested clauses",
+          "Place verbs correctly at clause ends",
+          "Manage multiple subordinate clauses",
+          "Keep long sentences clear"
+        ]
+      },
+      "26": {
+        "introduction": "This review consolidates the C1 syllabus — advanced tenses and moods, the passive, nominalisation, connectors and register.",
+        "learningObjectives": [
+          "Revise Konjunktiv I and II and Futur II",
+          "Consolidate the advanced passive and genitive",
+          "Apply nominalisation and connectors",
+          "Test register and nuanced vocabulary"
+        ]
+      }
     }
   },
   "spanish": {
@@ -1417,6 +1889,242 @@
           "Consolidate object pronouns and por vs para",
           "Apply the subjunctive for wishes and doubt",
           "Test B1 vocabulary across themes"
+        ]
+      }
+    },
+    "c1": {
+      "1": {
+        "introduction": "The pluperfect (había hablado) describes an action completed before another past action, formed with the imperfect of haber plus a participle.",
+        "learningObjectives": [
+          "Form the pluperfect with había plus a participle",
+          "Express an action prior to another past event",
+          "Combine it with the preterite",
+          "Use irregular participles"
+        ]
+      },
+      "2": {
+        "introduction": "The past perfect subjunctive (hubiera/hubiese hablado) expresses unreal past actions, common in Type 3 conditionals and expressions of regret.",
+        "learningObjectives": [
+          "Form it with hubiera/hubiese plus a participle",
+          "Use it for unreal past situations",
+          "Apply it in si clauses",
+          "Express regret and the hypothetical past"
+        ]
+      },
+      "3": {
+        "introduction": "The conditional perfect (habría hablado) expresses what would have happened and pairs with the past perfect subjunctive in unreal past conditionals.",
+        "learningObjectives": [
+          "Form the conditional perfect with habría plus a participle",
+          "Express unreal past outcomes",
+          "Pair it with hubiera in si clauses",
+          "Use it for past speculation"
+        ]
+      },
+      "4": {
+        "introduction": "The future perfect (habré hablado) describes an action finished before a future point, or a supposition about the recent past.",
+        "learningObjectives": [
+          "Form the future perfect with habré plus a participle",
+          "Express completed future actions",
+          "Use it for suppositions about the past",
+          "Combine it with cuando"
+        ]
+      },
+      "5": {
+        "introduction": "This lesson completes the si-clause system, adding the unreal past type (si + pluperfect subjunctive, conditional perfect) to the real and hypothetical types.",
+        "learningObjectives": [
+          "Review real and unreal present si clauses",
+          "Form the unreal past (si hubiera..., habría...)",
+          "Match tenses across all types",
+          "Express past regrets and hypotheticals"
+        ]
+      },
+      "6": {
+        "introduction": "Certain conjunctions always take the subjunctive — antes de que, para que, a menos que — while others take it only for future or hypothetical events.",
+        "learningObjectives": [
+          "Use the subjunctive after antes de que and para que",
+          "Use it after a menos que and sin que",
+          "Distinguish always- from sometimes-subjunctive conjunctions",
+          "Use cuando plus the subjunctive for the future"
+        ]
+      },
+      "7": {
+        "introduction": "At C1 the mood conveys real meaning — certainty and fact take the indicative, while doubt, will, emotion and the unknown take the subjunctive.",
+        "learningObjectives": [
+          "Use the indicative for certainty and fact",
+          "Use the subjunctive for doubt, will and emotion",
+          "Handle verbs that switch by meaning",
+          "Read the nuance the mood signals"
+        ]
+      },
+      "8": {
+        "introduction": "Beyond basic rules, ser and estar differ in nuanced cases — passive voice, fixed expressions, and adjectives whose meaning shifts.",
+        "learningObjectives": [
+          "Use ser for the passive and events",
+          "Use estar for results and locations",
+          "Handle nuanced adjective pairs",
+          "Apply fixed expressions with each"
+        ]
+      },
+      "9": {
+        "introduction": "Spanish contrasts the true passive (ser + participle) with the far more common passive se (se venden casas), preferring the latter in most contexts.",
+        "learningObjectives": [
+          "Form the passive with ser plus a participle",
+          "Use the passive se (se + verb)",
+          "Choose the more natural structure",
+          "Agree participles and verbs correctly"
+        ]
+      },
+      "10": {
+        "introduction": "Advanced estilo indirecto requires precise tense and pronoun shifts when the reporting verb is in the past.",
+        "learningObjectives": [
+          "Apply tense shifts in past reporting",
+          "Change pronouns and time expressions",
+          "Report statements, questions and commands",
+          "Maintain coherence across passages"
+        ]
+      },
+      "11": {
+        "introduction": "Relative constructions with el cual, cuyo and lo cual add precision and formality, especially after prepositions or when referring to whole ideas.",
+        "learningObjectives": [
+          "Use el cual after prepositions",
+          "Use cuyo for possession ('whose')",
+          "Use lo cual to refer to a whole idea",
+          "Build precise, formal sentences"
+        ]
+      },
+      "12": {
+        "introduction": "Formal Spanish uses usted, the conditional for politeness, and precise, impersonal structures for professional communication.",
+        "learningObjectives": [
+          "Maintain the usted register",
+          "Use the conditional for polite requests",
+          "Prefer impersonal, precise structures",
+          "Communicate professionally"
+        ]
+      },
+      "13": {
+        "introduction": "Modismos carry figurative meanings that don't translate literally (tomar el pelo, estar en las nubes). Recognising them is key to fluency.",
+        "learningObjectives": [
+          "Learn common Spanish idioms",
+          "Understand figurative meaning",
+          "Use modismos appropriately",
+          "Recognise them in speech and text"
+        ]
+      },
+      "14": {
+        "introduction": "Verb phrases like darse cuenta and ponerse de acuerdo combine a verb with a pronoun or preposition to form fixed, idiomatic meanings.",
+        "learningObjectives": [
+          "Use darse cuenta de and ponerse de acuerdo",
+          "Recognise fixed reflexive verb phrases",
+          "Apply the correct prepositions",
+          "Use them naturally in context"
+        ]
+      },
+      "15": {
+        "introduction": "Many verbs require a fixed preposition (depender de, consistir en, soñar con) that must be learned as a unit.",
+        "learningObjectives": [
+          "Learn verb + preposition patterns",
+          "Use depender de and consistir en",
+          "Avoid English-influenced preposition errors",
+          "Apply prepositions in complex sentences"
+        ]
+      },
+      "16": {
+        "introduction": "Suffixes like -ito, -illo, -ón and -azo add size, affection or intensity, and their use is a subtle, expressive feature of Spanish.",
+        "learningObjectives": [
+          "Form diminutives with -ito and -illo",
+          "Form augmentatives with -ón and -azo",
+          "Convey affection, size or intensity",
+          "Recognise nuance in context"
+        ]
+      },
+      "17": {
+        "introduction": "Nominalización turns verbs and adjectives into nouns (desarrollar to el desarrollo), giving formal and academic Spanish its dense, precise style.",
+        "learningObjectives": [
+          "Turn verbs and adjectives into nouns",
+          "Recognise noun-forming suffixes",
+          "Use a nominal style in formal writing",
+          "Reformulate clauses as noun phrases"
+        ]
+      },
+      "18": {
+        "introduction": "Sophisticated connectors (no obstante, en cuanto a, a pesar de que) express nuanced contrast, topic and concession in formal writing.",
+        "learningObjectives": [
+          "Use no obstante for contrast",
+          "Use en cuanto a to introduce a topic",
+          "Use a pesar de que for concession",
+          "Structure nuanced arguments"
+        ]
+      },
+      "19": {
+        "introduction": "The subjunctive appears alone after ojalá, quizás and tal vez to express wishes and possibility without a main clause.",
+        "learningObjectives": [
+          "Use ojalá plus the subjunctive for wishes",
+          "Use quizás and tal vez plus the subjunctive for possibility",
+          "Contrast indicative and subjunctive after them",
+          "Express degrees of likelihood"
+        ]
+      },
+      "20": {
+        "introduction": "Leísmo, laísmo and loísmo are common regional variations in pronoun use. Understanding standard usage versus these forms sharpens accuracy.",
+        "learningObjectives": [
+          "Understand standard le/lo/la usage",
+          "Recognise leísmo, laísmo and loísmo",
+          "Identify accepted vs non-standard forms",
+          "Use pronouns correctly in writing"
+        ]
+      },
+      "21": {
+        "introduction": "Spanish varies widely — voseo in parts of Latin America, ustedes for all plurals, and vocabulary differences across countries.",
+        "learningObjectives": [
+          "Recognise voseo and its verb forms",
+          "Understand ustedes versus vosotros use",
+          "Note vocabulary differences across regions",
+          "Adapt to standard and regional forms"
+        ]
+      },
+      "22": {
+        "introduction": "This lesson builds the structures of literary and academic Spanish — complex sentences, precise vocabulary and formal tenses.",
+        "learningObjectives": [
+          "Read literary and academic registers",
+          "Use complex, subordinated sentences",
+          "Handle abstract, precise vocabulary",
+          "Recognise formal tenses"
+        ]
+      },
+      "23": {
+        "introduction": "Formal Spanish correspondence follows conventions — set salutations, the conditional for politeness, and a precise, impersonal tone.",
+        "learningObjectives": [
+          "Use standard salutations and closings",
+          "Apply the conditional for polite requests",
+          "Maintain a formal, impersonal tone",
+          "Write professional letters and emails"
+        ]
+      },
+      "24": {
+        "introduction": "At C1, precision comes from choosing among near-synonyms and nuanced abstract vocabulary.",
+        "learningObjectives": [
+          "Distinguish near-synonyms by nuance",
+          "Use precise abstract vocabulary",
+          "Expand active vocabulary",
+          "Vary word choice to avoid repetition"
+        ]
+      },
+      "25": {
+        "introduction": "Identifying and correcting errors trains C1 precision in mood, agreement, prepositions and pronoun use.",
+        "learningObjectives": [
+          "Identify grammatical errors",
+          "Correct mood, agreement and preposition mistakes",
+          "Explain why a form is wrong",
+          "Self-edit your writing"
+        ]
+      },
+      "26": {
+        "introduction": "This review consolidates the C1 syllabus — compound tenses, the full subjunctive, advanced relatives, register and nuanced vocabulary.",
+        "learningObjectives": [
+          "Revise compound and perfect tenses",
+          "Consolidate subjunctive usage",
+          "Apply advanced relatives and connectors",
+          "Test register and nuanced vocabulary"
         ]
       }
     }
