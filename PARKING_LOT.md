@@ -4,6 +4,32 @@ Ideas and tasks to revisit later.
 
 ---
 
+## GSC Re-check After Quiz-Page Enrichment
+
+**Added:** 7 Jul 2026 | **Do around:** early Aug 2026 (after Google recrawls)
+
+Large enrichment + SEO push shipped 7 Jul 2026. Re-check GSC in ~2–6 weeks to measure impact.
+
+### What shipped (all live on `main`)
+- **CEFR enrichment (new):** French/German/Spanish × A1/B1/C1 = **234 weeks** of intro + "What you'll practise" + "Related reading" on previously-thin pages (e.g. `/quiz/french/a1/13` was crawled-not-indexed).
+- **Grade 11–12 objectives polish:** 612 weeks across physics/chemistry/biology/maths-higher/maths/English regenerated to natural phrasing.
+- **Internal linking:** quiz→blog "Related reading" on English/Maths/Science/CEFR week pages.
+- **Letter-writing page overhaul** + site-wide OG/title/metadataBase fixes.
+
+### Baseline to compare against (June 2026 export)
+- Indexed: **1,910** pages · Not indexed: **287** (Crawled–not-indexed **186**, 404s **45** [mostly benign `_next` assets]).
+- June performance: 4,375 clicks · 168k impr · 2.60% CTR · pos ~6 (CTR trending up within the month).
+- Thin CEFR deep-week pages were the real crawled-not-indexed subset.
+
+### What to check
+1. **Page indexing report:** has "Crawled – currently not indexed" shrunk? Has the indexed count risen? Are CEFR pages (`/quiz/{french,german,spanish}/{level}/{week}`) now indexed?
+2. **Performance:** total clicks/impressions/CTR vs June; any lift on CEFR + grade 11–12 quiz URLs.
+3. Note anything still stuck for a follow-up pass.
+
+Access: GSC via Claude in Chrome (`sc-domain:thepractiseground.in`). A one-time reminder is scheduled for **4 Aug 2026**.
+
+---
+
 ## Social Media Presence
 
 **Added:** 15 Mar 2026
