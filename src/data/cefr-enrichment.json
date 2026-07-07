@@ -472,5 +472,479 @@
         ]
       }
     }
+  },
+  "german": {
+    "a1": {
+      "1": {
+        "introduction": "Greetings and introductions are your first German conversations — saying hallo, guten Tag and tschüss, and introducing yourself with ich heiße. German separates the formal Sie from the informal du, a choice you make from the very first hello.",
+        "learningObjectives": [
+          "Use hallo, guten Tag, guten Morgen and tschüss",
+          "Introduce yourself with ich heiße or ich bin",
+          "Choose between formal Sie and informal du",
+          "Ask wie heißt du? and wie geht es dir?"
+        ]
+      },
+      "2": {
+        "introduction": "German numbers are regular but read the units before the tens from 21 onward — einundzwanzig is literally 'one-and-twenty'. Numbers are essential for prices, ages, phone numbers and time.",
+        "learningObjectives": [
+          "Count and spell numbers 1 to 100",
+          "Read units before tens (einundzwanzig = 21)",
+          "Use numbers for prices, ages and quantities",
+          "Recognise spoken and written numbers"
+        ]
+      },
+      "3": {
+        "introduction": "Days, months and seasons let you talk about your schedule and the weather. You use am with days (am Montag) and im with months and seasons (im Januar, im Sommer).",
+        "learningObjectives": [
+          "Name the seven days and twelve months",
+          "Talk about the four seasons",
+          "Use am with days and im with months and seasons",
+          "Give dates in German"
+        ]
+      },
+      "4": {
+        "introduction": "German has three genders, so 'the' is der (masculine), die (feminine) or das (neuter), and die for all plurals. The article you learn with a noun tells you its gender.",
+        "learningObjectives": [
+          "Use der, die and das for the three genders",
+          "Use die for all plural nouns",
+          "Learn nouns together with their article",
+          "Recognise gender from the article"
+        ]
+      },
+      "5": {
+        "introduction": "The indefinite article 'a/an' is ein for masculine and neuter nouns and eine for feminine. Its negative form kein means 'not a' or 'no'.",
+        "learningObjectives": [
+          "Use ein for masculine and neuter nouns",
+          "Use eine for feminine nouns",
+          "Form the negative with kein and keine",
+          "Contrast definite and indefinite articles"
+        ]
+      },
+      "6": {
+        "introduction": "Every German noun is masculine, feminine or neuter, and gender affects articles, pronouns and adjective endings. Some endings are reliable — words in -ung and -heit are feminine, -chen are neuter.",
+        "learningObjectives": [
+          "Identify masculine, feminine and neuter nouns",
+          "Use endings like -ung and -heit (feminine) and -chen (neuter) as clues",
+          "Learn each noun with der, die or das",
+          "Remember that all German nouns are capitalised"
+        ]
+      },
+      "7": {
+        "introduction": "German plurals take several forms — adding -e, -er, -n/-en, -s, or an umlaut — so plurals are learned noun by noun. In the plural, the article is always die.",
+        "learningObjectives": [
+          "Recognise the main plural patterns (-e, -er, -n/-en, -s)",
+          "Add umlauts where required (Mann to Männer)",
+          "Use die for all plural nouns",
+          "Learn plurals together with each noun"
+        ]
+      },
+      "8": {
+        "introduction": "Personal pronouns (ich, du, er, sie, es, wir, ihr, sie, Sie) show who is doing the action. German has three words for 'you': informal du and ihr, and formal Sie, always capitalised.",
+        "learningObjectives": [
+          "Match each pronoun to its verb form",
+          "Choose du, ihr or Sie correctly",
+          "Distinguish sie (she/they) from Sie (formal you)",
+          "Use the right pronoun for singular and plural"
+        ]
+      },
+      "9": {
+        "introduction": "Regular German verbs add the endings -e, -st, -t, -en, -t, -en to the stem (mach-, spiel-). This one pattern covers the majority of verbs.",
+        "learningObjectives": [
+          "Conjugate regular verbs in the present tense",
+          "Apply the endings -e, -st, -t, -en, -t, -en",
+          "Form the stem by dropping -en",
+          "Use verbs like machen, spielen and lernen"
+        ]
+      },
+      "10": {
+        "introduction": "Some common verbs change their stem vowel in the du and er/sie/es forms — fahren becomes du fährst, sprechen becomes du sprichst. The endings stay regular.",
+        "learningObjectives": [
+          "Recognise a-ä, e-i and e-ie stem changes",
+          "Apply changes only in the du and er/sie/es forms",
+          "Conjugate fahren, sprechen, lesen and sehen",
+          "Keep the regular endings"
+        ]
+      },
+      "11": {
+        "introduction": "Sein (to be) and haben (to have) are the most important German verbs — irregular, very common, and later used to build the Perfekt tense. Learn their present forms by heart.",
+        "learningObjectives": [
+          "Conjugate sein: bin, bist, ist, sind, seid, sind",
+          "Conjugate haben: habe, hast, hat, haben, habt, haben",
+          "Use haben for possession and age",
+          "Use sein for identity and description"
+        ]
+      },
+      "12": {
+        "introduction": "A handful of high-frequency verbs — gehen, kommen, wissen, werden — appear constantly and don't follow the regular pattern, so they are worth memorising early.",
+        "learningObjectives": [
+          "Conjugate gehen, kommen, wissen and werden",
+          "Use werden for 'to become' and the future",
+          "Recognise these verbs in everyday phrases",
+          "Distinguish them from regular verbs"
+        ]
+      },
+      "13": {
+        "introduction": "The nominative is the case of the subject — the person or thing doing the action. It uses the base article forms der, die, das, and is how every noun is listed in the dictionary.",
+        "learningObjectives": [
+          "Identify the subject of a sentence",
+          "Use nominative articles der, die, das, die",
+          "Use the nominative after sein",
+          "Recognise nominative pronouns"
+        ]
+      },
+      "14": {
+        "introduction": "The accusative marks the direct object — the thing receiving the action. Only the masculine article changes: der becomes den (Ich sehe den Mann).",
+        "learningObjectives": [
+          "Identify the direct object",
+          "Change der to den in the accusative",
+          "Keep die, das and plural die unchanged",
+          "Use accusative pronouns (mich, dich, ihn)"
+        ]
+      },
+      "15": {
+        "introduction": "This topic builds a core set of descriptive adjectives and their opposites (groß/klein, gut/schlecht). Used after sein, adjectives take no ending.",
+        "learningObjectives": [
+          "Learn common adjectives and their opposites",
+          "Use adjectives after sein without endings",
+          "Describe people and things",
+          "Build vocabulary for descriptions"
+        ]
+      },
+      "16": {
+        "introduction": "Colours are everyday adjectives used to describe objects. After a verb like sein they stay unchanged (das Auto ist rot); before a noun they take endings, introduced later.",
+        "learningObjectives": [
+          "Name the common colours in German",
+          "Use colours after sein without endings",
+          "Describe objects by colour",
+          "Combine colours with nouns"
+        ]
+      },
+      "17": {
+        "introduction": "Family vocabulary combines with possessive articles (mein, dein) that follow the ein/eine pattern. This lets you talk about your relatives.",
+        "learningObjectives": [
+          "Name family members in German",
+          "Use possessives mein, meine, dein, deine",
+          "Match possessives to gender and case",
+          "Describe your family"
+        ]
+      },
+      "18": {
+        "introduction": "Food vocabulary supports ordering and talking about meals, often with the verbs essen and trinken (essen is stem-changing). It is practical everyday German.",
+        "learningObjectives": [
+          "Name common foods and drinks",
+          "Use the verbs essen and trinken",
+          "Order food and drink",
+          "Talk about meals and preferences"
+        ]
+      },
+      "19": {
+        "introduction": "German tells the time with Wie spät ist es? and es ist..., using both the everyday half-based system (halb drei = 2:30) and the 24-hour clock for schedules.",
+        "learningObjectives": [
+          "Ask and answer Wie spät ist es?",
+          "Use halb, Viertel and vor/nach",
+          "Read the 24-hour clock",
+          "Say at what time with um"
+        ]
+      },
+      "20": {
+        "introduction": "A fixed set of prepositions — durch, für, gegen, ohne, um — always takes the accusative case, changing der to den after them.",
+        "learningObjectives": [
+          "Learn the accusative prepositions (durch, für, gegen, ohne, um)",
+          "Change articles to the accusative after them",
+          "Use them in common phrases",
+          "Distinguish them from dative prepositions"
+        ]
+      },
+      "21": {
+        "introduction": "Another fixed set — aus, bei, mit, nach, seit, von, zu — always takes the dative, changing der and das to dem and die to der.",
+        "learningObjectives": [
+          "Learn the dative prepositions (aus, bei, mit, nach, seit, von, zu)",
+          "Change articles to the dative after them",
+          "Use common contractions (zum, zur, beim)",
+          "Contrast them with accusative prepositions"
+        ]
+      },
+      "22": {
+        "introduction": "German question words (wer, was, wo, wann, warum, wie) start information questions, with the verb in second position. They are essential for everyday conversation.",
+        "learningObjectives": [
+          "Use wer, was, wo, wann, warum and wie",
+          "Keep the verb in second position",
+          "Ask for people, things, places and reasons",
+          "Form open questions"
+        ]
+      },
+      "23": {
+        "introduction": "Weather is described with es ist (es ist kalt) and es plus a verb (es regnet, es schneit). This lets you talk about conditions and the seasons.",
+        "learningObjectives": [
+          "Answer Wie ist das Wetter?",
+          "Use es ist plus an adjective for conditions",
+          "Use es regnet and es schneit",
+          "Link weather to the seasons"
+        ]
+      },
+      "24": {
+        "introduction": "Clothing vocabulary combines with shopping phrases and the verb tragen (to wear, stem-changing). You will ask for prices and sizes.",
+        "learningObjectives": [
+          "Name common items of clothing",
+          "Use tragen (to wear) and kaufen (to buy)",
+          "Ask about price and size",
+          "Handle a simple shopping conversation"
+        ]
+      },
+      "25": {
+        "introduction": "Modal verbs (können, müssen, wollen, dürfen, sollen, mögen) express ability, necessity and wishes. They send the main verb, as an infinitive, to the end of the sentence.",
+        "learningObjectives": [
+          "Conjugate the six modal verbs",
+          "Send the second verb to the end as an infinitive",
+          "Express ability, necessity and permission",
+          "Use ich möchte for polite wishes"
+        ]
+      },
+      "26": {
+        "introduction": "This review pulls together the A1 syllabus — articles, gender, present-tense verbs, the nominative and accusative cases, and everyday vocabulary — before moving to B1.",
+        "learningObjectives": [
+          "Revise the three genders and their articles",
+          "Consolidate present-tense conjugation",
+          "Apply the nominative and accusative cases",
+          "Test A1 vocabulary across topics"
+        ]
+      }
+    },
+    "b1": {
+      "1": {
+        "introduction": "The Perfekt is the main spoken past tense, formed with haben plus a past participle at the end of the sentence. Regular participles follow ge-...-t (gemacht), and many strong verbs use ge-...-en.",
+        "learningObjectives": [
+          "Form the Perfekt with haben plus a past participle",
+          "Build regular participles (ge-...-t)",
+          "Learn strong participles (gegessen, gesehen)",
+          "Place the participle at the end"
+        ]
+      },
+      "2": {
+        "introduction": "Verbs of movement or change of state form the Perfekt with sein instead of haben (ich bin gegangen). Learning which verbs take sein is a key B1 step.",
+        "learningObjectives": [
+          "Identify verbs that take sein (movement, change of state)",
+          "Form the Perfekt with sein plus a participle",
+          "Use gegangen, gefahren and gekommen",
+          "Distinguish sein and haben verbs"
+        ]
+      },
+      "3": {
+        "introduction": "In writing and with a few common verbs German prefers the Präteritum (simple past). Sein, haben and the modal verbs use this tense even in speech (war, hatte, konnte).",
+        "learningObjectives": [
+          "Conjugate war (sein) and hatte (haben)",
+          "Form the Präteritum of modal verbs",
+          "Use these forms in everyday speech",
+          "Recognise the written past tense"
+        ]
+      },
+      "4": {
+        "introduction": "The Präteritum is the standard past tense in narratives and writing. Regular verbs add -te (machte); strong verbs change their stem vowel (ging, kam, sah).",
+        "learningObjectives": [
+          "Form the regular Präteritum with -te endings",
+          "Learn strong-verb stem changes (gehen to ging)",
+          "Use the tense for written narration",
+          "Contrast Präteritum with Perfekt"
+        ]
+      },
+      "5": {
+        "introduction": "The Plusquamperfekt ('had done') describes an action before another past action, using the Präteritum of haben or sein plus a participle (ich hatte gegessen).",
+        "learningObjectives": [
+          "Form the Plusquamperfekt with hatte or war plus a participle",
+          "Express an action prior to another past event",
+          "Combine it with nachdem clauses",
+          "Apply the correct auxiliary"
+        ]
+      },
+      "6": {
+        "introduction": "The future tense uses werden plus an infinitive at the end (ich werde lernen). It expresses future plans and predictions, though the present often covers the near future.",
+        "learningObjectives": [
+          "Form Futur I with werden plus an infinitive",
+          "Place the infinitive at the end",
+          "Express plans and predictions",
+          "Compare it with the present for the future"
+        ]
+      },
+      "7": {
+        "introduction": "The dative marks the indirect object — the recipient — and follows certain verbs (helfen, danken) and prepositions. Articles become dem, der, dem and den, and plural nouns add -n.",
+        "learningObjectives": [
+          "Identify the indirect object",
+          "Use dative articles dem, der, dem, den",
+          "Learn dative verbs like helfen and danken",
+          "Add -n to plural nouns in the dative"
+        ]
+      },
+      "8": {
+        "introduction": "The genitive shows possession ('of the'), using des/der/des/der and adding -s or -es to masculine and neuter nouns (das Auto des Mannes). It is common in formal and written German.",
+        "learningObjectives": [
+          "Use genitive articles des, der, des, der",
+          "Add -s or -es to masculine and neuter nouns",
+          "Express possession and 'of' relationships",
+          "Use genitive prepositions (wegen, während, trotz)"
+        ]
+      },
+      "9": {
+        "introduction": "Nine prepositions (in, an, auf, über, unter, vor, hinter, neben, zwischen) take the accusative for movement toward a place and the dative for a fixed location — Wohin? versus Wo?.",
+        "learningObjectives": [
+          "Learn the nine two-way prepositions",
+          "Use the accusative for movement (Wohin?)",
+          "Use the dative for location (Wo?)",
+          "Form contractions like ins, im, ans, am"
+        ]
+      },
+      "10": {
+        "introduction": "Adjectives before a noun take endings that depend on the article type (strong, weak or mixed) and the case. Mastering these endings is a defining B1 skill.",
+        "learningObjectives": [
+          "Choose weak endings after definite articles",
+          "Choose mixed endings after ein-words",
+          "Use strong endings with no article",
+          "Match endings to gender, case and number"
+        ]
+      },
+      "11": {
+        "introduction": "Comparatives add -er (schneller) and superlatives use am ...-sten (am schnellsten). Common words are irregular (gut, besser, am besten).",
+        "learningObjectives": [
+          "Form comparatives with -er",
+          "Form superlatives with am ...-sten",
+          "Use als for comparisons (schneller als)",
+          "Learn irregular forms (gut, viel, gern)"
+        ]
+      },
+      "12": {
+        "introduction": "Reflexive verbs use a reflexive pronoun that refers back to the subject (ich wasche mich). Some take the accusative, some the dative, and many describe feelings or daily routine.",
+        "learningObjectives": [
+          "Use accusative reflexive pronouns (mich, dich, sich)",
+          "Conjugate verbs like sich waschen and sich freuen",
+          "Recognise dative reflexives",
+          "Describe routines and feelings"
+        ]
+      },
+      "13": {
+        "introduction": "Konjunktiv II expresses hypotheticals, wishes and politeness, most often with würde plus an infinitive, plus the common forms wäre and hätte.",
+        "learningObjectives": [
+          "Form Konjunktiv II with würde plus an infinitive",
+          "Use wäre and hätte",
+          "Make polite requests (könnten Sie...)",
+          "Express wishes and hypotheticals"
+        ]
+      },
+      "14": {
+        "introduction": "Unreal 'if' sentences pair a wenn-clause in Konjunktiv II with a main clause using würde or a subjunctive form (Wenn ich Zeit hätte, würde ich kommen).",
+        "learningObjectives": [
+          "Build unreal conditionals with wenn plus Konjunktiv II",
+          "Use würde in the main clause",
+          "Express unreal present and past conditions",
+          "Order the clauses correctly"
+        ]
+      },
+      "15": {
+        "introduction": "Relative clauses add information about a noun using relative pronouns (der, die, das) whose form depends on gender and case. The verb goes to the end of the clause.",
+        "learningObjectives": [
+          "Choose relative pronouns by gender and case",
+          "Send the verb to the end of the clause",
+          "Use commas to set off the clause",
+          "Combine two sentences into one"
+        ]
+      },
+      "16": {
+        "introduction": "The passive uses werden plus a past participle to focus on the action rather than the doer (das Haus wird gebaut). The agent, if named, follows von.",
+        "learningObjectives": [
+          "Form the passive with werden plus a participle",
+          "Focus on the action, not the doer",
+          "Introduce the agent with von",
+          "Use the passive in different tenses"
+        ]
+      },
+      "17": {
+        "introduction": "Infinitive clauses with zu (ich hoffe, dich zu sehen) let you link ideas without a new subject. The construction um...zu expresses purpose.",
+        "learningObjectives": [
+          "Form infinitive clauses with zu",
+          "Use um...zu to express purpose",
+          "Place zu plus the infinitive at the end",
+          "Recognise verbs that trigger zu-clauses"
+        ]
+      },
+      "18": {
+        "introduction": "Subordinate clauses introduced by conjunctions like weil, dass or wenn send the conjugated verb to the end of the clause — a core feature of German word order.",
+        "learningObjectives": [
+          "Introduce clauses with weil, dass, wenn and ob",
+          "Send the conjugated verb to the end",
+          "Punctuate with a comma",
+          "Combine main and subordinate clauses"
+        ]
+      },
+      "19": {
+        "introduction": "This topic focuses on the verb-final rule and how the whole sentence reorders when a subordinate clause comes first, requiring inversion in the main clause.",
+        "learningObjectives": [
+          "Apply the verb-final rule in subordinate clauses",
+          "Invert the main clause when the sub-clause comes first",
+          "Place separable prefixes correctly",
+          "Order multiple verbs at the end"
+        ]
+      },
+      "20": {
+        "introduction": "German distinguishes coordinating conjunctions (und, aber, oder, denn), which keep normal word order, from subordinating ones (weil, obwohl), which send the verb to the end.",
+        "learningObjectives": [
+          "Use coordinating conjunctions (und, aber, oder, denn)",
+          "Keep normal word order after them",
+          "Use subordinating conjunctions (weil, obwohl, dass)",
+          "Send the verb to the end after subordinators"
+        ]
+      },
+      "21": {
+        "introduction": "Adverbs describe how, when and where, and German orders them by the rule time-manner-place. Their position affects emphasis.",
+        "learningObjectives": [
+          "Use adverbs of time, manner and place",
+          "Order them time-manner-place",
+          "Use common adverbs (immer, oft, gestern)",
+          "Position adverbs for emphasis"
+        ]
+      },
+      "22": {
+        "introduction": "This topic builds vocabulary for trips and transport, alongside the prepositions mit (by, with the dative) and nach or zu for destinations.",
+        "learningObjectives": [
+          "Use travel and transport vocabulary",
+          "Say mit dem Zug and mit dem Bus",
+          "Use nach for cities and countries and zu for places",
+          "Ask for and follow directions"
+        ]
+      },
+      "23": {
+        "introduction": "Health vocabulary lets you describe symptoms and visit a doctor, often using the dative (mir ist schlecht) and body-part words.",
+        "learningObjectives": [
+          "Name parts of the body",
+          "Describe symptoms (ich habe Kopfschmerzen)",
+          "Use dative expressions like mir tut ... weh",
+          "Communicate at the doctor's or pharmacy"
+        ]
+      },
+      "24": {
+        "introduction": "Professional vocabulary covers jobs and workplaces. German states a profession without an article (ich bin Lehrer) and forms feminine titles with -in (Lehrerin).",
+        "learningObjectives": [
+          "Name jobs and workplaces",
+          "State a profession without an article",
+          "Form feminine job titles with -in",
+          "Talk about tasks and careers"
+        ]
+      },
+      "25": {
+        "introduction": "A group of masculine nouns (der Junge, der Student) add -n or -en in every case except the nominative singular. These 'weak nouns' are a classic B1 detail.",
+        "learningObjectives": [
+          "Identify N-declension (weak) masculine nouns",
+          "Add -n or -en outside the nominative singular",
+          "Use them correctly in all four cases",
+          "Learn common examples (Junge, Student, Herr)"
+        ]
+      },
+      "26": {
+        "introduction": "This review consolidates the B1 syllabus — the past tenses, all four cases, adjective endings, subordinate clauses and Konjunktiv II — before moving toward C1.",
+        "learningObjectives": [
+          "Revise Perfekt, Präteritum and Plusquamperfekt",
+          "Consolidate the four cases and adjective endings",
+          "Apply subordinate-clause word order",
+          "Use Konjunktiv II and the passive"
+        ]
+      }
+    }
   }
 }
