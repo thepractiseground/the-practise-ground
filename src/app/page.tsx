@@ -390,15 +390,17 @@ export default function Home() {
               <h2 className="text-2xl sm:text-3xl font-bold text-white">Language Quizzes</h2>
             </div>
             <p className="relative z-10 text-blue-200 text-sm sm:text-base ml-12">
-              CEFR-aligned grammar quizzes — A1 to C1 levels. Free, no sign-up.
+              CEFR-aligned (A1–C1) grammar quizzes plus CBSE third-language (R3) practice. Free, no sign-up.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { name: "English", emoji: "🇬🇧", href: "/quiz/english", count: cefrEnglishQ, levels: "A2 – B1", color: "from-sky-500 to-blue-600" },
-              { name: "Spanish", emoji: "🇪🇸", href: "/quiz/spanish", count: cefrSpanishQ, levels: "A1 – C1", color: "from-red-500 to-rose-600" },
-              { name: "French", emoji: "🇫🇷", href: "/quiz/french", count: cefrFrenchQ, levels: "A1 – C1", color: "from-blue-500 to-indigo-600" },
-              { name: "German", emoji: "🇩🇪", href: "/quiz/german", count: cefrGermanQ, levels: "A1 – C1", color: "from-yellow-500 to-amber-600" },
+              { name: "English", emoji: "🇬🇧", href: "/quiz/english", count: cefrEnglishQ, levels: "A2 – B1 levels", color: "from-sky-500 to-blue-600" },
+              { name: "Spanish", emoji: "🇪🇸", href: "/quiz/spanish", count: cefrSpanishQ, levels: "A1 – C1 levels", color: "from-red-500 to-rose-600" },
+              { name: "French", emoji: "🇫🇷", href: "/quiz/french", count: cefrFrenchQ, levels: "A1 – C1 levels", color: "from-blue-500 to-indigo-600" },
+              { name: "German", emoji: "🇩🇪", href: "/quiz/german", count: cefrGermanQ, levels: "A1 – C1 levels", color: "from-yellow-500 to-amber-600" },
+              { name: "Hindi", emoji: "🇮🇳", href: "/third-language/hindi/class-6", count: 96, levels: "Class 6 · CBSE R3", color: "from-orange-500 to-rose-600" },
+              { name: "Kannada", emoji: "🇮🇳", href: "/third-language/kannada/class-6", count: 96, levels: "Class 6 · CBSE R3", color: "from-amber-500 to-red-600" },
             ].map((lang) => (
               <Link
                 key={lang.name}
@@ -409,7 +411,7 @@ export default function Home() {
                   <span className="text-2xl">{lang.emoji}</span>
                   <h3 className="text-xl font-bold text-white">{lang.name}</h3>
                 </div>
-                <p className="text-white/90 text-sm mb-1">{lang.levels} levels</p>
+                <p className="text-white/90 text-sm mb-1">{lang.levels}</p>
                 <p className="text-white/75 text-sm mb-3">{lang.count.toLocaleString()}+ questions</p>
                 <div className="flex items-center gap-2 text-white text-sm font-semibold group-hover:gap-3 transition-all">
                   Start Practising

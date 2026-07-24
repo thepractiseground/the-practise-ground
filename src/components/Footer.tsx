@@ -95,8 +95,8 @@ export default function Footer() {
               <details className="group rounded-lg bg-white/5">
                 <summary className="flex items-center gap-2 px-3 py-2.5 cursor-pointer list-none select-none text-sm font-medium text-gray-300 hover:text-white transition-colors">
                   <span>🌍</span>
-                  <span className="flex-1">Languages (CEFR)</span>
-                  <span className="text-[10px] text-gray-500">3 languages</span>
+                  <span className="flex-1">Languages</span>
+                  <span className="text-[10px] text-gray-500">5 languages</span>
                   <svg className="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -110,6 +110,12 @@ export default function Footer() {
                   </Link>
                   <Link href="/quiz/german" className="bg-white/10 hover:bg-yellow-600 hover:text-white text-gray-400 text-xs px-2.5 py-1.5 rounded-md transition-colors">
                     🇩🇪 German
+                  </Link>
+                  <Link href="/third-language/hindi/class-6" className="bg-white/10 hover:bg-orange-500 hover:text-white text-gray-400 text-xs px-2.5 py-1.5 rounded-md transition-colors">
+                    🇮🇳 Hindi (Cl. 6)
+                  </Link>
+                  <Link href="/third-language/kannada/class-6" className="bg-white/10 hover:bg-red-500 hover:text-white text-gray-400 text-xs px-2.5 py-1.5 rounded-md transition-colors">
+                    🇮🇳 Kannada (Cl. 6)
                   </Link>
                 </div>
               </details>
