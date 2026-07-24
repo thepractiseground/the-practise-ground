@@ -1,6 +1,7 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import type { Question } from "@/lib/quiz-data";
+import { recordAttempt, getAttempts } from "@/lib/progress";
 
 interface Props {
   questions: Question[];
@@ -21,6 +22,17 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState<(string | null)[]>(Array(questions.length).fill(null));
   const [finished, setFinished] = useState(false);
+  const [completedCount, setCompletedCount] = useState(0);
+
+  // Record the completion to the browser's local progress (no account, no PII).
+  useEffect(() => {
+    if (!finished) return;
+    const quizPath = sharePath || (subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`);
+    const label = quizLabel ? `${quizLabel} — ${topic}` : `${subject}${grade ? ` Grade ${grade}` : ""} — ${topic}`;
+    recordAttempt({ path: quizPath, label, subject, topic, score, total: questions.length });
+    setCompletedCount(getAttempts().length);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
 
   const q = questions[currentQ];
   const optionLabels = ["A", "B", "C", "D"];
@@ -98,6 +110,15 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
           <button onClick={handleRestart} className="bg-brand-orange text-white px-6 py-3 rounded-xl font-semibold hover:opacity-85 transition-all mb-6">
             Try Again
           </button>
+
+          {completedCount > 0 && (
+            <a
+              href="/my-progress"
+              className="block text-sm text-brand-navy hover:text-brand-orange transition-colors border-t border-gray-100 pt-4"
+            >
+              📈 You&apos;ve completed {completedCount} quiz{completedCount === 1 ? "" : "zes"} on this device — view your progress →
+            </a>
+          )}
         </div>
 
         {/* Share Score Card */}
