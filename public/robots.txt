@@ -13,3 +13,4 @@ Sitemap: https://www.thepractiseground.in/quiz/english/sitemap.xml
 Sitemap: https://www.thepractiseground.in/quiz/french/sitemap.xml
 Sitemap: https://www.thepractiseground.in/quiz/german/sitemap.xml
 Sitemap: https://www.thepractiseground.in/quiz/spanish/sitemap.xml
+Sitemap: https://www.thepractiseground.in/third-language/sitemap.xml

@@ -20,6 +20,7 @@ export default function robots(): MetadataRoute.Robots {
       "https://www.thepractiseground.in/quiz/spanish/sitemap.xml",
       "https://www.thepractiseground.in/quiz/french/sitemap.xml",
       "https://www.thepractiseground.in/quiz/german/sitemap.xml",
+      "https://www.thepractiseground.in/third-language/sitemap.xml",
     ],
   };
 }

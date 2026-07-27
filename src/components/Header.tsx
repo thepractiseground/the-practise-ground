@@ -130,6 +130,14 @@ export default function Header() {
                   🇩🇪 German
                 </Link>
                 <div className="border-t my-2" />
+                <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Third Language (CBSE R3)</div>
+                <Link href="/third-language/hindi/class-6" className="block px-4 py-1.5 text-gray-700 hover:bg-orange-50 hover:text-orange-600 text-sm">
+                  🇮🇳 Hindi — Class 6
+                </Link>
+                <Link href="/third-language/kannada/class-6" className="block px-4 py-1.5 text-gray-700 hover:bg-red-50 hover:text-red-600 text-sm">
+                  🇮🇳 Kannada — Class 6
+                </Link>
+                <div className="border-t my-2" />
                 <div className="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">Maths</div>
                 {[5, 6, 7, 8, 9, 10, 11, 12].map((g) => (
                   <Link key={`maths-${g}`} href={`/quiz/maths/${g}`} className="block px-4 py-1.5 text-gray-700 hover:bg-emerald-50 hover:text-emerald-600 text-sm">
@@ -233,6 +241,17 @@ export default function Header() {
               </Link>
               <Link href="/quiz/german" onClick={closeMenu} className="flex items-center gap-3 text-gray-700 text-sm px-3 py-2.5 rounded-lg hover:bg-yellow-50 hover:text-yellow-700 transition-colors min-h-11">
                 <span className="text-lg">🇩🇪</span> German (A1–C1)
+              </Link>
+            </div>
+          </MobileSection>
+
+          <MobileSection title="🇮🇳 Third Language (CBSE R3)" color="text-orange-600" onNavigate={closeMenu}>
+            <div className="flex flex-col gap-1 pb-2">
+              <Link href="/third-language/hindi/class-6" onClick={closeMenu} className="flex items-center gap-3 text-gray-700 text-sm px-3 py-2.5 rounded-lg hover:bg-orange-50 hover:text-orange-600 transition-colors min-h-11">
+                <span className="text-lg">🇮🇳</span> Hindi — Class 6
+              </Link>
+              <Link href="/third-language/kannada/class-6" onClick={closeMenu} className="flex items-center gap-3 text-gray-700 text-sm px-3 py-2.5 rounded-lg hover:bg-red-50 hover:text-red-600 transition-colors min-h-11">
+                <span className="text-lg">🇮🇳</span> Kannada — Class 6
               </Link>
             </div>
           </MobileSection>
