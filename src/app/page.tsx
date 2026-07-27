@@ -399,8 +399,8 @@ export default function Home() {
               { name: "Spanish", emoji: "🇪🇸", href: "/quiz/spanish", count: cefrSpanishQ, levels: "A1 – C1 levels", color: "from-red-500 to-rose-600" },
               { name: "French", emoji: "🇫🇷", href: "/quiz/french", count: cefrFrenchQ, levels: "A1 – C1 levels", color: "from-blue-500 to-indigo-600" },
               { name: "German", emoji: "🇩🇪", href: "/quiz/german", count: cefrGermanQ, levels: "A1 – C1 levels", color: "from-yellow-500 to-amber-600" },
-              { name: "Hindi", emoji: "🇮🇳", href: "/third-language/hindi/class-6", count: 96, levels: "Class 6 · CBSE R3", color: "from-orange-500 to-rose-600" },
-              { name: "Kannada", emoji: "🇮🇳", href: "/third-language/kannada/class-6", count: 96, levels: "Class 6 · CBSE R3", color: "from-amber-500 to-red-600" },
+              { name: "Hindi", emoji: "🇮🇳", href: "/third-language/hindi", count: 1500, levels: "Classes 6–10 · CBSE R3", color: "from-orange-500 to-rose-600" },
+              { name: "Kannada", emoji: "🇮🇳", href: "/third-language/kannada", count: 1500, levels: "Classes 6–10 · CBSE R3", color: "from-amber-500 to-red-600" },
             ].map((lang) => (
               <Link
                 key={lang.name}
