@@ -20,12 +20,12 @@ export const LANG_INFO: Record<string, {
     color: "from-orange-400 to-rose-500",
     bgColor: "bg-orange-500",
     description:
-      "CBSE-aligned Hindi grammar (व्याकरण) practice for the three-language formula. Covers the core Class 6 syllabus from वर्णमाला to वाक्य rachना, one topic per week.",
+      "CBSE-aligned Hindi grammar (व्याकरण) & vocabulary practice for the three-language formula — Classes 6 to 10. From वर्णमाला and संधि to समास, रस and अलंकार, one topic per week.",
     skills:
-      "Alphabet (वर्णमाला), Noun (संज्ञा), Gender (लिंग), Number (वचन), Pronoun (सर्वनाम), Adjective (विशेषण), Verb (क्रिया), Tense (काल), Case (कारक), Prefix & Suffix (उपसर्ग-प्रत्यय), Synonyms & Antonyms (पर्यायवाची-विलोम), Punctuation & Sentence (विराम चिह्न)",
+      "Alphabet (वर्णमाला), Sandhi (संधि), Noun (संज्ञा), Gender/Number, Pronoun (सर्वनाम), Adjective (विशेषण), Verb (क्रिया), Tense (काल), Case (कारक), Samas (समास), Vachya (वाच्य), Ras (रस), Alankar (अलंकार), Prefix-Suffix, Synonyms & Antonyms, Idioms & Proverbs, and more",
     targetAudience:
-      "CBSE Class 6 students taking Hindi as a second or third language under the NEP three-language formula",
-    classes: ["6"],
+      "CBSE Classes 6–10 students taking Hindi as a second or third language under the NEP three-language formula",
+    classes: ["6", "7", "8", "9", "10"],
   },
   kannada: {
     name: "Kannada",
@@ -34,12 +34,12 @@ export const LANG_INFO: Record<string, {
     color: "from-amber-400 to-red-500",
     bgColor: "bg-red-500",
     description:
-      "CBSE-aligned Kannada grammar (ವ್ಯಾಕರಣ) practice for the three-language formula. Covers the core Class 6 syllabus from ವರ್ಣಮಾಲೆ to ಸಂಧಿ and ವಾಕ್ಯ, one topic per week.",
+      "CBSE-aligned Kannada grammar (ವ್ಯಾಕರಣ) & vocabulary practice for the three-language formula — Classes 6 to 10. From ವರ್ಣಮಾಲೆ and ಸಂಧಿ to ಸಮಾಸ, ಛಂದಸ್ಸು and ಅಲಂಕಾರ, one topic per week.",
     skills:
-      "Alphabet (ವರ್ಣಮಾಲೆ), Noun (ನಾಮಪದ), Gender (ಲಿಂಗ), Number (ವಚನ), Pronoun (ಸರ್ವನಾಮ), Adjective (ಗುಣವಾಚಕ), Verb (ಕ್ರಿಯಾಪದ), Tense (ಕಾಲ), Case (ವಿಭಕ್ತಿ), Sandhi (ಸಂಧಿ), Synonyms & Antonyms, Sentence & Punctuation",
+      "Alphabet (ವರ್ಣಮಾಲೆ), Sandhi (ಸಂಧಿ), Noun (ನಾಮಪದ), Gender/Number, Pronoun (ಸರ್ವನಾಮ), Adjective (ಗುಣವಾಚಕ), Verb (ಕ್ರಿಯಾಪದ), Tense (ಕಾಲ), Vibhakti (ವಿಭಕ್ತಿ), Samasa (ಸಮಾಸ), Alankara (ಅಲಂಕಾರ), Chhandas (ಛಂದಸ್ಸು), Kridanta-Taddhita, Synonyms & Antonyms, Idioms & Proverbs, and more",
     targetAudience:
-      "CBSE Class 6 students taking Kannada as a second or third language under the NEP three-language formula",
-    classes: ["6"],
+      "CBSE Classes 6–10 students taking Kannada as a second or third language under the NEP three-language formula",
+    classes: ["6", "7", "8", "9", "10"],
   },
 };
 

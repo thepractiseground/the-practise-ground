@@ -91,7 +91,7 @@ export default async function ThirdLanguageHubPage({ params }: Props) {
             );
           })}
         </div>
-        <p className="text-sm text-gray-500 mt-6">More classes are being added. Class 6 grammar is live now.</p>
+        <p className="text-sm text-gray-500 mt-6">Classes 6–10 are live — grammar and vocabulary, 12 weekly quizzes each.</p>
       </section>
 
       <script
