@@ -29,6 +29,24 @@ Indian-language grammar (sandhi, pratyaya, vibhakti, agreement, script) is hard 
 ### Open decisions before building
 Board scope (CBSE-only first), exact per-class syllabus/textbooks (e.g. NCERT Hindi Vasant/Durva; Kannada/Marathi state textbooks), Unicode fonts (Noto Sans Kannada/Devanagari), reviewer sourcing, and whether to add text-to-speech audio.
 
+### v2 Audit + Fixes (29 Jul 2026) — READ BEFORE AUTHORING THE NEXT BATCH
+
+Hindi + Kannada Grades 6–10 (3,000 Qs) shipped, then a native-reviewer audit + full programmatic scan found two structural defects. Both fixed and live on `main` (commit `822cad6`). The lessons below are **mandatory authoring standards for every future question batch** (next Indian languages, comprehension weeks, any grade).
+
+**Defect 1 — Answer-key position clustering (the serious one).** In the first cut, option **D was never the correct answer in any of 3,000 questions**, and many weeks had a single letter as the answer for 20–25 of 25 items → trivially gameable (click one position, score 100%). Fix: per-week balanced round-robin so every letter A–D is used and no letter exceeds ~28% of a week.
+→ **Rule:** after authoring, programmatically reassign answer positions per week so A/B/C/D are each used and roughly even (max single-letter share ≤ ~30%). Never ship a week where a letter is unused or dominant.
+
+**Defect 2 — Duplicate questions.** (a) ~683 within-week duplicates / near-identical rewordings (same concept twice) — replaced with distinct application-style items. (b) 8 **cross-grade** duplicates: independent per-grade authoring agents picked the same textbook example (e.g. गिरीश sandhi, धोबी कपड़े धोता है) for two grades.
+→ **Rules:** (i) Within a week, every question must differ in **stem AND option-set** — EXCEPT closed-taxonomy classification items (अव्यय has 4 types, समास 6, ಲಿಂಗ 3…) where the same category labels legitimately recur; there, distinctness must live in the **stem** (different word/example), and do NOT invent wrong distractors just to force a unique option-set. (ii) When authoring per-grade in parallel, run a **cross-grade + cross-language exact/near-duplicate scan afterward** and de-dupe — parallel agents WILL collide on canonical examples. (iii) Never use `....` / `—` / blank filler options. (iv) Prefer application items (sentence-context, error-spotting, sandhi-viccheda, samas-vigraha, derivation) over repeated rote "which type is X?".
+
+**Provenance for keys:** native review remains the correctness gate. This batch went live **without** a re-review round (user decision, 29 Jul). One item is live with a **contested classification** the reviewer should still settle: Kannada G8 wk2 `ಬೆಟ್ಟದ ತಾವರೆ = ಬೆಟ್ಟದಾವರೆ` keyed as **ಗಮಕ ಸಮಾಸ** (textbooks also argue ತತ್ಪುರುಷ). One-line fix if overruled.
+
+**Deferred / open (not blocking):**
+- **~54 "basic example in an advanced week" items** (25 Hindi + 29 Kannada) — a beginner-level example sitting in a Grade 9/10 "गहन/समग्र/ಗಹನ/ಸಮಗ್ರ" week (e.g. `ಮಳೆಗಾಲ` basic sandhi in G10 advanced sandhi). Left live intentionally; generate the targeted shortlist for reviewers to optionally upgrade to harder examples. (~250 other cross-grade repeats are canonical vocab/spiral items — deliberately left; each grade is a standalone quiz.)
+- **Comprehension-based weeks (evergreen wks 24–52)** — still parked; decide based on GSC uptake of the current grammar+vocab set. Grammar/vocab = wks 1–12 per grade are what's live.
+
+**Artifacts:** corrected build JSON in `../_dedup_v2_build/` (top-level project folder); five review workbooks `TPG_ThirdLanguage_Grade{6..10}_ReviewBank_v2_dedup.xlsx` (yellow rows = new/changed questions). Duplicate/position scan scripts were run from `outputs/dedup/` (regenerable).
+
 ---
 
 ## GSC Re-check After Quiz-Page Enrichment

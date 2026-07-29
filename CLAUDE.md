@@ -6,6 +6,12 @@
 This is the non-negotiable quality bar for every TPG task. It applies to:
 - **Quizzes** — every question must have a correct answer that is actually present in the options, exactly 4 unique options, real NCERT/CEFR-aligned content, zero placeholders (no "Option A/B/C/D" strings, no dummy text).
   - **Answer format rule (non-negotiable):** Every `answer` field MUST be a single capital letter `"A"`, `"B"`, `"C"`, or `"D"` — pointing at the zero-indexed position in the `options` array (A=index 0, B=1, C=2, D=3). Never store the answer text itself, never store `"a"`/`" A "`/`"1"`/`"option A"` — the `QuizEngine.tsx` component only accepts the single-letter form. CI enforces this via `scripts/qa-structural-all-files.py` on every PR.
+  - **Question-batch authoring standards (from the Jul 2026 third-language v2 audit — apply to EVERY new batch; details in `PARKING_LOT.md` → "v2 Audit + Fixes"):**
+    1. **Balance answer positions per week** — after authoring, reassign so A/B/C/D are each used and roughly even (max single-letter share ≤ ~30%). Never ship a week where a letter is unused or dominant (the first cut had D never correct and one letter holding 25/25 → gameable).
+    2. **No within-week duplicates** — every question differs in stem AND option-set, except closed-taxonomy classification items (fixed category lists) where distinctness lives in the STEM (different word/example); don't invent wrong distractors just to force a unique option-set.
+    3. **De-dupe across grades/languages** — when authoring per-grade in parallel, run a cross-grade + cross-language duplicate scan afterward; parallel authors WILL collide on canonical examples.
+    4. **Application over rote** — prefer sentence-context, error-spotting, sandhi-viccheda, samas-vigraha, derivation items over repeated "which type is X?".
+    5. **Indian-language keys still need native review** before publish (grammar is error-prone ~5–10%); one contested item is live: Kannada G8 wk2 `ಬೆಟ್ಟದಾವರೆ` (ಗಮಕ vs ತತ್ಪುರುಷ).
 - **Blog posts** — facts must be accurate, citations trustworthy, FAQs answerable, grammar clean.
 - **Images & assets** — no broken links, correct alt text, no misleading visuals.
 - **Data files** — schema valid, structurally consistent (e.g., 25 Qs/week), enrichment complete (intro, objectives, study tips).
