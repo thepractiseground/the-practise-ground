@@ -6833,7 +6833,7 @@
           "answer": "A"
         },
         {
-          "question": "Which is the preterite form of 'compar' for 'ustedes'?",
+          "question": "Which is the preterite form of 'comprar' for 'ustedes'?",
           "options": [
             "comprarán",
             "compraste",
@@ -7046,7 +7046,7 @@
             "seremos",
             "éramos"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "question": "What is 'estar' in the preterite for 'yo'?",
@@ -7141,12 +7141,12 @@
         {
           "question": "Complete: ¿Qué _____ tú cuando ocurrió el accidente?",
           "options": [
-            "hacías",
+            "harías",
             "hiciste",
             "haces",
             "harás"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "question": "Which is the preterite form of 'estar' for 'ellos'?",
@@ -7166,7 +7166,7 @@
             "era",
             "fue"
           ],
-          "answer": "C"
+          "answer": "D"
         }
       ]
     },
@@ -7229,7 +7229,7 @@
           "options": [
             "veré",
             "veo",
-            "ví",
+            "vi",
             "veía"
           ],
           "answer": "D"
@@ -7468,12 +7468,12 @@
             "llovía",
             "llovió"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "question": "Complete: Nosotros _____ (estar) en el restaurante cuando _____ (recibir) la noticia.",
           "options": [
-            "estabamos, recibíamos",
+            "estábamos, recibíamos",
             "estuvimos, recibíamos",
             "estábamos, recibimos",
             "estuvimos, recibimos"
@@ -7494,7 +7494,7 @@
           "question": "Complete: _____ (Ser) las tres cuando ella _____ (salir) de la casa.",
           "options": [
             "Era, salía",
-            "Era, salió",
+            "Eran, salió",
             "Fueron, salió",
             "Fue, salió"
           ],
@@ -7568,7 +7568,7 @@
             "investigaba",
             "investigará"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "question": "Complete: Mientras _____ (esperar) en la cola, _____ (ver) a una amiga antigua.",
