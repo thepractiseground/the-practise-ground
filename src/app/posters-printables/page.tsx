@@ -438,11 +438,20 @@ const posters: Poster[] = [
 
   {
     title: "Distance Formula Practice Pack (Classes 8–12)",
-    description: "Five pages in three levels, from basics to challenge, with worked examples and a full answer key. Pairs with our free distance formula calculator.",
+    description: "Six pages in three levels, from basics to challenge, with worked examples, a full answer key and a pin-up poster. Pairs with our free distance formula calculator.",
     file: "/posters/distance-formula-practice-pack.pdf",
     subject: "Maths",
     tags: ["Coordinate geometry", "Practice", "With answers"],
     classes: [8, 9, 10, 11, 12],
+    isNew: true,
+  },
+  {
+    title: "Distance Formula Poster (Classes 9–12)",
+    description: "One-page noticeboard poster: the distance formula in 2D, from the origin, on a line and in 3D, with a quick example. Scan the QR code for the free calculator.",
+    file: "/posters/distance-formula-poster.pdf",
+    subject: "Maths",
+    tags: ["Coordinate geometry", "Noticeboard poster", "QR code"],
+    classes: [9, 10, 11, 12],
     isNew: true,
   },
   // Physics (Classes 11–12)
