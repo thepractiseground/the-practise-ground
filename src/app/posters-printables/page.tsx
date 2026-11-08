@@ -3,9 +3,9 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Posters & Printables — English, Maths & Science | The Practise Ground",
+  title: "Free Printable Classroom Posters, Classes 6–12 — Maths, Science, English | The Practise Ground",
   description:
-    "Download free educational posters and printables for English grammar, Maths, and Science. Perfect for classrooms, home study, and revision. No sign-up required.",
+    "Free printable posters for classroom noticeboards: Physics, Chemistry, Maths and English formula and grammar charts for Classes 6–12. Print on A4 or A3. No sign-up required.",
   openGraph: {
     title: "Free Posters & Printables — The Practise Ground",
     description:
@@ -24,12 +24,37 @@ type Poster = {
   title: string;
   description: string;
   file: string;
-  subject: "English" | "Maths" | "Science";
+  subject: "English" | "Maths" | "Science" | "Physics" | "Chemistry";
   tags: string[];
+  isNew?: boolean;
 };
 
 const posters: Poster[] = [
   // English
+  {
+    title: "Modal Verbs (Classes 8–9)",
+    description: "Can, may, must, should and their cousins sorted by job: ability, permission, obligation and advice, with a fix-it box for common mistakes. Noticeboard-ready A4.",
+    file: "/posters/english-modal-verbs-poster.pdf",
+    subject: "English",
+    tags: ["Grammar", "Modals", "Noticeboard"],
+    isNew: true,
+  },
+  {
+    title: "Clauses (Class 11)",
+    description: "Independent, noun, adjective and adverb clauses with an example for each and a quick test to spot them. Noticeboard-ready A4.",
+    file: "/posters/english-clauses-poster.pdf",
+    subject: "English",
+    tags: ["Grammar", "Clauses", "Class 11"],
+    isNew: true,
+  },
+  {
+    title: "Active & Passive Voice (Classes 8–10)",
+    description: "How to switch voice in four common tenses, with the three-step method and a worked example. Noticeboard-ready A4.",
+    file: "/posters/english-active-passive-voice-poster.pdf",
+    subject: "English",
+    tags: ["Grammar", "Voice", "Noticeboard"],
+    isNew: true,
+  },
   {
     title: "Letter Writing Pack (Classes 8–10)",
     description: "Blank formal and informal letter templates, a scoring checklist, and six ready-to-use sample letters — complaint, request, letter to the editor, sick leave, invitation and congratulations. 10 print-ready pages with practice prompts.",
@@ -108,6 +133,30 @@ const posters: Poster[] = [
     tags: ["Creative Writing", "Story Writing", "Prompts"],
   },
   // Maths
+  {
+    title: "Quadratic Equations (Classes 10–11)",
+    description: "The standard form, quadratic formula, discriminant and sum and product of roots, with a worked example. Noticeboard-ready A4.",
+    file: "/posters/maths-quadratic-equations-poster.pdf",
+    subject: "Maths",
+    tags: ["Algebra", "Formulas", "Class 10-11"],
+    isNew: true,
+  },
+  {
+    title: "Algebraic Identities (Classes 8–10)",
+    description: "Four key identities, each with a mental-maths example such as 103² and 51² − 49². Noticeboard-ready A4.",
+    file: "/posters/maths-algebraic-identities-poster.pdf",
+    subject: "Maths",
+    tags: ["Algebra", "Identities", "Noticeboard"],
+    isNew: true,
+  },
+  {
+    title: "Volume & Surface Area (Classes 9–10)",
+    description: "Cylinder, cone, sphere and hemisphere formulas with surface areas and a worked example. Noticeboard-ready A4.",
+    file: "/posters/maths-mensuration-volume-poster.pdf",
+    subject: "Maths",
+    tags: ["Mensuration", "Formulas", "Class 9-10"],
+    isNew: true,
+  },
   {
     title: "Geometry Quick-Reference Sheet (Classes 6–9)",
     description: "Angle types and pairs, parallel lines, triangle facts, Pythagoras and triples, quadrilaterals, polygons, circles, congruence and similarity, with worked examples and practice questions. 5 print-ready pages.",
@@ -270,9 +319,80 @@ const posters: Poster[] = [
     subject: "Science",
     tags: ["Physics", "Electricity", "Circuits"],
   },
+
+  // Physics (Classes 11–12)
+  {
+    title: "Equations of Motion (Class 11)",
+    description: "The four constant-acceleration equations, which to pick for each problem, and a worked example. Noticeboard-ready A4.",
+    file: "/posters/physics-equations-of-motion-poster.pdf",
+    subject: "Physics",
+    tags: ["Kinematics", "Formulas", "Class 11"],
+    isNew: true,
+  },
+  {
+    title: "Newton's Laws & Force (Class 11)",
+    description: "Newton's laws, F = ma, momentum, weight and friction in one sheet, with a worked example. Noticeboard-ready A4.",
+    file: "/posters/physics-newtons-laws-force-poster.pdf",
+    subject: "Physics",
+    tags: ["Mechanics", "Formulas", "Class 11"],
+    isNew: true,
+  },
+  {
+    title: "Ohm's Law & Circuits (Classes 10–12)",
+    description: "Ohm's law, electric power and series and parallel resistance with a worked example. Noticeboard-ready A4.",
+    file: "/posters/physics-ohms-law-electricity-poster.pdf",
+    subject: "Physics",
+    tags: ["Electricity", "Formulas", "Class 10-12"],
+    isNew: true,
+  },
+  // Chemistry (Classes 11–12)
+  {
+    title: "The Mole Concept (Class 11)",
+    description: "Moles from mass, particles, gas volume at STP and molarity, with a method and a worked example. Noticeboard-ready A4.",
+    file: "/posters/chemistry-mole-concept-poster.pdf",
+    subject: "Chemistry",
+    tags: ["Mole Concept", "Formulas", "Class 11"],
+    isNew: true,
+  },
+  {
+    title: "Periodic Trends (Class 11)",
+    description: "Atomic radius, ionisation enthalpy, electronegativity and metallic character across periods and down groups. Noticeboard-ready A4.",
+    file: "/posters/chemistry-periodic-trends-poster.pdf",
+    subject: "Chemistry",
+    tags: ["Periodic Table", "Trends", "Class 11"],
+    isNew: true,
+  },
+  {
+    title: "Gas Laws (Class 11)",
+    description: "Boyle's, Charles's and Gay-Lussac's laws and the ideal gas equation, with a worked example. Noticeboard-ready A4.",
+    file: "/posters/chemistry-gas-laws-poster.pdf",
+    subject: "Chemistry",
+    tags: ["Gas Laws", "Formulas", "Class 11"],
+    isNew: true,
+  },
 ];
 
 const subjectConfig = {
+  Physics: {
+    emoji: "⚡",
+    color: "text-sky-600",
+    bgColor: "bg-sky-50",
+    borderColor: "border-sky-200",
+    tagBg: "bg-sky-100 text-sky-700",
+    buttonBg: "bg-sky-600 hover:bg-sky-700",
+    gradient: "from-sky-500 to-blue-500",
+    subtitle: "Classes 10–12",
+  },
+  Chemistry: {
+    emoji: "🧪",
+    color: "text-rose-600",
+    bgColor: "bg-rose-50",
+    borderColor: "border-rose-200",
+    tagBg: "bg-rose-100 text-rose-700",
+    buttonBg: "bg-rose-600 hover:bg-rose-700",
+    gradient: "from-rose-500 to-pink-500",
+    subtitle: "Class 11–12",
+  },
   English: {
     emoji: "📝",
     color: "text-brand-orange",
@@ -303,7 +423,8 @@ const subjectConfig = {
 };
 
 export default function PostersPage() {
-  const subjects = ["English", "Maths", "Science"] as const;
+  const subjects = ["English", "Maths", "Science", "Physics", "Chemistry"] as const;
+  const subjectCounts = subjects.map((sub) => ({ sub, n: posters.filter((p) => p.subject === sub).length }));
 
   return (
     <div className="bg-theme-gradient min-h-screen">
@@ -322,8 +443,19 @@ export default function PostersPage() {
             Posters &amp; <span className="text-brand-orange">Printables</span>
           </h1>
           <p className="text-lg sm:text-xl text-blue-200 max-w-2xl mx-auto">
-            Beautifully designed educational posters for your classroom wall, study desk, or revision folder. Download, print, and learn.
+            Free printable posters for classroom noticeboards, study desks and revision folders. Classes 6 to 12. Download, print, pin up.
           </p>
+          <nav aria-label="Jump to subject" className="mt-8 flex flex-wrap justify-center gap-3">
+            {subjectCounts.map(({ sub, n }) => (
+              <a
+                key={sub}
+                href={`#${sub.toLowerCase()}`}
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-semibold text-sm sm:text-base px-4 py-2 rounded-full border border-white/20 transition-colors"
+              >
+                {subjectConfig[sub].emoji} {sub} <span className="text-white/60 font-normal">({n})</span>
+              </a>
+            ))}
+          </nav>
         </div>
       </section>
 
@@ -336,7 +468,7 @@ export default function PostersPage() {
               <p className="text-gray-500 text-sm mt-1">Posters Available</p>
             </div>
             <div>
-              <p className="text-2xl sm:text-3xl font-bold text-brand-navy">3</p>
+              <p className="text-2xl sm:text-3xl font-bold text-brand-navy">{subjects.length}</p>
               <p className="text-gray-500 text-sm mt-1">Subjects</p>
             </div>
             <div>
@@ -353,10 +485,13 @@ export default function PostersPage() {
         const subjectPosters = posters.filter((p) => p.subject === subject);
 
         return (
-          <section key={subject} className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+          <section key={subject} id={subject.toLowerCase()} className="max-w-6xl mx-auto px-4 sm:px-6 py-12 scroll-mt-20">
             <div className="flex items-center gap-3 mb-8">
               <span className="text-3xl">{config.emoji}</span>
-              <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">{subject}</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy">
+                {subject}
+                {"subtitle" in config && <span className="text-base font-medium text-gray-500"> · {config.subtitle}</span>}
+              </h2>
               <span className={`${config.tagBg} text-sm font-bold px-3 py-1 rounded-full`}>
                 {subjectPosters.length} posters
               </span>
@@ -371,6 +506,9 @@ export default function PostersPage() {
                   >
                     {/* Poster preview */}
                     <div className="relative w-full bg-white border-b border-gray-100" style={{ aspectRatio: "600/848" }}>
+                      {poster.isNew && (
+                        <span className="absolute top-3 right-3 z-10 bg-brand-orange text-white text-xs font-bold px-3 py-1 rounded-full shadow">NEW</span>
+                      )}
                       <Image
                         src={thumbSrc}
                         alt={`${poster.title} — free ${poster.subject.toLowerCase()} poster for classrooms and study`}
@@ -425,7 +563,7 @@ export default function PostersPage() {
               {
                 emoji: "🖨️",
                 title: "Print & Display",
-                desc: "Print on A4 or A3 paper and pin to your classroom wall, study corner, or revision board for quick reference.",
+                desc: "Print on A4 or A3 paper and pin to your classroom noticeboard, study corner, or revision board. Newer posters carry a QR code that opens free practice questions.",
               },
               {
                 emoji: "📖",
