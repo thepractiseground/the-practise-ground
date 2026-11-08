@@ -117,7 +117,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
                 const shareLabel = quizLabel || `Grade ${grade} ${subject}: ${topic}`;
                 const text = `${emoji} I scored ${score}/${questions.length} (${percentage}%) on ${shareLabel}!\n\nCan you beat my score? Try it free:`;
                 const quizPath = sharePath || (subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`);
-                const url = `https://wa.me/?text=${encodeURIComponent(text + "\nhttps://www.thepractiseground.in" + quizPath)}`;
+                const url = `https://wa.me/?text=${encodeURIComponent(text + "\nhttps://www.thepractiseground.in" + quizPath + "?utm_source=whatsapp&utm_medium=social&utm_campaign=quiz_result")}`;
                 window.open(url, "_blank");
               }}
               className="bg-green-500 text-white px-5 py-3 rounded-xl font-semibold hover:bg-green-600 transition-colors inline-flex items-center gap-2"

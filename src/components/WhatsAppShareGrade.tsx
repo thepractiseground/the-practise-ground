@@ -11,7 +11,7 @@ interface WhatsAppShareGradeProps {
 export default function WhatsAppShareGrade({ grade, subject, totalQuestions, totalWeeks, url }: WhatsAppShareGradeProps) {
   const handleShare = () => {
     const text = `Hey! Check out these free Grade ${grade} ${subject} quizzes on The Practise Ground.\n\n${totalWeeks} weekly quizzes with ${totalQuestions.toLocaleString()}+ questions — no sign-up needed!\n\n`;
-    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text + url)}`;
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text + url + (url.includes("?") ? "&" : "?") + "utm_source=whatsapp&utm_medium=social&utm_campaign=grade_share")}`;
     window.open(whatsappUrl, "_blank");
   };
 
