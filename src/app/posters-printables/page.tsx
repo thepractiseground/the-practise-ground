@@ -506,9 +506,6 @@ export default function PostersPage() {
                   >
                     {/* Poster preview */}
                     <div className="relative w-full bg-white border-b border-gray-100" style={{ aspectRatio: "600/848" }}>
-                      {poster.isNew && (
-                        <span className="absolute top-3 right-3 z-10 bg-brand-orange text-white text-xs font-bold px-3 py-1 rounded-full shadow">NEW</span>
-                      )}
                       <Image
                         src={thumbSrc}
                         alt={`${poster.title} — free ${poster.subject.toLowerCase()} poster for classrooms and study`}
@@ -519,7 +516,12 @@ export default function PostersPage() {
                     </div>
 
                     <div className="p-6 flex flex-col flex-1">
-                      <h3 className="text-lg font-bold text-brand-navy mb-2">{poster.title}</h3>
+                      <h3 className="text-lg font-bold text-brand-navy mb-2">
+                        {poster.title}
+                        {poster.isNew && (
+                          <span className="ml-2 align-middle bg-brand-orange text-white text-[10px] font-bold px-2 py-0.5 rounded-full">NEW</span>
+                        )}
+                      </h3>
                       <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">{poster.description}</p>
 
                       {/* Tags */}
