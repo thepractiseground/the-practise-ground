@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/quiz/cbse`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/quiz/icse`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/quiz/cambridge`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/distance-formula-calculator`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/posters-printables`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/fun`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
