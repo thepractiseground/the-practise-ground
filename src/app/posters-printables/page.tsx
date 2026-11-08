@@ -4,9 +4,9 @@ import ClassFilter from "@/components/ClassFilter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Printable Classroom Posters, Classes 6–12 — Maths, Science, English | The Practise Ground",
+  title: "Free Printable Classroom Posters, Classes 6–12 — Maths, Science, Biology, English",
   description:
-    "Free printable posters for classroom noticeboards: Physics, Chemistry, Maths and English formula and grammar charts for Classes 6–12. Print on A4 or A3. No sign-up required.",
+    "Free printable posters for classroom noticeboards: Physics, Chemistry, Biology, Maths and English formula, diagram and grammar charts for Classes 6–12. Print on A4 or A3. No sign-up required.",
   openGraph: {
     title: "Free Posters & Printables — The Practise Ground",
     description:
@@ -25,7 +25,7 @@ type Poster = {
   title: string;
   description: string;
   file: string;
-  subject: "English" | "Maths" | "Science" | "Physics" | "Chemistry";
+  subject: "English" | "Maths" | "Science" | "Physics" | "Chemistry" | "Biology";
   tags: string[];
   classes: number[];
   isNew?: boolean;
@@ -40,7 +40,6 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Grammar", "Parts of Speech", "Noticeboard"],
     classes: [6, 7, 8],
-    isNew: true,
   },
   {
     title: "Tenses at a Glance (Classes 6–8)",
@@ -49,7 +48,6 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Grammar", "Tenses", "Noticeboard"],
     classes: [6, 7, 8],
-    isNew: true,
   },
   {
     title: "Direct & Indirect Speech (Classes 8–10)",
@@ -58,7 +56,6 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Grammar", "Speech", "Noticeboard"],
     classes: [8, 9, 10],
-    isNew: true,
   },
   {
     title: "Subject-Verb Agreement (Classes 8–10)",
@@ -67,7 +64,6 @@ const posters: Poster[] = [
     subject: "English",
     tags: ["Grammar", "Agreement", "Noticeboard"],
     classes: [8, 9, 10],
-    isNew: true,
   },
   {
     title: "Modal Verbs (Classes 8–9)",
@@ -76,7 +72,6 @@ const posters: Poster[] = [
     file: "/posters/english-modal-verbs-poster.pdf",
     subject: "English",
     tags: ["Grammar", "Modals", "Noticeboard"],
-    isNew: true,
   },
   {
     title: "Clauses (Class 11)",
@@ -85,7 +80,6 @@ const posters: Poster[] = [
     file: "/posters/english-clauses-poster.pdf",
     subject: "English",
     tags: ["Grammar", "Clauses", "Class 11"],
-    isNew: true,
   },
   {
     title: "Active & Passive Voice (Classes 8–10)",
@@ -94,7 +88,6 @@ const posters: Poster[] = [
     file: "/posters/english-active-passive-voice-poster.pdf",
     subject: "English",
     tags: ["Grammar", "Voice", "Noticeboard"],
-    isNew: true,
   },
   {
     title: "Letter Writing Pack (Classes 8–10)",
@@ -192,7 +185,6 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Integers", "Rules", "Class 7"],
     classes: [7],
-    isNew: true,
   },
   {
     title: "Area & Perimeter (Classes 6–8)",
@@ -201,7 +193,6 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Mensuration", "Formulas", "Class 6-8"],
     classes: [6, 7, 8],
-    isNew: true,
   },
   {
     title: "Trigonometric Identities (Classes 10–11)",
@@ -210,7 +201,6 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Trigonometry", "Identities", "Class 10-11"],
     classes: [10, 11],
-    isNew: true,
   },
   {
     title: "Differentiation Rules (Classes 11–12)",
@@ -219,7 +209,6 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Calculus", "Formulas", "Class 11-12"],
     classes: [11, 12],
-    isNew: true,
   },
   {
     title: "Integration Formulas (Class 12)",
@@ -228,7 +217,6 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Calculus", "Formulas", "Class 12"],
     classes: [12],
-    isNew: true,
   },
   {
     title: "Quadratic Equations (Classes 10–11)",
@@ -237,7 +225,6 @@ const posters: Poster[] = [
     file: "/posters/maths-quadratic-equations-poster.pdf",
     subject: "Maths",
     tags: ["Algebra", "Formulas", "Class 10-11"],
-    isNew: true,
   },
   {
     title: "Algebraic Identities (Classes 8–10)",
@@ -246,7 +233,6 @@ const posters: Poster[] = [
     file: "/posters/maths-algebraic-identities-poster.pdf",
     subject: "Maths",
     tags: ["Algebra", "Identities", "Noticeboard"],
-    isNew: true,
   },
   {
     title: "Volume & Surface Area (Classes 9–10)",
@@ -255,7 +241,6 @@ const posters: Poster[] = [
     file: "/posters/maths-mensuration-volume-poster.pdf",
     subject: "Maths",
     tags: ["Mensuration", "Formulas", "Class 9-10"],
-    isNew: true,
   },
   {
     title: "Geometry Quick-Reference Sheet (Classes 6–9)",
@@ -377,7 +362,6 @@ const posters: Poster[] = [
     subject: "Science",
     tags: ["Physics", "Formulas", "Class 8-9"],
     classes: [8, 9],
-    isNew: true,
   },
   {
     title: "Forms of Energy",
@@ -460,7 +444,6 @@ const posters: Poster[] = [
     subject: "Physics",
     tags: ["Mechanics", "Formulas", "Class 11"],
     classes: [11, 12],
-    isNew: true,
   },
   {
     title: "Projectile Motion (Class 11)",
@@ -469,7 +452,6 @@ const posters: Poster[] = [
     subject: "Physics",
     tags: ["Kinematics", "Formulas", "Class 11"],
     classes: [11, 12],
-    isNew: true,
   },
   {
     title: "Ray Optics Formulas (Classes 10–12)",
@@ -478,7 +460,6 @@ const posters: Poster[] = [
     subject: "Physics",
     tags: ["Optics", "Formulas", "Class 10-12"],
     classes: [10, 11, 12],
-    isNew: true,
   },
   {
     title: "Equations of Motion (Class 11)",
@@ -487,7 +468,6 @@ const posters: Poster[] = [
     file: "/posters/physics-equations-of-motion-poster.pdf",
     subject: "Physics",
     tags: ["Kinematics", "Formulas", "Class 11"],
-    isNew: true,
   },
   {
     title: "Newton's Laws & Force (Class 11)",
@@ -496,7 +476,6 @@ const posters: Poster[] = [
     file: "/posters/physics-newtons-laws-force-poster.pdf",
     subject: "Physics",
     tags: ["Mechanics", "Formulas", "Class 11"],
-    isNew: true,
   },
   {
     title: "Ohm's Law & Circuits (Classes 10–12)",
@@ -505,7 +484,6 @@ const posters: Poster[] = [
     file: "/posters/physics-ohms-law-electricity-poster.pdf",
     subject: "Physics",
     tags: ["Electricity", "Formulas", "Class 10-12"],
-    isNew: true,
   },
   // Chemistry (Classes 11–12)
   {
@@ -515,7 +493,6 @@ const posters: Poster[] = [
     subject: "Chemistry",
     tags: ["Organic", "Functional Groups", "Class 11-12"],
     classes: [11, 12],
-    isNew: true,
   },
   {
     title: "Types of Chemical Reactions (Classes 9–10)",
@@ -524,7 +501,6 @@ const posters: Poster[] = [
     subject: "Chemistry",
     tags: ["Reactions", "Equations", "Class 9-10"],
     classes: [9, 10],
-    isNew: true,
   },
   {
     title: "Acids, Bases & pH (Classes 10–11)",
@@ -533,7 +509,6 @@ const posters: Poster[] = [
     subject: "Chemistry",
     tags: ["Acids & Bases", "pH", "Class 10-11"],
     classes: [10, 11],
-    isNew: true,
   },
   {
     title: "The Mole Concept (Class 11)",
@@ -542,7 +517,6 @@ const posters: Poster[] = [
     file: "/posters/chemistry-mole-concept-poster.pdf",
     subject: "Chemistry",
     tags: ["Mole Concept", "Formulas", "Class 11"],
-    isNew: true,
   },
   {
     title: "Periodic Trends (Class 11)",
@@ -551,7 +525,6 @@ const posters: Poster[] = [
     file: "/posters/chemistry-periodic-trends-poster.pdf",
     subject: "Chemistry",
     tags: ["Periodic Table", "Trends", "Class 11"],
-    isNew: true,
   },
   {
     title: "Gas Laws (Class 11)",
@@ -560,11 +533,93 @@ const posters: Poster[] = [
     file: "/posters/chemistry-gas-laws-poster.pdf",
     subject: "Chemistry",
     tags: ["Gas Laws", "Formulas", "Class 11"],
+  },
+  // Biology (Classes 7–12)
+  {
+    title: "Cell Structure & Organelles (Classes 9–11)",
+    description: "Nucleus, mitochondria, chloroplast, cell wall and the other organelles, with a quick question. Noticeboard-ready A4.",
+    file: "/posters/biology-cell-structure-poster.pdf",
+    subject: "Biology",
+    tags: ["Cells", "Organelles", "Class 9-11"],
+    classes: [9, 10, 11],
+    isNew: true,
+  },
+  {
+    title: "Photosynthesis (Classes 7–10)",
+    description: "The equation, raw materials, products and stomata, with the starch test. Noticeboard-ready A4.",
+    file: "/posters/biology-photosynthesis-poster.pdf",
+    subject: "Biology",
+    tags: ["Plants", "Equation", "Class 7-10"],
+    classes: [7, 8, 9, 10],
+    isNew: true,
+  },
+  {
+    title: "Respiration & ATP (Classes 10–12)",
+    description: "Aerobic and anaerobic respiration compared, with where each stage happens. Noticeboard-ready A4.",
+    file: "/posters/biology-cellular-respiration-poster.pdf",
+    subject: "Biology",
+    tags: ["Energy", "ATP", "Class 10-12"],
+    classes: [10, 11, 12],
+    isNew: true,
+  },
+  {
+    title: "DNA & Protein Synthesis (Classes 11–12)",
+    description: "Replication, transcription, translation and the codon table basics, with a worked example. Noticeboard-ready A4.",
+    file: "/posters/biology-dna-protein-synthesis-poster.pdf",
+    subject: "Biology",
+    tags: ["Genetics", "DNA", "Class 11-12"],
+    classes: [11, 12],
+    isNew: true,
+  },
+  {
+    title: "Mendel's Laws of Inheritance (Classes 10–12)",
+    description: "Dominance, segregation and independent assortment, with the 3:1 and 9:3:3:1 ratios. Noticeboard-ready A4.",
+    file: "/posters/biology-mendel-genetics-poster.pdf",
+    subject: "Biology",
+    tags: ["Genetics", "Ratios", "Class 10-12"],
+    classes: [10, 11, 12],
+    isNew: true,
+  },
+  {
+    title: "Human Digestive System (Classes 7–10)",
+    description: "Mouth to large intestine, with the enzymes and what each organ does. Noticeboard-ready A4.",
+    file: "/posters/biology-human-digestive-system-poster.pdf",
+    subject: "Biology",
+    tags: ["Human body", "Enzymes", "Class 7-10"],
+    classes: [7, 8, 9, 10],
+    isNew: true,
+  },
+  {
+    title: "Mitosis vs Meiosis (Classes 10–12)",
+    description: "Two ways a cell divides, compared, with the stages of mitosis and crossing over. Noticeboard-ready A4.",
+    file: "/posters/biology-mitosis-meiosis-poster.pdf",
+    subject: "Biology",
+    tags: ["Cell division", "Comparison", "Class 10-12"],
+    classes: [10, 11, 12],
+    isNew: true,
+  },
+  {
+    title: "Biomolecules (Classes 11–12)",
+    description: "Carbohydrates, proteins, lipids and nucleic acids, with the standard food tests. Noticeboard-ready A4.",
+    file: "/posters/biology-biomolecules-poster.pdf",
+    subject: "Biology",
+    tags: ["Biochemistry", "Food tests", "Class 11-12"],
+    classes: [11, 12],
     isNew: true,
   },
 ];
 
 const subjectConfig = {
+  Biology: {
+    emoji: "🌿",
+    color: "text-green-600",
+    bgColor: "bg-green-50",
+    borderColor: "border-green-200",
+    tagBg: "bg-green-100 text-green-700",
+    buttonBg: "bg-green-600 hover:bg-green-700",
+    gradient: "from-green-500 to-lime-500",
+    subtitle: "Classes 7–12",
+  },
   Physics: {
     emoji: "⚡",
     color: "text-sky-600",
@@ -615,7 +670,7 @@ const subjectConfig = {
 };
 
 export default function PostersPage() {
-  const subjects = ["English", "Maths", "Science", "Physics", "Chemistry"] as const;
+  const subjects = ["English", "Maths", "Science", "Physics", "Chemistry", "Biology"] as const;
   const classCounts = [6, 7, 8, 9, 10, 11, 12].map((c) => ({ c, n: posters.filter((p) => p.classes.includes(c)).length }));
   const subjectCounts = subjects.map((sub) => ({ sub, n: posters.filter((p) => p.subject === sub).length }));
 
@@ -637,7 +692,7 @@ export default function PostersPage() {
               Free Posters for Your <span className="text-brand-orange">Classroom Noticeboard</span>
             </h1>
             <p className="text-lg text-blue-100 max-w-xl mx-auto lg:mx-0 mb-7">
-              {posters.length} print-ready posters for Classes 6 to 12. Maths, Science and English formulas and grammar, on one A4 page. Download, print, pin up.
+              {posters.length} print-ready posters for Classes 6 to 12. Maths, Science, Physics, Chemistry, Biology and English formulas, diagrams and grammar, on one A4 page. Download, print, pin up.
             </p>
 
             <p className="text-sm font-semibold text-white/70 uppercase tracking-wide mb-3">Pick your subject</p>
@@ -657,10 +712,10 @@ export default function PostersPage() {
             <ClassFilter counts={classCounts} />
 
             <a
-              href="#physics"
+              href="#biology"
               className="inline-flex items-center gap-2 bg-brand-orange hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-colors"
             >
-              New: Class 11–12 Physics &amp; Chemistry
+              New: Biology posters, Classes 7–12
               <span aria-hidden="true">&darr;</span>
             </a>
           </div>
@@ -731,7 +786,7 @@ export default function PostersPage() {
                     <div className="relative w-full bg-white border-b border-gray-100" style={{ aspectRatio: "600/848" }}>
                       <Image
                         src={thumbSrc}
-                        alt={`${poster.title} — free ${poster.subject.toLowerCase()} poster for classrooms and study`}
+                        alt={`${poster.title}: free printable ${poster.subject} poster (PDF) for classroom noticeboards`}
                         fill
                         className="object-contain"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

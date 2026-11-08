@@ -5245,6 +5245,8 @@ Parts of speech are like the alphabet of grammar. Once you understand what each 
 
 ## What Are Parts of Speech?
 
+![Parts of speech chart: the 8 parts of speech (noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection) with definitions and examples](/images/blog/parts-of-speech-chart.png)
+
 Parts of speech are the different types of words in a sentence. Each word has a job to do. When you understand each word's job, you understand how English works!
 
 ## 1. Noun - The Name Word
@@ -7675,6 +7677,8 @@ The periodic table is a systematic arrangement of all known chemical elements or
 
 ### By Atomic Number (Most Important)
 
+![Atomic structure diagram of carbon-12 showing protons, neutrons, electron shells, atomic number and mass number](/images/blog/atomic-structure-diagram.png)
+
 Elements are arranged from left to right, top to bottom, by increasing atomic number (number of protons in the nucleus).
 
 - Hydrogen (H) = 1 proton
@@ -9053,6 +9057,8 @@ Letters in parentheses show physical states:
 
 ### The Balancing Method (Hit and Trial)
 
+![Balancing chemical equations in 4 steps, with H₂ + O₂ → H₂O balanced as 2H₂ + O₂ → 2H₂O and an atom count table](/images/blog/balancing-chemical-equations-steps.png)
+
 **Step 1:** Count atoms of each element on both sides
 
 **Step 2:** Identify which elements are unbalanced
@@ -9110,6 +9116,8 @@ Balance iron first:
 **Balanced:** 4Fe + 3O₂ → 2Fe₂O₃
 
 ## Types of Chemical Reactions
+
+![Types of chemical reactions chart: combination, decomposition, displacement, double displacement, neutralisation and redox, with general forms and examples](/images/blog/types-of-chemical-reactions-chart.png)
 
 Different reactions follow patterns. Recognizing these patterns helps you predict products.
 
@@ -9762,6 +9770,8 @@ In this guide, we'll explore cell structures, organelles, and the key difference
 
 ## What Is a Cell?
 
+![Animal cell diagram with labelled parts: cell membrane, cytoplasm, nucleus, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosome and ribosomes](/images/blog/animal-cell-diagram.png)
+
 A **cell** is the smallest unit of life that can function independently. All living things are made of one or more cells.
 
 **Cell Theory:**
@@ -9962,6 +9972,8 @@ Besides chloroplasts:
 
 ## Quick Recap: Organelle Functions
 
+![Cell structure and functions chart: nucleus, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosome, chloroplast and vacuole](/images/blog/cell-organelles-and-functions-chart.png)
+
 | Organelle | Present in | Function |
 |-----------|-----------|----------|
 | **Nucleus** | All eukaryotes | Gene control, cell reproduction |
@@ -9976,6 +9988,10 @@ Besides chloroplasts:
 | **Centrioles** | Animals | Cell division organization |
 
 ## Animal Cell vs. Plant Cell: Complete Comparison
+
+![Plant cell vs animal cell comparison chart showing differences in cell wall, shape, chloroplasts, vacuole, nucleus position, centrioles and stored food](/images/blog/plant-cell-vs-animal-cell-comparison.png)
+
+![Plant cell diagram with labelled parts: cell wall, cell membrane, nucleus, chloroplast, large vacuole, mitochondria, cytoplasm and ribosomes](/images/blog/plant-cell-diagram.png)
 
 | Feature | Animal Cell | Plant Cell |
 |---------|-----------|-----------|
