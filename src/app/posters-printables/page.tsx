@@ -109,6 +109,13 @@ const posters: Poster[] = [
   },
   // Maths
   {
+    title: "Trigonometry Quick-Reference Sheet (Classes 9–10)",
+    description: "Sin, cos and tan formulas with SOH-CAH-TOA, the standard-angle values table (0° to 90°), key identities, complementary angles and worked examples with practice questions. 3 print-ready pages.",
+    file: "/posters/trigonometry-quick-reference-sheet.pdf",
+    subject: "Maths",
+    tags: ["Trigonometry", "Formulas", "Exam Prep"],
+  },
+  {
     title: "Split Strategy",
     description: "Break down addition and subtraction into easier steps using the split strategy. A foundational mental maths technique for younger students.",
     file: "/posters/math-split-strategy-poster.pdf",
