@@ -91,6 +91,8 @@ Practice: Try plotting (4, -3), (-1, 2), (0, 5), (-4, 0)
 
 ## Distance Formula
 
+![Distance formula diagram: d = √[(x₂ − x₁)² + (y₂ − y₁)²] shown on a coordinate grid with a worked example](/images/blog/distance-formula-diagram.png)
+
 The distance between two points P(x₁, y₁) and Q(x₂, y₂) is:
 
 **d = √[(x₂ - x₁)² + (y₂ - y₁)²]**
@@ -127,6 +129,8 @@ This is the straight-line distance (as the crow flies).
 
 ## Midpoint Formula
 
+![Midpoint formula diagram: M = ((x₁ + x₂)/2, (y₁ + y₂)/2) on a coordinate plane with a worked example](/images/blog/midpoint-formula-diagram.png)
+
 The midpoint between two points P(x₁, y₁) and Q(x₂, y₂) is:
 
 **M = [(x₁ + x₂)/2, (y₁ + y₂)/2]**
@@ -154,6 +158,8 @@ If you know the endpoints of a diameter of a circle:
 - Center: [(1+7)/2, (3+9)/2] = (4, 6)
 
 ## Straight Lines: The Equation y = mx + c
+
+![Slope and equation of a line diagram: m = rise over run and y = mx + c, with a worked example](/images/blog/slope-and-equation-of-a-line-diagram.png)
 
 A straight line can be represented as: **y = mx + c**
 
@@ -1798,6 +1804,8 @@ Hypotenuse
 
 ## The Three Main Trigonometric Ratios
 
+![SOH CAH TOA right triangle diagram showing sine, cosine and tangent as opposite, adjacent and hypotenuse ratios](/images/blog/soh-cah-toa-right-triangle.png)
+
 Now here comes the magic:
 
 ### SINE (sin θ) = Opposite / Hypotenuse
@@ -1833,6 +1841,8 @@ The 3-4-5 triangle is famous in trigonometry because:
 - These values appear frequently in problems!
 
 ### Standard Angle Values You Should Know
+
+![Sin cos tan values table for 0°, 30°, 45°, 60° and 90°](/images/blog/sin-cos-tan-values-table.png)
 
 These appear constantly in exams (a printable version with cosec, sec and cot is in the [free PDF sheet](/posters/trigonometry-quick-reference-sheet.pdf)):
 
@@ -1935,6 +1945,8 @@ Land surveyors use trigonometry to measure distances and create accurate maps.
 The foundational understanding remains the same across all curricula—master these basics first!
 
 ## Important Relationships (Beyond SOHCAHTOA)
+
+![Trigonometric identities chart: sin²θ + cos²θ = 1 and other key identities for Class 10 and 11](/images/blog/trigonometric-identities-chart.png)
 
 ### Reciprocal Functions
 - **Cosecant (csc)** = 1/sin = Hypotenuse/Opposite
@@ -3435,6 +3447,8 @@ An angle is formed by two rays sharing a common endpoint (vertex).
 
 ## Angle Relationships
 
+![Types of angles chart: acute, right, obtuse, straight, reflex and full turn with their degree ranges](/images/blog/types-of-angles-chart.png)
+
 ### Complementary Angles
 Two angles that add up to 90°
 - Example: 30° + 60° = 90°
@@ -3474,6 +3488,8 @@ If you know two angles, you can always find the third:
 - Example: If two angles are 45° and 65°, the third angle = 180° - 45° - 65° = 70°
 
 ## The Pythagorean Theorem
+
+![Pythagorean theorem diagram: a² + b² = c² with squares on each side of a right-angled triangle](/images/blog/pythagorean-theorem-diagram.png)
 
 One of the most important discoveries in mathematics: In any right-angled triangle, the square of the hypotenuse equals the sum of squares of the other two sides.
 
@@ -3650,6 +3666,8 @@ Short on time? Use this quick-reference template, then read on for full worked e
 
 ## Formal Letter Format
 
+![Formal letter format template with numbered parts: sender's address, date, receiver, subject, salutation, body, close and signature](/images/blog/formal-letter-format-template.png)
+
 ### Structure of a Formal Letter
 
 A formal letter has seven parts:
@@ -3726,6 +3744,8 @@ Then add your name and signature.
     Class 10-A
 
 ## Informal Letter Format
+
+![Informal letter format template for writing to a friend or relative, with each part labelled](/images/blog/informal-letter-format-template.png)
 
 ### Structure of an Informal Letter
 
@@ -4765,6 +4785,8 @@ Subject-verb agreement (also called concord) is one of the most tested grammar t
 
 ## The Basic Rule
 
+![Subject-verb agreement rules chart with singular and plural examples](/images/blog/subject-verb-agreement-rules-chart.png)
+
 **Rule:** The verb in a sentence must agree with the subject in number and person.
 
 **Simple Examples:**
@@ -5696,6 +5718,8 @@ You might wonder: if active voice is simpler, why use passive voice? Here are re
 4. **To shift focus:** "The Taj Mahal was built in 1632" focuses on the monument. "Big Ben was constructed in London" emphasizes the landmark.
 
 ## How to Change Active to Passive
+
+![Active and passive voice chart showing how to change a sentence from active to passive](/images/blog/active-passive-voice-chart.png)
 
 ### Step-by-Step Process
 
