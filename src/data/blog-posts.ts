@@ -91,7 +91,7 @@ Practice: Try plotting (4, -3), (-1, 2), (0, 5), (-4, 0)
 
 ## Distance Formula
 
-![Distance formula diagram: d = √[(x₂ − x₁)² + (y₂ − y₁)²] shown on a coordinate grid with a worked example](/images/blog/distance-formula-diagram.png)
+![Distance formula diagram: d = √((x₂ − x₁)² + (y₂ − y₁)²) shown on a coordinate grid with a worked example](/images/blog/distance-formula-diagram.png)
 
 The distance between two points P(x₁, y₁) and Q(x₂, y₂) is:
 
