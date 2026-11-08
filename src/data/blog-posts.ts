@@ -93,6 +93,8 @@ Practice: Try plotting (4, -3), (-1, 2), (0, 5), (-4, 0)
 
 ![Distance formula diagram: d = √((x₂ − x₁)² + (y₂ − y₁)²) shown on a coordinate grid with a worked example](/images/blog/distance-formula-diagram.png)
 
+**Try it yourself:** the free [Distance Formula Calculator](/distance-formula-calculator) shows every step, plots the points and includes a 3-level practice PDF with answers.
+
 The distance between two points P(x₁, y₁) and Q(x₂, y₂) is:
 
 **d = √[(x₂ - x₁)² + (y₂ - y₁)²]**
