@@ -3596,8 +3596,8 @@ A: It's helpful for calculations, but geometry is about understanding relationsh
   },
   {
     slug: "letter-writing-format-guide",
-    title: "Letter Writing Format (2026): Formal & Informal Letters With Examples",
-    metaDescription: "The exact formal and informal letter writing format — with sample letters, common mistakes to avoid, and a quick-revision checklist for Class 8, 9 & 10 (CBSE, ICSE & Cambridge).",
+    title: "Letter Writing Format (2026): Formal & Informal Letters + Free PDF",
+    metaDescription: "Formal and informal letter format with sample letters, a scoring checklist and a free printable PDF pack for Class 8, 9 & 10 (CBSE, ICSE, Cambridge).",
     keywords: ["formal letter format", "informal letter format", "letter writing english exam", "how to write a letter", "letter writing for students", "format of formal letter", "formal and informal letter format"],
     excerpt: "Letter writing is a regular question in English exams worldwide. This guide teaches you the exact format for formal and informal letters with real examples.",
     author: "The Practise Ground Team",
@@ -3634,6 +3634,8 @@ Short on time? Use this quick-reference template, then read on for full worked e
 4. Body — friendly, flowing paragraphs
 5. Complimentary close — *With love,* or *Your friend,*
 6. Signature — your first name
+
+**Free download:** [Letter Writing Pack (PDF) — blank templates, a scoring checklist and 6 sample letters](/posters/letter-writing-format-pack.pdf). Print it and practise offline.
 
 ## Two Types of Letters
 
@@ -3786,6 +3788,8 @@ Sign your name (first name is fine).
 | **Closing** | Yours faithfully/sincerely | Your friend, With love |
 | **Paragraphs** | Short, focused | Can be longer, personal |
 | **Purpose** | Official/business | Personal communication |
+
+**Test yourself:** once you know the format, check your grammar with a [free English quiz for your grade](/quiz/10) — Grades 8 to 10 are all covered.
 
 ## Types of Formal Letters
 

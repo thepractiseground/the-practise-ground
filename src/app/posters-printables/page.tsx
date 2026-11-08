@@ -31,6 +31,13 @@ type Poster = {
 const posters: Poster[] = [
   // English
   {
+    title: "Letter Writing Pack (Classes 8–10)",
+    description: "Blank formal and informal letter templates, a scoring checklist, and six ready-to-use sample letters — complaint, request, letter to the editor, sick leave, invitation and congratulations. 10 print-ready pages with practice prompts.",
+    file: "/posters/letter-writing-format-pack.pdf",
+    subject: "English",
+    tags: ["Letter Writing", "Exam Prep", "Writing"],
+  },
+  {
     title: "Grammar: Verbs",
     description: "A visual guide to verbs — action words, helping verbs, and how they work in sentences. Great for introducing verb types to younger learners.",
     file: "/posters/english-grammar-verbs-poster.pdf",
