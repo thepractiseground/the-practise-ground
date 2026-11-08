@@ -13,7 +13,7 @@ export default function WhatsAppShareBlog({ title, excerpt, slug, category }: Wh
   const subject = category && mathsCategories.includes(category) ? "Maths" : category && scienceCategories.includes(category) ? "Science" : "English";
 
   const handleShare = () => {
-    const url = `https://www.thepractiseground.in/blog/${slug}`;
+    const url = `https://www.thepractiseground.in/blog/${slug}?utm_source=whatsapp&utm_medium=social&utm_campaign=blog_share`;
     const text = `📖 ${title}\n\n${excerpt}\n\nRead more & practise free ${subject} quizzes:`;
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text + "\n" + url)}`;
     window.open(whatsappUrl, "_blank");
