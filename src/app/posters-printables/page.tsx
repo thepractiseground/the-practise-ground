@@ -109,6 +109,20 @@ const posters: Poster[] = [
   },
   // Maths
   {
+    title: "Geometry Quick-Reference Sheet (Classes 6–9)",
+    description: "Angle types and pairs, parallel lines, triangle facts, Pythagoras and triples, quadrilaterals, polygons, circles, congruence and similarity, with worked examples and practice questions. 5 print-ready pages.",
+    file: "/posters/geometry-quick-reference-sheet.pdf",
+    subject: "Maths",
+    tags: ["Geometry", "Formulas", "Exam Prep"],
+  },
+  {
+    title: "Coordinate Geometry Formula Sheet (Classes 8–10)",
+    description: "Distance, midpoint, slope, equations of lines, parallel and perpendicular rules, section formula, centroid and triangle area, with worked examples and practice questions. 3 print-ready pages.",
+    file: "/posters/coordinate-geometry-formula-sheet.pdf",
+    subject: "Maths",
+    tags: ["Coordinate Geometry", "Formulas", "Exam Prep"],
+  },
+  {
     title: "Trigonometry Quick-Reference Sheet (Classes 9–10)",
     description: "Sin, cos and tan formulas with SOH-CAH-TOA, the standard-angle values table (0° to 90°), key identities, complementary angles and worked examples with practice questions. 3 print-ready pages.",
     file: "/posters/trigonometry-quick-reference-sheet.pdf",
