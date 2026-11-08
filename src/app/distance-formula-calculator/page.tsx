@@ -111,10 +111,16 @@ export default function DistanceFormulaCalculatorPage() {
           <div>
             <h2 className="text-2xl font-bold text-brand-navy mb-2">Free Distance Formula Practice Pack (PDF)</h2>
             <p className="text-gray-700 mb-4">
-              Five pages, from simple to complex. Level 1 covers the basics (Classes 8 and 9). Level 2 uses distances to prove things, such as right triangles, collinear points and squares (Classes 9 and 10). Level 3 is the challenge: equidistant points, 3D and more (Classes 10 to 12). It includes worked examples and a full answer key.
+              Six pages, from simple to complex. Level 1 covers the basics (Classes 8 and 9). Level 2 uses distances to prove things, such as right triangles, collinear points and squares (Classes 9 and 10). Level 3 is the challenge: equidistant points, 3D and more (Classes 10 to 12). It includes worked examples, a full answer key and a one-page poster.
+            </p>
+            <p className="text-gray-700 mb-4">
+              <strong>Print the poster and pin it on your classroom noticeboard.</strong> Students can scan its QR code to check any answer with this calculator.
             </p>
             <a href="/posters/distance-formula-practice-pack.pdf" download className="inline-flex items-center gap-2 bg-brand-orange hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl shadow transition-colors">
               Download the PDF <span aria-hidden="true">↓</span>
+            </a>
+            <a href="/posters/distance-formula-poster.pdf" download className="inline-flex items-center gap-2 ml-0 sm:ml-3 mt-3 sm:mt-0 bg-white hover:bg-orange-100 text-brand-navy border border-brand-navy font-bold px-6 py-3 rounded-xl transition-colors">
+              Poster only (1 page) <span aria-hidden="true">↓</span>
             </a>
           </div>
         </section>
