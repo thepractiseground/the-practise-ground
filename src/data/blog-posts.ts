@@ -18,8 +18,8 @@ export type BlogPost = {
 const blogPosts: BlogPost[] = [
   {
     slug: "coordinate-geometry-graphs-visual-guide",
-    title: "Coordinate Geometry Explained: Distance Formula, Midpoint & Graphs",
-    metaDescription: "Learn coordinate geometry step by step: plotting points, distance formula, midpoint formula, and equations of straight lines with solved examples.",
+    title: "Coordinate Geometry: Distance, Midpoint & Line Formulas + Free PDF",
+    metaDescription: "Coordinate geometry made simple: distance formula, midpoint formula, slope and equation of a line with solved examples, plus a free printable formula sheet.",
     keywords: ["coordinate geometry", "distance formula", "midpoint formula", "straight line equation", "plotting graphs", "Grade 8 maths", "Grade 9 maths", "Cartesian coordinates"],
     excerpt: "Coordinate geometry brings algebra and geometry together. Learn to plot points, find distances, and understand equations of lines using visual methods. Perfect for Grade 8-10 students and essential for physics, engineering, and data visualization.",
     author: "The Practise Ground Team",
@@ -34,6 +34,8 @@ const blogPosts: BlogPost[] = [
 Coordinate geometry is where algebra meets geometry. Instead of just describing shapes with words or equations, we can plot them on a grid, visualize them, and work with them mathematically.
 
 This skill is crucial for physics (motion graphs), economics (supply-demand curves), engineering (design), and data visualization.
+
+**Free download:** [Coordinate Geometry Formula Sheet (PDF) — distance, midpoint, slope, line equations, section formula and worked examples](/posters/coordinate-geometry-formula-sheet.pdf). Print it and keep it beside your notebook.
 
 ## The Coordinate System
 
@@ -297,7 +299,7 @@ Master coordinate geometry through interactive visualizations:
 - Graph linear equations
 - Real-world application problems
 
-See geometry come alive!
+See geometry come alive! Test yourself with the free [Maths quiz for Grade 8](/quiz/maths/8), [Grade 9](/quiz/maths/9) or [Grade 10](/quiz/maths/10), and keep the [Coordinate Geometry Formula Sheet](/posters/coordinate-geometry-formula-sheet.pdf) handy for revision.
 
 ## FAQ
 
@@ -3384,8 +3386,8 @@ Ready to practice avoiding these mistakes? Take our English quizzes and improve 
   },
   {
     slug: "geometry-essentials-shapes-angles-theorems-explained",
-    title: "Geometry Essentials: Shapes, Angles, and Theorems Explained",
-    metaDescription: "Master geometry fundamentals: shapes, angles, and key theorems with practical applications. Ideal for Grade 6-9 students across all curricula.",
+    title: "Geometry Basics: Shapes, Angles & Theorems + Free PDF Cheat Sheet",
+    metaDescription: "Learn geometry basics: angles, triangles, Pythagoras, quadrilaterals and circles with examples. Includes a free printable geometry cheat sheet for Class 6-9.",
     keywords: ["geometry basics", "angles explained", "geometric shapes", "Pythagoras theorem", "geometry theorems", "Grade 7 maths", "Grade 8 maths", "triangle properties"],
     excerpt: "Geometry isn't just about memorizing shapes—it's about understanding how the world is structured. From architecture to art, from engineering to design, geometry is everywhere. Let's explore the essentials that power this beautiful branch of mathematics.",
     author: "The Practise Ground Team",
@@ -3400,6 +3402,8 @@ Ready to practice avoiding these mistakes? Take our English quizzes and improve 
 Close your eyes and look around. The room you're in is full of geometry: rectangular walls, circular light bulbs, triangular roof trusses. Geometry is the mathematics of space and shape—and it's everywhere.
 
 In this guide, we'll explore the essential concepts that form the foundation of this powerful branch of mathematics.
+
+**Free download:** [Geometry Quick-Reference Sheet (PDF) — angle rules, triangles, Pythagoras, quadrilaterals, circles, worked examples and practice](/posters/geometry-quick-reference-sheet.pdf). Print it and keep it beside your notebook.
 
 ## What is Geometry?
 
@@ -3580,7 +3584,7 @@ Geometry becomes intuitive through practice with visual problems. Our Grade 6-9 
 - Real-world geometry scenarios
 - Step-by-step visual solutions
 
-Master geometry through interactive practice!
+Master geometry through interactive practice! Try the free [Maths quiz for Grade 6](/quiz/maths/6), [Grade 7](/quiz/maths/7), [Grade 8](/quiz/maths/8) or [Grade 9](/quiz/maths/9), then print the [Geometry Quick-Reference Sheet](/posters/geometry-quick-reference-sheet.pdf) for revision. You can also download the [Angles poster](/posters/angles-math-poster.pdf) and [Regular Polygons poster](/posters/regular-polygons-poster.pdf).
 
 ## FAQ
 
