@@ -187,7 +187,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               {post.readTime}
             </span>
             <a
-              href={`https://wa.me/?text=${encodeURIComponent(post.title + " — Free learning resource\nhttps://www.thepractiseground.in/blog/" + post.slug)}`}
+              href={`https://wa.me/?text=${encodeURIComponent(post.title + " — Free learning resource\nhttps://www.thepractiseground.in/blog/" + post.slug + "?utm_source=whatsapp&utm_medium=social&utm_campaign=blog_header")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-green-500 hover:bg-green-600 text-white text-xs sm:text-sm font-bold px-3 py-1.5 rounded-full transition-colors"
