@@ -436,6 +436,15 @@ const posters: Poster[] = [
     tags: ["Physics", "Electricity", "Circuits"],
   },
 
+  {
+    title: "Distance Formula Practice Pack (Classes 8–12)",
+    description: "Five pages in three levels, from basics to challenge, with worked examples and a full answer key. Pairs with our free distance formula calculator.",
+    file: "/posters/distance-formula-practice-pack.pdf",
+    subject: "Maths",
+    tags: ["Coordinate geometry", "Practice", "With answers"],
+    classes: [8, 9, 10, 11, 12],
+    isNew: true,
+  },
   // Physics (Classes 11–12)
   {
     title: "Work, Energy & Power (Class 11)",
