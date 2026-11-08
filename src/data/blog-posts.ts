@@ -1741,8 +1741,8 @@ Whether your curriculum is CBSE, ICSE, Cambridge IGCSE, or IB, our quiz platform
   },
   {
     slug: "trigonometry-beginners-sin-cos-tan-made-easy",
-    title: "Trigonometry for Beginners: Sin, Cos, Tan Explained With Examples",
-    metaDescription: "Learn sine, cosine, and tangent from scratch with clear diagrams, memory tricks, and solved examples. Includes practice questions for Grade 9-10 students.",
+    title: "Sin Cos Tan: Formulas, Values Table & Free PDF Sheet",
+    metaDescription: "Sin, cos and tan formulas, the standard angles values table, SOHCAHTOA and solved examples, plus a free printable trigonometry cheat sheet for Class 9 & 10.",
     keywords: ["trigonometry basics", "sine cosine tangent", "trigonometric ratios", "SOHCAHTOA", "trigonometry explained", "Grade 9 maths", "Grade 10 maths", "right angle triangle"],
     excerpt: "Trigonometry seems abstract, but it's just the study of triangle relationships. Learn sin, cos, and tan through the famous SOHCAHTOA memory trick and real-world applications from architecture to astronomy. Essential for CBSE, ICSE, Cambridge, and IB students.",
     author: "The Practise Ground Team",
@@ -1757,6 +1757,8 @@ Whether your curriculum is CBSE, ICSE, Cambridge IGCSE, or IB, our quiz platform
 Trigonometry sounds intimidating. But here's the secret: it's just about describing the relationships between angles and sides in right-angled triangles. Once you understand this, trigonometry becomes remarkably practical.
 
 Let's break it down together.
+
+**Free download:** [Trigonometry Quick-Reference Sheet (PDF) — formulas, values table, identities and worked examples](/posters/trigonometry-quick-reference-sheet.pdf). Print it and keep it beside your notebook.
 
 ## What is Trigonometry?
 
@@ -1830,7 +1832,7 @@ The 3-4-5 triangle is famous in trigonometry because:
 
 ### Standard Angle Values You Should Know
 
-These appear constantly in exams:
+These appear constantly in exams (a printable version with cosec, sec and cot is in the [free PDF sheet](/posters/trigonometry-quick-reference-sheet.pdf)):
 
 | Angle | sin | cos | tan |
 |-------|-----|-----|-----|
