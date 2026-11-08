@@ -429,52 +429,77 @@ export default function PostersPage() {
   return (
     <div className="bg-theme-gradient min-h-screen">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-brand-navy via-blue-800 to-indigo-900 py-16 sm:py-20 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-brand-navy via-blue-800 to-indigo-900 pt-14 pb-24 sm:pt-16 sm:pb-28 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-20 -right-20 w-80 h-80 bg-brand-orange/10 rounded-full blur-3xl" />
           <div className="absolute -bottom-32 -left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
         </div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium px-4 py-2 rounded-full mb-6">
-            <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-            Free to download &amp; print
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10 grid lg:grid-cols-[1.15fr_1fr] gap-10 items-center">
+          <div className="text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium px-4 py-2 rounded-full mb-5">
+              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
+              For teachers &amp; students · Free · No sign-up
+            </div>
+            <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4 leading-tight">
+              Free Posters for Your <span className="text-brand-orange">Classroom Noticeboard</span>
+            </h1>
+            <p className="text-lg text-blue-100 max-w-xl mx-auto lg:mx-0 mb-7">
+              {posters.length} print-ready posters for Classes 6 to 12. Maths, Science and English formulas and grammar, on one A4 page. Download, print, pin up.
+            </p>
+
+            <p className="text-sm font-semibold text-white/70 uppercase tracking-wide mb-3">Pick your subject</p>
+            <nav aria-label="Jump to subject" className="flex flex-wrap justify-center lg:justify-start gap-3 mb-7">
+              {subjectCounts.map(({ sub, n }) => (
+                <a
+                  key={sub}
+                  href={`#${sub.toLowerCase()}`}
+                  className="bg-white text-brand-navy hover:bg-orange-50 font-bold text-sm sm:text-base px-4 py-2.5 rounded-xl shadow-md transition-colors"
+                >
+                  {subjectConfig[sub].emoji} {sub} <span className="text-gray-400 font-medium">{n}</span>
+                </a>
+              ))}
+            </nav>
+
+            <a
+              href="#physics"
+              className="inline-flex items-center gap-2 bg-brand-orange hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-colors"
+            >
+              New: Class 11–12 Physics &amp; Chemistry
+              <span aria-hidden="true">&darr;</span>
+            </a>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-bold text-white mb-4 leading-tight">
-            Posters &amp; <span className="text-brand-orange">Printables</span>
-          </h1>
-          <p className="text-lg sm:text-xl text-blue-200 max-w-2xl mx-auto">
-            Free printable posters for classroom noticeboards, study desks and revision folders. Classes 6 to 12. Download, print, pin up.
-          </p>
-          <nav aria-label="Jump to subject" className="mt-8 flex flex-wrap justify-center gap-3">
-            {subjectCounts.map(({ sub, n }) => (
-              <a
-                key={sub}
-                href={`#${sub.toLowerCase()}`}
-                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-semibold text-sm sm:text-base px-4 py-2 rounded-full border border-white/20 transition-colors"
-              >
-                {subjectConfig[sub].emoji} {sub} <span className="text-white/60 font-normal">({n})</span>
-              </a>
+
+          <div className="hidden lg:block relative h-[420px]" aria-hidden="true">
+            {[
+              { src: "/posters/thumbnails/chemistry-mole-concept-poster.png", cls: "left-0 top-10 -rotate-6 z-10" },
+              { src: "/posters/thumbnails/maths-quadratic-equations-poster.png", cls: "right-0 top-6 rotate-6 z-10" },
+              { src: "/posters/thumbnails/physics-equations-of-motion-poster.png", cls: "left-1/2 -translate-x-1/2 top-0 z-20" },
+            ].map((p) => (
+              <div key={p.src} className={`absolute w-[44%] rounded-lg overflow-hidden shadow-2xl border-4 border-white ${p.cls}`} style={{ aspectRatio: "600/848" }}>
+                <Image src={p.src} alt="" fill className="object-cover" sizes="260px" />
+              </div>
             ))}
-          </nav>
+          </div>
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="max-w-5xl mx-auto px-4 sm:px-6 -mt-8 relative z-20">
+      {/* How it works for teachers */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 -mt-12 relative z-20">
         <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8">
-          <div className="grid grid-cols-3 gap-6 text-center">
-            <div>
-              <p className="text-2xl sm:text-3xl font-bold text-brand-orange">{posters.length}</p>
-              <p className="text-gray-500 text-sm mt-1">Posters Available</p>
-            </div>
-            <div>
-              <p className="text-2xl sm:text-3xl font-bold text-brand-navy">{subjects.length}</p>
-              <p className="text-gray-500 text-sm mt-1">Subjects</p>
-            </div>
-            <div>
-              <p className="text-2xl sm:text-3xl font-bold text-brand-teal">PDF</p>
-              <p className="text-gray-500 text-sm mt-1">Print-Ready Format</p>
-            </div>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {[
+              { n: "1", t: "Download", d: "One click. A free PDF, no sign-up." },
+              { n: "2", t: "Print on A4 or A3", d: "Pin it on the classroom noticeboard." },
+              { n: "3", t: "Scan to practise", d: "The QR code opens free practice questions on a phone." },
+            ].map((x) => (
+              <div key={x.n} className="flex items-start gap-4">
+                <span className="shrink-0 w-10 h-10 rounded-full bg-brand-orange text-white font-bold flex items-center justify-center">{x.n}</span>
+                <div>
+                  <p className="font-bold text-brand-navy">{x.t}</p>
+                  <p className="text-gray-600 text-sm">{x.d}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
