@@ -456,6 +456,24 @@ const posters: Poster[] = [
   },
   // Physics (Classes 11–12)
   {
+    title: "Physics Numericals Practice Pack (Classes 9–12)",
+    description: "Seven pages: formula sheet, 24 questions in three levels, worked examples, a full answer key and a pin-up poster. Pairs with our physics numericals page.",
+    file: "/posters/physics-numericals-practice-pack.pdf",
+    subject: "Physics",
+    tags: ["Numericals", "Practice", "With answers"],
+    classes: [9, 10, 11, 12],
+    isNew: true,
+  },
+  {
+    title: "Solve Any Numerical: 5-Step Method (Classes 9–12)",
+    description: "One-page noticeboard poster: the 5-step method for physics numericals, SI unit conversions and key formulas. Scan the QR code for the free practice pack.",
+    file: "/posters/physics-numericals-poster.pdf",
+    subject: "Physics",
+    tags: ["Numericals", "Noticeboard poster", "QR code"],
+    classes: [9, 10, 11, 12],
+    isNew: true,
+  },
+  {
     title: "Work, Energy & Power (Class 11)",
     description: "Work, kinetic energy, potential energy and power, with the work-energy theorem and a worked example. Noticeboard-ready A4.",
     file: "/posters/physics-work-energy-power-poster.pdf",
@@ -646,7 +664,7 @@ const subjectConfig = {
     tagBg: "bg-sky-100 text-sky-700",
     buttonBg: "bg-sky-600 hover:bg-sky-700",
     gradient: "from-sky-500 to-blue-500",
-    subtitle: "Classes 10–12",
+    subtitle: "Classes 9–12",
   },
   Chemistry: {
     emoji: "🧪",

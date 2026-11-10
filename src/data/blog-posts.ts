@@ -10662,6 +10662,8 @@ Physics numericals are often the most feared part of the exam. Students worry th
 
 In this comprehensive guide, we'll break down the exact methodology successful physics students use. We'll cover a powerful 5-step method, common mistakes to avoid, and provide solved examples you can learn from.
 
+**Want more practice?** Try our [Physics Numericals page](/physics-numericals) for formulas by topic, nine more solved examples and a free 7-page practice pack with answers.
+
 ## Why Physics Numericals Matter
 
 In CBSE Class 10 Science, physics accounts for about one-third of your marks. Numericals typically contribute 40-50% of the physics paper. That means mastering numericals directly impacts your overall board exam score.
