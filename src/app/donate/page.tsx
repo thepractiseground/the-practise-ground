@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Donate — Support Free English, Maths & Science Quizzes for Students | The Practise Ground",
+  title: "Donate to Support Free Student Quizzes",
   description:
     "Support The Practise Ground — a free quiz platform with 23,400+ questions for Grades 5-10 students. Your donation helps us create quality English, Maths & Science content and keep everything free.",
   keywords: [

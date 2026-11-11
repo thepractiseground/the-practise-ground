@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Use — Free Educational Quiz Platform | The Practise Ground",
+  title: "Terms of Use",
   description: "Terms of Use for The Practise Ground. Free English, Maths & Science quizzes for Grades 5-10 students. No sign-up, no fees. Content aligned with CBSE, ICSE & Cambridge curricula.",
   keywords: [
     "terms of use educational website",

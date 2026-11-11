@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "For Parents - The Practise Ground",
+  title: "For Parents: Safe, Free Quiz Practice",
   description:
     "How The Practise Ground helps your child master English, Maths & Science. Free weekly quizzes for Grades 5-10, aligned with CBSE, ICSE & Cambridge curricula.",
   alternates: { canonical: "https://www.thepractiseground.in/for-parents" },

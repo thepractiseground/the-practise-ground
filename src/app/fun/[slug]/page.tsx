@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!quiz) return { title: "Quiz Not Found" };
 
   return {
-    title: `${quiz.title} — Fun Quiz | The Practise Ground`,
+    title: `${quiz.title} — Fun Quiz`,
     description: `${quiz.description} ${quiz.questions.length} free questions with instant scoring. No sign-up needed.`,
     keywords: [
       `${quiz.title.toLowerCase()} quiz`,

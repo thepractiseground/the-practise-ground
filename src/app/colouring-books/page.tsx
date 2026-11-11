@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Colouring Books for Kids | The Practise Ground",
+  title: "Colouring Books for Kids",
   description: "Fun colouring and activity books for kids of all ages. Vehicle colouring, mandala art, and more — available on Amazon!",
   keywords: ["colouring books for kids", "coloring book Amazon", "kids activity books", "mandala art coloring", "vehicle coloring book"],
   alternates: { canonical: "https://www.thepractiseground.in/colouring-books" },
