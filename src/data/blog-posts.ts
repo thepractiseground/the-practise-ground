@@ -3400,8 +3400,8 @@ Ready to practice avoiding these mistakes? Take our English quizzes and improve 
   },
   {
     slug: "geometry-essentials-shapes-angles-theorems-explained",
-    title: "Geometry Basics: Shapes, Angles & Theorems + Free PDF Cheat Sheet",
-    metaDescription: "Learn geometry basics: angles, triangles, Pythagoras, quadrilaterals and circles with examples. Includes a free printable geometry cheat sheet for Class 6-9.",
+    title: "What Is Geometry? Shapes, Angles & Theorems + Free Practice Pack",
+    metaDescription: "Geometry is the study of shapes, sizes and angles. Learn the basics with examples, then download a free 3-level practice pack with answers and a classroom poster.",
     keywords: ["geometry basics", "angles explained", "geometric shapes", "Pythagoras theorem", "geometry theorems", "Grade 7 maths", "Grade 8 maths", "triangle properties"],
     excerpt: "Geometry isn't just about memorizing shapes—it's about understanding how the world is structured. From architecture to art, from engineering to design, geometry is everywhere. Let's explore the essentials that power this beautiful branch of mathematics.",
     author: "The Practise Ground Team",
@@ -3416,6 +3416,10 @@ Ready to practice avoiding these mistakes? Take our English quizzes and improve 
 Close your eyes and look around. The room you're in is full of geometry: rectangular walls, circular light bulbs, triangular roof trusses. Geometry is the mathematics of space and shape—and it's everywhere.
 
 In this guide, we'll explore the essential concepts that form the foundation of this powerful branch of mathematics.
+
+**In short:** geometry is the branch of mathematics that studies shapes, sizes, angles and the positions of objects in space.
+
+**Free practice:** [Geometry Practice Pack (PDF)](/posters/geometry-practice-pack.pdf) has 24 questions in three levels, worked examples, a full answer key and a classroom poster.
 
 **Free download:** [Geometry Quick-Reference Sheet (PDF) — angle rules, triangles, Pythagoras, quadrilaterals, circles, worked examples and practice](/posters/geometry-quick-reference-sheet.pdf). Print it and keep it beside your notebook.
 
@@ -5230,8 +5234,8 @@ A: Absolutely! These tricks are perfect for pen-and-paper exams. They're complet
   },
   {
     slug: "parts-of-speech-made-easy",
-    title: "8 Parts of Speech With Examples — Noun, Verb, Adjective & More",
-    metaDescription: "All 8 parts of speech explained with examples and tricks to identify them. Learn noun, pronoun, verb, adjective, adverb, preposition, conjunction & interjection.",
+    title: "Parts of Speech: 8 Types With Examples + Free Practice Pack",
+    metaDescription: "All 8 parts of speech with examples and easy tricks to spot them, plus a free 3-level practice pack with answers and a classroom poster.",
     keywords: ["parts of speech", "parts of speech with examples", "8 parts of speech", "noun verb adjective adverb", "parts of speech for class 5", "identify parts of speech", "parts of speech exercises"],
     excerpt: "All 8 parts of speech explained with clear examples and easy tricks to identify them in any sentence. Perfect for Grades 5-7 students preparing for grammar exams.",
     author: "The Practise Ground Team",
@@ -5244,6 +5248,8 @@ A: Absolutely! These tricks are perfect for pen-and-paper exams. They're complet
     content: `# Parts of Speech Made Easy: Every Child Can Learn
 
 Parts of speech are like the alphabet of grammar. Once you understand what each part does, sentences make perfect sense! Let's learn about the eight main parts of speech with examples from your daily life.
+
+**Free practice:** download the [Parts of Speech Practice Pack (PDF)](/posters/parts-of-speech-practice-pack.pdf). It has three levels of questions with answers, and a poster to pin on your classroom noticeboard.
 
 ## What Are Parts of Speech?
 

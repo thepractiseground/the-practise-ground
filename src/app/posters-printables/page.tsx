@@ -34,6 +34,15 @@ type Poster = {
 const posters: Poster[] = [
   // English
   {
+    title: "Parts of Speech Practice Pack (Classes 5–10)",
+    description: "Seven pages: reference table, three levels of questions, worked examples, a full answer key and the parts of speech poster. Pairs with our parts of speech guide.",
+    file: "/posters/parts-of-speech-practice-pack.pdf",
+    subject: "English",
+    tags: ["Grammar", "Practice", "With answers"],
+    classes: [5, 6, 7, 8, 9, 10],
+    isNew: true,
+  },
+  {
     title: "Parts of Speech (Classes 6–8)",
     description: "Noun, pronoun, verb and adjective with examples, plus the other four word types and a quick spot-them sentence. Noticeboard-ready A4.",
     file: "/posters/english-parts-of-speech-poster.pdf",
@@ -452,6 +461,24 @@ const posters: Poster[] = [
     subject: "Maths",
     tags: ["Coordinate geometry", "Noticeboard poster", "QR code"],
     classes: [9, 10, 11, 12],
+    isNew: true,
+  },
+  {
+    title: "Geometry Practice Pack (Classes 6–10)",
+    description: "Seven pages: reference sheet, 24 questions in three levels, worked examples, a full answer key and a pin-up poster. Pairs with our geometry guide.",
+    file: "/posters/geometry-practice-pack.pdf",
+    subject: "Maths",
+    tags: ["Geometry", "Practice", "With answers"],
+    classes: [6, 7, 8, 9, 10],
+    isNew: true,
+  },
+  {
+    title: "Geometry at a Glance Poster (Classes 6–10)",
+    description: "One-page noticeboard poster: triangle angles, Pythagoras, quadrilateral angles, area formulas and angle rules. Scan the QR code for the free practice pack.",
+    file: "/posters/geometry-at-a-glance-poster.pdf",
+    subject: "Maths",
+    tags: ["Geometry", "Noticeboard poster", "QR code"],
+    classes: [6, 7, 8, 9, 10],
     isNew: true,
   },
   // Physics (Classes 11–12)

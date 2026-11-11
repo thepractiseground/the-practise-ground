@@ -4,7 +4,7 @@ import { SPANISH_CEFR_LEVELS, SPANISH_LEVEL_INFO, getSpanishLevelWeeks } from "@
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Spanish Grammar Test Online — A1, B1 & C1 Level Practice | The Practise Ground",
+  title: "Free Spanish Grammar Test Online, A1 to C1",
   description:
     "Test your Spanish grammar free — 1,950+ questions from Beginner (A1) to Advanced (C1). Instant scores, no sign-up. CEFR-aligned quizzes for DELE prep and self-study.",
   keywords: [

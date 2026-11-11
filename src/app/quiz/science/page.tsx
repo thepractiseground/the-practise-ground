@@ -5,7 +5,7 @@ import { getPostsForGrade } from "@/data/blog-posts";
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Science Quizzes for Grades 5-10 | Physics, Chemistry, Biology | The Practise Ground",
+  title: "Free Science Quizzes, Class 5-10, Instant Results",
   description:
     "Free Science quizzes covering Physics, Chemistry, and Biology for Grades 5-10. Aligned with CBSE, ICSE, Cambridge IGCSE, and IB curricula. 7,800+ questions available now!",
   keywords: [

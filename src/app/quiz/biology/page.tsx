@@ -4,7 +4,7 @@ import { BIOLOGY_GRADES, BIOLOGY_GRADE_INFO, getBiologyGradeWeeks } from "@/lib/
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Biology Quizzes for Grades 11-12 - The Practise Ground",
+  title: "Free Biology Quizzes, Class 11-12, Instant Results",
   description:
     "Free Biology quizzes for Grades 11-12. Practice cell biology, genetics, ecology, human physiology and more with weekly MCQs. No sign-up required!",
   keywords: [

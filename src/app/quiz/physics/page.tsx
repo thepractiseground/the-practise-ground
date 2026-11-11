@@ -4,7 +4,7 @@ import { PHYSICS_GRADES, PHYSICS_GRADE_INFO, getPhysicsGradeWeeks } from "@/lib/
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Physics Quizzes for Grades 11-12 - The Practise Ground",
+  title: "Free Physics Quizzes, Class 11-12, Instant Results",
   description:
     "Free Physics quizzes for Grades 11-12. Practice mechanics, thermodynamics, electromagnetism, optics and more with weekly MCQs. No sign-up required!",
   keywords: [

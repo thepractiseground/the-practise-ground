@@ -4,7 +4,7 @@ import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Maths Quizzes for Grades 5-10 - The Practise Ground",
+  title: "Free Maths Quizzes, Class 5-10, Instant Results",
   description:
     "Free Maths quizzes for Grades 5-10. Practice arithmetic, algebra, geometry, trigonometry and more with weekly MCQs. No sign-up required!",
   keywords: [

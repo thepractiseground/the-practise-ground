@@ -4,7 +4,7 @@ import { CHEMISTRY_GRADES, CHEMISTRY_GRADE_INFO, getChemistryGradeWeeks } from "
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Chemistry Quizzes for Grades 11-12 - The Practise Ground",
+  title: "Free Chemistry Quizzes, Class 11-12, Instant Results",
   description:
     "Free Chemistry quizzes for Grades 11-12. Practice atomic structure, organic chemistry, electrochemistry and more with weekly MCQs. No sign-up required!",
   keywords: [

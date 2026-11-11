@@ -4,7 +4,7 @@ import { GERMAN_CEFR_LEVELS, GERMAN_LEVEL_INFO, getGermanLevelWeeks } from "@/li
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free German Grammar Test Online — A1, B1 & C1 Level Practice | The Practise Ground",
+  title: "Free German Grammar Test Online, A1 to C1",
   description:
     "Test your German grammar free — 1,950+ questions from Beginner (A1) to Advanced (C1). Instant scores, no sign-up. CEFR-aligned quizzes for Goethe-Zertifikat prep and self-study.",
   keywords: [
