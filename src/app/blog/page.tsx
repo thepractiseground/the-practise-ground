@@ -5,7 +5,7 @@ import { getAllPosts, getAllCategories } from "@/data/blog-posts";
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Learning Blog: English, Maths & Science Tips | The Practise Ground",
+  title: "Learning Blog: English, Maths & Science Tips",
   description:
     "Free learning blog with English grammar, Maths tips, and Science guides (Physics, Chemistry, Biology) for students in Grades 5-12. Plus French, German & Spanish language learning.",
   keywords: [
