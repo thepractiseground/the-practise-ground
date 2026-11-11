@@ -4,7 +4,7 @@ import { CEFR_LEVELS, CEFR_LEVEL_INFO, getCefrLevelWeeks } from "@/lib/cefr-quiz
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free English Grammar Test Online — A2 & B1 Level Practice | The Practise Ground",
+  title: "Free English Grammar Test Online, A2 and B1",
   description:
     "Test your English grammar level free — 1,300+ questions for Elementary (A2) and Intermediate (B1) learners. Instant scores, no sign-up. Aligned with CEFR international standards.",
   keywords: [
