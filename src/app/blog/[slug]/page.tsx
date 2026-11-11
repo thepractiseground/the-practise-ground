@@ -6,7 +6,9 @@ import { markdownToHtml } from "@/lib/markdown";
 import WhatsAppShareBlog from "@/components/WhatsAppShareBlog";
 import HeroImage from "@/components/HeroImage";
 import ImageActions from "@/components/ImageActions";
-import BlogQuizCTA, { getRelatedQuizLinks } from "@/components/BlogQuizCTA";
+import BlogQuizCTA, { getRelatedQuizLinks, resolveQuizLink } from "@/components/BlogQuizCTA";
+import GuideMiniQuiz from "@/components/GuideMiniQuiz";
+import { GUIDE_QUIZZES } from "@/data/guide-quizzes";
 
 
 interface PageProps {
@@ -258,8 +260,22 @@ export default async function BlogPostPage({ params }: PageProps) {
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
 
-          {/* Mid-article CTA — catches readers who made it through the content */}
-          <BlogQuizCTA category={post.category} grade={post.grade} variant="mid" />
+          {/* Topic quiz for top guides, otherwise the generic mid-article CTA */}
+          {GUIDE_QUIZZES[post.slug] ? (
+            (() => {
+              const link = resolveQuizLink(post.category, post.grade);
+              return (
+                <GuideMiniQuiz
+                  slug={post.slug}
+                  quiz={GUIDE_QUIZZES[post.slug]}
+                  fullQuizHref={link.href}
+                  fullQuizLabel={`Take the full Grade ${link.primaryGrade} ${link.subject} quiz`}
+                />
+              );
+            })()
+          ) : (
+            <BlogQuizCTA category={post.category} grade={post.grade} variant="mid" />
+          )}
         </article>
 
         {/* WhatsApp Share Section */}
