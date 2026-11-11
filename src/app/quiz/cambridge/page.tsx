@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Cambridge IGCSE Quiz Practice — English, Maths & Science | The Practise Ground",
+  title: "Free Cambridge IGCSE Quizzes, Grades 5-10",
   description:
     "Free Cambridge IGCSE-aligned quizzes for Grades 5 to 10. 23,400+ questions covering English grammar, Maths, and Science. Weekly practice, instant scores, no sign-up. Perfect for Cambridge International exam preparation.",
   keywords: [
