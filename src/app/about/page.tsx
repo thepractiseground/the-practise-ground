@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us — Free English, Maths & Science Quizzes | The Practise Ground",
+  title: "About Us: Free English, Maths & Science",
   description:
     "The Practise Ground is a free quiz platform for Grades 5-10 covering English, Maths, and Science. 23,400+ questions built by 10+ educators with 20+ years of teaching experience.",
   openGraph: {
