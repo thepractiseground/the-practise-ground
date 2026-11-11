@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import ClassroomShare from "./ClassroomShare";
 import type { GuideQuiz } from "@/data/guide-quizzes";
 
 interface Props {
@@ -144,6 +145,13 @@ export default function GuideMiniQuiz({ slug, quiz, fullQuizHref, fullQuizLabel 
             >
               Share score on WhatsApp
             </button>
+            <ClassroomShare
+              url={`https://www.thepractiseground.in/blog/${slug}`}
+              title={quiz.title.split(":")[0]}
+              body="A short guide with a 5-question quiz and a free printable."
+              location="guide_quiz"
+              label="Assign in Google Classroom"
+            />
             <button
               type="button"
               onClick={restart}

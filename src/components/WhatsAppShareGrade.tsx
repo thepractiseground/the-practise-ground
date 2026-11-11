@@ -1,5 +1,7 @@
 "use client";
 
+import ClassroomShare from "./ClassroomShare";
+
 interface WhatsAppShareGradeProps {
   grade: number;
   subject: string;
@@ -16,6 +18,7 @@ export default function WhatsAppShareGrade({ grade, subject, totalQuestions, tot
   };
 
   return (
+    <div className="flex flex-wrap gap-3">
     <button
       onClick={handleShare}
       className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1fb855] text-white font-semibold px-5 py-2.5 rounded-xl transition-colors shadow-sm hover:shadow-md text-sm"
@@ -27,5 +30,13 @@ export default function WhatsAppShareGrade({ grade, subject, totalQuestions, tot
       </svg>
       Share on WhatsApp
     </button>
+    <ClassroomShare
+      url={url}
+      title={`Grade ${grade} ${subject} quizzes`}
+      body={`${totalWeeks} weekly quizzes with ${totalQuestions.toLocaleString("en-IN")} questions. Free, instant results, no sign-up.`}
+      location="grade_hub"
+      className="rounded-xl"
+    />
+    </div>
   );
 }

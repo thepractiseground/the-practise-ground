@@ -1,6 +1,7 @@
 "use client";
 import { useState, useCallback } from "react";
 import type { Question } from "@/lib/quiz-data";
+import ClassroomShare from "@/components/ClassroomShare";
 
 interface Props {
   questions: Question[];
@@ -139,6 +140,13 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
             >
               Copy Quiz Link
             </button>
+            <ClassroomShare
+              url={`https://www.thepractiseground.in${sharePath || (subjectPath ? `/quiz/${subjectPath}/${grade}/${week}` : `/quiz/${grade}/${week}`)}`}
+              title={quizLabel || `Grade ${grade} ${subject}: ${topic}`}
+              body={`Free quiz with ${questions.length} questions. Instant results, no sign-up.`}
+              location="quiz_result"
+              className="py-3"
+            />
           </div>
         </div>
 

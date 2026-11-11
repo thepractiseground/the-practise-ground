@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import PhysicsFormulaTabs from "@/components/PhysicsFormulaTabs";
+import ClassroomShare from "@/components/ClassroomShare";
 
 const URL = "https://www.thepractiseground.in/physics-numericals";
 
@@ -106,6 +107,14 @@ export default function PhysicsNumericalsPage() {
             <a href="#pack" className="bg-brand-orange hover:bg-orange-600 text-white font-bold px-5 py-2.5 rounded-xl">Free PDF pack</a>
             <a href="#examples" className="bg-white/10 hover:bg-white/20 text-white font-semibold px-5 py-2.5 rounded-xl">Solved examples</a>
             <a href="#formula-finder" className="bg-white/10 hover:bg-white/20 text-white font-semibold px-5 py-2.5 rounded-xl">Formulas</a>
+            <ClassroomShare
+              url="https://www.thepractiseground.in/physics-numericals"
+              title="Physics Numericals with Solutions"
+              body="Formulas by topic, solved examples and a free 3-level practice pack with answers."
+              location="physics_numericals"
+              variant="onDark"
+              className="px-5"
+            />
           </div>
         </div>
       </header>

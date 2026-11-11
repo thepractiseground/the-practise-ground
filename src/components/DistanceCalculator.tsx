@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import ClassroomShare from "./ClassroomShare";
 
 type Vals = { x1: string; y1: string; z1: string; x2: string; y2: string; z2: string };
 
@@ -188,6 +189,14 @@ export default function DistanceCalculator() {
                 <a href={`https://wa.me/?text=${encodeURIComponent("Distance formula calculator with steps: " + shareUrl())}`} target="_blank" rel="noopener noreferrer"
                   onClick={() => track("calculator_share")}
                   className="text-sm font-bold bg-green-600 hover:bg-green-700 px-3 py-1.5 rounded-lg">Share on WhatsApp</a>
+                <ClassroomShare
+                  url="https://www.thepractiseground.in/distance-formula-calculator"
+                  title="Distance Formula Calculator"
+                  body="Free calculator with step-by-step working, a graph and a 3-level practice PDF."
+                  location="distance_calculator"
+                  variant="onDark"
+                  className="!text-sm !font-bold !px-3 !py-1.5 !rounded-lg"
+                />
               </div>
             </div>
 

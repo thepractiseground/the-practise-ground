@@ -1,5 +1,7 @@
 "use client";
 
+import ClassroomShare from "./ClassroomShare";
+
 interface WhatsAppShareBlogProps {
   title: string;
   excerpt: string;
@@ -56,6 +58,13 @@ export default function WhatsAppShareBlog({ title, excerpt, slug, category }: Wh
             </svg>
             Share on WhatsApp
           </button>
+          <ClassroomShare
+            url={`https://www.thepractiseground.in/blog/${slug}`}
+            title={title}
+            body={excerpt}
+            location="guide"
+            className="ml-0 sm:ml-3 mt-3 sm:mt-0 bg-white"
+          />
         </div>
       </div>
     </div>

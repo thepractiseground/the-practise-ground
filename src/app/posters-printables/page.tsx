@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ClassFilter from "@/components/ClassFilter";
+import ClassroomShare from "@/components/ClassroomShare";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -993,6 +994,13 @@ export default function PostersPage() {
                         </svg>
                         Download PDF
                       </a>
+                      <ClassroomShare
+                        url={`https://www.thepractiseground.in${poster.file}`}
+                        title={poster.title}
+                        body="Free printable from The Practise Ground, ready to print and pin on the classroom noticeboard."
+                        location="printables"
+                        className="mt-2 w-full"
+                      />
                     </div>
                   </div>
                 );
