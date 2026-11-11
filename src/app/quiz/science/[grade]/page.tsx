@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const totalQ = weeks.reduce((s, w) => s + w.questions.length, 0);
 
   return {
-    title: `Grade ${grade} Science Quiz - ${totalQ}+ Free Questions | The Practise Ground`,
+    title: `Grade ${grade} Science Quiz: ${totalQ}+ Free Questions`,
     description: `Free Science practice quizzes for Grade ${grade} students. ${weeks.length} weekly quizzes with ${totalQ}+ questions covering ${SCIENCE_GRADE_INFO[grade]?.topics || "key science topics"}. Aligned with CBSE, ICSE, and international curricula.`,
     keywords: [
       `grade ${grade} science quiz`, `class ${grade} science questions`,
