@@ -4,7 +4,7 @@ import { MATHS_HIGHER_GRADES, MATHS_HIGHER_GRADE_INFO, getMathsHigherGradeWeeks 
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Maths Higher Quizzes for Grades 11-12 - The Practise Ground",
+  title: "Free Maths Quizzes, Class 11-12, Instant Results",
   description:
     "Free Maths Higher quizzes for Grades 11-12. Practice calculus, algebra, trigonometry, vectors and more with weekly MCQs. No sign-up required!",
   keywords: [
