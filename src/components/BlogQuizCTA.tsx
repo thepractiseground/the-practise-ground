@@ -1,4 +1,4 @@
-import Link from "next/link";
+import TrackedLink from "./TrackedLink";
 
 interface BlogQuizCTAProps {
   category: string;
@@ -8,7 +8,7 @@ interface BlogQuizCTAProps {
 }
 
 /** Determine subject, emoji, and quiz href from a blog post's category & grade. */
-function resolveQuizLink(category: string, grade: string) {
+export function resolveQuizLink(category: string, grade: string) {
   const gradeMatch = grade.match(/\d+/g);
   const primaryGrade = gradeMatch ? Number(gradeMatch[0]) : 8;
 
@@ -72,12 +72,14 @@ export default function BlogQuizCTA({ category, grade, variant = "inline" }: Blo
         <p className="text-sm font-semibold text-brand-navy">{headlineText}</p>
         <p className="text-xs text-gray-500">{bodyText}</p>
       </div>
-      <Link
+      <TrackedLink
         href={href}
+        eventName="blog_quiz_cta_click"
+        params={{ variant, subject, grade: String(primaryGrade) }}
         className="shrink-0 bg-brand-orange text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-brand-orange/90 transition-colors"
       >
         Take the Quiz →
-      </Link>
+      </TrackedLink>
     </div>
   );
 }
