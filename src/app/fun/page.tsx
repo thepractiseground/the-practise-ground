@@ -4,9 +4,9 @@ import { funQuizzes } from "@/data/fun-quizzes";
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Fun Quizzes — Test Your General Knowledge | The Practise Ground",
+  title: "Fun Quizzes: 15 Free Online Quizzes, No Sign-Up",
   description:
-    "Try free fun quizzes on world capitals, space facts, famous inventions, flags, idioms and more. 15 questions each — no sign-up needed. Test your knowledge beyond the classroom!",
+    "Play 15 free fun quizzes online: world capitals, space facts, inventions, flags, idioms and brain teasers. Instant results, no sign-up. Challenge your friends!",
   openGraph: {
     title: "Fun Quizzes — Test Your General Knowledge",
     description:
