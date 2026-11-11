@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free CBSE Quiz Practice — English, Maths & Science for Class 5-10 | The Practise Ground",
+  title: "Free CBSE Quizzes, Class 5-10 Maths, Science, English",
   description:
     "Free CBSE-aligned quizzes for Class 5 to 10. 23,400+ questions covering English grammar, Maths, and Science. Weekly practice, instant scores, no sign-up. Perfect for CBSE board exam preparation.",
   keywords: [
