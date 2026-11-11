@@ -4,7 +4,7 @@ import { THIRD_LANGUAGES, LANG_INFO, getLangClasses, getClassWeeks } from "@/lib
 import HeroImage from "@/components/HeroImage";
 
 export const metadata: Metadata = {
-  title: "Free Third-Language Grammar Quizzes — Hindi & Kannada (CBSE R3, NEP) | The Practise Ground",
+  title: "Free Hindi & Kannada Grammar Quizzes (CBSE R3)",
   description:
     "Free CBSE third-language (R3) grammar practice under the NEP three-language formula. Class 6 Hindi and Kannada quizzes with instant scoring — no sign-up.",
   keywords: [
