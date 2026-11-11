@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const info = LANG_INFO[lang.toLowerCase()];
   if (!info) return { title: "Language Not Found" };
   return {
-    title: `Free ${info.name} Grammar Quizzes — CBSE Third Language (NEP) | The Practise Ground`,
+    title: `Free ${info.name} Grammar Quizzes (CBSE R3)`,
     description: `${info.description} Free multiple-choice practice with instant scoring, no sign-up.`,
     keywords: [
       `${info.name.toLowerCase()} grammar quiz`,
