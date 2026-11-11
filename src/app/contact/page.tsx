@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Free English, Maths & Science Quiz Platform | The Practise Ground",
+  title: "Contact Us",
   description: "Get in touch with The Practise Ground team. Questions about our free quizzes for Grades 5-10? Feedback, partnership ideas, or classroom use? Email us at hello@thepractiseground.in.",
   keywords: [
     "contact the practise ground",
