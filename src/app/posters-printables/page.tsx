@@ -349,6 +349,15 @@ const posters: Poster[] = [
     tags: ["Multiplication", "Times Tables", "Reference"],
   },
   {
+    title: "Solid Figures (3D Shapes)",
+    classes: [6, 7, 8],
+    description: "Faces, edges and vertices of cubes, cuboids, prisms, pyramids, cylinders, cones and spheres on one chart. Scan the QR code for a free Maths quiz.",
+    file: "/posters/solid-figures-poster.pdf",
+    subject: "Maths",
+    tags: ["3D Shapes", "Geometry", "Reference"],
+    isNew: true,
+  },
+  {
     title: "Percentage Wall",
     classes: [6, 7, 8],
     description: "A colourful wall chart showing common percentages with their fraction and decimal equivalents. A quick-reference tool for converting between forms.",
