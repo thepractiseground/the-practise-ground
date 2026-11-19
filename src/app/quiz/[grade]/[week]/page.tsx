@@ -129,6 +129,8 @@ export default async function QuizPage({ params }: Props) {
           grade={grade}
           week={weekNum}
           topic={topic}
+          nextQuiz={nextWeek ? { href: `/quiz/${grade}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/${grade}`}
         />
 
         {/* Navigation */}

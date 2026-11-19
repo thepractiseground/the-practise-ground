@@ -1,7 +1,9 @@
 "use client";
 import { useState, useCallback } from "react";
 import type { Question } from "@/lib/quiz-data";
+import Link from "next/link";
 import ClassroomShare from "@/components/ClassroomShare";
+import { saveResult, track } from "@/lib/progress";
 
 interface Props {
   questions: Question[];
@@ -12,16 +14,19 @@ interface Props {
   subjectPath?: string;
   quizLabel?: string;
   sharePath?: string;
+  nextQuiz?: { href: string; label: string };
+  hubHref?: string;
   bridgeCTA?: { text: string; description: string; links: { label: string; href: string }[] };
 }
 
-export default function QuizEngine({ questions, grade, week, topic, subject = "English", subjectPath = "", quizLabel, sharePath, bridgeCTA }: Props) {
+export default function QuizEngine({ questions, grade, week, topic, subject = "English", subjectPath = "", quizLabel, sharePath, bridgeCTA, nextQuiz, hubHref }: Props) {
   const [currentQ, setCurrentQ] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState<(string | null)[]>(Array(questions.length).fill(null));
   const [finished, setFinished] = useState(false);
+  const [saved, setSaved] = useState<{ best: number; previousBest: number | null; attempts: number; streak: number } | null>(null);
 
   const q = questions[currentQ];
   const optionLabels = ["A", "B", "C", "D"];
@@ -49,9 +54,20 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
       setSelected(null);
       setShowResult(false);
     } else {
+      const pct = Math.round((score / questions.length) * 100);
+      const r = saveResult(window.location.pathname, pct);
+      setSaved({ best: r.entry.best, previousBest: r.previousBest, attempts: r.entry.attempts, streak: r.streak });
+      track("quiz_complete", {
+        subject,
+        grade: grade ?? "",
+        week: week ?? "",
+        score_pct: pct,
+        attempt: r.entry.attempts,
+        streak: r.streak,
+      });
       setFinished(true);
     }
-  }, [currentQ, questions.length]);
+  }, [currentQ, questions.length, score, subject, grade, week]);
 
   const handleRestart = useCallback(() => {
     setCurrentQ(0);
@@ -59,6 +75,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
     setShowResult(false);
     setScore(0);
     setAnswers(Array(questions.length).fill(null));
+    setSaved(null);
     setFinished(false);
   }, [questions.length]);
 
@@ -96,9 +113,50 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
               : "Don't worry — every expert was once a beginner. Review and try again!"}
           </p>
 
-          <button onClick={handleRestart} className="bg-brand-orange text-white px-6 py-3 rounded-xl font-semibold hover:opacity-85 transition-all mb-6">
-            Try Again
-          </button>
+          {saved && (
+            <p className="text-sm text-gray-500 mb-6">
+              {saved.previousBest !== null && percentage > saved.previousBest
+                ? `New personal best! (previous ${saved.previousBest}%) · `
+                : `Your best: ${saved.best}% · `}
+              Attempt {saved.attempts}
+              {saved.streak >= 2
+                ? ` · 🔥 ${saved.streak}-day streak`
+                : " · Come back tomorrow to start a streak"}
+              <br />
+              <span className="text-xs text-gray-400">Progress is saved on this device only. No sign-up needed.</span>
+            </p>
+          )}
+
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-2">
+            {nextQuiz && (
+              <Link
+                href={nextQuiz.href}
+                onClick={() => track("next_quiz_click", { subject, grade: grade ?? "", week: week ?? "", from: "result" })}
+                className="bg-brand-orange text-white px-6 py-3 rounded-xl font-semibold hover:opacity-85 transition-all"
+              >
+                Next quiz: {nextQuiz.label} →
+              </Link>
+            )}
+            <button
+              onClick={handleRestart}
+              className={nextQuiz
+                ? "bg-white text-gray-700 border border-gray-300 px-6 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
+                : "bg-brand-orange text-white px-6 py-3 rounded-xl font-semibold hover:opacity-85 transition-all"}
+            >
+              Try Again
+            </button>
+          </div>
+          {hubHref && (
+            <p className="text-sm mt-3 mb-4">
+              <Link
+                href={hubHref}
+                onClick={() => track("hub_click", { subject, from: "result" })}
+                className="text-brand-navy underline hover:text-brand-orange"
+              >
+                See all quizzes in this series
+              </Link>
+            </p>
+          )}
         </div>
 
         {/* Share Score Card */}

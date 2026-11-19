@@ -126,6 +126,8 @@ export default async function ThirdLanguageWeekPage({ params }: Props) {
           subjectPath={`third-language/${lang}/${clsPath}`}
           quizLabel={`Class ${cls} ${info.name}`}
           sharePath={`/third-language/${lang}/${clsPath}/${weekNum}`}
+          nextQuiz={nextWeek ? { href: `/third-language/${lang}/${clsPath}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/third-language/${lang}/${clsPath}`}
         />
 
         {/* Navigation */}

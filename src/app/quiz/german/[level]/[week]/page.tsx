@@ -133,6 +133,8 @@ export default async function GermanCefrQuizPage({ params }: Props) {
           subjectPath={`german/${level}`}
           quizLabel={`CEFR ${info.label}`}
           sharePath={`/quiz/german/${level}/${weekNum}`}
+          nextQuiz={nextWeek ? { href: `/quiz/german/${level}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/german/${level}`}
         />
 
         {/* Navigation */}

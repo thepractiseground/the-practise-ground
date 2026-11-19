@@ -133,6 +133,8 @@ export default async function MathsQuizPage({ params }: Props) {
           topic={topic}
           subject="Maths"
           subjectPath="maths"
+          nextQuiz={nextWeek ? { href: `/quiz/maths/${grade}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/maths/${grade}`}
         />
 
         {/* Navigation */}

@@ -132,6 +132,8 @@ export default async function ChemistryQuizPage({ params }: Props) {
           topic={topic}
           subject="Chemistry"
           subjectPath="chemistry"
+          nextQuiz={nextWeek ? { href: `/quiz/chemistry/${grade}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/chemistry/${grade}`}
         />
 
         {/* Navigation */}

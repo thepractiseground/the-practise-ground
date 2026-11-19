@@ -132,6 +132,8 @@ export default async function BiologyQuizPage({ params }: Props) {
           topic={topic}
           subject="Biology"
           subjectPath="biology"
+          nextQuiz={nextWeek ? { href: `/quiz/biology/${grade}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/biology/${grade}`}
         />
 
         {/* Navigation */}

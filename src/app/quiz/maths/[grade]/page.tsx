@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ProgressMark from "@/components/ProgressMark";
+import ContinueBanner from "@/components/ContinueBanner";
 import { notFound } from "next/navigation";
 import { MATHS_GRADES, MATHS_GRADE_INFO, getMathsGradeWeeks } from "@/lib/maths-quiz-data";
 import { getPostsForGrade } from "@/data/blog-posts";
@@ -83,6 +85,7 @@ export default async function MathsGradePage({ params }: Props) {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {weeks.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <ContinueBanner series="quizzes" weeks={weeks.map((w) => ({ path: `/quiz/maths/${grade}/${w.week}`, label: w.topic ? `Week ${w.week}: ${w.topic}` : `Week ${w.week}` }))} />
             {weeks.map((w) => (
               <Link
                 key={w.week}
@@ -101,6 +104,7 @@ export default async function MathsGradePage({ params }: Props) {
                   </div>
                 </div>
                 <p className="text-xs text-gray-500">{w.questions.length} questions</p>
+                <ProgressMark path={`/quiz/maths/${grade}/${w.week}`} />
               </Link>
             ))}
           </div>

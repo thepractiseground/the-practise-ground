@@ -132,6 +132,8 @@ export default async function MathsHigherQuizPage({ params }: Props) {
           topic={topic}
           subject="Maths Higher"
           subjectPath="maths-higher"
+          nextQuiz={nextWeek ? { href: `/quiz/maths-higher/${grade}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/maths-higher/${grade}`}
         />
 
         {/* Navigation */}

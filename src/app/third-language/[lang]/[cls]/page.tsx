@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ProgressMark from "@/components/ProgressMark";
+import ContinueBanner from "@/components/ContinueBanner";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
@@ -89,6 +91,7 @@ export default async function ThirdLanguageClassPage({ params }: Props) {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h2 className="text-xl font-bold text-brand-navy mb-6">All {weeks.length} Weeks</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <ContinueBanner series="quizzes" weeks={weeks.map((w) => ({ path: `/third-language/${lang}/${classSlug(cls)}/${w.week}`, label: w.topic ? `Week ${w.week}: ${w.topic}` : `Week ${w.week}` }))} />
           {weeks.map((w) => (
             <Link
               key={w.week}
@@ -107,6 +110,7 @@ export default async function ThirdLanguageClassPage({ params }: Props) {
                 </div>
               </div>
               <p className="text-xs text-gray-500">{w.questions.length} questions</p>
+              <ProgressMark path={`/third-language/${lang}/${classSlug(cls)}/${w.week}`} />
             </Link>
           ))}
         </div>

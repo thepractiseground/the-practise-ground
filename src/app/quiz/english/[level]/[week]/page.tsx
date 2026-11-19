@@ -106,6 +106,8 @@ export default async function CefrQuizPage({ params }: Props) {
           subjectPath={`english/${level}`}
           quizLabel={`CEFR ${info.label}`}
           sharePath={`/quiz/english/${level}/${weekNum}`}
+          nextQuiz={nextWeek ? { href: `/quiz/english/${level}/${nextWeek.week}`, label: `Week ${nextWeek.week}: ${nextWeek.topic}` } : undefined}
+          hubHref={`/quiz/english/${level}`}
         />
 
         {/* Navigation */}
