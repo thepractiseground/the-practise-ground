@@ -53,7 +53,7 @@ export default function ContinueBanner({ weeks, series }: { weeks: Item[]; serie
           <div className="w-56 max-w-full bg-gray-200 rounded-full h-2 mt-2">
             <div className="bg-green-500 h-2 rounded-full" style={{ width: `${pct}%` }} />
           </div>
-          <p className="text-xs text-gray-500 mt-1">Saved on this device only. No sign-up needed.</p>
+          <p className="text-xs text-gray-500 mt-1">Saved on this device only. If you clear your browser data, your progress will be reset.</p>
         </div>
         {state.next && (
           <Link

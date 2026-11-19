@@ -123,7 +123,7 @@ export default function QuizEngine({ questions, grade, week, topic, subject = "E
                 ? ` · 🔥 ${saved.streak}-day streak`
                 : " · Come back tomorrow to start a streak"}
               <br />
-              <span className="text-xs text-gray-400">Progress is saved on this device only. No sign-up needed.</span>
+              <span className="text-xs text-gray-400">Progress is saved on this device only. If you clear your browser data, it will be lost and you will start again from the beginning.</span>
             </p>
           )}
 
