@@ -5,9 +5,11 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      // OG/Twitter share images are no longer blocked here: they are served with
+      // X-Robots-Tag: noindex (see next.config.ts) so Google can fetch them, see they
+      // are images, and drop them from the page index. Blocking them caused the
+      // "Indexed, though blocked by robots.txt" warnings and can break link previews.
       disallow: [
-        "/*/opengraph-image",   // Next.js auto-generated OG image routes
-        "/*/twitter-image",      // Next.js auto-generated Twitter image routes
         "/default-funnel-step-*", // Legacy systeme.io thank-you pages
       ],
     },
